@@ -775,6 +775,7 @@ def build_submission_v2():
                 perfile_count += 1
 
         elif pxd == "PXD025663":
+            # 3疾患 × 2 fragmentation × 2 batch = 12
             if "AD" in raw.split("_"):
                 row["FactorValue[Disease]"] = "Alzheimer's disease"
             elif "F198S" in raw:
@@ -783,10 +784,18 @@ def build_submission_v2():
                 row["FactorValue[Disease]"] = "PrP-CAA (Q160X)"
             elif "taoprotein" in raw:
                 row["FactorValue[Disease]"] = "Alzheimer's disease"
+            # FragmentationMethod per-file
             if "etHCD" in raw or "HCD_etHCD" in raw:
                 row["Comment[FragmentationMethod]"] = "AC=MS:1002631;NT=EThcD"
             elif "CID" in raw:
                 row["Comment[FragmentationMethod]"] = "AC=MS:1000133;NT=CID"
+            # FractionIdentifier: 1固定（fractionationなし）
+            row["Comment[FractionIdentifier]"] = "1"
+            # BiologicalReplicate: batch由来（2020_09_96系 vs Lumos_2020系）
+            if raw.startswith("2020_09"):
+                row["Characteristics[BiologicalReplicate]"] = "2"
+            elif raw.startswith("Lumos"):
+                row["Characteristics[BiologicalReplicate]"] = "1"
             perfile_count += 1
 
         elif pxd == "PXD062877":
@@ -796,10 +805,15 @@ def build_submission_v2():
                 perfile_count += 1
 
         elif pxd == "PXD064564":
-            m = re.search(r'_(\d)\.raw$', raw)
-            if m:
-                row["Characteristics[BiologicalReplicate]"] = m.group(1)
-                perfile_count += 1
+            # 10濃度 × 3rep: 20243102_100pgHeLa_240k_250ms_20Th_60ms_FAIMSCV-48_1.raw
+            m_conc = re.search(r'_(\d+pg)HeLa_', raw)
+            m_rep = re.search(r'_(\d)\.raw$', raw)
+            if m_conc:
+                row["FactorValue[ConcentrationOfCompound].1"] = m_conc.group(1)
+                row["Characteristics[ConcentrationOfCompound]"] = m_conc.group(1)
+            if m_rep:
+                row["Characteristics[BiologicalReplicate]"] = m_rep.group(1)
+            perfile_count += 1
 
     print(f"  Per-file assignments: {perfile_count} rows")
 
