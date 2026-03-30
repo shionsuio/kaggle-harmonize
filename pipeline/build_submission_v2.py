@@ -715,6 +715,94 @@ def build_submission_v2():
                     override_count += 1
         print(f"  Overrides applied: {override_count} cells")
 
+    # per-file構造割当（overrides後、書き出し前）
+    perfile_count = 0
+    for row in rows:
+        pxd = row["PXD"]
+        raw = row.get("Raw Data File", "")
+
+        if pxd == "PXD040582":
+            name = re.sub(r'\.raw$', '', raw)
+            tokens = name.split("_")
+            if len(tokens) >= 6:
+                row["Characteristics[BiologicalReplicate]"] = tokens[5].replace("BR", "")
+                row["FactorValue[Treatment]"] = tokens[2]
+                if tokens[4] in ("Mock", "Infected", "Distal", "Neighbor"):
+                    row["FactorValue[CellPart]"] = tokens[4].lower()
+                perfile_count += 1
+
+        elif pxd == "PXD016436":
+            m = re.match(r'LX\d+[-_](\d+)[-_](\d+)[-_]', raw)
+            if m:
+                row["Characteristics[BiologicalReplicate]"] = m.group(2)
+                row["FactorValue[Temperature]"] = f"{m.group(1)} C"
+                perfile_count += 1
+
+        elif pxd == "PXD019519":
+            m = re.search(r'(DMSO|CBK)(\d)', raw)
+            if m:
+                row["Characteristics[BiologicalReplicate]"] = m.group(2)
+                row["FactorValue[Treatment]"] = m.group(1)
+                row["FactorValue[Compound]"] = m.group(1)
+                perfile_count += 1
+
+        elif pxd == "PXD050621":
+            m = re.search(r'_(\d)\.raw', raw)
+            if m:
+                row["Characteristics[BiologicalReplicate]"] = m.group(1)
+            if "delta_Chi" in raw:
+                row["FactorValue[GeneticModification]"] = "delta Chi"
+            elif "delta_ClpX" in raw:
+                row["FactorValue[GeneticModification]"] = "delta ClpX"
+            else:
+                row["FactorValue[GeneticModification]"] = "wild-type"
+            perfile_count += 1
+
+        elif pxd == "PXD061090":
+            m = re.match(r'.*-(OA|LIPUS)(\d)\.raw', raw)
+            if m:
+                row["Characteristics[BiologicalReplicate]"] = m.group(2)
+                row["FactorValue[Treatment]"] = m.group(1)
+                perfile_count += 1
+
+        elif pxd == "PXD062014":
+            name = re.sub(r'\.(raw|rar)$', '', raw).replace('.raw', '')
+            m = re.match(r'HSL_(?:(ALDS)_)?(\d+sec)_(\d+)_vial(\d+)', name)
+            if m:
+                row["Characteristics[BiologicalReplicate]"] = m.group(3).lstrip("0") or "1"
+                row["FactorValue[Treatment]"] = "ALDS" if m.group(1) else "control"
+                row["Characteristics[Time]"] = m.group(2)
+                perfile_count += 1
+
+        elif pxd == "PXD025663":
+            if "AD" in raw.split("_"):
+                row["FactorValue[Disease]"] = "Alzheimer's disease"
+            elif "F198S" in raw:
+                row["FactorValue[Disease]"] = "GSS (F198S)"
+            elif "Q160" in raw:
+                row["FactorValue[Disease]"] = "PrP-CAA (Q160X)"
+            elif "taoprotein" in raw:
+                row["FactorValue[Disease]"] = "Alzheimer's disease"
+            if "etHCD" in raw or "HCD_etHCD" in raw:
+                row["Comment[FragmentationMethod]"] = "AC=MS:1002631;NT=EThcD"
+            elif "CID" in raw:
+                row["Comment[FragmentationMethod]"] = "AC=MS:1000133;NT=CID"
+            perfile_count += 1
+
+        elif pxd == "PXD062877":
+            m = re.search(r'rep(\d)', raw)
+            if m:
+                row["Characteristics[BiologicalReplicate]"] = m.group(1)
+                perfile_count += 1
+
+        elif pxd == "PXD064564":
+            m = re.search(r'_(\d)\.raw$', raw)
+            if m:
+                row["Characteristics[BiologicalReplicate]"] = m.group(1)
+                perfile_count += 1
+
+    print(f"  Per-file assignments: {perfile_count} rows")
+
     # 書き出し
     with open(output_path, "w", newline="") as f:
         writer = csv.DictWriter(f, fieldnames=columns)
