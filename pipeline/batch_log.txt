@@ -1,0 +1,558 @@
+Already done: 19
+To process: 50
+Papers: ['PXD000070', 'PXD000534', 'PXD000651', 'PXD000652', 'PXD000999', 'PXD001061', 'PXD001281', 'PXD001558', 'PXD001725', 'PXD001819', 'PXD002029', 'PXD002049', 'PXD002080', 'PXD002081', 'PXD002082', 'PXD002084', 'PXD002086', 'PXD002087', 'PXD002088', 'PXD002222', 'PXD002266', 'PXD002395', 'PXD002870', 'PXD003028', 'PXD003209', 'PXD003531', 'PXD003668', 'PXD003977', 'PXD004143', 'PXD004242', 'PXD004682', 'PXD004683', 'PXD004684', 'PXD004705', 'PXD004732', 'PXD004939', 'PXD004987', 'PXD005207', 'PXD005354', 'PXD005355', 'PXD005445', 'PXD005463', 'PXD005539', 'PXD005554', 'PXD005780', 'PXD006003', 'PXD006195', 'PXD006233', 'PXD006401', 'PXD006675']
+
+
+[1/50] PXD000070
+
+============================================================
+Processing PXD000070 (v2 sequential)...
+  [STEP1_OVERVIEW] 論文の概要から全体像を把握（生物種、疾患、細胞株、実験タイプ等）... OK (confirmed=3, hypotheses=2, N/A=10)
+  [STEP2_SAMPLE_PREP] サンプル調製・消化・修飾の詳細... OK (confirmed=13, hypotheses=1, N/A=4)
+  [STEP3_MS_SETTINGS] 質量分析装置・設定パラメータ... OK (confirmed=10, hypotheses=0, N/A=1)
+  [STEP4_RAW_FILES] rawファイル名とこれまでの知識を統合して、ファイルごとの割り当てを推定... OK (confirmed=5, hypotheses=1, N/A=8)
+  Saved: /Users/shionsuio/Downloads/Harmonizing Data/pipeline/llm_extractions/PXD000070_extraction_v2.json
+
+[2/50] PXD000534
+  Fetching PRIDE anchor... OK
+
+============================================================
+Processing PXD000534 (v2 sequential)...
+  [STEP1_OVERVIEW] 論文の概要から全体像を把握（生物種、疾患、細胞株、実験タイプ等）... OK (confirmed=7, hypotheses=1, N/A=7)
+  [STEP2_SAMPLE_PREP] サンプル調製・消化・修飾の詳細... OK (confirmed=7, hypotheses=0, N/A=11)
+  [STEP3_MS_SETTINGS] 質量分析装置・設定パラメータ... OK (confirmed=8, hypotheses=2, N/A=1)
+  [STEP4_RAW_FILES] rawファイル名とこれまでの知識を統合して、ファイルごとの割り当てを推定... OK (confirmed=4, hypotheses=1, N/A=9)
+  Saved: /Users/shionsuio/Downloads/Harmonizing Data/pipeline/llm_extractions/PXD000534_extraction_v2.json
+
+[3/50] PXD000651
+  Fetching PRIDE anchor... OK
+
+============================================================
+Processing PXD000651 (v2 sequential)...
+  [STEP1_OVERVIEW] 論文の概要から全体像を把握（生物種、疾患、細胞株、実験タイプ等）... OK (confirmed=4, hypotheses=1, N/A=10)
+  [STEP2_SAMPLE_PREP] サンプル調製・消化・修飾の詳細... OK (confirmed=12, hypotheses=1, N/A=5)
+  [STEP3_MS_SETTINGS] 質量分析装置・設定パラメータ... OK (confirmed=9, hypotheses=2, N/A=0)
+  [STEP4_RAW_FILES] rawファイル名とこれまでの知識を統合して、ファイルごとの割り当てを推定... OK (confirmed=3, hypotheses=1, N/A=10)
+  Saved: /Users/shionsuio/Downloads/Harmonizing Data/pipeline/llm_extractions/PXD000651_extraction_v2.json
+
+[4/50] PXD000652
+  Fetching PRIDE anchor... OK
+
+============================================================
+Processing PXD000652 (v2 sequential)...
+  [STEP1_OVERVIEW] 論文の概要から全体像を把握（生物種、疾患、細胞株、実験タイプ等）... OK (confirmed=5, hypotheses=0, N/A=10)
+  [STEP2_SAMPLE_PREP] サンプル調製・消化・修飾の詳細... OK (confirmed=12, hypotheses=1, N/A=6)
+  [STEP3_MS_SETTINGS] 質量分析装置・設定パラメータ... OK (confirmed=11, hypotheses=0, N/A=0)
+  [STEP4_RAW_FILES] rawファイル名とこれまでの知識を統合して、ファイルごとの割り当てを推定... OK (confirmed=4, hypotheses=1, N/A=9)
+  Saved: /Users/shionsuio/Downloads/Harmonizing Data/pipeline/llm_extractions/PXD000652_extraction_v2.json
+
+[5/50] PXD000999
+  Fetching PRIDE anchor... OK
+
+============================================================
+Processing PXD000999 (v2 sequential)...
+  [STEP1_OVERVIEW] 論文の概要から全体像を把握（生物種、疾患、細胞株、実験タイプ等）... OK (confirmed=3, hypotheses=5, N/A=7)
+  [STEP2_SAMPLE_PREP] サンプル調製・消化・修飾の詳細... OK (confirmed=8, hypotheses=0, N/A=10)
+  [STEP3_MS_SETTINGS] 質量分析装置・設定パラメータ... OK (confirmed=11, hypotheses=0, N/A=0)
+  [STEP4_RAW_FILES] rawファイル名とこれまでの知識を統合して、ファイルごとの割り当てを推定... OK (confirmed=4, hypotheses=2, N/A=8)
+  Saved: /Users/shionsuio/Downloads/Harmonizing Data/pipeline/llm_extractions/PXD000999_extraction_v2.json
+
+[6/50] PXD001061
+  Fetching PRIDE anchor... OK
+
+============================================================
+Processing PXD001061 (v2 sequential)...
+  [STEP1_OVERVIEW] 論文の概要から全体像を把握（生物種、疾患、細胞株、実験タイプ等）... OK (confirmed=4, hypotheses=3, N/A=8)
+  [STEP2_SAMPLE_PREP] サンプル調製・消化・修飾の詳細... OK (confirmed=11, hypotheses=2, N/A=6)
+  [STEP3_MS_SETTINGS] 質量分析装置・設定パラメータ... OK (confirmed=11, hypotheses=0, N/A=0)
+  [STEP4_RAW_FILES] rawファイル名とこれまでの知識を統合して、ファイルごとの割り当てを推定... JSON error: Expecting ',' delimiter: line 162 column 4 (char 7525)
+  Saved: /Users/shionsuio/Downloads/Harmonizing Data/pipeline/llm_extractions/PXD001061_extraction_v2.json
+
+[7/50] PXD001281
+
+============================================================
+Processing PXD001281 (v2 sequential)...
+  [STEP1_OVERVIEW] 論文の概要から全体像を把握（生物種、疾患、細胞株、実験タイプ等）... OK (confirmed=5, hypotheses=2, N/A=8)
+  [STEP2_SAMPLE_PREP] サンプル調製・消化・修飾の詳細... OK (confirmed=12, hypotheses=0, N/A=7)
+  [STEP3_MS_SETTINGS] 質量分析装置・設定パラメータ... OK (confirmed=10, hypotheses=0, N/A=1)
+  [STEP4_RAW_FILES] rawファイル名とこれまでの知識を統合して、ファイルごとの割り当てを推定... OK (confirmed=5, hypotheses=3, N/A=6)
+  Saved: /Users/shionsuio/Downloads/Harmonizing Data/pipeline/llm_extractions/PXD001281_extraction_v2.json
+
+[8/50] PXD001558
+  Fetching PRIDE anchor... OK
+
+============================================================
+Processing PXD001558 (v2 sequential)...
+  [STEP1_OVERVIEW] 論文の概要から全体像を把握（生物種、疾患、細胞株、実験タイプ等）... OK (confirmed=5, hypotheses=2, N/A=8)
+  [STEP2_SAMPLE_PREP] サンプル調製・消化・修飾の詳細... OK (confirmed=12, hypotheses=1, N/A=5)
+  [STEP3_MS_SETTINGS] 質量分析装置・設定パラメータ... OK (confirmed=9, hypotheses=2, N/A=0)
+  [STEP4_RAW_FILES] rawファイル名とこれまでの知識を統合して、ファイルごとの割り当てを推定... OK (confirmed=3, hypotheses=3, N/A=8)
+  Saved: /Users/shionsuio/Downloads/Harmonizing Data/pipeline/llm_extractions/PXD001558_extraction_v2.json
+
+[9/50] PXD001725
+  Fetching PRIDE anchor... OK
+
+============================================================
+Processing PXD001725 (v2 sequential)...
+  [STEP1_OVERVIEW] 論文の概要から全体像を把握（生物種、疾患、細胞株、実験タイプ等）... OK (confirmed=5, hypotheses=2, N/A=8)
+  [STEP2_SAMPLE_PREP] サンプル調製・消化・修飾の詳細... OK (confirmed=7, hypotheses=0, N/A=11)
+  [STEP3_MS_SETTINGS] 質量分析装置・設定パラメータ... OK (confirmed=10, hypotheses=1, N/A=0)
+  [STEP4_RAW_FILES] rawファイル名とこれまでの知識を統合して、ファイルごとの割り当てを推定... OK (confirmed=5, hypotheses=1, N/A=8)
+  Saved: /Users/shionsuio/Downloads/Harmonizing Data/pipeline/llm_extractions/PXD001725_extraction_v2.json
+
+[10/50] PXD001819
+  Fetching PRIDE anchor... OK
+
+============================================================
+Processing PXD001819 (v2 sequential)...
+  [STEP1_OVERVIEW] 論文の概要から全体像を把握（生物種、疾患、細胞株、実験タイプ等）... OK (confirmed=7, hypotheses=2, N/A=6)
+  [STEP2_SAMPLE_PREP] サンプル調製・消化・修飾の詳細... OK (confirmed=10, hypotheses=1, N/A=7)
+  [STEP3_MS_SETTINGS] 質量分析装置・設定パラメータ... OK (confirmed=10, hypotheses=0, N/A=1)
+  [STEP4_RAW_FILES] rawファイル名とこれまでの知識を統合して、ファイルごとの割り当てを推定... OK (confirmed=7, hypotheses=0, N/A=7)
+  Saved: /Users/shionsuio/Downloads/Harmonizing Data/pipeline/llm_extractions/PXD001819_extraction_v2.json
+
+[11/50] PXD002029
+  Fetching PRIDE anchor... OK
+
+============================================================
+Processing PXD002029 (v2 sequential)...
+  [STEP1_OVERVIEW] 論文の概要から全体像を把握（生物種、疾患、細胞株、実験タイプ等）... OK (confirmed=7, hypotheses=1, N/A=7)
+  [STEP2_SAMPLE_PREP] サンプル調製・消化・修飾の詳細... OK (confirmed=10, hypotheses=0, N/A=8)
+  [STEP3_MS_SETTINGS] 質量分析装置・設定パラメータ... OK (confirmed=7, hypotheses=2, N/A=2)
+  [STEP4_RAW_FILES] rawファイル名とこれまでの知識を統合して、ファイルごとの割り当てを推定... OK (confirmed=5, hypotheses=0, N/A=9)
+  Saved: /Users/shionsuio/Downloads/Harmonizing Data/pipeline/llm_extractions/PXD002029_extraction_v2.json
+
+[12/50] PXD002049
+  Fetching PRIDE anchor... OK
+
+============================================================
+Processing PXD002049 (v2 sequential)...
+  [STEP1_OVERVIEW] 論文の概要から全体像を把握（生物種、疾患、細胞株、実験タイプ等）... OK (confirmed=4, hypotheses=2, N/A=9)
+  [STEP2_SAMPLE_PREP] サンプル調製・消化・修飾の詳細... OK (confirmed=9, hypotheses=2, N/A=7)
+  [STEP3_MS_SETTINGS] 質量分析装置・設定パラメータ... OK (confirmed=10, hypotheses=1, N/A=0)
+  [STEP4_RAW_FILES] rawファイル名とこれまでの知識を統合して、ファイルごとの割り当てを推定... OK (confirmed=6, hypotheses=1, N/A=7)
+  Saved: /Users/shionsuio/Downloads/Harmonizing Data/pipeline/llm_extractions/PXD002049_extraction_v2.json
+
+[13/50] PXD002080
+  Fetching PRIDE anchor... OK
+
+============================================================
+Processing PXD002080 (v2 sequential)...
+  [STEP1_OVERVIEW] 論文の概要から全体像を把握（生物種、疾患、細胞株、実験タイプ等）... OK (confirmed=5, hypotheses=1, N/A=9)
+  [STEP2_SAMPLE_PREP] サンプル調製・消化・修飾の詳細... OK (confirmed=2, hypotheses=2, N/A=14)
+  [STEP3_MS_SETTINGS] 質量分析装置・設定パラメータ... OK (confirmed=4, hypotheses=2, N/A=5)
+  [STEP4_RAW_FILES] rawファイル名とこれまでの知識を統合して、ファイルごとの割り当てを推定... OK (confirmed=3, hypotheses=3, N/A=8)
+  Saved: /Users/shionsuio/Downloads/Harmonizing Data/pipeline/llm_extractions/PXD002080_extraction_v2.json
+
+[14/50] PXD002081
+  Fetching PRIDE anchor... OK
+
+============================================================
+Processing PXD002081 (v2 sequential)...
+  [STEP1_OVERVIEW] 論文の概要から全体像を把握（生物種、疾患、細胞株、実験タイプ等）... OK (confirmed=5, hypotheses=1, N/A=9)
+  [STEP2_SAMPLE_PREP] サンプル調製・消化・修飾の詳細... OK (confirmed=1, hypotheses=4, N/A=13)
+  [STEP3_MS_SETTINGS] 質量分析装置・設定パラメータ... OK (confirmed=4, hypotheses=1, N/A=6)
+  [STEP4_RAW_FILES] rawファイル名とこれまでの知識を統合して、ファイルごとの割り当てを推定... OK (confirmed=4, hypotheses=2, N/A=8)
+  Saved: /Users/shionsuio/Downloads/Harmonizing Data/pipeline/llm_extractions/PXD002081_extraction_v2.json
+
+[15/50] PXD002082
+  Fetching PRIDE anchor... OK
+
+============================================================
+Processing PXD002082 (v2 sequential)...
+  [STEP1_OVERVIEW] 論文の概要から全体像を把握（生物種、疾患、細胞株、実験タイプ等）... OK (confirmed=5, hypotheses=1, N/A=9)
+  [STEP2_SAMPLE_PREP] サンプル調製・消化・修飾の詳細... OK (confirmed=1, hypotheses=2, N/A=15)
+  [STEP3_MS_SETTINGS] 質量分析装置・設定パラメータ... OK (confirmed=4, hypotheses=2, N/A=5)
+  [STEP4_RAW_FILES] rawファイル名とこれまでの知識を統合して、ファイルごとの割り当てを推定... OK (confirmed=4, hypotheses=2, N/A=7)
+  Saved: /Users/shionsuio/Downloads/Harmonizing Data/pipeline/llm_extractions/PXD002082_extraction_v2.json
+
+[16/50] PXD002084
+  Fetching PRIDE anchor... OK
+
+============================================================
+Processing PXD002084 (v2 sequential)...
+  [STEP1_OVERVIEW] 論文の概要から全体像を把握（生物種、疾患、細胞株、実験タイプ等）... OK (confirmed=5, hypotheses=2, N/A=8)
+  [STEP2_SAMPLE_PREP] サンプル調製・消化・修飾の詳細... OK (confirmed=3, hypotheses=1, N/A=14)
+  [STEP3_MS_SETTINGS] 質量分析装置・設定パラメータ... OK (confirmed=4, hypotheses=1, N/A=6)
+  [STEP4_RAW_FILES] rawファイル名とこれまでの知識を統合して、ファイルごとの割り当てを推定... OK (confirmed=5, hypotheses=1, N/A=8)
+  Saved: /Users/shionsuio/Downloads/Harmonizing Data/pipeline/llm_extractions/PXD002084_extraction_v2.json
+
+[17/50] PXD002086
+  Fetching PRIDE anchor... OK
+
+============================================================
+Processing PXD002086 (v2 sequential)...
+  [STEP1_OVERVIEW] 論文の概要から全体像を把握（生物種、疾患、細胞株、実験タイプ等）... OK (confirmed=5, hypotheses=1, N/A=9)
+  [STEP2_SAMPLE_PREP] サンプル調製・消化・修飾の詳細... OK (confirmed=2, hypotheses=1, N/A=15)
+  [STEP3_MS_SETTINGS] 質量分析装置・設定パラメータ... OK (confirmed=4, hypotheses=2, N/A=5)
+  [STEP4_RAW_FILES] rawファイル名とこれまでの知識を統合して、ファイルごとの割り当てを推定... OK (confirmed=3, hypotheses=2, N/A=8)
+  Saved: /Users/shionsuio/Downloads/Harmonizing Data/pipeline/llm_extractions/PXD002086_extraction_v2.json
+
+[18/50] PXD002087
+  Fetching PRIDE anchor... OK
+
+============================================================
+Processing PXD002087 (v2 sequential)...
+  [STEP1_OVERVIEW] 論文の概要から全体像を把握（生物種、疾患、細胞株、実験タイプ等）... OK (confirmed=5, hypotheses=1, N/A=9)
+  [STEP2_SAMPLE_PREP] サンプル調製・消化・修飾の詳細... OK (confirmed=1, hypotheses=2, N/A=15)
+  [STEP3_MS_SETTINGS] 質量分析装置・設定パラメータ... OK (confirmed=4, hypotheses=1, N/A=6)
+  [STEP4_RAW_FILES] rawファイル名とこれまでの知識を統合して、ファイルごとの割り当てを推定... OK (confirmed=5, hypotheses=1, N/A=7)
+  Saved: /Users/shionsuio/Downloads/Harmonizing Data/pipeline/llm_extractions/PXD002087_extraction_v2.json
+
+[19/50] PXD002088
+  Fetching PRIDE anchor... OK
+
+============================================================
+Processing PXD002088 (v2 sequential)...
+  [STEP1_OVERVIEW] 論文の概要から全体像を把握（生物種、疾患、細胞株、実験タイプ等）... OK (confirmed=5, hypotheses=1, N/A=9)
+  [STEP2_SAMPLE_PREP] サンプル調製・消化・修飾の詳細... OK (confirmed=1, hypotheses=0, N/A=17)
+  [STEP3_MS_SETTINGS] 質量分析装置・設定パラメータ... OK (confirmed=4, hypotheses=1, N/A=6)
+  [STEP4_RAW_FILES] rawファイル名とこれまでの知識を統合して、ファイルごとの割り当てを推定... OK (confirmed=4, hypotheses=1, N/A=8)
+  Saved: /Users/shionsuio/Downloads/Harmonizing Data/pipeline/llm_extractions/PXD002088_extraction_v2.json
+
+[20/50] PXD002222
+  Fetching PRIDE anchor... OK
+
+============================================================
+Processing PXD002222 (v2 sequential)...
+  [STEP1_OVERVIEW] 論文の概要から全体像を把握（生物種、疾患、細胞株、実験タイプ等）... OK (confirmed=6, hypotheses=2, N/A=7)
+  [STEP2_SAMPLE_PREP] サンプル調製・消化・修飾の詳細... OK (confirmed=9, hypotheses=1, N/A=9)
+  [STEP3_MS_SETTINGS] 質量分析装置・設定パラメータ... OK (confirmed=9, hypotheses=2, N/A=0)
+  [STEP4_RAW_FILES] rawファイル名とこれまでの知識を統合して、ファイルごとの割り当てを推定... OK (confirmed=7, hypotheses=1, N/A=6)
+  Saved: /Users/shionsuio/Downloads/Harmonizing Data/pipeline/llm_extractions/PXD002222_extraction_v2.json
+
+[21/50] PXD002266
+  Fetching PRIDE anchor... OK
+
+============================================================
+Processing PXD002266 (v2 sequential)...
+  [STEP1_OVERVIEW] 論文の概要から全体像を把握（生物種、疾患、細胞株、実験タイプ等）... OK (confirmed=3, hypotheses=4, N/A=8)
+  [STEP2_SAMPLE_PREP] サンプル調製・消化・修飾の詳細... OK (confirmed=11, hypotheses=0, N/A=7)
+  [STEP3_MS_SETTINGS] 質量分析装置・設定パラメータ... OK (confirmed=8, hypotheses=3, N/A=0)
+  [STEP4_RAW_FILES] rawファイル名とこれまでの知識を統合して、ファイルごとの割り当てを推定... OK (confirmed=4, hypotheses=3, N/A=7)
+  Saved: /Users/shionsuio/Downloads/Harmonizing Data/pipeline/llm_extractions/PXD002266_extraction_v2.json
+
+[22/50] PXD002395
+  Fetching PRIDE anchor... OK
+
+============================================================
+Processing PXD002395 (v2 sequential)...
+  [STEP1_OVERVIEW] 論文の概要から全体像を把握（生物種、疾患、細胞株、実験タイプ等）... OK (confirmed=4, hypotheses=2, N/A=9)
+  [STEP2_SAMPLE_PREP] サンプル調製・消化・修飾の詳細... OK (confirmed=9, hypotheses=1, N/A=8)
+  [STEP3_MS_SETTINGS] 質量分析装置・設定パラメータ... OK (confirmed=9, hypotheses=1, N/A=1)
+  [STEP4_RAW_FILES] rawファイル名とこれまでの知識を統合して、ファイルごとの割り当てを推定... OK (confirmed=4, hypotheses=2, N/A=9)
+  Saved: /Users/shionsuio/Downloads/Harmonizing Data/pipeline/llm_extractions/PXD002395_extraction_v2.json
+
+[23/50] PXD002870
+  Fetching PRIDE anchor... OK
+
+============================================================
+Processing PXD002870 (v2 sequential)...
+  [STEP1_OVERVIEW] 論文の概要から全体像を把握（生物種、疾患、細胞株、実験タイプ等）... OK (confirmed=5, hypotheses=3, N/A=7)
+  [STEP2_SAMPLE_PREP] サンプル調製・消化・修飾の詳細... OK (confirmed=13, hypotheses=0, N/A=5)
+  [STEP3_MS_SETTINGS] 質量分析装置・設定パラメータ... OK (confirmed=10, hypotheses=0, N/A=1)
+  [STEP4_RAW_FILES] rawファイル名とこれまでの知識を統合して、ファイルごとの割り当てを推定... OK (confirmed=6, hypotheses=1, N/A=7)
+  Saved: /Users/shionsuio/Downloads/Harmonizing Data/pipeline/llm_extractions/PXD002870_extraction_v2.json
+
+[24/50] PXD003028
+  Fetching PRIDE anchor... OK
+
+============================================================
+Processing PXD003028 (v2 sequential)...
+  [STEP1_OVERVIEW] 論文の概要から全体像を把握（生物種、疾患、細胞株、実験タイプ等）... OK (confirmed=5, hypotheses=1, N/A=9)
+  [STEP2_SAMPLE_PREP] サンプル調製・消化・修飾の詳細... OK (confirmed=9, hypotheses=1, N/A=8)
+  [STEP3_MS_SETTINGS] 質量分析装置・設定パラメータ... OK (confirmed=8, hypotheses=2, N/A=1)
+  [STEP4_RAW_FILES] rawファイル名とこれまでの知識を統合して、ファイルごとの割り当てを推定... OK (confirmed=6, hypotheses=1, N/A=7)
+  Saved: /Users/shionsuio/Downloads/Harmonizing Data/pipeline/llm_extractions/PXD003028_extraction_v2.json
+
+[25/50] PXD003209
+  Fetching PRIDE anchor... OK
+
+============================================================
+Processing PXD003209 (v2 sequential)...
+  [STEP1_OVERVIEW] 論文の概要から全体像を把握（生物種、疾患、細胞株、実験タイプ等）... OK (confirmed=2, hypotheses=3, N/A=9)
+  [STEP2_SAMPLE_PREP] サンプル調製・消化・修飾の詳細... OK (confirmed=4, hypotheses=0, N/A=14)
+  [STEP3_MS_SETTINGS] 質量分析装置・設定パラメータ... OK (confirmed=3, hypotheses=1, N/A=7)
+  [STEP4_RAW_FILES] rawファイル名とこれまでの知識を統合して、ファイルごとの割り当てを推定... OK (confirmed=3, hypotheses=2, N/A=9)
+  Saved: /Users/shionsuio/Downloads/Harmonizing Data/pipeline/llm_extractions/PXD003209_extraction_v2.json
+
+[26/50] PXD003531
+  Fetching PRIDE anchor... OK
+
+============================================================
+Processing PXD003531 (v2 sequential)...
+  [STEP1_OVERVIEW] 論文の概要から全体像を把握（生物種、疾患、細胞株、実験タイプ等）... OK (confirmed=7, hypotheses=2, N/A=6)
+  [STEP2_SAMPLE_PREP] サンプル調製・消化・修飾の詳細... OK (confirmed=5, hypotheses=3, N/A=11)
+  [STEP3_MS_SETTINGS] 質量分析装置・設定パラメータ... OK (confirmed=2, hypotheses=5, N/A=4)
+  [STEP4_RAW_FILES] rawファイル名とこれまでの知識を統合して、ファイルごとの割り当てを推定... OK (confirmed=2, hypotheses=4, N/A=7)
+  Saved: /Users/shionsuio/Downloads/Harmonizing Data/pipeline/llm_extractions/PXD003531_extraction_v2.json
+
+[27/50] PXD003668
+  Fetching PRIDE anchor... OK
+
+============================================================
+Processing PXD003668 (v2 sequential)...
+  [STEP1_OVERVIEW] 論文の概要から全体像を把握（生物種、疾患、細胞株、実験タイプ等）... OK (confirmed=6, hypotheses=2, N/A=7)
+  [STEP2_SAMPLE_PREP] サンプル調製・消化・修飾の詳細... OK (confirmed=8, hypotheses=1, N/A=9)
+  [STEP3_MS_SETTINGS] 質量分析装置・設定パラメータ... OK (confirmed=8, hypotheses=3, N/A=0)
+  [STEP4_RAW_FILES] rawファイル名とこれまでの知識を統合して、ファイルごとの割り当てを推定... OK (confirmed=5, hypotheses=0, N/A=9)
+  Saved: /Users/shionsuio/Downloads/Harmonizing Data/pipeline/llm_extractions/PXD003668_extraction_v2.json
+
+[28/50] PXD003977
+  Fetching PRIDE anchor... OK
+
+============================================================
+Processing PXD003977 (v2 sequential)...
+  [STEP1_OVERVIEW] 論文の概要から全体像を把握（生物種、疾患、細胞株、実験タイプ等）... OK (confirmed=6, hypotheses=3, N/A=6)
+  [STEP2_SAMPLE_PREP] サンプル調製・消化・修飾の詳細... OK (confirmed=11, hypotheses=1, N/A=7)
+  [STEP3_MS_SETTINGS] 質量分析装置・設定パラメータ... OK (confirmed=10, hypotheses=0, N/A=1)
+  [STEP4_RAW_FILES] rawファイル名とこれまでの知識を統合して、ファイルごとの割り当てを推定... OK (confirmed=3, hypotheses=3, N/A=7)
+  Saved: /Users/shionsuio/Downloads/Harmonizing Data/pipeline/llm_extractions/PXD003977_extraction_v2.json
+
+[29/50] PXD004143
+  Fetching PRIDE anchor... OK
+
+============================================================
+Processing PXD004143 (v2 sequential)...
+  [STEP1_OVERVIEW] 論文の概要から全体像を把握（生物種、疾患、細胞株、実験タイプ等）... OK (confirmed=4, hypotheses=1, N/A=10)
+  [STEP2_SAMPLE_PREP] サンプル調製・消化・修飾の詳細... OK (confirmed=13, hypotheses=0, N/A=6)
+  [STEP3_MS_SETTINGS] 質量分析装置・設定パラメータ... OK (confirmed=9, hypotheses=2, N/A=0)
+  [STEP4_RAW_FILES] rawファイル名とこれまでの知識を統合して、ファイルごとの割り当てを推定... OK (confirmed=5, hypotheses=1, N/A=8)
+  Saved: /Users/shionsuio/Downloads/Harmonizing Data/pipeline/llm_extractions/PXD004143_extraction_v2.json
+
+[30/50] PXD004242
+  Fetching PRIDE anchor... OK
+
+============================================================
+Processing PXD004242 (v2 sequential)...
+  [STEP1_OVERVIEW] 論文の概要から全体像を把握（生物種、疾患、細胞株、実験タイプ等）... OK (confirmed=5, hypotheses=2, N/A=8)
+  [STEP2_SAMPLE_PREP] サンプル調製・消化・修飾の詳細... OK (confirmed=9, hypotheses=0, N/A=9)
+  [STEP3_MS_SETTINGS] 質量分析装置・設定パラメータ... OK (confirmed=11, hypotheses=0, N/A=0)
+  [STEP4_RAW_FILES] rawファイル名とこれまでの知識を統合して、ファイルごとの割り当てを推定... OK (confirmed=5, hypotheses=3, N/A=6)
+  Saved: /Users/shionsuio/Downloads/Harmonizing Data/pipeline/llm_extractions/PXD004242_extraction_v2.json
+
+[31/50] PXD004682
+  Fetching PRIDE anchor... OK
+
+============================================================
+Processing PXD004682 (v2 sequential)...
+  [STEP1_OVERVIEW] 論文の概要から全体像を把握（生物種、疾患、細胞株、実験タイプ等）... 
+    Rate limit hit, waiting 30s (attempt 1/5)...OK (confirmed=6, hypotheses=2, N/A=7)
+  [STEP2_SAMPLE_PREP] サンプル調製・消化・修飾の詳細... OK (confirmed=11, hypotheses=0, N/A=7)
+  [STEP3_MS_SETTINGS] 質量分析装置・設定パラメータ... OK (confirmed=11, hypotheses=0, N/A=0)
+  [STEP4_RAW_FILES] rawファイル名とこれまでの知識を統合して、ファイルごとの割り当てを推定... OK (confirmed=5, hypotheses=2, N/A=7)
+  Saved: /Users/shionsuio/Downloads/Harmonizing Data/pipeline/llm_extractions/PXD004682_extraction_v2.json
+
+[32/50] PXD004683
+  Fetching PRIDE anchor... OK
+
+============================================================
+Processing PXD004683 (v2 sequential)...
+  [STEP1_OVERVIEW] 論文の概要から全体像を把握（生物種、疾患、細胞株、実験タイプ等）... OK (confirmed=7, hypotheses=0, N/A=8)
+  [STEP2_SAMPLE_PREP] サンプル調製・消化・修飾の詳細... OK (confirmed=11, hypotheses=0, N/A=7)
+  [STEP3_MS_SETTINGS] 質量分析装置・設定パラメータ... OK (confirmed=11, hypotheses=0, N/A=0)
+  [STEP4_RAW_FILES] rawファイル名とこれまでの知識を統合して、ファイルごとの割り当てを推定... OK (confirmed=5, hypotheses=2, N/A=7)
+  Saved: /Users/shionsuio/Downloads/Harmonizing Data/pipeline/llm_extractions/PXD004683_extraction_v2.json
+
+[33/50] PXD004684
+  Fetching PRIDE anchor... OK
+
+============================================================
+Processing PXD004684 (v2 sequential)...
+  [STEP1_OVERVIEW] 論文の概要から全体像を把握（生物種、疾患、細胞株、実験タイプ等）... OK (confirmed=6, hypotheses=1, N/A=8)
+  [STEP2_SAMPLE_PREP] サンプル調製・消化・修飾の詳細... OK (confirmed=11, hypotheses=0, N/A=7)
+  [STEP3_MS_SETTINGS] 質量分析装置・設定パラメータ... OK (confirmed=11, hypotheses=0, N/A=0)
+  [STEP4_RAW_FILES] rawファイル名とこれまでの知識を統合して、ファイルごとの割り当てを推定... OK (confirmed=5, hypotheses=1, N/A=8)
+  Saved: /Users/shionsuio/Downloads/Harmonizing Data/pipeline/llm_extractions/PXD004684_extraction_v2.json
+
+[34/50] PXD004705
+  Fetching PRIDE anchor... OK
+
+============================================================
+Processing PXD004705 (v2 sequential)...
+  [STEP1_OVERVIEW] 論文の概要から全体像を把握（生物種、疾患、細胞株、実験タイプ等）... OK (confirmed=7, hypotheses=1, N/A=7)
+  [STEP2_SAMPLE_PREP] サンプル調製・消化・修飾の詳細... OK (confirmed=9, hypotheses=1, N/A=8)
+  [STEP3_MS_SETTINGS] 質量分析装置・設定パラメータ... OK (confirmed=9, hypotheses=1, N/A=1)
+  [STEP4_RAW_FILES] rawファイル名とこれまでの知識を統合して、ファイルごとの割り当てを推定... OK (confirmed=7, hypotheses=1, N/A=7)
+  Saved: /Users/shionsuio/Downloads/Harmonizing Data/pipeline/llm_extractions/PXD004705_extraction_v2.json
+
+[35/50] PXD004732
+  Fetching PRIDE anchor... OK
+
+============================================================
+Processing PXD004732 (v2 sequential)...
+  [STEP1_OVERVIEW] 論文の概要から全体像を把握（生物種、疾患、細胞株、実験タイプ等）... OK (confirmed=3, hypotheses=1, N/A=11)
+  [STEP2_SAMPLE_PREP] サンプル調製・消化・修飾の詳細... SKIP (no content)
+  [STEP3_MS_SETTINGS] 質量分析装置・設定パラメータ... SKIP (no content)
+  [STEP4_RAW_FILES] rawファイル名とこれまでの知識を統合して、ファイルごとの割り当てを推定... OK (confirmed=5, hypotheses=1, N/A=8)
+  Saved: /Users/shionsuio/Downloads/Harmonizing Data/pipeline/llm_extractions/PXD004732_extraction_v2.json
+
+[36/50] PXD004939
+  Fetching PRIDE anchor... OK
+
+============================================================
+Processing PXD004939 (v2 sequential)...
+  [STEP1_OVERVIEW] 論文の概要から全体像を把握（生物種、疾患、細胞株、実験タイプ等）... 
+    Rate limit hit, waiting 30s (attempt 1/5)...
+    Rate limit hit, waiting 60s (attempt 2/5)...OK (confirmed=6, hypotheses=1, N/A=8)
+  [STEP2_SAMPLE_PREP] サンプル調製・消化・修飾の詳細... OK (confirmed=10, hypotheses=0, N/A=8)
+  [STEP3_MS_SETTINGS] 質量分析装置・設定パラメータ... OK (confirmed=9, hypotheses=2, N/A=0)
+  [STEP4_RAW_FILES] rawファイル名とこれまでの知識を統合して、ファイルごとの割り当てを推定... OK (confirmed=9, hypotheses=0, N/A=5)
+  Saved: /Users/shionsuio/Downloads/Harmonizing Data/pipeline/llm_extractions/PXD004939_extraction_v2.json
+
+[37/50] PXD004987
+  Fetching PRIDE anchor... OK
+
+============================================================
+Processing PXD004987 (v2 sequential)...
+  [STEP1_OVERVIEW] 論文の概要から全体像を把握（生物種、疾患、細胞株、実験タイプ等）... OK (confirmed=5, hypotheses=2, N/A=8)
+  [STEP2_SAMPLE_PREP] サンプル調製・消化・修飾の詳細... OK (confirmed=6, hypotheses=0, N/A=12)
+  [STEP3_MS_SETTINGS] 質量分析装置・設定パラメータ... OK (confirmed=9, hypotheses=2, N/A=0)
+  [STEP4_RAW_FILES] rawファイル名とこれまでの知識を統合して、ファイルごとの割り当てを推定... OK (confirmed=4, hypotheses=1, N/A=9)
+  Saved: /Users/shionsuio/Downloads/Harmonizing Data/pipeline/llm_extractions/PXD004987_extraction_v2.json
+
+[38/50] PXD005207
+  Fetching PRIDE anchor... OK
+
+============================================================
+Processing PXD005207 (v2 sequential)...
+  [STEP1_OVERVIEW] 論文の概要から全体像を把握（生物種、疾患、細胞株、実験タイプ等）... OK (confirmed=6, hypotheses=2, N/A=7)
+  [STEP2_SAMPLE_PREP] サンプル調製・消化・修飾の詳細... OK (confirmed=12, hypotheses=0, N/A=6)
+  [STEP3_MS_SETTINGS] 質量分析装置・設定パラメータ... OK (confirmed=10, hypotheses=0, N/A=1)
+  [STEP4_RAW_FILES] rawファイル名とこれまでの知識を統合して、ファイルごとの割り当てを推定... OK (confirmed=5, hypotheses=2, N/A=7)
+  Saved: /Users/shionsuio/Downloads/Harmonizing Data/pipeline/llm_extractions/PXD005207_extraction_v2.json
+
+[39/50] PXD005354
+  Fetching PRIDE anchor... OK
+
+============================================================
+Processing PXD005354 (v2 sequential)...
+  [STEP1_OVERVIEW] 論文の概要から全体像を把握（生物種、疾患、細胞株、実験タイプ等）... OK (confirmed=7, hypotheses=2, N/A=6)
+  [STEP2_SAMPLE_PREP] サンプル調製・消化・修飾の詳細... OK (confirmed=8, hypotheses=1, N/A=9)
+  [STEP3_MS_SETTINGS] 質量分析装置・設定パラメータ... OK (confirmed=11, hypotheses=0, N/A=0)
+  [STEP4_RAW_FILES] rawファイル名とこれまでの知識を統合して、ファイルごとの割り当てを推定... OK (confirmed=4, hypotheses=3, N/A=7)
+  Saved: /Users/shionsuio/Downloads/Harmonizing Data/pipeline/llm_extractions/PXD005354_extraction_v2.json
+
+[40/50] PXD005355
+  Fetching PRIDE anchor... OK
+
+============================================================
+Processing PXD005355 (v2 sequential)...
+  [STEP1_OVERVIEW] 論文の概要から全体像を把握（生物種、疾患、細胞株、実験タイプ等）... 
+    Rate limit hit, waiting 30s (attempt 1/5)...OK (confirmed=5, hypotheses=2, N/A=8)
+  [STEP2_SAMPLE_PREP] サンプル調製・消化・修飾の詳細... OK (confirmed=7, hypotheses=1, N/A=4)
+  [STEP3_MS_SETTINGS] 質量分析装置・設定パラメータ... OK (confirmed=11, hypotheses=0, N/A=0)
+  [STEP4_RAW_FILES] rawファイル名とこれまでの知識を統合して、ファイルごとの割り当てを推定... OK (confirmed=2, hypotheses=3, N/A=7)
+  Saved: /Users/shionsuio/Downloads/Harmonizing Data/pipeline/llm_extractions/PXD005355_extraction_v2.json
+
+[41/50] PXD005445
+  Fetching PRIDE anchor... OK
+
+============================================================
+Processing PXD005445 (v2 sequential)...
+  [STEP1_OVERVIEW] 論文の概要から全体像を把握（生物種、疾患、細胞株、実験タイプ等）... OK (confirmed=4, hypotheses=2, N/A=9)
+  [STEP2_SAMPLE_PREP] サンプル調製・消化・修飾の詳細... OK (confirmed=10, hypotheses=0, N/A=8)
+  [STEP3_MS_SETTINGS] 質量分析装置・設定パラメータ... OK (confirmed=8, hypotheses=3, N/A=0)
+  [STEP4_RAW_FILES] rawファイル名とこれまでの知識を統合して、ファイルごとの割り当てを推定... OK (confirmed=3, hypotheses=2, N/A=9)
+  Saved: /Users/shionsuio/Downloads/Harmonizing Data/pipeline/llm_extractions/PXD005445_extraction_v2.json
+
+[42/50] PXD005463
+  Fetching PRIDE anchor... OK
+
+============================================================
+Processing PXD005463 (v2 sequential)...
+  [STEP1_OVERVIEW] 論文の概要から全体像を把握（生物種、疾患、細胞株、実験タイプ等）... OK (confirmed=5, hypotheses=1, N/A=9)
+  [STEP2_SAMPLE_PREP] サンプル調製・消化・修飾の詳細... OK (confirmed=10, hypotheses=0, N/A=8)
+  [STEP3_MS_SETTINGS] 質量分析装置・設定パラメータ... OK (confirmed=11, hypotheses=1, N/A=0)
+  [STEP4_RAW_FILES] rawファイル名とこれまでの知識を統合して、ファイルごとの割り当てを推定... OK (confirmed=6, hypotheses=2, N/A=6)
+  Saved: /Users/shionsuio/Downloads/Harmonizing Data/pipeline/llm_extractions/PXD005463_extraction_v2.json
+
+[43/50] PXD005539
+  Fetching PRIDE anchor... OK
+
+============================================================
+Processing PXD005539 (v2 sequential)...
+  [STEP1_OVERVIEW] 論文の概要から全体像を把握（生物種、疾患、細胞株、実験タイプ等）... OK (confirmed=6, hypotheses=3, N/A=6)
+  [STEP2_SAMPLE_PREP] サンプル調製・消化・修飾の詳細... OK (confirmed=7, hypotheses=0, N/A=11)
+  [STEP3_MS_SETTINGS] 質量分析装置・設定パラメータ... OK (confirmed=7, hypotheses=3, N/A=1)
+  [STEP4_RAW_FILES] rawファイル名とこれまでの知識を統合して、ファイルごとの割り当てを推定... OK (confirmed=5, hypotheses=3, N/A=7)
+  Saved: /Users/shionsuio/Downloads/Harmonizing Data/pipeline/llm_extractions/PXD005539_extraction_v2.json
+
+[44/50] PXD005554
+
+============================================================
+Processing PXD005554 (v2 sequential)...
+  [STEP1_OVERVIEW] 論文の概要から全体像を把握（生物種、疾患、細胞株、実験タイプ等）... OK (confirmed=6, hypotheses=1, N/A=8)
+  [STEP2_SAMPLE_PREP] サンプル調製・消化・修飾の詳細... OK (confirmed=13, hypotheses=1, N/A=5)
+  [STEP3_MS_SETTINGS] 質量分析装置・設定パラメータ... OK (confirmed=10, hypotheses=0, N/A=1)
+  [STEP4_RAW_FILES] rawファイル名とこれまでの知識を統合して、ファイルごとの割り当てを推定... OK (confirmed=2, hypotheses=3, N/A=9)
+  Saved: /Users/shionsuio/Downloads/Harmonizing Data/pipeline/llm_extractions/PXD005554_extraction_v2.json
+
+[45/50] PXD005780
+  Fetching PRIDE anchor... OK
+
+============================================================
+Processing PXD005780 (v2 sequential)...
+  [STEP1_OVERVIEW] 論文の概要から全体像を把握（生物種、疾患、細胞株、実験タイプ等）... OK (confirmed=6, hypotheses=2, N/A=7)
+  [STEP2_SAMPLE_PREP] サンプル調製・消化・修飾の詳細... OK (confirmed=2, hypotheses=4, N/A=12)
+  [STEP3_MS_SETTINGS] 質量分析装置・設定パラメータ... OK (confirmed=5, hypotheses=3, N/A=3)
+  [STEP4_RAW_FILES] rawファイル名とこれまでの知識を統合して、ファイルごとの割り当てを推定... OK (confirmed=3, hypotheses=1, N/A=10)
+  Saved: /Users/shionsuio/Downloads/Harmonizing Data/pipeline/llm_extractions/PXD005780_extraction_v2.json
+
+[46/50] PXD006003
+  Fetching PRIDE anchor... OK
+
+============================================================
+Processing PXD006003 (v2 sequential)...
+  [STEP1_OVERVIEW] 論文の概要から全体像を把握（生物種、疾患、細胞株、実験タイプ等）... OK (confirmed=4, hypotheses=4, N/A=7)
+  [STEP2_SAMPLE_PREP] サンプル調製・消化・修飾の詳細... OK (confirmed=7, hypotheses=1, N/A=10)
+  [STEP3_MS_SETTINGS] 質量分析装置・設定パラメータ... OK (confirmed=7, hypotheses=3, N/A=1)
+  [STEP4_RAW_FILES] rawファイル名とこれまでの知識を統合して、ファイルごとの割り当てを推定... OK (confirmed=7, hypotheses=3, N/A=4)
+  Saved: /Users/shionsuio/Downloads/Harmonizing Data/pipeline/llm_extractions/PXD006003_extraction_v2.json
+
+[47/50] PXD006195
+  Fetching PRIDE anchor... OK
+
+============================================================
+Processing PXD006195 (v2 sequential)...
+  [STEP1_OVERVIEW] 論文の概要から全体像を把握（生物種、疾患、細胞株、実験タイプ等）... OK (confirmed=3, hypotheses=3, N/A=9)
+  [STEP2_SAMPLE_PREP] サンプル調製・消化・修飾の詳細... OK (confirmed=5, hypotheses=1, N/A=12)
+  [STEP3_MS_SETTINGS] 質量分析装置・設定パラメータ... OK (confirmed=9, hypotheses=2, N/A=0)
+  [STEP4_RAW_FILES] rawファイル名とこれまでの知識を統合して、ファイルごとの割り当てを推定... OK (confirmed=4, hypotheses=4, N/A=6)
+  Saved: /Users/shionsuio/Downloads/Harmonizing Data/pipeline/llm_extractions/PXD006195_extraction_v2.json
+
+[48/50] PXD006233
+  Fetching PRIDE anchor... OK
+
+============================================================
+Processing PXD006233 (v2 sequential)...
+  [STEP1_OVERVIEW] 論文の概要から全体像を把握（生物種、疾患、細胞株、実験タイプ等）... OK (confirmed=6, hypotheses=1, N/A=8)
+  [STEP2_SAMPLE_PREP] サンプル調製・消化・修飾の詳細... OK (confirmed=9, hypotheses=1, N/A=8)
+  [STEP3_MS_SETTINGS] 質量分析装置・設定パラメータ... OK (confirmed=10, hypotheses=1, N/A=0)
+  [STEP4_RAW_FILES] rawファイル名とこれまでの知識を統合して、ファイルごとの割り当てを推定... OK (confirmed=6, hypotheses=1, N/A=7)
+  Saved: /Users/shionsuio/Downloads/Harmonizing Data/pipeline/llm_extractions/PXD006233_extraction_v2.json
+
+[49/50] PXD006401
+  Fetching PRIDE anchor... OK
+
+============================================================
+Processing PXD006401 (v2 sequential)...
+  [STEP1_OVERVIEW] 論文の概要から全体像を把握（生物種、疾患、細胞株、実験タイプ等）... OK (confirmed=6, hypotheses=2, N/A=7)
+  [STEP2_SAMPLE_PREP] サンプル調製・消化・修飾の詳細... OK (confirmed=7, hypotheses=1, N/A=11)
+  [STEP3_MS_SETTINGS] 質量分析装置・設定パラメータ... OK (confirmed=10, hypotheses=0, N/A=1)
+  [STEP4_RAW_FILES] rawファイル名とこれまでの知識を統合して、ファイルごとの割り当てを推定... OK (confirmed=6, hypotheses=1, N/A=7)
+  Saved: /Users/shionsuio/Downloads/Harmonizing Data/pipeline/llm_extractions/PXD006401_extraction_v2.json
+
+[50/50] PXD006675
+  Fetching PRIDE anchor... OK
+
+============================================================
+Processing PXD006675 (v2 sequential)...
+  [STEP1_OVERVIEW] 論文の概要から全体像を把握（生物種、疾患、細胞株、実験タイプ等）... OK (confirmed=5, hypotheses=1, N/A=9)
+  [STEP2_SAMPLE_PREP] サンプル調製・消化・修飾の詳細... OK (confirmed=10, hypotheses=1, N/A=8)
+  [STEP3_MS_SETTINGS] 質量分析装置・設定パラメータ... OK (confirmed=11, hypotheses=0, N/A=0)
+  [STEP4_RAW_FILES] rawファイル名とこれまでの知識を統合して、ファイルごとの割り当てを推定... OK (confirmed=5, hypotheses=2, N/A=7)
+  Saved: /Users/shionsuio/Downloads/Harmonizing Data/pipeline/llm_extractions/PXD006675_extraction_v2.json
+
+============================================================
+Done. Success: 50, Failed: 0

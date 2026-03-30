@@ -1,0 +1,434 @@
+{
+  "pxd": "PXD005539",
+  "raw_files": [
+    "SKEML28_F4.raw",
+    "SKMEL28_F2.raw",
+    "A375_F7.raw",
+    "C32TG_F2.raw",
+    "C32TG_F8.raw",
+    "A375_F3.raw",
+    "SKMEL28_F2a.raw",
+    "A375_F8.raw",
+    "C32TG_F7.raw",
+    "A375_F4.raw",
+    "C32TG_F6.raw",
+    "C32TG_F3.raw",
+    "SKMEL28_F6.raw",
+    "SKMEL28_F3.raw",
+    "A375_F1.raw",
+    "A375_F2.raw",
+    "C32TG_F1.raw",
+    "C32TG_F4.raw",
+    "C32TG_F9.raw",
+    "A375_F6.raw",
+    "C32TG_F5.raw",
+    "A375_F5.raw",
+    "SKMEL28_F1.raw",
+    "SKMEL_F3b.raw",
+    "SKMEL28_F7.raw",
+    "SKMEL28_F5.raw",
+    "A375_F9.raw"
+  ],
+  "anchor": {
+    "pxd": "PXD005539",
+    "source": "PRIDE_API",
+    "organism": [
+      {
+        "name": "Homo sapiens (human)",
+        "accession": "NEWT:9606"
+      }
+    ],
+    "instruments": [
+      {
+        "name": "LTQ Orbitrap Elite",
+        "accession": "MS:1001910",
+        "sdrf_format": "AC=MS:1001910;NT=LTQ Orbitrap Elite"
+      },
+      {
+        "name": "Q Exactive",
+        "accession": "MS:1001911",
+        "sdrf_format": "AC=MS:1001911;NT=Q Exactive"
+      }
+    ],
+    "modifications": [],
+    "organism_parts": [
+      {
+        "name": "Cell culture",
+        "accession": "BTO:0000214"
+      },
+      {
+        "name": "Melanocyte",
+        "accession": "CL:0000148"
+      }
+    ],
+    "diseases": [],
+    "experiment_types": [
+      "Gel-based experiment"
+    ],
+    "quantification_methods": [
+      "Peptide counting"
+    ],
+    "keywords": [
+      "Metastasis4",
+      "Dendritic cells2",
+      "Lymphatics3",
+      "Extracellular vesicles1",
+      "Tumor immunology5"
+    ],
+    "publications": [
+      {
+        "pubmed_id": "",
+        "doi": "10.3389/fimmu.2017.00358",
+        "ref": "Maus RLG, Jakub JW, Nevala WK, Christensen TA, Noble-Orcutt K, Sachs Z, Hieken TJ, Markovic SN. Human Melanoma-Derived Extracellular Vesicles Regulate Dendritic Cell Maturation. Front Immunol. 2017 8:358"
+      }
+    ],
+    "inferred_fragmentation": "HCD",
+    "inferred_ms2_analyzer": "orbitrap",
+    "inferred_ionization": "nanoESI",
+    "raw_files": [
+      "SKEML28_F4.raw",
+      "SKMEL28_F2.raw",
+      "A375_F7.raw",
+      "C32TG_F2.raw",
+      "C32TG_F8.raw",
+      "A375_F3.raw",
+      "SKMEL28_F2a.raw",
+      "A375_F8.raw",
+      "C32TG_F7.raw",
+      "A375_F4.raw",
+      "C32TG_F6.raw",
+      "C32TG_F3.raw",
+      "SKMEL28_F6.raw",
+      "SKMEL28_F3.raw",
+      "A375_F1.raw",
+      "A375_F2.raw",
+      "C32TG_F1.raw",
+      "C32TG_F4.raw",
+      "C32TG_F9.raw",
+      "A375_F6.raw",
+      "C32TG_F5.raw",
+      "A375_F5.raw",
+      "SKMEL28_F1.raw",
+      "SKMEL_F3b.raw",
+      "SKMEL28_F7.raw",
+      "SKMEL28_F5.raw",
+      "A375_F9.raw"
+    ]
+  },
+  "steps": {
+    "STEP1_OVERVIEW": {
+      "confirmed": {
+        "Characteristics[Organism]": {
+          "value": "Homo sapiens",
+          "evidence": "Human Melanoma-Derived Extracellular Vesicles",
+          "source": "manuscript"
+        },
+        "Characteristics[CellType]": {
+          "value": "dendritic cell",
+          "evidence": "DCs matured in vitro in the presence of melanoma EVs",
+          "source": "manuscript"
+        },
+        "Characteristics[Disease]": {
+          "value": "melanoma",
+          "evidence": "Human Melanoma-Derived Extracellular Vesicles Regulate Dendritic Cell Maturation",
+          "source": "manuscript"
+        },
+        "Characteristics[MaterialType]": {
+          "value": "extracellular vesicles",
+          "evidence": "melanoma-derived extracellular vesicles (EVs)",
+          "source": "manuscript"
+        },
+        "Characteristics[Treatment]": {
+          "value": "melanoma extracellular vesicles exposure",
+          "evidence": "DCs matured in vitro in the presence of melanoma EVs",
+          "source": "manuscript"
+        },
+        "Characteristics[Specimen]": {
+          "value": "human afferent lymphatic fluid",
+          "evidence": "similar EVs can be isolated from human afferent lymphatic fluid ex vivo",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {
+        "Characteristics[OrganismPart]": {
+          "candidates": [
+            "lymph node",
+            "sentinel lymph node"
+          ],
+          "reasoning": "研究はsentinel lymph nodeでのDC機能に焦点を当てているが、プロテオミクス解析対象が明確でない",
+          "needs": "実際にプロテオミクス解析したサンプルの由来組織の明確化"
+        },
+        "Characteristics[CellLine]": {
+          "candidates": [
+            "メラノーマ細胞株"
+          ],
+          "reasoning": "メラノーマ由来EVsを使用しているが、具体的な細胞株名が記載されていない",
+          "needs": "使用したメラノーマ細胞株の具体的な名称"
+        },
+        "Characteristics[Compound]": {
+          "candidates": [
+            "S100A8",
+            "S100A9"
+          ],
+          "reasoning": "EV cargoとして特定されたタンパク質で、DC成熟に影響することが示されている",
+          "needs": "これらが実際の処理化合物として使用されたかの確認"
+        }
+      },
+      "not_applicable": [
+        "Characteristics[Label]",
+        "Characteristics[Strain]",
+        "Characteristics[GeneticModification]",
+        "Characteristics[DevelopmentalStage]",
+        "Characteristics[ConcentrationOfCompound]",
+        "Comment[AcquisitionMethod]"
+      ],
+      "summary": "ヒトメラノーマ由来細胞外小胞がDC成熟に与える影響を調べた研究。確定情報：ヒト由来、メラノーマ疾患、樹状細胞、細胞外小胞が材料。未解決：具体的な細胞株名、プロテオミクス解析対象組織、S100A8/A9の処理化合物としての使用有無。"
+    },
+    "STEP2_SAMPLE_PREP": {
+      "confirmed": {
+        "Characteristics[CleavageAgent]": {
+          "value": "trypsin",
+          "evidence": "Acetonitrile-dehydrated gel sections were digested in 5 ng/µL trypsin overnight at 37°C",
+          "source": "manuscript"
+        },
+        "Characteristics[AlkylationReagent]": {
+          "value": "iodoacetamide",
+          "evidence": "reduced, and alkylated with 50 mM TCEP and 20 mM idoacetamide for 2 h in the dark... Oxidation of methionine and the iodoacetamide derivative of cysteine were specified as variable modifications",
+          "source": "manuscript"
+        },
+        "Characteristics[ReductionReagent]": {
+          "value": "TCEP",
+          "evidence": "reduced, and alkylated with 50 mM TCEP and 20 mM idoacetamide for 2 h in the dark",
+          "source": "manuscript"
+        },
+        "Characteristics[Modification]": {
+          "value": "oxidation of methionine",
+          "evidence": "Oxidation of methionine and the iodoacetamide derivative of cysteine were specified as variable modifications",
+          "source": "manuscript"
+        },
+        "Characteristics[Modification].1": {
+          "value": "iodoacetamide derivative of cysteine",
+          "evidence": "Oxidation of methionine and the iodoacetamide derivative of cysteine were specified as variable modifications",
+          "source": "manuscript"
+        },
+        "Comment[FractionationMethod]": {
+          "value": "gel-based fractionation",
+          "evidence": "protein content was measured by BCA assay and run on 4–20% TGX Ready gel (Bo-Rad). Protein bands were visualized by silver stain technique... Silver-stained gel sections were prepared for MS analysis",
+          "source": "manuscript"
+        },
+        "Comment[Separation]": {
+          "value": "liquid chromatography",
+          "evidence": "LC-MS/MS analysis was conducted on either a Thermo Scientific Orbitrap Elite Hybrid Mass Spectrometer or QExactivePlus... both coupled to a Thermo Ultimate 3000 RSLCnano HPLC systems, using handpacked Magic C18 3 μm: 25 cm × 75-μm columns",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {},
+      "not_applicable": [
+        "Characteristics[Label]",
+        "Characteristics[Modification].2",
+        "Characteristics[Modification].3",
+        "Characteristics[Modification].4",
+        "Characteristics[Modification].5",
+        "Characteristics[Modification].6",
+        "Characteristics[Depletion]",
+        "Characteristics[SpikedCompound]",
+        "Characteristics[SyntheticPeptide]",
+        "Comment[EnrichmentMethod]",
+        "Comment[NumberOfFractions]"
+      ],
+      "summary": "プロテオミクス解析では、トリプシン消化、TCEP還元、ヨードアセトアミドアルキル化による標準的な試料調製が行われた。修飾として、メチオニン酸化とシステインのヨードアセトアミド誘導体が設定された。分離手法として、ゲル電気泳動による分画とLC-MS/MSによる分析が実施された。定量ラベルや濃縮手法の使用は記載されていない。"
+    },
+    "STEP3_MS_SETTINGS": {
+      "confirmed": {
+        "Comment[Instrument]": {
+          "value": "Orbitrap Elite; QExactivePlus",
+          "evidence": "LC-MS/MS analysis was conducted on either a Thermo Scientific Orbitrap Elite Hybrid Mass Spectrometer or QExactivePlus (Thermo Fisher Scientific, Bremen, Germany)",
+          "source": "manuscript"
+        },
+        "Comment[FragmentationMethod]": {
+          "value": "CID; HCD",
+          "evidence": "The Orbitrap Elite mass spectrometer experiment was set to perform...followed by linear ion trap rapid CID MS/MS scans on the top 25 ions. The QExactivePlus experiment performed...HCD on the 20 ions at 17,500",
+          "source": "manuscript"
+        },
+        "Comment[AcquisitionMethod]": {
+          "value": "data-dependent acquisition",
+          "evidence": "followed by linear ion trap rapid CID MS/MS scans on the top 25 ions. The QExactivePlus experiment performed...HCD on the 20 ions",
+          "source": "manuscript"
+        },
+        "Comment[MS2MassAnalyzer]": {
+          "value": "linear ion trap (Elite); orbitrap (QExactivePlus)",
+          "evidence": "followed by linear ion trap rapid CID MS/MS scans on the top 25 ions. The QExactivePlus experiment...HCD on the 20 ions at 17,500",
+          "source": "manuscript"
+        },
+        "Comment[PrecursorMassTolerance]": {
+          "value": "10.0 PPM",
+          "evidence": "parent ion tolerance of 10.0 PPM",
+          "source": "manuscript"
+        },
+        "Comment[FragmentMassTolerance]": {
+          "value": "0.60 Da (Elite); 0.02 Da (QExactivePlus)",
+          "evidence": "fragment ion mass tolerance of 0.60 Da for the Elite or 0.02 Da for the QXactive Plus raw files",
+          "source": "manuscript"
+        },
+        "Comment[FlowRateChromatogram]": {
+          "value": "325 nL/min",
+          "evidence": "using handpacked Magic C18 3 μm: 25 cm × 75-μm columns at ambient temperatures and Magic C18 5 μm trap at a flow rate of 325 nL/min",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {
+        "Comment[CollisionEnergy]": {
+          "candidates": [
+            "normalized collision energy",
+            "automatic collision energy"
+          ],
+          "reasoning": "HCDおよびCIDによるフラグメンテーションが使用されているが、具体的な衝突エネルギー値が記載されていない",
+          "needs": "装置設定の詳細パラメータ情報"
+        },
+        "Comment[NumberOfMissedCleavages]": {
+          "candidates": [
+            "2",
+            "1"
+          ],
+          "reasoning": "トリプシン消化が使用されているが、許容する未切断数が明記されていない。標準的には2が多用される",
+          "needs": "検索パラメータの詳細設定"
+        },
+        "Comment[GradientTime]": {
+          "candidates": [
+            "60-120分",
+            "90分"
+          ],
+          "reasoning": "25cm C18カラムを使用したnanoLCシステムが記載されているが、グラジエント時間が明記されていない",
+          "needs": "クロマトグラフィー条件の詳細"
+        }
+      },
+      "not_applicable": [
+        "Comment[IonizationType]"
+      ],
+      "summary": "質量分析では、Orbitrap EliteとQExactivePlusの2台が使用され、それぞれCIDとHCDによるフラグメンテーションが実施された。precursor mass toleranceは10.0 PPM、fragment mass toleranceはEliteで0.60 Da、QExactivePlusで0.02 Daに設定された。LC条件としてflow rate 325 nL/minが確定したが、衝突エネルギー、未切断許容数、グラジエント時間は未記載のため推定が必要。"
+    },
+    "STEP4_RAW_FILES": {
+      "confirmed": {
+        "Comment[FractionIdentifier]": {
+          "value": "per_file",
+          "per_file": {
+            "SKEML28_F4.raw": "4",
+            "SKMEL28_F2.raw": "2",
+            "A375_F7.raw": "7",
+            "C32TG_F2.raw": "2",
+            "C32TG_F8.raw": "8",
+            "A375_F3.raw": "3",
+            "SKMEL28_F2a.raw": "2a",
+            "A375_F8.raw": "8",
+            "C32TG_F7.raw": "7",
+            "A375_F4.raw": "4",
+            "C32TG_F6.raw": "6",
+            "C32TG_F3.raw": "3",
+            "SKMEL28_F6.raw": "6",
+            "SKMEL28_F3.raw": "3",
+            "A375_F1.raw": "1",
+            "A375_F2.raw": "2",
+            "C32TG_F1.raw": "1",
+            "C32TG_F4.raw": "4",
+            "C32TG_F9.raw": "9",
+            "A375_F6.raw": "6",
+            "C32TG_F5.raw": "5",
+            "A375_F5.raw": "5",
+            "SKMEL28_F1.raw": "1",
+            "SKMEL_F3b.raw": "3b",
+            "SKMEL28_F7.raw": "7",
+            "SKMEL28_F5.raw": "5",
+            "A375_F9.raw": "9"
+          },
+          "evidence": "ファイル名のF1-F9およびF2a, F3bのパターンからゲルベースのフラクション番号を特定",
+          "source": "filename_analysis"
+        },
+        "Characteristics[NumberOfSamples]": {
+          "value": "3",
+          "evidence": "Protein identifications matched across all three melanoma cell line EV preparations (SKMEL28, C32TG, A375)",
+          "source": "manuscript"
+        },
+        "FactorValue[CellLine]": {
+          "value": "per_file",
+          "per_file": {
+            "SKEML28_F4.raw": "SKMEL28",
+            "SKMEL28_F2.raw": "SKMEL28",
+            "A375_F7.raw": "A375",
+            "C32TG_F2.raw": "C32TG",
+            "C32TG_F8.raw": "C32TG",
+            "A375_F3.raw": "A375",
+            "SKMEL28_F2a.raw": "SKMEL28",
+            "A375_F8.raw": "A375",
+            "C32TG_F7.raw": "C32TG",
+            "A375_F4.raw": "A375",
+            "C32TG_F6.raw": "C32TG",
+            "C32TG_F3.raw": "C32TG",
+            "SKMEL28_F6.raw": "SKMEL28",
+            "SKMEL28_F3.raw": "SKMEL28",
+            "A375_F1.raw": "A375",
+            "A375_F2.raw": "A375",
+            "C32TG_F1.raw": "C32TG",
+            "C32TG_F4.raw": "C32TG",
+            "C32TG_F9.raw": "C32TG",
+            "A375_F6.raw": "A375",
+            "C32TG_F5.raw": "C32TG",
+            "A375_F5.raw": "A375",
+            "SKMEL28_F1.raw": "SKMEL28",
+            "SKMEL_F3b.raw": "SKMEL28",
+            "SKMEL28_F7.raw": "SKMEL28",
+            "SKMEL28_F5.raw": "SKMEL28",
+            "A375_F9.raw": "A375"
+          },
+          "evidence": "Human melanoma cell lines SKMEL28 (HTB-72), A375 (CRL-1619), and C32TG (CRL-1579)が使用され、ファイル名プレフィックスで識別される",
+          "source": "manuscript"
+        },
+        "FactorValue[Treatment]": {
+          "value": "hypoxic culture",
+          "evidence": "Extracellular vesicles were cultured under hypoxic and reduced serum conditions. For hypoxia induction, Petaka G3 low oxygen transfer flasks were used to culture melanoma cell lines for 48 h",
+          "source": "manuscript"
+        },
+        "Characteristics[BiologicalReplicate]": {
+          "value": "1",
+          "evidence": "各細胞株（SKMEL28, A375, C32TG）につき1つのEV調製からの複数フラクション解析パターンで、生物学的反復は1つ",
+          "source": "filename_analysis"
+        }
+      },
+      "hypotheses": {
+        "Characteristics[NumberOfBiologicalReplicates]": {
+          "candidates": [
+            "1",
+            "3"
+          ],
+          "reasoning": "各細胞株を独立したサンプルと見なすか（3）、全体で1つの実験と見なすか（1）の解釈による",
+          "needs": "実験デザインの明確化"
+        },
+        "Characteristics[NumberOfTechnicalReplicates]": {
+          "candidates": [
+            "9",
+            "variable"
+          ],
+          "reasoning": "各細胞株のフラクション数が異なる（SKMEL28: 9, A375: 9, C32TG: 9）が、これが技術的反復かフラクション数かの判断が必要",
+          "needs": "フラクションと技術的反復の定義確認"
+        },
+        "FactorValue[FractionIdentifier]": {
+          "candidates": [
+            "per_file",
+            "Not Applicable"
+          ],
+          "reasoning": "Comment[FractionIdentifier]と同じ情報の可能性があるが、FactorValueとしての扱いが不明",
+          "needs": "FactorValueとCommentの使い分け基準確認"
+        }
+      },
+      "not_applicable": [
+        "FactorValue[Temperature]",
+        "FactorValue[Disease]",
+        "FactorValue[GeneticModification]",
+        "FactorValue[Compound]",
+        "FactorValue[Bait]",
+        "FactorValue[CellPart]",
+        "FactorValue[ConcentrationOfCompound].1"
+      ],
+      "summary": "rawファイル名解析により、3つのメラノーマ細胞株（SKMEL28, A375, C32TG）由来のEVsをゲルベースで分画した実験構成が確定した。各ファイルのフラクション番号と細胞株が特定され、低酸素培養条件での処理が確認された。生物学的反復数については、細胞株を独立サンプルと見なすか統合実験と見なすかで解釈が分かれる。技術的反復とフラクション数の区別が今後の課題。"
+    }
+  }
+}

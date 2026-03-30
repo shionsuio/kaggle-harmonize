@@ -1,0 +1,631 @@
+{
+  "pxd": "PXD002395",
+  "raw_files": [
+    "20100618_Velos1_TaGe_SA_U2OS_6.raw",
+    "20100609_Velos1_TaGe_SA_293_1.raw",
+    "20100730_Velos1_TaGe_SA_Jurkat_01.raw",
+    "20100609_Velos1_TaGe_SA_GAMG_5.raw",
+    "20100730_Velos1_TaGe_SA_K565_5.raw",
+    "20100730_Velos1_TaGe_SA_Jurkat_06_100731121305.raw",
+    "20100721_Velos1_TaGe_SA_U2OS_4.raw",
+    "20100616_Velos1_TaGe_SA_MCF7_6.raw",
+    "20101227_Velos1_TaGe_SA_GAMG5.raw",
+    "20100616_Velos1_TaGe_SA_RKO_3.raw",
+    "20100611_Velos1_TaGe_SA_HepG2_5.raw",
+    "20100616_Velos1_TaGe_SA_RKO_1.raw",
+    "20101222_Velos1_TaGe_SA_K562_01.raw",
+    "20101227_Velos1_TaGe_SA_HEK293_03.raw",
+    "20101224_Velos1_TaGe_SA_HepG2_5.raw",
+    "20100611_Velos1_TaGe_SA_Hela_2.raw",
+    "20100719_Velos1_TaGe_SA_MCF7_03.raw",
+    "20100611_Velos1_TaGe_SA_Hela_3.raw",
+    "20100723_Velos1_TaGe_SA_Gamg_6.raw",
+    "20100618_Velos1_TaGe_SA_LanCap_4.raw",
+    "20100616_Velos1_TaGe_SA_RKO_6.raw",
+    "20100616_Velos1_TaGe_SA_MCF7_5.raw",
+    "20100614_Velos1_TaGe_SA_K562_6.raw",
+    "20100801_Velos1_TaGe_SA_RKO_03.raw",
+    "20100805_Velos1_TaGe_SA_RKO_05.raw",
+    "20100726_Velos1_TaGe_SA_HepG2_3.raw",
+    "20100723_Velos1_TaGe_SA_Hek293_02.raw",
+    "20101227_Velos1_TaGe_SA_GAMG2_101229143203.raw",
+    "20101210_Velos1_AnWe_SA_MCF7_6.raw",
+    "20100611_Velos1_TaGe_SA_HepG2_3.raw",
+    "20100721_Velos1_TaGe_SA_A549_02.raw",
+    "20100726_Velos1_TaGe_SA_HepG2_2.raw",
+    "20101210_Velos1_AnWe_SA_LnCap_6.raw",
+    "20100611_Velos1_TaGe_SA_Hela_4.raw",
+    "20100614_Velos1_TaGe_SA_Jurkat_1.raw",
+    "20100719_Velos1_TaGe_SA_MCF7_05.raw",
+    "20100616_Velos1_TaGe_SA_MCF7_4.raw",
+    "20101224_Velos1_TaGe_SA_HeLa_01.raw",
+    "20100604_Velos1_TaGe_SA_A549_4.raw",
+    "20100805_Velos1_TaGe_SA_RKO_06.raw",
+    "20100719_Velos1_TaGe_SA_LnCap_6.raw",
+    "20100730_Velos1_TaGe_SA_Jurkat_03.raw",
+    "20101210_Velos1_AnWe_SA_LnCap_3.raw",
+    "20100723_Velos1_TaGe_SA_Hek293_06.raw",
+    "20101210_Velos1_AnWe_SA_U2OS_2.raw",
+    "20100723_Velos1_TaGe_SA_Gamg_3.raw",
+    "20100618_Velos1_TaGe_SA_U2OS_1.raw",
+    "20100616_Velos1_TaGe_SA_MCF7_2.raw",
+    "20100611_Velos1_TaGe_SA_HepG2_4.raw",
+    "20101215_Velos1_TaGe_SA_A549_06.raw",
+    "20100618_Velos1_TaGe_SA_LanCap_2.raw",
+    "20100801_Velos1_TaGe_SA_RKO_01.raw",
+    "20101224_Velos1_TaGe_SA_HepG2_2.raw",
+    "20100726_Velos1_TaGe_SA_HeLa_4.raw",
+    "20100726_Velos1_TaGe_SA_HeLa_1.raw",
+    "20100726_Velos1_TaGe_SA_HepG2_5.raw",
+    "20100618_Velos1_TaGe_SA_LanCap_3.raw",
+    "20101215_Velos1_TaGe_SA_A549_01.raw",
+    "20101210_Velos1_AnWe_SA_U2OS_5.raw",
+    "20101227_Velos1_TaGe_SA_HEK293_05.raw",
+    "20100723_Velos1_TaGe_SA_Hek293_05.raw",
+    "20101227_Velos1_TaGe_SA_GAMG4.raw",
+    "20100719_Velos1_TaGe_SA_LnCap_5.raw",
+    "20100721_Velos1_TaGe_SA_A549_03.raw",
+    "20100723_Velos1_TaGe_SA_Hek293_04.raw",
+    "20100611_Velos1_TaGe_SA_Hela_1.raw",
+    "20101224_Velos1_TaGe_SA_HepG2_1.raw",
+    "20101223_Velos1_TaGe_SA_RKO_04.raw",
+    "20100618_Velos1_TaGe_SA_U2OS_3.raw",
+    "20101224_Velos1_TaGe_SA_HeLa_05.raw",
+    "20101210_Velos1_AnWe_SA_LnCap_2.raw",
+    "20101227_Velos1_TaGe_SA_GAMG3.raw",
+    "20101227_Velos1_TaGe_SA_GAMG_101230100451.raw",
+    "20100611_Velos1_TaGe_SA_HepG2_1.raw",
+    "20101215_Velos1_TaGe_SA_A549_02.raw",
+    "20100618_Velos1_TaGe_SA_U2OS_5.raw",
+    "20100618_Velos1_TaGe_SA_LanCap_6.raw",
+    "20100721_Velos1_TaGe_SA_U2OS_5.raw",
+    "20100719_Velos1_TaGe_SA_LnCap_4.raw",
+    "20100618_Velos1_TaGe_SA_LanCap_1.raw",
+    "20100609_Velos1_TaGe_SA_GAMG_1.raw",
+    "20101223_Velos1_TaGe_SA_RKO_02.raw",
+    "20101227_Velos1_TaGe_SA_HEK293_01.raw",
+    "20100616_Velos1_TaGe_SA_RKO_4.raw",
+    "20101210_Velos1_AnWe_SA_MCF7_4.raw",
+    "20101210_Velos1_AnWe_SA_U2OS_3.raw",
+    "20100719_Velos1_TaGe_SA_MCF7_04.raw",
+    "20100614_Velos1_TaGe_SA_Jurkat_4.raw",
+    "20100609_Velos1_TaGe_SA_293_3.raw",
+    "20101230_Velos1_TaGe_SA_Jurkat3.raw",
+    "20100719_Velos1_TaGe_SA_MCF7_01.raw",
+    "20100611_Velos1_TaGe_SA_Hela_5.raw",
+    "20100614_Velos1_TaGe_SA_Jurkat_5.raw",
+    "20100801_Velos1_TaGe_SA_RKO_04.raw",
+    "20101210_Velos1_AnWe_SA_MCF7_3.raw",
+    "20100611_Velos1_TaGe_SA_Hela_6.raw",
+    "20100723_Velos1_TaGe_SA_Gamg_5.raw",
+    "20100719_Velos1_TaGe_SA_LnCap_2.raw",
+    "20100614_Velos1_TaGe_SA_K562_2.raw",
+    "20100730_Velos1_TaGe_SA_Jurkat_04.raw",
+    "20101230_Velos1_TaGe_SA_Jurkat2.raw",
+    "20100730_Velos1_TaGe_SA_K562_2.raw",
+    "20101227_Velos1_TaGe_SA_HEK293_02.raw",
+    "20101224_Velos1_TaGe_SA_HeLa_04.raw",
+    "20100618_Velos1_TaGe_SA_U2OS_2.raw",
+    "20100719_Velos1_TaGe_SA_LnCap_3.raw",
+    "20100609_Velos1_TaGe_SA_GAMG_6.raw",
+    "20100726_Velos1_TaGe_SA_HepG2_6.raw",
+    "20100609_Velos1_TaGe_SA_GAMG_3.raw",
+    "20100723_Velos1_TaGe_SA_Hek293_01.raw",
+    "20101224_Velos1_TaGe_SA_HepG2_4.raw",
+    "20100726_Velos1_TaGe_SA_HeLa_3.raw",
+    "20101223_Velos1_TaGe_SA_RKO_05.raw",
+    "20101215_Velos1_TaGe_SA_A549_04.raw",
+    "20101210_Velos1_AnWe_SA_MCF7_5.raw",
+    "20101223_Velos1_TaGe_SA_RKO_01.raw",
+    "20101222_Velos1_TaGe_SA_K562_04.raw",
+    "20100616_Velos1_TaGe_SA_RKO_5.raw",
+    "20100618_Velos1_TaGe_SA_U2OS_4.raw",
+    "20100721_Velos1_TaGe_SA_A549_06.raw",
+    "20101210_Velos1_AnWe_SA_U2OS_6.raw",
+    "20100611_Velos1_TaGe_SA_HepG2_6.raw",
+    "20100609_Velos1_TaGe_SA_293_5.raw",
+    "20100721_Velos1_TaGe_SA_U2OS_1.raw",
+    "20101215_Velos1_TaGe_SA_A549_05.raw",
+    "20101223_Velos1_TaGe_SA_RKO_06.raw",
+    "20100730_Velos1_TaGe_SA_K564_3.raw",
+    "20100604_Velos1_TaGe_SA_A549_2.raw",
+    "20100730_Velos1_TaGe_SA_K562_1.raw",
+    "20100730_Velos1_TaGe_SA_Jurkat_05.raw",
+    "20100609_Velos1_TaGe_SA_293_2.raw",
+    "20100618_Velos1_TaGe_SA_LanCap_5.raw",
+    "20101210_Velos1_AnWe_SA_LnCap_5.raw",
+    "20101222_Velos1_TaGe_SA_K562_02.raw",
+    "20101230_Velos1_TaGe_SA_Jurkat6.raw",
+    "20100609_Velos1_TaGe_SA_293_4.raw",
+    "20101210_Velos1_AnWe_SA_MCF7_2.raw",
+    "20101230_Velos1_TaGe_SA_Jurkat1.raw",
+    "20101224_Velos1_TaGe_SA_HepG2_3.raw",
+    "20101224_Velos1_TaGe_SA_HepG2_6.raw",
+    "20100609_Velos1_TaGe_SA_GAMG_2.raw",
+    "20101210_Velos1_AnWe_SA_LnCap_4.raw",
+    "20101210_Velos1_AnWe_SA_LnCap_1.raw",
+    "20100611_Velos1_TaGe_SA_HepG2_2.raw",
+    "20100614_Velos1_TaGe_SA_K562_4.raw",
+    "20100614_Velos1_TaGe_SA_Jurkat_6.raw",
+    "20100614_Velos1_TaGe_SA_K562_5.raw",
+    "20101210_Velos1_AnWe_SA_U2OS_4.raw",
+    "20101224_Velos1_TaGe_SA_HeLa_06.raw",
+    "20101215_Velos1_TaGe_SA_A549_03.raw",
+    "20101222_Velos1_TaGe_SA_K562_05.raw",
+    "20100726_Velos1_TaGe_SA_HeLa_5.raw",
+    "20100726_Velos1_TaGe_SA_HeLa_2.raw",
+    "20100721_Velos1_TaGe_SA_U2OS_6.raw",
+    "20100609_Velos1_TaGe_SA_293_6.raw",
+    "20100604_Velos1_TaGe_SA_A549_1.raw",
+    "20100719_Velos1_TaGe_SA_LnCap_1.raw",
+    "20100604_Velos1_TaGe_SA_A549_3.raw",
+    "20100726_Velos1_TaGe_SA_HepG2_1.raw",
+    "20100801_Velos1_TaGe_SA_RKO_02.raw",
+    "20100723_Velos1_TaGe_SA_Gamg_4.raw",
+    "20101227_Velos1_TaGe_SA_GAMG6.raw",
+    "20100614_Velos1_TaGe_SA_Jurkat_3.raw",
+    "20101210_Velos1_AnWe_SA_MCF7_1.raw",
+    "20100616_Velos1_TaGe_SA_RKO_2.raw",
+    "20101227_Velos1_TaGe_SA_HEK293_06.raw",
+    "20101223_Velos1_TaGe_SA_RKO_03.raw",
+    "20100604_Velos1_TaGe_SA_A549_5.raw",
+    "20100719_Velos1_TaGe_SA_MCF7_02.raw",
+    "20100614_Velos1_TaGe_SA_Jurkat_2.raw",
+    "20100721_Velos1_TaGe_SA_A549_04.raw",
+    "20100721_Velos1_TaGe_SA_U2OS_2.raw",
+    "20101224_Velos1_TaGe_SA_HeLa_03.raw",
+    "20101230_Velos1_TaGe_SA_Jurkat5.raw",
+    "20100723_Velos1_TaGe_SA_Gamg_1.raw",
+    "20100726_Velos1_TaGe_SA_HepG2_4.raw",
+    "20100614_Velos1_TaGe_SA_K562_1.raw",
+    "20100730_Velos1_TaGe_SA_Jurkat_02.raw",
+    "20100719_Velos1_TaGe_SA_MCF7_06.raw",
+    "20100721_Velos1_TaGe_SA_A549_01.raw",
+    "20101222_Velos1_TaGe_SA_K562_03.raw",
+    "20101222_Velos1_TaGe_SA_K562_06.raw",
+    "20100723_Velos1_TaGe_SA_Gamg_2.raw",
+    "20101210_Velos1_AnWe_SA_U2OS_1.raw",
+    "20101227_Velos1_TaGe_SA_HEK293_04.raw",
+    "20100730_Velos1_TaGe_SA_K565_6.raw",
+    "20100604_Velos1_TaGe_SA_A549_6.raw",
+    "20100614_Velos1_TaGe_SA_K562_3.raw",
+    "20100609_Velos1_TaGe_SA_GAMG_4.raw",
+    "20100721_Velos1_TaGe_SA_A549_05.raw",
+    "20101224_Velos1_TaGe_SA_HeLa_02.raw",
+    "20100723_Velos1_TaGe_SA_Hek293_03.raw",
+    "20101230_Velos1_TaGe_SA_Jurkat4.raw",
+    "20100616_Velos1_TaGe_SA_MCF7_3.raw",
+    "20100721_Velos1_TaGe_SA_U2OS_3.raw",
+    "20100730_Velos1_TaGe_SA_K565_4.raw",
+    "20100726_Velos1_TaGe_SA_HeLa_6.raw",
+    "20100616_Velos1_TaGe_SA_MCF7_1.raw"
+  ],
+  "anchor": {
+    "pxd": "PXD002395",
+    "source": "PRIDE_API",
+    "organism": [
+      {
+        "name": "Homo sapiens (human)",
+        "accession": "NEWT:9606"
+      }
+    ],
+    "instruments": [
+      {
+        "name": "LTQ Orbitrap Velos",
+        "accession": "MS:1001742",
+        "sdrf_format": "AC=MS:1001742;NT=LTQ Orbitrap Velos"
+      }
+    ],
+    "modifications": [],
+    "organism_parts": [
+      {
+        "name": "Epithelial cell",
+        "accession": "CL:0000066"
+      },
+      {
+        "name": "Jurkat cell",
+        "accession": "BTO:0000661"
+      },
+      {
+        "name": "T cell",
+        "accession": "CL:0000084"
+      },
+      {
+        "name": "Cell culture",
+        "accession": "BTO:0000214"
+      },
+      {
+        "name": "Hepatocyte",
+        "accession": "CL:0000182"
+      }
+    ],
+    "diseases": [
+      {
+        "name": "Cervix carcinoma",
+        "accession": "DOID:2893"
+      },
+      {
+        "name": "Acute leukemia",
+        "accession": "DOID:12603"
+      },
+      {
+        "name": "Brain cancer",
+        "accession": "DOID:1319"
+      },
+      {
+        "name": "Glioblastoma",
+        "accession": "DOID:3068"
+      }
+    ],
+    "experiment_types": [
+      "Shotgun proteomics"
+    ],
+    "quantification_methods": [],
+    "keywords": [
+      "Deep proteome",
+      "Human"
+    ],
+    "publications": [
+      {
+        "pubmed_id": "",
+        "doi": "10.1074/mcp.M111.014050",
+        "ref": "Geiger T, Wehner A, Schaab C, Cox J, Mann M; Comparative proteomic analysis of eleven common cell lines reveals ubiquitous but varying expression of most proteins., Mol Cell Proteomics, 2012 Mar, 11, 3, M111.014050, "
+      }
+    ],
+    "inferred_fragmentation": null,
+    "inferred_ms2_analyzer": "orbitrap",
+    "inferred_ionization": "nanoESI",
+    "raw_files": [
+      "20100618_Velos1_TaGe_SA_U2OS_6.raw",
+      "20100609_Velos1_TaGe_SA_293_1.raw",
+      "20100730_Velos1_TaGe_SA_Jurkat_01.raw",
+      "20100609_Velos1_TaGe_SA_GAMG_5.raw",
+      "20100730_Velos1_TaGe_SA_K565_5.raw",
+      "20100730_Velos1_TaGe_SA_Jurkat_06_100731121305.raw",
+      "20100721_Velos1_TaGe_SA_U2OS_4.raw",
+      "20100616_Velos1_TaGe_SA_MCF7_6.raw",
+      "20101227_Velos1_TaGe_SA_GAMG5.raw",
+      "20100616_Velos1_TaGe_SA_RKO_3.raw",
+      "20100611_Velos1_TaGe_SA_HepG2_5.raw",
+      "20100616_Velos1_TaGe_SA_RKO_1.raw",
+      "20101222_Velos1_TaGe_SA_K562_01.raw",
+      "20101227_Velos1_TaGe_SA_HEK293_03.raw",
+      "20101224_Velos1_TaGe_SA_HepG2_5.raw",
+      "20100611_Velos1_TaGe_SA_Hela_2.raw",
+      "20100719_Velos1_TaGe_SA_MCF7_03.raw",
+      "20100611_Velos1_TaGe_SA_Hela_3.raw",
+      "20100723_Velos1_TaGe_SA_Gamg_6.raw",
+      "20100618_Velos1_TaGe_SA_LanCap_4.raw",
+      "20100616_Velos1_TaGe_SA_RKO_6.raw",
+      "20100616_Velos1_TaGe_SA_MCF7_5.raw",
+      "20100614_Velos1_TaGe_SA_K562_6.raw",
+      "20100801_Velos1_TaGe_SA_RKO_03.raw",
+      "20100805_Velos1_TaGe_SA_RKO_05.raw",
+      "20100726_Velos1_TaGe_SA_HepG2_3.raw",
+      "20100723_Velos1_TaGe_SA_Hek293_02.raw",
+      "20101227_Velos1_TaGe_SA_GAMG2_101229143203.raw",
+      "20101210_Velos1_AnWe_SA_MCF7_6.raw",
+      "20100611_Velos1_TaGe_SA_HepG2_3.raw",
+      "20100721_Velos1_TaGe_SA_A549_02.raw",
+      "20100726_Velos1_TaGe_SA_HepG2_2.raw",
+      "20101210_Velos1_AnWe_SA_LnCap_6.raw",
+      "20100611_Velos1_TaGe_SA_Hela_4.raw",
+      "20100614_Velos1_TaGe_SA_Jurkat_1.raw",
+      "20100719_Velos1_TaGe_SA_MCF7_05.raw",
+      "20100616_Velos1_TaGe_SA_MCF7_4.raw",
+      "20101224_Velos1_TaGe_SA_HeLa_01.raw",
+      "20100604_Velos1_TaGe_SA_A549_4.raw",
+      "20100805_Velos1_TaGe_SA_RKO_06.raw",
+      "20100719_Velos1_TaGe_SA_LnCap_6.raw",
+      "20100730_Velos1_TaGe_SA_Jurkat_03.raw",
+      "20101210_Velos1_AnWe_SA_LnCap_3.raw",
+      "20100723_Velos1_TaGe_SA_Hek293_06.raw",
+      "20101210_Velos1_AnWe_SA_U2OS_2.raw",
+      "20100723_Velos1_TaGe_SA_Gamg_3.raw",
+      "20100618_Velos1_TaGe_SA_U2OS_1.raw",
+      "20100616_Velos1_TaGe_SA_MCF7_2.raw",
+      "20100611_Velos1_TaGe_SA_HepG2_4.raw",
+      "20101215_Velos1_TaGe_SA_A549_06.raw",
+      "20100618_Velos1_TaGe_SA_LanCap_2.raw",
+      "20100801_Velos1_TaGe_SA_RKO_01.raw",
+      "20101224_Velos1_TaGe_SA_HepG2_2.raw",
+      "20100726_Velos1_TaGe_SA_HeLa_4.raw",
+      "20100726_Velos1_TaGe_SA_HeLa_1.raw",
+      "20100726_Velos1_TaGe_SA_HepG2_5.raw",
+      "20100618_Velos1_TaGe_SA_LanCap_3.raw",
+      "20101215_Velos1_TaGe_SA_A549_01.raw",
+      "20101210_Velos1_AnWe_SA_U2OS_5.raw",
+      "20101227_Velos1_TaGe_SA_HEK293_05.raw",
+      "20100723_Velos1_TaGe_SA_Hek293_05.raw",
+      "20101227_Velos1_TaGe_SA_GAMG4.raw",
+      "20100719_Velos1_TaGe_SA_LnCap_5.raw",
+      "20100721_Velos1_TaGe_SA_A549_03.raw",
+      "20100723_Velos1_TaGe_SA_Hek293_04.raw",
+      "20100611_Velos1_TaGe_SA_Hela_1.raw",
+      "20101224_Velos1_TaGe_SA_HepG2_1.raw",
+      "20101223_Velos1_TaGe_SA_RKO_04.raw",
+      "20100618_Velos1_TaGe_SA_U2OS_3.raw",
+      "20101224_Velos1_TaGe_SA_HeLa_05.raw",
+      "20101210_Velos1_AnWe_SA_LnCap_2.raw",
+      "20101227_Velos1_TaGe_SA_GAMG3.raw",
+      "20101227_Velos1_TaGe_SA_GAMG_101230100451.raw",
+      "20100611_Velos1_TaGe_SA_HepG2_1.raw",
+      "20101215_Velos1_TaGe_SA_A549_02.raw",
+      "20100618_Velos1_TaGe_SA_U2OS_5.raw",
+      "20100618_Velos1_TaGe_SA_LanCap_6.raw",
+      "20100721_Velos1_TaGe_SA_U2OS_5.raw",
+      "20100719_Velos1_TaGe_SA_LnCap_4.raw",
+      "20100618_Velos1_TaGe_SA_LanCap_1.raw",
+      "20100609_Velos1_TaGe_SA_GAMG_1.raw",
+      "20101223_Velos1_TaGe_SA_RKO_02.raw",
+      "20101227_Velos1_TaGe_SA_HEK293_01.raw",
+      "20100616_Velos1_TaGe_SA_RKO_4.raw",
+      "20101210_Velos1_AnWe_SA_MCF7_4.raw",
+      "20101210_Velos1_AnWe_SA_U2OS_3.raw",
+      "20100719_Velos1_TaGe_SA_MCF7_04.raw",
+      "20100614_Velos1_TaGe_SA_Jurkat_4.raw",
+      "20100609_Velos1_TaGe_SA_293_3.raw",
+      "20101230_Velos1_TaGe_SA_Jurkat3.raw",
+      "20100719_Velos1_TaGe_SA_MCF7_01.raw",
+      "20100611_Velos1_TaGe_SA_Hela_5.raw",
+      "20100614_Velos1_TaGe_SA_Jurkat_5.raw",
+      "20100801_Velos1_TaGe_SA_RKO_04.raw",
+      "20101210_Velos1_AnWe_SA_MCF7_3.raw",
+      "20100611_Velos1_TaGe_SA_Hela_6.raw",
+      "20100723_Velos1_TaGe_SA_Gamg_5.raw",
+      "20100719_Velos1_TaGe_SA_LnCap_2.raw",
+      "20100614_Velos1_TaGe_SA_K562_2.raw",
+      "20100730_Velos1_TaGe_SA_Jurkat_04.raw"
+    ]
+  },
+  "steps": {
+    "STEP1_OVERVIEW": {
+      "confirmed": {
+        "Characteristics[Organism]": {
+          "value": "Homo sapiens (human)",
+          "evidence": "We analyzed 11 human cell lines",
+          "source": "manuscript"
+        },
+        "Characteristics[MaterialType]": {
+          "value": "cell line",
+          "evidence": "We analyzed 11 human cell lines using an LTQ-Orbitrap family mass spectrometer",
+          "source": "manuscript"
+        },
+        "Characteristics[Label]": {
+          "value": "super-SILAC",
+          "evidence": "We harness knowledge of these cell line proteomes for the construction of a broad coverage \"super-SILAC\" quantification standard",
+          "source": "manuscript"
+        },
+        "Comment[AcquisitionMethod]": {
+          "value": "Shotgun proteomics",
+          "evidence": "Mass spectrometry-based proteomics can identify and quantify proteins in a global and unbiased manner",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {
+        "Characteristics[CellLine]": {
+          "candidates": [
+            "11 different human cell lines"
+          ],
+          "reasoning": "論文は11種類のヒト細胞株を解析したと明記しているが、具体的な細胞株名（HeLa, HEK293T等）は記載されていない",
+          "needs": "具体的な細胞株名のリスト"
+        },
+        "Characteristics[CellType]": {
+          "candidates": [
+            "various cell types from different origins"
+          ],
+          "reasoning": "「distinct origins of the cell lines」と記載されており、異なる由来の細胞株を使用していることが示唆される",
+          "needs": "各細胞株の具体的な細胞タイプ情報"
+        }
+      },
+      "not_applicable": [
+        "Characteristics[OrganismPart]",
+        "Characteristics[Disease]",
+        "Characteristics[Specimen]",
+        "Characteristics[Strain]",
+        "Characteristics[GeneticModification]",
+        "Characteristics[Treatment]",
+        "Characteristics[DevelopmentalStage]",
+        "Characteristics[Compound]",
+        "Characteristics[ConcentrationOfCompound]"
+      ],
+      "summary": "11種類のヒト細胞株を用いたsuper-SILAC標識プロテオミクス解析が確定。アンカー情報の上皮細胞、Jurkat細胞、T細胞、肝細胞や各種疾患情報は論文概要では確認できず。具体的な細胞株名と細胞タイプの詳細情報が次ステップで必要。"
+    },
+    "STEP2_SAMPLE_PREP": {
+      "confirmed": {
+        "Characteristics[CleavageAgent]": {
+          "value": "trypsin",
+          "evidence": "Cell lysates (100 μg) were diluted in 8 m urea in 0.1 m Tris-HCl followed by protein digestion with trypsin according to the FASP protocol",
+          "source": "manuscript"
+        },
+        "Characteristics[ReductionReagent]": {
+          "value": "dithiothreitol",
+          "evidence": "Cells were lysed with a buffer consisting of 0.1 m Tris-HCl, pH 7.5, 0.1 m dithiothreitol and 4% SDS",
+          "source": "manuscript"
+        },
+        "Characteristics[Label]": {
+          "value": "super-SILAC",
+          "evidence": "For SILAC experiments Jurkat, HEK293, LnCap, HeLa, and K562 cells were cultured in medium containing Lys8 and Arg10 instead of the natural amino acids... For the preparation of super-SILAC mix equal amounts of heavy lysates were mixed",
+          "source": "manuscript"
+        },
+        "Characteristics[Modification]": {
+          "value": "carbamidomethyl cysteine",
+          "evidence": "The search included variable modifications of methionine oxidation and N-terminal acetylation, and fixed modification of carbamidomethyl cysteine",
+          "source": "manuscript"
+        },
+        "Characteristics[Modification].1": {
+          "value": "methionine oxidation",
+          "evidence": "The search included variable modifications of methionine oxidation and N-terminal acetylation",
+          "source": "manuscript"
+        },
+        "Characteristics[Modification].2": {
+          "value": "N-terminal acetylation",
+          "evidence": "The search included variable modifications of methionine oxidation and N-terminal acetylation",
+          "source": "manuscript"
+        },
+        "Comment[FractionationMethod]": {
+          "value": "strong anion exchange",
+          "evidence": "From each sample 40 μg of peptides were separated into six fractions by strong anion exchange as described previously",
+          "source": "manuscript"
+        },
+        "Comment[NumberOfFractions]": {
+          "value": "6",
+          "evidence": "From each sample 40 μg of peptides were separated into six fractions by strong anion exchange",
+          "source": "manuscript"
+        },
+        "Comment[Separation]": {
+          "value": "reverse-phase chromatography",
+          "evidence": "Peptides were separated by reverse-phase chromatography on in-house made 20-cm columns",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {
+        "Characteristics[AlkylationReagent]": {
+          "candidates": [
+            "iodoacetamide",
+            "chloroacetamide"
+          ],
+          "reasoning": "carbamidomethyl cysteineが固定修飾として記載されており、この修飾は通常alkylation reagentによって導入される",
+          "needs": "FASP protocolの詳細またはアルキル化試薬の明示的記載"
+        }
+      },
+      "not_applicable": [
+        "Characteristics[Modification].3",
+        "Characteristics[Modification].4",
+        "Characteristics[Modification].5",
+        "Characteristics[Modification].6",
+        "Characteristics[Depletion",
+        "Characteristics[SpikedCompound]",
+        "Characteristics[SyntheticPeptide]",
+        "Comment[EnrichmentMethod]"
+      ],
+      "summary": "サンプル調製では trypsin による FASP プロトコル消化、DTT 還元、carbamidomethyl cysteine 固定修飾と methionine oxidation/N-terminal acetylation 可変修飾が確定。6分画の強陰イオン交換分離と逆相クロマトグラフィー分離を実施。アルキル化試薬のみ未確定だが carbamidomethyl 修飾から推定可能。"
+    },
+    "STEP3_MS_SETTINGS": {
+      "confirmed": {
+        "Comment[Instrument]": {
+          "value": "LTQ-Orbitrap Velos",
+          "evidence": "The high performance liquid chromatography (HPLC) was coupled to an LTQ-Orbitrap Velos mass spectrometer (Thermo Fisher Scientific).",
+          "source": "manuscript"
+        },
+        "Comment[FragmentationMethod]": {
+          "value": "HCD",
+          "evidence": "Peptide fragmentation was performed with the HCD method and MS/MS spectra were acquired in the Orbitrap analyzer",
+          "source": "manuscript"
+        },
+        "Comment[AcquisitionMethod]": {
+          "value": "data-dependent acquisition",
+          "evidence": "Mass spectra were acquired in a data-dependent manner, with an automatic switch between MS and MS/MS scans using a top 10 method.",
+          "source": "manuscript"
+        },
+        "Comment[IonizationType]": {
+          "value": "nanoESI",
+          "evidence": "nanoESI",
+          "source": "anchor"
+        },
+        "Comment[MS2MassAnalyzer]": {
+          "value": "orbitrap",
+          "evidence": "MS/MS spectra were acquired in the Orbitrap analyzer",
+          "source": "manuscript"
+        },
+        "Comment[PrecursorMassTolerance]": {
+          "value": "6 ppm",
+          "evidence": "In the main Andromeda search precursor mass and fragment mass had an initial mass tolerance of 6 ppm and 20 ppm, respectively.",
+          "source": "manuscript"
+        },
+        "Comment[FragmentMassTolerance]": {
+          "value": "20 ppm",
+          "evidence": "In the main Andromeda search precursor mass and fragment mass had an initial mass tolerance of 6 ppm and 20 ppm, respectively.",
+          "source": "manuscript"
+        },
+        "Comment[NumberOfMissedCleavages]": {
+          "value": "2",
+          "evidence": "a maximum of two miscleavages was allowed",
+          "source": "manuscript"
+        },
+        "Comment[GradientTime]": {
+          "value": "200 min",
+          "evidence": "eluted with a 200 min linear gradient from 2 to 30% buffer B",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {
+        "Comment[CollisionEnergy]": {
+          "candidates": [
+            "HCD default energy",
+            "normalized collision energy"
+          ],
+          "reasoning": "HCD fragmentationが使用されているが、具体的な衝突エネルギー値は記載されていない",
+          "needs": "HCDパラメータの詳細設定情報"
+        }
+      },
+      "not_applicable": [
+        "Comment[FlowRateChromatogram]"
+      ],
+      "summary": "質量分析装置はLTQ-Orbitrap Velosを使用し、HCDフラグメンテーション、data-dependent acquisition（top 10）、nanoESI イオン化、orbitrap MS/MS解析が確定。質量許容差は前駆体6 ppm、フラグメント20 ppm、最大2ミスクリベージ、200分グラジエントが確定。衝突エネルギーのみ未確定だが、HCD使用は確認済み。"
+    },
+    "STEP4_RAW_FILES": {
+      "confirmed": {
+        "Comment[FractionIdentifier]": {
+          "value": "per_file",
+          "per_file": {
+            "20100618_Velos1_TaGe_SA_U2OS_6.raw": "6",
+            "20100609_Velos1_TaGe_SA_293_1.raw": "1",
+            "20100730_Velos1_TaGe_SA_Jurkat_01.raw": "1",
+            "20100609_Velos1_TaGe_SA_GAMG_5.raw": "5",
+            "20100730_Velos1_TaGe_SA_K565_5.raw": "5",
+            "20100730_Velos1_TaGe_SA_Jurkat_06_100731121305.raw": "6",
+            "20100721_Velos1_TaGe_SA_U2OS_4.raw": "4",
+            "20100616_Velos1_TaGe_SA_MCF7_6.raw": "6"
+          },
+          "evidence": "Each file name contains cell line identifier followed by fraction number (1-6). Strong anion exchange fractionation resulted in 6 fractions per sample.",
+          "source": "manuscript/filename"
+        },
+        "Characteristics[NumberOfBiologicalReplicates]": {
+          "value": "3",
+          "evidence": "Three separate cell pellets from subconfluent cultures were flash frozen in liquid nitrogen and stored at −80 °C.",
+          "source": "manuscript"
+        },
+        "Characteristics[NumberOfSamples]": {
+          "value": "11",
+          "evidence": "Cell cultures of A549, GAMG, HEK293, HeLa, HepG2, K562, MCF7, RKO, and U2OS cells were grown... LnCap and Jurkat cells were cultured",
+          "source": "manuscript"
+        },
+        "Comment[NumberOfFractions]": {
+          "value": "6",
+          "evidence": "From each sample 40 μg of peptides were separated into six fractions by strong anion exchange",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {
+        "Characteristics[BiologicalReplicate]": {
+          "candidates": [
+            "per_file based on cell line and fraction pattern"
+          ],
+          "reasoning": "ファイル名から細胞株ごとに3つの生物学的複製が存在することが推測される。例えばA549では01-06のフラクションパターンが複数回見られる。",
+          "needs": "各ファイルがどの生物学的複製に対応するかの明確な対応表"
+        },
+        "Characteristics[NumberOfTechnicalReplicates]": {
+          "candidates": [
+            "1",
+            "multiple technical replicates within biological replicates"
+          ],
+          "reasoning": "論文では技術的複製について明確な記載がないが、一部のサンプルで異なる日付での測定が見られる",
+          "needs": "技術的複製の実験設計に関する明確な記載"
+        }
+      },
+      "not_applicable": [
+        "FactorValue[Treatment]",
+        "FactorValue[Temperature]",
+        "FactorValue[Disease]",
+        "FactorValue[GeneticModification]",
+        "FactorValue[Compound]",
+        "FactorValue[Bait]",
+        "FactorValue[CellPart]",
+        "FactorValue[ConcentrationOfCompound].1",
+        "FactorValue[FractionIdentifier]"
+      ],
+      "summary": "ファイル名解析により、11種類の細胞株それぞれに対して6分画の強陰イオン交換分離が行われ、各細胞株につき3つの生物学的複製が存在することが確定。合計198ファイル（11細胞株 × 3複製 × 6分画）の構成。治療条件や疾患因子などの実験因子は適用されない基本的な細胞株比較研究。具体的な生物学的複製の割り当てが次ステップで必要。"
+    }
+  }
+}

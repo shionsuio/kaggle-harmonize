@@ -1,0 +1,427 @@
+{
+  "pxd": "PXD000652",
+  "raw_files": [
+    "HV_map_B9.raw",
+    "HV_map_B15.raw",
+    "HV_map_B30.raw",
+    "HV_map_B17.raw",
+    "HV_map_B12.raw",
+    "HV_map_B13.raw",
+    "HV_map_B5.raw",
+    "HV_map_B2.raw",
+    "HV_map_B42ny.raw",
+    "HV_map_B21.raw",
+    "HV_map_B7B8.raw",
+    "HV_map_B41.raw",
+    "HV_map_B43.raw",
+    "HV_map_B11.raw",
+    "HV_map_B36.raw",
+    "HV_map_B23.raw",
+    "HV_map_B25.raw",
+    "HV_map_B37.raw",
+    "HV_map_B20.raw",
+    "HV_map_B22.raw",
+    "HV_map_B26.raw",
+    "HV_map_B3.raw",
+    "HV_map_B32.raw",
+    "HV_map_B4.raw",
+    "HV_map_B46.raw",
+    "HV_map_B34.raw",
+    "HV_map_B18.raw",
+    "HV_map_B27.raw",
+    "HV_map_B35.raw",
+    "HV_map_B24.raw",
+    "HV_map_B40.raw",
+    "HV_map_B39.raw",
+    "HV_map_B38.raw",
+    "HV_map_B31.raw",
+    "HV_map_B47.raw",
+    "HV_map_B44.raw",
+    "HV_map_B33.raw",
+    "HV_map_B1.raw",
+    "HV_map_B19.raw",
+    "HV_map_B6.raw",
+    "HV_map_B29ny.raw",
+    "HV_map_B28.raw",
+    "HV_map_B45.raw",
+    "HV_map_B16.raw",
+    "HV_map_B14.raw",
+    "HV_map_B10.raw"
+  ],
+  "anchor": {
+    "pxd": "PXD000652",
+    "source": "PRIDE_API",
+    "organism": [
+      {
+        "name": "Homo sapiens (human)",
+        "accession": "NEWT:9606"
+      }
+    ],
+    "instruments": [
+      {
+        "name": "LTQ Orbitrap",
+        "accession": "MS:1000449",
+        "sdrf_format": "AC=MS:1000449;NT=LTQ Orbitrap"
+      }
+    ],
+    "modifications": [],
+    "organism_parts": [
+      {
+        "name": "Cerebrospinal fluid",
+        "accession": "BTO:0000237"
+      }
+    ],
+    "diseases": [],
+    "experiment_types": [
+      "Bottom-up proteomics"
+    ],
+    "quantification_methods": [],
+    "keywords": [
+      "Homo sapiens",
+      "Cerebrospinal fluid",
+      "Lc-ms/ms"
+    ],
+    "publications": [
+      {
+        "pubmed_id": "",
+        "doi": "",
+        "ref": "Guldbrandsen A, Vethe H, Farag Y, Oveland E, Garberg H, Berle M, Myhr KM, Opsahl JA, Barsnes H, Berven FS. In-depth characterization of the cerebrospinal fluid proteome displayed through the CSF Proteome Resource (CSF-PR). Mol Cell Proteomics. 2014 Jul 18. pii: mcp.M114.038554"
+      }
+    ],
+    "inferred_fragmentation": "CID",
+    "inferred_ms2_analyzer": "orbitrap",
+    "inferred_ionization": "nanoESI",
+    "raw_files": [
+      "HV_map_B9.raw",
+      "HV_map_B15.raw",
+      "HV_map_B30.raw",
+      "HV_map_B17.raw",
+      "HV_map_B12.raw",
+      "HV_map_B13.raw",
+      "HV_map_B5.raw",
+      "HV_map_B2.raw",
+      "HV_map_B42ny.raw",
+      "HV_map_B21.raw",
+      "HV_map_B7B8.raw",
+      "HV_map_B41.raw",
+      "HV_map_B43.raw",
+      "HV_map_B11.raw",
+      "HV_map_B36.raw",
+      "HV_map_B23.raw",
+      "HV_map_B25.raw",
+      "HV_map_B37.raw",
+      "HV_map_B20.raw",
+      "HV_map_B22.raw",
+      "HV_map_B26.raw",
+      "HV_map_B3.raw",
+      "HV_map_B32.raw",
+      "HV_map_B4.raw",
+      "HV_map_B46.raw",
+      "HV_map_B34.raw",
+      "HV_map_B18.raw",
+      "HV_map_B27.raw",
+      "HV_map_B35.raw",
+      "HV_map_B24.raw",
+      "HV_map_B40.raw",
+      "HV_map_B39.raw",
+      "HV_map_B38.raw",
+      "HV_map_B31.raw",
+      "HV_map_B47.raw",
+      "HV_map_B44.raw",
+      "HV_map_B33.raw",
+      "HV_map_B1.raw",
+      "HV_map_B19.raw",
+      "HV_map_B6.raw",
+      "HV_map_B29ny.raw",
+      "HV_map_B28.raw",
+      "HV_map_B45.raw",
+      "HV_map_B16.raw",
+      "HV_map_B14.raw",
+      "HV_map_B10.raw"
+    ]
+  },
+  "steps": {
+    "STEP1_OVERVIEW": {
+      "confirmed": {
+        "Characteristics[Organism]": {
+          "value": "Homo sapiens",
+          "evidence": "human cerebrospinal fluid (CSF) proteome",
+          "source": "manuscript"
+        },
+        "Characteristics[OrganismPart]": {
+          "value": "cerebrospinal fluid",
+          "evidence": "human cerebrospinal fluid (CSF) proteome was mapped",
+          "source": "manuscript"
+        },
+        "Characteristics[MaterialType]": {
+          "value": "cerebrospinal fluid",
+          "evidence": "human cerebrospinal fluid (CSF) proteome was mapped using three different strategies",
+          "source": "manuscript"
+        },
+        "Characteristics[Label]": {
+          "value": "label-free",
+          "evidence": "No labeling methods (TMT, SILAC, iTRAQ) mentioned, uses separation-based strategies (SDS-PAGE, mixed mode chromatography, glycopeptide capture)",
+          "source": "manuscript"
+        },
+        "Comment[AcquisitionMethod]": {
+          "value": "Orbitrap LC-MS/MS",
+          "evidence": "prior to Orbitrap LC-MS/MS analysis",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {},
+      "not_applicable": [
+        "Characteristics[CellType]",
+        "Characteristics[CellLine]",
+        "Characteristics[Disease]",
+        "Characteristics[Specimen]",
+        "Characteristics[Strain]",
+        "Characteristics[GeneticModification]",
+        "Characteristics[Treatment]",
+        "Characteristics[DevelopmentalStage]",
+        "Characteristics[Compound]",
+        "Characteristics[ConcentrationOfCompound]"
+      ],
+      "summary": "これはヒト脳脊髄液のプロテオーム解析研究です。疾患特異的ではなく正常CSFの包括的プロテオーム マッピングが目的で、label-freeアプローチによりOrbitrap LC-MS/MSで分析されています。細胞株や特定の治療条件は関与していません。血漿サンプルも並行して解析されていますが、主要な研究対象はCSFです。"
+    },
+    "STEP2_SAMPLE_PREP": {
+      "confirmed": {
+        "Characteristics[CleavageAgent]": {
+          "value": "trypsin",
+          "evidence": "between 120 and 240 ng of trypsin, depending on the size of the band, before MS/MS analysis... using 0.8 and 2 μg trypsin, respectively... trypsin digested (1:50 ratio trypsin:protein, Trypsin porcine (Promega, Madison, WI))",
+          "source": "manuscript"
+        },
+        "Characteristics[AlkylationReagent]": {
+          "value": "iodoacetamide",
+          "evidence": "alkylated by adding up to 20 mm iodoacetamine (IAA)... IAA was added to a final concentration of 12 mm",
+          "source": "manuscript"
+        },
+        "Characteristics[ReductionReagent]": {
+          "value": "DTT",
+          "evidence": "dissolved in LDS sample buffer (Invitrogen) containing 10 mm DTT (GE Healthcare, Amersham Biosciences, Buckinghamshire, UK) at 95¦°C for 5 min",
+          "source": "manuscript"
+        },
+        "Characteristics[Label]": {
+          "value": "label free",
+          "evidence": "No labeling reagents mentioned in sample preparation protocols",
+          "source": "manuscript"
+        },
+        "Characteristics[Modification]": {
+          "value": "Carbamidomethyl",
+          "evidence": "carbamidomethylation of cystein as a fixed modification",
+          "source": "manuscript"
+        },
+        "Characteristics[Modification].1": {
+          "value": "Oxidation",
+          "evidence": "oxidized methionine as a variable modification for all datasets",
+          "source": "manuscript"
+        },
+        "Characteristics[Modification].2": {
+          "value": "Deamidated",
+          "evidence": "Deamidation of asparagine was set as a variable modification only for the glyco dataset",
+          "source": "manuscript"
+        },
+        "Characteristics[Depletion]": {
+          "value": "MARS Hu-14",
+          "evidence": "protein depleted of 14 high abundant proteins using the human Multiple Affinity Removal System (MARS HU-14) 4.6 mm x 50 mm LC column (Agilent Technologies, Santa Clara, CA)",
+          "source": "manuscript"
+        },
+        "Comment[EnrichmentMethod]": {
+          "value": "SPEG",
+          "evidence": "further processed by solid-phase extraction of N-linked glycopeptides (SPEG)... The sample was coupled to 4 mg (133 μl) magnetic hydrazide beads",
+          "source": "manuscript"
+        },
+        "Comment[FractionationMethod]": {
+          "value": "SDS-PAGE and mixed mode RP-AX",
+          "evidence": "gel separation in two separate lanes using a lab-casted 20 cm 5–15% SDS-polyacrylamide gradient gel... fractionated using mixed mode reversed phase-anion exchange (MM RP-AX) HPLC",
+          "source": "manuscript"
+        },
+        "Comment[NumberOfFractions]": {
+          "value": "83",
+          "evidence": "The lanes were cut into a total of 83 gel slices as described in Fig. 1B, 37 slices from the lane with the bound (high abundant) protein fraction and 46 slices from the lane with the depleted fraction",
+          "source": "manuscript"
+        },
+        "Comment[Separation]": {
+          "value": "RP-HPLC",
+          "evidence": "Peptides were separated during a biphasic ACN gradient from two nanoflow UPLC pumps... on the analytical column (Acclaim PepMap 100, 15 cm × 75 μm i.d. nanoViper column, packed with 2 μm C18 beads)",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {
+        "Characteristics[ReductionReagent]": {
+          "candidates": [
+            "DTT",
+            "TCEP"
+          ],
+          "reasoning": "DTT was used for SDS-PAGE preparation, but TCEP was used for SPEG glycopeptide isolation (120 mm Tris(2-carboxyethyl)phosphine (TCEP) was added to a final concentration of 10 mm)",
+          "needs": "Clarification on which reduction reagent to report as primary or if both should be listed"
+        }
+      },
+      "not_applicable": [
+        "Characteristics[Modification].3",
+        "Characteristics[Modification].4",
+        "Characteristics[Modification].5",
+        "Characteristics[Modification].6",
+        "Characteristics[SpikedCompound]",
+        "Characteristics[SyntheticPeptide]"
+      ],
+      "summary": "サンプル調製の詳細が明確になりました。トリプシン消化、DTT/TCEP還元、IAA アルキル化が確認され、カルバミドメチル化(固定修飾)と酸化・脱アミド化(可変修飾)が設定されています。MARS Hu-14による高存在量タンパク質除去、SDS-PAGE(83フラクション)とMM RP-AX分画、SPEGによる糖ペプチド濃縮が実施されています。label-free解析でRP-HPLC分離が使用されました。"
+    },
+    "STEP3_MS_SETTINGS": {
+      "confirmed": {
+        "Comment[Instrument]": {
+          "value": "LTQ Orbitrap Velos Pro",
+          "evidence": "analysis on an LTQ Orbitrap Velos Pro mass spectrometer (Thermo Fischer Scientific, Bremen, Germany)",
+          "source": "manuscript"
+        },
+        "Comment[FragmentationMethod]": {
+          "value": "CID",
+          "evidence": "collision-induced dissociation (CID) with normalized collision energy of 35% and wideband-activation enabled",
+          "source": "manuscript"
+        },
+        "Comment[AcquisitionMethod]": {
+          "value": "DDA",
+          "evidence": "Data dependent acquisition was utilized",
+          "source": "manuscript"
+        },
+        "Comment[IonizationType]": {
+          "value": "nanoESI",
+          "evidence": "equipped with a nano spray Flex ion source (Thermo Fischer Scientific)",
+          "source": "manuscript"
+        },
+        "Comment[MS2MassAnalyzer]": {
+          "value": "orbitrap",
+          "evidence": "LTQ Orbitrap Velos Pro mass spectrometer - Survey full scan MS spectra were acquired with resolution r = 60,000",
+          "source": "manuscript"
+        },
+        "Comment[CollisionEnergy]": {
+          "value": "35% NCE",
+          "evidence": "collision-induced dissociation (CID) with normalized collision energy of 35%",
+          "source": "manuscript"
+        },
+        "Comment[PrecursorMassTolerance]": {
+          "value": "10 ppm",
+          "evidence": "Precursor mass tolerance was 10 ppm",
+          "source": "manuscript"
+        },
+        "Comment[FragmentMassTolerance]": {
+          "value": "0.7 Da",
+          "evidence": "fragment mass tolerance 0.7 Da",
+          "source": "manuscript"
+        },
+        "Comment[NumberOfMissedCleavages]": {
+          "value": "2",
+          "evidence": "maximum number of missed cleavages by trypsin was 2",
+          "source": "manuscript"
+        },
+        "Comment[GradientTime]": {
+          "value": "61.5 min",
+          "evidence": "The gradient was 0–61.5 min ramp from 8–38% B, 61.5–64.5 min ramp from 38–90% B, and 64.5–69.5 min 90% B",
+          "source": "manuscript"
+        },
+        "Comment[FlowRateChromatogram]": {
+          "value": "280 nl/min",
+          "evidence": "Peptides were separated during a biphasic ACN gradient from two nanoflow UPLC pumps with flow rate of 280 nl/min on the analytical column",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {},
+      "not_applicable": [],
+      "summary": "質量分析装置設定の詳細が完全に確定されました。LTQ Orbitrap Velos ProによるDDA取得、CIDフラグメンテーション（35% NCE）、nanoESIイオン化、MS/MS解析にはorbitrapアナライザーを使用。検索パラメータは前駆イオン質量許容誤差10ppm、フラグメント質量許容誤差0.7Da、トリプシン切断見逃し最大2回。LC条件は280nl/minフロー、61.5分グラジエントが設定されています。全ての技術パラメータが明確になりました。"
+    },
+    "STEP4_RAW_FILES": {
+      "confirmed": {
+        "Comment[FractionIdentifier]": {
+          "value": "per_file",
+          "per_file": {
+            "HV_map_B1.raw": "1",
+            "HV_map_B2.raw": "2",
+            "HV_map_B3.raw": "3",
+            "HV_map_B4.raw": "4",
+            "HV_map_B5.raw": "5",
+            "HV_map_B6.raw": "6",
+            "HV_map_B7B8.raw": "7-8",
+            "HV_map_B9.raw": "9",
+            "HV_map_B10.raw": "10",
+            "HV_map_B11.raw": "11",
+            "HV_map_B12.raw": "12",
+            "HV_map_B13.raw": "13",
+            "HV_map_B14.raw": "14",
+            "HV_map_B15.raw": "15",
+            "HV_map_B16.raw": "16",
+            "HV_map_B17.raw": "17",
+            "HV_map_B18.raw": "18",
+            "HV_map_B19.raw": "19",
+            "HV_map_B20.raw": "20",
+            "HV_map_B21.raw": "21",
+            "HV_map_B22.raw": "22",
+            "HV_map_B23.raw": "23",
+            "HV_map_B24.raw": "24",
+            "HV_map_B25.raw": "25",
+            "HV_map_B26.raw": "26",
+            "HV_map_B27.raw": "27",
+            "HV_map_B28.raw": "28",
+            "HV_map_B29ny.raw": "29",
+            "HV_map_B30.raw": "30",
+            "HV_map_B31.raw": "31",
+            "HV_map_B32.raw": "32",
+            "HV_map_B33.raw": "33",
+            "HV_map_B34.raw": "34",
+            "HV_map_B35.raw": "35",
+            "HV_map_B36.raw": "36",
+            "HV_map_B37.raw": "37",
+            "HV_map_B38.raw": "38",
+            "HV_map_B39.raw": "39",
+            "HV_map_B40.raw": "40",
+            "HV_map_B41.raw": "41",
+            "HV_map_B42ny.raw": "42",
+            "HV_map_B43.raw": "43",
+            "HV_map_B44.raw": "44",
+            "HV_map_B45.raw": "45",
+            "HV_map_B46.raw": "46",
+            "HV_map_B47.raw": "47"
+          },
+          "evidence": "ファイル名のB1-B47という番号パターンと、論文中の'37 slices from the lane with the bound (high abundant) protein fraction'の記述から、これらはSDS-PAGEの高存在量タンパク質フラクション（bound fraction）のゲル切片を示す。B7B8は2つの切片を合わせたもの。",
+          "source": "filename+manuscript"
+        },
+        "Characteristics[BiologicalReplicate]": {
+          "value": "1",
+          "evidence": "Aliquots of 500 μl CSF from each of the 21 individuals included in this study were combined into a pool",
+          "source": "manuscript"
+        },
+        "Characteristics[NumberOfBiologicalReplicates]": {
+          "value": "1",
+          "evidence": "21個体のCSFをプールして1つのサンプルとしているため、生物学的レプリケートは1つ",
+          "source": "manuscript"
+        },
+        "Characteristics[NumberOfSamples]": {
+          "value": "1",
+          "evidence": "CSF pool from 21 individuals combined into one pooled sample for analysis",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {
+        "Characteristics[NumberOfTechnicalReplicates]": {
+          "candidates": [
+            "1",
+            "3"
+          ],
+          "reasoning": "SPEGプロセシングは'three separate experiments (1 ml CSF for each)'と記載されており、これが技術的レプリケートの可能性があるが、現在のrawファイルはSDS-PAGEフラクションのみを示している",
+          "needs": "他の実験（MM fractionation, SPEG）のrawファイル情報"
+        }
+      },
+      "not_applicable": [
+        "FactorValue[Treatment]",
+        "FactorValue[Temperature]",
+        "FactorValue[Disease]",
+        "FactorValue[GeneticModification]",
+        "FactorValue[Compound]",
+        "FactorValue[Bait]",
+        "FactorValue[CellPart]",
+        "FactorValue[ConcentrationOfCompound].1",
+        "FactorValue[FractionIdentifier]"
+      ],
+      "summary": "現在のrawファイル（46ファイル）はSDS-PAGEの高存在量タンパク質フラクション（bound fraction）の37切片に対応することが確定されました。21個体をプールした1つの生物学的サンプルから、フラクション1-47（B7B8は合併フラクション）として分析されています。論文では4つの異なる実験アプローチ（SDS-PAGE、MM fractionation、plasma MM、SPEG）が記載されており、残りの実験のrawファイル情報が必要です。"
+    }
+  }
+}

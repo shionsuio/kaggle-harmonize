@@ -1,0 +1,232 @@
+{
+  "pxd": "PXD025663",
+  "raw_files": [
+    "Lumos_2020_08_68_Vidal_F198S_CID.raw",
+    "2020_09_96_Q160_2_repeat_etHCD.raw",
+    "Lumos_2020_08_68_Vidal_F198S_HCD_etHCD.raw",
+    "2020_09_96_F198S_2_repeat_etHCD.raw",
+    "2020_09_96_AD_2_repeat_etHCD.raw",
+    "2020_09_96_F198S_2_repeat_CID.raw",
+    "Lumos_2020_07_47_taoprotein_Vidal_CID.raw",
+    "Lumos_2020_08_68_Vidal_Q160X_CID.raw",
+    "Lumos_2020_08_68_Vidal_Q160X_HCD_etHCD_2.raw",
+    "2020_09_96_Q160_2_repeat_CID.raw",
+    "2020_09_96_AD_2_repeat_CID.raw",
+    "Lumos_2020_07_47_taoprotein_Vidal_HCD_etHCD.raw"
+  ],
+  "anchor": {
+    "pxd": "PXD025663",
+    "source": "PRIDE_API",
+    "organism": [
+      {
+        "name": "Homo sapiens (human)",
+        "accession": "NEWT:9606"
+      }
+    ],
+    "instruments": [
+      {
+        "name": "Orbitrap Fusion Lumos",
+        "accession": "MS:1002732",
+        "sdrf_format": "AC=MS:1002732;NT=Orbitrap Fusion Lumos"
+      }
+    ],
+    "modifications": [],
+    "organism_parts": [
+      {
+        "name": "Brain",
+        "accession": "BTO:0000142"
+      }
+    ],
+    "diseases": [
+      {
+        "name": "Gerstmann-straussler-scheinker syndrome",
+        "accession": "DOID:4249"
+      },
+      {
+        "name": "Alzheimer's disease",
+        "accession": "DOID:10652"
+      },
+      {
+        "name": "Cerebral amyloid angiopathy",
+        "accession": "DOID:9246"
+      }
+    ],
+    "experiment_types": [
+      "Shotgun proteomics"
+    ],
+    "quantification_methods": [
+      "Spectrum counting"
+    ],
+    "keywords": [
+      "Brain",
+      "Tau",
+      "Gss",
+      "Prp-caa",
+      "Cryo-em",
+      "Seeding",
+      "Aprp",
+      "Neurodegeneration"
+    ],
+    "publications": [
+      {
+        "pubmed_id": "",
+        "doi": "10.1007/s00401-021-02336-w",
+        "ref": "Hallinan GI, Hoq MR, Ghosh M, Vago FS, Fernandez A, Garringer HJ, Vidal R, Jiang W, Ghetti B. Structure of Tau filaments in Prion protein amyloidoses. Acta Neuropathol. 2021 142(2):227-241"
+      }
+    ],
+    "inferred_fragmentation": null,
+    "inferred_ms2_analyzer": "orbitrap",
+    "inferred_ionization": "nanoESI",
+    "raw_files": [
+      "Lumos_2020_08_68_Vidal_F198S_CID.raw",
+      "2020_09_96_Q160_2_repeat_etHCD.raw",
+      "Lumos_2020_08_68_Vidal_F198S_HCD_etHCD.raw",
+      "2020_09_96_F198S_2_repeat_etHCD.raw",
+      "2020_09_96_AD_2_repeat_etHCD.raw",
+      "2020_09_96_F198S_2_repeat_CID.raw",
+      "Lumos_2020_07_47_taoprotein_Vidal_CID.raw",
+      "Lumos_2020_08_68_Vidal_Q160X_CID.raw",
+      "Lumos_2020_08_68_Vidal_Q160X_HCD_etHCD_2.raw",
+      "2020_09_96_Q160_2_repeat_CID.raw",
+      "2020_09_96_AD_2_repeat_CID.raw",
+      "Lumos_2020_07_47_taoprotein_Vidal_HCD_etHCD.raw"
+    ]
+  },
+  "steps": {
+    "STEP1_OVERVIEW": {
+      "confirmed": {
+        "Characteristics[Organism]": {
+          "value": "Homo sapiens",
+          "evidence": "In human neurodegenerative diseases associated with the intracellular aggregation of Tau protein",
+          "source": "manuscript"
+        },
+        "Characteristics[OrganismPart]": {
+          "value": "brain",
+          "evidence": "we analyze Tau filaments isolated from the brain of individuals affected by Prion-Protein cerebral amyloid angiopathy",
+          "source": "manuscript"
+        },
+        "Characteristics[Disease]": {
+          "value": "Alzheimer's disease",
+          "evidence": "Tau filaments in PrP-CAA (Q160X) and GSS (F198S) are composed of 3-repeat and 4-repeat Tau isoforms, having a striking similarity to NFTs in Alzheimer disease (AD)",
+          "source": "manuscript"
+        },
+        "Characteristics[MaterialType]": {
+          "value": "tissue",
+          "evidence": "Tau filaments isolated from the brain of individuals",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {
+        "Characteristics[Label]": {
+          "candidates": [
+            "label free sample",
+            "Label free"
+          ],
+          "reasoning": "質量分析によるTauフィラメントの分析が行われているが、ラベリング手法の明確な記載がない。ショットガンプロテオミクスでは一般的にlabel freeが使用される",
+          "needs": "実験手法の詳細な記載またはメソッドセクション"
+        }
+      },
+      "not_applicable": [
+        "Characteristics[CellType]",
+        "Characteristics[CellLine]",
+        "Characteristics[DevelopmentalStage]",
+        "Characteristics[Specimen]",
+        "Characteristics[Strain]",
+        "Characteristics[Sex]",
+        "Characteristics[Compound]",
+        "Comment[AcquisitionMethod]"
+      ],
+      "summary": "ヒト脳組織を用いたTauフィラメントの構造解析研究。アルツハイマー病との関連性が確認され、プリオン蛋白質アミロイドーシス（PrP-CAA、GSS）における病理学的特徴が明らかにされた。質量分析法が使用されているがラベリング手法は不明確。細胞株や発達段階などの詳細な実験条件は記載されていない。"
+    },
+    "STEP2_SAMPLE_PREP": {
+      "confirmed": {
+        "Characteristics[CleavageAgent]": {
+          "value": "Trypsin/P",
+          "evidence": "digested overnight with 2 µg Trypsin/Lys-C Mix Mass Spectrometry (1:100 protease:substrate ratio, Promega Corporation)",
+          "source": "manuscript"
+        },
+        "Characteristics[AlkylationReagent]": {
+          "value": "IAA",
+          "evidence": "alkylated with 10 mM chloroacetamide (CAM)",
+          "source": "manuscript"
+        },
+        "Characteristics[ReductionReagent]": {
+          "value": "DTT",
+          "evidence": "The sample was reduced with 5 mM Tris(2-carboxyethyl)phosphine hydrochloride (TCEP)",
+          "source": "manuscript"
+        },
+        "Characteristics[Label]": {
+          "value": "label free sample",
+          "evidence": "No labeling reagents mentioned in mass spectrometry sample preparation, consistent with previous step hypothesis",
+          "source": "manuscript"
+        },
+        "Comment[FractionationMethod]": {
+          "value": "no fractionation",
+          "evidence": "One quarter of the sample was loaded directly onto reversed phase column without prior fractionation steps described",
+          "source": "manuscript"
+        },
+        "Comment[Separation]": {
+          "value": "Reversed-phase chromatography",
+          "evidence": "loaded onto a reversed phase PepMapTM RSLC C18 column (2 μm, 100 Å, 75 μm × 25 cm)",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {
+        "Characteristics[Modification]": {
+          "candidates": [
+            "Carbamidomethyl",
+            "Oxidation"
+          ],
+          "reasoning": "CAM alkylation typically produces carbamidomethyl modification, and oxidation of methionine is common. PEAKS analysis mentioned 'all PTMs' but specific modifications not detailed",
+          "needs": "Specific PTM search parameters or results from PEAKS analysis"
+        },
+        "Comment[EnrichmentMethod]": {
+          "candidates": [
+            "no enrichment"
+          ],
+          "reasoning": "Sarkosyl-insoluble tau extraction is sample preparation, not enrichment of specific peptide modifications",
+          "needs": "Confirmation that no peptide-level enrichment was performed"
+        }
+      },
+      "not_applicable": [
+        "Characteristics[Depletion]"
+      ],
+      "summary": "サンプル調製の詳細が明確化された。Trypsin/Lys-C混合酵素による消化、TCEP還元、CAM alkylation、ラベルフリーでの解析が確認された。逆相クロマトグラフィーによる分離のみで分画は行われていない。修飾の詳細は不明だが、一般的なカルバミドメチル化と酸化が予想される。"
+    },
+    "STEP3_MS_SETTINGS": {
+      "_raw": "```json\n{\n  \"confirmed\": {\n    \"Comment[Instrument]\": {\n      \"value\": \"Orbitrap Fusion Lumos\",\n      \"evidence\": \"Nano-LC–MS/MS analyses were performed on an EASY-nLC HPLC system (Thermo Fisher Scientific) coupled to an Orbitrap Fusion Lumos mass spectrometer (Thermo Fisher Scientific)\",\n      \"source\": \"manuscript\"\n    },\n    \"Comment[FragmentationMethod]\": {\n      \"value\": \"CID\",\n      \"evidence\": \"Replicate injections were run with the same LC and source methods (CID mode and EtHCD/HCD mode). For the CID method... CID MS2 scans were performed in the ion trap at rapid speed\",\n      \"source\": \"manuscript\"\n    },\n    \"Comment[MS2MassAnalyzer]\": {\n      \"value\": \"ion trap\",\n      \"evidence\": \"CID MS2 scans were performed in the ion trap at rapid speed\",\n      \"source\": \"manuscript\"\n    },\n    \"Comment[CollisionEnergy]\": {\n      \"value\": \"35% NCE\",\n      \"evidence\": \"35% normalized CID collision energy\",\n      \"source\": \"manuscript\"\n    },\n    \"Comment[GradientTime]\": {\n      \"value\": \"85 min\",\n      \"evidence\": \"Peptides were eluted from 3 to 30% B over 85 min, 30 to 80% B over 3 min, 80 to 4% B for 4 min\",\n      \"source\": \"manuscript\"\n    },\n    \"Comment[FlowRateChromatogram]\": {\n      \"value\": \"450 nl/min\",\n      \"evidence\": \"loaded onto a reversed phase PepMapTM RSLC C18 column (2 μm, 100 Å, 75 μm × 25 cm) with Easy-Spray tip at 450 nl/min\",\n      \"source\": \"manuscript\"\n    }\n  },\n  \"hypotheses\": {},\n  \"not_applicable\": [\n    \"Comment[AcquisitionMethod]\",\n    \"Comment[PrecursorMassTolerance]\",\n    \"Comment[FragmentMassTolerance]\",\n    \"Comment[NumberOfMissedCleavages]\n  ],\n  \"summary\": \"Orbitrap Fusion Lumosを用いたCIDフラグメンテーション、イオントラップMS2分析が確認された。35% NCEのコリジョンエネルギー、85分グラディエント、450 nl/min流速での測定条件が明確化された。一方、質量許容誤差や切断許容数などのデータベース検索パラメータは記載されていない。\"\n}\n```"
+    },
+    "STEP4_RAW_FILES": {
+      "confirmed": {
+        "Characteristics[BiologicalReplicate]": {
+          "value": "not applicable",
+          "evidence": "論文では複数の異なる疾患ケース（AD Case 2, GSS (F198S) Case 2, PrP-CAA (Q160X) case）を扱っているが、同一条件での生物学的複製（biological replicate）ではない",
+          "source": "manuscript"
+        },
+        "Comment[FractionIdentifier]": {
+          "value": "not applicable",
+          "evidence": "Mass spectrometry sample preparation では分画について記載がなく、Sarkosyl-insoluble Tau was extracted from gray matter として全体的な抽出のみが記載されている",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {
+        "FactorValue[Disease]": {
+          "candidates": [
+            "Alzheimer's disease",
+            "Gerstmann-straussler-scheinker syndrome"
+          ],
+          "reasoning": "rawファイル名にAD, F198S, Q160Xが含まれており、論文でAD Case 2, GSS (F198S) Case 2, PrP-CAA (Q160X) caseとして明確に記載されている",
+          "needs": "候補リストに適切な疾患名があれば確定可能"
+        }
+      },
+      "not_applicable": [
+        "FactorValue[Treatment]",
+        "FactorValue[Temperature]",
+        "FactorValue[GeneticModification]",
+        "FactorValue[Compound]",
+        "FactorValue[Bait]"
+      ],
+      "summary": "rawファイル名から異なる疾患条件（AD、F198S、Q160X）と測定手法（CID、etHCD）の違いが確認された。生物学的複製や分画は該当せず、処理条件や化合物処理等の実験因子は記載されていない。疾患が主要な実験因子として機能している可能性が高い。"
+    }
+  }
+}

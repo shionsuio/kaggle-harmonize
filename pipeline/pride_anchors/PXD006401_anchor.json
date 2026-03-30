@@ -1,0 +1,88 @@
+{
+  "pxd": "PXD006401",
+  "source": "PRIDE_API",
+  "organism": [
+    {
+      "name": "Homo sapiens (human)",
+      "accession": "NEWT:9606"
+    },
+    {
+      "name": "Mus musculus (mouse)",
+      "accession": "NEWT:10090"
+    }
+  ],
+  "instruments": [
+    {
+      "name": "Q Exactive",
+      "accession": "MS:1001911",
+      "sdrf_format": "AC=MS:1001911;NT=Q Exactive"
+    }
+  ],
+  "modifications": [],
+  "organism_parts": [
+    {
+      "name": "Tonsil",
+      "accession": "BTO:0001387"
+    },
+    {
+      "name": "Kidney",
+      "accession": "BTO:0000671"
+    }
+  ],
+  "diseases": [],
+  "experiment_types": [
+    "Shotgun proteomics"
+  ],
+  "quantification_methods": [
+    "Label free"
+  ],
+  "keywords": [
+    "Shotgun  proteomics",
+    "Archival tissue",
+    "Rapigest",
+    "Ffpe",
+    "Fasp",
+    "Biomarker discovery",
+    "Label-free quantitation"
+  ],
+  "publications": [
+    {
+      "pubmed_id": "",
+      "doi": "10.1186/s12014-018-9188-y",
+      "ref": "Föll MC, Fahrner M, Oria VO, Kühs M, Biniossek ML, Werner M, Bronsert P, Schilling O. Reproducible proteomics sample preparation for single FFPE tissue slices using acid-labile surfactant and direct trypsinization. Clin Proteomics. 2018 15:11"
+    }
+  ],
+  "inferred_fragmentation": "HCD",
+  "inferred_ms2_analyzer": "orbitrap",
+  "inferred_ionization": "nanoESI",
+  "raw_files": [
+    "1_HE1_1.raw",
+    "15_unstained2_1.raw",
+    "14_hemalaun2_2.raw",
+    "16_unstained2_2.raw",
+    "7_unstained1_1.raw",
+    "11_hematoxylin2_1.raw",
+    "8_unstained1_2.raw",
+    "12_FASP30k_4.raw",
+    "9_HE2_1.raw",
+    "2_HE1_2.raw",
+    "5_FASP10k_1.raw",
+    "4_hematoxylin1_2.raw",
+    "2_DTR2.raw",
+    "6_hemalaun1_2.raw",
+    "3_hematoxylin1_1.raw",
+    "12_hematoxylin2_2.raw",
+    "3_DTR3.raw",
+    "13_hemalaun2_1.raw",
+    "10_FASP30k_2.raw",
+    "10_HE2_2.raw",
+    "1_DTR1.raw",
+    "4_DTR4.raw",
+    "7_FASP10k_3.raw",
+    "11_FASP30k_3.raw",
+    "5_hemalaun1_1.raw",
+    "9_FASP30k_1.raw",
+    "8_FASP10k_4.raw",
+    "6_FASP10k_2.raw"
+  ]
+}

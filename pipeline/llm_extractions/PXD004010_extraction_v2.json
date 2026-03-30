@@ -1,0 +1,283 @@
+{
+  "pxd": "PXD004010",
+  "raw_files": [
+    "ad_pl03.raw",
+    "ad_pl04.raw",
+    "ad_pl10.raw",
+    "ad_pl07.raw",
+    "ad_pl08.raw",
+    "ad_pl01.raw",
+    "ad_pl06.raw",
+    "ad_pl05.raw",
+    "ad_pl02.raw",
+    "ad_pl09.raw"
+  ],
+  "anchor": {
+    "pxd": "PXD004010",
+    "source": "PRIDE_API",
+    "organism": [
+      {
+        "name": "Homo sapiens (human)",
+        "accession": "NEWT:9606"
+      }
+    ],
+    "instruments": [
+      {
+        "name": "Q Exactive",
+        "accession": "MS:1001911",
+        "sdrf_format": "AC=MS:1001911;NT=Q Exactive"
+      }
+    ],
+    "modifications": [],
+    "organism_parts": [
+      {
+        "name": "Brain",
+        "accession": "BTO:0000142"
+      }
+    ],
+    "diseases": [
+      {
+        "name": "Alzheimer's disease",
+        "accession": "DOID:10652"
+      }
+    ],
+    "experiment_types": [
+      "Shotgun proteomics"
+    ],
+    "quantification_methods": [
+      "Spectrum counting"
+    ],
+    "keywords": [
+      "Proteomics",
+      "Proteogenomics",
+      "Database search",
+      "Mass spectrometry",
+      "Genomics",
+      "Multistage analysis",
+      "Rna-seq",
+      "Spectrum quality control"
+    ],
+    "publications": [
+      {
+        "pubmed_id": "",
+        "doi": "10.1021/acs.jproteome.6b00344",
+        "ref": "Li Y, Wang X, Cho JH, Shaw TI, Wu Z, Bai B, Wang H, Zhou S, Beach TG, Wu G, Zhang J, Peng J. JUMPg: An Integrative Proteogenomics Pipeline Identifying Unannotated Proteins in Human Brain and Cancer Cells. J Proteome Res. 2016 Jul 1;15(7):2309-20"
+      }
+    ],
+    "inferred_fragmentation": "HCD",
+    "inferred_ms2_analyzer": "orbitrap",
+    "inferred_ionization": "nanoESI",
+    "raw_files": [
+      "ad_pl03.raw",
+      "ad_pl04.raw",
+      "ad_pl10.raw",
+      "ad_pl07.raw",
+      "ad_pl08.raw",
+      "ad_pl01.raw",
+      "ad_pl06.raw",
+      "ad_pl05.raw",
+      "ad_pl02.raw",
+      "ad_pl09.raw"
+    ]
+  },
+  "steps": {
+    "STEP1_OVERVIEW": {
+      "confirmed": {
+        "Characteristics[Organism]": {
+          "value": "Homo sapiens",
+          "evidence": "a label-free mass spectrometry dataset of Alzheimer's disease postmortem brain",
+          "source": "manuscript"
+        },
+        "Characteristics[OrganismPart]": {
+          "value": "brain",
+          "evidence": "a label-free mass spectrometry dataset of Alzheimer's disease postmortem brain",
+          "source": "manuscript"
+        },
+        "Characteristics[Disease]": {
+          "value": "Alzheimer's disease",
+          "evidence": "a label-free mass spectrometry dataset of Alzheimer's disease postmortem brain",
+          "source": "manuscript"
+        },
+        "Characteristics[Label]": {
+          "value": "label-free",
+          "evidence": "a label-free mass spectrometry dataset of Alzheimer's disease postmortem brain",
+          "source": "manuscript"
+        },
+        "Characteristics[MaterialType]": {
+          "value": "postmortem tissue",
+          "evidence": "Alzheimer's disease postmortem brain",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {
+        "Characteristics[CellType]": {
+          "candidates": [
+            "multiple myeloma cells"
+          ],
+          "reasoning": "論文では複数のデータセットを解析しており、multiple myeloma cellsも含まれているが、メインのADブレイン研究でのセルタイプは明記されていない",
+          "needs": "ブレイン組織での具体的な細胞タイプ（ニューロン、グリア等）の確認"
+        },
+        "Characteristics[Treatment]": {
+          "candidates": [
+            "stable-isotope labeling"
+          ],
+          "reasoning": "multiple myeloma cellsに対してstable-isotope labelingが行われたと記載されているが、詳細な処理条件は不明",
+          "needs": "具体的な標識プロトコルや処理条件の詳細"
+        }
+      },
+      "not_applicable": [
+        "Characteristics[CellLine]",
+        "Characteristics[Specimen]",
+        "Characteristics[Strain]",
+        "Characteristics[GeneticModification]",
+        "Characteristics[DevelopmentalStage]",
+        "Characteristics[Compound]",
+        "Characteristics[ConcentrationOfCompound]",
+        "Comment[AcquisitionMethod]"
+      ],
+      "summary": "この研究は主にヒトアルツハイマー病死後脳組織のlabel-free MS解析と、multiple myeloma細胞のstable-isotope標識解析の2つのデータセットを扱っている。PRIDEデータベース情報と一致して、ヒト脳組織でのAD研究が確認された。細胞タイプや具体的な実験条件の詳細は方法論セクションでの確認が必要。"
+    },
+    "STEP2_SAMPLE_PREP": {
+      "confirmed": {
+        "Characteristics[CleavageAgent]": {
+          "value": "Trypsin",
+          "evidence": "MS data were searched against a database combining mutations and splice junction peptides as well as UniProt human proteins (downloaded in February 2015) with fully tryptic restriction. The resulting PSMs in the 1st stage were filtered to 1% unique protein FDR. ii) Partially tryptic search was carried out",
+          "source": "manuscript"
+        },
+        "Characteristics[Label]": {
+          "value": "label free",
+          "evidence": "The first dataset was collected from human Alzheimer's disease postmortem brain, including label-free high resolution MS raw data (1.7 million MS/MS scans)",
+          "source": "manuscript"
+        },
+        "Characteristics[Modification]": {
+          "value": "Oxidation",
+          "evidence": "Common parameters include ±6 ppm for precursor ion mass tolerance, dynamic mass shift for oxidized Met (+15.9949 Da)",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {
+        "Characteristics[Modification].1": {
+          "candidates": [
+            "TMT6plex"
+          ],
+          "reasoning": "TMT標識が複数骨髄腫細胞データセットで使用されており、固定修飾として記載されている",
+          "needs": "ADブレインデータセットでのTMT使用の有無の明確化"
+        }
+      },
+      "not_applicable": [
+        "Characteristics[AlkylationReagent]",
+        "Characteristics[ReductionReagent]",
+        "Characteristics[Modification].2",
+        "Characteristics[Modification].3",
+        "Characteristics[Modification].4",
+        "Characteristics[Modification].5",
+        "Characteristics[Modification].6",
+        "Characteristics[Depletion]",
+        "Characteristics[SpikedCompound]",
+        "Characteristics[SyntheticPeptide]",
+        "Comment[EnrichmentMethod]",
+        "Comment[FractionationMethod]",
+        "Comment[NumberOfFractions]",
+        "Comment[Separation]"
+      ],
+      "summary": "サンプル調製の詳細が確認され、トリプシン消化とlabel-freeアプローチが確定。メチオニン酸化が動的修飾として特定された。アルキル化・還元試薬、分画・濃縮方法などの詳細な前処理情報は記載されていない。TMT標識は複数骨髄腫細胞データセットでのみ使用されており、メインのADブレインデータセットでは使用されていない可能性が高い。"
+    },
+    "STEP3_MS_SETTINGS": {
+      "confirmed": {
+        "Comment[PrecursorMassTolerance]": {
+          "value": "6 ppm",
+          "evidence": "Common parameters include ±6 ppm for precursor ion mass tolerance",
+          "source": "manuscript"
+        },
+        "Comment[NumberOfMissedCleavages]": {
+          "value": "fully tryptic restriction",
+          "evidence": "MS data were searched against a database combining mutations and splice junction peptides as well as UniProt human proteins (downloaded in February 2015) with fully tryptic restriction",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {
+        "Comment[Instrument]": {
+          "candidates": [
+            "Q Exactive"
+          ],
+          "reasoning": "PRIDEデータベースで確認されており、高解像度MS装置として記載されているが、論文テキストでは明示的に装置名が記載されていない",
+          "needs": "方法論セクションでの装置名の明記"
+        },
+        "Comment[FragmentationMethod]": {
+          "candidates": [
+            "HCD"
+          ],
+          "reasoning": "PRIDEデータベースで確認されており、Q Exactive装置の標準的なフラグメンテーション法",
+          "needs": "装置設定の詳細情報"
+        },
+        "Comment[MS2MassAnalyzer]": {
+          "candidates": [
+            "orbitrap"
+          ],
+          "reasoning": "PRIDEデータベースで確認されており、Q Exactive装置のMS2分析装置",
+          "needs": "装置仕様の明記"
+        },
+        "Comment[IonizationType]": {
+          "candidates": [
+            "nanoESI"
+          ],
+          "reasoning": "PRIDEデータベースで確認されており、プロテオミクスで一般的なイオン化法",
+          "needs": "LC-MS設定の詳細"
+        }
+      },
+      "not_applicable": [
+        "Comment[AcquisitionMethod]",
+        "Comment[CollisionEnergy]",
+        "Comment[FragmentMassTolerance]",
+        "Comment[GradientTime]",
+        "Comment[FlowRateChromatogram]"
+      ],
+      "summary": "質量分析装置の設定パラメータについて、precursor mass tolerance (6 ppm)とtryptic restriction (fully tryptic)が確定した。装置名や分析条件の詳細は論文テキストに記載されておらず、PRIDEデータベース情報（Q Exactive, HCD, orbitrap, nanoESI）に依存している。Fragment mass toleranceやクロマトグラフィー条件は記載されていない。"
+    },
+    "STEP4_RAW_FILES": {
+      "confirmed": {
+        "Characteristics[NumberOfSamples]": {
+          "value": "10",
+          "evidence": "Raw data files show 10 distinct AD samples: ad_pl01.raw through ad_pl10.raw",
+          "source": "filename"
+        }
+      },
+      "hypotheses": {
+        "Characteristics[BiologicalReplicate]": {
+          "candidates": [
+            "per_file with pl01-pl10 as different biological replicates"
+          ],
+          "reasoning": "The 'pl' prefix followed by sequential numbers (01-10) in filenames (ad_pl01.raw, ad_pl02.raw, etc.) suggests these are different biological samples from AD postmortem brain tissue",
+          "needs": "Confirmation whether pl01-pl10 represent different patients/brain samples or technical replicates"
+        },
+        "Characteristics[NumberOfBiologicalReplicates]": {
+          "candidates": [
+            "10"
+          ],
+          "reasoning": "If pl01-pl10 represent different biological samples as suggested by filename pattern, there would be 10 biological replicates",
+          "needs": "Confirmation of the meaning of pl numbering system"
+        },
+        "FactorValue[Disease]": {
+          "candidates": [
+            "Alzheimer's disease"
+          ],
+          "reasoning": "All samples are from AD postmortem brain as confirmed in previous steps and referenced as 'human Alzheimer's disease postmortem brain' dataset",
+          "needs": "Potential control samples information if any exist"
+        }
+      },
+      "not_applicable": [
+        "Comment[FractionIdentifier]",
+        "Characteristics[NumberOfTechnicalReplicates]",
+        "FactorValue[Treatment]",
+        "FactorValue[Temperature]",
+        "FactorValue[GeneticModification]",
+        "FactorValue[Compound]",
+        "FactorValue[Bait]",
+        "FactorValue[CellPart]",
+        "FactorValue[ConcentrationOfCompound].1",
+        "FactorValue[FractionIdentifier]"
+      ],
+      "summary": "Raw file analysis revealed 10 AD brain samples with systematic naming (ad_pl01-pl10). The 'pl' numbering likely indicates different biological samples/patients rather than technical replicates, but this needs confirmation. No fractionation, treatment conditions, or other experimental factors are evident from the available information. The dataset appears to be a straightforward comparison of AD postmortem brain samples without control groups mentioned in current text."
+    }
+  }
+}

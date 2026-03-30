@@ -1,0 +1,427 @@
+{
+  "pxd": "PXD004010",
+  "raw_files": [
+    "ad_pl03.raw",
+    "ad_pl04.raw",
+    "ad_pl10.raw",
+    "ad_pl07.raw",
+    "ad_pl08.raw",
+    "ad_pl01.raw",
+    "ad_pl06.raw",
+    "ad_pl05.raw",
+    "ad_pl02.raw",
+    "ad_pl09.raw"
+  ],
+  "anchor": {
+    "pxd": "PXD004010",
+    "source": "PRIDE_API",
+    "organism": [
+      {
+        "name": "Homo sapiens (human)",
+        "accession": "NEWT:9606"
+      }
+    ],
+    "instruments": [
+      {
+        "name": "Q Exactive",
+        "accession": "MS:1001911",
+        "sdrf_format": "AC=MS:1001911;NT=Q Exactive"
+      }
+    ],
+    "modifications": [],
+    "organism_parts": [
+      {
+        "name": "Brain",
+        "accession": "BTO:0000142"
+      }
+    ],
+    "diseases": [
+      {
+        "name": "Alzheimer's disease",
+        "accession": "DOID:10652"
+      }
+    ],
+    "experiment_types": [
+      "Shotgun proteomics"
+    ],
+    "quantification_methods": [
+      "Spectrum counting"
+    ],
+    "keywords": [
+      "Proteomics",
+      "Proteogenomics",
+      "Database search",
+      "Mass spectrometry",
+      "Genomics",
+      "Multistage analysis",
+      "Rna-seq",
+      "Spectrum quality control"
+    ],
+    "publications": [
+      {
+        "pubmed_id": "",
+        "doi": "10.1021/acs.jproteome.6b00344",
+        "ref": "Li Y, Wang X, Cho JH, Shaw TI, Wu Z, Bai B, Wang H, Zhou S, Beach TG, Wu G, Zhang J, Peng J. JUMPg: An Integrative Proteogenomics Pipeline Identifying Unannotated Proteins in Human Brain and Cancer Cells. J Proteome Res. 2016 Jul 1;15(7):2309-20"
+      }
+    ],
+    "inferred_fragmentation": "HCD",
+    "inferred_ms2_analyzer": "orbitrap",
+    "inferred_ionization": "nanoESI",
+    "raw_files": [
+      "ad_pl03.raw",
+      "ad_pl04.raw",
+      "ad_pl10.raw",
+      "ad_pl07.raw",
+      "ad_pl08.raw",
+      "ad_pl01.raw",
+      "ad_pl06.raw",
+      "ad_pl05.raw",
+      "ad_pl02.raw",
+      "ad_pl09.raw"
+    ]
+  },
+  "extractions": {
+    "TITLE_ABSTRACT": {
+      "Characteristics[Organism]": {
+        "value": "Homo sapiens (human)",
+        "evidence": "human brain",
+        "confidence": "high",
+        "source": "manuscript",
+        "applies_to": "all"
+      },
+      "Characteristics[OrganismPart]": {
+        "value": "brain",
+        "evidence": "label-free mass spectrometry dataset of Alzheimer's disease postmortem brain",
+        "confidence": "high",
+        "source": "manuscript",
+        "applies_to": "all"
+      },
+      "Characteristics[CellType]": {
+        "value": "Not Applicable",
+        "evidence": "",
+        "confidence": "high",
+        "source": "manuscript",
+        "applies_to": "all"
+      },
+      "Characteristics[CellLine]": {
+        "value": "Not Applicable",
+        "evidence": "",
+        "confidence": "high",
+        "source": "manuscript",
+        "applies_to": "all"
+      },
+      "Characteristics[Disease]": {
+        "value": "Alzheimer's disease",
+        "evidence": "label-free mass spectrometry dataset of Alzheimer's disease postmortem brain",
+        "confidence": "high",
+        "source": "manuscript",
+        "applies_to": "all"
+      },
+      "Characteristics[MaterialType]": {
+        "value": "postmortem brain tissue",
+        "evidence": "Alzheimer's disease postmortem brain",
+        "confidence": "high",
+        "source": "manuscript",
+        "applies_to": "all"
+      },
+      "Characteristics[Label]": {
+        "value": "label-free",
+        "evidence": "label-free mass spectrometry dataset of Alzheimer's disease postmortem brain",
+        "confidence": "high",
+        "source": "manuscript",
+        "applies_to": "all"
+      },
+      "Characteristics[Specimen]": {
+        "value": "Not Applicable",
+        "evidence": "",
+        "confidence": "high",
+        "source": "manuscript",
+        "applies_to": "all"
+      },
+      "Characteristics[Strain]": {
+        "value": "Not Applicable",
+        "evidence": "",
+        "confidence": "high",
+        "source": "manuscript",
+        "applies_to": "all"
+      },
+      "Characteristics[GeneticModification]": {
+        "value": "Not Applicable",
+        "evidence": "",
+        "confidence": "high",
+        "source": "manuscript",
+        "applies_to": "all"
+      },
+      "Characteristics[Treatment]": {
+        "value": "Not Applicable",
+        "evidence": "",
+        "confidence": "high",
+        "source": "manuscript",
+        "applies_to": "all"
+      },
+      "Characteristics[DevelopmentalStage]": {
+        "value": "Not Applicable",
+        "evidence": "",
+        "confidence": "high",
+        "source": "manuscript",
+        "applies_to": "all"
+      },
+      "Comment[AcquisitionMethod]": {
+        "value": "label-free mass spectrometry",
+        "evidence": "label-free mass spectrometry dataset of Alzheimer's disease postmortem brain",
+        "confidence": "high",
+        "source": "manuscript",
+        "applies_to": "all"
+      }
+    },
+    "METHODS_SAMPLE": {
+      "Characteristics[CleavageAgent]": {
+        "value": "trypsin",
+        "evidence": "MS data were searched against a database combining mutations and splice junction peptides as well as UniProt human proteins (downloaded in February 2015) with fully tryptic restriction",
+        "confidence": "high",
+        "source": "manuscript",
+        "applies_to": "all"
+      },
+      "Characteristics[AlkylationReagent]": {
+        "value": "Not Applicable",
+        "evidence": "",
+        "confidence": "low",
+        "source": "manuscript",
+        "applies_to": "all"
+      },
+      "Characteristics[ReductionReagent]": {
+        "value": "Not Applicable",
+        "evidence": "",
+        "confidence": "low",
+        "source": "manuscript",
+        "applies_to": "all"
+      },
+      "Characteristics[Label]": {
+        "value": "label free sample",
+        "evidence": "The first dataset was collected from human Alzheimer's disease postmortem brain, including label-free high resolution MS raw data",
+        "confidence": "high",
+        "source": "manuscript",
+        "applies_to": "all"
+      },
+      "Characteristics[Modification]": {
+        "value": "oxidized Met (+15.9949 Da)",
+        "evidence": "Common parameters include ±6 ppm for precursor ion mass tolerance, dynamic mass shift for oxidized Met (+15.9949 Da)",
+        "confidence": "high",
+        "source": "manuscript",
+        "applies_to": "all"
+      },
+      "Characteristics[Modification].1": {
+        "value": "Not Applicable",
+        "evidence": "",
+        "confidence": "low",
+        "source": "manuscript",
+        "applies_to": "all"
+      },
+      "Characteristics[Modification].2": {
+        "value": "Not Applicable",
+        "evidence": "",
+        "confidence": "low",
+        "source": "manuscript",
+        "applies_to": "all"
+      },
+      "Characteristics[Modification].3": {
+        "value": "Not Applicable",
+        "evidence": "",
+        "confidence": "low",
+        "source": "manuscript",
+        "applies_to": "all"
+      },
+      "Characteristics[Modification].4": {
+        "value": "Not Applicable",
+        "evidence": "",
+        "confidence": "low",
+        "source": "manuscript",
+        "applies_to": "all"
+      },
+      "Characteristics[Modification].5": {
+        "value": "Not Applicable",
+        "evidence": "",
+        "confidence": "low",
+        "source": "manuscript",
+        "applies_to": "all"
+      },
+      "Characteristics[Modification].6": {
+        "value": "Not Applicable",
+        "evidence": "",
+        "confidence": "low",
+        "source": "manuscript",
+        "applies_to": "all"
+      },
+      "Characteristics[Depletion]": {
+        "value": "Not Applicable",
+        "evidence": "",
+        "confidence": "low",
+        "source": "manuscript",
+        "applies_to": "all"
+      },
+      "Characteristics[SpikedCompound]": {
+        "value": "Not Applicable",
+        "evidence": "",
+        "confidence": "low",
+        "source": "manuscript",
+        "applies_to": "all"
+      },
+      "Characteristics[SyntheticPeptide]": {
+        "value": "Not Applicable",
+        "evidence": "",
+        "confidence": "low",
+        "source": "manuscript",
+        "applies_to": "all"
+      },
+      "Comment[EnrichmentMethod]": {
+        "value": "Not Applicable",
+        "evidence": "",
+        "confidence": "low",
+        "source": "manuscript",
+        "applies_to": "all"
+      },
+      "Comment[FractionationMethod]": {
+        "value": "Not Applicable",
+        "evidence": "",
+        "confidence": "low",
+        "source": "manuscript",
+        "applies_to": "all"
+      },
+      "Comment[NumberOfFractions]": {
+        "value": "Not Applicable",
+        "evidence": "",
+        "confidence": "low",
+        "source": "manuscript",
+        "applies_to": "all"
+      },
+      "Comment[Separation]": {
+        "value": "Not Applicable",
+        "evidence": "",
+        "confidence": "low",
+        "source": "manuscript",
+        "applies_to": "all"
+      }
+    },
+    "METHODS_MS": {
+      "Comment[Instrument]": {
+        "value": "Q Exactive",
+        "evidence": "Not found in manuscript text",
+        "confidence": "high",
+        "source": "anchor",
+        "applies_to": "all",
+        "note": "Value taken from anchor information as manuscript does not specify instrument model"
+      },
+      "Comment[FragmentationMethod]": {
+        "value": "HCD",
+        "evidence": "Not found in manuscript text",
+        "confidence": "high",
+        "source": "inferred",
+        "applies_to": "all",
+        "note": "Inferred from Q Exactive instrument specification"
+      },
+      "Comment[AcquisitionMethod]": {
+        "value": "Not Applicable",
+        "evidence": "No specific acquisition method mentioned",
+        "confidence": "low",
+        "source": "manuscript",
+        "applies_to": "all"
+      },
+      "Comment[IonizationType]": {
+        "value": "nanoESI",
+        "evidence": "Not found in manuscript text",
+        "confidence": "high",
+        "source": "inferred",
+        "applies_to": "all",
+        "note": "Inferred from Q Exactive instrument specification"
+      },
+      "Comment[MS2MassAnalyzer]": {
+        "value": "orbitrap",
+        "evidence": "Not found in manuscript text",
+        "confidence": "high",
+        "source": "inferred",
+        "applies_to": "all",
+        "note": "Inferred from Q Exactive instrument specification"
+      },
+      "Comment[CollisionEnergy]": {
+        "value": "Not Applicable",
+        "evidence": "No collision energy parameters mentioned",
+        "confidence": "low",
+        "source": "manuscript",
+        "applies_to": "all"
+      },
+      "Comment[PrecursorMassTolerance]": {
+        "value": "±6 ppm",
+        "evidence": "Common parameters include ±6 ppm for precursor ion mass tolerance",
+        "confidence": "high",
+        "source": "manuscript",
+        "applies_to": "all"
+      },
+      "Comment[FragmentMassTolerance]": {
+        "value": "Not Applicable",
+        "evidence": "Fragment mass tolerance not specified in manuscript",
+        "confidence": "low",
+        "source": "manuscript",
+        "applies_to": "all"
+      },
+      "Comment[NumberOfMissedCleavages]": {
+        "value": "Not Applicable",
+        "evidence": "Number of missed cleavages not specified in manuscript",
+        "confidence": "low",
+        "source": "manuscript",
+        "applies_to": "all"
+      },
+      "Comment[GradientTime]": {
+        "value": "Not Applicable",
+        "evidence": "Gradient time not mentioned in manuscript",
+        "confidence": "low",
+        "source": "manuscript",
+        "applies_to": "all"
+      },
+      "Comment[FlowRateChromatogram]": {
+        "value": "Not Applicable",
+        "evidence": "Flow rate not mentioned in manuscript",
+        "confidence": "low",
+        "source": "manuscript",
+        "applies_to": "all"
+      }
+    },
+    "RAW_FILES": {
+      "Comment[FractionIdentifier]": {
+        "value": "Not Applicable",
+        "evidence": "No fractionation information found in manuscript text or filename patterns",
+        "confidence": "high",
+        "source": "inferred",
+        "applies_to": "all"
+      },
+      "Characteristics[BiologicalReplicate]": {
+        "value": "Not Applicable",
+        "evidence": "No explicit biological replicate information in manuscript text",
+        "confidence": "medium",
+        "source": "inferred",
+        "applies_to": "all",
+        "note": "Filename pattern 'ad_pl##' suggests possible plate-based organization but biological replicate structure unclear"
+      },
+      "Characteristics[NumberOfBiologicalReplicates]": {
+        "value": "Not Applicable",
+        "evidence": "No explicit information about number of biological replicates in manuscript text",
+        "confidence": "medium",
+        "source": "inferred",
+        "applies_to": "all"
+      },
+      "Characteristics[NumberOfTechnicalReplicates]": {
+        "value": "Not Applicable",
+        "evidence": "No explicit information about technical replicates in manuscript text",
+        "confidence": "medium",
+        "source": "inferred",
+        "applies_to": "all"
+      },
+      "Characteristics[NumberOfSamples]": {
+        "value": "10",
+        "evidence": "10 raw files listed: ad_pl01.raw through ad_pl10.raw",
+        "confidence": "high",
+        "source": "filename",
+        "applies_to": "all"
+      }
+    }
+  }
+}

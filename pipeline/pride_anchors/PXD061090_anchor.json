@@ -1,0 +1,52 @@
+{
+  "pxd": "PXD061090",
+  "source": "PRIDE_API",
+  "organism": [
+    {
+      "name": "Rattus norvegicus (rat)",
+      "accession": "NEWT:10116"
+    }
+  ],
+  "instruments": [
+    {
+      "name": "Q Exactive",
+      "accession": "MS:1001911",
+      "sdrf_format": "AC=MS:1001911;NT=Q Exactive"
+    }
+  ],
+  "modifications": [],
+  "organism_parts": [
+    {
+      "name": "Blood serum",
+      "accession": "BTO:0000133"
+    }
+  ],
+  "diseases": [
+    {
+      "name": "Osteoarthritis",
+      "accession": "DOID:8398"
+    }
+  ],
+  "experiment_types": [
+    "Data-independent acquisition"
+  ],
+  "quantification_methods": [
+    "Relative quantification"
+  ],
+  "keywords": [
+    "Rat; serum; data-independent acquisition proteomics"
+  ],
+  "publications": [
+    {
+      "pubmed_id": "",
+      "doi": "10.1038/s41598-025-92413-x",
+      "ref": "Liao Q, Chen J, Liu G. Low intensity pulsed ultrasound alleviates synovial fibrosis in osteoarthritis via the PI3K/AKT pathway.  Sci Rep. 2025 15(1):9644"
+    }
+  ],
+  "inferred_fragmentation": "HCD",
+  "inferred_ms2_analyzer": "orbitrap",
+  "inferred_ionization": "nanoESI",
+  "raw_files": [
+    "Raw.zip"
+  ]
+}

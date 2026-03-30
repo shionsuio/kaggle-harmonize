@@ -1,0 +1,159 @@
+{
+  "pxd": "PXD062469",
+  "source": "PRIDE_API",
+  "organism": [
+    {
+      "name": "Homo sapiens (human)",
+      "accession": "NEWT:9606"
+    }
+  ],
+  "instruments": [
+    {
+      "name": "TripleTOF 5600",
+      "accession": "MS:1000932",
+      "sdrf_format": "AC=MS:1000932;NT=TripleTOF 5600"
+    }
+  ],
+  "modifications": [],
+  "organism_parts": [
+    {
+      "name": "Malignant cell",
+      "accession": "CL:0001064"
+    },
+    {
+      "name": "Prostate stromal cell",
+      "accession": "CL:0002622"
+    }
+  ],
+  "diseases": [
+    {
+      "name": "Prostate adenocarcinoma",
+      "accession": "DOID:2526"
+    }
+  ],
+  "experiment_types": [
+    "SWATH MS"
+  ],
+  "quantification_methods": [
+    "SWATH MS",
+    "Relative quantification"
+  ],
+  "keywords": [
+    "Neutral sphingomyelinases",
+    "Smpd2",
+    "Smpd3",
+    "Cell migration",
+    "Extracellular matrix"
+  ],
+  "publications": [
+    {
+      "pubmed_id": "",
+      "doi": "10.3390/cells14070547",
+      "ref": "Choezom D, Plum JM, Karuna M P, Danieli-Mackay A, Lenz C, Brockmeyer P, Gross JC. The Ceramide-Dependent EV Secretome Differentially Affects Prostate Cancer Cell Migration. Cells. 2025 14(7):547"
+    }
+  ],
+  "inferred_fragmentation": "CID",
+  "inferred_ms2_analyzer": "TOF",
+  "inferred_ionization": "nanoESI",
+  "raw_files": [
+    "JM_Plum_310118_100418_DIA_PI3_MV_INHB_12.wiff.scan",
+    "JM_Plum_310118_100418_DIA_PI3_MV_DMSO_21.wiff.scan",
+    "JM_Plum_310118_100418_DIA_PI3_MV_INHB_11.wiff",
+    "JM_Plum_310118_100418_DIA_PI3_MV_DMSO_21.wiff",
+    "JM_Plum_310118_100418_DIA_PI3_MV_INHB_22.wiff",
+    "JM_Plum_310118_130418_DDA_C_F03.wiff.scan",
+    "JM_Plum_310118_130418_DDA_A_F08.wiff.scan",
+    "JM_Plum_310118_130418_DDA_B_F05.wiff",
+    "JM_Plum_310118_100418_DIA_145_Exo_DMSO_12.wiff.scan",
+    "JM_Plum_310118_100418_DIA_145_MV_DMSO_12.wiff",
+    "JM_Plum_310118_130418_DDA_A_F01.wiff.scan",
+    "JM_Plum_310118_130418_DDA_C_F02.wiff.scan",
+    "JM_Plum_310118_100418_DIA_145_MV_INHB_11.wiff",
+    "JM_Plum_310118_130418_DDA_A_F02.wiff.scan",
+    "JM_Plum_310118_130418_DDA_C_F03.wiff",
+    "JM_Plum_310118_130418_DDA_C_F05.wiff.scan",
+    "JM_Plum_310118_100418_DIA_145_Exo_INHB_12.wiff.scan",
+    "JM_Plum_310118_100418_DIA_145_Exo_DMSO_21.wiff",
+    "JM_Plum_310118_100418_DIA_PI3_MV_DMSO_12.wiff.scan",
+    "JM_Plum_310118_130418_DDA_A_F05.wiff",
+    "JM_Plum_310118_130418_DDA_C_F01.wiff",
+    "JM_Plum_310118_130418_DDA_C_F02.wiff",
+    "JM_Plum_310118_100418_DIA_145_Exo_DMSO_22.wiff.scan",
+    "JM_Plum_310118_100418_DIA_145_MV_DMSO_12.wiff.scan",
+    "JM_Plum_310118_100418_DIA_145_Exo_INHB_21.wiff",
+    "JM_Plum_310118_130418_DDA_B_F07.wiff.scan",
+    "JM_Plum_310118_100418_DIA_145_MV_INHB_21.wiff",
+    "JM_Plum_310118_100418_DIA_PI3_Exo_DMSO_12.wiff.scan",
+    "JM_Plum_310118_100418_DIA_145_MV_INHB_12.wiff.scan",
+    "JM_Plum_310118_100418_DIA_PI3_Exo_DMSO_22.wiff",
+    "JM_Plum_310118_100418_DIA_145_Exo_INHB_22.wiff",
+    "JM_Plum_310118_130418_DDA_C_F06.wiff.scan",
+    "JM_Plum_310118_130418_DDA_A_F01.wiff",
+    "JM_Plum_310118_130418_DDA_B_F03.wiff",
+    "JM_Plum_310118_100418_DIA_PI3_MV_DMSO_22.wiff",
+    "JM_Plum_310118_130418_DDA_B_F04.wiff",
+    "JM_Plum_310118_100418_DIA_PI3_MV_DMSO_11.wiff.scan",
+    "JM_Plum_310118_130418_DDA_C_F05.wiff",
+    "JM_Plum_310118_100418_DIA_145_MV_DMSO_11.wiff",
+    "JM_Plum_310118_100418_DIA_PI3_Exo_DMSO_22.wiff.scan",
+    "JM_Plum_310118_100418_DIA_145_Exo_INHB_22.wiff.scan",
+    "JM_Plum_310118_130418_DDA_A_F02.wiff",
+    "JM_Plum_310118_100418_DIA_145_Exo_DMSO_21.wiff.scan",
+    "JM_Plum_310118_100418_DIA_145_Exo_DMSO_12.wiff",
+    "JM_Plum_310118_130418_DDA_A_F07.wiff",
+    "JM_Plum_310118_100418_DIA_PI3_Exo_DMSO_21.wiff.scan",
+    "JM_Plum_310118_130418_DDA_A_F07.wiff.scan",
+    "JM_Plum_310118_130418_DDA_C_F07.wiff",
+    "JM_Plum_310118_100418_DIA_145_Exo_DMSO_11.wiff",
+    "JM_Plum_310118_100418_DIA_PI3_Exo_INHB_21.wiff.scan",
+    "JM_Plum_310118_130418_DDA_C_F08.wiff.scan",
+    "JM_Plum_310118_100418_DIA_145_Exo_INHB_12.wiff",
+    "JM_Plum_310118_130418_DDA_C_F06.wiff",
+    "JM_Plum_310118_100418_DIA_145_Exo_INHB_11.wiff",
+    "JM_Plum_310118_130418_DDA_C_F07.wiff.scan",
+    "JM_Plum_310118_130418_DDA_C_F01.wiff.scan",
+    "JM_Plum_310118_100418_DIA_145_MV_INHB_12.wiff",
+    "JM_Plum_310118_130418_DDA_B_F02.wiff.scan",
+    "JM_Plum_310118_130418_DDA_B_F06.wiff",
+    "JM_Plum_310118_100418_DIA_PI3_Exo_INHB_11.wiff.scan",
+    "JM_Plum_310118_100418_DIA_PI3_Exo_INHB_11.wiff",
+    "JM_Plum_310118_100418_DIA_145_MV_INHB_21.wiff.scan",
+    "JM_Plum_310118_130418_DDA_C_F04.wiff.scan",
+    "JM_Plum_310118_130418_DDA_A_F06.wiff.scan",
+    "JM_Plum_310118_130418_DDA_A_F03.wiff",
+    "JM_Plum_310118_100418_DIA_145_MV_DMSO_22.wiff.scan",
+    "JM_Plum_310118_130418_DDA_A_F06.wiff",
+    "JM_Plum_310118_130418_DDA_A_F04.wiff.scan",
+    "JM_Plum_310118_130418_DDA_B_F06.wiff.scan",
+    "JM_Plum_310118_130418_DDA_B_F01.wiff",
+    "JM_Plum_310118_100418_DIA_PI3_MV_INHB_11.wiff.scan",
+    "JM_Plum_310118_100418_DIA_PI3_MV_DMSO_12.wiff",
+    "JM_Plum_310118_130418_DDA_C_F08.wiff",
+    "JM_Plum_310118_130418_DDA_B_F02.wiff",
+    "JM_Plum_310118_130418_DDA_A_F04.wiff",
+    "JM_Plum_310118_130418_DDA_B_F03.wiff.scan",
+    "JM_Plum_310118_100418_DIA_145_MV_DMSO_21.wiff",
+    "JM_Plum_310118_100418_DIA_145_Exo_INHB_11.wiff.scan",
+    "JM_Plum_310118_100418_DIA_PI3_MV_INHB_21.wiff.scan",
+    "JM_Plum_310118_100418_DIA_PI3_Exo_INHB_22.wiff",
+    "JM_Plum_310118_100418_DIA_145_MV_DMSO_11.wiff.scan",
+    "JM_Plum_310118_130418_DDA_B_F04.wiff.scan",
+    "JM_Plum_310118_100418_DIA_PI3_Exo_INHB_22.wiff.scan",
+    "JM_Plum_310118_130418_DDA_B_F08.wiff",
+    "JM_Plum_310118_100418_DIA_PI3_MV_INHB_21.wiff",
+    "JM_Plum_310118_100418_DIA_PI3_Exo_DMSO_11.wiff.scan",
+    "JM_Plum_310118_130418_DDA_B_F08.wiff.scan",
+    "JM_Plum_310118_130418_DDA_A_F08.wiff",
+    "JM_Plum_310118_100418_DIA_PI3_MV_INHB_22.wiff.scan",
+    "JM_Plum_310118_100418_DIA_145_MV_INHB_22.wiff",
+    "JM_Plum_310118_100418_DIA_PI3_Exo_DMSO_11.wiff",
+    "JM_Plum_310118_100418_DIA_PI3_Exo_DMSO_21.wiff",
+    "JM_Plum_310118_100418_DIA_PI3_Exo_INHB_12.wiff",
+    "JM_Plum_310118_100418_DIA_PI3_MV_DMSO_22.wiff.scan",
+    "JM_Plum_310118_130418_DDA_B_F07.wiff",
+    "JM_Plum_310118_100418_DIA_PI3_MV_INHB_12.wiff",
+    "JM_Plum_310118_100418_DIA_145_Exo_DMSO_11.wiff.scan",
+    "JM_Plum_310118_100418_DIA_PI3_MV_DMSO_11.wiff",
+    "JM_Plum_310118_100418_DIA_PI3_Exo_INHB_12.wiff.scan"
+  ]
+}

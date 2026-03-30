@@ -1,0 +1,287 @@
+{
+  "pxd": "PXD050621",
+  "raw_files": [
+    "pTn5053_delta_Chi_1.raw",
+    "pTn5053_delta_Chi_3.raw",
+    "pTn5053_delta_Chi_2.raw",
+    "pTn5053_delta_ClpX_1.raw",
+    "pTn5053_1.raw",
+    "pTn5053_delta_ClpX_3.raw",
+    "pTn5053_3.raw",
+    "pTn5053_2.raw",
+    "pTn5053_delta_ClpX_2.raw"
+  ],
+  "anchor": {
+    "pxd": "PXD050621",
+    "source": "PRIDE_API",
+    "organism": [
+      {
+        "name": "Escherichia coli",
+        "accession": "NEWT:562"
+      }
+    ],
+    "instruments": [
+      {
+        "name": "Q Exactive HF",
+        "accession": "MS:1002523",
+        "sdrf_format": "AC=MS:1002523;NT=Q Exactive HF"
+      }
+    ],
+    "modifications": [],
+    "organism_parts": [],
+    "diseases": [],
+    "experiment_types": [
+      "Shotgun proteomics"
+    ],
+    "quantification_methods": [
+      "Peptide counting"
+    ],
+    "keywords": [
+      "Restriction alleviation. e. coli",
+      "Ab1157",
+      "Ecoki"
+    ],
+    "publications": [
+      {
+        "pubmed_id": "",
+        "doi": "10.1093/nar/gkae243",
+        "ref": "Skutel M, Yanovskaya D, Demkina A, Shenfeld A, Musharova O, Severinov K, Isaev A. RecA-dependent or independent recombination of plasmid DNA generates a conflict with the host EcoKI immunity by launching restriction alleviation. Nucleic Acids Res. 2024 52(9):5195-5208"
+      }
+    ],
+    "inferred_fragmentation": "HCD",
+    "inferred_ms2_analyzer": "orbitrap",
+    "inferred_ionization": "nanoESI",
+    "raw_files": [
+      "pTn5053_delta_Chi_1.raw",
+      "pTn5053_delta_Chi_3.raw",
+      "pTn5053_delta_Chi_2.raw",
+      "pTn5053_delta_ClpX_1.raw",
+      "pTn5053_1.raw",
+      "pTn5053_delta_ClpX_3.raw",
+      "pTn5053_3.raw",
+      "pTn5053_2.raw",
+      "pTn5053_delta_ClpX_2.raw"
+    ]
+  },
+  "steps": {
+    "STEP1_OVERVIEW": {
+      "confirmed": {
+        "Characteristics[Organism]": {
+          "value": "Escherichia coli",
+          "evidence": "Escherichia coli Type I R–M system EcoKI",
+          "source": "manuscript"
+        },
+        "Characteristics[MaterialType]": {
+          "value": "plasmid DNA",
+          "evidence": "RecA-dependent or independent recombination of plasmid DNA generates a conflict with the host EcoKI immunity",
+          "source": "manuscript"
+        },
+        "Characteristics[GeneticModification]": {
+          "value": "RecA-deficient, RecBCD-deficient mutants",
+          "evidence": "inactivation of both RecA and RecBCD restores RA, indicating that there exists an alternative, RecA-independent, homologous recombination pathway",
+          "source": "manuscript"
+        },
+        "Characteristics[Treatment]": {
+          "value": "plasmid transformation with EcoKI and Chi sites",
+          "evidence": "Plasmids carrying both EcoKI and Chi sites induce RA in RecA- and RecBCD-dependent manner",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {
+        "Characteristics[Strain]": {
+          "candidates": [
+            "laboratory E. coli strains with EcoKI system",
+            "specific mutant strains (RecA-, RecBCD-)"
+          ],
+          "reasoning": "実験でRecAやRecBCDの変異株を使用していることから、特定の実験用大腸菌株が使われている可能性が高い",
+          "needs": "具体的な株名（DH5α, BL21等）の情報"
+        }
+      },
+      "not_applicable": [
+        "Characteristics[OrganismPart]",
+        "Characteristics[CellType]",
+        "Characteristics[CellLine]",
+        "Characteristics[Disease]",
+        "Characteristics[Label]",
+        "Characteristics[Specimen]",
+        "Characteristics[DevelopmentalStage]",
+        "Characteristics[Compound]",
+        "Characteristics[ConcentrationOfCompound]",
+        "Comment[AcquisitionMethod]"
+      ],
+      "summary": "大腸菌を用いたプラスミドDNAの制限修飾システム研究。RecA/RecBCD変異株を用いた遺伝学的解析でプラスミド誘導制限緩和現象を調査。具体的な大腸菌株名は未確定だが実験用変異株使用は確実。細胞培養系ではなく細菌の分子生物学研究。"
+    },
+    "STEP2_SAMPLE_PREP": {
+      "confirmed": {
+        "Characteristics[CleavageAgent]": {
+          "value": "not specified",
+          "evidence": "Mass spectrometry methods section mentions protein analysis but does not specify proteolytic cleavage agent used for digestion",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {
+        "Characteristics[CleavageAgent]": {
+          "candidates": [
+            "trypsin",
+            "other standard proteases"
+          ],
+          "reasoning": "Standard shotgun proteomics typically uses trypsin for protein digestion, but the methods section only mentions 'label-free protein quantification' without specifying digestion protocol",
+          "needs": "Detailed proteomics sample preparation protocol or materials and methods section specifically describing protein digestion"
+        }
+      },
+      "not_applicable": [
+        "Characteristics[AlkylationReagent]",
+        "Characteristics[ReductionReagent]",
+        "Characteristics[Label]",
+        "Characteristics[Modification]",
+        "Characteristics[Modification].1",
+        "Characteristics[Modification].2",
+        "Characteristics[Modification].3",
+        "Characteristics[Modification].4",
+        "Characteristics[Modification].5",
+        "Characteristics[Modification].6",
+        "Characteristics[Depletion]",
+        "Characteristics[SpikedCompound]",
+        "Characteristics[SyntheticPeptide]",
+        "Comment[EnrichmentMethod]",
+        "Comment[FractionationMethod]",
+        "Comment[NumberOfFractions]",
+        "Comment[Separation]"
+      ],
+      "summary": "質量分析による定量プロテオミクス実験でHsdRとHsdMタンパク質の相対定量を実施。細胞を超音波破砕後、上清を質量分析に供したことは確認できたが、タンパク質消化の詳細（消化酵素、還元・アルキル化試薬等）は記載なし。標準的なショットガンプロテオミクスならトリプシン消化が予想されるが確定には詳細プロトコルが必要。修飾解析や分画は実施していない模様。"
+    },
+    "STEP3_MS_SETTINGS": {
+      "confirmed": {
+        "Comment[Instrument]": {
+          "value": "Q Exactive HF",
+          "evidence": "From PRIDE database anchor data: Q Exactive HF (MS:1002523)",
+          "source": "anchor"
+        },
+        "Comment[FragmentationMethod]": {
+          "value": "HCD",
+          "evidence": "From PRIDE database anchor data: Fragmentation (from instrument): HCD",
+          "source": "anchor"
+        },
+        "Comment[MS2MassAnalyzer]": {
+          "value": "orbitrap",
+          "evidence": "From PRIDE database anchor data: MS2 Analyzer (from instrument): orbitrap",
+          "source": "anchor"
+        },
+        "Comment[IonizationType]": {
+          "value": "nanoESI",
+          "evidence": "From PRIDE database anchor data: Ionization (from instrument): nanoESI",
+          "source": "anchor"
+        },
+        "Comment[AcquisitionMethod]": {
+          "value": "Shotgun proteomics",
+          "evidence": "From PRIDE database anchor data: Experiment Type: Shotgun proteomics",
+          "source": "anchor"
+        }
+      },
+      "hypotheses": {
+        "Comment[CollisionEnergy]": {
+          "candidates": [
+            "stepped collision energy (25-30%)",
+            "fixed collision energy (27-28%)"
+          ],
+          "reasoning": "Q Exactive HF with HCD typically uses standard collision energy settings for shotgun proteomics, but specific values not mentioned in methods",
+          "needs": "Detailed mass spectrometry parameters section or instrument method files"
+        },
+        "Comment[PrecursorMassTolerance]": {
+          "candidates": [
+            "10 ppm",
+            "20 ppm"
+          ],
+          "reasoning": "Orbitrap instruments typically use ppm-level precursor mass tolerance, with 10-20 ppm being common for high-resolution instruments",
+          "needs": "Database search parameters or detailed MS acquisition settings"
+        },
+        "Comment[FragmentMassTolerance]": {
+          "candidates": [
+            "0.02 Da",
+            "20 ppm"
+          ],
+          "reasoning": "Orbitrap MS2 analysis typically uses either Da or ppm tolerance depending on search engine and acquisition resolution",
+          "needs": "Database search parameters section"
+        }
+      },
+      "not_applicable": [
+        "Comment[NumberOfMissedCleavages]",
+        "Comment[GradientTime]",
+        "Comment[FlowRateChromatogram]"
+      ],
+      "summary": "質量分析装置と基本設定はアンカーデータから確定：Q Exactive HF、HCD断片化、オービトラップMS2分析器、nanoESI、ショットガンプロテオミクス。論文本文には「label-free protein quantification」の記載のみで詳細なMS設定パラメータ（衝突エネルギー、質量許容誤差等）やクロマトグラフィー条件の記載なし。LC-MS/MS実験だがグラジエント時間や流速は不明。"
+    },
+    "STEP4_RAW_FILES": {
+      "confirmed": {
+        "Characteristics[BiologicalReplicate]": {
+          "value": "per_file",
+          "per_file": {
+            "pTn5053_delta_Chi_1.raw": "1",
+            "pTn5053_delta_Chi_2.raw": "2",
+            "pTn5053_delta_Chi_3.raw": "3",
+            "pTn5053_delta_ClpX_1.raw": "1",
+            "pTn5053_delta_ClpX_2.raw": "2",
+            "pTn5053_delta_ClpX_3.raw": "3",
+            "pTn5053_1.raw": "1",
+            "pTn5053_2.raw": "2",
+            "pTn5053_3.raw": "3"
+          },
+          "evidence": "ファイル名に明確に_1, _2, _3の番号が含まれており、同一条件で3つのレプリケートが実施されていることを示す",
+          "source": "filename"
+        },
+        "Characteristics[NumberOfBiologicalReplicates]": {
+          "value": "3",
+          "evidence": "各実験条件でファイル名に_1, _2, _3が存在し、EOT experiments, EOP experiments, flow cytometry experiments全てでbiological triplicatesと明記されている",
+          "source": "filename/manuscript"
+        },
+        "Characteristics[NumberOfSamples]": {
+          "value": "9",
+          "evidence": "3つの異なる条件（pTn5053, pTn5053_delta_Chi, pTn5053_delta_ClpX）×各3レプリケート=9ファイル",
+          "source": "filename"
+        },
+        "FactorValue[GeneticModification]": {
+          "value": "per_file",
+          "per_file": {
+            "pTn5053_delta_Chi_1.raw": "Chi site deletion",
+            "pTn5053_delta_Chi_2.raw": "Chi site deletion",
+            "pTn5053_delta_Chi_3.raw": "Chi site deletion",
+            "pTn5053_delta_ClpX_1.raw": "ClpX deletion",
+            "pTn5053_delta_ClpX_2.raw": "ClpX deletion",
+            "pTn5053_delta_ClpX_3.raw": "ClpX deletion",
+            "pTn5053_1.raw": "wild-type pTn5053",
+            "pTn5053_2.raw": "wild-type pTn5053",
+            "pTn5053_3.raw": "wild-type pTn5053"
+          },
+          "evidence": "ファイル名のdelta_ChiはChi site deletion、delta_ClpXはClpX deletionを示し、methods sectionでpoint mutagenesis of Chi sitesとdeletion of ardD locus (ClpX関連) in pUC-Tn5053が記載されている",
+          "source": "filename/manuscript"
+        },
+        "FactorValue[Temperature]": {
+          "value": "37°C",
+          "evidence": "Bacterial cultures were routinely propagated in LB medium at 37°C および The cells were then harvested by centrifugation (6000g, 10 min, 4°C) and resuspended in 200 μl of PBS buffer での培養温度",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {
+        "Characteristics[NumberOfTechnicalReplicates]": {
+          "candidates": [
+            "1",
+            "unknown"
+          ],
+          "reasoning": "各biological replicateに対してtechnical replicateの明確な記載がなく、ファイル名からも判断できない",
+          "needs": "Mass-spectrometry sectionでのtechnical replicate実施に関する詳細記載"
+        }
+      },
+      "not_applicable": [
+        "Comment[FractionIdentifier]",
+        "FactorValue[Treatment]",
+        "FactorValue[Disease]",
+        "FactorValue[Compound]",
+        "FactorValue[Bait]",
+        "FactorValue[CellPart]",
+        "FactorValue[ConcentrationOfCompound].1",
+        "FactorValue[FractionIdentifier]"
+      ],
+      "summary": "rawファイル名から実験デザインが明確に判明：3つの遺伝子改変条件（野生型pTn5053、Chi site欠失、ClpX欠失）各3生物学的反復で計9サンプル。37°C培養条件確定。技術反復数は不明だが生物学的反復は確実に3回。プラスミド改変による制限修飾システム研究でHsdR/HsdMタンパク質定量が目的。"
+    }
+  }
+}

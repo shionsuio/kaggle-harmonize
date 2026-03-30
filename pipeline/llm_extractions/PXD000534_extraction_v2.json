@@ -1,0 +1,324 @@
+{
+  "pxd": "PXD000534",
+  "raw_files": [
+    "OEI00094.raw",
+    "OEI00078.raw",
+    "OEI00068.raw",
+    "OEI00088.raw",
+    "OEI00090.raw",
+    "OEI00082.raw",
+    "OEI00076.raw",
+    "OEI00074.raw",
+    "OEI00096.raw",
+    "OEI00070.raw",
+    "OEI00086.raw",
+    "OEI00072.raw",
+    "OEI00084.raw",
+    "OEI00080.raw",
+    "OEI00092.raw",
+    "OEI00066.raw"
+  ],
+  "anchor": {
+    "pxd": "PXD000534",
+    "source": "PRIDE_API",
+    "organism": [
+      {
+        "name": "Homo sapiens (human)",
+        "accession": "NEWT:9606"
+      }
+    ],
+    "instruments": [
+      {
+        "name": "LTQ Orbitrap",
+        "accession": "MS:1000449",
+        "sdrf_format": "AC=MS:1000449;NT=LTQ Orbitrap"
+      }
+    ],
+    "modifications": [],
+    "organism_parts": [
+      {
+        "name": "Liver",
+        "accession": "BTO:0000759"
+      },
+      {
+        "name": "Cholangioma cell",
+        "accession": "BTO:0002842"
+      },
+      {
+        "name": "Hepatocyte",
+        "accession": "CL:0000182"
+      }
+    ],
+    "diseases": [],
+    "experiment_types": [
+      "Bottom-up proteomics"
+    ],
+    "quantification_methods": [],
+    "keywords": [
+      "Human",
+      "Lc-ms",
+      "Maldi",
+      "Liver",
+      "Cholangiocellular carcinoma"
+    ],
+    "publications": [
+      {
+        "pubmed_id": "",
+        "doi": "",
+        "ref": "Padden J, Megger DA, Bracht T, Reis H, Ahrens M, Kohl M, Eisenacher M, Schlaak JO, Canbay AE, Weber F, Hoffmann AC, Kuhlmann K, Meyer HE, Baba HA, Sitek B. Identification of Novel Biomarker Candidates for the Immunohistochemical Diagnosis of Cholangiocellular Carcinoma. Mol Cell Proteomics. 2014 Jul 17. pii: mcp.M113.034942"
+      }
+    ],
+    "inferred_fragmentation": "CID",
+    "inferred_ms2_analyzer": "orbitrap",
+    "inferred_ionization": "nanoESI",
+    "raw_files": [
+      "OEI00094.raw",
+      "OEI00078.raw",
+      "OEI00068.raw",
+      "OEI00088.raw",
+      "OEI00090.raw",
+      "OEI00082.raw",
+      "OEI00076.raw",
+      "OEI00074.raw",
+      "OEI00096.raw",
+      "OEI00070.raw",
+      "OEI00086.raw",
+      "OEI00072.raw",
+      "OEI00084.raw",
+      "OEI00080.raw",
+      "OEI00092.raw",
+      "OEI00066.raw"
+    ]
+  },
+  "steps": {
+    "STEP1_OVERVIEW": {
+      "confirmed": {
+        "Characteristics[Organism]": {
+          "value": "Homo sapiens",
+          "evidence": "Tumorous tissue and adjacent non-tumorous liver tissue from eight CCC patients were analyzed",
+          "source": "manuscript"
+        },
+        "Characteristics[OrganismPart]": {
+          "value": "liver",
+          "evidence": "adjacent non-tumorous liver tissue from eight CCC patients were analyzed",
+          "source": "manuscript"
+        },
+        "Characteristics[CellType]": {
+          "value": "cholangiocytes, hepatocytes",
+          "evidence": "significant up-regulation of serpin H1, 14-3-3 protein sigma, and stress-induced phosphoprotein 1 in tumorous cholangiocytes relative to normal hepatocytes and non-tumorous cholangiocytes",
+          "source": "manuscript"
+        },
+        "Characteristics[Disease]": {
+          "value": "cholangiocellular carcinoma",
+          "evidence": "identification of novel biomarker candidates for the diagnosis of cholangiocellular carcinoma (CCC)",
+          "source": "manuscript"
+        },
+        "Characteristics[MaterialType]": {
+          "value": "tissue",
+          "evidence": "Tumorous tissue and adjacent non-tumorous liver tissue from eight CCC patients were analyzed",
+          "source": "manuscript"
+        },
+        "Characteristics[Label]": {
+          "value": "label-free",
+          "evidence": "mass-spectrometry-based label-free proteomics",
+          "source": "manuscript"
+        },
+        "Comment[AcquisitionMethod]": {
+          "value": "two-dimensional differential in-gel electrophoresis and mass-spectrometry-based label-free proteomics",
+          "evidence": "analyzed by means of two-dimensional differential in-gel electrophoresis and mass-spectrometry-based label-free proteomics",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {
+        "Characteristics[Specimen]": {
+          "candidates": [
+            "tumor tissue",
+            "adjacent non-tumor tissue"
+          ],
+          "reasoning": "論文では腫瘍組織と隣接非腫瘍肝組織を比較しているため、これらが検体として使用されている可能性が高い",
+          "needs": "具体的な検体名の明記"
+        }
+      },
+      "not_applicable": [
+        "Characteristics[CellLine]",
+        "Characteristics[Strain]",
+        "Characteristics[GeneticModification]",
+        "Characteristics[Treatment]",
+        "Characteristics[DevelopmentalStage]",
+        "Characteristics[Compound]",
+        "Characteristics[ConcentrationOfCompound]"
+      ],
+      "summary": "ヒト胆管細胞癌の研究で、肝臓組織からcholangiocytesとhepatocytesを対象とした label-free プロテオミクス実験。腫瘍組織と隣接非腫瘍組織の比較により biomarker 候補を同定。細胞株ではなく患者組織を使用した primary tissue 研究であることが確定。"
+    },
+    "STEP2_SAMPLE_PREP": {
+      "confirmed": {
+        "Characteristics[CleavageAgent]": {
+          "value": "trypsin",
+          "evidence": "Protein spots dissected from preparative gels were subjected to in-gel digestion with trypsin (Promega, Madison, WI), and the peptides were then extracted from the gel matrix... digested in-gel using trypsin (SERVA Electrophoresis, Heidelberg, Germany)",
+          "source": "manuscript"
+        },
+        "Characteristics[AlkylationReagent]": {
+          "value": "propionamide",
+          "evidence": "The database searches were run with propionamide (C) and oxidation (M) as variable modifications... variable modifications, oxidation (M) and propionamide (C)",
+          "source": "manuscript"
+        },
+        "Characteristics[Label]": {
+          "value": "label free sample",
+          "evidence": "Label-free Analysis... The ion-intensity-based label-free quantification was done by evaluating the LC-MS data",
+          "source": "manuscript"
+        },
+        "Characteristics[Modification]": {
+          "value": "oxidation",
+          "evidence": "The database searches were run with propionamide (C) and oxidation (M) as variable modifications... variable modifications, oxidation (M) and propionamide (C)",
+          "source": "manuscript"
+        },
+        "Characteristics[Modification].1": {
+          "value": "propionamide",
+          "evidence": "The database searches were run with propionamide (C) and oxidation (M) as variable modifications... variable modifications, oxidation (M) and propionamide (C)",
+          "source": "manuscript"
+        },
+        "Comment[FractionationMethod]": {
+          "value": "gel electrophoresis",
+          "evidence": "Samples were loaded onto a 4–20% SDS-PAGE gel (TGXTM precast gels, Bio-Rad) and run for 1 min at 300 V",
+          "source": "manuscript"
+        },
+        "Comment[Separation]": {
+          "value": "reverse phase chromatography",
+          "evidence": "The separation was performed on an analytical column (Acclaim® PepMap RSLC, 75 μm × 50 cm, nano Viper, C18, 2 μm, 100 Å) with a gradient from 5% to 40% solvent B over 98 min",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {},
+      "not_applicable": [
+        "Characteristics[ReductionReagent]",
+        "Characteristics[Modification].2",
+        "Characteristics[Modification].3",
+        "Characteristics[Modification].4",
+        "Characteristics[Modification].5",
+        "Characteristics[Modification].6",
+        "Characteristics[Depletion]",
+        "Characteristics[SpikedCompound]",
+        "Characteristics[SyntheticPeptide]",
+        "Comment[EnrichmentMethod]",
+        "Comment[NumberOfFractions]"
+      ],
+      "summary": "サンプル調製・消化・修飾の詳細が確定: trypsinによる消化、propionamideによるアルキル化、oxidationとpropionamideの修飾、label-free定量、SDS-PAGEによる分画、逆相クロマトグラフィーによる分離。還元試薬、濃縮・スパイク・合成ペプチドなどの情報は論文テキストに記載されていない。"
+    },
+    "STEP3_MS_SETTINGS": {
+      "confirmed": {
+        "Comment[Instrument]": {
+          "value": "LTQ Orbitrap Elite",
+          "evidence": "Label-free MS-based analysis was performed on an Ultimate 3000 RSLCnano system (Dionex, Idstein, Germany) online coupled to an LTQ Orbitrap Elite (Thermo Scientific)",
+          "source": "manuscript"
+        },
+        "Comment[FragmentationMethod]": {
+          "value": "collision-induced dissociation",
+          "evidence": "tandem mass spectra of the 20 most abundant peaks were measured in the linear ion trap after peptide fragmentation by collision-induced dissociation",
+          "source": "manuscript"
+        },
+        "Comment[AcquisitionMethod]": {
+          "value": "data-dependent mode",
+          "evidence": "The mass spectrometer was operated in data-dependent mode. Full-scan MS spectra were acquired at a resolution of 60,000 in the Orbitrap analyzer, and tandem mass spectra of the 20 most abundant peaks were measured",
+          "source": "manuscript"
+        },
+        "Comment[PrecursorMassTolerance]": {
+          "value": "5 ppm",
+          "evidence": "precursor ion mass tolerance of 5 ppm",
+          "source": "manuscript"
+        },
+        "Comment[FragmentMassTolerance]": {
+          "value": "0.4 Da",
+          "evidence": "fragment ion mass tolerance of 0.4 Da",
+          "source": "manuscript"
+        },
+        "Comment[NumberOfMissedCleavages]": {
+          "value": "1",
+          "evidence": "tryptic digestion with up to one missed cleavage",
+          "source": "manuscript"
+        },
+        "Comment[GradientTime]": {
+          "value": "98 min",
+          "evidence": "with a gradient from 5% to 40% solvent B over 98 min",
+          "source": "manuscript"
+        },
+        "Comment[FlowRateChromatogram]": {
+          "value": "400 nl/min",
+          "evidence": "The flow rate was set at 400 nl/min",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {
+        "Comment[IonizationType]": {
+          "candidates": [
+            "electrospray ionization",
+            "nanoESI"
+          ],
+          "reasoning": "アンカー情報でnanoESIが確認されており、Ultimate 3000 RSLCnano systemとLTQ Orbitrap Eliteの組み合わせでは通常nanoESIが使用される",
+          "needs": "論文テキストでの明示的な記載"
+        },
+        "Comment[MS2MassAnalyzer]": {
+          "candidates": [
+            "linear ion trap",
+            "orbitrap"
+          ],
+          "reasoning": "テキストで'tandem mass spectra of the 20 most abundant peaks were measured in the linear ion trap'と記載されているが、アンカー情報ではorbitrapとなっている",
+          "needs": "装置設定の詳細確認"
+        }
+      },
+      "not_applicable": [
+        "Comment[CollisionEnergy]"
+      ],
+      "summary": "LC-MS/MSの装置設定パラメータが詳細に確定：LTQ Orbitrap Elite装置、CIDフラグメンテーション、データ依存取得、5ppm前駆体質量許容差、0.4Da断片質量許容差、最大1ミスクリベージ、98分グラディエント、400nl/min流速。MS2アナライザーについてはテキスト（linear ion trap）とアンカー情報（orbitrap）に矛盾があり要確認。イオン化法とコリジョンエネルギーは論文に明記なし。"
+    },
+    "STEP4_RAW_FILES": {
+      "confirmed": {
+        "Characteristics[BiologicalReplicate]": {
+          "value": "8",
+          "evidence": "Sample set 1, which was used for 2D-DIGE and label-free LC-MS experiments, contained non-tumorous liver tissue and CCC tissue samples from eight patients aged between 42 and 78.",
+          "source": "manuscript"
+        },
+        "Characteristics[NumberOfBiologicalReplicates]": {
+          "value": "8",
+          "evidence": "Sample set 1, which was used for 2D-DIGE and label-free LC-MS experiments, contained non-tumorous liver tissue and CCC tissue samples from eight patients aged between 42 and 78.",
+          "source": "manuscript"
+        },
+        "Characteristics[NumberOfSamples]": {
+          "value": "16",
+          "evidence": "8 patients with both non-tumorous liver tissue and CCC tissue samples each, resulting in 16 total samples for LC-MS experiments",
+          "source": "manuscript"
+        },
+        "FactorValue[Disease]": {
+          "value": "per_sample",
+          "per_sample": {
+            "tumor_samples": "cholangiocellular carcinoma",
+            "control_samples": "normal"
+          },
+          "evidence": "non-tumorous liver tissue and CCC tissue samples from eight patients - each patient contributed both tumor and non-tumor tissue",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {
+        "Characteristics[NumberOfTechnicalReplicates]": {
+          "candidates": [
+            "1",
+            "2"
+          ],
+          "reasoning": "16個のrawファイルが8患者×2条件（腫瘍・非腫瘍）と一致するため技術的レプリケートは1回の可能性が高いが、論文に明記されていない",
+          "needs": "技術的レプリケート数の明示的な記載"
+        }
+      },
+      "not_applicable": [
+        "Comment[FractionIdentifier]",
+        "FactorValue[Treatment]",
+        "FactorValue[Temperature]",
+        "FactorValue[GeneticModification]",
+        "FactorValue[Compound]",
+        "FactorValue[Bait]",
+        "FactorValue[CellPart]",
+        "FactorValue[ConcentrationOfCompound].1",
+        "FactorValue[FractionIdentifier]"
+      ],
+      "summary": "8名の患者から腫瘍組織と非腫瘍肝組織を採取した比較研究であることが確定。16個のrawファイルは8患者×2条件に対応。生物学的レプリケート数8、総サンプル数16が確定。FactorValue[Disease]は患者ペア内での腫瘍vs正常組織の比較。rawファイル名（OEI00066-096）からは患者・条件の特定は不可能で、技術的レプリケート数も論文に明記なし。"
+    }
+  }
+}

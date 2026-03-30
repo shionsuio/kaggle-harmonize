@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.pyc
+pipeline/.env
+pride_cache/
+Training_SDRFs/
+Training_PubText/
+Training_GPT_Extract/
+Test PubText/
+SampleSubmission.csv
+BaselinePrompt.txt
+*.DS_Store

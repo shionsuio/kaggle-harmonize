@@ -1,0 +1,48 @@
+{
+  "pxd": "PXD004143",
+  "source": "PRIDE_API",
+  "organism": [
+    {
+      "name": "Homo sapiens (human)",
+      "accession": "NEWT:9606"
+    }
+  ],
+  "instruments": [
+    {
+      "name": "Q Exactive",
+      "accession": "MS:1001911",
+      "sdrf_format": "AC=MS:1001911;NT=Q Exactive"
+    }
+  ],
+  "modifications": [],
+  "organism_parts": [
+    {
+      "name": "Brain",
+      "accession": "BTO:0000142"
+    }
+  ],
+  "diseases": [],
+  "experiment_types": [
+    "Top-down proteomics"
+  ],
+  "quantification_methods": [],
+  "keywords": [
+    "Proteogenomics genomics variants proteomics"
+  ],
+  "publications": [
+    {
+      "pubmed_id": "",
+      "doi": "10.1021/acs.jproteome.7b00324",
+      "ref": "Wingo TS, Duong DM, Zhou M, Dammer EB, Wu H, Cutler DJ, Lah JJ, Levey AI, Seyfried NT. Integrating Next-Generation Genomic Sequencing and Mass Spectrometry to Estimate Allele-Specific Protein Abundance in Human Brain. J Proteome Res. 2017 Jul 10"
+    }
+  ],
+  "inferred_fragmentation": "HCD",
+  "inferred_ms2_analyzer": "orbitrap",
+  "inferred_ionization": "nanoESI",
+  "raw_files": [
+    "e0590_lt_01_LyscTrypsin.raw",
+    "e0590_01_LysConly.raw",
+    "OS02252_01_LyscTrypsin.raw",
+    "os02252_01_LysConly.raw"
+  ]
+}

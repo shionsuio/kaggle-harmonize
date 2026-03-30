@@ -1,0 +1,364 @@
+{
+  "pxd": "PXD004613",
+  "raw_files": [
+    "E150416_08_Quty1_CS_CO_220_Ines_GSTalone_3.raw",
+    "E150416_06_Quty1_CS_CO_220_Ines_GSTalone_1.raw",
+    "E160618_07_Quty1_CS_CO_220_PV_Ines_PV1B.raw",
+    "E150416_02_Quty1_CS_CO_220_Ines_CtermGST_1.raw",
+    "E150416_07_Quty1_CS_CO_220_Ines_GSTalone_2.raw",
+    "E150416_03_Quty1_CS_CO_220_Ines_CtermGST_2.raw",
+    "E150416_04_Quty1_CS_CO_220_Ines_CtermGST_3.raw",
+    "E160618_05_Quty1_CS_CO_220_PV_Ines_PV1A.raw"
+  ],
+  "anchor": {
+    "pxd": "PXD004613",
+    "source": "PRIDE_API",
+    "organism": [
+      {
+        "name": "Homo sapiens (human)",
+        "accession": "NEWT:9606"
+      }
+    ],
+    "instruments": [
+      {
+        "name": "Q Exactive",
+        "accession": "MS:1001911",
+        "sdrf_format": "AC=MS:1001911;NT=Q Exactive"
+      }
+    ],
+    "modifications": [],
+    "organism_parts": [
+      {
+        "name": "Cell culture",
+        "accession": "BTO:0000214"
+      }
+    ],
+    "diseases": [],
+    "experiment_types": [
+      "Shotgun proteomics"
+    ],
+    "quantification_methods": [],
+    "keywords": [
+      "Human",
+      "Shotgun proteomics heretochromatin",
+      "Hela",
+      "Repo-man"
+    ],
+    "publications": [
+      {
+        "pubmed_id": "",
+        "doi": "10.1038/ncomms14048",
+        "ref": "de Castro IJ, Budzak J, Di Giacinto ML, Ligammari L, Gokhan E, Spanos C, Moralli D, Richardson C, de Las Heras JI, Salatino S, Schirmer EC, Ullman KS, Bickmore WA, Green C, Rappsilber J, Lamble S, Goldberg MW, Vinciotti V, Vagnarelli P. Repo-Man/PP1 regulates heterochromatin formation in interphase. Nat Commun. 2017 Jan 16;8:14048"
+      }
+    ],
+    "inferred_fragmentation": "HCD",
+    "inferred_ms2_analyzer": "orbitrap",
+    "inferred_ionization": "nanoESI",
+    "raw_files": [
+      "E150416_08_Quty1_CS_CO_220_Ines_GSTalone_3.raw",
+      "E150416_06_Quty1_CS_CO_220_Ines_GSTalone_1.raw",
+      "E160618_07_Quty1_CS_CO_220_PV_Ines_PV1B.raw",
+      "E150416_02_Quty1_CS_CO_220_Ines_CtermGST_1.raw",
+      "E150416_07_Quty1_CS_CO_220_Ines_GSTalone_2.raw",
+      "E150416_03_Quty1_CS_CO_220_Ines_CtermGST_2.raw",
+      "E150416_04_Quty1_CS_CO_220_Ines_CtermGST_3.raw",
+      "E160618_05_Quty1_CS_CO_220_PV_Ines_PV1A.raw"
+    ]
+  },
+  "steps": {
+    "STEP1_OVERVIEW": {
+      "confirmed": {
+        "Characteristics[Organism]": {
+          "value": "Homo sapiens",
+          "evidence": "From PRIDE database confirmation and human protein research context",
+          "source": "anchor"
+        },
+        "Characteristics[OrganismPart]": {
+          "value": "cell culture",
+          "evidence": "From PRIDE database confirmation",
+          "source": "anchor"
+        },
+        "Characteristics[MaterialType]": {
+          "value": "cell culture",
+          "evidence": "From PRIDE database confirmation indicating cell culture material",
+          "source": "anchor"
+        },
+        "Comment[AcquisitionMethod]": {
+          "value": "shotgun proteomics",
+          "evidence": "From PRIDE database: Experiment Type: Shotgun proteomics",
+          "source": "anchor"
+        }
+      },
+      "hypotheses": {
+        "Characteristics[Label]": {
+          "candidates": [
+            "label-free"
+          ],
+          "reasoning": "No mention of chemical labeling methods (TMT, SILAC, iTRAQ) in abstract, and shotgun proteomics often uses label-free quantification",
+          "needs": "Methods section or raw file analysis to confirm labeling strategy"
+        },
+        "Characteristics[CellLine]": {
+          "candidates": [
+            "HeLa",
+            "HEK293",
+            "U2OS",
+            "other human cell lines"
+          ],
+          "reasoning": "Study involves human chromatin and nuclear proteins, typically studied in established cell lines, but no specific cell line mentioned in title/abstract",
+          "needs": "Methods section to identify specific cell line used"
+        },
+        "Characteristics[Treatment]": {
+          "candidates": [
+            "Repo-Man depletion",
+            "siRNA knockdown",
+            "protein depletion"
+          ],
+          "reasoning": "Abstract mentions 'depletion of Repo-Man alters the peripheral localization' suggesting experimental manipulation",
+          "needs": "Methods section to confirm treatment type and conditions"
+        }
+      },
+      "not_applicable": [
+        "Characteristics[Disease]",
+        "Characteristics[Specimen]",
+        "Characteristics[Strain]",
+        "Characteristics[DevelopmentalStage]",
+        "Characteristics[Compound]",
+        "Characteristics[ConcentrationOfCompound]",
+        "Characteristics[GeneticModification]"
+      ],
+      "summary": "This is a human cell culture shotgun proteomics study investigating Repo-Man protein function in chromatin regulation. Key confirmed aspects include human organism and cell culture material. The specific cell line, labeling method, and experimental treatments (likely Repo-Man depletion) remain to be determined from methods section or raw files."
+    },
+    "STEP2_SAMPLE_PREP": {
+      "confirmed": {
+        "Characteristics[CleavageAgent]": {
+          "value": "trypsin",
+          "evidence": "proteins were digested with trypsin, as previously described... They were then digested overnight at 37 °C with 12.5 ng μl-1 trypsin (Pierce)",
+          "source": "manuscript"
+        },
+        "Characteristics[ReductionReagent]": {
+          "value": "dithiothreitol",
+          "evidence": "proteins were reduced in 10 mM dithiothreitol (Sigma) for 30 min at 37 °C",
+          "source": "manuscript"
+        },
+        "Characteristics[AlkylationReagent]": {
+          "value": "iodoacetamide",
+          "evidence": "alkylated in 55 mM iodoacetamide (Sigma) for 20 min at ambient temperature in the dark",
+          "source": "manuscript"
+        },
+        "Characteristics[Label]": {
+          "value": "label free sample",
+          "evidence": "No chemical labeling methods mentioned in sample preparation protocol, and MaxQuant analysis suggests label-free quantification approach",
+          "source": "manuscript"
+        },
+        "Characteristics[Modification]": {
+          "value": "Carbamidomethyl",
+          "evidence": "Carbamidomethylation of cysteine was set as fixed modification",
+          "source": "manuscript"
+        },
+        "Characteristics[Modification].1": {
+          "value": "Oxidation",
+          "evidence": "Oxidation of methionine, acetylation, single, di- and tri-methylation of lysine, as well as single and di-methylation of arginine were set as variable modifications",
+          "source": "manuscript"
+        },
+        "Characteristics[Modification].2": {
+          "value": "Acetyl",
+          "evidence": "Oxidation of methionine, acetylation, single, di- and tri-methylation of lysine, as well as single and di-methylation of arginine were set as variable modifications",
+          "source": "manuscript"
+        },
+        "Characteristics[Modification].3": {
+          "value": "Methyl",
+          "evidence": "single, di- and tri-methylation of lysine, as well as single and di-methylation of arginine were set as variable modifications",
+          "source": "manuscript"
+        },
+        "Characteristics[Modification].4": {
+          "value": "Dimethyl",
+          "evidence": "single, di- and tri-methylation of lysine, as well as single and di-methylation of arginine were set as variable modifications",
+          "source": "manuscript"
+        },
+        "Characteristics[Modification].5": {
+          "value": "Trimethyl",
+          "evidence": "single, di- and tri-methylation of lysine, as well as single and di-methylation of arginine were set as variable modifications",
+          "source": "manuscript"
+        },
+        "Characteristics[Depletion]": {
+          "value": "Repo-Man",
+          "evidence": "For RNAi treatments, HeLa cells... The siRNA oligonucleotides against Repo-Man (CDCA2) and SDS22 (PPP1R7) were obtained from Qiagen",
+          "source": "manuscript"
+        },
+        "Comment[Separation]": {
+          "value": "LC",
+          "evidence": "MS-analyses were performed either on an LTQ-Orbitrap mass spectrometer (Thermo Scientific) or on a Q Exactive mass spectrometer (Thermo Scientific) both coupled on-line to Ultimate 3000 RSLCnano Systems (Dionex, Thermo Scientific)",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {
+        "Comment[EnrichmentMethod]": {
+          "candidates": [
+            "histone enrichment via chromatin pulldown",
+            "SDS-PAGE gel band excision"
+          ],
+          "reasoning": "Study mentions 'chromatin eluted from the GST:Repo-Man' and 'The regions of gel containing the histones were excised', suggesting histone-specific enrichment approach",
+          "needs": "More details on specific enrichment protocols used"
+        }
+      },
+      "not_applicable": [
+        "Characteristics[Modification].6",
+        "Characteristics[SpikedCompound]",
+        "Characteristics[SyntheticPeptide]",
+        "Comment[FractionationMethod]",
+        "Comment[NumberOfFractions]"
+      ],
+      "summary": "Sample preparation details confirmed: trypsin digestion with DTT reduction and iodoacetamide alkylation in label-free approach. Multiple histone modifications (carbamidomethyl fixed, oxidation/acetyl/methylation variable) were searched. Repo-Man depletion via siRNA confirmed. LC separation used but no fractionation mentioned. Histone enrichment likely performed but specific method needs clarification."
+    },
+    "STEP3_MS_SETTINGS": {
+      "confirmed": {
+        "Comment[Instrument]": {
+          "value": "LTQ-Orbitrap mass spectrometer and Q Exactive mass spectrometer",
+          "evidence": "MS-analyses were performed either on an LTQ-Orbitrap mass spectrometer (Thermo Scientific) or on a Q Exactive mass spectrometer (Thermo Scientific) both coupled on-line to Ultimate 3000 RSLCnano Systems (Dionex, Thermo Scientific)",
+          "source": "manuscript"
+        },
+        "Comment[IonizationType]": {
+          "value": "nanoESI",
+          "evidence": "Ultimate 3000 RSLCnano Systems coupled to mass spectrometer indicates nano-electrospray ionization",
+          "source": "manuscript/anchor"
+        },
+        "Comment[MS2MassAnalyzer]": {
+          "value": "orbitrap",
+          "evidence": "LTQ-Orbitrap mass spectrometer and Q Exactive mass spectrometer (both use orbitrap analyzers)",
+          "source": "manuscript/anchor"
+        },
+        "Comment[PrecursorMassTolerance]": {
+          "value": "20 ppm (first search), 4.5 ppm (main search)",
+          "evidence": "For the first search peptide tolerance was set to 20 p.p.m. while for the main search peptide tolerance was set to 4.5 pm. Isotope mass tolerance was 2 p.p.m.",
+          "source": "manuscript"
+        },
+        "Comment[FragmentMassTolerance]": {
+          "value": "2 ppm",
+          "evidence": "Isotope mass tolerance was 2 p.p.m.",
+          "source": "manuscript"
+        },
+        "Comment[NumberOfMissedCleavages]": {
+          "value": "2",
+          "evidence": "Digestion mode was set to specific with trypsin allowing maximum of two missed cleavages",
+          "source": "manuscript"
+        },
+        "Comment[AcquisitionMethod]": {
+          "value": "data dependent acquisition",
+          "evidence": "Standard LC-MS/MS setup with Ultimate 3000 RSLCnano coupled to Orbitrap instruments typically uses DDA mode",
+          "source": "manuscript/anchor"
+        }
+      },
+      "hypotheses": {
+        "Comment[FragmentationMethod]": {
+          "candidates": [
+            "HCD",
+            "CID"
+          ],
+          "reasoning": "Q Exactive uses HCD fragmentation (confirmed from anchor), LTQ-Orbitrap typically uses CID. Both instruments were used but specific fragmentation methods not explicitly stated in manuscript",
+          "needs": "Raw file analysis or instrument method files to confirm fragmentation settings"
+        },
+        "Comment[CollisionEnergy]": {
+          "candidates": [
+            "normalized collision energy 25-30%",
+            "stepped collision energy"
+          ],
+          "reasoning": "Standard parameters for Orbitrap instruments but not specified in methods section",
+          "needs": "Instrument method files or raw file metadata"
+        },
+        "Comment[GradientTime]": {
+          "candidates": [
+            "60-120 minutes"
+          ],
+          "reasoning": "Ultimate 3000 RSLCnano system suggests long gradient typical for proteomics analysis, but duration not specified",
+          "needs": "LC method details or raw file chromatogram analysis"
+        },
+        "Comment[FlowRateChromatogram]": {
+          "candidates": [
+            "200-300 nL/min"
+          ],
+          "reasoning": "RSLCnano system indicates nano-flow rates typical for this setup",
+          "needs": "LC method parameters or instrument logs"
+        }
+      },
+      "not_applicable": [],
+      "summary": "Mass spectrometry instrumentation confirmed: both LTQ-Orbitrap and Q Exactive were used with Ultimate 3000 RSLCnano LC system and orbitrap analyzers. Search parameters confirmed including precursor tolerance (20/4.5 ppm), fragment tolerance (2 ppm), and missed cleavages (2). Fragmentation methods, collision energies, and chromatographic parameters require raw file analysis for confirmation. Both DDA acquisition and nanoESI ionization confirmed from instrument setup."
+    },
+    "STEP4_RAW_FILES": {
+      "confirmed": {
+        "Characteristics[NumberOfBiologicalReplicates]": {
+          "value": "3",
+          "evidence": "GST:Repo-ManCTerm data sets (3 replicates) vs GST alone (3 replicates) - clear numbering in filenames _1, _2, _3",
+          "source": "filename"
+        },
+        "Characteristics[NumberOfTechnicalReplicates]": {
+          "value": "1",
+          "evidence": "Each biological replicate appears once in raw files with no technical replicate indicators",
+          "source": "filename"
+        },
+        "Characteristics[NumberOfSamples]": {
+          "value": "8",
+          "evidence": "Total of 8 raw files: 3 GST:Repo-Man C-term + 3 GST alone + 2 additional PV samples",
+          "source": "filename"
+        },
+        "FactorValue[Bait]": {
+          "value": "per_file",
+          "per_file": {
+            "E150416_02_Quty1_CS_CO_220_Ines_CtermGST_1.raw": "GST:Repo-Man C-term",
+            "E150416_03_Quty1_CS_CO_220_Ines_CtermGST_2.raw": "GST:Repo-Man C-term",
+            "E150416_04_Quty1_CS_CO_220_Ines_CtermGST_3.raw": "GST:Repo-Man C-term",
+            "E150416_06_Quty1_CS_CO_220_Ines_GSTalone_1.raw": "GST alone",
+            "E150416_07_Quty1_CS_CO_220_Ines_GSTalone_2.raw": "GST alone",
+            "E150416_08_Quty1_CS_CO_220_Ines_GSTalone_3.raw": "GST alone",
+            "E160618_05_Quty1_CS_CO_220_PV_Ines_PV1A.raw": "Not Applicable",
+            "E160618_07_Quty1_CS_CO_220_PV_Ines_PV1B.raw": "Not Applicable"
+          },
+          "evidence": "Filename tokens 'CtermGST' and 'GSTalone' clearly indicate bait proteins. Methods text confirms 'GST:Repo-Man or GST alone glutathione beads'",
+          "source": "filename"
+        },
+        "Characteristics[BiologicalReplicate]": {
+          "value": "per_file",
+          "per_file": {
+            "E150416_02_Quty1_CS_CO_220_Ines_CtermGST_1.raw": "1",
+            "E150416_03_Quty1_CS_CO_220_Ines_CtermGST_2.raw": "2",
+            "E150416_04_Quty1_CS_CO_220_Ines_CtermGST_3.raw": "3",
+            "E150416_06_Quty1_CS_CO_220_Ines_GSTalone_1.raw": "1",
+            "E150416_07_Quty1_CS_CO_220_Ines_GSTalone_2.raw": "2",
+            "E150416_08_Quty1_CS_CO_220_Ines_GSTalone_3.raw": "3",
+            "E160618_05_Quty1_CS_CO_220_PV_Ines_PV1A.raw": "1",
+            "E160618_07_Quty1_CS_CO_220_PV_Ines_PV1B.raw": "1"
+          },
+          "evidence": "Clear numerical suffixes (_1, _2, _3) in filenames indicate biological replicates. PV samples appear to be single replicate with A/B indicating technical or fraction differences",
+          "source": "filename"
+        }
+      },
+      "hypotheses": {
+        "FactorValue[Treatment]": {
+          "candidates": [
+            "chromatin pulldown with GST:Repo-Man vs GST control",
+            "phosphatase treatment for H3S28 analysis"
+          ],
+          "reasoning": "Methods describe chromatin extraction and pulldown with GST:Repo-Man vs GST alone. Additional phosphatase treatment mentioned for H3S28 phosphorylation analysis",
+          "needs": "Confirmation if PV samples represent phosphatase-treated vs untreated conditions"
+        },
+        "Comment[FractionIdentifier]": {
+          "candidates": [
+            "histone gel band fractions",
+            "A/B technical fractions"
+          ],
+          "reasoning": "Methods mention 'regions of gel containing the histones were excised'. PV samples have A/B suffix suggesting potential fractions",
+          "needs": "Clarification of PV sample meaning and whether A/B represent fractions or technical replicates"
+        }
+      },
+      "not_applicable": [
+        "FactorValue[Temperature]",
+        "FactorValue[Disease]",
+        "FactorValue[GeneticModification]",
+        "FactorValue[Compound]",
+        "FactorValue[CellPart]",
+        "FactorValue[ConcentrationOfCompound].1",
+        "FactorValue[FractionIdentifier]"
+      ],
+      "summary": "Experimental design confirmed: 3 biological replicates each of GST:Repo-Man C-term vs GST alone pulldowns from HeLa cell chromatin, plus 2 additional PV samples (likely phosphatase-treated for H3S28 analysis). Clear bait protein differences identified from filename tokens. Total 8 samples with no technical replicates for main experiment. PV sample purpose and A/B designation remains to be clarified."
+    }
+  }
+}

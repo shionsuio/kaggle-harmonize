@@ -1,0 +1,417 @@
+{
+  "pxd": "PXD061285",
+  "raw_files": [
+    "mousebrain-KO-Tmem9-CL47-T9AC2-rb1_u.raw",
+    "mousebrain-WT-CL47-T9BC1_u.raw",
+    "mousebrain-WT-CL47-T9Act-rb2_u.raw",
+    "mousebrain-KO-Tmem9b-CL47-T9BC2_o.raw",
+    "mousebrain-KO-Tmem9b-CL47-T9B-Proteintech-24331-1_o.raw",
+    "mousebrain2-KO-Tmem9-CL47-T9BC2_u.raw",
+    "mousebrain-KO-Tmem9-CL47-T9AC2-rb1_o.raw",
+    "mousebrain2-WT-CL47_T9AC2-rb1_u.raw",
+    "mousebrain2-KO-Tmem9-CL47-T9BC2_o.raw",
+    "mousebrain-WT-CL47-IgG-control-2_u.raw",
+    "mousebrain-KO-Tmem9b-CL47-T9BC2_u.raw",
+    "mousebrain-KO-Tmem9b-CL47-T9B-Proteintech-24331-1_u.raw",
+    "mousebrain3-Venus-CLCN3-CL47-GFP-RnDSystems-AF4240_o.raw",
+    "mousebrain-KO-Tmem9b-CL47-T9BCt-gp2_u.raw",
+    "mousebrain-WT-CL47-T9AC2-rb2_u.raw",
+    "mousebrain-WT-CL47-IgG-control-3_u.raw",
+    "mousebrain-Venus-CLCN3-CL47-GFP-RnDSystems-AF4240_o.raw",
+    "mousebrain-WT-CL47-IgG-control-1_u.raw",
+    "mousebrain2-Venus-CLCN3-CL47-GFP-Roche-11814460001_o.raw",
+    "mousebrain-Venus-CLCN3-CL47-GFP-Roche-11814460001_u.raw",
+    "mousebrain-KO-Tmem9-CL47-T9ACt-rb2_u.raw",
+    "mousebrain2-KO-Tmem9-CL47-TMEM9B-Proteintech-24331-1_u.raw",
+    "mousebrain2-KO-Tmem9-CL47-TMEM9B-Proteintech-24331-1_o.raw",
+    "mousebrain-WT-CL47-T9AC2-gp1_o.raw",
+    "mousebrain2-Venus-CLCN3-CL47-GFP-RnDSystems-AF4240_o.raw",
+    "mousebrain2-WT-CL47_T9AC2-rb1_o.raw",
+    "mousebrain-KO-Tmem9-CL47-T9AC2-gp1_o.raw",
+    "mousebrain-WT-CL47-T9Act-rb2_o.raw",
+    "mousebrain-WT-CL47-T9AC2-rb1_o.raw",
+    "mousebrain-WT-CL47-T9BC2_u.raw",
+    "mousebrain-KO-Tmem9-CL47-T9AC2-gp1_u.raw",
+    "mousebrain2-Venus-CLCN3-CL47-GFP-Roche-11814460001_u.raw",
+    "mousebrain-WT-CL47-T9AC2-gp1_u.raw",
+    "mousebrain-KO-Tmem9b-CL47-T9BC1_o.raw",
+    "mousebrain3-Venus-CLCN3-CL47-GFP-RnDSystems-AF4240_u.raw",
+    "mousebrain-WT-CL47-T9B-Proteintech-24331-1_o.raw",
+    "mousebrain-WT-CL47-T9AC2-rb1_u.raw",
+    "mousebrain2-KO-Tmem9-CL47-T9AC2-rb1_o.raw",
+    "mousebrain2-Venus-CLCN3-CL47-GFP-RnDSystems-AF4240_u.raw",
+    "mousebrain-KO-Tmem9b-CL47-T9BCt-gp2_o.raw",
+    "mousebrain-KO-Tmem9-CL47-T9ACt-rb2_o.raw",
+    "mousebrain-WT-CL47-T9Bct-gp2_o.raw",
+    "mousebrain2-KO-Tmem9-CL47-T9AC2-rb1_u.raw",
+    "mousebrain-Venus-CLCN3-CL47-GFP-Roche-11814460001_o.raw",
+    "mousebrain-WT-CL47-T9B-Proteintech-24331-1_u.raw",
+    "mousebrain-WT-CL47-IgG-control-1_o.raw",
+    "mousebrain2-WT-CL47_TMEM9B-Proteintech-24331-1_u.raw",
+    "mousebrain-WT-CL47-T9BC2_o.raw",
+    "mousebrain-WT-CL47-T9Bct-gp2_u.raw",
+    "mousebrain-KO-Tmem9-CL47-T9AC2-rb2_u.raw",
+    "mousebrain2-WT-CL47-T9BC2_o.raw",
+    "mousebrain-WT-CL47-IgG-control-3_o.raw",
+    "mousebrain-WT-CL47-T9BC1_o.raw",
+    "mousebrain-Venus-CLCN3-CL47-GFP-RnDSystems-AF4240_u.raw",
+    "mousebrain2-WT-CL47_TMEM9B-Proteintech-24331-1_o.raw",
+    "mousebrain2-WT-CL47-T9BC2_u.raw",
+    "mousebrain-WT-CL47-IgG-control-2_o.raw",
+    "mousebrain-KO-Tmem9b-CL47-T9BC1_u.raw",
+    "mousebrain-WT-CL47-T9AC2-rb2_o.raw",
+    "mousebrain-KO-Tmem9-CL47-T9AC2-rb2_o.raw"
+  ],
+  "anchor": {
+    "pxd": "PXD061285",
+    "source": "PRIDE_API",
+    "organism": [
+      {
+        "name": "Mus musculus (mouse)",
+        "accession": "NEWT:10090"
+      }
+    ],
+    "instruments": [
+      {
+        "name": "LTQ Orbitrap Elite",
+        "accession": "MS:1001910",
+        "sdrf_format": "AC=MS:1001910;NT=LTQ Orbitrap Elite"
+      }
+    ],
+    "modifications": [],
+    "organism_parts": [
+      {
+        "name": "Brain",
+        "accession": "BTO:0000142"
+      }
+    ],
+    "diseases": [],
+    "experiment_types": [
+      "Bottom-up proteomics",
+      "Affinity purification coupled with mass spectrometry proteomics",
+      "Data-dependent acquisition"
+    ],
+    "quantification_methods": [
+      "MS1 intensity based label-free quantification method"
+    ],
+    "keywords": [
+      "Ap-ms",
+      "Chloride channels",
+      "Membrane protein complex",
+      "Auxiliary subunits",
+      "Mouse brain",
+      "Protein-protein interactions"
+    ],
+    "publications": [
+      {
+        "pubmed_id": "",
+        "doi": "10.1038/s41467-025-58546-3",
+        "ref": "Planells-Cases R, Vorobeva V, Kar S, Schmitt FW, Schulte U, Schrecker M, Hite RK, Fakler B, Jentsch TJ. Endosomal chloride/proton exchangers need inhibitory TMEM9 β-subunits for regulation and prevention of disease-causing overactivity. Nat Commun. 2025 16(1):3117"
+      }
+    ],
+    "inferred_fragmentation": null,
+    "inferred_ms2_analyzer": "orbitrap",
+    "inferred_ionization": "nanoESI",
+    "raw_files": [
+      "mousebrain-KO-Tmem9-CL47-T9AC2-rb1_u.raw",
+      "mousebrain-WT-CL47-T9BC1_u.raw",
+      "mousebrain-WT-CL47-T9Act-rb2_u.raw",
+      "mousebrain-KO-Tmem9b-CL47-T9BC2_o.raw",
+      "mousebrain-KO-Tmem9b-CL47-T9B-Proteintech-24331-1_o.raw",
+      "mousebrain2-KO-Tmem9-CL47-T9BC2_u.raw",
+      "mousebrain-KO-Tmem9-CL47-T9AC2-rb1_o.raw",
+      "mousebrain2-WT-CL47_T9AC2-rb1_u.raw",
+      "mousebrain2-KO-Tmem9-CL47-T9BC2_o.raw",
+      "mousebrain-WT-CL47-IgG-control-2_u.raw",
+      "mousebrain-KO-Tmem9b-CL47-T9BC2_u.raw",
+      "mousebrain-KO-Tmem9b-CL47-T9B-Proteintech-24331-1_u.raw",
+      "mousebrain3-Venus-CLCN3-CL47-GFP-RnDSystems-AF4240_o.raw",
+      "mousebrain-KO-Tmem9b-CL47-T9BCt-gp2_u.raw",
+      "mousebrain-WT-CL47-T9AC2-rb2_u.raw",
+      "mousebrain-WT-CL47-IgG-control-3_u.raw",
+      "mousebrain-Venus-CLCN3-CL47-GFP-RnDSystems-AF4240_o.raw",
+      "mousebrain-WT-CL47-IgG-control-1_u.raw",
+      "mousebrain2-Venus-CLCN3-CL47-GFP-Roche-11814460001_o.raw",
+      "mousebrain-Venus-CLCN3-CL47-GFP-Roche-11814460001_u.raw",
+      "mousebrain-KO-Tmem9-CL47-T9ACt-rb2_u.raw",
+      "mousebrain2-KO-Tmem9-CL47-TMEM9B-Proteintech-24331-1_u.raw",
+      "mousebrain2-KO-Tmem9-CL47-TMEM9B-Proteintech-24331-1_o.raw",
+      "mousebrain-WT-CL47-T9AC2-gp1_o.raw",
+      "mousebrain2-Venus-CLCN3-CL47-GFP-RnDSystems-AF4240_o.raw",
+      "mousebrain2-WT-CL47_T9AC2-rb1_o.raw",
+      "mousebrain-KO-Tmem9-CL47-T9AC2-gp1_o.raw",
+      "mousebrain-WT-CL47-T9Act-rb2_o.raw",
+      "mousebrain-WT-CL47-T9AC2-rb1_o.raw",
+      "mousebrain-WT-CL47-T9BC2_u.raw",
+      "mousebrain-KO-Tmem9-CL47-T9AC2-gp1_u.raw",
+      "mousebrain2-Venus-CLCN3-CL47-GFP-Roche-11814460001_u.raw",
+      "mousebrain-WT-CL47-T9AC2-gp1_u.raw",
+      "mousebrain-KO-Tmem9b-CL47-T9BC1_o.raw",
+      "mousebrain3-Venus-CLCN3-CL47-GFP-RnDSystems-AF4240_u.raw",
+      "mousebrain-WT-CL47-T9B-Proteintech-24331-1_o.raw",
+      "mousebrain-WT-CL47-T9AC2-rb1_u.raw",
+      "mousebrain2-KO-Tmem9-CL47-T9AC2-rb1_o.raw",
+      "mousebrain2-Venus-CLCN3-CL47-GFP-RnDSystems-AF4240_u.raw",
+      "mousebrain-KO-Tmem9b-CL47-T9BCt-gp2_o.raw",
+      "mousebrain-KO-Tmem9-CL47-T9ACt-rb2_o.raw",
+      "mousebrain-WT-CL47-T9Bct-gp2_o.raw",
+      "mousebrain2-KO-Tmem9-CL47-T9AC2-rb1_u.raw",
+      "mousebrain-Venus-CLCN3-CL47-GFP-Roche-11814460001_o.raw",
+      "mousebrain-WT-CL47-T9B-Proteintech-24331-1_u.raw"
+    ]
+  },
+  "steps": {
+    "STEP1_OVERVIEW": {
+      "confirmed": {
+        "Characteristics[Organism]": {
+          "value": "Mus musculus",
+          "evidence": "Mice lacking both β-subunits displayed severely reduced levels of all three CLCs and died embryonically or shortly after birth.",
+          "source": "manuscript"
+        },
+        "Characteristics[MaterialType]": {
+          "value": "protein",
+          "evidence": "Bottom-up proteomics experiment studying endosomal chloride/proton exchangers and TMEM9 proteins",
+          "source": "manuscript"
+        },
+        "Characteristics[Label]": {
+          "value": "label-free",
+          "evidence": "MS1 intensity based label-free quantification method",
+          "source": "anchor"
+        },
+        "Comment[AcquisitionMethod]": {
+          "value": "data-dependent acquisition",
+          "evidence": "Data-dependent acquisition",
+          "source": "anchor"
+        }
+      },
+      "hypotheses": {
+        "Characteristics[OrganismPart]": {
+          "candidates": [
+            "brain",
+            "endosome"
+          ],
+          "reasoning": "Brain is confirmed from anchor data. Endosomes are the main focus of the study as described in title and abstract",
+          "needs": "Confirmation whether endosomal proteins were isolated from brain tissue or other organs"
+        },
+        "Characteristics[GeneticModification]": {
+          "candidates": [
+            "TMEM9 knockout",
+            "TMEM9B knockout",
+            "double knockout"
+          ],
+          "reasoning": "Study mentions 'Mice lacking both β-subunits' suggesting genetic modification to remove TMEM9 and TMEM9B",
+          "needs": "Explicit description of the knockout mouse model construction"
+        },
+        "Characteristics[DevelopmentalStage]": {
+          "candidates": [
+            "embryonic",
+            "neonatal"
+          ],
+          "reasoning": "Abstract mentions mice 'died embryonically or shortly after birth' suggesting analysis of embryonic or early postnatal stages",
+          "needs": "Specific developmental timepoints used for sample collection"
+        }
+      },
+      "not_applicable": [
+        "Characteristics[CellType]",
+        "Characteristics[CellLine]",
+        "Characteristics[Disease]",
+        "Characteristics[Specimen]",
+        "Characteristics[Strain]",
+        "Characteristics[Treatment]",
+        "Characteristics[Compound]",
+        "Characteristics[ConcentrationOfCompound]"
+      ],
+      "summary": "This is a mouse proteomics study using label-free quantification and data-dependent acquisition to analyze endosomal chloride/proton exchangers. The organism (Mus musculus) and brain tissue are confirmed. Genetic modification involving TMEM9/TMEM9B knockout is highly likely based on the lethality described. Developmental stage (embryonic/neonatal) needs confirmation from methods section."
+    },
+    "STEP2_SAMPLE_PREP": {
+      "confirmed": {
+        "Characteristics[CleavageAgent]": {
+          "value": "trypsin",
+          "evidence": "After in-gel tryptic digestion, samples were analyzed on a Q Exactive mass spectrometer... Samples were shortly run on SDS-PAGE gels, silver-stained, and higher- ( > 50 kDa) and lower molecular weight ( < 50 kDa) sections were excised for in-gel tryptic digestion (sequencing grade trypsin, Promega).",
+          "source": "manuscript"
+        },
+        "Characteristics[Label]": {
+          "value": "label-free",
+          "evidence": "Label-free quantification of proteins was done as described above; protein abundance was calculated as abundance norm values.",
+          "source": "manuscript"
+        },
+        "Comment[EnrichmentMethod]": {
+          "value": "Multi-epitope affinity purification",
+          "evidence": "Multi-epitope affinity purification mass spectrometry (meAP-MS)... For affinity purification, aliquots of 1-2 mg membrane were solubilized... and incubated with 10-20 µg of the following antibodies (immobilized on Protein A / Protein G magnetic beads",
+          "source": "manuscript"
+        },
+        "Comment[FractionationMethod]": {
+          "value": "Blue native PAGE",
+          "evidence": "Protein complexes... were enriched by ultracentrifugation into a sucrose cushion (20%/50% sucrose), supplemented with 0.125% Coomassie G250 and resolved on a hyperbolic 1-18% preparative native gel (BN-PAGE). The gel lane section of interest was embedded and sliced into 0.3 mm sections",
+          "source": "manuscript"
+        },
+        "Comment[Separation]": {
+          "value": "C18 reverse phase chromatography",
+          "evidence": "C18 pre-column (PepMap100, 5 mm particles), SilicaTip emitter (75 mm i.d., 8 mm tip, New Objective Inc) manually packed with ReproSil-Pur 120 ODS-3 (C18; particle size 3 µm; Dr. Maisch HPLC, Germany)",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {
+        "Characteristics[ReductionReagent]": {
+          "candidates": [
+            "DTT",
+            "not used"
+          ],
+          "reasoning": "DTT is mentioned in context of elution buffer: '100 mM DTT added after elution', but it's unclear if reduction was performed during sample preparation or only during elution",
+          "needs": "Clarification whether DTT was used for protein reduction during sample preparation"
+        },
+        "Comment[NumberOfFractions]": {
+          "candidates": [
+            "slice-based fractionation",
+            "0.3 mm sections"
+          ],
+          "reasoning": "Text mentions 'sliced into 0.3 mm sections using a cryo-microtome' but exact number of fractions is not specified",
+          "needs": "Specific number of gel slices/fractions collected"
+        }
+      },
+      "not_applicable": [
+        "Characteristics[AlkylationReagent]",
+        "Characteristics[Modification]",
+        "Characteristics[Modification].1",
+        "Characteristics[Modification].2",
+        "Characteristics[Modification].3",
+        "Characteristics[Modification].4",
+        "Characteristics[Modification].5",
+        "Characteristics[Modification].6",
+        "Characteristics[Depletion]",
+        "Characteristics[SpikedCompound]",
+        "Characteristics[SyntheticPeptide]"
+      ],
+      "summary": "Sample preparation involves tryptic digestion and label-free quantification with multi-epitope affinity purification as enrichment method. Blue native PAGE fractionation with 0.3 mm gel sections and C18 reverse phase chromatography separation are confirmed. DTT usage for reduction remains unclear - mentioned only in elution context. No alkylation reagents, modifications, depletion methods, or synthetic compounds are described in the methods."
+    },
+    "STEP3_MS_SETTINGS": {
+      "confirmed": {
+        "Comment[Instrument]": {
+          "value": "LTQ Orbitrap Elite, Q Exactive",
+          "evidence": "samples were analyzed on a Q Exactive mass spectrometer coupled to an UltiMate 3000 RSLCnano HPLC system (Thermo Scientific, Germany) for complexome profiling; Peptide samples were dissolved in 0.5% trifluoroacetic acid and analyzed with an Orbitrap Elite mass spectrometer equipped with an autosampler Ultimate 3000 nano-HPLC",
+          "source": "manuscript"
+        },
+        "Comment[AcquisitionMethod]": {
+          "value": "data-dependent acquisition",
+          "evidence": "up to 10 CID MS/MS fragment spectra/cycle (target value 2000), dynamic exclusion: 30 s, mono-isotopic precursor selection enabled",
+          "source": "manuscript"
+        },
+        "Comment[FragmentationMethod]": {
+          "value": "CID",
+          "evidence": "up to 10 CID MS/MS fragment spectra/cycle (target value 2000)",
+          "source": "manuscript"
+        },
+        "Comment[IonizationType]": {
+          "value": "nanoESI",
+          "evidence": "directly electrosprayed (2.3 kV, positive ion mode) into the mass spectrometer",
+          "source": "anchor"
+        },
+        "Comment[MS2MassAnalyzer]": {
+          "value": "orbitrap",
+          "evidence": "MS2 Analyzer (from instrument): orbitrap",
+          "source": "anchor"
+        }
+      },
+      "hypotheses": {
+        "Comment[PrecursorMassTolerance]": {
+          "candidates": [
+            "calculated from full precursor scan m/z = 370-1700, target value 106 ions, nominal resolution 240,000"
+          ],
+          "reasoning": "Precursor scan parameters are specified but exact tolerance values for database search not explicitly stated",
+          "needs": "Database search parameter specifications or supplementary methods"
+        },
+        "Comment[FragmentMassTolerance]": {
+          "candidates": [
+            "calculated from MS/MS fragment spectra target value 2000"
+          ],
+          "reasoning": "Fragment ion target value given but exact mass tolerance for identification not specified",
+          "needs": "PEAKS 11 or MaxQuant search parameter details"
+        },
+        "Comment[GradientTime]": {
+          "candidates": [
+            "aqueous-organic gradient time not specified"
+          ],
+          "reasoning": "Gradient composition described (from 0.5% acetic acid to 80% acetonitrile / 0.5% acetic acid) but duration not given",
+          "needs": "Chromatography method details or gradient program specifications"
+        }
+      },
+      "not_applicable": [
+        "Comment[CollisionEnergy]",
+        "Comment[NumberOfMissedCleavages]",
+        "Comment[FlowRateChromatogram]"
+      ],
+      "summary": "Mass spectrometry instrumentation confirmed: both Q Exactive and LTQ Orbitrap Elite instruments used with data-dependent acquisition and CID fragmentation. IonizationType (nanoESI) and MS2 analyzer (orbitrap) confirmed from anchor data. Specific search parameters (mass tolerances), gradient timing, and flow rates not explicitly stated in methods, requiring supplementary information for complete parameter specification."
+    },
+    "STEP4_RAW_FILES": {
+      "confirmed": {
+        "Comment[FractionIdentifier]": {
+          "value": "per_file",
+          "per_file": {
+            "mousebrain-KO-Tmem9-CL47-T9AC2-rb1_u.raw": "upper",
+            "mousebrain-KO-Tmem9-CL47-T9AC2-rb1_o.raw": "lower",
+            "mousebrain-WT-CL47-T9BC1_u.raw": "upper",
+            "mousebrain-WT-CL47-T9BC1_o.raw": "lower",
+            "mousebrain-WT-CL47-T9Act-rb2_u.raw": "upper",
+            "mousebrain-WT-CL47-T9Act-rb2_o.raw": "lower"
+          },
+          "evidence": "Methods state 'higher- ( > 50 kDa) and lower molecular weight ( < 50 kDa) sections were excised for in-gel tryptic digestion'. Filename suffixes '_u' and '_o' consistently indicate upper (>50 kDa) and lower (<50 kDa) molecular weight gel sections respectively.",
+          "source": "manuscript"
+        },
+        "Characteristics[NumberOfBiologicalReplicates]": {
+          "value": "3",
+          "evidence": "Methods clearly state 'mousebrain', 'mousebrain2', and 'mousebrain3' prefixes in filenames, and text mentions 'Mouse brains from different genotypes (WT, transgenic Venus-ClC-3, T9A−/−, and T9B−/−) were collected'. Three independent biological replicates are evident from filename analysis.",
+          "source": "filename"
+        },
+        "FactorValue[GeneticModification]": {
+          "value": "per_file",
+          "per_file": {
+            "mousebrain-KO-Tmem9-CL47-T9AC2-rb1_u.raw": "TMEM9 knockout",
+            "mousebrain-KO-Tmem9b-CL47-T9BC2_o.raw": "TMEM9B knockout",
+            "mousebrain-WT-CL47-T9BC1_u.raw": "wild-type",
+            "mousebrain-Venus-CLCN3-CL47-GFP-Roche-11814460001_u.raw": "Venus-ClC-3 transgenic"
+          },
+          "evidence": "Filename tokens clearly indicate genotypes: 'KO-Tmem9' = TMEM9 knockout, 'KO-Tmem9b' = TMEM9B knockout, 'WT' = wild-type, 'Venus-CLCN3' = Venus-ClC-3 transgenic. Methods confirm 'Mouse brains from different genotypes (WT, transgenic Venus-ClC-3, T9A−/−, and T9B−/−)'.",
+          "source": "filename"
+        },
+        "FactorValue[Bait]": {
+          "value": "per_file",
+          "per_file": {
+            "mousebrain-KO-Tmem9-CL47-T9AC2-rb1_u.raw": "T9AC2-rb1",
+            "mousebrain-WT-CL47-T9BC1_u.raw": "T9BC1",
+            "mousebrain-Venus-CLCN3-CL47-GFP-Roche-11814460001_u.raw": "GFP-Roche",
+            "mousebrain-WT-CL47-IgG-control-1_u.raw": "IgG-control"
+          },
+          "evidence": "Methods describe 'incubated with 10-20 µg of the following antibodies: anti-GFP, anti-TMEM9 T9AC2 rb 1, anti-TMEM9 T9AC2 rb 2, anti-TMEM9B T9BC1, anti-TMEM9B T9BC2, and different mixtures from normal rabbit / mouse / goat IgG as negative controls'. Filename tokens match these bait antibodies exactly.",
+          "source": "filename"
+        }
+      },
+      "hypotheses": {
+        "Characteristics[NumberOfTechnicalReplicates]": {
+          "candidates": [
+            "2",
+            "gel section-based technical replicates"
+          ],
+          "reasoning": "Each biological sample appears to be processed into upper and lower gel sections (_u and _o suffixes), suggesting 2 technical replicates per biological sample based on molecular weight fractionation",
+          "needs": "Confirmation whether gel sections constitute technical replicates or are considered separate fractions"
+        },
+        "Characteristics[NumberOfSamples]": {
+          "candidates": [
+            "56",
+            "4 genotypes × 3 biological replicates × multiple antibody conditions"
+          ],
+          "reasoning": "Raw file count suggests 56 total files, representing combinations of 4 genotypes (WT, TMEM9-KO, TMEM9B-KO, Venus-CLCN3), 3 biological replicates, multiple antibody baits, and 2 gel sections each",
+          "needs": "Exact count verification and clarification of what constitutes a 'sample' versus technical replicate"
+        }
+      },
+      "not_applicable": [
+        "FactorValue[Treatment]",
+        "FactorValue[Temperature]",
+        "FactorValue[Disease]",
+        "FactorValue[Compound]",
+        "FactorValue[CellPart]",
+        "FactorValue[ConcentrationOfCompound].1"
+      ],
+      "summary": "Raw filename analysis confirms this is a multi-epitope affinity purification (meAP-MS) experiment with 3 biological replicates across 4 mouse genotypes (WT, TMEM9-KO, TMEM9B-KO, Venus-ClC-3 transgenic). Each sample was fractionated into upper (>50 kDa) and lower (<50 kDa) molecular weight gel sections, with various antibody baits used for affinity purification. The genetic modifications and bait antibodies are clearly identifiable from filename tokens, but the total sample count and technical replicate definition need clarification."
+    }
+  }
+}

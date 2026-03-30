@@ -1,0 +1,86 @@
+{
+  "pxd": "PXD005539",
+  "source": "PRIDE_API",
+  "organism": [
+    {
+      "name": "Homo sapiens (human)",
+      "accession": "NEWT:9606"
+    }
+  ],
+  "instruments": [
+    {
+      "name": "LTQ Orbitrap Elite",
+      "accession": "MS:1001910",
+      "sdrf_format": "AC=MS:1001910;NT=LTQ Orbitrap Elite"
+    },
+    {
+      "name": "Q Exactive",
+      "accession": "MS:1001911",
+      "sdrf_format": "AC=MS:1001911;NT=Q Exactive"
+    }
+  ],
+  "modifications": [],
+  "organism_parts": [
+    {
+      "name": "Cell culture",
+      "accession": "BTO:0000214"
+    },
+    {
+      "name": "Melanocyte",
+      "accession": "CL:0000148"
+    }
+  ],
+  "diseases": [],
+  "experiment_types": [
+    "Gel-based experiment"
+  ],
+  "quantification_methods": [
+    "Peptide counting"
+  ],
+  "keywords": [
+    "Metastasis4",
+    "Dendritic cells2",
+    "Lymphatics3",
+    "Extracellular vesicles1",
+    "Tumor immunology5"
+  ],
+  "publications": [
+    {
+      "pubmed_id": "",
+      "doi": "10.3389/fimmu.2017.00358",
+      "ref": "Maus RLG, Jakub JW, Nevala WK, Christensen TA, Noble-Orcutt K, Sachs Z, Hieken TJ, Markovic SN. Human Melanoma-Derived Extracellular Vesicles Regulate Dendritic Cell Maturation. Front Immunol. 2017 8:358"
+    }
+  ],
+  "inferred_fragmentation": "HCD",
+  "inferred_ms2_analyzer": "orbitrap",
+  "inferred_ionization": "nanoESI",
+  "raw_files": [
+    "SKEML28_F4.raw",
+    "SKMEL28_F2.raw",
+    "A375_F7.raw",
+    "C32TG_F2.raw",
+    "C32TG_F8.raw",
+    "A375_F3.raw",
+    "SKMEL28_F2a.raw",
+    "A375_F8.raw",
+    "C32TG_F7.raw",
+    "A375_F4.raw",
+    "C32TG_F6.raw",
+    "C32TG_F3.raw",
+    "SKMEL28_F6.raw",
+    "SKMEL28_F3.raw",
+    "A375_F1.raw",
+    "A375_F2.raw",
+    "C32TG_F1.raw",
+    "C32TG_F4.raw",
+    "C32TG_F9.raw",
+    "A375_F6.raw",
+    "C32TG_F5.raw",
+    "A375_F5.raw",
+    "SKMEL28_F1.raw",
+    "SKMEL_F3b.raw",
+    "SKMEL28_F7.raw",
+    "SKMEL28_F5.raw",
+    "A375_F9.raw"
+  ]
+}

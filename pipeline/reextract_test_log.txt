@@ -1,0 +1,152 @@
+Removed old: PXD016436
+Removed old: PXD061285
+Removed old: PXD062877
+Removed old: PXD050621
+Removed old: PXD004010
+Removed old: PXD019519
+Removed old: PXD061009
+Removed old: PXD025663
+Removed old: PXD062469
+Removed old: PXD040582
+Removed old: PXD064564
+Removed old: PXD061090
+Removed old: PXD061195
+Removed old: PXD061136
+Removed old: PXD062014
+[1/15] PXD004010
+
+============================================================
+Processing PXD004010 (v2 sequential)...
+  [STEP1_OVERVIEW] 論文の概要から全体像を把握（生物種、疾患、細胞株、実験タイプ等）... OK (confirmed=5, hypotheses=2, N/A=8)
+  [STEP2_SAMPLE_PREP] サンプル調製・消化・修飾の詳細... OK (confirmed=3, hypotheses=1, N/A=14)
+  [STEP3_MS_SETTINGS] 質量分析装置・設定パラメータ... OK (confirmed=2, hypotheses=4, N/A=5)
+  [STEP4_RAW_FILES] rawファイル名とこれまでの知識を統合して、ファイルごとの割り当てを推定... OK (confirmed=1, hypotheses=3, N/A=10)
+  Saved: pipeline/llm_extractions/PXD004010_extraction_v2.json
+[2/15] PXD016436
+
+============================================================
+Processing PXD016436 (v2 sequential)...
+  [STEP1_OVERVIEW] 論文の概要から全体像を把握（生物種、疾患、細胞株、実験タイプ等）... OK (confirmed=5, hypotheses=2, N/A=8)
+  [STEP2_SAMPLE_PREP] サンプル調製・消化・修飾の詳細... OK (confirmed=8, hypotheses=1, N/A=9)
+  [STEP3_MS_SETTINGS] 質量分析装置・設定パラメータ... OK (confirmed=8, hypotheses=2, N/A=1)
+  [STEP4_RAW_FILES] rawファイル名とこれまでの知識を統合して、ファイルごとの割り当てを推定... OK (confirmed=6, hypotheses=0, N/A=8)
+  Saved: pipeline/llm_extractions/PXD016436_extraction_v2.json
+[3/15] PXD019519
+
+============================================================
+Processing PXD019519 (v2 sequential)...
+  [STEP1_OVERVIEW] 論文の概要から全体像を把握（生物種、疾患、細胞株、実験タイプ等）... OK (confirmed=7, hypotheses=2, N/A=6)
+  [STEP2_SAMPLE_PREP] サンプル調製・消化・修飾の詳細... OK (confirmed=6, hypotheses=2, N/A=10)
+  [STEP3_MS_SETTINGS] 質量分析装置・設定パラメータ... OK (confirmed=10, hypotheses=1, N/A=0)
+  [STEP4_RAW_FILES] rawファイル名とこれまでの知識を統合して、ファイルごとの割り当てを推定... OK (confirmed=6, hypotheses=1, N/A=7)
+  Saved: pipeline/llm_extractions/PXD019519_extraction_v2.json
+[4/15] PXD025663
+
+============================================================
+Processing PXD025663 (v2 sequential)...
+  [STEP1_OVERVIEW] 論文の概要から全体像を把握（生物種、疾患、細胞株、実験タイプ等）... OK (confirmed=5, hypotheses=2, N/A=8)
+  [STEP2_SAMPLE_PREP] サンプル調製・消化・修飾の詳細... OK (confirmed=4, hypotheses=1, N/A=13)
+  [STEP3_MS_SETTINGS] 質量分析装置・設定パラメータ... OK (confirmed=8, hypotheses=3, N/A=0)
+  [STEP4_RAW_FILES] rawファイル名とこれまでの知識を統合して、ファイルごとの割り当てを推定... OK (confirmed=3, hypotheses=3, N/A=8)
+  Saved: pipeline/llm_extractions/PXD025663_extraction_v2.json
+[5/15] PXD040582
+
+============================================================
+Processing PXD040582 (v2 sequential)...
+  [STEP1_OVERVIEW] 論文の概要から全体像を把握（生物種、疾患、細胞株、実験タイプ等）... OK (confirmed=5, hypotheses=2, N/A=8)
+  [STEP2_SAMPLE_PREP] サンプル調製・消化・修飾の詳細... OK (confirmed=10, hypotheses=0, N/A=8)
+  [STEP3_MS_SETTINGS] 質量分析装置・設定パラメータ... OK (confirmed=10, hypotheses=1, N/A=0)
+  [STEP4_RAW_FILES] rawファイル名とこれまでの知識を統合して、ファイルごとの割り当てを推定... OK (confirmed=5, hypotheses=1, N/A=8)
+  Saved: pipeline/llm_extractions/PXD040582_extraction_v2.json
+[6/15] PXD050621
+
+============================================================
+Processing PXD050621 (v2 sequential)...
+  [STEP1_OVERVIEW] 論文の概要から全体像を把握（生物種、疾患、細胞株、実験タイプ等）... OK (confirmed=4, hypotheses=1, N/A=10)
+  [STEP2_SAMPLE_PREP] サンプル調製・消化・修飾の詳細... OK (confirmed=1, hypotheses=1, N/A=17)
+  [STEP3_MS_SETTINGS] 質量分析装置・設定パラメータ... OK (confirmed=5, hypotheses=3, N/A=3)
+  [STEP4_RAW_FILES] rawファイル名とこれまでの知識を統合して、ファイルごとの割り当てを推定... OK (confirmed=5, hypotheses=1, N/A=8)
+  Saved: pipeline/llm_extractions/PXD050621_extraction_v2.json
+[7/15] PXD061009
+
+============================================================
+Processing PXD061009 (v2 sequential)...
+  [STEP1_OVERVIEW] 論文の概要から全体像を把握（生物種、疾患、細胞株、実験タイプ等）... OK (confirmed=5, hypotheses=3, N/A=7)
+  [STEP2_SAMPLE_PREP] サンプル調製・消化・修飾の詳細... OK (confirmed=4, hypotheses=1, N/A=13)
+  [STEP3_MS_SETTINGS] 質量分析装置・設定パラメータ... OK (confirmed=8, hypotheses=0, N/A=3)
+  [STEP4_RAW_FILES] rawファイル名とこれまでの知識を統合して、ファイルごとの割り当てを推定... OK (confirmed=6, hypotheses=2, N/A=6)
+  Saved: pipeline/llm_extractions/PXD061009_extraction_v2.json
+[8/15] PXD061090
+
+============================================================
+Processing PXD061090 (v2 sequential)...
+  [STEP1_OVERVIEW] 論文の概要から全体像を把握（生物種、疾患、細胞株、実験タイプ等）... OK (confirmed=5, hypotheses=3, N/A=7)
+  [STEP2_SAMPLE_PREP] サンプル調製・消化・修飾の詳細... OK (confirmed=3, hypotheses=3, N/A=15)
+  [STEP3_MS_SETTINGS] 質量分析装置・設定パラメータ... OK (confirmed=5, hypotheses=0, N/A=6)
+  [STEP4_RAW_FILES] rawファイル名とこれまでの知識を統合して、ファイルごとの割り当てを推定... OK (confirmed=5, hypotheses=0, N/A=9)
+  Saved: pipeline/llm_extractions/PXD061090_extraction_v2.json
+[9/15] PXD061136
+
+============================================================
+Processing PXD061136 (v2 sequential)...
+  [STEP1_OVERVIEW] 論文の概要から全体像を把握（生物種、疾患、細胞株、実験タイプ等）... OK (confirmed=6, hypotheses=1, N/A=8)
+  [STEP2_SAMPLE_PREP] サンプル調製・消化・修飾の詳細... OK (confirmed=1, hypotheses=3, N/A=14)
+  [STEP3_MS_SETTINGS] 質量分析装置・設定パラメータ... OK (confirmed=4, hypotheses=3, N/A=4)
+  [STEP4_RAW_FILES] rawファイル名とこれまでの知識を統合して、ファイルごとの割り当てを推定... OK (confirmed=2, hypotheses=4, N/A=8)
+  Saved: pipeline/llm_extractions/PXD061136_extraction_v2.json
+[10/15] PXD061195
+
+============================================================
+Processing PXD061195 (v2 sequential)...
+  [STEP1_OVERVIEW] 論文の概要から全体像を把握（生物種、疾患、細胞株、実験タイプ等）... OK (confirmed=5, hypotheses=3, N/A=7)
+  [STEP2_SAMPLE_PREP] サンプル調製・消化・修飾の詳細... OK (confirmed=12, hypotheses=0, N/A=6)
+  [STEP3_MS_SETTINGS] 質量分析装置・設定パラメータ... OK (confirmed=11, hypotheses=0, N/A=0)
+  [STEP4_RAW_FILES] rawファイル名とこれまでの知識を統合して、ファイルごとの割り当てを推定... OK (confirmed=7, hypotheses=1, N/A=5)
+  Saved: pipeline/llm_extractions/PXD061195_extraction_v2.json
+[11/15] PXD061285
+
+============================================================
+Processing PXD061285 (v2 sequential)...
+  [STEP1_OVERVIEW] 論文の概要から全体像を把握（生物種、疾患、細胞株、実験タイプ等）... OK (confirmed=5, hypotheses=2, N/A=8)
+  [STEP2_SAMPLE_PREP] サンプル調製・消化・修飾の詳細... OK (confirmed=4, hypotheses=4, N/A=10)
+  [STEP3_MS_SETTINGS] 質量分析装置・設定パラメータ... OK (confirmed=5, hypotheses=4, N/A=2)
+  [STEP4_RAW_FILES] rawファイル名とこれまでの知識を統合して、ファイルごとの割り当てを推定... OK (confirmed=4, hypotheses=3, N/A=6)
+  Saved: pipeline/llm_extractions/PXD061285_extraction_v2.json
+[12/15] PXD062014
+
+============================================================
+Processing PXD062014 (v2 sequential)...
+  [STEP1_OVERVIEW] 論文の概要から全体像を把握（生物種、疾患、細胞株、実験タイプ等）... OK (confirmed=3, hypotheses=3, N/A=9)
+  [STEP2_SAMPLE_PREP] サンプル調製・消化・修飾の詳細... OK (confirmed=3, hypotheses=2, N/A=13)
+  [STEP3_MS_SETTINGS] 質量分析装置・設定パラメータ... JSON error: Expecting ',' delimiter: line 35 column 121 (char 1886)
+  [STEP4_RAW_FILES] rawファイル名とこれまでの知識を統合して、ファイルごとの割り当てを推定... OK (confirmed=5, hypotheses=2, N/A=7)
+  Saved: pipeline/llm_extractions/PXD062014_extraction_v2.json
+[13/15] PXD062469
+
+============================================================
+Processing PXD062469 (v2 sequential)...
+  [STEP1_OVERVIEW] 論文の概要から全体像を把握（生物種、疾患、細胞株、実験タイプ等）... JSON error: Expecting ',' delimiter: line 25 column 88 (char 981)
+  [STEP2_SAMPLE_PREP] サンプル調製・消化・修飾の詳細... OK (confirmed=5, hypotheses=1, N/A=12)
+  [STEP3_MS_SETTINGS] 質量分析装置・設定パラメータ... OK (confirmed=7, hypotheses=1, N/A=3)
+  [STEP4_RAW_FILES] rawファイル名とこれまでの知識を統合して、ファイルごとの割り当てを推定... OK (confirmed=4, hypotheses=3, N/A=7)
+  Saved: pipeline/llm_extractions/PXD062469_extraction_v2.json
+[14/15] PXD062877
+
+============================================================
+Processing PXD062877 (v2 sequential)...
+  [STEP1_OVERVIEW] 論文の概要から全体像を把握（生物種、疾患、細胞株、実験タイプ等）... OK (confirmed=5, hypotheses=3, N/A=7)
+  [STEP2_SAMPLE_PREP] サンプル調製・消化・修飾の詳細... OK (confirmed=4, hypotheses=1, N/A=13)
+  [STEP3_MS_SETTINGS] 質量分析装置・設定パラメータ... OK (confirmed=10, hypotheses=0, N/A=1)
+  [STEP4_RAW_FILES] rawファイル名とこれまでの知識を統合して、ファイルごとの割り当てを推定... 
+    Rate limit hit, waiting 30s (attempt 1/5)...OK (confirmed=4, hypotheses=3, N/A=7)
+  Saved: pipeline/llm_extractions/PXD062877_extraction_v2.json
+[15/15] PXD064564
+
+============================================================
+Processing PXD064564 (v2 sequential)...
+  [STEP1_OVERVIEW] 論文の概要から全体像を把握（生物種、疾患、細胞株、実験タイプ等）... OK (confirmed=5, hypotheses=3, N/A=7)
+  [STEP2_SAMPLE_PREP] サンプル調製・消化・修飾の詳細... OK (confirmed=2, hypotheses=2, N/A=14)
+  [STEP3_MS_SETTINGS] 質量分析装置・設定パラメータ... OK (confirmed=7, hypotheses=4, N/A=0)
+  [STEP4_RAW_FILES] rawファイル名とこれまでの知識を統合して、ファイルごとの割り当てを推定... OK (confirmed=3, hypotheses=2, N/A=9)
+  Saved: pipeline/llm_extractions/PXD064564_extraction_v2.json
+Done!

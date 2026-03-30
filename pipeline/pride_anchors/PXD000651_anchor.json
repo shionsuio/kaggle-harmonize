@@ -1,0 +1,83 @@
+{
+  "pxd": "PXD000651",
+  "source": "PRIDE_API",
+  "organism": [
+    {
+      "name": "Homo sapiens (human)",
+      "accession": "NEWT:9606"
+    }
+  ],
+  "instruments": [
+    {
+      "name": "LTQ Orbitrap",
+      "accession": "MS:1000449",
+      "sdrf_format": "AC=MS:1000449;NT=LTQ Orbitrap"
+    }
+  ],
+  "modifications": [],
+  "organism_parts": [
+    {
+      "name": "Cerebrospinal fluid",
+      "accession": "BTO:0000237"
+    }
+  ],
+  "diseases": [],
+  "experiment_types": [
+    "Bottom-up proteomics"
+  ],
+  "quantification_methods": [],
+  "keywords": [
+    "Homo sapiens",
+    "Cerebrospinal fluid",
+    "Lc-ms/ms"
+  ],
+  "publications": [
+    {
+      "pubmed_id": "",
+      "doi": "",
+      "ref": "Guldbrandsen A, Vethe H, Farag Y, Oveland E, Garberg H, Berle M, Myhr KM, Opsahl JA, Barsnes H, Berven FS. In-depth characterization of the cerebrospinal fluid proteome displayed through the CSF Proteome Resource (CSF-PR). Mol Cell Proteomics. 2014 Jul 18. pii: mcp.M114.038554"
+    }
+  ],
+  "inferred_fragmentation": "CID",
+  "inferred_ms2_analyzer": "orbitrap",
+  "inferred_ionization": "nanoESI",
+  "raw_files": [
+    "HV_map_A2.raw",
+    "HV_map_A15ny.raw",
+    "HV_map_A1.raw",
+    "HV_map_A33ny.raw",
+    "HV_map_A16ny.raw",
+    "HV_map_A34ny.raw",
+    "HV_map_A12.raw",
+    "HV_map_A18ny.raw",
+    "HV_map_A31.raw",
+    "HV_map_A22.raw",
+    "HV_map_A36.raw",
+    "HV_map_A20.raw",
+    "HV_map_A28.raw",
+    "HV_map_A25.raw",
+    "HV_map_A19.raw",
+    "HV_map_A32.raw",
+    "HV_map_A24.raw",
+    "HV_map_A5.raw",
+    "HV_map_A11.raw",
+    "HV_map_A21.raw",
+    "HV_map_A8.raw",
+    "HV_map_A3.raw",
+    "HV_map_A14.raw",
+    "HV_map_A26.raw",
+    "HV_map_A30.raw",
+    "HV_map_A27.raw",
+    "HV_map_A10.raw",
+    "HV_map_A6.raw",
+    "HV_map_A35.raw",
+    "HV_map_A17conc.raw",
+    "HV_map_A4.raw",
+    "HV_map_A37.raw",
+    "HV_map_A29.raw",
+    "HV_map_A7.raw",
+    "HV_map_A23.raw",
+    "HV_map_A13ny.raw",
+    "HV_map_A9.raw"
+  ]
+}

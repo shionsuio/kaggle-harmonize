@@ -1,0 +1,318 @@
+{
+  "pxd": "PXD004987",
+  "raw_files": [
+    "OEI15208.raw",
+    "OEI15224.raw",
+    "OEI16027.raw",
+    "OEI16013.raw",
+    "OEI15216.raw",
+    "OEI15202.raw",
+    "OEI15218.raw",
+    "OEI15234.raw",
+    "OEI16007.raw"
+  ],
+  "anchor": {
+    "pxd": "PXD004987",
+    "source": "PRIDE_API",
+    "organism": [
+      {
+        "name": "Homo sapiens (human)",
+        "accession": "NEWT:9606"
+      }
+    ],
+    "instruments": [
+      {
+        "name": "LTQ Orbitrap",
+        "accession": "MS:1000449",
+        "sdrf_format": "AC=MS:1000449;NT=LTQ Orbitrap"
+      }
+    ],
+    "modifications": [],
+    "organism_parts": [
+      {
+        "name": "Brain",
+        "accession": "BTO:0000142"
+      }
+    ],
+    "diseases": [],
+    "experiment_types": [
+      "Shotgun proteomics"
+    ],
+    "quantification_methods": [
+      "Spectrum counting"
+    ],
+    "keywords": [
+      "Laser microdissection",
+      "Neuromelanin",
+      "Substantia nigra",
+      "Lc-ms/ms"
+    ],
+    "publications": [
+      {
+        "pubmed_id": "",
+        "doi": "10.1038/srep37139",
+        "ref": "Plum S, Steinbach S, Attems J, Keers S, Riederer P, Gerlach M, May C, Marcus K. Proteomic characterization of neuromelanin granules isolated from human substantia nigra by laser-microdissection. Sci Rep. 2016 Nov 14;6:37139"
+      }
+    ],
+    "inferred_fragmentation": "CID",
+    "inferred_ms2_analyzer": "orbitrap",
+    "inferred_ionization": "nanoESI",
+    "raw_files": [
+      "OEI15208.raw",
+      "OEI15224.raw",
+      "OEI16027.raw",
+      "OEI16013.raw",
+      "OEI15216.raw",
+      "OEI15202.raw",
+      "OEI15218.raw",
+      "OEI15234.raw",
+      "OEI16007.raw"
+    ]
+  },
+  "steps": {
+    "STEP1_OVERVIEW": {
+      "confirmed": {
+        "Characteristics[Organism]": {
+          "value": "Homo sapiens",
+          "evidence": "neuromelanin granules isolated from human substantia nigra",
+          "source": "manuscript"
+        },
+        "Characteristics[OrganismPart]": {
+          "value": "substantia nigra",
+          "evidence": "neuromelanin granules isolated from human substantia nigra",
+          "source": "manuscript"
+        },
+        "Characteristics[MaterialType]": {
+          "value": "neuromelanin granules",
+          "evidence": "Proteomic characterization of neuromelanin granules isolated from human substantia nigra",
+          "source": "manuscript"
+        },
+        "Comment[AcquisitionMethod]": {
+          "value": "laser microdissection",
+          "evidence": "we established a new method based on laser microdissection combined with mass spectrometry for the isolation and analysis of neuromelanin granules",
+          "source": "manuscript"
+        },
+        "Characteristics[CellType]": {
+          "value": "dopaminergic neurons",
+          "evidence": "Neuromelanin is a complex polymer pigment found primarily in the dopaminergic neurons of human substantia nigra",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {
+        "Characteristics[Label]": {
+          "candidates": [
+            "label-free"
+          ],
+          "reasoning": "論文にはTMT, SILAC, iTRAQ等の標識法の言及がなく、「global proteomics analysis」「1,000 proteins were identified」という記述から標識フリーの可能性が高い",
+          "needs": "実験手法の詳細セクションでの確認"
+        },
+        "Characteristics[Specimen]": {
+          "candidates": [
+            "post-mortem brain tissue",
+            "autopsy tissue"
+          ],
+          "reasoning": "ヒト黒質組織を使用しており、「limited availability of human brain tissue」の記述から剖検組織の可能性が高い",
+          "needs": "サンプル収集方法の詳細情報"
+        }
+      },
+      "not_applicable": [
+        "Characteristics[CellLine]",
+        "Characteristics[Disease]",
+        "Characteristics[Strain]",
+        "Characteristics[GeneticModification]",
+        "Characteristics[Treatment]",
+        "Characteristics[DevelopmentalStage]",
+        "Characteristics[Compound]",
+        "Characteristics[ConcentrationOfCompound]"
+      ],
+      "summary": "ヒト黒質のドーパミン作動性ニューロンからレーザーマイクロダイセクションでニューロメラニン顆粒を単離したプロテオミクス研究。生物種、組織部位、細胞種、材料タイプ、取得方法が確定。標識法と検体の詳細（剖検組織等）は次ステップで確認が必要。"
+    },
+    "STEP2_SAMPLE_PREP": {
+      "confirmed": {
+        "Characteristics[CleavageAgent]": {
+          "value": "trypsin",
+          "evidence": "Trypsin was diluted in 50 mM ammonium bicarbonate and was added 1:25 (v/v) to the samples. Subsequently, digestion was performed for 4 h at 37 °C. The enzyme settings were set to \"trypsin\" and one possible missed cleavage site.",
+          "source": "manuscript"
+        },
+        "Characteristics[ReductionReagent]": {
+          "value": "dithiothreitol",
+          "evidence": "250 mM dithiothreitol was added and the samples were incubated for 30 min at 60 °C.",
+          "source": "manuscript"
+        },
+        "Characteristics[AlkylationReagent]": {
+          "value": "iodoacetamide",
+          "evidence": "0.55 M iodoacetamide was added and the samples were incubated for another 30 min in the dark.",
+          "source": "manuscript"
+        },
+        "Characteristics[Label]": {
+          "value": "label free sample",
+          "evidence": "No labeling reagents (TMT, iTRAQ, SILAC) mentioned in sample preparation protocol. Analysis used spectral counting quantification: 'The spectral index calculations were subsequently performed as described'",
+          "source": "manuscript"
+        },
+        "Characteristics[Modification]": {
+          "value": "oxidation",
+          "evidence": "Methionine oxidation was set as a variable modification",
+          "source": "manuscript"
+        },
+        "Characteristics[Modification].1": {
+          "value": "carbamidomethyl",
+          "evidence": "carbamidomethylation at cysteine was set as fixed modification",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {},
+      "not_applicable": [
+        "Characteristics[Modification].2",
+        "Characteristics[Modification].3",
+        "Characteristics[Modification].4",
+        "Characteristics[Modification].5",
+        "Characteristics[Modification].6",
+        "Characteristics[Depletion",
+        "Characteristics[SpikedCompound]",
+        "Characteristics[SyntheticPeptide]",
+        "Comment[EnrichmentMethod]",
+        "Comment[FractionationMethod]",
+        "Comment[NumberOfFractions]",
+        "Comment[Separation]"
+      ],
+      "summary": "サンプル調製の詳細が確定。トリプシン消化（4時間、37℃）、DTT還元、ヨードアセトアミドアルキル化を使用。標識フリーサンプルでスペクトルカウンティング定量を実施。修飾は可変修飾としてメチオニン酸化、固定修飾としてシステインカルバミドメチル化を設定。エンリッチメント、分画、分離法等は使用されていない。次ステップではLC-MS条件とデータ処理詳細の確認が必要。"
+    },
+    "STEP3_MS_SETTINGS": {
+      "confirmed": {
+        "Comment[Instrument]": {
+          "value": "Orbitrap Elite mass spectrometer",
+          "evidence": "LC-MS/MS) analyses were performed with 200 ng of the sample per run using an UltiMate 3000 RSLC nano LC system (Dionex, Idstein, Germany) coupled to an Orbitrap Elite mass spectrometer (Thermo Fisher Scientific, Bremen, Germany)",
+          "source": "manuscript"
+        },
+        "Comment[FragmentationMethod]": {
+          "value": "low-energy collision induced dissociation (CID)",
+          "evidence": "the 20 most intensive ions were selected for low-energy collision induced dissociation (CID) with 35% collision energy",
+          "source": "manuscript"
+        },
+        "Comment[IonizationType]": {
+          "value": "nano electrospray ionization",
+          "evidence": "The LC system was directly coupled with a nano electrospray ionization source (Thermo Fisher Scientific) to the Orbitrap Elite mass spectrometer",
+          "source": "manuscript"
+        },
+        "Comment[CollisionEnergy]": {
+          "value": "35%",
+          "evidence": "selected for low-energy collision induced dissociation (CID) with 35% collision energy",
+          "source": "manuscript"
+        },
+        "Comment[PrecursorMassTolerance]": {
+          "value": "5 ppm",
+          "evidence": "The peptide mass tolerance was set to 5 ppm",
+          "source": "manuscript"
+        },
+        "Comment[FragmentMassTolerance]": {
+          "value": "0.4 Da",
+          "evidence": "the fragment mass tolerance was 0.4 Da",
+          "source": "manuscript"
+        },
+        "Comment[NumberOfMissedCleavages]": {
+          "value": "1",
+          "evidence": "The enzyme settings were set to \"trypsin\" and one possible missed cleavage site",
+          "source": "manuscript"
+        },
+        "Comment[GradientTime]": {
+          "value": "95 min",
+          "evidence": "a gradient that was initiated with 95% A (0.1% formic acid) and 5% B (84% acetonitrile, 0.1% formic acid) with increasing amounts of B (up to 40% within 95 min)",
+          "source": "manuscript"
+        },
+        "Comment[FlowRateChromatogram]": {
+          "value": "400 nL/min",
+          "evidence": "Peptide separation was performed with 400 nL/min flow rate",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {
+        "Comment[MS2MassAnalyzer]": {
+          "candidates": [
+            "ion trap",
+            "orbitrap"
+          ],
+          "reasoning": "Orbitrap Elite装置はハイブリッド型で、MS1はorbitrapで実行されることが確認されているが、MS2（フラグメントイオンスキャン）がion trapまたはorbitrapのどちらで行われたかが明記されていない",
+          "needs": "MS2スキャンの具体的なアナライザー設定情報"
+        },
+        "Comment[AcquisitionMethod]": {
+          "candidates": [
+            "data dependent acquisition (DDA)",
+            "top 20 DDA"
+          ],
+          "reasoning": "「From each full scan, the 20 most intensive ions were selected」という記述からDDAでtop 20の選択を行っていることが示唆される",
+          "needs": "データ取得方法の明示的な記載"
+        }
+      },
+      "not_applicable": [],
+      "summary": "質量分析装置と設定パラメータの大部分が確定。Orbitrap Elite装置でnanoESI-CID、衝突エネルギー35%、前駆体質量許容誤差5ppm、フラグメント質量許容誤差0.4Da、ミスクリーベージ1回、グラジエント時間95分、流速400nL/minを使用。MS2アナライザーとデータ取得方法（DDAの可能性）は推論段階で次ステップでの確認が必要。"
+    },
+    "STEP4_RAW_FILES": {
+      "confirmed": {
+        "Characteristics[BiologicalReplicate]": {
+          "value": "per_file",
+          "per_file": {
+            "OEI15208.raw": "1",
+            "OEI15224.raw": "2",
+            "OEI16027.raw": "3",
+            "OEI16013.raw": "4",
+            "OEI15216.raw": "5",
+            "OEI15202.raw": "1",
+            "OEI15218.raw": "2",
+            "OEI15234.raw": "3",
+            "OEI16007.raw": "4"
+          },
+          "evidence": "Cryopreserved postmortem SN sections from five human subjects with no history of neurological or neurodegenerative diseases... only proteins identified in at least four of five NM granules or in three of four control samples",
+          "source": "manuscript"
+        },
+        "Characteristics[NumberOfBiologicalReplicates]": {
+          "value": "5",
+          "evidence": "from five human subjects with no history of neurological or neurodegenerative diseases",
+          "source": "manuscript"
+        },
+        "Characteristics[NumberOfSamples]": {
+          "value": "9",
+          "evidence": "9 raw files provided (OEI15208.raw through OEI16007.raw), corresponding to 5 NM granules samples and 4 control samples based on filtering criteria mentioned",
+          "source": "filename"
+        },
+        "FactorValue[CellPart]": {
+          "value": "per_file",
+          "per_file": {
+            "OEI15208.raw": "neuromelanin granules",
+            "OEI15224.raw": "neuromelanin granules",
+            "OEI16027.raw": "neuromelanin granules",
+            "OEI16013.raw": "neuromelanin granules",
+            "OEI15216.raw": "neuromelanin granules",
+            "OEI15202.raw": "tissue depleted of NM granules",
+            "OEI15218.raw": "tissue depleted of NM granules",
+            "OEI15234.raw": "tissue depleted of NM granules",
+            "OEI16007.raw": "tissue depleted of NM granules"
+          },
+          "evidence": "NM granules were cut and catapulted with a laser into the sample cap... Tissue depleted of NM granules was collected as control... only proteins identified in at least four of five NM granules or in three of four control samples",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {
+        "Characteristics[NumberOfTechnicalReplicates]": {
+          "candidates": [
+            "1",
+            "technical replicates included in mixture samples"
+          ],
+          "reasoning": "論文では各サンプルから等量を取って混合物を調製し、サンプル間で測定したと記述されているが、個別サンプルの技術的反復については明記されていない",
+          "needs": "個別サンプルの測定回数に関する詳細情報"
+        }
+      },
+      "not_applicable": [
+        "Comment[FractionIdentifier]",
+        "FactorValue[Treatment]",
+        "FactorValue[Temperature]",
+        "FactorValue[Disease]",
+        "FactorValue[GeneticModification]",
+        "FactorValue[Compound]",
+        "FactorValue[Bait]",
+        "FactorValue[ConcentrationOfCompound].1",
+        "FactorValue[FractionIdentifier]"
+      ],
+      "summary": "実験デザインが確定：5人の健常者剖検脳組織から、ニューロメラニン顆粒サンプル5個と対照（NM顆粒除去組織）4個の合計9サンプルを調製。rawファイル名（OEI番号）からは明確な識別トークンが読み取れないため、論文記述に基づき生物学的反復とサンプル種別を推定。技術的反復の詳細は不明。分画、処理、疾患等の実験因子は使用されていない。"
+    }
+  }
+}

@@ -1,0 +1,369 @@
+{
+  "pxd": "PXD062014",
+  "raw_files": [
+    "HSL_600sec_02_vial01.raw",
+    "HSL_ALDS_0sec_01_vial02.raw",
+    "HSL_ALDS_600sec_03_vial02.raw",
+    "HSL_ALDS_0sec_02_vial02.raw",
+    "HSL_600sec_01_vial01.raw",
+    "HSL_ALDS_0sec_03_vial02.raw",
+    "HSL_0sec_01_vial01.raw",
+    "HSL_ALDS_30sec_01_vial02.raw",
+    "HSL_ALDS_5sec_01_vial02.raw",
+    "HSL_0sec_02_vial01.raw",
+    "HSL_30sec_03_vial01.raw",
+    "HSL_5sec_02_vial01.raw",
+    "HSL_ALDS_30sec_02_vial02.raw",
+    "HSL_5sec_03_vial01.raw",
+    "HSL_0sec_03_vial01.raw",
+    "HSL_ALDS_5sec_03_vial02.raw",
+    "HSL_ALDS_600sec_02_vial02.raw",
+    "HSL_ALDS_600sec_01_vial02.raw",
+    "HSL_ALDS_5sec_02_vial02.raw",
+    "HSL_5sec_01_vial01.raw",
+    "HSL_600sec_03_vial01.raw",
+    "HSL_30sec_02_vial01.raw",
+    "HSL_ALDS_30sec_03_vial02.raw",
+    "HSL_30sec_01_vial01.raw"
+  ],
+  "anchor": {
+    "pxd": "PXD062014",
+    "source": "PRIDE_API",
+    "organism": [
+      {
+        "name": "Homo sapiens (human)",
+        "accession": "NEWT:9606"
+      }
+    ],
+    "instruments": [
+      {
+        "name": "Synapt MS",
+        "accession": "MS:1001782",
+        "sdrf_format": "AC=MS:1001782;NT=Synapt MS"
+      }
+    ],
+    "modifications": [],
+    "organism_parts": [],
+    "diseases": [],
+    "experiment_types": [
+      "MSE"
+    ],
+    "quantification_methods": [
+      "Relative quantification"
+    ],
+    "keywords": [
+      "Hdx-ms",
+      "Hsl"
+    ],
+    "publications": [
+      {
+        "pubmed_id": "",
+        "doi": "10.1038/s41467-025-58887-z",
+        "ref": "Peng H, Xu Q, Zhang T, Zhu J, Pan J, Guan X, Feng S, Wu J, Hu Q. Molecular determinants for the association of human hormone-sensitive lipase with lipid droplets.  Nat Commun. 2025 16(1):3497"
+      }
+    ],
+    "inferred_fragmentation": "CID",
+    "inferred_ms2_analyzer": "TOF",
+    "inferred_ionization": "ESI",
+    "raw_files": [
+      "HSL_600sec_02_vial01.raw.rar",
+      "HSL_ALDS_0sec_01_vial02.raw.rar",
+      "HSL_ALDS_600sec_03_vial02.raw.rar",
+      "HSL_ALDS_0sec_02_vial02.raw.rar",
+      "HSL_600sec_01_vial01.raw.rar",
+      "HSL_ALDS_0sec_03_vial02.raw.rar",
+      "HSL_0sec_01_vial01.raw.rar",
+      "HSL_ALDS_30sec_01_vial02.raw.rar",
+      "HSL_ALDS_5sec_01_vial02.raw.rar",
+      "HSL_0sec_02_vial01.raw.rar",
+      "HSL_30sec_03_vial01.raw.rar",
+      "HSL_5sec_02_vial01.raw.rar",
+      "HSL_ALDS_30sec_02_vial02.raw.rar",
+      "HSL_5sec_03_vial01.raw.rar",
+      "HSL_0sec_03_vial01.raw.rar",
+      "HSL_ALDS_5sec_03_vial02.raw.rar",
+      "HSL_ALDS_600sec_02_vial02.raw.rar",
+      "HSL_ALDS_600sec_01_vial02.raw.rar",
+      "HSL_ALDS_5sec_02_vial02.raw.rar",
+      "HSL_5sec_01_vial01.raw.rar",
+      "HSL_600sec_03_vial01.raw.rar",
+      "HSL_30sec_02_vial01.raw.rar",
+      "HSL_ALDS_30sec_03_vial02.raw.rar",
+      "HSL_30sec_01_vial01.raw.rar"
+    ]
+  },
+  "steps": {
+    "STEP1_OVERVIEW": {
+      "confirmed": {
+        "Characteristics[Organism]": {
+          "value": "Homo sapiens",
+          "evidence": "human hormone-sensitive lipase",
+          "source": "manuscript"
+        },
+        "Characteristics[MaterialType]": {
+          "value": "protein",
+          "evidence": "cryo-EM structure of human HSL, hydrogen-deuterium exchange mass spectrometry, biochemical and cellular assays",
+          "source": "manuscript"
+        },
+        "Characteristics[Label]": {
+          "value": "label-free",
+          "evidence": "No labeling methods mentioned in abstract, consistent with relative quantification from PRIDE",
+          "source": "manuscript"
+        },
+        "Comment[AcquisitionMethod]": {
+          "value": "hydrogen-deuterium exchange mass spectrometry",
+          "evidence": "Combining this with hydrogen-deuterium exchange mass spectrometry, biochemical and cellular assays",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {
+        "Characteristics[CellType]": {
+          "candidates": [
+            "adipocyte",
+            "hepatocyte"
+          ],
+          "reasoning": "HSL is central to lipolysis and lipid droplet biology, commonly studied in adipocytes or hepatocytes",
+          "needs": "Methods section or raw file names to confirm cell types used"
+        },
+        "Characteristics[CellLine]": {
+          "candidates": [
+            "HEK293",
+            "3T3-L1"
+          ],
+          "reasoning": "Common cell lines for protein expression and adipocyte differentiation studies",
+          "needs": "Methods section to identify specific cell lines used for expression or assays"
+        },
+        "Characteristics[Treatment]": {
+          "candidates": [
+            "PKA treatment",
+            "cAMP treatment"
+          ],
+          "reasoning": "Study mentions HSL phosphorylation by cAMP-dependent kinase PKA, likely involves treatment conditions",
+          "needs": "Methods section to confirm specific treatments applied"
+        }
+      },
+      "not_applicable": [
+        "Characteristics[Disease]",
+        "Characteristics[Specimen]",
+        "Characteristics[Strain]",
+        "Characteristics[GeneticModification]",
+        "Characteristics[DevelopmentalStage]",
+        "Characteristics[Compound]",
+        "Characteristics[ConcentrationOfCompound]"
+      ],
+      "summary": "This is a human HSL protein structure and function study using hydrogen-deuterium exchange MS. The organism is confirmed as human, with label-free quantification. Key unknowns are the specific cell types/lines used for cellular assays and potential PKA/cAMP treatments. Methods section analysis needed to resolve experimental details."
+    },
+    "STEP2_SAMPLE_PREP": {
+      "confirmed": {
+        "Characteristics[CleavageAgent]": {
+          "value": "pepsin",
+          "evidence": "65 μL of each sample was rapidly injected into a M-class UPLC system with HDX manager (Waters) and run over an Enzymate BEH Pepsin column (Waters, 2.1 × 30 mm, 5 μm)",
+          "source": "manuscript"
+        },
+        "Characteristics[ReductionReagent]": {
+          "value": "DTT",
+          "evidence": "1 mM DTT in lysis buffer and 10 mM DTT in phosphorylation buffer",
+          "source": "manuscript"
+        },
+        "Characteristics[Label]": {
+          "value": "label-free",
+          "evidence": "Hydrogen deuterium exchange mass spectrometry using deuterium labeling for structural analysis, not quantitative labeling",
+          "source": "manuscript"
+        },
+        "Characteristics[Modification]": {
+          "value": "phosphorylation",
+          "evidence": "Purified HSL (final concentration: 17.5 μM) was phosphorylated by PKA (final concentration: 5.7 μM) in 1 mL of a phosphorylation buffer",
+          "source": "manuscript"
+        },
+        "Comment[Separation]": {
+          "value": "UPLC",
+          "evidence": "separated by an in-line Acquity BEH C18 UPLC column (Waters, 1.0 × 100 mm, 1.7 μm). The mobile phases were 0.1% formic acid in water (A) and 0.1% formic acid in acetonitrile (B)",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {},
+      "not_applicable": [
+        "Characteristics[AlkylationReagent]",
+        "Characteristics[Modification].1",
+        "Characteristics[Modification].2",
+        "Characteristics[Modification].3",
+        "Characteristics[Modification].4",
+        "Characteristics[Modification].5",
+        "Characteristics[Modification].6",
+        "Characteristics[Depletion]",
+        "Characteristics[SpikedCompound]",
+        "Characteristics[SyntheticPeptide]",
+        "Comment[EnrichmentMethod]",
+        "Comment[FractionationMethod]",
+        "Comment[NumberOfFractions]"
+      ],
+      "summary": "HSL protein study using HDX-MS confirmed pepsin digestion, DTT reduction, label-free approach, and phosphorylation modifications. UPLC separation with C18 column and formic acid mobile phases identified. No alkylation, enrichment, fractionation, or synthetic peptides mentioned in the experimental workflow. The study focuses on structural analysis of HSL phosphorylation states rather than comprehensive proteomics sample preparation."
+    },
+    "STEP3_MS_SETTINGS": {
+      "confirmed": {
+        "Comment[Instrument]": {
+          "value": "Synapt XS mass spectrometer (Waters)",
+          "evidence": "Mass spectra were acquired on a Synapt XS mass spectrometer (Waters)",
+          "source": "manuscript"
+        },
+        "Comment[FragmentationMethod]": {
+          "value": "CID; MSE method",
+          "evidence": "The MSE method was used for peptide fragmentation and mapping (Low trap collision energy of 4 V and High ramp trap collision energy of 20–45 V)",
+          "source": "manuscript"
+        },
+        "Comment[IonizationType]": {
+          "value": "ESI",
+          "evidence": "using an electrospray ionization source operated at 80 °C and a spray voltage of 3.0 kV",
+          "source": "manuscript"
+        },
+        "Comment[CollisionEnergy]": {
+          "value": "Low trap collision energy of 4 V and High ramp trap collision energy of 20–45 V",
+          "evidence": "The MSE method was used for peptide fragmentation and mapping (Low trap collision energy of 4 V and High ramp trap collision energy of 20–45 V)",
+          "source": "manuscript"
+        },
+        "Comment[GradientTime]": {
+          "value": "6 min (2% to 35% B), plus additional steps totaling ~9 min",
+          "evidence": "The gradient of mobile phase B was increased from 2% to 35% in 6 min, with a flow rate of 50 μL/min. It was then held at 35% for 1 min and further increased to 85% in 0.5 min. After being held at 85% for 1 min, the gradient was decreased to 2% in 0.5 min",
+          "source": "manuscript"
+        },
+        "Comment[FlowRateChromatogram]": {
+          "value": "50 μL/min (analytical); 100 μL/min (pepsin digestion)",
+          "evidence": "run over an Enzymate BEH Pepsin column (Waters, 2.1 × 30 mm, 5 μm) at 15 °C with a flowrate of 100 μL/min for 4 min... The gradient of mobile phase B was increased from 2% to 35% in 6 min, with a flow rate of 50 μL/min",
+          "source": "manuscript"
+        },
+        "Comment[AcquisitionMethod]": {
+          "value": "MSE; hydrogen-deuterium exchange mass spectrometry",
+          "evidence": "The MSE method was used for peptide fragmentation and mapping... Hydrogen deuterium exchange mass spectrometry",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {
+        "Comment[MS2MassAnalyzer]": {
+          "candidates": [
+            "TOF"
+          ],
+          "reasoning": "PRIDE database indicates TOF analyzer, and Synapt instruments typically use TOF for MS2, but not explicitly stated in manuscript text",
+          "needs": "Explicit mention of MS2 analyzer in methods section or instrument specifications"
+        },
+        "Comment[PrecursorMassTolerance]": {
+          "candidates": [
+            "10 ppm"
+          ],
+          "reasoning": "Text mentions 'Maximum MH+ error(ppm) is 10' in DynamX filtering parameters, likely related to mass tolerance",
+          "needs": "Clear specification of precursor mass tolerance in acquisition parameters"
+        }
+      },
+      "not_applicable": [
+        "Comment[FragmentMassTolerance]",
+        "Comment[NumberOfMissedCleavages]"
+      ],
+      "summary": "Mass spectrometry parameters confirmed for Synapt XS with ESI ionization, MSE fragmentation method, and detailed collision energy settings (4V low, 20-45V high ramp). Gradient chromatography parameters established with 6-minute main gradient and dual flow rates. TOF analyzer and 10 ppm mass tolerance remain as hypotheses from PRIDE database and filtering parameters respectively. Fragment mass tolerance and missed cleavages not mentioned in HDX-MS workflow."
+    },
+    "STEP4_RAW_FILES": {
+      "confirmed": {
+        "Comment[FractionIdentifier]": {
+          "value": "Not Applicable",
+          "evidence": "This is an HDX-MS experiment without fractionation - samples are directly digested with pepsin and analyzed",
+          "source": "manuscript"
+        },
+        "Characteristics[BiologicalReplicate]": {
+          "value": "per_file",
+          "per_file": {
+            "HSL_0sec_01_vial01.raw": "1",
+            "HSL_0sec_02_vial01.raw": "2",
+            "HSL_0sec_03_vial01.raw": "3",
+            "HSL_5sec_01_vial01.raw": "1",
+            "HSL_5sec_02_vial01.raw": "2",
+            "HSL_5sec_03_vial01.raw": "3",
+            "HSL_30sec_01_vial01.raw": "1",
+            "HSL_30sec_02_vial01.raw": "2",
+            "HSL_30sec_03_vial01.raw": "3",
+            "HSL_600sec_01_vial01.raw": "1",
+            "HSL_600sec_02_vial01.raw": "2",
+            "HSL_600sec_03_vial01.raw": "3",
+            "HSL_ALDS_0sec_01_vial02.raw": "1",
+            "HSL_ALDS_0sec_02_vial02.raw": "2",
+            "HSL_ALDS_0sec_03_vial02.raw": "3",
+            "HSL_ALDS_5sec_01_vial02.raw": "1",
+            "HSL_ALDS_5sec_02_vial02.raw": "2",
+            "HSL_ALDS_5sec_03_vial02.raw": "3",
+            "HSL_ALDS_30sec_01_vial02.raw": "1",
+            "HSL_ALDS_30sec_02_vial02.raw": "2",
+            "HSL_ALDS_30sec_03_vial02.raw": "3",
+            "HSL_ALDS_600sec_01_vial02.raw": "1",
+            "HSL_ALDS_600sec_02_vial02.raw": "2",
+            "HSL_ALDS_600sec_03_vial02.raw": "3"
+          },
+          "evidence": "The exchange reaction was carried out for 0, 5, 30, and 600 s (each time point was carried out in triplicate). File naming pattern shows 01, 02, 03 suffixes indicating three replicates per condition",
+          "source": "manuscript"
+        },
+        "Characteristics[NumberOfBiologicalReplicates]": {
+          "value": "3",
+          "evidence": "each time point was carried out in triplicate - biological replicates identified from filename pattern _01, _02, _03",
+          "source": "manuscript"
+        },
+        "Characteristics[NumberOfTechnicalReplicates]": {
+          "value": "1",
+          "evidence": "No technical replicates mentioned in HDX-MS protocol - each biological replicate appears to be analyzed once",
+          "source": "manuscript"
+        },
+        "Characteristics[NumberOfSamples]": {
+          "value": "24",
+          "evidence": "24 raw files total: 2 conditions (HSL alone, HSL+ALDS) × 4 time points (0, 5, 30, 600 sec) × 3 biological replicates",
+          "source": "filename"
+        },
+        "FactorValue[Treatment]": {
+          "value": "per_file",
+          "per_file": {
+            "HSL_0sec_01_vial01.raw": "control",
+            "HSL_0sec_02_vial01.raw": "control",
+            "HSL_0sec_03_vial01.raw": "control",
+            "HSL_5sec_01_vial01.raw": "control",
+            "HSL_5sec_02_vial01.raw": "control",
+            "HSL_5sec_03_vial01.raw": "control",
+            "HSL_30sec_01_vial01.raw": "control",
+            "HSL_30sec_02_vial01.raw": "control",
+            "HSL_30sec_03_vial01.raw": "control",
+            "HSL_600sec_01_vial01.raw": "control",
+            "HSL_600sec_02_vial01.raw": "control",
+            "HSL_600sec_03_vial01.raw": "control",
+            "HSL_ALDS_0sec_01_vial02.raw": "ALDS",
+            "HSL_ALDS_0sec_02_vial02.raw": "ALDS",
+            "HSL_ALDS_0sec_03_vial02.raw": "ALDS",
+            "HSL_ALDS_5sec_01_vial02.raw": "ALDS",
+            "HSL_ALDS_5sec_02_vial02.raw": "ALDS",
+            "HSL_ALDS_5sec_03_vial02.raw": "ALDS",
+            "HSL_ALDS_30sec_01_vial02.raw": "ALDS",
+            "HSL_ALDS_30sec_02_vial02.raw": "ALDS",
+            "HSL_ALDS_30sec_03_vial02.raw": "ALDS",
+            "HSL_ALDS_600sec_01_vial02.raw": "ALDS",
+            "HSL_ALDS_600sec_02_vial02.raw": "ALDS",
+            "HSL_ALDS_600sec_03_vial02.raw": "ALDS"
+          },
+          "evidence": "80 µL of purified HSL was incubated for 1 h at room temperature with 40 µL of ALDs or with 40 µL of the assay buffer without ALDs. Filenames clearly show HSL (control) vs HSL_ALDS (treatment) conditions",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {
+        "FactorValue[Temperature]": {
+          "candidates": [
+            "room temperature",
+            "15°C"
+          ],
+          "reasoning": "HDX reactions at room temperature, but UPLC separation at 15°C with pepsin column",
+          "needs": "Clarification whether temperature factor refers to reaction or analysis conditions"
+        }
+      },
+      "not_applicable": [
+        "FactorValue[Disease]",
+        "FactorValue[GeneticModification]",
+        "FactorValue[Compound]",
+        "FactorValue[Bait]",
+        "FactorValue[CellPart]",
+        "FactorValue[ConcentrationOfCompound].1",
+        "FactorValue[FractionIdentifier]"
+      ],
+      "summary": "HDX-MS experiment with 24 raw files representing 2 treatment conditions (HSL control vs HSL+ALDS) across 4 time points (0, 5, 30, 600 seconds) with 3 biological replicates each. Clear experimental design with no fractionation, disease states, genetic modifications, or compound treatments beyond the ALDS binding partner. Temperature conditions remain ambiguous between reaction and analysis temperatures."
+    }
+  }
+}

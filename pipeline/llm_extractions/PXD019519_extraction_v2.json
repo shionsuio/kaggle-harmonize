@@ -1,0 +1,352 @@
+{
+  "pxd": "PXD019519",
+  "raw_files": [
+    "20161216_RJNDTA_LG_3hrs_DMSO2.raw",
+    "20161216_RJNDTA_LG_3hrs_CBK2.raw",
+    "20161216_RJNDTA_LG_3hrs_CBK3.raw",
+    "20161216_RJNDTA_LG_3hrs_CBK1.raw",
+    "20161216_RJNDTA_LG_3hrs_DMSO3.raw",
+    "20161216_RJNDTA_LG_3hrs_DMSO1.raw"
+  ],
+  "anchor": {
+    "pxd": "PXD019519",
+    "source": "PRIDE_API",
+    "organism": [
+      {
+        "name": "Homo sapiens (human)",
+        "accession": "NEWT:9606"
+      }
+    ],
+    "instruments": [
+      {
+        "name": "Q Exactive",
+        "accession": "MS:1001911",
+        "sdrf_format": "AC=MS:1001911;NT=Q Exactive"
+      }
+    ],
+    "modifications": [],
+    "organism_parts": [
+      {
+        "name": "Epithelial cell",
+        "accession": "CL:0000066"
+      },
+      {
+        "name": "Cell culture",
+        "accession": "BTO:0000214"
+      }
+    ],
+    "diseases": [],
+    "experiment_types": [
+      "Affinity purification coupled with mass spectrometry proteomics"
+    ],
+    "quantification_methods": [
+      "MS1 intensity based label-free quantification method"
+    ],
+    "keywords": [
+      "Pulldown",
+      "Click-chemistry",
+      "Ups",
+      "Upr",
+      "Lc-msms"
+    ],
+    "publications": [
+      {
+        "pubmed_id": "",
+        "doi": "10.1038/s41419-021-04191-9",
+        "ref": "Giovannucci TA, Salomons FA, Haraldsson M, Elfman LHM, Wickström M, Young P, Lundbäck T, Eirich J, Altun M, Jafari R, Gustavsson AL, Johnsen JI, Dantuma NP. Inhibition of the ubiquitin-proteasome system by an NQO1-activatable compound. Cell Death Dis. 2021 12(10):914"
+      }
+    ],
+    "inferred_fragmentation": "HCD",
+    "inferred_ms2_analyzer": "orbitrap",
+    "inferred_ionization": "nanoESI",
+    "raw_files": [
+      "20161216_RJNDTA_LG_3hrs_DMSO2.raw",
+      "20161216_RJNDTA_LG_3hrs_CBK2.raw",
+      "20161216_RJNDTA_LG_3hrs_CBK3.raw",
+      "20161216_RJNDTA_LG_3hrs_CBK1.raw",
+      "20161216_RJNDTA_LG_3hrs_DMSO3.raw",
+      "20161216_RJNDTA_LG_3hrs_DMSO1.raw"
+    ]
+  },
+  "steps": {
+    "STEP1_OVERVIEW": {
+      "confirmed": {
+        "Characteristics[Organism]": {
+          "value": "Homo sapiens",
+          "evidence": "NQO1-proficient human adenocarcinoma cells in nude mice",
+          "source": "manuscript"
+        },
+        "Characteristics[Disease]": {
+          "value": "adenocarcinoma",
+          "evidence": "NQO1-proficient human adenocarcinoma cells in nude mice treated with CBK77",
+          "source": "manuscript"
+        },
+        "Characteristics[MaterialType]": {
+          "value": "cell culture",
+          "evidence": "Confirmed from PRIDE database: Cell culture",
+          "source": "anchor"
+        },
+        "Characteristics[CellType]": {
+          "value": "epithelial cell",
+          "evidence": "Confirmed from PRIDE database: Epithelial cell",
+          "source": "anchor"
+        },
+        "Characteristics[Label]": {
+          "value": "label-free",
+          "evidence": "MS1 intensity based label-free quantification method",
+          "source": "anchor"
+        },
+        "Characteristics[Compound]": {
+          "value": "CBK77",
+          "evidence": "the bioactivatable compound CBK77, which causes an irreversible collapse of the UPS",
+          "source": "manuscript"
+        },
+        "Comment[AcquisitionMethod]": {
+          "value": "affinity-based proteomics",
+          "evidence": "Through affinity-based proteomics, we found that CBK77 covalently interacts with ubiquitin",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {
+        "Characteristics[CellLine]": {
+          "candidates": [
+            "human adenocarcinoma cell line"
+          ],
+          "reasoning": "論文では'human adenocarcinoma cells'と記載されているが、具体的な細胞株名（HeLa, A549等）は明記されていない",
+          "needs": "具体的な細胞株名の確認が必要"
+        },
+        "Characteristics[Treatment]": {
+          "candidates": [
+            "CBK77 treatment",
+            "UPS inhibition"
+          ],
+          "reasoning": "CBK77による処理とUPS阻害が主要な実験処理として言及されているが、詳細な処理条件は不明",
+          "needs": "処理濃度、時間、対照群の詳細情報"
+        }
+      },
+      "not_applicable": [
+        "Characteristics[OrganismPart]",
+        "Characteristics[Specimen]",
+        "Characteristics[Strain]",
+        "Characteristics[GeneticModification]",
+        "Characteristics[DevelopmentalStage]",
+        "Characteristics[ConcentrationOfCompound]"
+      ],
+      "summary": "ヒト腺癌細胞を用いたCBK77化合物によるユビキチン-プロテアソーム系阻害の研究。アフィニティベースプロテオミクスによりラベルフリー定量が実施された。具体的な細胞株名と処理条件の詳細は未確定。"
+    },
+    "STEP2_SAMPLE_PREP": {
+      "confirmed": {
+        "Characteristics[CleavageAgent]": {
+          "value": "trypsin",
+          "evidence": "Digestion was carried out by the addition of 0.4 µg Trypsin (sequencing grade modified, Pierce) overnight at 37 °C.",
+          "source": "manuscript"
+        },
+        "Characteristics[AlkylationReagent]": {
+          "value": "chloroacetamide",
+          "evidence": "Next, samples were alkylated by incubation in the dark at RT in 5 mM chloroacetamide for 10 min.",
+          "source": "manuscript"
+        },
+        "Characteristics[ReductionReagent]": {
+          "value": "DTT",
+          "evidence": "The bead-bound proteins after streptavidin-beads pulldown were reduced in 1 mM DTT at 37 °C for 1 h.",
+          "source": "manuscript"
+        },
+        "Characteristics[Label]": {
+          "value": "label free sample",
+          "evidence": "MS1 intensity based label-free quantification method",
+          "source": "anchor"
+        },
+        "Comment[EnrichmentMethod]": {
+          "value": "streptavidin bead pulldown",
+          "evidence": "Streptavidin-beads pulldown using the TFL TAMRA-azide-biotin... incubated under gentle mixing with 100 μL of Dynabeads M-280 streptavidin",
+          "source": "manuscript"
+        },
+        "Comment[Separation]": {
+          "value": "reversed-phase chromatography",
+          "evidence": "separated on a 50 cm long C18 column (Easy spray PepMap RSLC, C18, 2 µm, 100 Å, 75 µm × 15 cm)",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {
+        "Characteristics[Modification]": {
+          "candidates": [
+            "Carbamidomethyl"
+          ],
+          "reasoning": "carbamidomethylation (C)がfixed modificationsとして記載されているため、システイン残基のカルバミドメチル化が修飾として適用されている",
+          "needs": "PRIDE標準形式での修飾記載の確認"
+        },
+        "Characteristics[Modification].1": {
+          "candidates": [
+            "Oxidation"
+          ],
+          "reasoning": "oxidation (M)がvariable modificationsとして記載されているため、メチオニン残基の酸化が修飾として考慮されている",
+          "needs": "PRIDE標準形式での修飾記載の確認"
+        }
+      },
+      "not_applicable": [
+        "Characteristics[Modification].2",
+        "Characteristics[Modification].3",
+        "Characteristics[Modification].4",
+        "Characteristics[Modification].5",
+        "Characteristics[Modification].6",
+        "Characteristics[Depletion",
+        "Characteristics[SpikedCompound]",
+        "Characteristics[SyntheticPeptide]",
+        "Comment[FractionationMethod]",
+        "Comment[NumberOfFractions]"
+      ],
+      "summary": "プロテオミクス解析では、CBK77CLICKで処理した細胞からclick chemistry及びstreptavidin bead pulldownによってタンパク質を濃縮し、DTT還元・chloroacetamideアルキル化・trypsin消化を実施。MS解析では逆相クロマトグラフィー分離を使用。固定修飾としてcarbamidomethylation、可変修飾としてoxidationが設定されたラベルフリー定量実験。"
+    },
+    "STEP3_MS_SETTINGS": {
+      "confirmed": {
+        "Comment[Instrument]": {
+          "value": "Q-Exactive mass spectrometer",
+          "evidence": "LC-MS analysis was performed using a Dionex UltiMate 3000 RSLCnano System coupled to a Q-Exactive mass spectrometer (Thermo Scientific).",
+          "source": "manuscript"
+        },
+        "Comment[FragmentationMethod]": {
+          "value": "HCD (higher energy collision dissociation)",
+          "evidence": "data-dependent MS/MS (30,000 resolution) on the top 5 ions using higher energy collision dissociation (HCD) at 30% normalized collision energy",
+          "source": "manuscript"
+        },
+        "Comment[IonizationType]": {
+          "value": "ESI (electrospray ionization)",
+          "evidence": "LC-ESI-MS/MS",
+          "source": "manuscript"
+        },
+        "Comment[MS2MassAnalyzer]": {
+          "value": "orbitrap",
+          "evidence": "data-dependent MS/MS (30,000 resolution)",
+          "source": "manuscript"
+        },
+        "Comment[CollisionEnergy]": {
+          "value": "30% normalized collision energy",
+          "evidence": "using higher energy collision dissociation (HCD) at 30% normalized collision energy",
+          "source": "manuscript"
+        },
+        "Comment[PrecursorMassTolerance]": {
+          "value": "15 ppm",
+          "evidence": "We used a precursor ion mass tolerance of 15 ppm",
+          "source": "manuscript"
+        },
+        "Comment[FragmentMassTolerance]": {
+          "value": "0.02 Da",
+          "evidence": "product ion mass tolerances of 0.02 Da for HCD-FTMS",
+          "source": "manuscript"
+        },
+        "Comment[NumberOfMissedCleavages]": {
+          "value": "2",
+          "evidence": "The algorithm considered tryptic peptides with maximum two missed cleavages",
+          "source": "manuscript"
+        },
+        "Comment[GradientTime]": {
+          "value": "180 min",
+          "evidence": "At a constant flow of 0.25 μl min−1, the curved gradient went from 6% B up to 43% B in 180 min, followed by a steep increase to 100% B in 5 min",
+          "source": "manuscript"
+        },
+        "Comment[FlowRateChromatogram]": {
+          "value": "0.25 μl/min",
+          "evidence": "At a constant flow of 0.25 μl min−1",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {
+        "Comment[AcquisitionMethod]": {
+          "candidates": [
+            "data-dependent acquisition (DDA)",
+            "top 5 DDA"
+          ],
+          "reasoning": "論文には'data-dependent MS/MS on the top 5 ions'と記載されており、データ依存取得法でtop 5のプリカーサーを選択する方法が使用されている",
+          "needs": "DDAの正式な記載またはより具体的な取得方法の説明"
+        }
+      },
+      "not_applicable": [],
+      "summary": "LC-MS/MS解析はQ-Exactive質量分析計とDionex UltiMate 3000 RSLCnanoシステムを使用して実施された。HCD断片化（30%衝突エネルギー）、ESIイオン化、orbitrap MS2解析が確認された。プリカーサー質量許容誤差15 ppm、フラグメント質量許容誤差0.02 Da、最大2つのミスクリベージ、180分グラディエント、0.25 μl/minフローレートが設定されていた。データ依存取得法（top 5）が使用されたと推測される。"
+    },
+    "STEP4_RAW_FILES": {
+      "confirmed": {
+        "Characteristics[BiologicalReplicate]": {
+          "value": "per_file",
+          "per_file": {
+            "20161216_RJNDTA_LG_3hrs_DMSO1.raw": "1",
+            "20161216_RJNDTA_LG_3hrs_DMSO2.raw": "2",
+            "20161216_RJNDTA_LG_3hrs_DMSO3.raw": "3",
+            "20161216_RJNDTA_LG_3hrs_CBK1.raw": "1",
+            "20161216_RJNDTA_LG_3hrs_CBK2.raw": "2",
+            "20161216_RJNDTA_LG_3hrs_CBK3.raw": "3"
+          },
+          "evidence": "ファイル名の末尾番号から3つの生物学的レプリケート(1,2,3)が確認できる",
+          "source": "filename"
+        },
+        "Characteristics[NumberOfBiologicalReplicates]": {
+          "value": "3",
+          "evidence": "各処理条件（DMSO、CBK）について3つのレプリケート（1,2,3）が存在",
+          "source": "filename"
+        },
+        "Characteristics[NumberOfSamples]": {
+          "value": "6",
+          "evidence": "合計6つのrawファイルが存在（DMSO処理3サンプル + CBK処理3サンプル）",
+          "source": "filename"
+        },
+        "FactorValue[Treatment]": {
+          "value": "per_file",
+          "per_file": {
+            "20161216_RJNDTA_LG_3hrs_DMSO1.raw": "DMSO control",
+            "20161216_RJNDTA_LG_3hrs_DMSO2.raw": "DMSO control",
+            "20161216_RJNDTA_LG_3hrs_DMSO3.raw": "DMSO control",
+            "20161216_RJNDTA_LG_3hrs_CBK1.raw": "CBK77CLICK treatment",
+            "20161216_RJNDTA_LG_3hrs_CBK2.raw": "CBK77CLICK treatment",
+            "20161216_RJNDTA_LG_3hrs_CBK3.raw": "CBK77CLICK treatment"
+          },
+          "evidence": "ファイル名のDMSOとCBKトークン、及び論文記載「Cells previously seeded into 10 cm dishes were treated with either CBK77CLICK at 20 µM or with DMSO 0.2% for 1.5 h」",
+          "source": "filename/manuscript"
+        },
+        "FactorValue[Compound]": {
+          "value": "per_file",
+          "per_file": {
+            "20161216_RJNDTA_LG_3hrs_DMSO1.raw": "DMSO",
+            "20161216_RJNDTA_LG_3hrs_DMSO2.raw": "DMSO",
+            "20161216_RJNDTA_LG_3hrs_DMSO3.raw": "DMSO",
+            "20161216_RJNDTA_LG_3hrs_CBK1.raw": "CBK77CLICK",
+            "20161216_RJNDTA_LG_3hrs_CBK2.raw": "CBK77CLICK",
+            "20161216_RJNDTA_LG_3hrs_CBK3.raw": "CBK77CLICK"
+          },
+          "evidence": "ファイル名のトークンと「Cells were treated with either CBK77CLICK at 20 µM or with DMSO 0.2%」の記載",
+          "source": "filename/manuscript"
+        },
+        "FactorValue[ConcentrationOfCompound].1": {
+          "value": "per_file",
+          "per_file": {
+            "20161216_RJNDTA_LG_3hrs_DMSO1.raw": "0.2%",
+            "20161216_RJNDTA_LG_3hrs_DMSO2.raw": "0.2%",
+            "20161216_RJNDTA_LG_3hrs_DMSO3.raw": "0.2%",
+            "20161216_RJNDTA_LG_3hrs_CBK1.raw": "20 µM",
+            "20161216_RJNDTA_LG_3hrs_CBK2.raw": "20 µM",
+            "20161216_RJNDTA_LG_3hrs_CBK3.raw": "20 µM"
+          },
+          "evidence": "論文記載「CBK77CLICK at 20 µM or with DMSO 0.2% for 1.5 h」",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {
+        "Comment[FractionIdentifier]": {
+          "candidates": [
+            "Not Applicable"
+          ],
+          "reasoning": "ファイル名や実験記載からフラクション分離の証拠が見つからない。単一のサンプル処理のようである",
+          "needs": "フラクション分離実験の明確な記載"
+        }
+      },
+      "not_applicable": [
+        "Characteristics[NumberOfTechnicalReplicates]",
+        "FactorValue[Temperature]",
+        "FactorValue[Disease]",
+        "FactorValue[GeneticModification]",
+        "FactorValue[Bait]",
+        "FactorValue[CellPart]",
+        "FactorValue[FractionIdentifier]"
+      ],
+      "summary": "rawファイル名解析により、DMSO対照群とCBK77CLICK処理群のそれぞれ3つの生物学的レプリケートが確認された。合計6サンプルでCBK77CLICK（20 µM）とDMSO（0.2%）の処理条件が確定した。フラクション分離は実施されていない。技術的レプリケート、温度・疾患・遺伝子改変・ベイト・細胞部位に関する因子は該当しない。"
+    }
+  }
+}

@@ -1,0 +1,123 @@
+Found 15 papers
+Model: claude-sonnet-4-20250514
+Pipeline: v3 (GT candidate lists)
+
+============================================================
+Processing PXD004010 (v3 with GT candidates)...
+  [STEP1_OVERVIEW] 論文の概要から生物学的コンテキストを抽出... OK (confirmed=5, hypotheses=2, N/A=6)
+  [STEP2_SAMPLE_PREP] サンプル調製・消化・修飾の詳細... OK (confirmed=3, hypotheses=0, N/A=6)
+  [STEP3_MS_SETTINGS] 質量分析装置・設定パラメータ... OK (confirmed=5, hypotheses=0, N/A=5)
+  [STEP4_RAW_FILES] rawファイル名から実験条件を推定... OK (confirmed=2, hypotheses=1, N/A=5)
+  Saved: /Users/shionsuio/Downloads/Harmonizing Data/pipeline/llm_extractions/PXD004010_extraction_v3.json
+
+============================================================
+Processing PXD016436 (v3 with GT candidates)...
+  [STEP1_OVERVIEW] 論文の概要から生物学的コンテキストを抽出... OK (confirmed=3, hypotheses=2, N/A=8)
+  [STEP2_SAMPLE_PREP] サンプル調製・消化・修飾の詳細... OK (confirmed=7, hypotheses=0, N/A=2)
+  [STEP3_MS_SETTINGS] 質量分析装置・設定パラメータ... OK (confirmed=1, hypotheses=0, N/A=1)
+  [STEP4_RAW_FILES] rawファイル名から実験条件を推定... OK (confirmed=3, hypotheses=1, N/A=4)
+  Saved: /Users/shionsuio/Downloads/Harmonizing Data/pipeline/llm_extractions/PXD016436_extraction_v3.json
+
+============================================================
+Processing PXD019519 (v3 with GT candidates)...
+  [STEP1_OVERVIEW] 論文の概要から生物学的コンテキストを抽出... OK (confirmed=6, hypotheses=2, N/A=4)
+  [STEP2_SAMPLE_PREP] サンプル調製・消化・修飾の詳細... OK (confirmed=8, hypotheses=1, N/A=1)
+  [STEP3_MS_SETTINGS] 質量分析装置・設定パラメータ... OK (confirmed=9, hypotheses=1, N/A=0)
+  [STEP4_RAW_FILES] rawファイル名から実験条件を推定... OK (confirmed=3, hypotheses=1, N/A=4)
+  Saved: /Users/shionsuio/Downloads/Harmonizing Data/pipeline/llm_extractions/PXD019519_extraction_v3.json
+
+============================================================
+Processing PXD025663 (v3 with GT candidates)...
+  [STEP1_OVERVIEW] 論文の概要から生物学的コンテキストを抽出... OK (confirmed=4, hypotheses=1, N/A=8)
+  [STEP2_SAMPLE_PREP] サンプル調製・消化・修飾の詳細... OK (confirmed=6, hypotheses=2, N/A=1)
+  [STEP3_MS_SETTINGS] 質量分析装置・設定パラメータ... JSON error: Invalid control character at: line 39 column 38 (char 1589)
+  [STEP4_RAW_FILES] rawファイル名から実験条件を推定... OK (confirmed=2, hypotheses=1, N/A=5)
+  Saved: /Users/shionsuio/Downloads/Harmonizing Data/pipeline/llm_extractions/PXD025663_extraction_v3.json
+
+============================================================
+Processing PXD040582 (v3 with GT candidates)...
+  [STEP1_OVERVIEW] 論文の概要から生物学的コンテキストを抽出... OK (confirmed=4, hypotheses=1, N/A=7)
+  [STEP2_SAMPLE_PREP] サンプル調製・消化・修飾の詳細... OK (confirmed=7, hypotheses=1, N/A=2)
+  [STEP3_MS_SETTINGS] 質量分析装置・設定パラメータ... OK (confirmed=9, hypotheses=1, N/A=0)
+  [STEP4_RAW_FILES] rawファイル名から実験条件を推定... OK (confirmed=3, hypotheses=1, N/A=4)
+  Saved: /Users/shionsuio/Downloads/Harmonizing Data/pipeline/llm_extractions/PXD040582_extraction_v3.json
+
+============================================================
+Processing PXD050621 (v3 with GT candidates)...
+  [STEP1_OVERVIEW] 論文の概要から生物学的コンテキストを抽出... OK (confirmed=2, hypotheses=2, N/A=9)
+  [STEP2_SAMPLE_PREP] サンプル調製・消化・修飾の詳細... OK (confirmed=1, hypotheses=0, N/A=8)
+  [STEP3_MS_SETTINGS] 質量分析装置・設定パラメータ... OK (confirmed=3, hypotheses=0, N/A=7)
+  [STEP4_RAW_FILES] rawファイル名から実験条件を推定... OK (confirmed=2, hypotheses=2, N/A=4)
+  Saved: /Users/shionsuio/Downloads/Harmonizing Data/pipeline/llm_extractions/PXD050621_extraction_v3.json
+
+============================================================
+Processing PXD061009 (v3 with GT candidates)...
+  [STEP1_OVERVIEW] 論文の概要から生物学的コンテキストを抽出... OK (confirmed=5, hypotheses=2, N/A=6)
+  [STEP2_SAMPLE_PREP] サンプル調製・消化・修飾の詳細... OK (confirmed=6, hypotheses=1, N/A=2)
+  [STEP3_MS_SETTINGS] 質量分析装置・設定パラメータ... OK (confirmed=6, hypotheses=0, N/A=4)
+  [STEP4_RAW_FILES] rawファイル名から実験条件を推定... OK (confirmed=2, hypotheses=0, N/A=6)
+  Saved: /Users/shionsuio/Downloads/Harmonizing Data/pipeline/llm_extractions/PXD061009_extraction_v3.json
+
+============================================================
+Processing PXD061090 (v3 with GT candidates)...
+  [STEP1_OVERVIEW] 論文の概要から生物学的コンテキストを抽出... OK (confirmed=6, hypotheses=2, N/A=5)
+  [STEP2_SAMPLE_PREP] サンプル調製・消化・修飾の詳細... OK (confirmed=0, hypotheses=1, N/A=8)
+  [STEP3_MS_SETTINGS] 質量分析装置・設定パラメータ... OK (confirmed=4, hypotheses=0, N/A=6)
+  [STEP4_RAW_FILES] rawファイル名から実験条件を推定... OK (confirmed=2, hypotheses=1, N/A=5)
+  Saved: /Users/shionsuio/Downloads/Harmonizing Data/pipeline/llm_extractions/PXD061090_extraction_v3.json
+
+============================================================
+Processing PXD061136 (v3 with GT candidates)...
+  [STEP1_OVERVIEW] 論文の概要から生物学的コンテキストを抽出... OK (confirmed=6, hypotheses=2, N/A=5)
+  [STEP2_SAMPLE_PREP] サンプル調製・消化・修飾の詳細... OK (confirmed=4, hypotheses=2, N/A=3)
+  [STEP3_MS_SETTINGS] 質量分析装置・設定パラメータ... OK (confirmed=4, hypotheses=4, N/A=2)
+  [STEP4_RAW_FILES] rawファイル名から実験条件を推定... OK (confirmed=0, hypotheses=1, N/A=7)
+  Saved: /Users/shionsuio/Downloads/Harmonizing Data/pipeline/llm_extractions/PXD061136_extraction_v3.json
+
+============================================================
+Processing PXD061195 (v3 with GT candidates)...
+  [STEP1_OVERVIEW] 論文の概要から生物学的コンテキストを抽出... OK (confirmed=4, hypotheses=2, N/A=6)
+  [STEP2_SAMPLE_PREP] サンプル調製・消化・修飾の詳細... OK (confirmed=8, hypotheses=1, N/A=0)
+  [STEP3_MS_SETTINGS] 質量分析装置・設定パラメータ... OK (confirmed=9, hypotheses=1, N/A=0)
+  [STEP4_RAW_FILES] rawファイル名から実験条件を推定... OK (confirmed=3, hypotheses=0, N/A=5)
+  Saved: /Users/shionsuio/Downloads/Harmonizing Data/pipeline/llm_extractions/PXD061195_extraction_v3.json
+
+============================================================
+Processing PXD061285 (v3 with GT candidates)...
+  [STEP1_OVERVIEW] 論文の概要から生物学的コンテキストを抽出... OK (confirmed=2, hypotheses=2, N/A=9)
+  [STEP2_SAMPLE_PREP] サンプル調製・消化・修飾の詳細... OK (confirmed=6, hypotheses=1, N/A=2)
+  [STEP3_MS_SETTINGS] 質量分析装置・設定パラメータ... OK (confirmed=4, hypotheses=3, N/A=3)
+  [STEP4_RAW_FILES] rawファイル名から実験条件を推定... OK (confirmed=2, hypotheses=2, N/A=4)
+  Saved: /Users/shionsuio/Downloads/Harmonizing Data/pipeline/llm_extractions/PXD061285_extraction_v3.json
+
+============================================================
+Processing PXD062014 (v3 with GT candidates)...
+  [STEP1_OVERVIEW] 論文の概要から生物学的コンテキストを抽出... OK (confirmed=4, hypotheses=1, N/A=8)
+  [STEP2_SAMPLE_PREP] サンプル調製・消化・修飾の詳細... OK (confirmed=6, hypotheses=0, N/A=3)
+  [STEP3_MS_SETTINGS] 質量分析装置・設定パラメータ... OK (confirmed=7, hypotheses=1, N/A=2)
+  [STEP4_RAW_FILES] rawファイル名から実験条件を推定... OK (confirmed=1, hypotheses=1, N/A=6)
+  Saved: /Users/shionsuio/Downloads/Harmonizing Data/pipeline/llm_extractions/PXD062014_extraction_v3.json
+
+============================================================
+Processing PXD062469 (v3 with GT candidates)...
+  [STEP1_OVERVIEW] 論文の概要から生物学的コンテキストを抽出... OK (confirmed=7, hypotheses=2, N/A=4)
+  [STEP2_SAMPLE_PREP] サンプル調製・消化・修飾の詳細... OK (confirmed=7, hypotheses=1, N/A=1)
+  [STEP3_MS_SETTINGS] 質量分析装置・設定パラメータ... OK (confirmed=4, hypotheses=2, N/A=4)
+  [STEP4_RAW_FILES] rawファイル名から実験条件を推定... OK (confirmed=2, hypotheses=2, N/A=4)
+  Saved: /Users/shionsuio/Downloads/Harmonizing Data/pipeline/llm_extractions/PXD062469_extraction_v3.json
+
+============================================================
+Processing PXD062877 (v3 with GT candidates)...
+  [STEP1_OVERVIEW] 論文の概要から生物学的コンテキストを抽出... OK (confirmed=5, hypotheses=3, N/A=5)
+  [STEP2_SAMPLE_PREP] サンプル調製・消化・修飾の詳細... OK (confirmed=8, hypotheses=1, N/A=1)
+  [STEP3_MS_SETTINGS] 質量分析装置・設定パラメータ... OK (confirmed=9, hypotheses=0, N/A=1)
+  [STEP4_RAW_FILES] rawファイル名から実験条件を推定... OK (confirmed=2, hypotheses=0, N/A=6)
+  Saved: /Users/shionsuio/Downloads/Harmonizing Data/pipeline/llm_extractions/PXD062877_extraction_v3.json
+
+============================================================
+Processing PXD064564 (v3 with GT candidates)...
+  [STEP1_OVERVIEW] 論文の概要から生物学的コンテキストを抽出... OK (confirmed=5, hypotheses=3, N/A=5)
+  [STEP2_SAMPLE_PREP] サンプル調製・消化・修飾の詳細... OK (confirmed=6, hypotheses=0, N/A=3)
+  [STEP3_MS_SETTINGS] 質量分析装置・設定パラメータ... OK (confirmed=4, hypotheses=5, N/A=1)
+  [STEP4_RAW_FILES] rawファイル名から実験条件を推定... OK (confirmed=1, hypotheses=1, N/A=6)
+  Saved: /Users/shionsuio/Downloads/Harmonizing Data/pipeline/llm_extractions/PXD064564_extraction_v3.json

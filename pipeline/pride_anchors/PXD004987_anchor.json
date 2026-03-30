@@ -1,0 +1,58 @@
+{
+  "pxd": "PXD004987",
+  "source": "PRIDE_API",
+  "organism": [
+    {
+      "name": "Homo sapiens (human)",
+      "accession": "NEWT:9606"
+    }
+  ],
+  "instruments": [
+    {
+      "name": "LTQ Orbitrap",
+      "accession": "MS:1000449",
+      "sdrf_format": "AC=MS:1000449;NT=LTQ Orbitrap"
+    }
+  ],
+  "modifications": [],
+  "organism_parts": [
+    {
+      "name": "Brain",
+      "accession": "BTO:0000142"
+    }
+  ],
+  "diseases": [],
+  "experiment_types": [
+    "Shotgun proteomics"
+  ],
+  "quantification_methods": [
+    "Spectrum counting"
+  ],
+  "keywords": [
+    "Laser microdissection",
+    "Neuromelanin",
+    "Substantia nigra",
+    "Lc-ms/ms"
+  ],
+  "publications": [
+    {
+      "pubmed_id": "",
+      "doi": "10.1038/srep37139",
+      "ref": "Plum S, Steinbach S, Attems J, Keers S, Riederer P, Gerlach M, May C, Marcus K. Proteomic characterization of neuromelanin granules isolated from human substantia nigra by laser-microdissection. Sci Rep. 2016 Nov 14;6:37139"
+    }
+  ],
+  "inferred_fragmentation": "CID",
+  "inferred_ms2_analyzer": "orbitrap",
+  "inferred_ionization": "nanoESI",
+  "raw_files": [
+    "OEI15208.raw",
+    "OEI15224.raw",
+    "OEI16027.raw",
+    "OEI16013.raw",
+    "OEI15216.raw",
+    "OEI15202.raw",
+    "OEI15218.raw",
+    "OEI15234.raw",
+    "OEI16007.raw"
+  ]
+}

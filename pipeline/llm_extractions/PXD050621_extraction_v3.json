@@ -1,0 +1,199 @@
+{
+  "pxd": "PXD050621",
+  "raw_files": [
+    "pTn5053_delta_Chi_1.raw",
+    "pTn5053_delta_Chi_3.raw",
+    "pTn5053_delta_Chi_2.raw",
+    "pTn5053_delta_ClpX_1.raw",
+    "pTn5053_1.raw",
+    "pTn5053_delta_ClpX_3.raw",
+    "pTn5053_3.raw",
+    "pTn5053_2.raw",
+    "pTn5053_delta_ClpX_2.raw"
+  ],
+  "anchor": {
+    "pxd": "PXD050621",
+    "source": "PRIDE_API",
+    "organism": [
+      {
+        "name": "Escherichia coli",
+        "accession": "NEWT:562"
+      }
+    ],
+    "instruments": [
+      {
+        "name": "Q Exactive HF",
+        "accession": "MS:1002523",
+        "sdrf_format": "AC=MS:1002523;NT=Q Exactive HF"
+      }
+    ],
+    "modifications": [],
+    "organism_parts": [],
+    "diseases": [],
+    "experiment_types": [
+      "Shotgun proteomics"
+    ],
+    "quantification_methods": [
+      "Peptide counting"
+    ],
+    "keywords": [
+      "Restriction alleviation. e. coli",
+      "Ab1157",
+      "Ecoki"
+    ],
+    "publications": [
+      {
+        "pubmed_id": "",
+        "doi": "10.1093/nar/gkae243",
+        "ref": "Skutel M, Yanovskaya D, Demkina A, Shenfeld A, Musharova O, Severinov K, Isaev A. RecA-dependent or independent recombination of plasmid DNA generates a conflict with the host EcoKI immunity by launching restriction alleviation. Nucleic Acids Res. 2024 52(9):5195-5208"
+      }
+    ],
+    "inferred_fragmentation": "HCD",
+    "inferred_ms2_analyzer": "orbitrap",
+    "inferred_ionization": "nanoESI",
+    "raw_files": [
+      "pTn5053_delta_Chi_1.raw",
+      "pTn5053_delta_Chi_3.raw",
+      "pTn5053_delta_Chi_2.raw",
+      "pTn5053_delta_ClpX_1.raw",
+      "pTn5053_1.raw",
+      "pTn5053_delta_ClpX_3.raw",
+      "pTn5053_3.raw",
+      "pTn5053_2.raw",
+      "pTn5053_delta_ClpX_2.raw"
+    ]
+  },
+  "steps": {
+    "STEP1_OVERVIEW": {
+      "confirmed": {
+        "Characteristics[Organism]": {
+          "value": "Escherichia coli",
+          "evidence": "Escherichia coli Type I R–M system EcoKI",
+          "source": "manuscript"
+        },
+        "Characteristics[MaterialType]": {
+          "value": "bacterial strain",
+          "evidence": "bacterial defence systems and E. coli strain context",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {
+        "Characteristics[Strain]": {
+          "candidates": [
+            "Not specified in allowed values"
+          ],
+          "reasoning": "Study involves E. coli strains with specific genetic modifications (RecA, RecBCD deficient) but specific strain names not provided in allowed values",
+          "needs": "Strain designation information from methods section"
+        },
+        "Characteristics[Compound]": {
+          "candidates": [
+            "not applicable",
+            "none"
+          ],
+          "reasoning": "Study focuses on genetic modifications rather than chemical compounds, though plasmids with specific sites are used",
+          "needs": "Confirmation if plasmids with EcoKI/Chi sites count as compounds"
+        }
+      },
+      "not_applicable": [
+        "Characteristics[OrganismPart]",
+        "Characteristics[CellType]",
+        "Characteristics[CellLine]",
+        "Characteristics[Disease]",
+        "Characteristics[Label]",
+        "Characteristics[DevelopmentalStage]",
+        "Characteristics[Specimen]",
+        "Characteristics[Sex]",
+        "Comment[AcquisitionMethod]"
+      ],
+      "summary": "This is a bacterial proteomics study using Escherichia coli to investigate restriction-modification systems. The organism and material type are confirmed from the abstract. Specific strain information and compound treatments need clarification from the methods section. Most biological characteristics are not applicable to this bacterial system study."
+    },
+    "STEP2_SAMPLE_PREP": {
+      "confirmed": {
+        "Characteristics[Label]": {
+          "value": "label free sample",
+          "evidence": "label-free protein quantification, as described. LFQ protein counts for HsdR and HsdM were normalized to the total protein counts.",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {},
+      "not_applicable": [
+        "Characteristics[CleavageAgent]",
+        "Characteristics[AlkylationReagent]",
+        "Characteristics[ReductionReagent]",
+        "Characteristics[Modification]",
+        "Characteristics[Depletion]",
+        "Comment[EnrichmentMethod]",
+        "Comment[FractionationMethod]",
+        "Comment[Separation]"
+      ],
+      "summary": "This study uses label-free quantification for mass spectrometry analysis of HsdR protein abundance in E. coli lysates. The methods section describes cell lysis by sonication and protein extraction but does not provide details about protein digestion, chemical modifications, or chromatographic separation methods typically used in shotgun proteomics workflows. Sample preparation details beyond cell lysis are not described in this section."
+    },
+    "STEP3_MS_SETTINGS": {
+      "confirmed": {
+        "Comment[Instrument]": {
+          "value": "Q Exactive HF",
+          "evidence": "Confirmed from PRIDE database metadata - Instrument: Q Exactive HF (MS:1002523)",
+          "source": "manuscript/metadata/pride_database"
+        },
+        "Comment[FragmentationMethod]": {
+          "value": "HCD",
+          "evidence": "Confirmed from PRIDE database metadata - Fragmentation (from instrument): HCD",
+          "source": "manuscript/metadata/pride_database"
+        },
+        "Comment[MS2MassAnalyzer]": {
+          "value": "orbitrap",
+          "evidence": "Confirmed from PRIDE database metadata - MS2 Analyzer (from instrument): orbitrap",
+          "source": "manuscript/metadata/pride_database"
+        }
+      },
+      "hypotheses": {},
+      "not_applicable": [
+        "Comment[AcquisitionMethod]",
+        "Comment[CollisionEnergy]",
+        "Comment[PrecursorMassTolerance]",
+        "Comment[FragmentMassTolerance]",
+        "Comment[NumberOfMissedCleavages]",
+        "Comment[GradientTime]",
+        "Comment[FlowRateChromatogram]"
+      ],
+      "summary": "Mass spectrometry instrument parameters are confirmed from PRIDE database metadata: Q Exactive HF with HCD fragmentation and orbitrap MS2 analyzer. The methods section only briefly mentions label-free protein quantification for HsdR abundance measurement but provides no detailed MS acquisition parameters, collision energies, tolerances, gradient conditions, or flow rates. Most technical MS parameters are not described in the available manuscript text."
+    },
+    "STEP4_RAW_FILES": {
+      "confirmed": {
+        "Characteristics[BiologicalReplicate]": {
+          "value": "not applicable",
+          "evidence": "Raw files show experimental replicates numbered 1, 2, 3 for each condition (pTn5053_1.raw, pTn5053_2.raw, pTn5053_3.raw) but allowed values only include 'mouse 1', 'human 1', 'human 2' which are not applicable to E. coli bacterial samples",
+          "source": "filename"
+        },
+        "Comment[FractionIdentifier]": {
+          "value": "not applicable",
+          "evidence": "Methods describe cell lysis by sonication and protein extraction from whole cell lysates without subcellular fractionation. No mention of membrane or cytoplasm separation",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {
+        "FactorValue[GeneticModification]": {
+          "candidates": [
+            "not applicable"
+          ],
+          "reasoning": "Raw filenames indicate genetic modifications: 'delta_Chi' and 'delta_ClpX' suggest gene deletions, but no matching values in allowed list",
+          "needs": "Allowed values that include gene deletion terms or confirmation that genetic modifications are not applicable"
+        },
+        "FactorValue[Compound]": {
+          "candidates": [
+            "not applicable"
+          ],
+          "reasoning": "Methods mention l-arabinose induction but raw filenames don't indicate compound treatments. Mass spec samples may not involve compound treatments",
+          "needs": "Confirmation whether l-arabinose or other compounds were used in MS samples"
+        }
+      },
+      "not_applicable": [
+        "FactorValue[Treatment]",
+        "FactorValue[Temperature]",
+        "FactorValue[Disease]",
+        "FactorValue[Bait]"
+      ],
+      "summary": "Raw filenames reveal three experimental replicates each for control (pTn5053) and two genetic modification conditions (delta_Chi, delta_ClpX). Biological replicates are confirmed as not applicable due to mismatch with allowed values. Genetic modifications are evident from filenames but lack corresponding allowed values. No subcellular fractionation was performed. Temperature, disease, treatment and bait factors are not applicable to this bacterial proteomics study."
+    }
+  }
+}

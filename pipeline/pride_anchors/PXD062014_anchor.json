@@ -1,0 +1,66 @@
+{
+  "pxd": "PXD062014",
+  "source": "PRIDE_API",
+  "organism": [
+    {
+      "name": "Homo sapiens (human)",
+      "accession": "NEWT:9606"
+    }
+  ],
+  "instruments": [
+    {
+      "name": "Synapt MS",
+      "accession": "MS:1001782",
+      "sdrf_format": "AC=MS:1001782;NT=Synapt MS"
+    }
+  ],
+  "modifications": [],
+  "organism_parts": [],
+  "diseases": [],
+  "experiment_types": [
+    "MSE"
+  ],
+  "quantification_methods": [
+    "Relative quantification"
+  ],
+  "keywords": [
+    "Hdx-ms",
+    "Hsl"
+  ],
+  "publications": [
+    {
+      "pubmed_id": "",
+      "doi": "10.1038/s41467-025-58887-z",
+      "ref": "Peng H, Xu Q, Zhang T, Zhu J, Pan J, Guan X, Feng S, Wu J, Hu Q. Molecular determinants for the association of human hormone-sensitive lipase with lipid droplets.  Nat Commun. 2025 16(1):3497"
+    }
+  ],
+  "inferred_fragmentation": "CID",
+  "inferred_ms2_analyzer": "TOF",
+  "inferred_ionization": "ESI",
+  "raw_files": [
+    "HSL_600sec_02_vial01.raw.rar",
+    "HSL_ALDS_0sec_01_vial02.raw.rar",
+    "HSL_ALDS_600sec_03_vial02.raw.rar",
+    "HSL_ALDS_0sec_02_vial02.raw.rar",
+    "HSL_600sec_01_vial01.raw.rar",
+    "HSL_ALDS_0sec_03_vial02.raw.rar",
+    "HSL_0sec_01_vial01.raw.rar",
+    "HSL_ALDS_30sec_01_vial02.raw.rar",
+    "HSL_ALDS_5sec_01_vial02.raw.rar",
+    "HSL_0sec_02_vial01.raw.rar",
+    "HSL_30sec_03_vial01.raw.rar",
+    "HSL_5sec_02_vial01.raw.rar",
+    "HSL_ALDS_30sec_02_vial02.raw.rar",
+    "HSL_5sec_03_vial01.raw.rar",
+    "HSL_0sec_03_vial01.raw.rar",
+    "HSL_ALDS_5sec_03_vial02.raw.rar",
+    "HSL_ALDS_600sec_02_vial02.raw.rar",
+    "HSL_ALDS_600sec_01_vial02.raw.rar",
+    "HSL_ALDS_5sec_02_vial02.raw.rar",
+    "HSL_5sec_01_vial01.raw.rar",
+    "HSL_600sec_03_vial01.raw.rar",
+    "HSL_30sec_02_vial01.raw.rar",
+    "HSL_ALDS_30sec_03_vial02.raw.rar",
+    "HSL_30sec_01_vial01.raw.rar"
+  ]
+}

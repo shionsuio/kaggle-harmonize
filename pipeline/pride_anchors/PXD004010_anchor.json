@@ -1,0 +1,68 @@
+{
+  "pxd": "PXD004010",
+  "source": "PRIDE_API",
+  "organism": [
+    {
+      "name": "Homo sapiens (human)",
+      "accession": "NEWT:9606"
+    }
+  ],
+  "instruments": [
+    {
+      "name": "Q Exactive",
+      "accession": "MS:1001911",
+      "sdrf_format": "AC=MS:1001911;NT=Q Exactive"
+    }
+  ],
+  "modifications": [],
+  "organism_parts": [
+    {
+      "name": "Brain",
+      "accession": "BTO:0000142"
+    }
+  ],
+  "diseases": [
+    {
+      "name": "Alzheimer's disease",
+      "accession": "DOID:10652"
+    }
+  ],
+  "experiment_types": [
+    "Shotgun proteomics"
+  ],
+  "quantification_methods": [
+    "Spectrum counting"
+  ],
+  "keywords": [
+    "Proteomics",
+    "Proteogenomics",
+    "Database search",
+    "Mass spectrometry",
+    "Genomics",
+    "Multistage analysis",
+    "Rna-seq",
+    "Spectrum quality control"
+  ],
+  "publications": [
+    {
+      "pubmed_id": "",
+      "doi": "10.1021/acs.jproteome.6b00344",
+      "ref": "Li Y, Wang X, Cho JH, Shaw TI, Wu Z, Bai B, Wang H, Zhou S, Beach TG, Wu G, Zhang J, Peng J. JUMPg: An Integrative Proteogenomics Pipeline Identifying Unannotated Proteins in Human Brain and Cancer Cells. J Proteome Res. 2016 Jul 1;15(7):2309-20"
+    }
+  ],
+  "inferred_fragmentation": "HCD",
+  "inferred_ms2_analyzer": "orbitrap",
+  "inferred_ionization": "nanoESI",
+  "raw_files": [
+    "ad_pl03.raw",
+    "ad_pl04.raw",
+    "ad_pl10.raw",
+    "ad_pl07.raw",
+    "ad_pl08.raw",
+    "ad_pl01.raw",
+    "ad_pl06.raw",
+    "ad_pl05.raw",
+    "ad_pl02.raw",
+    "ad_pl09.raw"
+  ]
+}

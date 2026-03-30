@@ -1,0 +1,295 @@
+{
+  "pxd": "PXD061090",
+  "raw_files": [
+    "20230109-OA1.raw",
+    "20230109-OA2.raw",
+    "20230109-OA3.raw",
+    "20230109-LIPUS1.raw",
+    "20230109-LIPUS2.raw",
+    "20230109-LIPUS3.raw",
+    "20230109-OA1.raw",
+    "20230109-OA2.raw",
+    "20230109-OA3.raw",
+    "20230109-LIPUS1.raw",
+    "20230109-LIPUS2.raw",
+    "20230109-LIPUS3.raw"
+  ],
+  "anchor": {
+    "pxd": "PXD061090",
+    "source": "PRIDE_API",
+    "organism": [
+      {
+        "name": "Rattus norvegicus (rat)",
+        "accession": "NEWT:10116"
+      }
+    ],
+    "instruments": [
+      {
+        "name": "Q Exactive",
+        "accession": "MS:1001911",
+        "sdrf_format": "AC=MS:1001911;NT=Q Exactive"
+      }
+    ],
+    "modifications": [],
+    "organism_parts": [
+      {
+        "name": "Blood serum",
+        "accession": "BTO:0000133"
+      }
+    ],
+    "diseases": [
+      {
+        "name": "Osteoarthritis",
+        "accession": "DOID:8398"
+      }
+    ],
+    "experiment_types": [
+      "Data-independent acquisition"
+    ],
+    "quantification_methods": [
+      "Relative quantification"
+    ],
+    "keywords": [
+      "Rat; serum; data-independent acquisition proteomics"
+    ],
+    "publications": [
+      {
+        "pubmed_id": "",
+        "doi": "10.1038/s41598-025-92413-x",
+        "ref": "Liao Q, Chen J, Liu G. Low intensity pulsed ultrasound alleviates synovial fibrosis in osteoarthritis via the PI3K/AKT pathway.  Sci Rep. 2025 15(1):9644"
+      }
+    ],
+    "inferred_fragmentation": "HCD",
+    "inferred_ms2_analyzer": "orbitrap",
+    "inferred_ionization": "nanoESI",
+    "raw_files": [
+      "Raw.zip"
+    ]
+  },
+  "steps": {
+    "STEP1_OVERVIEW": {
+      "confirmed": {
+        "Characteristics[Organism]": {
+          "value": "Rattus norvegicus",
+          "evidence": "a rat OA animal model based on anterior cruciate ligament transection (ACLT) and partial medial meniscectomy (MMx) were used",
+          "source": "manuscript"
+        },
+        "Characteristics[Disease]": {
+          "value": "osteoarthritis",
+          "evidence": "Low intensity pulsed ultrasound alleviates synovial fibrosis in osteoarthritis",
+          "source": "manuscript"
+        },
+        "Characteristics[CellType]": {
+          "value": "fibroblast-like synoviocytes",
+          "evidence": "a TGF-β stimulated rat FLS cell model",
+          "source": "manuscript"
+        },
+        "Characteristics[Treatment]": {
+          "value": "low-intensity pulsed ultrasound",
+          "evidence": "low-intensity pulsed ultrasound (LIPUS) can alleviate cartilage degradation in osteoarthritis",
+          "source": "manuscript"
+        },
+        "Characteristics[Compound]": {
+          "value": "TGF-β",
+          "evidence": "TGF-β stimulated rat FLS cell model and TGF-β stimulation upregulated fibrosis markers",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {
+        "Characteristics[OrganismPart]": {
+          "candidates": [
+            "synovial tissue",
+            "synovium"
+          ],
+          "reasoning": "研究がsynovial fibrosisに焦点を当てており、synovial tissueでの解析が行われているため",
+          "needs": "サンプル調製方法の詳細情報"
+        },
+        "Characteristics[MaterialType]": {
+          "candidates": [
+            "cell lysate",
+            "tissue"
+          ],
+          "reasoning": "FLS細胞モデルとrat OA動物モデルの両方が使用されているため",
+          "needs": "プロテオミクス解析に使用された具体的な材料の記載"
+        },
+        "Characteristics[Strain]": {
+          "candidates": [
+            "Sprague-Dawley",
+            "Wistar"
+          ],
+          "reasoning": "ratを使用した研究では一般的にこれらの系統が使用される",
+          "needs": "使用したラット系統の明記"
+        }
+      },
+      "not_applicable": [
+        "Characteristics[CellLine]",
+        "Characteristics[Label]",
+        "Characteristics[Specimen]",
+        "Characteristics[GeneticModification]",
+        "Characteristics[DevelopmentalStage]",
+        "Characteristics[ConcentrationOfCompound]",
+        "Comment[AcquisitionMethod]"
+      ],
+      "summary": "この研究はラット変形性関節症モデルとFLS細胞を用いた低強度パルス超音波治療の効果を調べている。主要な生物種、疾患、細胞種、治療法は確定したが、具体的な組織部位、材料タイプ、ラット系統については追加情報が必要。プロテオミクス解析の具体的な標識法や取得方法は論文概要からは不明。"
+    },
+    "STEP2_SAMPLE_PREP": {
+      "confirmed": {
+        "Characteristics[Strain]": {
+          "value": "Sprague-Dawley",
+          "evidence": "Eighteen male adult Sprague-Dawley rats were purchased from the Southern Medical University Experimental Animal Management Center",
+          "source": "manuscript"
+        },
+        "Characteristics[OrganismPart]": {
+          "value": "blood serum",
+          "evidence": "We collected rat abdominal aortic blood in a vacuum blood collection tube through a syringe... Then transfer the upper layer of light-yellow serum to an EP tube",
+          "source": "manuscript"
+        },
+        "Characteristics[MaterialType]": {
+          "value": "serum",
+          "evidence": "We collected rat abdominal aortic blood... Then transfer the upper layer of light-yellow serum to an EP tube... Three samples were selected from each group for analysis by (data-independent acquisition, DIA) DIA proteomics",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {
+        "Characteristics[CleavageAgent]": {
+          "candidates": [
+            "trypsin"
+          ],
+          "reasoning": "DIA proteomics実験では通常trypsinが使用されるが、論文テキストには具体的な記載がない",
+          "needs": "プロテオミクス解析の具体的な消化プロトコル情報"
+        },
+        "Characteristics[AlkylationReagent]": {
+          "candidates": [
+            "iodoacetamide",
+            "chloroacetamide"
+          ],
+          "reasoning": "プロテオミクス解析では通常これらが使用されるが、詳細な記載がない",
+          "needs": "サンプル調製における化学修飾の詳細プロトコル"
+        },
+        "Characteristics[ReductionReagent]": {
+          "candidates": [
+            "DTT",
+            "TCEP"
+          ],
+          "reasoning": "プロテオミクス解析で一般的に使用される還元剤だが、具体的な記載がない",
+          "needs": "還元反応の詳細プロトコル"
+        }
+      },
+      "not_applicable": [
+        "Characteristics[Label]",
+        "Characteristics[Modification]",
+        "Characteristics[Modification].1",
+        "Characteristics[Modification].2",
+        "Characteristics[Modification].3",
+        "Characteristics[Modification].4",
+        "Characteristics[Modification].5",
+        "Characteristics[Modification].6",
+        "Characteristics[Depletion]",
+        "Characteristics[SpikedCompound]",
+        "Characteristics[SyntheticPeptide]",
+        "Comment[EnrichmentMethod]",
+        "Comment[FractionationMethod]",
+        "Comment[NumberOfFractions]",
+        "Comment[Separation]"
+      ],
+      "summary": "ラット系統はSprague-Dawleyと確定し、組織部位は血清、材料タイプも血清と確定した。プロテオミクス解析はDIA法で実施されたが、サンプル調製の詳細（消化酵素、化学修飾試薬等）は論文テキストに記載されていない。ラベル化やエンリッチメント、分画は行われていないlabel-free解析と推定される。サンプル調製プロトコルの詳細情報が不足している。"
+    },
+    "STEP3_MS_SETTINGS": {
+      "confirmed": {
+        "Comment[Instrument]": {
+          "value": "Q Exactive",
+          "evidence": "From PRIDE database: Instrument: Q Exactive (MS:1001911)",
+          "source": "anchor"
+        },
+        "Comment[FragmentationMethod]": {
+          "value": "HCD",
+          "evidence": "From PRIDE database: Fragmentation (from instrument): HCD",
+          "source": "anchor"
+        },
+        "Comment[AcquisitionMethod]": {
+          "value": "DIA",
+          "evidence": "Three samples were selected from each group for analysis by (data-independent acquisition, DIA) DIA proteomics",
+          "source": "manuscript"
+        },
+        "Comment[IonizationType]": {
+          "value": "nanoESI",
+          "evidence": "From PRIDE database: Ionization (from instrument): nanoESI",
+          "source": "anchor"
+        },
+        "Comment[MS2MassAnalyzer]": {
+          "value": "orbitrap",
+          "evidence": "From PRIDE database: MS2 Analyzer (from instrument): orbitrap",
+          "source": "anchor"
+        }
+      },
+      "hypotheses": {},
+      "not_applicable": [
+        "Comment[CollisionEnergy]",
+        "Comment[PrecursorMassTolerance]",
+        "Comment[FragmentMassTolerance]",
+        "Comment[NumberOfMissedCleavages]",
+        "Comment[GradientTime]",
+        "Comment[FlowRateChromatogram]"
+      ],
+      "summary": "質量分析装置の基本情報はPRIDEデータベースから確定：Q Exactive装置でHCD断片化、orbitrap MS2解析、nanoESIイオン化。取得方法は論文からDIAと確認。ただし、衝突エネルギー、質量許容範囲、グラジエント時間、流速などの詳細な測定パラメータは論文テキストに記載されていない。プロテオミクス解析はBeip Bioに外注されており、詳細な測定条件は記載されていない。"
+    },
+    "STEP4_RAW_FILES": {
+      "confirmed": {
+        "Characteristics[NumberOfBiologicalReplicates]": {
+          "value": "3",
+          "evidence": "Three samples were selected from each group for analysis by (data-independent acquisition, DIA) DIA proteomics",
+          "source": "manuscript"
+        },
+        "Characteristics[NumberOfSamples]": {
+          "value": "6",
+          "evidence": "Three samples were selected from each group for analysis - OA group and LIPUS group, totaling 6 samples",
+          "source": "manuscript"
+        },
+        "FactorValue[Treatment]": {
+          "value": "per_file",
+          "per_file": {
+            "20230109-OA1.raw": "OA",
+            "20230109-OA2.raw": "OA",
+            "20230109-OA3.raw": "OA",
+            "20230109-LIPUS1.raw": "LIPUS",
+            "20230109-LIPUS2.raw": "LIPUS",
+            "20230109-LIPUS3.raw": "LIPUS"
+          },
+          "evidence": "Rawファイル名のOAとLIPUSトークンから明確に判断可能。論文では'OA group and the LIPUS group'として2つの治療群が記載されている",
+          "source": "filename/manuscript"
+        },
+        "Characteristics[BiologicalReplicate]": {
+          "value": "per_file",
+          "per_file": {
+            "20230109-OA1.raw": "1",
+            "20230109-OA2.raw": "2",
+            "20230109-OA3.raw": "3",
+            "20230109-LIPUS1.raw": "1",
+            "20230109-LIPUS2.raw": "2",
+            "20230109-LIPUS3.raw": "3"
+          },
+          "evidence": "ファイル名の数字トークン（1,2,3）から生物学的レプリケート番号を判断",
+          "source": "filename"
+        },
+        "Characteristics[NumberOfTechnicalReplicates]": {
+          "value": "1",
+          "evidence": "各生物学的レプリケートに対して1つのrawファイルのみ存在し、技術的レプリケートの記載なし",
+          "source": "filename"
+        }
+      },
+      "hypotheses": {},
+      "not_applicable": [
+        "Comment[FractionIdentifier]",
+        "FactorValue[Temperature]",
+        "FactorValue[Disease]",
+        "FactorValue[GeneticModification]",
+        "FactorValue[Compound]",
+        "FactorValue[Bait]",
+        "FactorValue[CellPart]",
+        "FactorValue[ConcentrationOfCompound].1",
+        "FactorValue[FractionIdentifier]"
+      ],
+      "summary": "rawファイル名から実験設計が明確になった：OA群とLIPUS群の2つの治療条件、各群3つの生物学的レプリケート、技術的レプリケートなし。プロテオミクス解析は血清サンプル計6検体で実施。分画や温度変化、化合物濃度変化等の追加因子は存在しない。実験群の割り当てとレプリケート構造が完全に確定した。"
+    }
+  }
+}

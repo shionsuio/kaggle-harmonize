@@ -1,0 +1,94 @@
+{
+  "pxd": "PXD002084",
+  "source": "PRIDE_API",
+  "organism": [
+    {
+      "name": "Homo sapiens (human)",
+      "accession": "NEWT:9606"
+    }
+  ],
+  "instruments": [
+    {
+      "name": "LTQ Orbitrap Velos",
+      "accession": "MS:1001742",
+      "sdrf_format": "AC=MS:1001742;NT=LTQ Orbitrap Velos"
+    }
+  ],
+  "modifications": [],
+  "organism_parts": [
+    {
+      "name": "Rectal cancer cell",
+      "accession": "BTO:0000193"
+    },
+    {
+      "name": "Colonic cancer cell",
+      "accession": "BTO:0000586"
+    }
+  ],
+  "diseases": [
+    {
+      "name": "Rectum adenocarcinoma",
+      "accession": "DOID:1996"
+    },
+    {
+      "name": "Colon adenocarcinoma",
+      "accession": "DOID:234"
+    }
+  ],
+  "experiment_types": [
+    "Shotgun proteomics"
+  ],
+  "quantification_methods": [],
+  "keywords": [
+    "Cptac cptac-tcga_colorectal_cancer cptac-vu"
+  ],
+  "publications": [
+    {
+      "pubmed_id": "",
+      "doi": "10.1038/nature13438",
+      "ref": "Zhang B, Wang J, Wang X, Zhu J, Liu Q, Shi Z, Chambers MC, Zimmerman LJ, Shaddox KF, Kim S, Davies SR, Wang S, Wang P, Kinsinger CR, Rivers RC, Rodriguez H, Townsend RR, Ellis MJ, Carr SA, Tabb DL, Coffey RJ, Slebos RJ, Liebler DC; NCI CPTAC. Proteogenomic characterization of human colon and rectal cancer. Nature. 2014 Sep 18;513(7518):382-7"
+    }
+  ],
+  "inferred_fragmentation": null,
+  "inferred_ms2_analyzer": "orbitrap",
+  "inferred_ionization": "nanoESI",
+  "raw_files": [
+    "TCGA-AA-A01T-01A-23_W_VU_20130103_A0218_8H_R_FR08.raw",
+    "TCGA-AA-A01C-01A-22_W_VU_20121015_A0218_4F_R_FR02.raw",
+    "TCGA-AA-A01T-01A-23_W_VU_20130104_A0218_8H_R_FR15.raw",
+    "TCGA-AA-A01R-01A-23_W_VU_20120830_A0218_2J_R_FR11.raw",
+    "TCGA-AA-A01R-01A-23_W_VU_20120830_A0218_2J_R_FR06.raw",
+    "TCGA-AA-A01T-01A-23_W_VU_20130104_A0218_8H_R_FR11.raw",
+    "TCGA-AA-A01D-01A-23_W_VU_20121106_A0218_5I_R_FR12.raw",
+    "TCGA-AA-A01R-01A-23_W_VU_20120829_A0218_2J_R_FR03.raw",
+    "TCGA-AA-A01K-01A-31_W_VU_20121117_A0218_6D_R_FR13.raw",
+    "TCGA-AA-A01S-01A-23_W_VU_20121121_A0218_6F_R_FR12.raw",
+    "TCGA-AA-A017-01A-22_W_VU_20120817_A0218_2B_R_FR01.raw",
+    "TCGA-AA-A01I-01A-12_W_VU_20121119_A0218_6E_R_FR15.raw",
+    "TCGA-AA-A01K-01A-31_W_VU_20121117_A0218_6D_R_FR05.raw",
+    "TCGA-AA-A01R-01A-23_W_VU_20120830_A0218_2J_R_FR10.raw",
+    "TCGA-AA-A01F-01A-23_W_VU_20120727_A0218_1B_R_FR05.raw",
+    "TCGA-AA-A01I-01A-12_W_VU_20121118_A0218_6E_R_FR09.raw",
+    "TCGA-AA-A01K-01A-31_W_VU_20121117_A0218_6D_R_FR02.raw",
+    "TCGA-AA-A01K-01A-31_W_VU_20121117_A0218_6D_R_FR08.raw",
+    "TCGA-AA-A017-01A-22_W_VU_20120818_A0218_2B_R_FR10.raw",
+    "TCGA-AA-A01T-01A-23_W_VU_20130104_A0218_8H_R_FR12.raw",
+    "TCGA-AA-A01I-01A-12_W_VU_20121118_A0218_6E_R_FR08.raw",
+    "TCGA-AA-A01C-01A-22_W_VU_20121015_A0218_4F_R_FR04.raw",
+    "TCGA-AA-A01P-01A-23_W_VU_20121215_A0218_7I_R_FR12.raw",
+    "TCGA-AA-A01R-01A-23_W_VU_20120830_A0218_2J_R_FR13.raw",
+    "TCGA-AA-A01I-01A-12_W_VU_20121119_A0218_6E_R_FR14.raw",
+    "TCGA-AA-A01I-01A-12_W_VU_20121118_A0218_6E_R_FR06.raw",
+    "TCGA-AA-A01S-01A-23_W_VU_20121121_A0218_6F_R_FR04.raw",
+    "TCGA-AA-A01C-01A-22_W_VU_20121015_A0218_4F_R_FR07.raw",
+    "TCGA-AA-A01R-01A-23_W_VU_20120829_A0218_2J_R_FR01.raw",
+    "TCGA-AA-A01C-01A-22_W_VU_20121015_A0218_4F_R_FR05.raw",
+    "TCGA-AA-A017-01A-22_W_VU_20120818_A0218_2B_R_FR12.raw",
+    "TCGA-AA-A01R-01A-23_W_VU_20120830_A0218_2J_R_FR12.raw",
+    "TCGA-AA-A01C-01A-22_W_VU_20121015_A0218_4F_R_FR09.raw",
+    "TCGA-AA-A01P-01A-23_W_VU_20121215_A0218_7I_R_FR11.raw",
+    "TCGA-AA-A01R-01A-23_W_VU_20120829_A0218_2J_R_FR05.raw",
+    "TCGA-AA-A01T-01A-23_W_VU_20130104_A0218_8H_R_FR10.raw",
+    "TCGA-AA-A01S-01A-23_W_VU_20121122_A0218_6F_R_FR13.raw"
+  ]
+}

@@ -1,0 +1,558 @@
+{
+  "pxd": "PXD004682",
+  "raw_files": [
+    "20150912_Haura-Pilot_T0300_bRPLC07-2.raw",
+    "20150912_Haura-Pilot_T0300_bRPLC09-1.raw",
+    "20150912_Haura-Pilot_N0296_bRPLC07-1.raw",
+    "20150912_Haura-Pilot_N0299_bRPLC06-2.raw",
+    "20150912_Haura-Pilot_T0298_bRPLC12-2.raw",
+    "20150912_Haura-Pilot_T0303_bRPLC11-1.raw",
+    "20150912_Haura-Pilot_T0303_bRPLC02-1.raw",
+    "20150912_Haura-Pilot_N0299_bRPLC03-2.raw",
+    "20150912_Haura-Pilot_T0303_bRPLC03-2.raw",
+    "20150912_Haura-Pilot_N0295_bRPLC03-2.raw",
+    "20150912_Haura-Pilot_T0300_bRPLC04-1.raw",
+    "20150912_Haura-Pilot_T0301_bRPLC11-1.raw",
+    "20150912_Haura-Pilot_N0296_bRPLC11-1.raw",
+    "20150912_Haura-Pilot_N0296_bRPLC01-1.raw",
+    "20150912_Haura-Pilot_N0296_bRPLC04-2.raw",
+    "20150912_Haura-Pilot_N0296_bRPLC10-1.raw",
+    "20150912_Haura-Pilot_N0294_bRPLC01-1.raw",
+    "20150912_Haura-Pilot_T0298_bRPLC07-1.raw",
+    "20150912_Haura-Pilot_N0296_bRPLC10-2.raw",
+    "20150912_Haura-Pilot_T0298_bRPLC11-1.raw",
+    "20150912_Haura-Pilot_N0294_bRPLC07-2.raw",
+    "20150912_Haura-Pilot_N0295_bRPLC01-1.raw",
+    "20150912_Haura-Pilot_T0303_bRPLC03-1.raw",
+    "20150912_Haura-Pilot_N0295_bRPLC07-1.raw",
+    "20150912_Haura-Pilot_T0298_bRPLC08-2.raw",
+    "20150912_Haura-Pilot_N0294_bRPLC08-2.raw",
+    "20150912_Haura-Pilot_N0295_bRPLC09-1.raw",
+    "20150912_Haura-Pilot_T0298_bRPLC10-2.raw",
+    "20150912_Haura-Pilot_N0299_bRPLC09-2.raw",
+    "20150912_Haura-Pilot_T0303_bRPLC09-2.raw",
+    "20150912_Haura-Pilot_T0303_bRPLC07-1.raw",
+    "20150912_Haura-Pilot_T0300_bRPLC08-2.raw",
+    "20150912_Haura-Pilot_T0300_bRPLC05-1.raw",
+    "20150912_Haura-Pilot_T0301_bRPLC06-2.raw",
+    "20150912_Haura-Pilot_T0303_bRPLC12-2.raw",
+    "20150912_Haura-Pilot_T0303_bRPLC11-2.raw",
+    "20150912_Haura-Pilot_T0300_bRPLC11-2.raw",
+    "20150912_Haura-Pilot_N0296_bRPLC12-1.raw",
+    "20150912_Haura-Pilot_T0301_bRPLC12-1.raw",
+    "20150912_Haura-Pilot_T0300_bRPLC04-2.raw",
+    "20150912_Haura-Pilot_N0296_bRPLC03-2.raw",
+    "20150912_Haura-Pilot_N0295_bRPLC09-2.raw",
+    "20150912_Haura-Pilot_N0296_bRPLC02-1.raw",
+    "20150912_Haura-Pilot_T0298_bRPLC02-1.raw",
+    "20150912_Haura-Pilot_N0296_bRPLC09-2.raw",
+    "20150912_Haura-Pilot_T0301_bRPLC03-2.raw",
+    "20150912_Haura-Pilot_N0295_bRPLC10-1.raw",
+    "20150912_Haura-Pilot_T0298_bRPLC03-1.raw",
+    "20150912_Haura-Pilot_T0301_bRPLC01-2.raw",
+    "20150912_Haura-Pilot_N0296_bRPLC09-1.raw",
+    "20150912_Haura-Pilot_N0295_bRPLC03-1.raw",
+    "20150912_Haura-Pilot_T0300_bRPLC03-1.raw",
+    "20150912_Haura-Pilot_T0298_bRPLC04-2.raw",
+    "20150912_Haura-Pilot_N0294_bRPLC02-1.raw",
+    "20150912_Haura-Pilot_T0300_bRPLC01-1.raw",
+    "20150912_Haura-Pilot_T0303_bRPLC06-1.raw",
+    "20150912_Haura-Pilot_T0303_bRPLC05-2.raw",
+    "20150912_Haura-Pilot_N0296_bRPLC05-1.raw",
+    "20150912_Haura-Pilot_N0295_bRPLC04-1.raw",
+    "20150912_Haura-Pilot_T0301_bRPLC03-1.raw",
+    "20150912_Haura-Pilot_T0298_bRPLC02-2.raw",
+    "20150912_Haura-Pilot_T0300_bRPLC09-2.raw",
+    "20150912_Haura-Pilot_T0300_bRPLC06-1.raw",
+    "20150912_Haura-Pilot_T0298_bRPLC07-2.raw",
+    "20150912_Haura-Pilot_N0299_bRPLC11-1.raw",
+    "20150912_Haura-Pilot_N0295_bRPLC05-1.raw",
+    "20150912_Haura-Pilot_N0299_bRPLC10-1.raw",
+    "20150912_Haura-Pilot_N0299_bRPLC11-2.raw",
+    "20150912_Haura-Pilot_N0295_bRPLC04-2.raw",
+    "20150912_Haura-Pilot_N0295_bRPLC12-2.raw",
+    "20150912_Haura-Pilot_T0303_bRPLC08-1.raw",
+    "20150912_Haura-Pilot_N0295_bRPLC12-1.raw",
+    "20150912_Haura-Pilot_N0295_bRPLC06-1.raw",
+    "20150912_Haura-Pilot_T0301_bRPLC09-2.raw",
+    "20150912_Haura-Pilot_N0295_bRPLC07-2.raw",
+    "20150912_Haura-Pilot_T0298_bRPLC10-1.raw",
+    "20150912_Haura-Pilot_N0294_bRPLC09-2.raw",
+    "20150912_Haura-Pilot_T0298_bRPLC08-1.raw",
+    "20150912_Haura-Pilot_N0299_bRPLC10-2.raw",
+    "20150912_Haura-Pilot_T0301_bRPLC02-1.raw",
+    "20150912_Haura-Pilot_N0294_bRPLC03-2.raw",
+    "20150912_Haura-Pilot_N0294_bRPLC02-2.raw",
+    "20150912_Haura-Pilot_N0295_bRPLC02-2.raw",
+    "20150912_Haura-Pilot_T0301_bRPLC11-2.raw",
+    "20150912_Haura-Pilot_N0299_bRPLC04-1.raw",
+    "20150912_Haura-Pilot_N0295_bRPLC10-2.raw",
+    "20150912_Haura-Pilot_T0300_bRPLC10-2.raw",
+    "20150912_Haura-Pilot_T0303_bRPLC12-1.raw",
+    "20150912_Haura-Pilot_N0299_bRPLC08-1.raw",
+    "20150912_Haura-Pilot_N0294_bRPLC05-2.raw",
+    "20150912_Haura-Pilot_T0300_bRPLC05-2.raw",
+    "20150912_Haura-Pilot_N0299_bRPLC02-2.raw",
+    "20150912_Haura-Pilot_N0294_bRPLC07-1.raw",
+    "20150912_Haura-Pilot_T0300_bRPLC02-1.raw",
+    "20150912_Haura-Pilot_T0303_bRPLC08-2.raw",
+    "20150912_Haura-Pilot_T0300_bRPLC11-1.raw",
+    "20150912_Haura-Pilot_T0300_bRPLC12-1.raw",
+    "20150912_Haura-Pilot_N0296_bRPLC06-2.raw",
+    "20150912_Haura-Pilot_T0298_bRPLC01-1.raw",
+    "20150912_Haura-Pilot_N0299_bRPLC01-1.raw",
+    "20150912_Haura-Pilot_T0303_bRPLC04-1.raw",
+    "20150912_Haura-Pilot_N0296_bRPLC12-2.raw",
+    "20150912_Haura-Pilot_N0294_bRPLC01-2.raw",
+    "20150912_Haura-Pilot_N0295_bRPLC11-1.raw",
+    "20150912_Haura-Pilot_N0294_bRPLC05-1.raw",
+    "20150912_Haura-Pilot_T0303_bRPLC07-2.raw",
+    "20150912_Haura-Pilot_T0301_bRPLC04-1.raw",
+    "20150912_Haura-Pilot_N0294_bRPLC10-1.raw",
+    "20150912_Haura-Pilot_T0298_bRPLC03-2.raw",
+    "20150912_Haura-Pilot_T0301_bRPLC10-1.raw",
+    "20150912_Haura-Pilot_T0303_bRPLC10-1.raw",
+    "20150912_Haura-Pilot_N0295_bRPLC05-2.raw",
+    "20150912_Haura-Pilot_T0303_bRPLC10-2.raw",
+    "20150912_Haura-Pilot_N0295_bRPLC06-2.raw",
+    "20150912_Haura-Pilot_N0299_bRPLC07-2.raw",
+    "20150912_Haura-Pilot_N0294_bRPLC03-1.raw",
+    "20150912_Haura-Pilot_N0294_bRPLC10-2.raw",
+    "20150912_Haura-Pilot_N0295_bRPLC11-2.raw",
+    "20150912_Haura-Pilot_T0301_bRPLC09-1.raw",
+    "20150912_Haura-Pilot_T0298_bRPLC09-1.raw",
+    "20150912_Haura-Pilot_N0299_bRPLC05-1.raw",
+    "20150912_Haura-Pilot_N0299_bRPLC03-1.raw",
+    "20150912_Haura-Pilot_N0299_bRPLC07-1.raw",
+    "20150912_Haura-Pilot_N0294_bRPLC06-2.raw",
+    "20150912_Haura-Pilot_N0296_bRPLC11-2.raw",
+    "20150912_Haura-Pilot_N0294_bRPLC06-1.raw",
+    "20150912_Haura-Pilot_N0299_bRPLC08-2.raw",
+    "20150912_Haura-Pilot_T0301_bRPLC08-1.raw",
+    "20150912_Haura-Pilot_N0294_bRPLC12-2.raw",
+    "20150912_Haura-Pilot_N0296_bRPLC03-1.raw",
+    "20150912_Haura-Pilot_N0299_bRPLC04-2.raw",
+    "20150912_Haura-Pilot_T0300_bRPLC12-2.raw",
+    "20150912_Haura-Pilot_N0294_bRPLC12-1.raw",
+    "20150912_Haura-Pilot_T0301_bRPLC05-2.raw",
+    "20150912_Haura-Pilot_T0301_bRPLC06-1.raw",
+    "20150912_Haura-Pilot_N0294_bRPLC11-1.raw",
+    "20150912_Haura-Pilot_T0300_bRPLC03-2.raw",
+    "20150912_Haura-Pilot_N0295_bRPLC08-2.raw",
+    "20150912_Haura-Pilot_T0303_bRPLC04-2.raw",
+    "20150912_Haura-Pilot_N0295_bRPLC02-1.raw",
+    "20150912_Haura-Pilot_N0296_bRPLC04-1.raw",
+    "20150912_Haura-Pilot_T0301_bRPLC12-2.raw",
+    "20150912_Haura-Pilot_N0299_bRPLC05-2.raw",
+    "20150912_Haura-Pilot_T0303_bRPLC02-2.raw",
+    "20150912_Haura-Pilot_N0296_bRPLC08-1.raw",
+    "20150912_Haura-Pilot_T0303_bRPLC09-1.raw",
+    "20150912_Haura-Pilot_T0298_bRPLC12-1.raw",
+    "20150912_Haura-Pilot_N0296_bRPLC06-1.raw",
+    "20150912_Haura-Pilot_T0298_bRPLC01-2.raw",
+    "20150912_Haura-Pilot_T0298_bRPLC09-2.raw",
+    "20150912_Haura-Pilot_N0294_bRPLC04-1.raw",
+    "20150912_Haura-Pilot_T0301_bRPLC05-1.raw",
+    "20150912_Haura-Pilot_N0299_bRPLC06-1.raw",
+    "20150912_Haura-Pilot_N0299_bRPLC02-1.raw",
+    "20150912_Haura-Pilot_N0299_bRPLC09-1.raw",
+    "20150912_Haura-Pilot_N0294_bRPLC08-1.raw",
+    "20150912_Haura-Pilot_T0298_bRPLC04-1.raw",
+    "20150912_Haura-Pilot_T0298_bRPLC06-2.raw",
+    "20150912_Haura-Pilot_T0303_bRPLC01-1.raw",
+    "20150912_Haura-Pilot_N0296_bRPLC08-2.raw",
+    "20150912_Haura-Pilot_T0298_bRPLC11-2.raw",
+    "20150912_Haura-Pilot_N0295_bRPLC08-1.raw",
+    "20150912_Haura-Pilot_T0300_bRPLC02-2.raw",
+    "20150912_Haura-Pilot_T0300_bRPLC10-1.raw",
+    "20150912_Haura-Pilot_T0300_bRPLC06-2.raw",
+    "20150912_Haura-Pilot_T0303_bRPLC06-2.raw",
+    "20150912_Haura-Pilot_N0296_bRPLC05-2.raw",
+    "20150912_Haura-Pilot_T0298_bRPLC05-1.raw",
+    "20150912_Haura-Pilot_N0295_bRPLC01-2.raw",
+    "20150912_Haura-Pilot_T0298_bRPLC06-1.raw",
+    "20150912_Haura-Pilot_T0300_bRPLC01-2.raw",
+    "20150912_Haura-Pilot_T0303_bRPLC05-1.raw",
+    "20150912_Haura-Pilot_T0300_bRPLC07-1.raw",
+    "20150912_Haura-Pilot_T0301_bRPLC07-2.raw",
+    "20150912_Haura-Pilot_N0294_bRPLC04-2.raw",
+    "20150912_Haura-Pilot_N0299_bRPLC12-2.raw",
+    "20150912_Haura-Pilot_N0296_bRPLC02-2.raw",
+    "20150912_Haura-Pilot_T0301_bRPLC01-1.raw",
+    "20150912_Haura-Pilot_T0300_bRPLC08-1.raw",
+    "20150912_Haura-Pilot_T0301_bRPLC02-2.raw",
+    "20150912_Haura-Pilot_T0301_bRPLC08-2.raw",
+    "20150912_Haura-Pilot_N0294_bRPLC09-1.raw",
+    "20150912_Haura-Pilot_N0299_bRPLC01-2.raw",
+    "20150912_Haura-Pilot_N0296_bRPLC01-2.raw",
+    "20150912_Haura-Pilot_T0301_bRPLC07-1.raw",
+    "20150912_Haura-Pilot_T0301_bRPLC10-2.raw",
+    "20150912_Haura-Pilot_T0301_bRPLC04-2.raw",
+    "20150912_Haura-Pilot_N0299_bRPLC12-1.raw",
+    "20150912_Haura-Pilot_T0303_bRPLC01-2.raw",
+    "20150912_Haura-Pilot_T0298_bRPLC05-2.raw",
+    "20150912_Haura-Pilot_N0296_bRPLC07-2.raw",
+    "20150912_Haura-Pilot_N0294_bRPLC11-2.raw"
+  ],
+  "anchor": {
+    "pxd": "PXD004682",
+    "source": "PRIDE_API",
+    "organism": [
+      {
+        "name": "Homo sapiens (human)",
+        "accession": "NEWT:9606"
+      }
+    ],
+    "instruments": [
+      {
+        "name": "Q Exactive",
+        "accession": "MS:1001911",
+        "sdrf_format": "AC=MS:1001911;NT=Q Exactive"
+      }
+    ],
+    "modifications": [],
+    "organism_parts": [
+      {
+        "name": "Epithelial cell",
+        "accession": "CL:0000066"
+      },
+      {
+        "name": "Lung",
+        "accession": "BTO:0000763"
+      }
+    ],
+    "diseases": [
+      {
+        "name": "Non-small cell lung carcinoma",
+        "accession": "DOID:3908"
+      }
+    ],
+    "experiment_types": [
+      "Shotgun proteomics"
+    ],
+    "quantification_methods": [
+      "TIC"
+    ],
+    "keywords": [
+      "Human",
+      "Brplc fractionation",
+      "Discovery proteomics",
+      "Lung cancer",
+      "Lc-ms/ms"
+    ],
+    "publications": [
+      {
+        "pubmed_id": "",
+        "doi": "10.1002/pmic.201600300",
+        "ref": "Stewart PA, Fang B, Slebos RJ, Zhang G, Borne AL, Fellows K, Teer JK, Chen YA, Welsh E, Eschrich SA, Haura EB, Koomen JM. Relative protein quantification and accessible biology in lung tumor proteomes from four LC-MS/MS discovery platforms. Proteomics. 2017 Feb 14"
+      }
+    ],
+    "inferred_fragmentation": "HCD",
+    "inferred_ms2_analyzer": "orbitrap",
+    "inferred_ionization": "nanoESI",
+    "raw_files": [
+      "20150912_Haura-Pilot_T0300_bRPLC07-2.raw",
+      "20150912_Haura-Pilot_T0300_bRPLC09-1.raw",
+      "20150912_Haura-Pilot_N0296_bRPLC07-1.raw",
+      "20150912_Haura-Pilot_N0299_bRPLC06-2.raw",
+      "20150912_Haura-Pilot_T0298_bRPLC12-2.raw",
+      "20150912_Haura-Pilot_T0303_bRPLC11-1.raw",
+      "20150912_Haura-Pilot_T0303_bRPLC02-1.raw",
+      "20150912_Haura-Pilot_N0299_bRPLC03-2.raw",
+      "20150912_Haura-Pilot_T0303_bRPLC03-2.raw",
+      "20150912_Haura-Pilot_N0295_bRPLC03-2.raw",
+      "20150912_Haura-Pilot_T0300_bRPLC04-1.raw",
+      "20150912_Haura-Pilot_T0301_bRPLC11-1.raw",
+      "20150912_Haura-Pilot_N0296_bRPLC11-1.raw",
+      "20150912_Haura-Pilot_N0296_bRPLC01-1.raw",
+      "20150912_Haura-Pilot_N0296_bRPLC04-2.raw",
+      "20150912_Haura-Pilot_N0296_bRPLC10-1.raw",
+      "20150912_Haura-Pilot_N0294_bRPLC01-1.raw",
+      "20150912_Haura-Pilot_T0298_bRPLC07-1.raw",
+      "20150912_Haura-Pilot_N0296_bRPLC10-2.raw"
+    ]
+  },
+  "steps": {
+    "STEP1_OVERVIEW": {
+      "confirmed": {
+        "Characteristics[Organism]": {
+          "value": "Homo sapiens",
+          "evidence": "lung squamous cell carcinomas and adjacent tissues",
+          "source": "manuscript"
+        },
+        "Characteristics[Disease]": {
+          "value": "lung squamous cell carcinoma",
+          "evidence": "4 frozen lung squamous cell carcinomas and 4 adjacent tissues",
+          "source": "manuscript"
+        },
+        "Characteristics[OrganismPart]": {
+          "value": "lung",
+          "evidence": "4 frozen lung squamous cell carcinomas and 4 adjacent tissues",
+          "source": "manuscript"
+        },
+        "Characteristics[MaterialType]": {
+          "value": "tissue",
+          "evidence": "4 frozen lung squamous cell carcinomas and 4 adjacent tissues",
+          "source": "manuscript"
+        },
+        "Characteristics[Label]": {
+          "value": "TMT 6-plex;label-free",
+          "evidence": "peptide fractionation with label-free quantification (LF) to isobaric labeling followed by peptide fractionation (TMT 6-plex)",
+          "source": "manuscript"
+        },
+        "Comment[AcquisitionMethod]": {
+          "value": "DDA;DIA",
+          "evidence": "single sample liquid chromatography-tandem mass spectrometry (LC-MS/MS) with data dependent acquisition (DDA) to single sample LC-MS/MS with data independent acquisition (DIA)",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {
+        "Characteristics[CellType]": {
+          "candidates": [
+            "squamous cell",
+            "epithelial cell"
+          ],
+          "reasoning": "アンカーではepithelial cellが示されており、原稿では肺扁平上皮癌(lung squamous cell carcinoma)が対象",
+          "needs": "扁平上皮細胞と上皮細胞の関係性、または具体的な細胞タイプの確認"
+        },
+        "Characteristics[Specimen]": {
+          "candidates": [
+            "frozen tissue",
+            "fresh frozen"
+          ],
+          "reasoning": "論文では'frozen lung squamous cell carcinomas'と記載されている",
+          "needs": "保存方法や処理方法の詳細情報"
+        }
+      },
+      "not_applicable": [
+        "Characteristics[CellLine]",
+        "Characteristics[Strain]",
+        "Characteristics[GeneticModification]",
+        "Characteristics[Treatment]",
+        "Characteristics[DevelopmentalStage]",
+        "Characteristics[Compound]",
+        "Characteristics[ConcentrationOfCompound]"
+      ],
+      "summary": "ヒト肺扁平上皮癌組織を用いたプロテオミクス研究で、DDA/DIA取得法とTMT/label-free定量法の比較を行った。4つの癌組織と4つの隣接正常組織を使用し、培養細胞株は使用していない。細胞タイプについてはアンカー情報と原稿情報の整合性確認が必要。"
+    },
+    "STEP2_SAMPLE_PREP": {
+      "confirmed": {
+        "Characteristics[CleavageAgent]": {
+          "value": "Trypsin",
+          "evidence": "trypsin digestion was carried out overnight at 37 °C with an enzyme/substrate ratio of 1/50",
+          "source": "manuscript"
+        },
+        "Characteristics[AlkylationReagent]": {
+          "value": "Iodoacetamide",
+          "evidence": "followed by alkylation with 11 mM iodoacetamide at room temperature for 15 minutes in the dark",
+          "source": "manuscript"
+        },
+        "Characteristics[ReductionReagent]": {
+          "value": "DTT",
+          "evidence": "The proteins were reduced with 4.5 mM DTT at 60 °C for 20 minutes",
+          "source": "manuscript"
+        },
+        "Characteristics[Label]": {
+          "value": "TMT 6-plex;label-free",
+          "evidence": "For TMT, an aliquot (100 µg) of total protein digest was labeled for each reporter ion channel... For LF... For DIA, aliquots (500 ng) of total protein digest were injected",
+          "source": "manuscript"
+        },
+        "Characteristics[Modification]": {
+          "value": "Carbamidomethyl",
+          "evidence": "carbamidomethylation (cysteine), oxidation (methionine), and pyroglutamic acid (glutamic acid) as allowable modifications",
+          "source": "manuscript"
+        },
+        "Characteristics[Modification].1": {
+          "value": "Oxidation",
+          "evidence": "carbamidomethylation (cysteine), oxidation (methionine), and pyroglutamic acid (glutamic acid) as allowable modifications",
+          "source": "manuscript"
+        },
+        "Characteristics[Modification].2": {
+          "value": "Pyroglutamic acid",
+          "evidence": "carbamidomethylation (cysteine), oxidation (methionine), and pyroglutamic acid (glutamic acid) as allowable modifications",
+          "source": "manuscript"
+        },
+        "Characteristics[SpikedCompound]": {
+          "value": "Pierce Retention Time Calibration mixture",
+          "evidence": "A standard peptide retention time calibrator mixture (PRTC, Pierce #88320) was spiked in each LC-MS/MS analysis at the level of 10 fmol of each peptide per injection",
+          "source": "manuscript"
+        },
+        "Comment[FractionationMethod]": {
+          "value": "basic pH reversed phase HPLC",
+          "evidence": "an aliquot (600 µg) of total protein digest was fractionated using basic pH reversed phase HPLC, adapted from the method published by Mertins et al",
+          "source": "manuscript"
+        },
+        "Comment[NumberOfFractions]": {
+          "value": "12",
+          "evidence": "Twelve concatenated fractions were analyzed with LC-MS/MS for the LF and TMT experiments",
+          "source": "manuscript"
+        },
+        "Comment[Separation]": {
+          "value": "reversed-phase liquid chromatography",
+          "evidence": "A nanoflow ultra high performance liquid chromatograph (RSLC, Dionex, Sunnyvale, CA)... C18 reversed-phase resin... analytical column, (C18, 75 µm ID×50 cm, 2 µm, 100Å, Dionex, Sunnyvale, CA)",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {},
+      "not_applicable": [
+        "Characteristics[Modification].3",
+        "Characteristics[Modification].4",
+        "Characteristics[Modification].5",
+        "Characteristics[Modification].6",
+        "Characteristics[Depletion]",
+        "Characteristics[SyntheticPeptide]",
+        "Comment[EnrichmentMethod]"
+      ],
+      "summary": "サンプル調製の詳細が明確になった。トリプシン消化、DTT還元、ヨードアセトアミドアルキル化を使用。TMT 6-plex/label-free定量、basic pH逆相HPLCによる12分画、3つの修飾（カルバミドメチル、酸化、ピログルタミン酸）を設定。PRTC標準ペプチドをスパイクイン。エンリッチメント手法や枯渇処理は使用されていない。"
+    },
+    "STEP3_MS_SETTINGS": {
+      "confirmed": {
+        "Comment[Instrument]": {
+          "value": "Q Exactive Plus",
+          "evidence": "electrospray quadrupole-orbital ion trap mass spectrometer (QExactive Plus, Thermo, San Jose, CA)",
+          "source": "manuscript"
+        },
+        "Comment[FragmentationMethod]": {
+          "value": "HCD",
+          "evidence": "normalized collision energy set to 28 (DDA) / normalized collision energy value was set to 30 (TMT)",
+          "source": "anchor"
+        },
+        "Comment[AcquisitionMethod]": {
+          "value": "DDA;DIA",
+          "evidence": "DDA LC-MS/MS Analysis / DIA Analysis sections describing both methods",
+          "source": "manuscript"
+        },
+        "Comment[IonizationType]": {
+          "value": "nanoESI",
+          "evidence": "electrospray quadrupole-orbital ion trap mass spectrometer",
+          "source": "manuscript"
+        },
+        "Comment[MS2MassAnalyzer]": {
+          "value": "orbitrap",
+          "evidence": "quadrupole-orbital ion trap mass spectrometer (QExactive Plus)",
+          "source": "manuscript"
+        },
+        "Comment[CollisionEnergy]": {
+          "value": "28 (DDA);30 (TMT)",
+          "evidence": "normalized collision energy set to 28 (DDA) / normalized collision energy value was set to 30 (TMT)",
+          "source": "manuscript"
+        },
+        "Comment[PrecursorMassTolerance]": {
+          "value": "10 ppm",
+          "evidence": "precursor mass tolerance was set to 10 ppm",
+          "source": "manuscript"
+        },
+        "Comment[FragmentMassTolerance]": {
+          "value": "0.05 Da",
+          "evidence": "MS/MS mass tolerance was 0.05 Da",
+          "source": "manuscript"
+        },
+        "Comment[NumberOfMissedCleavages]": {
+          "value": "2",
+          "evidence": "Two missed tryptic cleavages were allowed",
+          "source": "manuscript"
+        },
+        "Comment[GradientTime]": {
+          "value": "90 minutes",
+          "evidence": "The 90-minute gradient was programmed as:",
+          "source": "manuscript"
+        },
+        "Comment[FlowRateChromatogram]": {
+          "value": "300 nl/min",
+          "evidence": "The flow rate on analytical column was 300 nl/min",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {},
+      "not_applicable": [],
+      "summary": "質量分析装置・設定パラメータが完全に確定した。Q Exactive Plusを使用し、DDA（CE=28）/DIA、TMT（CE=30）の取得方法でHCD断片化とnanoESIイオン化を実施。前駆体質量許容誤差10ppm、フラグメント質量許容誤差0.05Da、最大欠失切断数2、90分グラジエント、流速300nl/minの条件が明確になった。装置設定に関する情報収集は完了し、次ステップでは検索・同定パラメータやデータ処理の詳細確認が可能。"
+    },
+    "STEP4_RAW_FILES": {
+      "confirmed": {
+        "Comment[FractionIdentifier]": {
+          "value": "per_file",
+          "per_file": {
+            "20150912_Haura-Pilot_T0300_bRPLC01-1.raw": "1",
+            "20150912_Haura-Pilot_T0300_bRPLC01-2.raw": "1",
+            "20150912_Haura-Pilot_T0300_bRPLC02-1.raw": "2",
+            "20150912_Haura-Pilot_T0300_bRPLC02-2.raw": "2",
+            "20150912_Haura-Pilot_T0300_bRPLC03-1.raw": "3",
+            "20150912_Haura-Pilot_T0300_bRPLC03-2.raw": "3",
+            "20150912_Haura-Pilot_T0300_bRPLC04-1.raw": "4",
+            "20150912_Haura-Pilot_T0300_bRPLC04-2.raw": "4",
+            "20150912_Haura-Pilot_T0300_bRPLC05-1.raw": "5",
+            "20150912_Haura-Pilot_T0300_bRPLC05-2.raw": "5",
+            "20150912_Haura-Pilot_T0300_bRPLC06-1.raw": "6",
+            "20150912_Haura-Pilot_T0300_bRPLC06-2.raw": "6",
+            "20150912_Haura-Pilot_T0300_bRPLC07-1.raw": "7",
+            "20150912_Haura-Pilot_T0300_bRPLC07-2.raw": "7",
+            "20150912_Haura-Pilot_T0300_bRPLC08-1.raw": "8",
+            "20150912_Haura-Pilot_T0300_bRPLC08-2.raw": "8",
+            "20150912_Haura-Pilot_T0300_bRPLC09-1.raw": "9",
+            "20150912_Haura-Pilot_T0300_bRPLC09-2.raw": "9",
+            "20150912_Haura-Pilot_T0300_bRPLC10-1.raw": "10",
+            "20150912_Haura-Pilot_T0300_bRPLC10-2.raw": "10",
+            "20150912_Haura-Pilot_T0300_bRPLC11-1.raw": "11",
+            "20150912_Haura-Pilot_T0300_bRPLC11-2.raw": "11",
+            "20150912_Haura-Pilot_T0300_bRPLC12-1.raw": "12",
+            "20150912_Haura-Pilot_T0300_bRPLC12-2.raw": "12"
+          },
+          "evidence": "Twelve concatenated fractions were analyzed with LC-MS/MS for the LF and TMT experiments. ファイル名のbRPLC01-12パターンが12分画を表している",
+          "source": "manuscript/filename"
+        },
+        "Characteristics[NumberOfBiologicalReplicates]": {
+          "value": "2",
+          "evidence": "ファイル名の-1、-2サフィックスが技術的複製を表し、各サンプルID（T0298, T0300, T0301, T0303, N0294, N0295, N0296, N0299）で2つずつ存在することから生物学的複製数は2",
+          "source": "filename"
+        },
+        "Characteristics[NumberOfTechnicalReplicates]": {
+          "value": "2",
+          "evidence": "ファイル名の-1、-2サフィックスが各フラクションの技術的複製を表している",
+          "source": "filename"
+        },
+        "Characteristics[NumberOfSamples]": {
+          "value": "8",
+          "evidence": "Six of the eight clinical samples are paired sets of tumor and adjacent lung tissues from the same patients, and the unpaired samples are designated as patients 4 and 5 or 'P4/5.' ファイル名から8つの異なるサンプルID（T0298, T0300, T0301, T0303, N0294, N0295, N0296, N0299）が確認できる",
+          "source": "manuscript/filename"
+        },
+        "FactorValue[Disease]": {
+          "value": "per_file",
+          "per_file": {
+            "files_with_T_prefix": "lung squamous cell carcinoma",
+            "files_with_N_prefix": "normal"
+          },
+          "evidence": "ファイル名のTプレフィックスが腫瘍（tumor）、Nプレフィックスが正常隣接組織（normal adjacent）を表している。Six of the eight clinical samples are paired sets of tumor and adjacent lung tissues",
+          "source": "manuscript/filename"
+        }
+      },
+      "hypotheses": {
+        "Characteristics[BiologicalReplicate]": {
+          "candidates": [
+            "per_file assignment based on sample IDs",
+            "grouped by patient pairs"
+          ],
+          "reasoning": "ファイル名から8つの異なるサンプルIDが確認できるが、患者のペア情報（6組のペア＋2つの非ペア）との対応関係が不明",
+          "needs": "サンプルIDと患者番号の対応表、またはSupplementary Methodsでの詳細情報"
+        },
+        "FactorValue[FractionIdentifier]": {
+          "candidates": [
+            "same as Comment[FractionIdentifier]",
+            "Not Applicable"
+          ],
+          "reasoning": "Comment[FractionIdentifier]と同じ値の可能性が高いが、FactorValueとして設定するかは実験デザインによる",
+          "needs": "実験デザインにおけるfraction情報の取り扱い方針"
+        }
+      },
+      "not_applicable": [
+        "FactorValue[Treatment]",
+        "FactorValue[Temperature]",
+        "FactorValue[GeneticModification]",
+        "FactorValue[Compound]",
+        "FactorValue[Bait]",
+        "FactorValue[CellPart]",
+        "FactorValue[ConcentrationOfCompound].1"
+      ],
+      "summary": "ファイル名から実験デザインが明確になった。12分画×8サンプル×2技術複製×2生物学的複製の構成。TプレフィックスはSCC腫瘍組織、Nプレフィックスは正常隣接組織を示す。ただし、8つのサンプルIDと患者ペア情報の具体的対応関係は未確定。分画情報は1-12で確定し、疾患状態もファイル名から判別可能。"
+    }
+  }
+}

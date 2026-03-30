@@ -1,0 +1,154 @@
+{
+  "pxd": "PXD003668",
+  "source": "PRIDE_API",
+  "organism": [
+    {
+      "name": "Homo sapiens (human)",
+      "accession": "NEWT:9606"
+    }
+  ],
+  "instruments": [
+    {
+      "name": "Q Exactive",
+      "accession": "MS:1001911",
+      "sdrf_format": "AC=MS:1001911;NT=Q Exactive"
+    }
+  ],
+  "modifications": [],
+  "organism_parts": [
+    {
+      "name": "Epithelial cell",
+      "accession": "CL:0000066"
+    },
+    {
+      "name": "Cell culture",
+      "accession": "BTO:0000214"
+    }
+  ],
+  "diseases": [
+    {
+      "name": "Malignant neoplasm of ovary",
+      "accession": "DOID:2144"
+    }
+  ],
+  "experiment_types": [
+    "Shotgun proteomics"
+  ],
+  "quantification_methods": [
+    "MS1 intensity based label-free quantification method"
+  ],
+  "keywords": [
+    "Ovarian cancer proteomics"
+  ],
+  "publications": [
+    {
+      "pubmed_id": "",
+      "doi": "10.1038/ncomms12645",
+      "ref": "Coscia F, Watters KM, Curtis M, Eckert MA, Chiang CY, Tyanova S, Montag A, Lastra RR, Lengyel E, Mann M. Integrative proteomic profiling of ovarian cancer cell lines reveals precursor cell associated proteins and functional status. Nat Commun. 2016 Aug 26;7:12645"
+    }
+  ],
+  "inferred_fragmentation": "HCD",
+  "inferred_ms2_analyzer": "orbitrap",
+  "inferred_ionization": "nanoESI",
+  "raw_files": [
+    "20130314_EXQ4_FaCo_SA_CL_OVISE_B.RAW",
+    "20130315_EXQ4_FaCo_SA_CL_SKOV3IP1_C.RAW",
+    "20150305_QEp7_FaCo_SA_CL_OVCAR3_A.raw",
+    "20150305_QEp7_FaCo_SA_CL_COV318_B.raw",
+    "20131022_EXQ3_FaCo_SA_CL_TYKNU_C.RAW",
+    "20150305_QEp7_FaCo_SA_CL_JHOS2_A.raw",
+    "20130607_EXQ4_FaCo_SA_CL_A2780CP70_C.RAW",
+    "20140521_QEp4_FaCo_SA_PC_FTEC_1229.RAW",
+    "20150305_QEp7_FaCo_SA_CL_HEYA8_A.raw",
+    "20130315_EXQ4_FaCo_SA_CL_SKOV3IP1_A.RAW",
+    "20140516_QEp3_FaCo_SA_CL_TYKNUCP_B.RAW",
+    "20130315_EXQ4_FaCo_SA_CL_IOSE7576_C.RAW",
+    "20131021_EXQ3_FaCo_SA_CL_ME180_B.RAW",
+    "20150305_QEp7_FaCo_SA_CL_OVCAR3_B.raw",
+    "20140109_EXQ8_FaCo_SA_CL_SNU119_C.RAW",
+    "20140709_QEp3_FaCo_SA_CL_59M_C.RAW",
+    "20150305_QEp7_FaCo_SA_CL_HEYA8_B.raw",
+    "20131025_EXQ3_FaCo_SA_CL_IGROV1_A.RAW",
+    "20150305_QEp7_FaCo_SA_CL_OVKATE_C.raw",
+    "20131029_EXQ3_FaCo_SA_CL_TYKNU_B.RAW",
+    "20140521_QEp4_FaCo_SA_PC_FTEC_1218.RAW",
+    "20141013_QEp8_FaCo_SA_TU_LOV_2.RAW",
+    "20130315_EXQ4_FaCo_SA_CL_IOSE7675_A.RAW",
+    "20130607_EXQ4_FaCo_SA_CL_A2780_A.raw",
+    "20131018_EXQ3_FaCo_SA_CL_TOV112D_A.RAW",
+    "20140402_EXQ6_FaCo_SA_CL_PEO1_A.RAW",
+    "20130607_EXQ4_FaCo_SA_CL_A2780_B.raw",
+    "20131021_EXQ3_FaCo_SA_CL_ME180_A.RAW",
+    "20140109_EXQ8_FaCo_SA_CL_KURAMOCHI_C.RAW",
+    "20150305_QEp7_FaCo_SA_CL_OVKATE_A.raw",
+    "20150305_QEp7_FaCo_SA_CL_OVCAR5_A.raw",
+    "20131018_EXQ3_FaCo_SA_CL_ME180C13_A.RAW",
+    "20150305_QEp7_FaCo_SA_CL_OVCAR5_C.raw",
+    "20140709_QEp3_FaCo_SA_CL_59M_A.RAW",
+    "20150305_QEp7_FaCo_SA_CL_OVKATE_B.raw",
+    "20141013_QEp8_FaCo_SA_TU_ROV_4.RAW",
+    "20150305_QEp7_FaCo_SA_CL_OVSAHO_A.raw",
+    "20131025_EXQ3_FaCo_SA_CL_IGROV1CP_B.RAW",
+    "20130312_EXQ4_FaCo_SA_CL_DOV13_A.RAW",
+    "20150305_QEp7_FaCo_SA_CL_CAOV3_B.raw",
+    "20150305_QEp7_FaCo_SA_CL_JHOS2_B.raw",
+    "20150305_QEp7_FaCo_SA_CL_COV318_A.raw",
+    "20130315_EXQ4_FaCo_SA_CL_SKOV3IP1_B.RAW",
+    "20131018_EXQ3_FaCo_SA_CL_TOV112D_B.RAW",
+    "20131025_EXQ3_FaCo_SA_CL_IGROV1_C.RAW",
+    "20140402_EXQ6_FaCo_SA_CL_PEO1_C.RAW",
+    "20131222_EXQ2_FaCo_SA_CL_OVCA433_C.RAW",
+    "20131021_EXQ3_FaCo_SA_CL_ME180_C.RAW",
+    "20130607_EXQ4_FaCo_SA_CL_A2780CP70_A.RAW",
+    "20141013_QEp8_FaCo_SA_TU_LOV_1.RAW",
+    "20130312_EXQ4_FaCo_SA_CL_DOV13_C.RAW",
+    "20150305_QEp7_FaCo_SA_CL_JHOS4_C.raw",
+    "20130312_EXQ4_FaCo_SA_CL_DOV13_B.RAW",
+    "20150305_QEp7_FaCo_SA_CL_HEYA8_C.raw",
+    "20131025_EXQ3_FaCo_SA_CL_TOV112DR_B.RAW",
+    "20140402_EXQ6_FaCo_SA_CL_PEO1_B.RAW",
+    "20150305_QEp7_FaCo_SA_CL_JHOS2_C.raw",
+    "20140516_QEp3_FaCo_SA_CL_TYKNUCP_C.RAW",
+    "20131025_EXQ3_FaCo_SA_CL_IGROV1_B.RAW",
+    "20130619_EXQ4_FaCo_SA_CL_A2780_C.raw",
+    "20141013_QEp8_FaCo_SA_TU_LOV_4.RAW",
+    "20140115_EXQ6_FaCo_SA_CL_OVCA433_A.RAW",
+    "20140402_EXQ6_FaCo_SA_CL_PEO4_C.RAW",
+    "20141013_QEp8_FaCo_SA_TU_ROV_5.RAW",
+    "20131025_EXQ3_FaCo_SA_CL_TOV112D_C.RAW",
+    "20130315_EXQ4_FaCo_SA_CL_IOSE7675_B.RAW",
+    "20150305_QEp7_FaCo_SA_CL_COV318_C.raw",
+    "20130809_EXQ3_FaCo_SA_CL_IOSE397_B.RAW",
+    "20150305_QEp7_FaCo_SA_CL_OVCAR3_C.raw",
+    "20140109_EXQ8_FaCo_SA_CL_SNU119_A.RAW",
+    "20131025_EXQ3_FaCo_SA_CL_TOV112DR_A.RAW",
+    "20141013_QEp8_FaCo_SA_TU_OV_1131.RAW",
+    "20150305_QEp7_FaCo_SA_CL_JHOS4_B.raw",
+    "20150305_QEp7_FaCo_SA_CL_OVCAR5_B.raw",
+    "20130314_EXQ4_FaCo_SA_CL_OVCA433_B.RAW",
+    "20140516_QEp3_FaCo_SA_CL_PEO4_B.RAW",
+    "20130607_EXQ4_FaCo_SA_CL_A2780CP70_B.RAW",
+    "20130314_EXQ4_FaCo_SA_CL_OVISE_A.RAW",
+    "20150305_QEp7_FaCo_SA_CL_OVSAHO_C.raw",
+    "20140709_QEp3_FaCo_SA_CL_59M_B.RAW",
+    "20150305_QEp7_FaCo_SA_CL_OVSAHO_B.raw",
+    "20140109_EXQ8_FaCo_SA_CL_SNU119_B.RAW",
+    "20140521_QEp4_FaCo_SA_PC_FTEC_1216.RAW",
+    "20131025_EXQ3_FaCo_SA_CL_TOV112DR_C.RAW",
+    "20130314_EXQ4_FaCo_SA_CL_OVISE_C.RAW",
+    "20130809_EXQ3_FaCo_SA_CL_IOSE397_A.RAW",
+    "20150305_QEp7_FaCo_SA_CL_JHOS4_A.raw",
+    "20140516_QEp3_FaCo_SA_CL_TYKNUCP_A.RAW",
+    "20140109_EXQ8_FaCo_SA_CL_KURAMOCHI_B.RAW",
+    "20141013_QEp8_FaCo_SA_TU_ROV_1.RAW",
+    "20131029_EXQ3_FaCo_SA_CL_TYKNU_A.RAW",
+    "20131025_EXQ3_FaCo_SA_CL_IGROV1CP_A.RAW",
+    "20131025_EXQ3_FaCo_SA_CL_IGROV1CP_C.RAW",
+    "20131018_EXQ3_FaCo_SA_CL_ME180C13_C.RAW",
+    "20141013_QEp8_FaCo_SA_TU_LOV_5.RAW",
+    "20150305_QEp7_FaCo_SA_CL_CAOV3_C.raw",
+    "20140115_EXQ6_FaCo_SA_CL_IOSE397_C.RAW",
+    "20140516_QEp3_FaCo_SA_CL_PEO4_A.RAW",
+    "20140109_EXQ8_FaCo_SA_CL_KURAMOCHI_A.RAW"
+  ]
+}

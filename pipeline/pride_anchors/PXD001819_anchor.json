@@ -1,0 +1,81 @@
+{
+  "pxd": "PXD001819",
+  "source": "PRIDE_API",
+  "organism": [
+    {
+      "name": "Saccharomyces cerevisiae (baker's yeast)",
+      "accession": "NEWT:4932"
+    },
+    {
+      "name": "Homo sapiens (human)",
+      "accession": "NEWT:9606"
+    }
+  ],
+  "instruments": [
+    {
+      "name": "LTQ Orbitrap Velos",
+      "accession": "MS:1001742",
+      "sdrf_format": "AC=MS:1001742;NT=LTQ Orbitrap Velos"
+    }
+  ],
+  "modifications": [],
+  "organism_parts": [
+    {
+      "name": "Cell culture",
+      "accession": "BTO:0000214"
+    }
+  ],
+  "diseases": [],
+  "experiment_types": [
+    "Shotgun proteomics"
+  ],
+  "quantification_methods": [
+    "Protein Abundance Index - PAI",
+    "Spectrum counting"
+  ],
+  "keywords": [
+    "Yesat",
+    "Ups1",
+    "Label-free quantification",
+    "Lc-ms/ms"
+  ],
+  "publications": [
+    {
+      "pubmed_id": "",
+      "doi": "10.1016/j.dib.2015.11.063",
+      "ref": "Ramus C, Hovasse A, Marcellin M, Hesse AM, Mouton-Barbosa E, Bouyssié D, Vaca S, Carapito C, Chaoui K, Bruley C, Garin J, Cianférani S, Ferro M, Dorssaeler AV, Burlet-Schiltz O, Schaeffer C, Couté Y, Gonzalez de Peredo A. Spiked proteomic standard dataset for testing label-free quantitative software and statistical methods. Data Brief. 2015 Dec 17;6:286-94. eCollection 2016 Mar"
+    }
+  ],
+  "inferred_fragmentation": null,
+  "inferred_ms2_analyzer": "orbitrap",
+  "inferred_ionization": "nanoESI",
+  "raw_files": [
+    "UPS1_12500amol_R1.raw",
+    "UPS1_2500amol_R3.raw",
+    "UPS1_25000amol_R1.raw",
+    "UPS1_50amol_R2.raw",
+    "UPS1_12500amol_R3.raw",
+    "UPS1_125amol_R1.raw",
+    "UPS1_2500amol_R2.raw",
+    "UPS1_500amol_R2.raw",
+    "UPS1_50amol_R3.raw",
+    "UPS1_12500amol_R2.raw",
+    "UPS1_50000amol_R3.raw",
+    "UPS1_250amol_R1.raw",
+    "UPS1_125amol_R3.raw",
+    "UPS1_250amol_R3.raw",
+    "UPS1_50000amol_R2.raw",
+    "UPS1_25000amol_R2.raw",
+    "UPS1_250amol_R2.raw",
+    "UPS1_25000amol_R3.raw",
+    "UPS1_500amol_R3.raw",
+    "UPS1_500amol_R1.raw",
+    "UPS1_5000amol_R3.raw",
+    "UPS1_5000amol_R1.raw",
+    "UPS1_50amol_R1.raw",
+    "UPS1_2500amol_R1.raw",
+    "UPS1_5000amol_R2.raw",
+    "UPS1_50000amol_R1.raw",
+    "UPS1_125amol_R2.raw"
+  ]
+}

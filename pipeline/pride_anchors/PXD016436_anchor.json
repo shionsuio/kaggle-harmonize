@@ -1,0 +1,63 @@
+{
+  "pxd": "PXD016436",
+  "source": "PRIDE_API",
+  "organism": [
+    {
+      "name": "Bos taurus (bovine)",
+      "accession": "NEWT:9913"
+    }
+  ],
+  "instruments": [
+    {
+      "name": "LTQ Orbitrap",
+      "accession": "MS:1000449",
+      "sdrf_format": "AC=MS:1000449;NT=LTQ Orbitrap"
+    }
+  ],
+  "modifications": [],
+  "organism_parts": [],
+  "diseases": [],
+  "experiment_types": [
+    "Shotgun proteomics"
+  ],
+  "quantification_methods": [
+    "MS1 intensity based label-free quantification method"
+  ],
+  "keywords": [
+    "Whey protein",
+    "Proteomics",
+    "Heat treatment",
+    "Pasteurization",
+    "Milk"
+  ],
+  "publications": [
+    {
+      "pubmed_id": "",
+      "doi": "10.1016/j.dib.2020.105227",
+      "ref": "Xiong L, Boeren S, Vervoort J, Hettinga K. Dataset on proteomic changes of whey protein after different heat treatment. Data Brief. 2020 29:105227"
+    }
+  ],
+  "inferred_fragmentation": "CID",
+  "inferred_ms2_analyzer": "orbitrap",
+  "inferred_ionization": "nanoESI",
+  "raw_files": [
+    "LX055-80-3-milk_serum_after_80C_30min.raw",
+    "LX045-65-2-milk_serum_after_65C_30min.raw",
+    "LX056-85-1-milk_serum_after_85C_30min.raw",
+    "LX057-85-2-milk_serum_after_85C_30min.raw",
+    "LX049-70-3-milk_serum_after_70C_30min.raw",
+    "LX054-80-2-milk_serum_after_80C_30min.raw",
+    "LX051-75-2-milk_serum_after_75C_30min.raw",
+    "LX050-75-1-milk_serum_after_75C_30min.raw",
+    "LX041-0-1-milk_serum_from_raw_milk.raw",
+    "LX042-0-2-milk_serum_from_raw_milk.raw",
+    "LX048-70-2-milk_serum_after_70C_30min.raw",
+    "LX052-75-3-milk_serum_after_75C_30min.raw",
+    "LX043-0-3-milk_serum_from_raw_milk.raw",
+    "LX053-80-1-milk_serum_after_80C_30min.raw",
+    "LX058-85-3-milk_serum_after_85C_30min.raw",
+    "LX046-65-3-milk_serum_after_65C_30min.raw",
+    "LX047-70-1-milk_serum_after_70C_30min.raw",
+    "LX044-65-1-milk_serum_after_65C_30min.raw"
+  ]
+}

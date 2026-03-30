@@ -1,0 +1,403 @@
+{
+  "pxd": "PXD000651",
+  "raw_files": [
+    "HV_map_A2.raw",
+    "HV_map_A15ny.raw",
+    "HV_map_A1.raw",
+    "HV_map_A33ny.raw",
+    "HV_map_A16ny.raw",
+    "HV_map_A34ny.raw",
+    "HV_map_A12.raw",
+    "HV_map_A18ny.raw",
+    "HV_map_A31.raw",
+    "HV_map_A22.raw",
+    "HV_map_A36.raw",
+    "HV_map_A20.raw",
+    "HV_map_A28.raw",
+    "HV_map_A25.raw",
+    "HV_map_A19.raw",
+    "HV_map_A32.raw",
+    "HV_map_A24.raw",
+    "HV_map_A5.raw",
+    "HV_map_A11.raw",
+    "HV_map_A21.raw",
+    "HV_map_A8.raw",
+    "HV_map_A3.raw",
+    "HV_map_A14.raw",
+    "HV_map_A26.raw",
+    "HV_map_A30.raw",
+    "HV_map_A27.raw",
+    "HV_map_A10.raw",
+    "HV_map_A6.raw",
+    "HV_map_A35.raw",
+    "HV_map_A17conc.raw",
+    "HV_map_A4.raw",
+    "HV_map_A37.raw",
+    "HV_map_A29.raw",
+    "HV_map_A7.raw",
+    "HV_map_A23.raw",
+    "HV_map_A13ny.raw",
+    "HV_map_A9.raw"
+  ],
+  "anchor": {
+    "pxd": "PXD000651",
+    "source": "PRIDE_API",
+    "organism": [
+      {
+        "name": "Homo sapiens (human)",
+        "accession": "NEWT:9606"
+      }
+    ],
+    "instruments": [
+      {
+        "name": "LTQ Orbitrap",
+        "accession": "MS:1000449",
+        "sdrf_format": "AC=MS:1000449;NT=LTQ Orbitrap"
+      }
+    ],
+    "modifications": [],
+    "organism_parts": [
+      {
+        "name": "Cerebrospinal fluid",
+        "accession": "BTO:0000237"
+      }
+    ],
+    "diseases": [],
+    "experiment_types": [
+      "Bottom-up proteomics"
+    ],
+    "quantification_methods": [],
+    "keywords": [
+      "Homo sapiens",
+      "Cerebrospinal fluid",
+      "Lc-ms/ms"
+    ],
+    "publications": [
+      {
+        "pubmed_id": "",
+        "doi": "",
+        "ref": "Guldbrandsen A, Vethe H, Farag Y, Oveland E, Garberg H, Berle M, Myhr KM, Opsahl JA, Barsnes H, Berven FS. In-depth characterization of the cerebrospinal fluid proteome displayed through the CSF Proteome Resource (CSF-PR). Mol Cell Proteomics. 2014 Jul 18. pii: mcp.M114.038554"
+      }
+    ],
+    "inferred_fragmentation": "CID",
+    "inferred_ms2_analyzer": "orbitrap",
+    "inferred_ionization": "nanoESI",
+    "raw_files": [
+      "HV_map_A2.raw",
+      "HV_map_A15ny.raw",
+      "HV_map_A1.raw",
+      "HV_map_A33ny.raw",
+      "HV_map_A16ny.raw",
+      "HV_map_A34ny.raw",
+      "HV_map_A12.raw",
+      "HV_map_A18ny.raw",
+      "HV_map_A31.raw",
+      "HV_map_A22.raw",
+      "HV_map_A36.raw",
+      "HV_map_A20.raw",
+      "HV_map_A28.raw",
+      "HV_map_A25.raw",
+      "HV_map_A19.raw",
+      "HV_map_A32.raw",
+      "HV_map_A24.raw",
+      "HV_map_A5.raw",
+      "HV_map_A11.raw",
+      "HV_map_A21.raw",
+      "HV_map_A8.raw",
+      "HV_map_A3.raw",
+      "HV_map_A14.raw",
+      "HV_map_A26.raw",
+      "HV_map_A30.raw",
+      "HV_map_A27.raw",
+      "HV_map_A10.raw",
+      "HV_map_A6.raw",
+      "HV_map_A35.raw",
+      "HV_map_A17conc.raw",
+      "HV_map_A4.raw",
+      "HV_map_A37.raw",
+      "HV_map_A29.raw",
+      "HV_map_A7.raw",
+      "HV_map_A23.raw",
+      "HV_map_A13ny.raw",
+      "HV_map_A9.raw"
+    ]
+  },
+  "steps": {
+    "STEP1_OVERVIEW": {
+      "confirmed": {
+        "Characteristics[Organism]": {
+          "value": "Homo sapiens",
+          "evidence": "the human cerebrospinal fluid (CSF) proteome was mapped",
+          "source": "manuscript"
+        },
+        "Characteristics[OrganismPart]": {
+          "value": "cerebrospinal fluid",
+          "evidence": "the human cerebrospinal fluid (CSF) proteome was mapped",
+          "source": "manuscript"
+        },
+        "Characteristics[MaterialType]": {
+          "value": "body fluid",
+          "evidence": "cerebrospinal fluid (CSF) and plasma samples, referred to as 'two body fluids'",
+          "source": "manuscript"
+        },
+        "Comment[AcquisitionMethod]": {
+          "value": "three different strategies: SDS-PAGE and mixed mode reversed phase-anion exchange for mapping the global CSF proteome, and hydrazide-based glycopeptide capture for mapping glycopeptides",
+          "evidence": "three different strategies prior to Orbitrap LC-MS/MS analysis: SDS-PAGE and mixed mode reversed phase-anion exchange for mapping the global CSF proteome, and hydrazide-based glycopeptide capture for mapping glycopeptides",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {
+        "Characteristics[Label]": {
+          "candidates": [
+            "label-free"
+          ],
+          "reasoning": "No mention of chemical labeling methods like TMT, SILAC, or iTRAQ. The use of multiple separation strategies suggests label-free quantification approach.",
+          "needs": "Explicit statement about quantification method or detailed methods section"
+        }
+      },
+      "not_applicable": [
+        "Characteristics[CellType]",
+        "Characteristics[CellLine]",
+        "Characteristics[Disease]",
+        "Characteristics[Specimen]",
+        "Characteristics[Strain]",
+        "Characteristics[GeneticModification]",
+        "Characteristics[Treatment]",
+        "Characteristics[DevelopmentalStage]",
+        "Characteristics[Compound]",
+        "Characteristics[ConcentrationOfCompound]"
+      ],
+      "summary": "This is a human cerebrospinal fluid proteome mapping study using multiple separation strategies (SDS-PAGE, mixed mode chromatography, glycopeptide enrichment) followed by Orbitrap LC-MS/MS. The study identified 3081 proteins including 520 glycoproteins, with parallel plasma analysis for comparison. The experimental approach appears to be label-free but this needs confirmation from detailed methods."
+    },
+    "STEP2_SAMPLE_PREP": {
+      "confirmed": {
+        "Characteristics[CleavageAgent]": {
+          "value": "trypsin",
+          "evidence": "trypsin digested (1:50 ratio trypsin:protein, Trypsin porcine (Promega, Madison, WI)) overnight at 37°C",
+          "source": "manuscript"
+        },
+        "Characteristics[AlkylationReagent]": {
+          "value": "iodoacetamide",
+          "evidence": "alkylated by adding up to 20 mm iodoacetamine (IAA), followed by incubation in room temperature and in the dark for 20 min",
+          "source": "manuscript"
+        },
+        "Characteristics[ReductionReagent]": {
+          "value": "DTT",
+          "evidence": "dissolved in LDS sample buffer (Invitrogen) containing 10 mm DTT (GE Healthcare, Amersham Biosciences, Buckinghamshire, UK) at 95°C for 5 min",
+          "source": "manuscript"
+        },
+        "Characteristics[Label]": {
+          "value": "label free sample",
+          "evidence": "No chemical labeling methods mentioned in sample preparation procedures. Multiple experiments use different separation strategies without isotopic or chemical labels.",
+          "source": "manuscript"
+        },
+        "Characteristics[Modification]": {
+          "value": "carbamidomethylated residue",
+          "evidence": "carbamidomethylation of cystein as a fixed modification",
+          "source": "manuscript"
+        },
+        "Characteristics[Modification].1": {
+          "value": "oxidized residue",
+          "evidence": "oxidized methionine as a variable modification for all datasets",
+          "source": "manuscript"
+        },
+        "Characteristics[Modification].2": {
+          "value": "deamidated residue",
+          "evidence": "Deamidation of asparagine was set as a variable modification only for the glyco dataset",
+          "source": "manuscript"
+        },
+        "Characteristics[Depletion]": {
+          "value": "immunoaffinity depletion",
+          "evidence": "protein depleted of 14 high abundant proteins using the human Multiple Affinity Removal System (MARS HU-14)",
+          "source": "manuscript"
+        },
+        "Comment[EnrichmentMethod]": {
+          "value": "solid-phase extraction of N-linked glycopeptides (SPEG)",
+          "evidence": "processed by solid-phase extraction of N-linked glycopeptides (SPEG) essentially as described",
+          "source": "manuscript"
+        },
+        "Comment[FractionationMethod]": {
+          "value": "SDS-PAGE and mixed mode reversed phase-anion exchange",
+          "evidence": "fractionated using mixed mode reversed phase-anion exchange (MM RP-AX) HPLC as described by Phillips et al. and gel separation using a lab-casted 20 cm 5–15% SDS-polyacrylamide gradient gel",
+          "source": "manuscript"
+        },
+        "Comment[NumberOfFractions]": {
+          "value": "83",
+          "evidence": "The lanes were cut into a total of 83 gel slices as described in Fig. 1B, 37 slices from the lane with the bound (high abundant) protein fraction and 46 slices from the lane with the depleted fraction",
+          "source": "manuscript"
+        },
+        "Comment[Separation]": {
+          "value": "reversed-phase chromatography",
+          "evidence": "Peptides were separated during a biphasic ACN gradient from two nanoflow UPLC pumps with flow rate of 280 nl/min on the analytical column (Acclaim PepMap 100, 15 cm × 75 μm i.d. nanoViper column, packed with 2 μm C18 beads)",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {
+        "Characteristics[Modification].3": {
+          "candidates": [
+            "TCEP-modified residue"
+          ],
+          "reasoning": "TCEP (Tris(2-carboxyethyl)phosphine) was used as reducing agent at 10mM for 1 hour, which might create additional modifications beyond the standard DTT reduction",
+          "needs": "Confirmation whether TCEP creates detectable modifications in MS analysis or if it's just used for reduction without creating permanent modifications"
+        }
+      },
+      "not_applicable": [
+        "Characteristics[Modification].4",
+        "Characteristics[Modification].5",
+        "Characteristics[Modification].6",
+        "Characteristics[SpikedCompound]",
+        "Characteristics[SyntheticPeptide]"
+      ],
+      "summary": "Sample preparation involves trypsin digestion with DTT reduction and iodoacetamide alkylation. The study uses label-free approach with three main strategies: SDS-PAGE fractionation (83 fractions), mixed mode RP-AX chromatography, and glycopeptide enrichment via SPEG. High abundant protein depletion was performed using MARS HU-14 system. Fixed modifications include carbamidomethylation, variable modifications include methionine oxidation and asparagine deamidation (glyco dataset only)."
+    },
+    "STEP3_MS_SETTINGS": {
+      "confirmed": {
+        "Comment[Instrument]": {
+          "value": "LTQ Orbitrap Velos Pro mass spectrometer",
+          "evidence": "Dry samples were dissolved to a final concentration of 0.1–5% FA before analysis on an LTQ Orbitrap Velos Pro mass spectrometer (Thermo Fischer Scientific, Bremen, Germany) equipped with a nano spray Flex ion source",
+          "source": "manuscript"
+        },
+        "Comment[FragmentationMethod]": {
+          "value": "collision-induced dissociation (CID)",
+          "evidence": "Data dependent acquisition was utilized and collision-induced dissociation (CID) with normalized collision energy of 35% and wideband-activation enabled",
+          "source": "manuscript"
+        },
+        "Comment[IonizationType]": {
+          "value": "nano electrospray ionization",
+          "evidence": "equipped with a nano spray Flex ion source (Thermo Fischer Scientific)",
+          "source": "manuscript"
+        },
+        "Comment[MS2MassAnalyzer]": {
+          "value": "ion trap",
+          "evidence": "LTQ Orbitrap Velos Pro mass spectrometer - LTQ indicates Linear Trap Quadrupole for MS/MS analysis",
+          "source": "manuscript"
+        },
+        "Comment[CollisionEnergy]": {
+          "value": "normalized collision energy of 35%",
+          "evidence": "collision-induced dissociation (CID) with normalized collision energy of 35% and wideband-activation enabled",
+          "source": "manuscript"
+        },
+        "Comment[PrecursorMassTolerance]": {
+          "value": "10 ppm",
+          "evidence": "Precursor mass tolerance was 10 ppm, fragment mass tolerance 0.7 Da, and maximum number of missed cleavages by trypsin was 2",
+          "source": "manuscript"
+        },
+        "Comment[FragmentMassTolerance]": {
+          "value": "0.7 Da",
+          "evidence": "Precursor mass tolerance was 10 ppm, fragment mass tolerance 0.7 Da, and maximum number of missed cleavages by trypsin was 2",
+          "source": "manuscript"
+        },
+        "Comment[NumberOfMissedCleavages]": {
+          "value": "2",
+          "evidence": "Precursor mass tolerance was 10 ppm, fragment mass tolerance 0.7 Da, and maximum number of missed cleavages by trypsin was 2",
+          "source": "manuscript"
+        },
+        "Comment[FlowRateChromatogram]": {
+          "value": "280 nl/min",
+          "evidence": "Peptides were separated during a biphasic ACN gradient from two nanoflow UPLC pumps with flow rate of 280 nl/min on the analytical column",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {
+        "Comment[GradientTime]": {
+          "candidates": [
+            "69.5 min",
+            "90 min"
+          ],
+          "reasoning": "The gradient runs for 69.5 min (0-61.5 min ramp 8-38% B, 61.5-64.5 min ramp 38-90% B, 64.5-69.5 min 90% B) followed by 12 min column conditioning. Total MS data acquisition was 90 min, which may include additional time beyond the gradient.",
+          "needs": "Clarification whether gradient time refers to the actual gradient duration (69.5 min) or total acquisition time (90 min)"
+        },
+        "Comment[AcquisitionMethod]": {
+          "candidates": [
+            "data dependent acquisition",
+            "DDA with top 15 precursor selection"
+          ],
+          "reasoning": "Text states 'Data dependent acquisition was utilized' and 'The 15 ions with the highest intensity were selected for MS/MS fragmentation', indicating top-15 DDA method",
+          "needs": "Confirmation of the preferred terminology for acquisition method description"
+        }
+      },
+      "not_applicable": [],
+      "summary": "Mass spectrometry analysis was performed on LTQ Orbitrap Velos Pro using CID fragmentation with 35% normalized collision energy and nano-ESI ionization. Search parameters included 10 ppm precursor and 0.7 Da fragment mass tolerance with maximum 2 missed cleavages. Chromatography used 280 nl/min flow rate. The gradient duration and precise acquisition method terminology remain to be clarified, with candidates being 69.5 min vs 90 min for gradient time and specific DDA description format."
+    },
+    "STEP4_RAW_FILES": {
+      "confirmed": {
+        "Comment[FractionIdentifier]": {
+          "value": "per_file",
+          "per_file": {
+            "HV_map_A1.raw": "1",
+            "HV_map_A2.raw": "2",
+            "HV_map_A3.raw": "3",
+            "HV_map_A4.raw": "4",
+            "HV_map_A5.raw": "5",
+            "HV_map_A6.raw": "6",
+            "HV_map_A7.raw": "7",
+            "HV_map_A8.raw": "8",
+            "HV_map_A9.raw": "9",
+            "HV_map_A10.raw": "10",
+            "HV_map_A11.raw": "11",
+            "HV_map_A12.raw": "12",
+            "HV_map_A13ny.raw": "13",
+            "HV_map_A14.raw": "14",
+            "HV_map_A15ny.raw": "15",
+            "HV_map_A16ny.raw": "16",
+            "HV_map_A17conc.raw": "17",
+            "HV_map_A18ny.raw": "18",
+            "HV_map_A19.raw": "19",
+            "HV_map_A20.raw": "20",
+            "HV_map_A21.raw": "21",
+            "HV_map_A22.raw": "22",
+            "HV_map_A23.raw": "23",
+            "HV_map_A24.raw": "24",
+            "HV_map_A25.raw": "25",
+            "HV_map_A26.raw": "26",
+            "HV_map_A27.raw": "27",
+            "HV_map_A28.raw": "28",
+            "HV_map_A29.raw": "29",
+            "HV_map_A30.raw": "30",
+            "HV_map_A31.raw": "31",
+            "HV_map_A32.raw": "32",
+            "HV_map_A33ny.raw": "33",
+            "HV_map_A34ny.raw": "34",
+            "HV_map_A35.raw": "35",
+            "HV_map_A36.raw": "36",
+            "HV_map_A37.raw": "37"
+          },
+          "evidence": "Raw file names follow clear pattern HV_map_A[number] with numerical identifiers from 1-37. The 'A' prefix followed by numbers clearly indicates fraction identifiers corresponding to the 83 gel slices mentioned in methods (37 from bound fraction + 46 from depleted fraction), plus fractions from MM RP-AX and SPEG experiments.",
+          "source": "filename"
+        },
+        "Characteristics[NumberOfBiologicalReplicates]": {
+          "value": "1",
+          "evidence": "Aliquots of 500 μl CSF from each of the 21 individuals included in this study were combined into a pool. A similar pool was generated for the plasma samples from 20 of the patients",
+          "source": "manuscript"
+        },
+        "Characteristics[NumberOfSamples]": {
+          "value": "1",
+          "evidence": "All experiments used pooled CSF samples: 'Aliquots of 500 μl CSF from each of the 21 individuals included in this study were combined into a pool'",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {
+        "FactorValue[FractionIdentifier]": {
+          "candidates": [
+            "per_file with same values as Comment[FractionIdentifier]"
+          ],
+          "reasoning": "The fraction identifiers from filenames (A1-A37) likely correspond to experimental factors distinguishing different fractions across the three separation strategies",
+          "needs": "Clarification whether fraction identifiers should be both Comment and FactorValue, or just Comment"
+        }
+      },
+      "not_applicable": [
+        "Characteristics[BiologicalReplicate]",
+        "Characteristics[NumberOfTechnicalReplicates]",
+        "FactorValue[Treatment]",
+        "FactorValue[Temperature]",
+        "FactorValue[Disease]",
+        "FactorValue[GeneticModification]",
+        "FactorValue[Compound]",
+        "FactorValue[Bait]",
+        "FactorValue[CellPart]",
+        "FactorValue[ConcentrationOfCompound].1"
+      ],
+      "summary": "This is a single pooled CSF sample study with 37 fractions analyzed across three separation strategies (SDS-PAGE: 83 gel slices, MM RP-AX: 66+10 fractions, SPEG: 20 fractions). Raw filenames clearly indicate fraction identifiers (A1-A37). No biological replicates, technical replicates, treatments, or other experimental factors are present - this is a comprehensive proteome mapping study of a single pooled biological sample using multiple fractionation approaches. The study design focuses on maximizing proteome coverage rather than comparative analysis."
+    }
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "pxd": "PXD040582",
+  "source": "PRIDE_API",
+  "organism": [
+    {
+      "name": "Homo sapiens (human)",
+      "accession": "NEWT:9606"
+    }
+  ],
+  "instruments": [
+    {
+      "name": "Q Exactive HF",
+      "accession": "MS:1002523",
+      "sdrf_format": "AC=MS:1002523;NT=Q Exactive HF"
+    }
+  ],
+  "modifications": [],
+  "organism_parts": [
+    {
+      "name": "Cell culture",
+      "accession": "BTO:0000214"
+    },
+    {
+      "name": "Fibroblast",
+      "accession": "CL:0000057"
+    }
+  ],
+  "diseases": [],
+  "experiment_types": [
+    "Shotgun proteomics"
+  ],
+  "quantification_methods": [
+    "MS1 intensity based label-free quantification method"
+  ],
+  "keywords": [
+    "Hcmv",
+    "Innate immunity",
+    "Membrane contact sites",
+    "Mass spectrometry",
+    "Virus microenvironment",
+    "Cell cycle",
+    "Cidofovir"
+  ],
+  "publications": [
+    {
+      "pubmed_id": "",
+      "doi": "10.1126/sciadv.adg3433",
+      "ref": "Song B, Sheng X, Justice JL, Lum KK, Metzger PJ, Cook KC, Kostas JC, Cristea IM. Intercellular communication within the virus microenvironment affects the susceptibility of cells to secondary viral infections.  Sci Adv. 2023 9(19):eadg3433"
+    }
+  ],
+  "inferred_fragmentation": "HCD",
+  "inferred_ms2_analyzer": "orbitrap",
+  "inferred_ionization": "nanoESI",
+  "raw_files": [
+    "20230209_HCMV_CDV_VME_Mock_BR2.raw",
+    "20230209_HCMV_Ctrl_VME_Mock_BR2.raw",
+    "20230209_HCMV_Ctrl_VME_Distal_BR2.raw",
+    "20230209_HCMV_CDV_VME_Infected_BR3.raw",
+    "20230209_HCMV_Ctrl_VME_Mock_BR3.raw",
+    "20230209_HCMV_CDV_VME_Mock_BR1.raw",
+    "20230209_HCMV_CDV_VME_Neighbor_BR2.raw",
+    "20230209_HCMV_CDV_VME_Distal_BR2.raw",
+    "20230209_HCMV_Ctrl_VME_Neighbor_BR2.raw",
+    "20230209_HCMV_Ctrl_VME_Infected_BR2.raw",
+    "20230209_HCMV_CDV_VME_Infected_BR2.raw",
+    "20230209_HCMV_Ctrl_VME_Distal_BR3.raw",
+    "20230209_HCMV_Ctrl_VME_Infected_BR3.raw",
+    "20230209_HCMV_CDV_VME_Mock_BR3.raw",
+    "20230209_HCMV_Ctrl_VME_Infected_BR1.raw",
+    "20230209_HCMV_CDV_VME_Distal_BR3.raw",
+    "20230209_HCMV_CDV_VME_Infected_BR1.raw",
+    "20230209_HCMV_Ctrl_VME_Neighbor_BR3.raw",
+    "20230209_HCMV_CDV_VME_Neighbor_BR1.raw",
+    "20230209_HCMV_Ctrl_VME_Distal_BR1.raw",
+    "20230209_HCMV_CDV_VME_Neighbor_BR3.raw",
+    "20230209_HCMV_CDV_VME_Distal_BR1.raw",
+    "20230209_HCMV_Ctrl_VME_Mock_BR1.raw",
+    "20230209_HCMV_Ctrl_VME_Neighbor_BR1.raw"
+  ]
+}

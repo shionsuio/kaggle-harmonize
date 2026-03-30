@@ -1,0 +1,61 @@
+{
+  "pxd": "PXD001281",
+  "source": "PRIDE_API",
+  "organism": [
+    {
+      "name": "Homo sapiens (human)",
+      "accession": "NEWT:9606"
+    }
+  ],
+  "instruments": [
+    {
+      "name": "Q Exactive",
+      "accession": "MS:1001911",
+      "sdrf_format": "AC=MS:1001911;NT=Q Exactive"
+    }
+  ],
+  "modifications": [],
+  "organism_parts": [
+    {
+      "name": "Cell suspension culture",
+      "accession": "BTO:0000221"
+    },
+    {
+      "name": "Hek-293 cell",
+      "accession": "BTO:0000007"
+    }
+  ],
+  "diseases": [],
+  "experiment_types": [
+    "Shotgun proteomics",
+    "Affinity purification coupled with mass spectrometry proteomics"
+  ],
+  "quantification_methods": [],
+  "keywords": [
+    "Heat-shock",
+    "Sumo modification sites",
+    "Hek293"
+  ],
+  "publications": [
+    {
+      "pubmed_id": "",
+      "doi": "10.1126/scisignal.2005146",
+      "ref": "Tammsalu T, Matic I, Jaffray EG, Ibrahim AF, Tatham MH, Hay RT; Proteome-wide identification of SUMO2 modification sites., Sci Signal, 2014 Apr 29, 7, 323, rs2, "
+    }
+  ],
+  "inferred_fragmentation": "HCD",
+  "inferred_ms2_analyzer": "orbitrap",
+  "inferred_ionization": "nanoESI",
+  "raw_files": [
+    "20130526_11_qEx_TT_T150_IP_II_A80.raw",
+    "20130519_04_qEx_TT_T150_IP_II.raw",
+    "20130222_06_qEx_TT_T90_IP_S2.raw",
+    "20130910_14_qEx_TT_T90_IP_gluC_IT1s.raw",
+    "20130912_04_qEx_TT_T150_IP_lysC_IT1s_T1.raw",
+    "20130912_09_qEx_TT_T150_IP_gluC_IT1s_T1.raw",
+    "20130528_09_qEx_TT_T90_IP_I_II.raw",
+    "20130216_12_qEx_TT_T90_IP_S2.raw",
+    "20130402_06_qEx_TT_T90_IPv2_S2_T5.raw",
+    "20130910_08_qEx_TT_T90_IP_lysC_IT1s.raw"
+  ]
+}

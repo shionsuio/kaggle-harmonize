@@ -1,0 +1,363 @@
+{
+  "pxd": "PXD025663",
+  "raw_files": [
+    "Lumos_2020_08_68_Vidal_F198S_CID.raw",
+    "2020_09_96_Q160_2_repeat_etHCD.raw",
+    "Lumos_2020_08_68_Vidal_F198S_HCD_etHCD.raw",
+    "2020_09_96_F198S_2_repeat_etHCD.raw",
+    "2020_09_96_AD_2_repeat_etHCD.raw",
+    "2020_09_96_F198S_2_repeat_CID.raw",
+    "Lumos_2020_07_47_taoprotein_Vidal_CID.raw",
+    "Lumos_2020_08_68_Vidal_Q160X_CID.raw",
+    "Lumos_2020_08_68_Vidal_Q160X_HCD_etHCD_2.raw",
+    "2020_09_96_Q160_2_repeat_CID.raw",
+    "2020_09_96_AD_2_repeat_CID.raw",
+    "Lumos_2020_07_47_taoprotein_Vidal_HCD_etHCD.raw"
+  ],
+  "anchor": {
+    "pxd": "PXD025663",
+    "source": "PRIDE_API",
+    "organism": [
+      {
+        "name": "Homo sapiens (human)",
+        "accession": "NEWT:9606"
+      }
+    ],
+    "instruments": [
+      {
+        "name": "Orbitrap Fusion Lumos",
+        "accession": "MS:1002732",
+        "sdrf_format": "AC=MS:1002732;NT=Orbitrap Fusion Lumos"
+      }
+    ],
+    "modifications": [],
+    "organism_parts": [
+      {
+        "name": "Brain",
+        "accession": "BTO:0000142"
+      }
+    ],
+    "diseases": [
+      {
+        "name": "Gerstmann-straussler-scheinker syndrome",
+        "accession": "DOID:4249"
+      },
+      {
+        "name": "Alzheimer's disease",
+        "accession": "DOID:10652"
+      },
+      {
+        "name": "Cerebral amyloid angiopathy",
+        "accession": "DOID:9246"
+      }
+    ],
+    "experiment_types": [
+      "Shotgun proteomics"
+    ],
+    "quantification_methods": [
+      "Spectrum counting"
+    ],
+    "keywords": [
+      "Brain",
+      "Tau",
+      "Gss",
+      "Prp-caa",
+      "Cryo-em",
+      "Seeding",
+      "Aprp",
+      "Neurodegeneration"
+    ],
+    "publications": [
+      {
+        "pubmed_id": "",
+        "doi": "10.1007/s00401-021-02336-w",
+        "ref": "Hallinan GI, Hoq MR, Ghosh M, Vago FS, Fernandez A, Garringer HJ, Vidal R, Jiang W, Ghetti B. Structure of Tau filaments in Prion protein amyloidoses. Acta Neuropathol. 2021 142(2):227-241"
+      }
+    ],
+    "inferred_fragmentation": null,
+    "inferred_ms2_analyzer": "orbitrap",
+    "inferred_ionization": "nanoESI",
+    "raw_files": [
+      "Lumos_2020_08_68_Vidal_F198S_CID.raw",
+      "2020_09_96_Q160_2_repeat_etHCD.raw",
+      "Lumos_2020_08_68_Vidal_F198S_HCD_etHCD.raw",
+      "2020_09_96_F198S_2_repeat_etHCD.raw",
+      "2020_09_96_AD_2_repeat_etHCD.raw",
+      "2020_09_96_F198S_2_repeat_CID.raw",
+      "Lumos_2020_07_47_taoprotein_Vidal_CID.raw",
+      "Lumos_2020_08_68_Vidal_Q160X_CID.raw",
+      "Lumos_2020_08_68_Vidal_Q160X_HCD_etHCD_2.raw",
+      "2020_09_96_Q160_2_repeat_CID.raw",
+      "2020_09_96_AD_2_repeat_CID.raw",
+      "Lumos_2020_07_47_taoprotein_Vidal_HCD_etHCD.raw"
+    ]
+  },
+  "steps": {
+    "STEP1_OVERVIEW": {
+      "confirmed": {
+        "Characteristics[Organism]": {
+          "value": "Homo sapiens",
+          "evidence": "In human neurodegenerative diseases associated with the intracellular aggregation of Tau protein",
+          "source": "manuscript"
+        },
+        "Characteristics[OrganismPart]": {
+          "value": "brain",
+          "evidence": "Tau filaments isolated from the brain of individuals affected by Prion-Protein cerebral amyloid angiopathy",
+          "source": "manuscript"
+        },
+        "Characteristics[Disease]": {
+          "value": "Prion-Protein cerebral amyloid angiopathy; Gerstmann–Sträussler–Scheinker disease",
+          "evidence": "individuals affected by Prion-Protein cerebral amyloid angiopathy (PrP-CAA) with a nonsense mutation in the PRNP gene... and Gerstmann–Sträussler–Scheinker (GSS) disease, with a missense mutation in the PRNP gene",
+          "source": "manuscript"
+        },
+        "Characteristics[GeneticModification]": {
+          "value": "PRNP Q160Ter mutation; PRNP F198S mutation",
+          "evidence": "nonsense mutation in the PRNP gene that leads to early termination of translation of PrP (Q160Ter or Q160X), and Gerstmann–Sträussler–Scheinker (GSS) disease, with a missense mutation in the PRNP gene that leads to an amino acid substitution at residue 198 (F198S)",
+          "source": "manuscript"
+        },
+        "Comment[AcquisitionMethod]": {
+          "value": "Mass spectrometry",
+          "evidence": "Mass spectrometry analyses of Tau filaments extracted from PrP-CAA (Q160X) and GSS (F198S) brains",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {
+        "Characteristics[CellType]": {
+          "candidates": [
+            "neuron"
+          ],
+          "reasoning": "論文中で 'neurofibrillary tangles (NFTs) made of filamentous Tau aggregates in neurons' と記載されており、Tauフィラメントがニューロンに存在することが示されている",
+          "needs": "サンプル調製方法でニューロン特異的な単離が行われたかの確認"
+        },
+        "Characteristics[MaterialType]": {
+          "candidates": [
+            "protein aggregate",
+            "neurofibrillary tangle"
+          ],
+          "reasoning": "Tauフィラメントや神経原線維変化(NFT)が解析対象として言及されているが、具体的な材料タイプの記載が不明確",
+          "needs": "Methods部分でのサンプル調製プロトコルの詳細"
+        }
+      },
+      "not_applicable": [
+        "Characteristics[CellLine]",
+        "Characteristics[Label]",
+        "Characteristics[Specimen]",
+        "Characteristics[Strain]",
+        "Characteristics[Treatment]",
+        "Characteristics[DevelopmentalStage]",
+        "Characteristics[Compound]",
+        "Characteristics[ConcentrationOfCompound]"
+      ],
+      "summary": "ヒト脳組織から、PRNP遺伝子変異を持つプリオン蛋白脳アミロイド血管症とGSS病患者のTauフィラメントを質量分析で解析した研究。遺伝子変異の詳細は確定したが、具体的な細胞タイプや材料調製法は Methods部分での確認が必要。培養細胞株は使用されていない。"
+    },
+    "STEP2_SAMPLE_PREP": {
+      "confirmed": {
+        "Characteristics[CleavageAgent]": {
+          "value": "Trypsin/Lys-C",
+          "evidence": "digested overnight with 2 µg Trypsin/Lys-C Mix Mass Spectrometry (1:100 protease:substrate ratio, Promega Corporation)",
+          "source": "manuscript"
+        },
+        "Characteristics[ReductionReagent]": {
+          "value": "TCEP",
+          "evidence": "The sample was reduced with 5 mM Tris(2-carboxyethyl)phosphine hydrochloride (TCEP)",
+          "source": "manuscript"
+        },
+        "Characteristics[AlkylationReagent]": {
+          "value": "CAM",
+          "evidence": "alkylated with 10 mM chloroacetamide (CAM)",
+          "source": "manuscript"
+        },
+        "Comment[Separation]": {
+          "value": "C18 reversed phase",
+          "evidence": "loaded onto a reversed phase PepMapTM RSLC C18 column (2 μm, 100 Å, 75 μm × 25 cm)",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {
+        "Characteristics[Modification]": {
+          "candidates": [
+            "Variable oxidation",
+            "Phosphorylation",
+            "Acetylation"
+          ],
+          "reasoning": "PEAKS X + Studio解析で 'including all PTMs' と記載されており、Tauタンパク質の一般的な修飾が検索対象に含まれていると推測される",
+          "needs": "PEAKS検索パラメータの詳細情報"
+        }
+      },
+      "not_applicable": [
+        "Characteristics[Label]",
+        "Characteristics[Modification].1",
+        "Characteristics[Modification].2",
+        "Characteristics[Modification].3",
+        "Characteristics[Modification].4",
+        "Characteristics[Modification].5",
+        "Characteristics[Modification].6",
+        "Characteristics[Depletion]",
+        "Characteristics[SpikedCompound]",
+        "Characteristics[SyntheticPeptide]",
+        "Comment[EnrichmentMethod]",
+        "Comment[FractionationMethod]",
+        "Comment[NumberOfFractions]"
+      ],
+      "summary": "質量分析用サンプル調製では、Trypsin/Lys-C消化、TCEP還元、CAM修飾、C18逆相分離が確定した。PTM検索が行われているが具体的な修飾タイプは不明。標識化学実験やフラクション分離は実施されておらず、標準的なショットガンプロテオミクス手法が用いられている。"
+    },
+    "STEP3_MS_SETTINGS": {
+      "confirmed": {
+        "Comment[Instrument]": {
+          "value": "Orbitrap Fusion Lumos",
+          "evidence": "Nano-LC–MS/MS analyses were performed on an EASY-nLC HPLC system (Thermo Fisher Scientific) coupled to an Orbitrap Fusion Lumos mass spectrometer (Thermo Fisher Scientific)",
+          "source": "manuscript"
+        },
+        "Comment[FragmentationMethod]": {
+          "value": "CID; HCD; ETD",
+          "evidence": "Replicate injections were run with the same LC and source methods (CID mode and EtHCD/HCD mode). CID MS2 scans were performed in the ion trap... The decision tree consisted of either HCD assisted ETD or HCD (30%) activation",
+          "source": "manuscript"
+        },
+        "Comment[AcquisitionMethod]": {
+          "value": "Data-dependent acquisition (DDA)",
+          "evidence": "the mass spectrometer method was operated in positive ion with a 3 s cycle time data-dependent acquisition method with advanced peak determination and Easy-IC",
+          "source": "manuscript"
+        },
+        "Comment[IonizationType]": {
+          "value": "Electrospray ionization (ESI)",
+          "evidence": "ion spray voltage was kept at 1.9 kV",
+          "source": "manuscript"
+        },
+        "Comment[MS2MassAnalyzer]": {
+          "value": "Ion trap",
+          "evidence": "CID MS2 scans were performed in the ion trap at rapid speed... 1e4 AGC target in rapid ion trap mode",
+          "source": "manuscript"
+        },
+        "Comment[CollisionEnergy]": {
+          "value": "35% normalized CID collision energy; 30% HCD",
+          "evidence": "35% normalized CID collision energy... either HCD assisted ETD or HCD (30%) activation",
+          "source": "manuscript"
+        },
+        "Comment[GradientTime]": {
+          "value": "85 min",
+          "evidence": "Peptides were eluted from 3 to 30% B over 85 min, 30 to 80% B over 3 min, 80 to 4% B for 4 min",
+          "source": "manuscript"
+        },
+        "Comment[FlowRateChromatogram]": {
+          "value": "450 nl/min",
+          "evidence": "loaded onto a reversed phase PepMapTM RSLC C18 column (2 μm, 100 Å, 75 μm × 25 cm) with Easy-Spray tip at 450 nl/min",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {
+        "Comment[PrecursorMassTolerance]": {
+          "candidates": [
+            "Standard Orbitrap tolerance",
+            "±10 ppm",
+            "±20 ppm"
+          ],
+          "reasoning": "PEAKS X + Studio解析が使用されており、一般的にOrbitrap装置では10-20 ppmの質量許容誤差が設定されるが、具体的な値の記載がない",
+          "needs": "データベース検索パラメータの詳細記載または補足資料"
+        },
+        "Comment[FragmentMassTolerance]": {
+          "candidates": [
+            "±0.5 Da",
+            "±1 Da"
+          ],
+          "reasoning": "イオントラップでMS2分析が行われているため、一般的には0.5-1 Daの質量許容誤差が使用されるが、具体的な設定値が記載されていない",
+          "needs": "データベース検索パラメータの詳細記載"
+        },
+        "Comment[NumberOfMissedCleavages]": {
+          "candidates": [
+            "2",
+            "3"
+          ],
+          "reasoning": "Trypsin/Lys-C消化が使用されており、PEAKS検索が実行されているが、具体的な切断見逃し許容数の記載がない。一般的には2-3が設定される",
+          "needs": "PEAKS検索パラメータの詳細情報"
+        }
+      },
+      "not_applicable": [],
+      "summary": "質量分析装置・設定パラメータは大部分が確定した。Orbitrap Fusion Lumos装置でCID/HCD/ETD断片化、DDA取得、85分グラジエント、450 nl/min流速が使用された。データベース検索における質量許容誤差と切断見逃し許容数は論文中に明記されておらず、PEAKS解析パラメータの詳細確認が必要。次ステップではデータベース検索・同定パラメータの詳細抽出を行う。"
+    },
+    "STEP4_RAW_FILES": {
+      "confirmed": {
+        "Characteristics[NumberOfSamples]": {
+          "value": "3",
+          "evidence": "AD Case 2, GSS (F198S) Case 2, and PrP-CAA (Q160X) case",
+          "source": "manuscript"
+        },
+        "FactorValue[Disease]": {
+          "value": "per_file",
+          "per_file": {
+            "Lumos_2020_08_68_Vidal_F198S_CID.raw": "GSS (F198S)",
+            "Lumos_2020_08_68_Vidal_F198S_HCD_etHCD.raw": "GSS (F198S)",
+            "2020_09_96_F198S_2_repeat_etHCD.raw": "GSS (F198S)",
+            "2020_09_96_F198S_2_repeat_CID.raw": "GSS (F198S)",
+            "Lumos_2020_08_68_Vidal_Q160X_CID.raw": "PrP-CAA (Q160X)",
+            "Lumos_2020_08_68_Vidal_Q160X_HCD_etHCD_2.raw": "PrP-CAA (Q160X)",
+            "2020_09_96_Q160_2_repeat_etHCD.raw": "PrP-CAA (Q160X)",
+            "2020_09_96_Q160_2_repeat_CID.raw": "PrP-CAA (Q160X)",
+            "2020_09_96_AD_2_repeat_etHCD.raw": "Alzheimer's disease",
+            "2020_09_96_AD_2_repeat_CID.raw": "Alzheimer's disease",
+            "Lumos_2020_07_47_taoprotein_Vidal_CID.raw": "Not specified",
+            "Lumos_2020_07_47_taoprotein_Vidal_HCD_etHCD.raw": "Not specified"
+          },
+          "evidence": "Filename tokens F198S, Q160X, Q160, and AD clearly indicate disease conditions matching the three cases described: GSS (F198S) Case 2, PrP-CAA (Q160X) case, and AD Case 2",
+          "source": "filename"
+        },
+        "FactorValue[GeneticModification]": {
+          "value": "per_file",
+          "per_file": {
+            "Lumos_2020_08_68_Vidal_F198S_CID.raw": "PRNP F198S mutation",
+            "Lumos_2020_08_68_Vidal_F198S_HCD_etHCD.raw": "PRNP F198S mutation",
+            "2020_09_96_F198S_2_repeat_etHCD.raw": "PRNP F198S mutation",
+            "2020_09_96_F198S_2_repeat_CID.raw": "PRNP F198S mutation",
+            "Lumos_2020_08_68_Vidal_Q160X_CID.raw": "PRNP Q160X mutation",
+            "Lumos_2020_08_68_Vidal_Q160X_HCD_etHCD_2.raw": "PRNP Q160X mutation",
+            "2020_09_96_Q160_2_repeat_etHCD.raw": "PRNP Q160X mutation",
+            "2020_09_96_Q160_2_repeat_CID.raw": "PRNP Q160X mutation",
+            "2020_09_96_AD_2_repeat_etHCD.raw": "Not Applicable",
+            "2020_09_96_AD_2_repeat_CID.raw": "Not Applicable",
+            "Lumos_2020_07_47_taoprotein_Vidal_CID.raw": "Not specified",
+            "Lumos_2020_07_47_taoprotein_Vidal_HCD_etHCD.raw": "Not specified"
+          },
+          "evidence": "Filename tokens F198S and Q160X/Q160 correspond to PRNP mutations described in the study",
+          "source": "filename"
+        }
+      },
+      "hypotheses": {
+        "Characteristics[BiologicalReplicate]": {
+          "candidates": [
+            "Technical replicates",
+            "Measurement replicates"
+          ],
+          "reasoning": "Files with 'repeat' token (2020_09_96_*_2_repeat_*) suggest replicate measurements, but unclear if biological or technical replicates",
+          "needs": "Clarification on whether samples are from same extraction or independent biological samples"
+        },
+        "Characteristics[NumberOfTechnicalReplicates]": {
+          "candidates": [
+            "2",
+            "4"
+          ],
+          "reasoning": "Multiple files per condition with different fragmentation methods (CID, HCD_etHCD) and some with 'repeat' designation suggest technical replicates",
+          "needs": "Clear definition of what constitutes technical vs biological replicates in this study"
+        },
+        "Comment[FractionIdentifier]": {
+          "candidates": [
+            "CID",
+            "HCD_etHCD",
+            "etHCD"
+          ],
+          "reasoning": "Filename tokens CID, HCD_etHCD, and etHCD likely indicate different fragmentation method fractions rather than chromatographic fractions",
+          "needs": "Confirmation whether these represent method variations or actual sample fractions"
+        }
+      },
+      "not_applicable": [
+        "Characteristics[NumberOfBiologicalReplicates]",
+        "FactorValue[Treatment]",
+        "FactorValue[Temperature]",
+        "FactorValue[Compound]",
+        "FactorValue[Bait]",
+        "FactorValue[CellPart]",
+        "FactorValue[ConcentrationOfCompound].1",
+        "FactorValue[FractionIdentifier]"
+      ],
+      "summary": "ファイル名解析により3つの疾患条件（GSS F198S変異、PrP-CAA Q160X変異、アルツハイマー病）と対応するPRNP遺伝子変異が確定した。各条件で複数の断片化法（CID、HCD/etHCD）による測定が実施されており、一部に'repeat'表記があることから技術的複製の可能性があるが、生物学的複製との区別は不明。全12ファイルが3つの疾患サンプルから得られており、各サンプルに対して異なる質量分析手法での測定が行われている。"
+    }
+  }
+}

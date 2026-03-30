@@ -1,0 +1,84 @@
+{
+  "pxd": "PXD001725",
+  "source": "PRIDE_API",
+  "organism": [
+    {
+      "name": "Homo sapiens (human)",
+      "accession": "NEWT:9606"
+    }
+  ],
+  "instruments": [
+    {
+      "name": "Q Exactive",
+      "accession": "MS:1001911",
+      "sdrf_format": "AC=MS:1001911;NT=Q Exactive"
+    }
+  ],
+  "modifications": [],
+  "organism_parts": [
+    {
+      "name": "Lymph node",
+      "accession": "BTO:0000784"
+    },
+    {
+      "name": "Melanocyte",
+      "accession": "CL:0000148"
+    }
+  ],
+  "diseases": [
+    {
+      "name": "Metastatic melanoma",
+      "accession": "DOID:4358"
+    }
+  ],
+  "experiment_types": [
+    "Shotgun proteomics"
+  ],
+  "quantification_methods": [],
+  "keywords": [
+    "Lymph node metastases",
+    "Malignant melanoma"
+  ],
+  "publications": [
+    {
+      "pubmed_id": "",
+      "doi": "10.1371/journal.pone.0123661",
+      "ref": "Welinder C, Pawłowski K, Sugihara Y, Yakovleva M, Jönsson G, Ingvar C, Lundgren L, Baldetorp B, Olsson H, Rezeli M, Jansson B, Laurell T, Fehniger T, Döme B, Malm J, Wieslander E, Nishimura T, Marko-Varga G. A Protein Deep Sequencing Evaluation of Metastatic Melanoma Tissues. PLoS One. 2015 Apr 13;10(4):e0123661. eCollection 2015"
+    }
+  ],
+  "inferred_fragmentation": "HCD",
+  "inferred_ms2_analyzer": "orbitrap",
+  "inferred_ionization": "nanoESI",
+  "raw_files": [
+    "130708_M98_002.raw",
+    "130708_M813_003.raw",
+    "130708_M787_001.raw",
+    "130708_M687_001.raw",
+    "130708_M504_002.raw",
+    "130708_M35_003.raw",
+    "130708_M829_002.raw",
+    "130708_M835_003.raw",
+    "130708_M813_002.raw",
+    "130708_M825_001.raw",
+    "130708_M835_002.raw",
+    "130708_M812_002.raw",
+    "130708_M504_001.raw",
+    "130708_M825_002.raw",
+    "130708_M787_002.raw",
+    "130708_M829_003.raw",
+    "130708_M835_001.raw",
+    "130708_M35_001.raw",
+    "130708_M812_003.raw",
+    "130708_M825_003.raw",
+    "130708_M812_001.raw",
+    "130708_M98_001.raw",
+    "130708_M504_003.raw",
+    "130708_M829_001.raw",
+    "130708_M813_001.raw",
+    "130708_M687_003.raw",
+    "130708_M687_002.raw",
+    "130708_M98_003.raw",
+    "130708_M787_003.raw",
+    "130708_M35_002.raw"
+  ]
+}

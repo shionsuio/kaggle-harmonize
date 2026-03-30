@@ -1,0 +1,609 @@
+{
+  "pxd": "PXD005355",
+  "raw_files": [
+    "00872_A07_P007483_B00_A00_R1.raw",
+    "00915_C08_P008017_B00_A00_R1.raw",
+    "00915_B04_P007984_B00_A00_R2.raw",
+    "00872_B07_P007484_B00_A00_R1.raw",
+    "00915_B01_P007960_B00_A00_R1.raw",
+    "00915_A03_P007975_B00_A00_R2.raw",
+    "00915_G03_P007981_B00_A00_R1.raw",
+    "00872_E05_P007471_B00_A00_R1.raw",
+    "00915_D05_P007994_B00_A00_R2.raw",
+    "00872_B02_P007444_B00_A00_R2.raw",
+    "00915_F02_P007972_B00_A00_R2.raw",
+    "00872_C02_P007445_B00_A00_R2.raw",
+    "00915_F05_P007996_B00_A00_R1.raw",
+    "00915_E03_P007979_B00_A00_R2.raw",
+    "00915_H06_P008006_B00_A00_R1.raw",
+    "00892_F04_P007589_B00_A00_R1.raw",
+    "00872_C05_P007469_B00_A00_R1.raw",
+    "00872_D01_P007438_B00_A00_R2.raw",
+    "00872_F06_P007480_B00_A00_R1.raw",
+    "00915_A04_P007983_B00_A00_R2.raw",
+    "00915_C01_P007961_B00_A00_R1.raw",
+    "00892_A04_P007584_B00_A00_R1.raw",
+    "00915_H03_P007982_B00_A00_R2.raw",
+    "00915_H07_P008014_B00_A00_R1.raw",
+    "00872_H08_P007498_B00_A00_R1.raw",
+    "00892_B06_P007601_B00_A00_R1.raw",
+    "00915_B02_P007968_B00_A00_R2.raw",
+    "00892_D02_P007571_B00_A00_R1.raw",
+    "00892_G07_P007614_B00_A00_R1.raw",
+    "00892_H07_P007615_B00_A00_R1.raw",
+    "00872_B04_P007460_B00_A00_R2.raw",
+    "00915_G02_P007973_B00_A00_R2.raw",
+    "00915_A01_P007959_B00_A00_R1.raw",
+    "00915_D02_P007970_B00_A00_R2.raw",
+    "00872_A06_P007475_B00_A00_R1.raw",
+    "00872_F07_P007488_B00_A00_R1.raw",
+    "00872_G04_P007465_B00_A00_R2.raw",
+    "00872_B05_P007468_B00_A00_R2.raw",
+    "00915_F06_P008004_B00_A00_R1.raw",
+    "00915_A02_P007967_B00_A00_R2.raw",
+    "00872_E04_P007463_B00_A00_R2.raw",
+    "00872_F04_P007464_B00_A00_R2.raw",
+    "00872_F05_P007472_B00_A00_R1.raw",
+    "00892_C02_P007570_B00_A00_R1.raw",
+    "00892_D08_P007619_B00_A00_R1.raw",
+    "00872_B01_P007436_B00_A00_R2.raw",
+    "00892_E08_P007620_B00_A00_R1.raw",
+    "00915_F01_P007964_B00_A00_R2.raw",
+    "00915_H05_P007998_B00_A00_R1.raw",
+    "00892_D01_P007563_B00_A00_R1.raw",
+    "00872_C06_P007477_B00_A00_R1.raw",
+    "00915_E08_P008019_B00_A00_R1.raw",
+    "00872_E02_P007447_B00_A00_R2.raw",
+    "00915_D07_P008010_B00_A00_R1.raw",
+    "00915_G08_P008021_B00_A00_R1.raw",
+    "00892_D05_P007595_B00_A00_R1.raw",
+    "00915_G05_P007997_B00_A00_R1.raw",
+    "00872_B03_P007452_B00_A00_R2.raw",
+    "00872_A03_P007451_B00_A00_R2.raw",
+    "00872_F02_P007448_B00_A00_R2.raw",
+    "00915_C05_P007993_B00_A00_R1.raw",
+    "00892_H05_P007599_B00_A00_R1.raw",
+    "00872_D04_P007462_B00_A00_R2.raw",
+    "00872_D06_P007478_B00_A00_R1.raw",
+    "00915_A07_P008007_B00_A00_R1.raw",
+    "00872_H06_P007482_B00_A00_R1.raw",
+    "00892_E07_P007612_B00_A00_R2.raw",
+    "00872_G06_P007481_B00_A00_R1.raw",
+    "00872_E06_P007479_B00_A00_R1.raw",
+    "00872_D07_P007486_B00_A00_R1.raw",
+    "00892_B05_P007593_B00_A00_R1.raw",
+    "00892_E02_P007572_B00_A00_R1.raw",
+    "00872_A02_P007443_B00_A00_R2.raw",
+    "00872_C04_P007461_B00_A00_R2.raw",
+    "00892_E05_P007596_B00_A00_R1.raw",
+    "01564_A04_P015997_B00_A00_R2.raw",
+    "00872_H01_P007442_B00_A00_R2.raw",
+    "00892_B08_P007617_B00_A00_R1.raw",
+    "00892_D03_P007579_B00_A00_R1.raw",
+    "00872_A08_P007491_B00_A00_R1.raw",
+    "00872_C01_P007437_B00_A00_R2.raw",
+    "00892_E01_P007564_B00_A00_R1.raw",
+    "00872_D05_P007470_B00_A00_R1.raw",
+    "00892_D04_P007587_B00_A00_R1.raw",
+    "00892_C04_P007586_B00_A00_R1.raw",
+    "00872_D02_P007446_B00_A00_R2.raw",
+    "00915_E07_P008011_B00_A00_R1.raw",
+    "00915_F04_P007988_B00_A00_R1.raw",
+    "00872_E01_P007439_B00_A00_R2.raw",
+    "00892_B04_P007585_B00_A00_R1.raw",
+    "00892_E06_P007604_B00_A00_R1.raw",
+    "00872_G07_P007489_B00_A00_R1.raw",
+    "00872_G08_P007497_B00_A00_R1.raw",
+    "00872_D03_P007454_B00_A00_R2.raw",
+    "00892_H08_P007623_B00_A00_R1.raw",
+    "00872_H03_P007458_B00_A00_R2.raw",
+    "00892_B03_P007577_B00_A00_R2.raw",
+    "00892_F08_P007621_B00_A00_R1.raw",
+    "00872_E07_P007487_B00_A00_R1.raw",
+    "00892_A03_P007576_B00_A00_R1.raw",
+    "00915_B06_P008000_B00_A00_R1.raw",
+    "00892_G02_P007574_B00_A00_R1.raw",
+    "00915_B03_P007976_B00_A00_R2.raw",
+    "00892_H01_P007567_B00_A00_R1.raw",
+    "00872_H02_P007450_B00_A00_R2.raw",
+    "00892_F05_P007597_B00_A00_R1.raw",
+    "00872_F03_P007456_B00_A00_R2.raw",
+    "00915_D04_P007986_B00_A00_R2.raw",
+    "00915_B05_P007992_B00_A00_R1.raw",
+    "00915_A08_P008015_B00_A00_R1.raw",
+    "00892_A05_P007592_B00_A00_R1.raw",
+    "00915_E01_P007963_B00_A00_R1.raw",
+    "00915_F08_P008020_B00_A00_R1.raw",
+    "00892_C01_P007562_B00_A00_R1.raw",
+    "00872_G03_P007457_B00_A00_R2.raw",
+    "00892_A01_P007560_B00_A00_R1.raw",
+    "00872_A04_P007459_B00_A00_R2.raw",
+    "00915_A06_P007999_B00_A00_R1.raw",
+    "00872_H04_P007466_B00_A00_R2.raw",
+    "00892_G04_P007590_B00_A00_R1.raw",
+    "00915_H02_P007974_B00_A00_R2.raw",
+    "00892_A06_P007600_B00_A00_R1.raw",
+    "00892_A07_P007608_B00_A00_R1.raw",
+    "00872_C03_P007453_B00_A00_R2.raw",
+    "00872_E03_P007455_B00_A00_R2.raw",
+    "00892_F06_P007605_B00_A00_R1.raw",
+    "00892_F03_P007581_B00_A00_R1.raw",
+    "00892_G08_P007622_B00_A00_R1.raw",
+    "00915_E04_P007987_B00_A00_R1.raw",
+    "00892_F01_P007565_B00_A00_R1.raw",
+    "00915_G07_P008013_B00_A00_R1.raw",
+    "00892_C07_P007610_B00_A00_R1.raw",
+    "00892_E03_P007580_B00_A00_R2.raw",
+    "00915_G01_P007965_B00_A00_R2.raw",
+    "00915_B07_P008008_B00_A00_R1.raw",
+    "00892_C03_P007578_B00_A00_R1.raw",
+    "00892_G01_P007566_B00_A00_R1.raw",
+    "00915_B08_P008016_B00_A00_R1.raw",
+    "00872_E08_P007495_B00_A00_R1.raw",
+    "00915_C03_P007977_B00_A00_R2.raw",
+    "00915_F07_P008012_B00_A00_R1.raw",
+    "00872_H07_P007490_B00_A00_R1.raw",
+    "00915_D08_P008018_B00_A00_R1.raw",
+    "00915_D06_P008002_B00_A00_R1.raw",
+    "00892_C05_P007594_B00_A00_R1.raw",
+    "00892_E04_P007588_B00_A00_R1.raw",
+    "00892_F02_P007573_B00_A00_R1.raw",
+    "00915_H01_P007966_B00_A00_R2.raw",
+    "00872_H05_P007474_B00_A00_R1_131217092459.raw",
+    "00872_G02_P007449_B00_A00_R2.raw",
+    "00892_A02_P007568_B00_A00_R2.raw",
+    "00915_D01_P007962_B00_A00_R1.raw",
+    "00915_C04_P007985_B00_A00_R2.raw",
+    "00915_E05_P007995_B00_A00_R1.raw",
+    "00892_G06_P007606_B00_A00_R1.raw",
+    "00915_G04_P007989_B00_A00_R1.raw",
+    "00872_A01_P007435_B00_A00_R1.raw",
+    "00892_G05_P007598_B00_A00_R1.raw",
+    "00915_H04_P007990_B00_A00_R1.raw",
+    "00892_B01_P007561_B00_A00_R1.raw",
+    "00872_A05_P007467_B00_A00_R2.raw",
+    "00915_A05_P007991_B00_A00_R1.raw",
+    "00892_D07_P007611_B00_A00_R1.raw",
+    "00892_D06_P007603_B00_A00_R1.raw",
+    "00892_A08_P007616_B00_A00_R1.raw",
+    "00892_C06_P007602_B00_A00_R1.raw",
+    "00915_D03_P007978_B00_A00_R2.raw",
+    "00915_H08_P008022_B00_A00_R2.raw",
+    "00915_G06_P008005_B00_A00_R1.raw",
+    "00892_B07_P007609_B00_A00_R1.raw",
+    "00892_H06_P007607_B00_A00_R1.raw",
+    "00892_G03_P007582_B00_A00_R1.raw",
+    "00915_E06_P008003_B00_A00_R1.raw",
+    "00872_C07_P007485_B00_A00_R1.raw",
+    "00872_G05_P007473_B00_A00_R1.raw",
+    "00915_C06_P008001_B00_A00_R1.raw",
+    "00915_F03_P007980_B00_A00_R1.raw",
+    "00892_F07_P007613_B00_A00_R1.raw",
+    "00872_G01_P007441_B00_A00_R2.raw",
+    "01638_C03_P015999_B00_A00_R3.raw",
+    "00872_F08_P007496_B00_A00_R1.raw",
+    "00892_C08_P007618_B00_A00_R1.raw",
+    "00892_H03_P007583_B00_A00_R1.raw",
+    "00915_C07_P008009_B00_A00_R1.raw",
+    "00892_B02_P007569_B00_A00_R2.raw",
+    "00872_D08_P007494_B00_A00_R1.raw",
+    "00892_H02_P007575_B00_A00_R1.raw",
+    "01564_B04_P015998_B00_A00_R2.raw",
+    "00872_C08_P007493_B00_A00_R1.raw",
+    "00872_B08_P007492_B00_A00_R1.raw",
+    "00872_B06_P007476_B00_A00_R1.raw",
+    "00915_E02_P007971_B00_A00_R2.raw",
+    "00915_C02_P007969_B00_A00_R2.raw",
+    "00872_F01_P007440_B00_A00_R2.raw",
+    "00892_H04_P007591_B00_A00_R1.raw"
+  ],
+  "anchor": {
+    "pxd": "PXD005355",
+    "source": "PRIDE_API",
+    "organism": [
+      {
+        "name": "Homo sapiens (human)",
+        "accession": "NEWT:9606"
+      }
+    ],
+    "instruments": [
+      {
+        "name": "LTQ Orbitrap Velos",
+        "accession": "MS:1001742",
+        "sdrf_format": "AC=MS:1001742;NT=LTQ Orbitrap Velos"
+      }
+    ],
+    "modifications": [],
+    "organism_parts": [
+      {
+        "name": "Colon",
+        "accession": "UBERON:0001155"
+      },
+      {
+        "name": "Rectal cancer cell line",
+        "accession": "BTO:0001532"
+      },
+      {
+        "name": "Rectum",
+        "accession": "UBERON:0001052"
+      },
+      {
+        "name": "Colonic cancer cell line",
+        "accession": "BTO:0000797"
+      }
+    ],
+    "diseases": [
+      {
+        "name": "Rectum cancer",
+        "accession": "DOID:1993"
+      },
+      {
+        "name": "Colon cancer",
+        "accession": "DOID:219"
+      }
+    ],
+    "experiment_types": [
+      "Shotgun proteomics"
+    ],
+    "quantification_methods": [
+      "MS1 intensity based label-free quantification method"
+    ],
+    "keywords": [
+      "Personalised medicine",
+      "Integrated full proteome subtypes",
+      "Crc65",
+      "Mass spectrometry",
+      "Correlation of mrna and protein abundance",
+      "Patient stratification",
+      "Consensus molecular subtypes",
+      "Cptac",
+      "Quasar2",
+      "Kinobeads"
+    ],
+    "publications": [
+      {
+        "pubmed_id": "",
+        "doi": "10.15252/msb.20177701",
+        "ref": "Frejno M, Zenezini Chiozzi R, Wilhelm M, Koch H, Zheng R, Klaeger S, Ruprecht B, Meng C, Kramer K, Jarzab A, Heinzlmeir S, Johnstone E, Domingo E, Kerr D, Jesinghaus M, Slotta-Huspenina J, Weichert W, Knapp S, Feller SM, Kuster B. Pharmacoproteomic characterisation of human colon and rectal cancer. Mol Syst Biol. 2017 13(11):951"
+      }
+    ],
+    "inferred_fragmentation": null,
+    "inferred_ms2_analyzer": "orbitrap",
+    "inferred_ionization": "nanoESI",
+    "raw_files": [
+      "00872_A07_P007483_B00_A00_R1.raw",
+      "00915_C08_P008017_B00_A00_R1.raw",
+      "00915_B04_P007984_B00_A00_R2.raw",
+      "00872_B07_P007484_B00_A00_R1.raw",
+      "00915_B01_P007960_B00_A00_R1.raw",
+      "00915_A03_P007975_B00_A00_R2.raw",
+      "00915_G03_P007981_B00_A00_R1.raw",
+      "00872_E05_P007471_B00_A00_R1.raw",
+      "00915_D05_P007994_B00_A00_R2.raw",
+      "00872_B02_P007444_B00_A00_R2.raw",
+      "00915_F02_P007972_B00_A00_R2.raw",
+      "00872_C02_P007445_B00_A00_R2.raw",
+      "00915_F05_P007996_B00_A00_R1.raw",
+      "00915_E03_P007979_B00_A00_R2.raw",
+      "00915_H06_P008006_B00_A00_R1.raw",
+      "00892_F04_P007589_B00_A00_R1.raw",
+      "00872_C05_P007469_B00_A00_R1.raw",
+      "00872_D01_P007438_B00_A00_R2.raw",
+      "00872_F06_P007480_B00_A00_R1.raw",
+      "00915_A04_P007983_B00_A00_R2.raw",
+      "00915_C01_P007961_B00_A00_R1.raw",
+      "00892_A04_P007584_B00_A00_R1.raw",
+      "00915_H03_P007982_B00_A00_R2.raw",
+      "00915_H07_P008014_B00_A00_R1.raw",
+      "00872_H08_P007498_B00_A00_R1.raw",
+      "00892_B06_P007601_B00_A00_R1.raw",
+      "00915_B02_P007968_B00_A00_R2.raw",
+      "00892_D02_P007571_B00_A00_R1.raw",
+      "00892_G07_P007614_B00_A00_R1.raw",
+      "00892_H07_P007615_B00_A00_R1.raw",
+      "00872_B04_P007460_B00_A00_R2.raw",
+      "00915_G02_P007973_B00_A00_R2.raw",
+      "00915_A01_P007959_B00_A00_R1.raw",
+      "00915_D02_P007970_B00_A00_R2.raw",
+      "00872_A06_P007475_B00_A00_R1.raw",
+      "00872_F07_P007488_B00_A00_R1.raw",
+      "00872_G04_P007465_B00_A00_R2.raw",
+      "00872_B05_P007468_B00_A00_R2.raw",
+      "00915_F06_P008004_B00_A00_R1.raw",
+      "00915_A02_P007967_B00_A00_R2.raw",
+      "00872_E04_P007463_B00_A00_R2.raw",
+      "00872_F04_P007464_B00_A00_R2.raw",
+      "00872_F05_P007472_B00_A00_R1.raw",
+      "00892_C02_P007570_B00_A00_R1.raw",
+      "00892_D08_P007619_B00_A00_R1.raw",
+      "00872_B01_P007436_B00_A00_R2.raw",
+      "00892_E08_P007620_B00_A00_R1.raw",
+      "00915_F01_P007964_B00_A00_R2.raw",
+      "00915_H05_P007998_B00_A00_R1.raw",
+      "00892_D01_P007563_B00_A00_R1.raw",
+      "00872_C06_P007477_B00_A00_R1.raw",
+      "00915_E08_P008019_B00_A00_R1.raw",
+      "00872_E02_P007447_B00_A00_R2.raw",
+      "00915_D07_P008010_B00_A00_R1.raw",
+      "00915_G08_P008021_B00_A00_R1.raw",
+      "00892_D05_P007595_B00_A00_R1.raw",
+      "00915_G05_P007997_B00_A00_R1.raw",
+      "00872_B03_P007452_B00_A00_R2.raw",
+      "00872_A03_P007451_B00_A00_R2.raw",
+      "00872_F02_P007448_B00_A00_R2.raw",
+      "00915_C05_P007993_B00_A00_R1.raw",
+      "00892_H05_P007599_B00_A00_R1.raw",
+      "00872_D04_P007462_B00_A00_R2.raw",
+      "00872_D06_P007478_B00_A00_R1.raw",
+      "00915_A07_P008007_B00_A00_R1.raw",
+      "00872_H06_P007482_B00_A00_R1.raw",
+      "00892_E07_P007612_B00_A00_R2.raw",
+      "00872_G06_P007481_B00_A00_R1.raw",
+      "00872_E06_P007479_B00_A00_R1.raw",
+      "00872_D07_P007486_B00_A00_R1.raw",
+      "00892_B05_P007593_B00_A00_R1.raw",
+      "00892_E02_P007572_B00_A00_R1.raw",
+      "00872_A02_P007443_B00_A00_R2.raw",
+      "00872_C04_P007461_B00_A00_R2.raw",
+      "00892_E05_P007596_B00_A00_R1.raw",
+      "01564_A04_P015997_B00_A00_R2.raw",
+      "00872_H01_P007442_B00_A00_R2.raw",
+      "00892_B08_P007617_B00_A00_R1.raw",
+      "00892_D03_P007579_B00_A00_R1.raw",
+      "00872_A08_P007491_B00_A00_R1.raw",
+      "00872_C01_P007437_B00_A00_R2.raw",
+      "00892_E01_P007564_B00_A00_R1.raw",
+      "00872_D05_P007470_B00_A00_R1.raw",
+      "00892_D04_P007587_B00_A00_R1.raw",
+      "00892_C04_P007586_B00_A00_R1.raw",
+      "00872_D02_P007446_B00_A00_R2.raw",
+      "00915_E07_P008011_B00_A00_R1.raw",
+      "00915_F04_P007988_B00_A00_R1.raw",
+      "00872_E01_P007439_B00_A00_R2.raw",
+      "00892_B04_P007585_B00_A00_R1.raw",
+      "00892_E06_P007604_B00_A00_R1.raw",
+      "00872_G07_P007489_B00_A00_R1.raw",
+      "00872_G08_P007497_B00_A00_R1.raw",
+      "00872_D03_P007454_B00_A00_R2.raw",
+      "00892_H08_P007623_B00_A00_R1.raw",
+      "00872_H03_P007458_B00_A00_R2.raw",
+      "00892_B03_P007577_B00_A00_R2.raw",
+      "00892_F08_P007621_B00_A00_R1.raw",
+      "00872_E07_P007487_B00_A00_R1.raw",
+      "00892_A03_P007576_B00_A00_R1.raw"
+    ]
+  },
+  "steps": {
+    "STEP1_OVERVIEW": {
+      "confirmed": {
+        "Characteristics[Organism]": {
+          "value": "Homo sapiens",
+          "evidence": "human colon and rectal cancer",
+          "source": "manuscript"
+        },
+        "Characteristics[Disease]": {
+          "value": "colorectal cancer",
+          "evidence": "colorectal cancer (CRC) cell lines, CRC patients, CRC tumours",
+          "source": "manuscript"
+        },
+        "Characteristics[MaterialType]": {
+          "value": "cell line",
+          "evidence": "65 colorectal cancer (CRC) cell lines, 52 CRC cell lines",
+          "source": "manuscript"
+        },
+        "Characteristics[Label]": {
+          "value": "label-free",
+          "evidence": "MS1 intensity based label-free quantification method",
+          "source": "anchor"
+        },
+        "Comment[AcquisitionMethod]": {
+          "value": "shotgun proteomics",
+          "evidence": "Experiment Type: Shotgun proteomics",
+          "source": "anchor"
+        }
+      },
+      "hypotheses": {
+        "Characteristics[OrganismPart]": {
+          "candidates": [
+            "colon",
+            "rectum"
+          ],
+          "reasoning": "タイトルで colon and rectal cancer と明記されており、アンカーでも Colon, Rectum が確認されている",
+          "needs": "具体的なサンプル由来組織の詳細情報"
+        },
+        "Characteristics[CellLine]": {
+          "candidates": [
+            "colorectal cancer cell lines"
+          ],
+          "reasoning": "65のCRC細胞株、52のCRC細胞株が使用されているが、具体的な細胞株名は論文概要では言及されていない",
+          "needs": "具体的な細胞株名（SW480, HCT116等）の記載"
+        }
+      },
+      "not_applicable": [
+        "Characteristics[CellType]",
+        "Characteristics[Specimen]",
+        "Characteristics[Strain]",
+        "Characteristics[GeneticModification]",
+        "Characteristics[Treatment]",
+        "Characteristics[DevelopmentalStage]",
+        "Characteristics[Compound]",
+        "Characteristics[ConcentrationOfCompound]"
+      ],
+      "summary": "ヒト大腸直腸がん細胞株を用いたラベルフリーショットガンプロテオミクス研究。65の細胞株でプロテオーム解析、52の細胞株で薬剤感受性試験を実施。具体的な細胞株名や治療条件の詳細は概要では不明のため、methodsセクションでの確認が必要。"
+    },
+    "STEP2_SAMPLE_PREP": {
+      "confirmed": {
+        "Characteristics[CleavageAgent]": {
+          "value": "trypsin",
+          "evidence": "proteins were digested overnight at 37°C and 700 rpm in a thermomixer using trypsin (Roche) at a protease‐to‐protein ratio of 1:50",
+          "source": "manuscript"
+        },
+        "Characteristics[ReductionReagent]": {
+          "value": "DTT",
+          "evidence": "3.5 mg of TCL per sample was reduced with 10 mM DTT",
+          "source": "manuscript"
+        },
+        "Characteristics[AlkylationReagent]": {
+          "value": "chloroacetamide",
+          "evidence": "subsequently alkylated using 55 mM chloroacetamide",
+          "source": "manuscript"
+        },
+        "Comment[FractionationMethod]": {
+          "value": "hydrophilic strong anion exchange (hSAX) chromatography",
+          "evidence": "For hydrophilic strong anion exchange (hSAX) chromatography, peptide solutions were first dried down in a Speed‐Vac",
+          "source": "manuscript"
+        },
+        "Comment[NumberOfFractions]": {
+          "value": "24",
+          "evidence": "We started collecting 48 fractions of 250 μl after 2 min of gradient time, which were subsequently combined to form 24 fractions",
+          "source": "manuscript"
+        },
+        "Comment[Separation]": {
+          "value": "reverse-phase chromatography",
+          "evidence": "peptides were separated on a 40‐cm analytical column (75 μm i.d., ReproSil‐Gold 120 C18 3 μm, Dr. Maisch) using a flow rate of 300 nl/min",
+          "source": "manuscript"
+        },
+        "Comment[EnrichmentMethod]": {
+          "value": "Kinobeads gamma (KBγ) pulldowns",
+          "evidence": "Kinobeads gamma (KBγ) pulldowns (biological triplicates) were performed in 96‐well filter plates",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {
+        "Characteristics[Modification]": {
+          "candidates": [
+            "Carbamidomethyl",
+            "Oxidation",
+            "Acetyl"
+          ],
+          "reasoning": "MaxQuantで検索時にCarbamidomethylation of cysteinesを固定修飾、oxidation of methioninesとacetylation of protein N‐terminiを可変修飾として設定している",
+          "needs": "修飾の具体的な残基情報とSDRF形式での正確な表記"
+        }
+      },
+      "not_applicable": [
+        "Characteristics[Label]",
+        "Characteristics[Depletion]",
+        "Characteristics[SpikedCompound]",
+        "Characteristics[SyntheticPeptide]"
+      ],
+      "summary": "サンプル調製では10mM DTTによる還元、55mM chloroacetamideによるアルキル化、トリプシン消化（1:50比率）が確認された。前処理にhSAX分画（24画分）、キノビーズ濃縮法を使用。修飾についてはMaxQuant検索パラメータから推定可能だが、SDRF形式での正確な表記確認が必要。"
+    },
+    "STEP3_MS_SETTINGS": {
+      "confirmed": {
+        "Comment[Instrument]": {
+          "value": "Orbitrap Velos (full proteomes), Orbitrap Elite (Kinobeads)",
+          "evidence": "Full proteome fractions were measured using nanoflow LC‐MS/MS by directly coupling an Eksigent nanoLC‐Ultra 1D+ (Eksigent) to an Orbitrap Velos mass spectrometer (Thermo Fisher)... Kinobeads eluates were measured using nanoflow LC‐MS/MS by directly coupling an Eksigent nanoLC‐Ultra 1D+ (Eksigent) to an Orbitrap Elite mass spectrometer (Thermo Fisher)",
+          "source": "manuscript"
+        },
+        "Comment[FragmentationMethod]": {
+          "value": "HCD",
+          "evidence": "automatically selecting the top 10 most intense precursor ions from the preceding full MS (MS1) spectrum with an isolation width of 2.0 Th for fragmentation using higher‐energy collisional dissociation (HCD) at 30% normalised collision energy",
+          "source": "manuscript"
+        },
+        "Comment[AcquisitionMethod]": {
+          "value": "data‐dependent acquisition",
+          "evidence": "The Orbitrap Velos was set to data‐dependent acquisition in positive ion mode",
+          "source": "manuscript"
+        },
+        "Comment[IonizationType]": {
+          "value": "nanoESI",
+          "evidence": "The eluate from the analytical column was sprayed via stainless steel emitters (Thermo) at a source voltage of 2.6 kV towards the orifice of the mass spectrometer",
+          "source": "anchor"
+        },
+        "Comment[MS2MassAnalyzer]": {
+          "value": "Orbitrap",
+          "evidence": "MS1 (360–1,300 m/z) and MS2 (precursor‐dependent m/z range, starting at m/z 100) spectra were acquired in the Orbitrap using a resolution of 30,000 and 7,500 at m/z 400",
+          "source": "manuscript"
+        },
+        "Comment[CollisionEnergy]": {
+          "value": "30% normalised collision energy",
+          "evidence": "for fragmentation using higher‐energy collisional dissociation (HCD) at 30% normalised collision energy",
+          "source": "manuscript"
+        },
+        "Comment[PrecursorMassTolerance]": {
+          "value": "4.5 ppm (final search), 20 ppm (first search)",
+          "evidence": "A first search with a precursor ion tolerance of 20 ppm was used to recalibrate raw data... After recalibration, the data were searched with a precursor ion tolerance of 4.5 ppm",
+          "source": "manuscript"
+        },
+        "Comment[FragmentMassTolerance]": {
+          "value": "20 ppm (full proteomes), 120 ppm (Kinobeads)",
+          "evidence": "The fragment ion tolerance was set to 20 ppm for FTMS (CRC65)... The fragment ion tolerance was set to 120 ppm for FTMS spectra instead of 20 ppm",
+          "source": "manuscript"
+        },
+        "Comment[NumberOfMissedCleavages]": {
+          "value": "2",
+          "evidence": "We set the digestion mode to fully tryptic, allowing for cleavage before proline (Trypsin/P) and a maximum of two missed cleavages",
+          "source": "manuscript"
+        },
+        "Comment[GradientTime]": {
+          "value": "120 min total (full proteomes), 110 min total (Kinobeads)",
+          "evidence": "This resulted in a turnaround time of 120 min per full proteome fraction... resulting in a turnaround time of 110 min per Kinobeads pulldown",
+          "source": "manuscript"
+        },
+        "Comment[FlowRateChromatogram]": {
+          "value": "300 nl/min",
+          "evidence": "Subsequently, peptides were separated on a 40‐cm analytical column (75 μm i.d., ReproSil‐Gold 120 C18 3 μm, Dr. Maisch) using a flow rate of 300 nl/min",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {},
+      "not_applicable": [],
+      "summary": "質量分析装置設定パラメータが詳細に確定。フルプロテオームはOrbitrap Velos、キノビーズはOrbitrap Eliteを使用。HCDフラグメンテーション、データ依存的取得、nanoESIイオン化が確認された。プリカーサー許容差4.5 ppm、フラグメント許容差20/120 ppm、見逃し切断2回、勾配時間120/110分、流速300 nl/minが設定された。衝突エネルギー30%で測定。"
+    },
+    "STEP4_RAW_FILES": {
+      "confirmed": {
+        "Characteristics[NumberOfBiologicalReplicates]": {
+          "value": "3",
+          "evidence": "Kinobeads gamma (KBγ) pulldowns (biological triplicates) were performed",
+          "source": "manuscript"
+        },
+        "Comment[FractionIdentifier]": {
+          "value": "per_file",
+          "per_file": {
+            "00872_A07_P007483_B00_A00_R1.raw": "1",
+            "00872_B07_P007484_B00_A00_R1.raw": "1",
+            "00915_B04_P007984_B00_A00_R2.raw": "2",
+            "00872_B02_P007444_B00_A00_R2.raw": "2",
+            "01638_C03_P015999_B00_A00_R3.raw": "3"
+          },
+          "evidence": "ファイル名末尾の_R1, _R2, _R3トークンは生物学的複製を示している。論文でKinobeads実験について'biological triplicates'と明記されており、3つの生物学的複製が存在することと一致",
+          "source": "filename"
+        }
+      },
+      "hypotheses": {
+        "Characteristics[NumberOfSamples]": {
+          "candidates": [
+            "65",
+            "195"
+          ],
+          "reasoning": "論文でCRC65パネル（65細胞株）が使用され、各細胞株でfull proteomeとkinobeads実験（3複製）が実施。rawファイル数（192ファイル）から推定すると、65細胞株×3複製=195サンプルの可能性",
+          "needs": "細胞株ごとの正確なサンプル数とファイル対応の確認"
+        },
+        "Characteristics[NumberOfTechnicalReplicates]": {
+          "candidates": [
+            "1"
+          ],
+          "reasoning": "論文では生物学的複製（biological triplicates）のみ言及され、技術的複製の記載がない。rawファイル名でも技術的複製を示すトークンは確認できない",
+          "needs": "技術的複製の有無に関する明確な記載の確認"
+        },
+        "FactorValue[Bait]": {
+          "candidates": [
+            "Kinobeads gamma"
+          ],
+          "reasoning": "Kinobeads gamma (KBγ) pulldownsが実施されており、これはキナーゼ濃縮のためのbaitとして機能している",
+          "needs": "Kinobeadsがbaitとして定義されるかの確認"
+        }
+      },
+      "not_applicable": [
+        "FactorValue[Treatment]",
+        "FactorValue[Temperature]",
+        "FactorValue[Disease]",
+        "FactorValue[GeneticModification]",
+        "FactorValue[Compound]",
+        "FactorValue[CellPart]",
+        "FactorValue[ConcentrationOfCompound].1"
+      ],
+      "summary": "生物学的複製数（3）がKinobeads実験で確定し、rawファイル名の_R1/_R2/_R3トークンから複製情報を抽出できた。CRC65パネル（65細胞株）の使用が確認されたが、正確なサンプル総数は要確認。技術的複製の記載はなく、温度・薬剤処理等の実験因子も基本培養条件以外は確認されなかった。Kinobeadsがbaitとして機能している可能性がある。"
+    }
+  }
+}

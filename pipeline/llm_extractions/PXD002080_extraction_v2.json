@@ -1,0 +1,453 @@
+{
+  "pxd": "PXD002080",
+  "raw_files": [
+    "TCGA-A6-3810-01A-22_W_VU_20121029_A0218_5E_R_FR13.raw",
+    "TCGA-AA-3552-01A-22_W_VU_20130125_A0218_9F_R_FR01.raw",
+    "TCGA-AA-3531-01A-22_W_VU_20130101_A0218_8G_R_FR03.raw",
+    "TCGA-A6-3807-01A-22_W_VU_20121019_A0218_4I_R_FR05.raw",
+    "TCGA-AA-3534-01A-22_W_VU_20130209_A0218_10B_R_FR12.raw",
+    "TCGA-AA-3525-01A-12_W_VU_20121210_A0218_7F_R_FR04.raw",
+    "TCGA-AA-3529-01A-12_W_VU_20121203_A0218_7B_R_FR02.raw",
+    "TCGA-AA-3529-01A-12_W_VU_20121204_A0218_7B_R_FR15.raw",
+    "TCGA-AA-3534-01A-22_W_VU_20130208_A0218_10B_R_FR06.raw",
+    "TCGA-AA-3552-01A-22_W_VU_20130125_A0218_9F_R_FR02.raw",
+    "TCGA-A6-3810-01A-22_W_VU_20121029_A0218_5E_R_FR07.raw",
+    "TCGA-AA-3529-01A-12_W_VU_20121203_A0218_7B_R_FR04.raw",
+    "TCGA-A6-3808-01A-22_W_VU_20121206_A0218_7D_R_FR12.raw",
+    "TCGA-A6-3810-01A-22_W_VU_20121029_A0218_5E_R_FR06.raw",
+    "TCGA-A6-3810-01A-22_W_VU_20121029_A0218_5E_R_FR11.raw",
+    "TCGA-AA-3552-01A-22_W_VU_20130126_A0218_9F_R_FR09.raw",
+    "TCGA-AA-3518-01A-11_W_VU_20120915_A0218_3F_R_FR01.raw",
+    "TCGA-A6-3810-01A-22_W_VU_20121029_A0218_5E_R_FR09.raw",
+    "TCGA-A6-3807-01A-22_W_VU_20121019_A0218_4I_R_FR06.raw",
+    "TCGA-AA-3529-01A-12_W_VU_20121203_A0218_7B_R_FR05.raw",
+    "TCGA-A6-3807-01A-22_W_VU_20121019_A0218_4I_R_FR01.raw",
+    "TCGA-AA-3518-01A-11_W_VU_20120916_A0218_3F_R_FR11.raw",
+    "TCGA-A6-3808-01A-22_W_VU_20121206_A0218_7D_R_FR02.raw",
+    "TCGA-AA-3518-01A-11_W_VU_20120916_A0218_3F_R_FR14.raw",
+    "TCGA-AA-3525-01A-12_W_VU_20121210_A0218_7F_R_FR03.raw",
+    "TCGA-AA-3529-01A-12_W_VU_20121203_A0218_7B_R_FR10.raw",
+    "TCGA-AA-3531-01A-22_W_VU_20130102_A0218_8G_R_FR09.raw",
+    "TCGA-AA-3518-01A-11_W_VU_20120915_A0218_3F_R_FR04.raw",
+    "TCGA-AA-3518-01A-11_W_VU_20120915_A0218_3F_R_FR03.raw",
+    "TCGA-AA-3531-01A-22_W_VU_20130101_A0218_8G_R_FR04.raw",
+    "TCGA-AA-3531-01A-22_W_VU_20130102_A0218_8G_R_FR11.raw",
+    "TCGA-AA-3529-01A-12_W_VU_20121204_A0218_7B_R_FR13.raw",
+    "TCGA-AA-3526-01A-11_W_VU_20130107_A0218_8J_R_FR15.raw",
+    "TCGA-AA-3534-01A-22_W_VU_20130208_A0218_10B_R_FR02.raw",
+    "TCGA-AA-3534-01A-22_W_VU_20130209_A0218_10B_R_FR14.raw",
+    "TCGA-A6-3810-01A-22_W_VU_20121029_A0218_5E_R_FR14.raw",
+    "TCGA-AA-3534-01A-22_W_VU_20130208_A0218_10B_R_FR05.raw",
+    "TCGA-AA-3526-01A-11_W_VU_20130106_A0218_8J_R_FR10.raw",
+    "TCGA-A6-3808-01A-22_W_VU_20121205_A0218_7D_R_FR01.raw",
+    "TCGA-AA-3518-01A-11_W_VU_20120916_A0218_3F_R_FR13.raw",
+    "TCGA-AA-3525-01A-12_W_VU_20121210_A0218_7F_R_FR06.raw",
+    "TCGA-AA-3525-01A-12_W_VU_20121210_A0218_7F_R_FR15.raw",
+    "TCGA-AA-3552-01A-22_W_VU_20130126_A0218_9F_R_FR15.raw",
+    "TCGA-A6-3810-01A-22_W_VU_20121029_A0218_5E_R_FR12.raw",
+    "TCGA-A6-3807-01A-22_W_VU_20121020_A0218_4I_R_FR13.raw",
+    "TCGA-AA-3531-01A-22_W_VU_20130101_A0218_8G_R_FR06.raw",
+    "TCGA-AA-3526-01A-11_W_VU_20130106_A0218_8J_R_FR06.raw",
+    "TCGA-AA-3552-01A-22_W_VU_20130126_A0218_9F_R_FR11.raw",
+    "TCGA-AA-3534-01A-22_W_VU_20130209_A0218_10B_R_FR10.raw",
+    "TCGA-AA-3552-01A-22_W_VU_20130126_A0218_9F_R_FR08.raw",
+    "TCGA-AA-3534-01A-22_W_VU_20130208_A0218_10B_R_FR04.raw",
+    "TCGA-AA-3531-01A-22_W_VU_20130101_A0218_8G_R_FR05.raw",
+    "TCGA-A6-3808-01A-22_W_VU_20121206_A0218_7D_R_FR05.raw",
+    "TCGA-AA-3525-01A-12_W_VU_20121209_A0218_7F_R_FR02.raw",
+    "TCGA-AA-3525-01A-12_W_VU_20121210_A0218_7F_R_FR09.raw",
+    "TCGA-AA-3526-01A-11_W_VU_20130106_A0218_8J_R_FR03.raw",
+    "TCGA-A6-3807-01A-22_W_VU_20121019_A0218_4I_R_FR09.raw",
+    "TCGA-AA-3534-01A-22_W_VU_20130209_A0218_10B_R_FR15.raw",
+    "TCGA-A6-3807-01A-22_W_VU_20121019_A0218_4I_R_FR04.raw",
+    "TCGA-AA-3526-01A-11_W_VU_20130106_A0218_8J_R_FR07.raw",
+    "TCGA-A6-3810-01A-22_W_VU_20121029_A0218_5E_R_FR05.raw",
+    "TCGA-AA-3526-01A-11_W_VU_20130106_A0218_8J_R_FR12.raw",
+    "TCGA-AA-3531-01A-22_W_VU_20130101_A0218_8G_R_FR01.raw",
+    "TCGA-AA-3526-01A-11_W_VU_20130106_A0218_8J_R_FR05.raw",
+    "TCGA-AA-3531-01A-22_W_VU_20130102_A0218_8G_R_FR15.raw",
+    "TCGA-AA-3525-01A-12_W_VU_20121210_A0218_7F_R_FR07.raw",
+    "TCGA-AA-3518-01A-11_W_VU_20120916_A0218_3F_R_FR08.raw",
+    "TCGA-AA-3529-01A-12_W_VU_20121203_A0218_7B_R_FR03.raw",
+    "TCGA-AA-3534-01A-22_W_VU_20130208_A0218_10B_R_FR07.raw",
+    "TCGA-AA-3525-01A-12_W_VU_20121210_A0218_7F_R_FR08.raw",
+    "TCGA-A6-3808-01A-22_W_VU_20121206_A0218_7D_R_FR10.raw",
+    "TCGA-AA-3552-01A-22_W_VU_20130125_A0218_9F_R_FR03.raw",
+    "TCGA-A6-3807-01A-22_W_VU_20121020_A0218_4I_R_FR12.raw",
+    "TCGA-AA-3526-01A-11_W_VU_20130106_A0218_8J_R_FR08.raw",
+    "TCGA-A6-3808-01A-22_W_VU_20121206_A0218_7D_R_FR08.raw",
+    "TCGA-AA-3526-01A-11_W_VU_20130106_A0218_8J_R_FR09.raw",
+    "TCGA-AA-3534-01A-22_W_VU_20130208_A0218_10B_R_FR03.raw",
+    "TCGA-A6-3810-01A-22_W_VU_20121030_A0218_5E_R_FR15.raw",
+    "TCGA-A6-3808-01A-22_W_VU_20121206_A0218_7D_R_FR13.raw",
+    "TCGA-AA-3518-01A-11_W_VU_20120915_A0218_3F_R_FR02.raw",
+    "TCGA-AA-3529-01A-12_W_VU_20121203_A0218_7B_R_FR08.raw",
+    "TCGA-AA-3529-01A-12_W_VU_20121204_A0218_7B_R_FR12.raw",
+    "TCGA-AA-3525-01A-12_W_VU_20121210_A0218_7F_R_FR11.raw",
+    "TCGA-AA-3526-01A-11_W_VU_20130106_A0218_8J_R_FR11.raw",
+    "TCGA-A6-3808-01A-22_W_VU_20121206_A0218_7D_R_FR15.raw",
+    "TCGA-AA-3552-01A-22_W_VU_20130126_A0218_9F_R_FR10.raw",
+    "TCGA-AA-3531-01A-22_W_VU_20130102_A0218_8G_R_FR12.raw",
+    "TCGA-A6-3807-01A-22_W_VU_20121020_A0218_4I_R_FR15.raw",
+    "TCGA-AA-3531-01A-22_W_VU_20130102_A0218_8G_R_FR08.raw",
+    "TCGA-A6-3808-01A-22_W_VU_20121206_A0218_7D_R_FR06.raw",
+    "TCGA-AA-3518-01A-11_W_VU_20120915_A0218_3F_R_FR06.raw",
+    "TCGA-AA-3525-01A-12_W_VU_20121210_A0218_7F_R_FR12.raw",
+    "TCGA-A6-3807-01A-22_W_VU_20121019_A0218_4I_R_FR02.raw",
+    "TCGA-A6-3808-01A-22_W_VU_20121206_A0218_7D_R_FR14.raw",
+    "TCGA-A6-3807-01A-22_W_VU_20121020_A0218_4I_R_FR14.raw",
+    "TCGA-AA-3531-01A-22_W_VU_20130102_A0218_8G_R_FR14.raw",
+    "TCGA-AA-3526-01A-11_W_VU_20130106_A0218_8J_R_FR14.raw",
+    "TCGA-AA-3529-01A-12_W_VU_20121203_A0218_7B_R_FR01.raw",
+    "TCGA-AA-3526-01A-11_W_VU_20130106_A0218_8J_R_FR02.raw",
+    "TCGA-AA-3525-01A-12_W_VU_20121210_A0218_7F_R_FR05.raw",
+    "TCGA-A6-3808-01A-22_W_VU_20121206_A0218_7D_R_FR09.raw",
+    "TCGA-AA-3552-01A-22_W_VU_20130126_A0218_9F_R_FR14.raw",
+    "TCGA-AA-3529-01A-12_W_VU_20121203_A0218_7B_R_FR09.raw",
+    "TCGA-AA-3525-01A-12_W_VU_20121210_A0218_7F_R_FR13.raw",
+    "TCGA-AA-3552-01A-22_W_VU_20130126_A0218_9F_R_FR12.raw",
+    "TCGA-AA-3518-01A-11_W_VU_20120915_A0218_3F_R_FR07.raw",
+    "TCGA-AA-3534-01A-22_W_VU_20130208_A0218_10B_R_FR01.raw",
+    "TCGA-AA-3529-01A-12_W_VU_20121203_A0218_7B_R_FR07.raw",
+    "TCGA-AA-3526-01A-11_W_VU_20130106_A0218_8J_R_FR04.raw",
+    "TCGA-A6-3807-01A-22_W_VU_20121019_A0218_4I_R_FR10.raw",
+    "TCGA-AA-3529-01A-12_W_VU_20121203_A0218_7B_R_FR06.raw",
+    "TCGA-AA-3552-01A-22_W_VU_20130126_A0218_9F_R_FR07.raw",
+    "TCGA-AA-3552-01A-22_W_VU_20130125_A0218_9F_R_FR06.raw",
+    "TCGA-AA-3531-01A-22_W_VU_20130102_A0218_8G_R_FR07.raw",
+    "TCGA-AA-3525-01A-12_W_VU_20121209_A0218_7F_R_FR01.raw",
+    "TCGA-AA-3518-01A-11_W_VU_20120916_A0218_3F_R_FR15.raw",
+    "TCGA-A6-3807-01A-22_W_VU_20121019_A0218_4I_R_FR08.raw",
+    "TCGA-A6-3808-01A-22_W_VU_20121206_A0218_7D_R_FR11.raw",
+    "TCGA-AA-3518-01A-11_W_VU_20120916_A0218_3F_R_FR10.raw",
+    "TCGA-A6-3810-01A-22_W_VU_20121029_A0218_5E_R_FR10.raw",
+    "TCGA-AA-3529-01A-12_W_VU_20121203_A0218_7B_R_FR11.raw",
+    "TCGA-AA-3534-01A-22_W_VU_20130209_A0218_10B_R_FR13.raw",
+    "TCGA-AA-3518-01A-11_W_VU_20120916_A0218_3F_R_FR09.raw",
+    "TCGA-A6-3807-01A-22_W_VU_20121019_A0218_4I_R_FR07.raw",
+    "TCGA-AA-3552-01A-22_W_VU_20130125_A0218_9F_R_FR04.raw",
+    "TCGA-AA-3518-01A-11_W_VU_20120916_A0218_3F_R_FR12.raw",
+    "TCGA-AA-3552-01A-22_W_VU_20130126_A0218_9F_R_FR13.raw",
+    "TCGA-A6-3810-01A-22_W_VU_20121029_A0218_5E_R_FR03.raw",
+    "TCGA-A6-3810-01A-22_W_VU_20121029_A0218_5E_R_FR04.raw",
+    "TCGA-A6-3810-01A-22_W_VU_20121029_A0218_5E_R_FR01.raw",
+    "TCGA-AA-3525-01A-12_W_VU_20121210_A0218_7F_R_FR14.raw",
+    "TCGA-AA-3525-01A-12_W_VU_20121210_A0218_7F_R_FR10.raw",
+    "TCGA-AA-3534-01A-22_W_VU_20130208_A0218_10B_R_FR09.raw",
+    "TCGA-AA-3531-01A-22_W_VU_20130102_A0218_8G_R_FR10.raw",
+    "TCGA-A6-3810-01A-22_W_VU_20121029_A0218_5E_R_FR08.raw",
+    "TCGA-A6-3808-01A-22_W_VU_20121206_A0218_7D_R_FR04.raw",
+    "TCGA-A6-3807-01A-22_W_VU_20121020_A0218_4I_R_FR11.raw",
+    "TCGA-AA-3534-01A-22_W_VU_20130208_A0218_10B_R_FR08.raw",
+    "TCGA-A6-3808-01A-22_W_VU_20121206_A0218_7D_R_FR03.raw",
+    "TCGA-AA-3531-01A-22_W_VU_20130102_A0218_8G_R_FR13.raw",
+    "TCGA-AA-3552-01A-22_W_VU_20130125_A0218_9F_R_FR05.raw",
+    "TCGA-AA-3534-01A-22_W_VU_20130209_A0218_10B_R_FR11.raw",
+    "TCGA-A6-3807-01A-22_W_VU_20121019_A0218_4I_R_FR03.raw",
+    "TCGA-AA-3526-01A-11_W_VU_20130106_A0218_8J_R_FR01.raw",
+    "TCGA-A6-3810-01A-22_W_VU_20121029_A0218_5E_R_FR02.raw",
+    "TCGA-AA-3526-01A-11_W_VU_20130106_A0218_8J_R_FR13.raw",
+    "TCGA-AA-3518-01A-11_W_VU_20120915_A0218_3F_R_FR05.raw",
+    "TCGA-AA-3529-01A-12_W_VU_20121204_A0218_7B_R_FR14.raw",
+    "TCGA-A6-3808-01A-22_W_VU_20121206_A0218_7D_R_FR07.raw",
+    "TCGA-AA-3531-01A-22_W_VU_20130101_A0218_8G_R_FR02.raw"
+  ],
+  "anchor": {
+    "pxd": "PXD002080",
+    "source": "PRIDE_API",
+    "organism": [
+      {
+        "name": "Homo sapiens (human)",
+        "accession": "NEWT:9606"
+      }
+    ],
+    "instruments": [
+      {
+        "name": "LTQ Orbitrap Velos",
+        "accession": "MS:1001742",
+        "sdrf_format": "AC=MS:1001742;NT=LTQ Orbitrap Velos"
+      }
+    ],
+    "modifications": [],
+    "organism_parts": [
+      {
+        "name": "Rectal cancer cell",
+        "accession": "BTO:0000193"
+      },
+      {
+        "name": "Colonic cancer cell",
+        "accession": "BTO:0000586"
+      }
+    ],
+    "diseases": [
+      {
+        "name": "Rectum adenocarcinoma",
+        "accession": "DOID:1996"
+      },
+      {
+        "name": "Colon adenocarcinoma",
+        "accession": "DOID:234"
+      }
+    ],
+    "experiment_types": [
+      "Shotgun proteomics"
+    ],
+    "quantification_methods": [],
+    "keywords": [
+      "Cptac cptac-tcga_colorectal_cancer cptac-vu"
+    ],
+    "publications": [
+      {
+        "pubmed_id": "",
+        "doi": "10.1038/nature13438",
+        "ref": "Zhang B, Wang J, Wang X, Zhu J, Liu Q, Shi Z, Chambers MC, Zimmerman LJ, Shaddox KF, Kim S, Davies SR, Wang S, Wang P, Kinsinger CR, Rivers RC, Rodriguez H, Townsend RR, Ellis MJ, Carr SA, Tabb DL, Coffey RJ, Slebos RJ, Liebler DC; NCI CPTAC. Proteogenomic characterization of human colon and rectal cancer. Nature. 2014 Sep 18;513(7518):382-7"
+      }
+    ],
+    "inferred_fragmentation": null,
+    "inferred_ms2_analyzer": "orbitrap",
+    "inferred_ionization": "nanoESI",
+    "raw_files": [
+      "TCGA-A6-3810-01A-22_W_VU_20121029_A0218_5E_R_FR13.raw",
+      "TCGA-AA-3552-01A-22_W_VU_20130125_A0218_9F_R_FR01.raw",
+      "TCGA-AA-3531-01A-22_W_VU_20130101_A0218_8G_R_FR03.raw",
+      "TCGA-A6-3807-01A-22_W_VU_20121019_A0218_4I_R_FR05.raw",
+      "TCGA-AA-3534-01A-22_W_VU_20130209_A0218_10B_R_FR12.raw",
+      "TCGA-AA-3525-01A-12_W_VU_20121210_A0218_7F_R_FR04.raw",
+      "TCGA-AA-3529-01A-12_W_VU_20121203_A0218_7B_R_FR02.raw",
+      "TCGA-AA-3529-01A-12_W_VU_20121204_A0218_7B_R_FR15.raw",
+      "TCGA-AA-3534-01A-22_W_VU_20130208_A0218_10B_R_FR06.raw",
+      "TCGA-AA-3552-01A-22_W_VU_20130125_A0218_9F_R_FR02.raw",
+      "TCGA-A6-3810-01A-22_W_VU_20121029_A0218_5E_R_FR07.raw",
+      "TCGA-AA-3529-01A-12_W_VU_20121203_A0218_7B_R_FR04.raw",
+      "TCGA-A6-3808-01A-22_W_VU_20121206_A0218_7D_R_FR12.raw",
+      "TCGA-A6-3810-01A-22_W_VU_20121029_A0218_5E_R_FR06.raw",
+      "TCGA-A6-3810-01A-22_W_VU_20121029_A0218_5E_R_FR11.raw",
+      "TCGA-AA-3552-01A-22_W_VU_20130126_A0218_9F_R_FR09.raw",
+      "TCGA-AA-3518-01A-11_W_VU_20120915_A0218_3F_R_FR01.raw",
+      "TCGA-A6-3810-01A-22_W_VU_20121029_A0218_5E_R_FR09.raw",
+      "TCGA-A6-3807-01A-22_W_VU_20121019_A0218_4I_R_FR06.raw",
+      "TCGA-AA-3529-01A-12_W_VU_20121203_A0218_7B_R_FR05.raw",
+      "TCGA-A6-3807-01A-22_W_VU_20121019_A0218_4I_R_FR01.raw",
+      "TCGA-AA-3518-01A-11_W_VU_20120916_A0218_3F_R_FR11.raw",
+      "TCGA-A6-3808-01A-22_W_VU_20121206_A0218_7D_R_FR02.raw",
+      "TCGA-AA-3518-01A-11_W_VU_20120916_A0218_3F_R_FR14.raw",
+      "TCGA-AA-3525-01A-12_W_VU_20121210_A0218_7F_R_FR03.raw",
+      "TCGA-AA-3529-01A-12_W_VU_20121203_A0218_7B_R_FR10.raw",
+      "TCGA-AA-3531-01A-22_W_VU_20130102_A0218_8G_R_FR09.raw"
+    ]
+  },
+  "steps": {
+    "STEP1_OVERVIEW": {
+      "confirmed": {
+        "Characteristics[Organism]": {
+          "value": "Homo sapiens",
+          "evidence": "human colon and rectal cancer",
+          "source": "manuscript"
+        },
+        "Characteristics[OrganismPart]": {
+          "value": "colon, rectum",
+          "evidence": "colon and rectal tumors",
+          "source": "manuscript"
+        },
+        "Characteristics[Disease]": {
+          "value": "colon cancer, rectal cancer",
+          "evidence": "human colon and rectal cancer",
+          "source": "manuscript"
+        },
+        "Characteristics[MaterialType]": {
+          "value": "tumor tissue",
+          "evidence": "colon and rectal tumors previously characterized by the Cancer Genome Atlas (TCGA)",
+          "source": "manuscript"
+        },
+        "Comment[AcquisitionMethod]": {
+          "value": "shotgun proteomics",
+          "evidence": "We analyzed proteomes of colon and rectal tumors",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {
+        "Characteristics[Label]": {
+          "candidates": [
+            "label-free"
+          ],
+          "reasoning": "ショットガンプロテオミクス実験で、TMT/iTRAQ/SILACの記載がないため",
+          "needs": "実験手法セクションでの標識法の明示的記載"
+        }
+      },
+      "not_applicable": [
+        "Characteristics[CellType]",
+        "Characteristics[CellLine]",
+        "Characteristics[Specimen]",
+        "Characteristics[Strain]",
+        "Characteristics[GeneticModification]",
+        "Characteristics[Treatment]",
+        "Characteristics[DevelopmentalStage]",
+        "Characteristics[Compound]",
+        "Characteristics[ConcentrationOfCompound]"
+      ],
+      "summary": "ヒトの大腸・直腸がん腫瘍組織を用いたプロテオゲノミクス研究であることが確定。TCGAデータとの統合解析。細胞株情報や実験処理の詳細は記載なし。標識法については推測段階で、実験手法セクションでの確認が必要。"
+    },
+    "STEP2_SAMPLE_PREP": {
+      "confirmed": {
+        "Characteristics[CleavageAgent]": {
+          "value": "trypsin",
+          "evidence": "tryptic peptide digests were analyzed by multidimensional liquid chromatography-tandem mass spectrometry",
+          "source": "manuscript"
+        },
+        "Comment[Separation]": {
+          "value": "multidimensional liquid chromatography",
+          "evidence": "tryptic peptide digests were analyzed by multidimensional liquid chromatography-tandem mass spectrometry",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {
+        "Characteristics[Label]": {
+          "candidates": [
+            "label-free"
+          ],
+          "reasoning": "前ステップからの継続。ショットガンプロテオミクスでスペクトルカウントベースの定量を使用しており、TMT/iTRAQ/SILACの記載がない",
+          "needs": "Supplementary Methodsまたは実験プロトコル詳細での標識法の明記"
+        },
+        "Comment[FractionationMethod]": {
+          "candidates": [
+            "multidimensional liquid chromatography",
+            "2D-LC"
+          ],
+          "reasoning": "multidimensional liquid chromatographyと記載されており、何らかの分画が行われている可能性が高い",
+          "needs": "具体的な分画方法の詳細（SCX、SAX、pH分画など）"
+        }
+      },
+      "not_applicable": [
+        "Characteristics[AlkylationReagent]",
+        "Characteristics[ReductionReagent]",
+        "Characteristics[Modification]",
+        "Characteristics[Modification].1",
+        "Characteristics[Modification].2",
+        "Characteristics[Modification].3",
+        "Characteristics[Modification].4",
+        "Characteristics[Modification].5",
+        "Characteristics[Modification].6",
+        "Characteristics[Depletion]",
+        "Characteristics[SpikedCompound]",
+        "Characteristics[SyntheticPeptide]",
+        "Comment[EnrichmentMethod]",
+        "Comment[NumberOfFractions]"
+      ],
+      "summary": "サンプル調製についてはトリプシン消化が確定。分離手法として多次元液体クロマトグラフィーを使用することが確定したが、具体的な分画方法は不明。標識法については引き続きlabel-freeが有力候補。還元・アルキル化試薬や修飾については記載なし。Supplementary Methodsでの詳細プロトコル確認が必要。"
+    },
+    "STEP3_MS_SETTINGS": {
+      "confirmed": {
+        "Comment[Instrument]": {
+          "value": "LTQ Orbitrap Velos",
+          "evidence": "PRIDE DATABASEから確認済み - Instrument: LTQ Orbitrap Velos (MS:1001742)",
+          "source": "anchor"
+        },
+        "Comment[IonizationType]": {
+          "value": "nanoESI",
+          "evidence": "PRIDE DATABASEから確認済み - Ionization (from instrument): nanoESI",
+          "source": "anchor"
+        },
+        "Comment[MS2MassAnalyzer]": {
+          "value": "orbitrap",
+          "evidence": "PRIDE DATABASEから確認済み - MS2 Analyzer (from instrument): orbitrap",
+          "source": "anchor"
+        },
+        "Comment[AcquisitionMethod]": {
+          "value": "shotgun proteomics",
+          "evidence": "PRIDE DATABASEから確認済み - Experiment Type: Shotgun proteomics。論文テキストでも「multidimensional liquid chromatography-tandem mass spectrometry」「Quantitative proteomic comparisons were based on spectral count data」と記載",
+          "source": "anchor/manuscript"
+        }
+      },
+      "hypotheses": {
+        "Comment[FragmentationMethod]": {
+          "candidates": [
+            "CID",
+            "HCD"
+          ],
+          "reasoning": "LTQ Orbitrap Velosは通常CIDまたはHCDを使用するが、論文テキストに具体的な記載がない",
+          "needs": "Supplementary Methodsまたは機器設定の詳細記載"
+        },
+        "Comment[NumberOfMissedCleavages]": {
+          "candidates": [
+            "2"
+          ],
+          "reasoning": "前ステップでtrypsinが確定しており、一般的にtrypsin消化では2回のmissed cleavageが標準設定",
+          "needs": "データベース検索パラメータの詳細記載"
+        }
+      },
+      "not_applicable": [
+        "Comment[CollisionEnergy]",
+        "Comment[PrecursorMassTolerance]",
+        "Comment[FragmentMassTolerance]",
+        "Comment[GradientTime]",
+        "Comment[FlowRateChromatogram]"
+      ],
+      "summary": "質量分析装置についてはPRIDEデータベースから LTQ Orbitrap Velos、nanoESI、orbitrap MS2アナライザーが確定。ショットガンプロテオミクス手法も確定。フラグメンテーション法やMS検索パラメータ、LC条件については論文テキストに記載がなく、Supplementary Methodsでの確認が必要。"
+    },
+    "STEP4_RAW_FILES": {
+      "confirmed": {
+        "Comment[FractionIdentifier]": {
+          "value": "per_file",
+          "per_file": {
+            "TCGA-A6-3810-01A-22_W_VU_20121029_A0218_5E_R_FR01.raw": "1",
+            "TCGA-A6-3810-01A-22_W_VU_20121029_A0218_5E_R_FR02.raw": "2",
+            "TCGA-A6-3810-01A-22_W_VU_20121029_A0218_5E_R_FR03.raw": "3",
+            "TCGA-AA-3552-01A-22_W_VU_20130125_A0218_9F_R_FR01.raw": "1",
+            "TCGA-AA-3552-01A-22_W_VU_20130125_A0218_9F_R_FR02.raw": "2"
+          },
+          "evidence": "All raw filenames contain 'FR' followed by 2-digit numbers (FR01-FR15), indicating fraction identifiers. Pattern: _FR[01-15] at end of each filename",
+          "source": "filename"
+        },
+        "Characteristics[NumberOfSamples]": {
+          "value": "8",
+          "evidence": "Raw filenames show 8 unique TCGA sample identifiers: A6-3810, AA-3552, AA-3531, A6-3807, AA-3534, AA-3525, AA-3529, AA-3526, A6-3808, AA-3518",
+          "source": "filename"
+        },
+        "FactorValue[FractionIdentifier]": {
+          "value": "per_file",
+          "per_file": {
+            "TCGA-A6-3810-01A-22_W_VU_20121029_A0218_5E_R_FR01.raw": "1",
+            "TCGA-A6-3810-01A-22_W_VU_20121029_A0218_5E_R_FR02.raw": "2",
+            "TCGA-A6-3810-01A-22_W_VU_20121029_A0218_5E_R_FR03.raw": "3"
+          },
+          "evidence": "Each file represents a different fraction (FR01-FR15) from multidimensional liquid chromatography separation",
+          "source": "filename"
+        }
+      },
+      "hypotheses": {
+        "Characteristics[BiologicalReplicate]": {
+          "candidates": [
+            "1"
+          ],
+          "reasoning": "TCGA sample identifiers in filenames suggest each represents a different biological sample/patient, not replicates of the same sample",
+          "needs": "Confirmation whether each TCGA ID represents a different patient or if some are replicates"
+        },
+        "Characteristics[NumberOfBiologicalReplicates]": {
+          "candidates": [
+            "1"
+          ],
+          "reasoning": "Each unique TCGA sample ID appears to represent a different patient tumor sample, suggesting no biological replicates",
+          "needs": "Verification of experimental design - whether samples are independent patients or replicates"
+        },
+        "Characteristics[NumberOfTechnicalReplicates]": {
+          "candidates": [
+            "1"
+          ],
+          "reasoning": "No clear technical replicate indicators in filenames. Each fraction from a sample appears to be run once",
+          "needs": "Confirmation whether any samples were analyzed multiple times technically"
+        }
+      },
+      "not_applicable": [
+        "FactorValue[Treatment]",
+        "FactorValue[Temperature]",
+        "FactorValue[Disease]",
+        "FactorValue[GeneticModification]",
+        "FactorValue[Compound]",
+        "FactorValue[Bait]",
+        "FactorValue[CellPart]",
+        "FactorValue[ConcentrationOfCompound].1"
+      ],
+      "summary": "Raw file analysis confirmed 8 different TCGA tumor samples were analyzed using multidimensional liquid chromatography with 15 fractions each (FR01-FR15). Each sample appears to represent a different patient, with no clear biological or technical replicates indicated in filenames. The fractionation strategy is consistent with the previously confirmed multidimensional LC separation method. Disease information is embedded in the study context (colon/rectal cancer) rather than as experimental factors."
+    }
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "pxd": "PXD005207",
+  "source": "PRIDE_API",
+  "organism": [
+    {
+      "name": "Plasmodium falciparum",
+      "accession": "NEWT:5833"
+    }
+  ],
+  "instruments": [
+    {
+      "name": "Orbitrap Fusion",
+      "accession": "MS:1002416",
+      "sdrf_format": "AC=MS:1002416;NT=Orbitrap Fusion"
+    }
+  ],
+  "modifications": [],
+  "organism_parts": [
+    {
+      "name": "Cell",
+      "accession": "CL:0000000"
+    }
+  ],
+  "diseases": [
+    {
+      "name": "Disease free",
+      "accession": "DOID:0000018"
+    }
+  ],
+  "experiment_types": [
+    "Shotgun proteomics"
+  ],
+  "quantification_methods": [
+    "iTRAQ"
+  ],
+  "keywords": [
+    "Orbitrap fusion",
+    "Phosphoproteome"
+  ],
+  "publications": [
+    {
+      "pubmed_id": "",
+      "doi": "10.1038/s41467-017-00053-1",
+      "ref": "Kumar S, Kumar M, Ekka R, Dvorin JD, Paul AS, Madugundu AK, Gilberger T, Gowda H, Duraisingh MT, Keshava Prasad TS, Sharma P. PfCDPK1 mediated signaling in erythrocytic stages of Plasmodium falciparum. Nat Commun. 2017 8(1):63"
+    }
+  ],
+  "inferred_fragmentation": null,
+  "inferred_ms2_analyzer": "orbitrap",
+  "inferred_ionization": "nanoESI",
+  "raw_files": [
+    "CDPK1_TP_01_R1.raw",
+    "Plfalci_TP_iTRAQ12_R2.raw",
+    "Plasmo_TP4_R3.raw",
+    "CDPK1_TP_8_R5.raw",
+    "Plfalci_TP_iTRAQ10_R2.raw",
+    "Plasmo_TP1_R3.raw",
+    "Plasmo_TP12_R3.raw",
+    "CDPK1_phospho_R4_9.raw",
+    "CDPK1_phospho_R4_8.raw",
+    "Plasmo_TP3_R3.raw",
+    "CDPK1_TP_09_R1.raw",
+    "CDPK1_Phospho_9_R3.raw",
+    "CDPK1_TP_7_R5.raw",
+    "CDPK1_Phospho_5_R3.raw",
+    "CDPK1_TP_5_R4.raw",
+    "CDPK1_phospho_R4_7.raw",
+    "CDPK1_phospho_12_R5.raw",
+    "CDPK1_phospho_2_R5.raw",
+    "CDPK1_TP_08_R1.raw",
+    "CDPK1_TP_8_R4.raw",
+    "CDPK1_Phospho_iTRAQ_5_R1.raw",
+    "CDPK1_Phospho_iTRAQ_12_R1.raw",
+    "CDPK1_phospho_7_R5.raw",
+    "Plasmo_TP7_R3.raw",
+    "CDPK1_TP_3_R4.raw",
+    "CDPK1_Phospho_iTRAQ5_R2.raw",
+    "PKARCDPK1_invitrokinase.raw",
+    "CDPK1_Phospho_iTRAQ_4_R1.raw",
+    "CDPK1_TP_2_R5.raw",
+    "CDPK1_TP_1_R5.raw",
+    "CDPK1_TP_10_R4.raw",
+    "CDPK1_phospho_14_R5.raw",
+    "CDPK1_Phospho_iTRAQ8_Re_R2.raw",
+    "CDPK1_Phospho_11_R3.raw",
+    "CDPK1_Phospho_iTRAQ4_R2.raw",
+    "Plfalci_TP_iTRAQ8_R2.raw",
+    "CDPK1_phospho_R4_11.raw",
+    "CDPK1_phospho_13_R5.raw",
+    "Plfalci_TP_iTRAQ7_R2.raw",
+    "CDPK1_Phospho_iTRAQ7_Re_R2.raw",
+    "CDPK1_Phospho_iTRAQ_1Re_R1.raw",
+    "CDPK1_Phospho_6_R3.raw",
+    "CDPK1_phospho_R4_4.raw",
+    "Plasmo_TP6_R3.raw",
+    "CDPK1_Phospho_iTRAQ_6_R1.raw",
+    "CDPK1_phospho_R4_2.raw",
+    "CDPK1_phospho_6_R5.raw",
+    "CDPK1_Phospho_iTRAQ2_Re_R2.raw",
+    "Plasmo_TP10_R3.raw",
+    "CDPK1_TP_7_R4.raw",
+    "Plfalci_TP_iTRAQ5_R2.raw",
+    "CDPK1_phospho_R4_12.raw",
+    "CDPK1_phospho_3_R5.raw",
+    "CDPK1_Phospho_iTRAQ7_R2.raw",
+    "Plfalci_TP_iTRAQ6_R2.raw",
+    "CDPK1_Phospho_iTRAQ_10_R1.raw",
+    "CDPK1_Phospho_iTRAQ2_R2.raw",
+    "CDPK1_phospho_R4_3.raw",
+    "CDPK1_TP_2_R4.raw",
+    "CDPK1_TP_4_R5.raw",
+    "CDPK1_TP_02_R1.raw",
+    "CDPK1_7_TP_R4.raw",
+    "CDPK1_Phospho_iTRAQ6_Re_R2.raw",
+    "CDPK1_Phospho_iTRAQ9_Re_R2.raw",
+    "Plasmo_TP9_R3.raw",
+    "CDPK1_phospho_R4_5.raw",
+    "CDPK1_TP_1_R4.raw",
+    "CDPK1_Phospho_4_R3.raw",
+    "CDPK1_phospho_9_R5.raw",
+    "CDPK1_TP_06_R1.raw",
+    "CDPK1_TP_05_R1.raw",
+    "CDPK1_Phospho_7_R3.raw",
+    "CDPK1_TP_11_R1.raw",
+    "CDPK1_TP_8_Re_R4.raw",
+    "CDPK1_Phospho_iTRAQ_8_R1.raw",
+    "CDPK1_Phospho_8_R3.raw",
+    "CDPK1_Phospho_iTRAQ_1_R1.raw",
+    "CDPK1_phospho_8_R5.raw",
+    "CDPK1_Phospho_iTRAQ9_R2.raw",
+    "Plfalci_TP_iTRAQ3_R2.raw",
+    "CDPK1_TP_3_R5.raw",
+    "Plasmo_TP5_R3.raw",
+    "CDPK1_Phospho_iTRAQ_11_R1.raw",
+    "CDPK1_Phospho_1_R3.raw",
+    "CDPK1_Phospho_3_R3.raw",
+    "CDPK1_TP_10_R1.raw",
+    "CDPK1_TP_5_R5.raw",
+    "CDPK1_Phospho_iTRAQ12_R2.raw",
+    "CDPK1_phospho_R4_6.raw",
+    "CDPK1_Phospho_iTRAQ_7_R1.raw",
+    "CDPK1_Phospho_2_Re_R3.raw"
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "pxd": "PXD000652",
+  "source": "PRIDE_API",
+  "organism": [
+    {
+      "name": "Homo sapiens (human)",
+      "accession": "NEWT:9606"
+    }
+  ],
+  "instruments": [
+    {
+      "name": "LTQ Orbitrap",
+      "accession": "MS:1000449",
+      "sdrf_format": "AC=MS:1000449;NT=LTQ Orbitrap"
+    }
+  ],
+  "modifications": [],
+  "organism_parts": [
+    {
+      "name": "Cerebrospinal fluid",
+      "accession": "BTO:0000237"
+    }
+  ],
+  "diseases": [],
+  "experiment_types": [
+    "Bottom-up proteomics"
+  ],
+  "quantification_methods": [],
+  "keywords": [
+    "Homo sapiens",
+    "Cerebrospinal fluid",
+    "Lc-ms/ms"
+  ],
+  "publications": [
+    {
+      "pubmed_id": "",
+      "doi": "",
+      "ref": "Guldbrandsen A, Vethe H, Farag Y, Oveland E, Garberg H, Berle M, Myhr KM, Opsahl JA, Barsnes H, Berven FS. In-depth characterization of the cerebrospinal fluid proteome displayed through the CSF Proteome Resource (CSF-PR). Mol Cell Proteomics. 2014 Jul 18. pii: mcp.M114.038554"
+    }
+  ],
+  "inferred_fragmentation": "CID",
+  "inferred_ms2_analyzer": "orbitrap",
+  "inferred_ionization": "nanoESI",
+  "raw_files": [
+    "HV_map_B9.raw",
+    "HV_map_B15.raw",
+    "HV_map_B30.raw",
+    "HV_map_B17.raw",
+    "HV_map_B12.raw",
+    "HV_map_B13.raw",
+    "HV_map_B5.raw",
+    "HV_map_B2.raw",
+    "HV_map_B42ny.raw",
+    "HV_map_B21.raw",
+    "HV_map_B7B8.raw",
+    "HV_map_B41.raw",
+    "HV_map_B43.raw",
+    "HV_map_B11.raw",
+    "HV_map_B36.raw",
+    "HV_map_B23.raw",
+    "HV_map_B25.raw",
+    "HV_map_B37.raw",
+    "HV_map_B20.raw",
+    "HV_map_B22.raw",
+    "HV_map_B26.raw",
+    "HV_map_B3.raw",
+    "HV_map_B32.raw",
+    "HV_map_B4.raw",
+    "HV_map_B46.raw",
+    "HV_map_B34.raw",
+    "HV_map_B18.raw",
+    "HV_map_B27.raw",
+    "HV_map_B35.raw",
+    "HV_map_B24.raw",
+    "HV_map_B40.raw",
+    "HV_map_B39.raw",
+    "HV_map_B38.raw",
+    "HV_map_B31.raw",
+    "HV_map_B47.raw",
+    "HV_map_B44.raw",
+    "HV_map_B33.raw",
+    "HV_map_B1.raw",
+    "HV_map_B19.raw",
+    "HV_map_B6.raw",
+    "HV_map_B29ny.raw",
+    "HV_map_B28.raw",
+    "HV_map_B45.raw",
+    "HV_map_B16.raw",
+    "HV_map_B14.raw",
+    "HV_map_B10.raw"
+  ]
+}

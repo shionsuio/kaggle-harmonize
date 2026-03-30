@@ -1,0 +1,281 @@
+{
+  "pxd": "PXD061136",
+  "raw_files": [
+    "20240227_Z02.raw",
+    "20240227_Z01.raw"
+  ],
+  "anchor": {
+    "pxd": "PXD061136",
+    "source": "PRIDE_API",
+    "organism": [
+      {
+        "name": "Homo sapiens (human)",
+        "accession": "NEWT:9606"
+      }
+    ],
+    "instruments": [
+      {
+        "name": "ZenoTOF 7600",
+        "accession": "MS:1003293",
+        "sdrf_format": "AC=MS:1003293;NT=ZenoTOF 7600"
+      }
+    ],
+    "modifications": [],
+    "organism_parts": [
+      {
+        "name": "Epithelial cell",
+        "accession": "CL:0000066"
+      },
+      {
+        "name": "Cell culture",
+        "accession": "BTO:0000214"
+      }
+    ],
+    "diseases": [],
+    "experiment_types": [
+      "Bottom-up proteomics"
+    ],
+    "quantification_methods": [
+      "Spectrum counting",
+      "Peptide counting",
+      "Spectrum count/molecular weight"
+    ],
+    "keywords": [
+      "Gpat4",
+      "Er stress",
+      "Huvecs"
+    ],
+    "publications": [
+      {
+        "pubmed_id": "",
+        "doi": "10.1038/s41467-025-58722-5",
+        "ref": "Zhao T, Jin K, Wang X, Su X, Wang Y, Gao M, Luo W, Yang H, Yang Z. GPAT4 sustains endoplasmic reticulum homeostasis in endocardial cells and safeguards heart development. Nat Commun. 2025 16(1):3345"
+      }
+    ],
+    "inferred_fragmentation": "CID",
+    "inferred_ms2_analyzer": "TOF",
+    "inferred_ionization": "nanoESI",
+    "raw_files": [
+      "20240227_Z02.wiff",
+      "20240227_Z02.wiff.scan",
+      "20240227_Z01.wiff.scan",
+      "20240227_Z01.wiff"
+    ]
+  },
+  "steps": {
+    "STEP1_OVERVIEW": {
+      "confirmed": {
+        "Characteristics[Organism]": {
+          "value": "Mus musculus (mouse)",
+          "evidence": "we generate Gpat4 global and tissue-specific knockout mice",
+          "source": "manuscript"
+        },
+        "Characteristics[OrganismPart]": {
+          "value": "heart",
+          "evidence": "endocardial cells and safeguards heart development",
+          "source": "manuscript"
+        },
+        "Characteristics[CellType]": {
+          "value": "endocardial cell",
+          "evidence": "GPAT4 sustains endoplasmic reticulum homeostasis in endocardial cells",
+          "source": "manuscript"
+        },
+        "Characteristics[MaterialType]": {
+          "value": "tissue",
+          "evidence": "tissue-specific knockout mice and identify the essential role of GPAT4 in endocardial development",
+          "source": "manuscript"
+        },
+        "Characteristics[GeneticModification]": {
+          "value": "Gpat4 knockout",
+          "evidence": "we generate Gpat4 global and tissue-specific knockout mice",
+          "source": "manuscript"
+        },
+        "Characteristics[DevelopmentalStage]": {
+          "value": "developmental",
+          "evidence": "endocardial and heart development",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {
+        "Characteristics[Label]": {
+          "candidates": [
+            "label-free"
+          ],
+          "reasoning": "PRIDEデータベースではSpectrum counting, Peptide countingと記載されており、これらは通常label-free定量法で用いられる",
+          "needs": "実験手法の詳細な記述または定量プロトコル情報"
+        }
+      },
+      "not_applicable": [
+        "Characteristics[CellLine]",
+        "Characteristics[Disease]",
+        "Characteristics[Specimen]",
+        "Characteristics[Strain]",
+        "Characteristics[Treatment]",
+        "Characteristics[Compound]",
+        "Characteristics[ConcentrationOfCompound]",
+        "Comment[AcquisitionMethod]"
+      ],
+      "summary": "マウスの心臓組織（特に心内膜細胞）を用いたGpat4ノックアウト研究。PRIDEデータベースではヒト上皮細胞培養とされているが、論文内容はマウス組織研究を示している。発達段階での心臓形成に関する研究で、label-free定量法の可能性が高い。データベースと論文内容に種差の矛盾あり。"
+    },
+    "STEP2_SAMPLE_PREP": {
+      "confirmed": {
+        "Characteristics[CleavageAgent]": {
+          "value": "trypsin",
+          "evidence": "precipitated proteins were in-gel digested by adding 1% trypsin and incubating at 37 °C overnight to peptides",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {
+        "Characteristics[Label]": {
+          "candidates": [
+            "label-free"
+          ],
+          "reasoning": "前ステップから引き継いだ推論。PRIDEデータベースでSpectrum counting, Peptide countingとされ、論文のLC-MS/MS実験でもラベル試薬の言及なし。IDAモードでの分析も一般的にlabel-free法で使用される",
+          "needs": "定量方法やラベリング試薬の明示的記載、またはPRIDEデータの詳細確認"
+        },
+        "Characteristics[Modification]": {
+          "candidates": [
+            "oxidation"
+          ],
+          "reasoning": "プロテオミクス実験で一般的な修飾で、ProteinPilotソフトウェアがデフォルトで検索する修飾の一つ",
+          "needs": "ProteinPilotの検索パラメータや修飾設定の明示的記載"
+        },
+        "Characteristics[Modification].1": {
+          "candidates": [
+            "carbamidomethylation"
+          ],
+          "reasoning": "in-gel消化を行っており、一般的にアルキル化処理が行われ、carbamidomethylationが標準的修飾として検索される",
+          "needs": "サンプル前処理でのアルキル化試薬の使用確認"
+        }
+      },
+      "not_applicable": [
+        "Characteristics[AlkylationReagent]",
+        "Characteristics[ReductionReagent]",
+        "Characteristics[Modification].2",
+        "Characteristics[Modification].3",
+        "Characteristics[Modification].4",
+        "Characteristics[Modification].5",
+        "Characteristics[Modification].6",
+        "Characteristics[Depletion]",
+        "Characteristics[SpikedCompound]",
+        "Characteristics[SyntheticPeptide]",
+        "Comment[EnrichmentMethod]",
+        "Comment[FractionationMethod]",
+        "Comment[NumberOfFractions]",
+        "Comment[Separation]"
+      ],
+      "summary": "プロテオミクス実験の詳細が判明：GPAT4抗体を用いた免疫沈降後、in-gel消化でトリプシン処理を確認。AB SCIEX Zeno TOF 7600とWaters MicroLCシステムでIDAモード分析。ProteinPilotソフトウェアで解析、FDR<1%。前ステップからのlabel-free推論は継続、酸化やカルバミドメチル化修飾の可能性あり。アルキル化・還元試薬や分画法の記載なし。"
+    },
+    "STEP3_MS_SETTINGS": {
+      "confirmed": {
+        "Comment[Instrument]": {
+          "value": "AB SCIEX Zeno TOF 7600",
+          "evidence": "The AB SCIEX Zeno TOF 7600 mass spectrometer and Waters MicroLC system were used for IDA(MS) analysis.",
+          "source": "manuscript"
+        },
+        "Comment[AcquisitionMethod]": {
+          "value": "IDA",
+          "evidence": "The AB SCIEX Zeno TOF 7600 mass spectrometer and Waters MicroLC system were used for IDA(MS) analysis.",
+          "source": "manuscript"
+        },
+        "Comment[GradientTime]": {
+          "value": "46 min",
+          "evidence": "Separation is performed using a linear gradient from 3% to 80% Buffer B over 46 min",
+          "source": "manuscript"
+        },
+        "Comment[FlowRateChromatogram]": {
+          "value": "5 μL/min",
+          "evidence": "Separation is performed using a linear gradient from 3% to 80% Buffer B over 46 min at a flow rate of 5 μL/min",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {
+        "Comment[FragmentationMethod]": {
+          "candidates": [
+            "CID"
+          ],
+          "reasoning": "PRIDEデータベースではCIDと記載されており、AB SCIEX Zeno TOF 7600ではCIDが標準的な断片化法として使用される",
+          "needs": "論文中での断片化法の明示的記載"
+        },
+        "Comment[IonizationType]": {
+          "candidates": [
+            "nanoESI",
+            "ESI"
+          ],
+          "reasoning": "PRIDEデータベースではnanoESIと記載されており、Waters MicroLCシステムとの組み合わせでnanoESIが使用される可能性が高い",
+          "needs": "イオン化法の明示的記載またはカラム仕様の詳細"
+        },
+        "Comment[MS2MassAnalyzer]": {
+          "candidates": [
+            "TOF"
+          ],
+          "reasoning": "PRIDEデータベースでTOFと記載されており、Zeno TOF 7600の機器名からもTOFアナライザーが示唆される",
+          "needs": "MS2アナライザーの明示的記載"
+        }
+      },
+      "not_applicable": [
+        "Comment[CollisionEnergy]",
+        "Comment[PrecursorMassTolerance]",
+        "Comment[FragmentMassTolerance]",
+        "Comment[NumberOfMissedCleavages]"
+      ],
+      "summary": "LC-MS/MS分析の詳細パラメータが明確化：AB SCIEX Zeno TOF 7600とWaters MicroLCを使用、IDAモードで分析、46分グラジエント、5 μL/min流速を確認。PRIDEデータベース情報から断片化法CID、イオン化nanoESI、MS2アナライザーTOFが推定されるが、論文中では明示的記載なし。検索パラメータ等の詳細は記載なし。"
+    },
+    "STEP4_RAW_FILES": {
+      "confirmed": {
+        "FactorValue[Bait]": {
+          "value": "GPAT4 antibody",
+          "evidence": "Protein immune-precipitation was performed using GPAT4 antibody in the HUVEC cells",
+          "source": "manuscript"
+        },
+        "FactorValue[GeneticModification]": {
+          "value": "GPAT4 knockout",
+          "evidence": "Gpat4+/- mice were generated using CRISPR-Cas9 technology",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {
+        "Characteristics[BiologicalReplicate]": {
+          "candidates": [
+            "per_file"
+          ],
+          "reasoning": "ファイル名「20240227_Z01.raw」「20240227_Z02.raw」の末尾の01, 02は生物学的レプリケートを示唆するが、免疫沈降実験であることを考慮するとtechnical replicateの可能性もある",
+          "needs": "実験デザインの詳細またはファイル命名規則の説明"
+        },
+        "Characteristics[NumberOfBiologicalReplicates]": {
+          "candidates": [
+            "2"
+          ],
+          "reasoning": "2つのrawファイルが生物学的レプリケートを示すと仮定した場合",
+          "needs": "ファイルがbiological replicateかtechnical replicateかの明確化"
+        },
+        "Characteristics[NumberOfTechnicalReplicates]": {
+          "candidates": [
+            "2",
+            "1"
+          ],
+          "reasoning": "2つのファイルがtechnical replicateの可能性もある。免疫沈降実験では技術的複製がよく行われる",
+          "needs": "実験デザインの詳細"
+        },
+        "Characteristics[NumberOfSamples]": {
+          "candidates": [
+            "2"
+          ],
+          "reasoning": "rawファイルが2つ存在するため、少なくとも2サンプルは確実",
+          "needs": "各ファイルが独立サンプルかレプリケートかの確認"
+        }
+      },
+      "not_applicable": [
+        "Comment[FractionIdentifier]",
+        "FactorValue[Treatment]",
+        "FactorValue[Temperature]",
+        "FactorValue[Disease]",
+        "FactorValue[Compound]",
+        "FactorValue[CellPart]",
+        "FactorValue[ConcentrationOfCompound].1",
+        "FactorValue[FractionIdentifier]"
+      ],
+      "summary": "免疫沈降実験でGPAT4抗体をbaitとして使用、GPAT4ノックアウトが遺伝子改変として確定。2つのrawファイル（20240227_Z01.raw, Z02.raw）存在するが、生物学的レプリケートか技術的レプリケートかは不明。論文には分画やその他の実験的処理についての記載なし。サンプル数とレプリケート設計の詳細は次ステップで解決が必要。"
+    }
+  }
+}
