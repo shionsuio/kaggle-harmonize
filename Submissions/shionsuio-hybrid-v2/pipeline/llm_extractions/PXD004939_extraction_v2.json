@@ -1,0 +1,372 @@
+{
+  "pxd": "PXD004939",
+  "raw_files": [
+    "Rice_phos_ABA_3h_20per_F1_R1.raw",
+    "Rice_phos_ABA_12h_20per_F1_R2.raw",
+    "Rice_phos_Nip_0h_20per_F1_R1.raw",
+    "Rice_phos_Nip_0h_20per_F1_R2.raw",
+    "Rice_phos_ABA_12h_20per_F1_R3.raw",
+    "Rice_phos_ABA_3h_20per_F1_R2.raw",
+    "Rice_phos_ABA_3h_20per_F1_R3.raw",
+    "Rice_phos_Nip_0h_20per_F1_R3.raw",
+    "Rice_phos_ABA_12h_20per_F1_R1.raw"
+  ],
+  "anchor": {
+    "pxd": "PXD004939",
+    "source": "PRIDE_API",
+    "organism": [
+      {
+        "name": "Oryza sativa (rice)",
+        "accession": "NEWT:4530"
+      }
+    ],
+    "instruments": [
+      {
+        "name": "Q Exactive",
+        "accession": "MS:1001911",
+        "sdrf_format": "AC=MS:1001911;NT=Q Exactive"
+      }
+    ],
+    "modifications": [],
+    "organism_parts": [
+      {
+        "name": "Leaf",
+        "accession": "BTO:0000713"
+      }
+    ],
+    "diseases": [],
+    "experiment_types": [
+      "Affinity purification coupled with mass spectrometry proteomics"
+    ],
+    "quantification_methods": [],
+    "keywords": [
+      "Rice (oryza sativa l.) - abscisic acid - signaling - phosphorylation - proteome"
+    ],
+    "publications": [
+      {
+        "pubmed_id": "",
+        "doi": "10.3390/ijms18010060",
+        "ref": "Qiu J, Hou Y, Wang Y, Li Z, Zhao J, Tong X, Lin H, Wei X, Ao H, Zhang J. A Comprehensive Proteomic Survey of ABA-Induced Protein Phosphorylation in Rice (Oryza sativa L.). Int J Mol Sci. 2017 Jan 3;18(1). pii: E60"
+      }
+    ],
+    "inferred_fragmentation": "HCD",
+    "inferred_ms2_analyzer": "orbitrap",
+    "inferred_ionization": "nanoESI",
+    "raw_files": [
+      "Rice_phos_ABA_3h_20per_F1_R1.raw",
+      "Rice_phos_ABA_12h_20per_F1_R2.raw",
+      "Rice_phos_Nip_0h_20per_F1_R1.raw",
+      "Rice_phos_Nip_0h_20per_F1_R2.raw",
+      "Rice_phos_ABA_12h_20per_F1_R3.raw",
+      "Rice_phos_ABA_3h_20per_F1_R2.raw",
+      "Rice_phos_ABA_3h_20per_F1_R3.raw",
+      "Rice_phos_Nip_0h_20per_F1_R3.raw",
+      "Rice_phos_ABA_12h_20per_F1_R1.raw"
+    ]
+  },
+  "steps": {
+    "STEP1_OVERVIEW": {
+      "confirmed": {
+        "Characteristics[Organism]": {
+          "value": "Oryza sativa",
+          "evidence": "A Comprehensive Proteomic Survey of ABA-Induced Protein Phosphorylation in Rice (Oryza sativa L.)",
+          "source": "manuscript"
+        },
+        "Characteristics[MaterialType]": {
+          "value": "young rice seedlings",
+          "evidence": "we identified 2271 phosphosites of young rice seedlings and their intensity dynamics in response to ABA",
+          "source": "manuscript"
+        },
+        "Characteristics[Label]": {
+          "value": "label-free",
+          "evidence": "By employing a label-free; MS (Mass Spectrometry)-based phosphoproteomic approach",
+          "source": "manuscript"
+        },
+        "Characteristics[Treatment]": {
+          "value": "ABA treatment",
+          "evidence": "their intensity dynamics in response to ABA",
+          "source": "manuscript"
+        },
+        "Characteristics[Compound]": {
+          "value": "abscisic acid (ABA)",
+          "evidence": "abscisic acid (ABA) is a key phytohormone regulating plant development and stress response",
+          "source": "manuscript"
+        },
+        "Comment[AcquisitionMethod]": {
+          "value": "MS-based phosphoproteomic approach",
+          "evidence": "By employing a label-free; MS (Mass Spectrometry)-based phosphoproteomic approach",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {
+        "Characteristics[DevelopmentalStage]": {
+          "candidates": [
+            "seedling stage",
+            "young stage"
+          ],
+          "reasoning": "論文では'young rice seedlings'と記載されているが、より詳細な発達段階の記載が他のセクションにある可能性",
+          "needs": "材料と方法セクションでの詳細な植物材料の記述"
+        }
+      },
+      "not_applicable": [
+        "Characteristics[OrganismPart]",
+        "Characteristics[CellType]",
+        "Characteristics[CellLine]",
+        "Characteristics[Disease]",
+        "Characteristics[Specimen]",
+        "Characteristics[Strain]",
+        "Characteristics[GeneticModification]",
+        "Characteristics[ConcentrationOfCompound]"
+      ],
+      "summary": "この研究はイネ（Oryza sativa）の若い苗を用いたABA誘導性リン酸化プロテオミクス解析である。label-free MS法を用いてABA処理に応答するリン酸化サイトを同定している。PRIDEデータベースでは器官部位がLeafとされているが、論文概要では'young rice seedlings'とのみ記載されており、具体的な器官部位の詳細は材料と方法セクションで確認が必要。ABA濃度などの処理条件詳細も未確定。"
+    },
+    "STEP2_SAMPLE_PREP": {
+      "confirmed": {
+        "Characteristics[CleavageAgent]": {
+          "value": "trypsin",
+          "evidence": "The treated proteins were digested on the 30 kDa filter unit (Millipore, Darmstadt, Germany) over night with trypsin at pH = 8.0 (enzyme:protein = 1:50)",
+          "source": "manuscript"
+        },
+        "Characteristics[AlkylationReagent]": {
+          "value": "iodoacetamide",
+          "evidence": "20 mM IAA (indole-3-acetic acid) alkylation",
+          "source": "manuscript"
+        },
+        "Characteristics[ReductionReagent]": {
+          "value": "dithiothreitol",
+          "evidence": "protein was treated for a sequential of 5 mM DTT (DL-Dithiothreitol) reduction",
+          "source": "manuscript"
+        },
+        "Characteristics[Label]": {
+          "value": "label free sample",
+          "evidence": "The phosphorylation is quantified based on the peak area under the ion intensity by using precursor ions area detector in PD1.4.1.14. Extracted ion chromatogram (sum of areas under the curves of MS1 chromatograms of each peptide identified) was used for normalization across all runs",
+          "source": "manuscript"
+        },
+        "Characteristics[Modification]": {
+          "value": "Oxidation",
+          "evidence": "Oxidation (M), Acetyl (Protein-N term) and Phospho (S/T/Y) were set as variable modifications, and Carbamidomethyl (C) as static modification",
+          "source": "manuscript"
+        },
+        "Characteristics[Modification].1": {
+          "value": "Acetylation",
+          "evidence": "Oxidation (M), Acetyl (Protein-N term) and Phospho (S/T/Y) were set as variable modifications",
+          "source": "manuscript"
+        },
+        "Characteristics[Modification].2": {
+          "value": "Phosphorylation",
+          "evidence": "Oxidation (M), Acetyl (Protein-N term) and Phospho (S/T/Y) were set as variable modifications",
+          "source": "manuscript"
+        },
+        "Characteristics[Modification].3": {
+          "value": "Carbamidomethylation",
+          "evidence": "Carbamidomethyl (C) as static modification in the Mascot searches for phosphopeptides",
+          "source": "manuscript"
+        },
+        "Comment[EnrichmentMethod]": {
+          "value": "TiO2 enrichment",
+          "evidence": "Subsequently, peptides were incubated with TiO2 beads (GL sciences, Tokyo, Japan) with a ratio of peptide:TiO2 = 1:4 for 3 × 30 min, washed with binding buffer, and then eluted with the elution buffer (40% ACN, 15% NH3H2O) 4 times",
+          "source": "manuscript"
+        },
+        "Comment[Separation]": {
+          "value": "liquid chromatography",
+          "evidence": "LC-MS/MS analyses were performed on an Easy-nLC 1000 liquid chromatography system",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {},
+      "not_applicable": [
+        "Characteristics[Modification].4",
+        "Characteristics[Modification].5",
+        "Characteristics[Modification].6",
+        "Characteristics[Depletion]",
+        "Characteristics[SpikedCompound]",
+        "Characteristics[SyntheticPeptide]",
+        "Comment[FractionationMethod]",
+        "Comment[NumberOfFractions]"
+      ],
+      "summary": "サンプル調製プロトコルが詳細に記載されている。trypsin消化、DTT還元、IAA（実際はiodoacetamide）アルキル化を実施。リン酸化ペプチドをTiO2ビーズで濃縮し、LC-MS/MSで分析している。検索パラメータとして酸化、アセチル化、リン酸化を可変修飾、カルバミドメチル化を固定修飾に設定。label-free定量を実施している。分画は行われていない。"
+    },
+    "STEP3_MS_SETTINGS": {
+      "confirmed": {
+        "Comment[Instrument]": {
+          "value": "Q-Exactive Plus",
+          "evidence": "LC-MS/MS analyses were performed on an Easy-nLC 1000 liquid chromatography system (Thermo, Waltham, WA, USA) coupled to a Q-Exactive Plus via a nano-electrospray ion source",
+          "source": "manuscript"
+        },
+        "Comment[FragmentationMethod]": {
+          "value": "HCD",
+          "evidence": "The top 20 intense precursor ions were selected for fragmentation in the HCD cell at normalized collision energy of 27%",
+          "source": "manuscript"
+        },
+        "Comment[IonizationType]": {
+          "value": "nano-electrospray",
+          "evidence": "coupled to a Q-Exactive Plus via a nano-electrospray ion source (Thermo)",
+          "source": "manuscript"
+        },
+        "Comment[MS2MassAnalyzer]": {
+          "value": "Orbitrap",
+          "evidence": "fragment ions were transferred into the Orbitrap analyzer operating at a resolution of 17,500 at m/z 400",
+          "source": "manuscript"
+        },
+        "Comment[CollisionEnergy]": {
+          "value": "27%",
+          "evidence": "fragmentation in the HCD cell at normalized collision energy of 27%",
+          "source": "manuscript"
+        },
+        "Comment[PrecursorMassTolerance]": {
+          "value": "20 ppm",
+          "evidence": "The mass tolerance was set at 20 ppm for precursor",
+          "source": "manuscript"
+        },
+        "Comment[FragmentMassTolerance]": {
+          "value": "50 mmu",
+          "evidence": "and 50 mmu for the tolerance of product ions",
+          "source": "manuscript"
+        },
+        "Comment[NumberOfMissedCleavages]": {
+          "value": "2",
+          "evidence": "Two missed cleavage on trypsin was allowed",
+          "source": "manuscript"
+        },
+        "Comment[FlowRateChromatogram]": {
+          "value": "500 nL/min",
+          "evidence": "with a linear 5%–35% acetonitrile gradient at 500 nL/min",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {
+        "Comment[AcquisitionMethod]": {
+          "candidates": [
+            "data-dependent acquisition",
+            "DDA"
+          ],
+          "reasoning": "Top 20の最も強いプリカーサーイオンを選択してフラグメンテーションする記載があり、これはDDAの特徴的なワークフローである",
+          "needs": "明示的なacquisition method記載の確認"
+        },
+        "Comment[GradientTime]": {
+          "candidates": [
+            "不明",
+            "標準的LC勾配時間"
+          ],
+          "reasoning": "5%-35% acetonitrile gradientの記載はあるが、具体的な勾配時間が記載されていない",
+          "needs": "LC gradient time の具体的記載"
+        }
+      },
+      "not_applicable": [],
+      "summary": "LC-MS/MS装置設定の詳細が明確に記載されている。Q-Exactive PlusをHCDフラグメンテーション、nano-ESI、Orbitrap MS2アナライザーで使用。質量精度は前駆体20ppm、フラグメント50mmu、コリジョンエネルギー27%、トリプシン切断見逃し2回、LC流速500nL/min。AcquisitionMethodはtop20選択からDDAと推定されるが明記なし。勾配時間は未記載。"
+    },
+    "STEP4_RAW_FILES": {
+      "confirmed": {
+        "Comment[FractionIdentifier]": {
+          "value": "per_file",
+          "per_file": {
+            "Rice_phos_ABA_3h_20per_F1_R1.raw": "F1",
+            "Rice_phos_ABA_12h_20per_F1_R2.raw": "F1",
+            "Rice_phos_Nip_0h_20per_F1_R1.raw": "F1",
+            "Rice_phos_Nip_0h_20per_F1_R2.raw": "F1",
+            "Rice_phos_ABA_12h_20per_F1_R3.raw": "F1",
+            "Rice_phos_ABA_3h_20per_F1_R2.raw": "F1",
+            "Rice_phos_ABA_3h_20per_F1_R3.raw": "F1",
+            "Rice_phos_Nip_0h_20per_F1_R3.raw": "F1",
+            "Rice_phos_ABA_12h_20per_F1_R1.raw": "F1"
+          },
+          "evidence": "すべてのファイル名にF1トークンが含まれており、同一の分画を示している",
+          "source": "filename"
+        },
+        "Characteristics[BiologicalReplicate]": {
+          "value": "per_file",
+          "per_file": {
+            "Rice_phos_ABA_3h_20per_F1_R1.raw": "1",
+            "Rice_phos_ABA_12h_20per_F1_R2.raw": "2",
+            "Rice_phos_Nip_0h_20per_F1_R1.raw": "1",
+            "Rice_phos_Nip_0h_20per_F1_R2.raw": "2",
+            "Rice_phos_ABA_12h_20per_F1_R3.raw": "3",
+            "Rice_phos_ABA_3h_20per_F1_R2.raw": "2",
+            "Rice_phos_ABA_3h_20per_F1_R3.raw": "3",
+            "Rice_phos_Nip_0h_20per_F1_R3.raw": "3",
+            "Rice_phos_ABA_12h_20per_F1_R1.raw": "1"
+          },
+          "evidence": "ファイル名のR1, R2, R3トークンが生物学的反復を示し、論文中の'Only those peptides which were phosphorylated in at least two of the three biological replicates'の記載と一致",
+          "source": "filename/manuscript"
+        },
+        "Characteristics[NumberOfBiologicalReplicates]": {
+          "value": "3",
+          "evidence": "Only those peptides which were phosphorylated in at least two of the three biological replicates were considered as truly phosphorylated",
+          "source": "manuscript"
+        },
+        "Characteristics[NumberOfTechnicalReplicates]": {
+          "value": "1",
+          "evidence": "各条件・各生物学的反復につき1つのrawファイルのみ存在し、技術的反復に関する記載なし",
+          "source": "filename"
+        },
+        "Characteristics[NumberOfSamples]": {
+          "value": "9",
+          "evidence": "3つの時点（0h, 3h, 12h）×3つの生物学的反復=9サンプル。rawファイル数と一致",
+          "source": "filename/manuscript"
+        },
+        "FactorValue[Treatment]": {
+          "value": "per_file",
+          "per_file": {
+            "Rice_phos_ABA_3h_20per_F1_R1.raw": "ABA treatment 3h",
+            "Rice_phos_ABA_12h_20per_F1_R2.raw": "ABA treatment 12h",
+            "Rice_phos_Nip_0h_20per_F1_R1.raw": "control",
+            "Rice_phos_Nip_0h_20per_F1_R2.raw": "control",
+            "Rice_phos_ABA_12h_20per_F1_R3.raw": "ABA treatment 12h",
+            "Rice_phos_ABA_3h_20per_F1_R2.raw": "ABA treatment 3h",
+            "Rice_phos_ABA_3h_20per_F1_R3.raw": "ABA treatment 3h",
+            "Rice_phos_Nip_0h_20per_F1_R3.raw": "control",
+            "Rice_phos_ABA_12h_20per_F1_R1.raw": "ABA treatment 12h"
+          },
+          "evidence": "The whole seedling samples were collected at CK, 3 and 12 h respectively。ファイル名のABA/Nipと時間トークンから判断",
+          "source": "filename/manuscript"
+        },
+        "FactorValue[Compound]": {
+          "value": "per_file",
+          "per_file": {
+            "Rice_phos_ABA_3h_20per_F1_R1.raw": "ABA",
+            "Rice_phos_ABA_12h_20per_F1_R2.raw": "ABA",
+            "Rice_phos_Nip_0h_20per_F1_R1.raw": "none",
+            "Rice_phos_Nip_0h_20per_F1_R2.raw": "none",
+            "Rice_phos_ABA_12h_20per_F1_R3.raw": "ABA",
+            "Rice_phos_ABA_3h_20per_F1_R2.raw": "ABA",
+            "Rice_phos_ABA_3h_20per_F1_R3.raw": "ABA",
+            "Rice_phos_Nip_0h_20per_F1_R3.raw": "none",
+            "Rice_phos_ABA_12h_20per_F1_R1.raw": "ABA"
+          },
+          "evidence": "healthy, intact young seedlings were kept in a beaker with water containing 100 µM ABA。ファイル名のABAトークンから判断",
+          "source": "filename/manuscript"
+        },
+        "FactorValue[ConcentrationOfCompound].1": {
+          "value": "per_file",
+          "per_file": {
+            "Rice_phos_ABA_3h_20per_F1_R1.raw": "100 µM",
+            "Rice_phos_ABA_12h_20per_F1_R2.raw": "100 µM",
+            "Rice_phos_Nip_0h_20per_F1_R1.raw": "0 µM",
+            "Rice_phos_Nip_0h_20per_F1_R2.raw": "0 µM",
+            "Rice_phos_ABA_12h_20per_F1_R3.raw": "100 µM",
+            "Rice_phos_ABA_3h_20per_F1_R2.raw": "100 µM",
+            "Rice_phos_ABA_3h_20per_F1_R3.raw": "100 µM",
+            "Rice_phos_Nip_0h_20per_F1_R3.raw": "0 µM",
+            "Rice_phos_ABA_12h_20per_F1_R1.raw": "100 µM"
+          },
+          "evidence": "healthy, intact young seedlings were kept in a beaker with water containing 100 µM ABA",
+          "source": "manuscript"
+        },
+        "FactorValue[FractionIdentifier]": {
+          "value": "F1",
+          "evidence": "すべてのファイル名にF1トークンが含まれており、単一の分画を示している",
+          "source": "filename"
+        }
+      },
+      "hypotheses": {},
+      "not_applicable": [
+        "FactorValue[Temperature]",
+        "FactorValue[Disease]",
+        "FactorValue[GeneticModification]",
+        "FactorValue[Bait]",
+        "FactorValue[CellPart]"
+      ],
+      "summary": "rawファイル名の解析により、3つの時点（0h control, 3h ABA, 12h ABA）×3つの生物学的反復=計9サンプルの実験設計が確認された。ABA処理濃度は100µMで、すべて同一分画（F1）からの分析である。ファイル名のトークン（ABA/Nip, 時間, R1-R3）から各ファイルの条件と反復が明確に特定できた。技術的反復は実施されていない。"
+    }
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "pxd": "PXD001468",
+  "source": "PRIDE_API",
+  "organism": [
+    {
+      "name": "Homo sapiens (human)",
+      "accession": "NEWT:9606"
+    }
+  ],
+  "instruments": [
+    {
+      "name": "Q Exactive",
+      "accession": "MS:1001911",
+      "sdrf_format": "AC=MS:1001911;NT=Q Exactive"
+    }
+  ],
+  "modifications": [],
+  "organism_parts": [
+    {
+      "name": "Kidney",
+      "accession": "BTO:0000671"
+    },
+    {
+      "name": "Brain",
+      "accession": "BTO:0000142"
+    }
+  ],
+  "diseases": [],
+  "experiment_types": [
+    "Shotgun proteomics"
+  ],
+  "quantification_methods": [
+    "Peptide counting"
+  ],
+  "keywords": [
+    "Sequest",
+    "Large scale",
+    "Modifications",
+    "Proteomics"
+  ],
+  "publications": [
+    {
+      "pubmed_id": "",
+      "doi": "10.1038/nbt.3267",
+      "ref": "Chick JM, Kolippakkam D, Nusinow DP, Zhai B, Rad R, Huttlin EL, Gygi SP. A mass-tolerant database search identifies a large proportion of unassigned spectra in shotgun proteomics as modified peptides. Nat Biotechnol. 2015 Jun 15"
+    }
+  ],
+  "inferred_fragmentation": "HCD",
+  "inferred_ms2_analyzer": "orbitrap",
+  "inferred_ionization": "nanoESI",
+  "raw_files": [
+    "b1922_293T_proteinID_02A_QE3_122212.raw",
+    "b1928_293T_proteinID_08A_QE3_122212.raw",
+    "b1923_293T_proteinID_03A_QE3_122212.raw",
+    "b1929_293T_proteinID_09A_QE3_122212.raw",
+    "b1939_293T_proteinID_03B_QE3_122212.raw",
+    "b1938_293T_proteinID_02B_QE3_122212.raw",
+    "b1925_293T_proteinID_05A_QE3_122212.raw",
+    "b1924_293T_proteinID_04A_QE3_122212.raw",
+    "b1946_293T_proteinID_10B_QE3_122212.raw",
+    "b1906_293T_proteinID_01A_QE3_122212.raw",
+    "b1945_293T_proteinID_09B_QE3_122212.raw",
+    "b1940_293T_proteinID_04B_QE3_122212.raw",
+    "b1937_293T_proteinID_01B_QE3_122212.raw",
+    "b1926_293T_proteinID_06A_QE3_122212.raw",
+    "b1942_293T_proteinID_06B_QE3_122212.raw",
+    "b1941_293T_proteinID_05B_QE3_122212.raw",
+    "b1932_293T_proteinID_12A_QE3_122212.raw",
+    "b1931_293T_proteinID_11A_QE3_122212.raw",
+    "b1944_293T_proteinID_08B_QE3_122212.raw",
+    "b1943_293T_proteinID_07B_QE3_122212.raw",
+    "b1948_293T_proteinID_12B_QE3_122212.raw",
+    "b1947_293T_proteinID_11B_QE3_122212.raw",
+    "b1927_293T_proteinID_07A_QE3_122212.raw",
+    "b1930_293T_proteinID_10A_QE3_122212.raw"
+  ]
+}

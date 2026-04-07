@@ -1,0 +1,176 @@
+{
+  "pxd": "PXD005354",
+  "source": "PRIDE_API",
+  "organism": [
+    {
+      "name": "Homo sapiens (human)",
+      "accession": "NEWT:9606"
+    }
+  ],
+  "instruments": [
+    {
+      "name": "LTQ Orbitrap Velos",
+      "accession": "MS:1001742",
+      "sdrf_format": "AC=MS:1001742;NT=LTQ Orbitrap Velos"
+    }
+  ],
+  "modifications": [],
+  "organism_parts": [
+    {
+      "name": "Colon",
+      "accession": "UBERON:0001155"
+    },
+    {
+      "name": "Rectal cancer cell line",
+      "accession": "BTO:0001532"
+    },
+    {
+      "name": "Rectum",
+      "accession": "UBERON:0001052"
+    },
+    {
+      "name": "Colonic cancer cell line",
+      "accession": "BTO:0000797"
+    }
+  ],
+  "diseases": [
+    {
+      "name": "Rectum cancer",
+      "accession": "DOID:1993"
+    },
+    {
+      "name": "Colon cancer",
+      "accession": "DOID:219"
+    }
+  ],
+  "experiment_types": [
+    "Shotgun proteomics"
+  ],
+  "quantification_methods": [
+    "MS1 intensity based label-free quantification method"
+  ],
+  "keywords": [
+    "Personalised medicine",
+    "Integrated full proteome subtypes",
+    "Crc65",
+    "Mass spectrometry",
+    "Correlation of mrna and protein abundance",
+    "Patient stratification",
+    "Consensus molecular subtypes",
+    "Cptac",
+    "Quasar2",
+    "Kinobeads"
+  ],
+  "publications": [
+    {
+      "pubmed_id": "",
+      "doi": "10.15252/msb.20177701",
+      "ref": "Frejno M, Zenezini Chiozzi R, Wilhelm M, Koch H, Zheng R, Klaeger S, Ruprecht B, Meng C, Kramer K, Jarzab A, Heinzlmeir S, Johnstone E, Domingo E, Kerr D, Jesinghaus M, Slotta-Huspenina J, Weichert W, Knapp S, Feller SM, Kuster B. Pharmacoproteomic characterisation of human colon and rectal cancer. Mol Syst Biol. 2017 13(11):951"
+    }
+  ],
+  "inferred_fragmentation": null,
+  "inferred_ms2_analyzer": "orbitrap",
+  "inferred_ionization": "nanoESI",
+  "raw_files": [
+    "01258_G02_P013098_S00_N15_R1.raw",
+    "01267_F06_P013138_S00_N22_R1.raw",
+    "01253_G02_P013028_S00_N15_R1.raw",
+    "01262_C02_P013105_S00_N11_R1.raw",
+    "01266_D05_P013136_S00_N12_R1.raw",
+    "01245_A04_P012911_S00_N01_R1.raw",
+    "01337_A06_P013155_S00_N17_R1.raw",
+    "01334_A03_P013148_S00_N17_R1.raw",
+    "01338_E07_P013158_S00_N05_R1.raw",
+    "00108_H03_P012694_S00_N24_R1.raw",
+    "01331_D03_P013143_S00_N20_R1.raw",
+    "00108_G02_P012694_S00_N15_R1.raw",
+    "01253_D03_P013028_S00_N20_R1.raw",
+    "01236_A01_P012696_S00_N01_R1.raw",
+    "01338_C03_P013156_S00_N19_R1.raw",
+    "01253_B01_P013028_S00_N02_R1.raw",
+    "01260_D06_P013102_S00_N20_R1.raw",
+    "01236_B03_P012696_S00_N18_R1.raw",
+    "01337_B04_P013155_S00_N02_R1.raw",
+    "00107_H03_P012579_S00_N24_R2.raw",
+    "01245_C06_P012911_S00_N19_R1.raw",
+    "01336_C03_P013152_S00_N19_R2.raw",
+    "01250_D05_P012913_S00_N12_R1.raw",
+    "01264_G02_P013132_S00_N15_R1.raw",
+    "01261_H06_P013104_S00_N24_R1.raw",
+    "00108_B01_P012694_S00_N02_R1.raw",
+    "01268_F05_P013140_S00_N14_R1.raw",
+    "01330_B02_P013141_S00_N10_R1.raw",
+    "01332_H04_P013145_S00_N08_R1.raw",
+    "01333_B06_P013147_S00_N18_R1.raw",
+    "01335_C06_P013151_S00_N19_R1.raw",
+    "01236_C05_P012697_S00_N11_R2.raw",
+    "01267_E03_P013137_S00_N21_R1.raw",
+    "01214_G01_P012340_S00_N07_R1.raw",
+    "01244_B03_P012909_S00_N18_R2.raw",
+    "01259_D02_P013100_S00_N12_R1.raw",
+    "01481_B02_P015041_S00_N10_R1.raw",
+    "01251_A02_P013026_S00_N09_R1.raw",
+    "01262_A09_P013108_S00_N17_R1.raw",
+    "01231_C03_P012890_S00_N19_R2.raw",
+    "01262_G07_P013108_S00_N07_R1.raw",
+    "01336_D06_P013153_S00_N20_R1.raw",
+    "01252_H05_P013025_S00_N16_R1.raw",
+    "01254_F03_P013030_S00_N22_R1.raw",
+    "01481_E03_P015041_S00_N21_R1.raw",
+    "01267_B06_P013138_S00_N18_R1.raw",
+    "01260_H06_P013102_S00_N24_R1.raw",
+    "01333_C04_P013147_S00_N03_R1.raw",
+    "01332_C05_P013145_S00_N11_R1.raw",
+    "01236_D01_P012696_S00_N04_R1.raw",
+    "01330_C06_P013142_S00_N19_R1.raw",
+    "01236_H05_P012697_S00_N16_R2.raw",
+    "01262_E03_P013105_S00_N21_R1.raw",
+    "01262_E06_P013106_S00_N21_R1.raw",
+    "01250_G04_P012913_S00_N07_R1.raw",
+    "01262_H09_P013108_S00_N24_R1.raw",
+    "01331_A02_P013143_S00_N09_R1.raw",
+    "01258_A05_P013099_S00_N09_R1.raw",
+    "01263_E02_P013130_S00_N13_R1.raw",
+    "01253_A05_P013029_S00_N09_R1.raw",
+    "01335_G05_P013151_S00_N15_R1.raw",
+    "01330_D03_P013141_S00_N20_R1.raw",
+    "01481_G02_P015041_S00_N15_R1.raw",
+    "01252_G04_P013025_S00_N07_R1.raw",
+    "01338_A09_P013158_S00_N17_R1.raw",
+    "01262_A06_P013106_S00_N17_R1.raw",
+    "01336_F01_P013152_S00_N06_R2.raw",
+    "01334_D03_P013148_S00_N20_R1.raw",
+    "01336_G04_P013153_S00_N07_R1.raw",
+    "01330_C04_P013142_S00_N03_R1.raw",
+    "00107_F03_P012579_S00_N22_R2.raw",
+    "01332_B06_P013145_S00_N18_R1.raw",
+    "01262_F04_P013106_S00_N06_R1.raw",
+    "01245_A03_P012910_S00_N17_R1.raw",
+    "01260_E03_P013101_S00_N21_R1.raw",
+    "00108_G01_P012694_S00_N07_R1.raw",
+    "01254_H05_P013031_S00_N16_R1.raw",
+    "01253_E04_P013029_S00_N05_R1.raw",
+    "01255_B03_P013096_S00_N18_R2.raw",
+    "01245_G02_P012910_S00_N15_R1.raw",
+    "01260_G02_P013101_S00_N15_R1.raw",
+    "01330_E01_P013141_S00_N05_R1.raw",
+    "01265_E01_P013133_S00_N05_R1.raw",
+    "01213_A04_P012339_B00_N01_R1.raw",
+    "01245_G05_P012911_S00_N15_R1.raw",
+    "01255_H02_P013096_S00_N16_R2.raw",
+    "01263_G04_P013131_S00_N07_R1.raw",
+    "01338_F08_P013158_S00_N14_R1.raw",
+    "01267_D02_P013137_S00_N12_R1.raw",
+    "01236_F06_P012697_S00_N22_R1.raw",
+    "01333_E04_P013147_S00_N05_R1.raw",
+    "01231_D02_P012890_S00_N12_R2.raw",
+    "01253_C05_P013029_S00_N11_R1.raw",
+    "01333_E05_P013147_S00_N13_R1.raw",
+    "01252_F03_P012914_S00_N22_R1.raw",
+    "01338_H03_P013156_S00_N24_R1.raw",
+    "01260_F02_P013101_S00_N14_R1.raw",
+    "01265_B03_P013133_S00_N18_R1.raw",
+    "01252_A05_P013025_S00_N09_R1.raw",
+    "01261_C04_P013104_S00_N03_R1.raw"
+  ]
+}

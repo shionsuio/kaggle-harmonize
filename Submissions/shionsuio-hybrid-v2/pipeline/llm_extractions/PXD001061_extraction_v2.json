@@ -1,0 +1,341 @@
+{
+  "pxd": "PXD001061",
+  "raw_files": [
+    "QE_IA_QQTGG_Control_BR4_TR1.raw",
+    "QE_IA_QQTGG_Control_BR5_TR2.raw",
+    "QE_IA_QQTGG_Control_BR6_TR1.raw",
+    "QE_IA_QQTGG_HEAT_BR1_TR1.raw",
+    "QE_IA_QQTGG_Control_BR4_TR2.raw",
+    "QE_IA_QQTGG_PR619_BR4_TR1.raw",
+    "QE_IA_QQTGG_Control_BR5_TR1.raw",
+    "QE_IA_QQTGG_PR619_BR2_TR2.raw",
+    "QE_IA_QQTGG_Control_BR2_TR2.raw",
+    "QE_IA_QQTGG_HEAT_BR2_TR2.raw",
+    "QE_IA_QQTGG_MG132_BR3_TR2.raw",
+    "QE_IA_QQTGG_PR619_BR5_TR1.raw",
+    "QE_IA_QQTGG_Control_BR3_TR1.raw",
+    "QE_IA_QQTGG_MG132_BR2_TR2.raw",
+    "QE_IA_QQTGG_Control_BR6_TR2.raw",
+    "QE_IA_QQTGG_Control_BR1_TR1.raw",
+    "QE_IA_QQTGG_HEAT_BR2_TR1.raw",
+    "QE_IA_QQTGG_PR619_BR3_TR2.raw",
+    "QE_IA_QQTGG_PR619_BR1_TR1.raw",
+    "QE_IA_QQTGG_PR619_BR5_TR2.raw",
+    "QE_IA_QQTGG_PR619_BR3_TR1.raw",
+    "QE_IA_QQTGG_PR619_BR1_TR2.raw",
+    "QE_IA_QQTGG_MG132_BR1_TR1.raw",
+    "QE_IA_QQTGG_HEAT_BR3_TR2.raw",
+    "QE_IA_QQTGG_HEAT_BR3_TR1.raw",
+    "QE_IA_QQTGG_PR619_BR2_TR1.raw",
+    "QE_IA_QQTGG_Control_BR2_TR1.raw",
+    "QE_IA_QQTGG_MG132_BR1_TR2.raw",
+    "QE_IA_QQTGG_MG132_BR3_TR1.raw",
+    "QE_IA_QQTGG_Control_BR3_TR2.raw",
+    "QE_IA_QQTGG_MG132_BR2_TR1.raw",
+    "QE_IA_QQTGG_HEAT_BR1_TR2.raw"
+  ],
+  "anchor": {
+    "pxd": "PXD001061",
+    "source": "PRIDE_API",
+    "organism": [
+      {
+        "name": "Homo sapiens (human)",
+        "accession": "NEWT:9606"
+      }
+    ],
+    "instruments": [
+      {
+        "name": "Q Exactive",
+        "accession": "MS:1001911",
+        "sdrf_format": "AC=MS:1001911;NT=Q Exactive"
+      }
+    ],
+    "modifications": [],
+    "organism_parts": [
+      {
+        "name": "Permanent cell line cell",
+        "accession": "CL:0000002"
+      },
+      {
+        "name": "Hela cell",
+        "accession": "BTO:0000567"
+      }
+    ],
+    "diseases": [
+      {
+        "name": "Cervix carcinoma",
+        "accession": "DOID:2893"
+      }
+    ],
+    "experiment_types": [
+      "Affinity purification coupled with mass spectrometry proteomics"
+    ],
+    "quantification_methods": [
+      "Label free"
+    ],
+    "keywords": [
+      "Sumo-2",
+      "Qqtgg",
+      "Sumo",
+      "Sumo2",
+      "Q87r"
+    ],
+    "publications": [
+      {
+        "pubmed_id": "",
+        "doi": "10.1038/nsmb.2890",
+        "ref": "Hendriks IA, D'Souza RC, Yang B, Verlaan-de Vries M, Mann M, Vertegaal AC. Uncovering global SUMOylation signaling networks in a site-specific manner. Nat Struct Mol Biol. 2014 Sep 14"
+      }
+    ],
+    "inferred_fragmentation": "HCD",
+    "inferred_ms2_analyzer": "orbitrap",
+    "inferred_ionization": "nanoESI",
+    "raw_files": [
+      "QE_IA_QQTGG_Control_BR4_TR1.raw",
+      "QE_IA_QQTGG_Control_BR5_TR2.raw",
+      "QE_IA_QQTGG_Control_BR6_TR1.raw",
+      "QE_IA_QQTGG_HEAT_BR1_TR1.raw",
+      "QE_IA_QQTGG_Control_BR4_TR2.raw",
+      "QE_IA_QQTGG_PR619_BR4_TR1.raw",
+      "QE_IA_QQTGG_Control_BR5_TR1.raw",
+      "QE_IA_QQTGG_PR619_BR2_TR2.raw",
+      "QE_IA_QQTGG_Control_BR2_TR2.raw",
+      "QE_IA_QQTGG_HEAT_BR2_TR2.raw",
+      "QE_IA_QQTGG_MG132_BR3_TR2.raw",
+      "QE_IA_QQTGG_PR619_BR5_TR1.raw",
+      "QE_IA_QQTGG_Control_BR3_TR1.raw",
+      "QE_IA_QQTGG_MG132_BR2_TR2.raw",
+      "QE_IA_QQTGG_Control_BR6_TR2.raw",
+      "QE_IA_QQTGG_Control_BR1_TR1.raw",
+      "QE_IA_QQTGG_HEAT_BR2_TR1.raw",
+      "QE_IA_QQTGG_PR619_BR3_TR2.raw",
+      "QE_IA_QQTGG_PR619_BR1_TR1.raw",
+      "QE_IA_QQTGG_PR619_BR5_TR2.raw",
+      "QE_IA_QQTGG_PR619_BR3_TR1.raw",
+      "QE_IA_QQTGG_PR619_BR1_TR2.raw",
+      "QE_IA_QQTGG_MG132_BR1_TR1.raw",
+      "QE_IA_QQTGG_HEAT_BR3_TR2.raw",
+      "QE_IA_QQTGG_HEAT_BR3_TR1.raw",
+      "QE_IA_QQTGG_PR619_BR2_TR1.raw",
+      "QE_IA_QQTGG_Control_BR2_TR1.raw",
+      "QE_IA_QQTGG_MG132_BR1_TR2.raw",
+      "QE_IA_QQTGG_MG132_BR3_TR1.raw",
+      "QE_IA_QQTGG_Control_BR3_TR2.raw",
+      "QE_IA_QQTGG_MG132_BR2_TR1.raw",
+      "QE_IA_QQTGG_HEAT_BR1_TR2.raw"
+    ]
+  },
+  "steps": {
+    "STEP1_OVERVIEW": {
+      "confirmed": {
+        "Characteristics[Organism]": {
+          "value": "Homo sapiens",
+          "evidence": "global SUMOylation in human cells",
+          "source": "manuscript"
+        },
+        "Characteristics[MaterialType]": {
+          "value": "cell",
+          "evidence": "global SUMOylation in human cells",
+          "source": "manuscript"
+        },
+        "Characteristics[Label]": {
+          "value": "label free",
+          "evidence": "Label free quantification confirmed from PRIDE database",
+          "source": "anchor"
+        },
+        "Comment[AcquisitionMethod]": {
+          "value": "high-resolution mass spectrometry",
+          "evidence": "Using high-resolution mass spectrometry, we have studied global SUMOylation",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {
+        "Characteristics[CellLine]": {
+          "candidates": [
+            "HeLa"
+          ],
+          "reasoning": "PRIDE database indicates HeLa cell line was used, but not explicitly mentioned in this text section",
+          "needs": "Confirmation in methods section or figure legends"
+        },
+        "Characteristics[Disease]": {
+          "candidates": [
+            "cervix carcinoma"
+          ],
+          "reasoning": "PRIDE database indicates cervix carcinoma associated with HeLa cells",
+          "needs": "Confirmation if disease context is relevant to the study"
+        },
+        "Characteristics[Treatment]": {
+          "candidates": [
+            "SUMO protease inhibition",
+            "proteasome inhibition",
+            "heat shock"
+          ],
+          "reasoning": "Abstract mentions these treatments for studying SUMOylation dynamics",
+          "needs": "Details on specific compounds, concentrations, and duration"
+        }
+      },
+      "not_applicable": [
+        "Characteristics[OrganismPart]",
+        "Characteristics[CellType]",
+        "Characteristics[Specimen]",
+        "Characteristics[Strain]",
+        "Characteristics[GeneticModification]",
+        "Characteristics[DevelopmentalStage]",
+        "Characteristics[Compound]",
+        "Characteristics[ConcentrationOfCompound]"
+      ],
+      "summary": "This is a SUMOylation proteomics study using human cells analyzed by high-resolution mass spectrometry with label-free quantification. The study involves multiple treatment conditions including protease inhibition and heat shock. PRIDE database suggests HeLa cells were used, but this needs confirmation from methods sections. Treatment details and specific compounds require further investigation."
+    },
+    "STEP2_SAMPLE_PREP": {
+      "confirmed": {
+        "Characteristics[CleavageAgent]": {
+          "value": "trypsin",
+          "evidence": "an amount of Sequencing Grade Modified Trypsin (Promega) was added equal to 25% of the Lys-C initially used in a single digestion step. Digestion with trypsin was performed overnight",
+          "source": "manuscript"
+        },
+        "Characteristics[AlkylationReagent]": {
+          "value": "chloroacetamide",
+          "evidence": "Next, chloroacetamide was added to a concentration of 5 mM, and samples were incubated at room temperature for 30 minutes",
+          "source": "manuscript"
+        },
+        "Characteristics[ReductionReagent]": {
+          "value": "dithiothreitol",
+          "evidence": "Subsequently, dithiothreitol (DTT) was added to a concentration of 1 mM, and samples were left to incubate at room temperature for 30 minutes",
+          "source": "manuscript"
+        },
+        "Characteristics[Label]": {
+          "value": "label free",
+          "evidence": "Label-Free Quantification (LFQ) Label-Free Quantification was performed using MaxQuant LFQ",
+          "source": "manuscript"
+        },
+        "Characteristics[Modification]": {
+          "value": "Carbamidomethyl",
+          "evidence": "Cysteine carbamidomethylation was set as a fixed peptide modification",
+          "source": "manuscript"
+        },
+        "Characteristics[Modification].1": {
+          "value": "Acetyl",
+          "evidence": "Protein N-terminal acetylation, peptide N-terminal carbamylation, methionine oxidation, QQTGG and pyro-QQTGG were set as variable peptide modifications",
+          "source": "manuscript"
+        },
+        "Characteristics[Modification].2": {
+          "value": "Oxidation",
+          "evidence": "Protein N-terminal acetylation, peptide N-terminal carbamylation, methionine oxidation, QQTGG and pyro-QQTGG were set as variable peptide modifications",
+          "source": "manuscript"
+        },
+        "Characteristics[Modification].3": {
+          "value": "QQTGG",
+          "evidence": "QQTGG was set as a lysine-specific modification, with a monoisotopic mass of 471.20776",
+          "source": "manuscript"
+        },
+        "Characteristics[Modification].4": {
+          "value": "pyro-QQTGG",
+          "evidence": "Pyro-QQTGG (pQQTGG) was set as s lysine-specific modification, with a monoisotopic mass of 454.18121",
+          "source": "manuscript"
+        },
+        "Comment[EnrichmentMethod]": {
+          "value": "His10-SUMO-2 affinity purification with Ni-NTA agarose beads",
+          "evidence": "20 μL (dry volume) Ni-NTA agarose beads (Qiagen) were prepared per 1 mL lysate, by washing them four times with guanidine Lysis Buffer supplemented with imidazole to 50 mM and β-mercaptoethanol to 5 mM",
+          "source": "manuscript"
+        },
+        "Comment[Separation]": {
+          "value": "C18 reverse phase chromatography",
+          "evidence": "Separation of peptides was performed using 20 cm long analytical columns (ID 75 μm, Polymicro Avantes) packed in-house with 1.8 μm C18 beads (Reprospher 100)",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {
+        "Characteristics[Modification].5": {
+          "candidates": [
+            "Acetyl",
+            "Phospho"
+          ],
+          "reasoning": "Text mentions additional variable modifications: lysine acetylation and serine-threonine-tyrosine phosphorylation were individually added as further variable modifications in separate searches",
+          "needs": "Clarification of which specific modifications were used in the final analysis pipeline"
+        },
+        "Comment[FractionationMethod]": {
+          "candidates": [
+            "StageTip C18",
+            "none"
+          ],
+          "reasoning": "Text mentions In-solution digested peptides were cleaned, desalted and concentrated on triple-disc C18 reverse phase StageTips, but this appears to be cleanup rather than fractionation",
+          "needs": "Confirmation whether this constitutes fractionation or just sample cleanup"
+        }
+      },
+      "not_applicable": [
+        "Characteristics[Modification].6",
+        "Characteristics[Depletion]",
+        "Characteristics[SpikedCompound]",
+        "Characteristics[SyntheticPeptide]",
+        "Comment[FractionationMethod]",
+        "Comment[NumberOfFractions]"
+      ],
+      "summary": "Sample preparation involves two-stage His10-SUMO-2 affinity purification using Ni-NTA beads, followed by Lys-C and trypsin digestion. Standard reduction with DTT and alkylation with chloroacetamide were performed. Multiple modifications were searched including fixed carbamidomethylation and variable acetylation, oxidation, QQTGG, and pyro-QQTGG modifications specific to SUMOylation. Label-free quantification was used with C18 reverse phase LC-MS/MS analysis. Additional modifications (acetylation, phosphorylation) were searched separately but their inclusion in final analysis needs clarification."
+    },
+    "STEP3_MS_SETTINGS": {
+      "confirmed": {
+        "Comment[Instrument]": {
+          "value": "Q-Exactive (Thermo)",
+          "evidence": "The analysis of in-solution digested peptides was performed using an EASY-nLC system (Proxeon) connected to a Q-Exactive (Thermo)",
+          "source": "manuscript"
+        },
+        "Comment[FragmentationMethod]": {
+          "value": "HCD",
+          "evidence": "using Higher-Collisional Dissociation (HCD) fragmentation",
+          "source": "manuscript"
+        },
+        "Comment[AcquisitionMethod]": {
+          "value": "data-dependent acquisition",
+          "evidence": "The mass spectrometer was operated in data-dependent acquisition mode using a top 10 method",
+          "source": "manuscript"
+        },
+        "Comment[IonizationType]": {
+          "value": "nanoESI",
+          "evidence": "prior to online nanoflow liquid chromatography-tandem mass spectrometry",
+          "source": "manuscript/PRIDE database anchor"
+        },
+        "Comment[MS2MassAnalyzer]": {
+          "value": "orbitrap",
+          "evidence": "Q-Exactive (Thermo) using Higher-Collisional Dissociation (HCD) fragmentation",
+          "source": "manuscript/PRIDE database anchor"
+        },
+        "Comment[CollisionEnergy]": {
+          "value": "25% NCE",
+          "evidence": "HCD tandem MS/MS spectra were acquired using a target value of 1E5, a resolution of 17,500, and a normalized collision energy of 25%",
+          "source": "manuscript"
+        },
+        "Comment[PrecursorMassTolerance]": {
+          "value": "6 ppm",
+          "evidence": "MS/MS spectra were filtered for a mass tolerance of 6 ppm for precursor masses",
+          "source": "manuscript"
+        },
+        "Comment[FragmentMassTolerance]": {
+          "value": "20 ppm",
+          "evidence": "a mass tolerance of 20 ppm was used for fragment ions",
+          "source": "manuscript"
+        },
+        "Comment[NumberOfMissedCleavages]": {
+          "value": "3",
+          "evidence": "Up to 3 missed tryptic cleavages were allowed",
+          "source": "manuscript"
+        },
+        "Comment[GradientTime]": {
+          "value": "120 minutes",
+          "evidence": "using a 120 minute gradient from 5% to 75% acetonitrile in 0.1% formic acid",
+          "source": "manuscript"
+        },
+        "Comment[FlowRateChromatogram]": {
+          "value": "250 nL/min",
+          "evidence": "using a 120 minute gradient from 5% to 75% acetonitrile in 0.1% formic acid and a flow rate of 250 nL per minute",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {},
+      "not_applicable": [],
+      "summary": "Mass spectrometry instrumentation and acquisition parameters have been fully characterized from the methods section. The study used a Q-Exactive mass spectrometer with HCD fragmentation in data-dependent acquisition mode. MS parameters include 6 ppm precursor mass tolerance, 20 ppm fragment mass tolerance, 25% normalized collision energy, and up to 3 missed cleavages allowed. Chromatography used a 120-minute gradient at 250 nL/min flow rate. All major instrumental parameters required for SDRF annotation have been successfully extracted and confirmed."
+    },
+    "STEP4_RAW_FILES": {
+      "_raw": "```json\n{\n  \"confirmed\": {\n    \"Characteristics[BiologicalReplicate]\": {\n      \"value\": \"per_file\",\n      \"per_file\": {\n        \"QE_IA_QQTGG_Control_BR1_TR1.raw\": \"1\",\n        \"QE_IA_QQTGG_Control_BR1_TR2.raw\": \"1\",\n        \"QE_IA_QQTGG_Control_BR2_TR1.raw\": \"2\",\n        \"QE_IA_QQTGG_Control_BR2_TR2.raw\": \"2\",\n        \"QE_IA_QQTGG_Control_BR3_TR1.raw\": \"3\",\n        \"QE_IA_QQTGG_Control_BR3_TR2.raw\": \"3\",\n        \"QE_IA_QQTGG_Control_BR4_TR1.raw\": \"4\",\n        \"QE_IA_QQTGG_Control_BR4_TR2.raw\": \"4\",\n        \"QE_IA_QQTGG_Control_BR5_TR1.raw\": \"5\",\n        \"QE_IA_QQTGG_Control_BR5_TR2.raw\": \"5\",\n        \"QE_IA_QQTGG_Control_BR6_TR1.raw\": \"6\",\n        \"QE_IA_QQTGG_Control_BR6_TR2.raw\": \"6\",\n        \"QE_IA_QQTGG_HEAT_BR1_TR1.raw\": \"1\",\n        \"QE_IA_QQTGG_HEAT_BR1_TR2.raw\": \"1\",\n        \"QE_IA_QQTGG_HEAT_BR2_TR1.raw\": \"2\",\n        \"QE_IA_QQTGG_HEAT_BR2_TR2.raw\": \"2\",\n        \"QE_IA_QQTGG_HEAT_BR3_TR1.raw\": \"3\",\n        \"QE_IA_QQTGG_HEAT_BR3_TR2.raw\": \"3\",\n        \"QE_IA_QQTGG_MG132_BR1_TR1.raw\": \"1\",\n        \"QE_IA_QQTGG_MG132_BR1_TR2.raw\": \"1\",\n        \"QE_IA_QQTGG_MG132_BR2_TR1.raw\": \"2\",\n        \"QE_IA_QQTGG_MG132_BR2_TR2.raw\": \"2\",\n        \"QE_IA_QQTGG_MG132_BR3_TR1.raw\": \"3\",\n        \"QE_IA_QQTGG_MG132_BR3_TR2.raw\": \"3\",\n        \"QE_IA_QQTGG_PR619_BR1_TR1.raw\": \"1\",\n        \"QE_IA_QQTGG_PR619_BR1_TR2.raw\": \"1\",\n        \"QE_IA_QQTGG_PR619_BR2_TR1.raw\": \"2\",\n        \"QE_IA_QQTGG_PR619_BR2_TR2.raw\": \"2\",\n        \"QE_IA_QQTGG_PR619_BR3_TR1.raw\": \"3\",\n        \"QE_IA_QQTGG_PR619_BR3_TR2.raw\": \"3\",\n        \"QE_IA_QQTGG_PR619_BR4_TR1.raw\": \"4\",\n        \"QE_IA_QQTGG_PR619_BR5_TR1.raw\": \"5\",\n        \"QE_IA_QQTGG_PR619_BR5_TR2.raw\": \"5\"\n      },\n      \"evidence\": \"Raw file names contain clear BR1-BR6 biological replicate identifiers\",\n      \"source\": \"filename\"\n    },\n    \"Characteristics[NumberOfBiologicalReplicates]\": {\n      \"value\": \"17\",\n      \"evidence\": \"Quantification was performed over 17 biological replicates, including 6 control, 3 heat shock, 3 MG-132 and 5 PR-619 replicates\",\n      \"source\": \"manuscript\"\n    },\n    \"Characteristics[NumberOfSamples]\": {\n      \"value\": \"32\",\n      \"evidence\": \"Total count of raw files provided\",\n      \"source\": \"filename\"\n    },\n    \"FactorValue[Treatment]\": {\n      \"value\": \"per_file\",\n      \"per_file\": {\n        \"QE_IA_QQTGG_Control_BR1_TR1.raw\": \"control\",\n        \"QE_IA_QQTGG_Control_BR1_TR2.raw\": \"control\",\n        \"QE_IA_QQTGG_Control_BR2_TR1.raw\": \"control\",\n        \"QE_IA_QQTGG_Control_BR2_TR2.raw\": \"control\",\n        \"QE_IA_QQTGG_Control_BR3_TR1.raw\": \"control\",\n        \"QE_IA_QQTGG_Control_BR3_TR2.raw\": \"control\",\n        \"QE_IA_QQTGG_Control_BR4_TR1.raw\": \"control\",\n        \"QE_IA_QQTGG_Control_BR4_TR2.raw\": \"control\",\n        \"QE_IA_QQTGG_Control_BR5_TR1.raw\": \"control\",\n        \"QE_IA_QQTGG_Control_BR5_TR2.raw\": \"control\",\n        \"QE_IA_QQTGG_Control_BR6_TR1.raw\": \"control\",\n        \"QE_IA_QQTGG_Control_BR6_TR2.raw\": \"control\",\n        \"QE_IA_QQTGG_HEAT_BR1_TR1.raw\": \"heat shock\",\n        \"QE_IA_QQTGG_HEAT_BR1_TR2.raw\": \"heat shock\",\n        \"QE_IA_QQTGG_HEAT_BR2_TR1.raw\": \"heat shock\",\n        \"QE_IA_QQTGG_HEAT_BR2_TR2.raw\": \"heat shock\",\n        \"QE_IA_QQTGG_HEAT_BR3_TR1.raw\": \"heat shock\",\n        \"QE_IA_QQTGG_HEAT_BR3_TR2.raw\": \"heat shock\",\n        \"QE_IA_QQTGG_MG132_BR1_TR1.raw\": \"MG-132\",\n        \"QE_IA_QQTGG_MG132_BR1_TR2.raw\": \"MG-132\",\n        \"QE_IA_QQTGG_MG132_BR2_TR1.raw\": \"MG-132\",\n        \"QE_IA_QQTGG_MG132_BR2_TR2.raw\": \"MG-132\",\n        \"QE_IA_QQTGG_MG132_BR3_TR1.raw\": \"MG-132\",\n        \"QE_IA_QQTGG_MG132_BR3_TR2.raw\": \"MG-132\",\n        \"QE_IA_QQTGG_PR619_BR1_TR1.raw\": \"PR-619\",\n        \"QE_IA_QQTGG_PR619_BR1_TR2.raw\": \"PR-619\",\n        \"QE_IA_QQTGG_PR619_BR2_TR1.raw\": \"PR-619\",\n        \"QE_IA_QQTGG_PR619_BR2_TR2.raw\": \"PR-619\",\n        \"QE_IA_QQTGG_PR619_BR3_TR1.raw\": \"PR-619\",\n        \"QE_IA_QQTGG_PR619_BR3_TR2.raw\": \"PR-619\",\n        \"QE_IA_QQTGG_PR619_BR4_TR1.raw\": \"PR-619\",\n        \"QE_IA_QQTGG_PR619_BR5_TR1.raw\": \"PR-619\",\n        \"QE_IA_QQTGG_PR619_BR5_TR2.raw\": \"PR-619\"\n      },\n      \"evidence\": \"File names contain Control, HEAT, MG132, and PR619 treatment identifiers matching manuscript treatments\",\n      \"source\": \"filename\"\n    },\n    \"FactorValue[Temperature]\": {\n      \"value\": \"per_file\",\n      \"per_file\": {\n        \"QE_IA_QQTGG_HEAT_BR1_TR1.raw\": \"43 °C\",\n        \"QE_IA_QQTGG_HEAT_BR1_TR2.raw\": \"43 °C\",\n        \"QE_IA_QQTGG_HEAT_BR2_TR1.raw\": \"43 °C\",\n        \"QE_IA_QQTGG_HEAT_BR2_TR2.raw\": \"43 °C\",\n        \"QE_IA_QQTGG_HEAT_BR3_TR1.raw\": \"43 °C\",\n        \"QE_IA_QQTGG_HEAT_BR3_TR2.raw\": \"43 °C\"\n      },\n      \"evidence\": \"incubated at 43°C for 1 hour (heat shock)\",\n      \"source\": \"manuscript\"\n    },\n    \"FactorValue[Compound]\": {\n      \"value\": \"per_file\",\n      \"per_file\": {\n        \"QE_IA_QQTGG_MG132_BR1_TR1.raw\": \"MG-132\",\n        \"QE_IA_QQTGG_MG132_BR1_TR2.raw\": \"MG-132\",\n        \"QE_IA_QQTGG_MG132_BR2_TR1.raw\": \"MG-132\",\n        \"QE_IA_QQTGG_MG132_BR2_TR2.raw\": \"MG-132\",\n        \"QE_IA_QQTGG_MG132_BR3_TR1.raw\": \"MG-132\",\n        \"QE_IA_QQTGG_MG132_BR3_TR2.raw\": \"MG-132\",\n        \"QE_IA_QQTGG_PR619_BR1_TR1.raw\": \"PR-619\",\n        \"QE_IA_QQTGG_PR619_BR1_TR2.raw\": \"PR-619\",\n        \"QE_IA_QQTGG_PR619_BR2_TR1.raw\": \"PR-619\",\n        \"QE_IA_QQTGG_PR619_BR2_TR2.raw\": \"PR-619\",\n        \"QE_IA_QQTGG_PR619_BR3_TR1.raw\": \"PR-619\",\n        \"QE_IA_QQTGG_PR619_BR3_TR2.raw\": \"PR-619\",\n        \"QE_IA_QQTGG_PR619_BR4_TR1.raw\": \"PR-619\",\n        \"QE_IA_QQTGG_PR619_BR5_TR1.raw\": \"PR-619\",\n        \"QE_IA_QQTGG_PR619_BR5_TR2.raw\": \"PR-619\"\n      },\n      \"evidence\": \"cells were treated with 10 μM MG-132 (Sigma) dissolved in DMSO for 7 hours, treated with 20 μM PR-619 (Millipore) dissolved in DMSO for 7 hours\",\n      \"source\": \"manuscript\"\n    },\n    \"FactorValue[Bait]\": {\n      \"value\": \"His10-SUMO-2-K0-Q87R\",\n      \"evidence\": \"Per single MS/MS run to identify SUMO-2 sites, one single fully confluent 15-cm dish of His10-SUMO-2-K0-Q87R (~20 million cells) was prepared\",\n      \"source\": \"manuscript\"\n    },\n    \"ConcentrationOfCompound\": {\n      \"value\": \"per_file\",\n      \"per_file\": {\n        \"QE_IA_QQTGG_MG132_BR1_TR1.raw\": \"10 μM\",\n        \"QE_IA_QQTGG_MG132_BR1_TR2.raw\": \"10 μM\",\n        \"QE_IA_QQTGG_MG132_BR2_TR1.raw\": \"10 μM\",\n        \"QE_IA_QQTGG_MG132_BR2_TR2.raw\": \"10 μM\",\n        \"QE_IA_QQTGG_MG132_BR3_TR1.raw\": \"10 μM\",\n        \"QE_IA_QQTGG_MG132_BR3_TR2.raw\": \"10 μM\",\n        \"QE_IA_QQTGG_PR619_BR1_TR1.raw\": \"20 μM\",\n        \"QE_IA_QQTGG_PR619_BR1_TR2.raw\": \"20 μM\",\n        \"QE_IA_QQTGG_PR619_BR2_TR1.raw\": \"20 μM\",\n        \"QE_IA_QQTGG_PR619_BR2_TR2.raw\": \"20 μM\",\n        \"QE_IA_QQTGG_PR619_BR3_TR1.raw\": \"20 μM\",\n        \"QE_IA_QQTGG_PR619_BR3_TR2.raw\": \"20 μM\",\n        \"QE_IA_QQTGG_PR619_BR4_TR1.raw\": \"20 μM\",\n        \"QE_IA_QQTGG_PR619_BR5_TR1.raw\": \"20 μM\",\n        \"QE_IA_QQTGG_PR619_BR5_TR2.raw\": \"20 μM\"\n      },\n      \"evidence\": \"cells were treated with 10 μM MG-132 (Sigma) dissolved in DMSO for 7 hours, treated with 20 μM PR-619 (Millipore) dissolved in DMSO for 7 hours\",\n      \"source\": \"manuscript\"\n    }\n  },\n  \"hypotheses\": {\n    \"Characteristics[NumberOfTechnicalReplicates]\": {\n      \"candidates\": [\"2\", \"1\"],\n      \"reasoning\": \"File names show TR1/TR2 pattern for most samples suggesting 2 technical replicates, but manuscript states different technical replicate numbers (11 for control, 6 for heat shock and MG-132, 9 for PR-619) which doesn't match the 32 files observed\",\n      \"needs\": \"Clarification on the discrepancy between stated technical replicates in manuscript and observed file counts\"\n    }\n  },\n  \"not_applicable\": [\"Comment[FractionIdentifier]\", \"FactorValue[Disease]\", \"FactorValue[GeneticModification]\", \"FactorValue[CellPart]\", \"FactorValue[FractionIdentifier]\"],\n  \"summary\": \"Raw file names provide clear biological replicate (BR1-BR6) and treatment (Control, HEAT, MG132, PR619) assignments for all 32 files. The study has 17 total biological replicates across 4 conditions with specific compound concentrations confirmed. Technical replicate counts show discrepancy between file naming (TR1/TR2) and manuscript statements that needs resolution. Bait protein is His10-SUMO-2-K0-Q87R for SUMO"
+    }
+  }
+}

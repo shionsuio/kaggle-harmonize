@@ -1,0 +1,61 @@
+{
+  "pxd": "PXD005554",
+  "source": "PRIDE_API",
+  "organism": [
+    {
+      "name": "Homo sapiens (human)",
+      "accession": "NEWT:9606"
+    }
+  ],
+  "instruments": [
+    {
+      "name": "Q Exactive",
+      "accession": "MS:1001911",
+      "sdrf_format": "AC=MS:1001911;NT=Q Exactive"
+    }
+  ],
+  "modifications": [],
+  "organism_parts": [
+    {
+      "name": "Mammary gland",
+      "accession": "BTO:0000817"
+    },
+    {
+      "name": "Epithelial ovarian cancer cell",
+      "accession": "BTO:0004094"
+    }
+  ],
+  "diseases": [
+    {
+      "name": "Breast cancer",
+      "accession": "DOID:1612"
+    },
+    {
+      "name": "Ovarian cancer",
+      "accession": "DOID:2394"
+    }
+  ],
+  "experiment_types": [
+    "Shotgun proteomics"
+  ],
+  "quantification_methods": [
+    "Spectrum counting"
+  ],
+  "keywords": [
+    "Breast cancer",
+    "Ovarian cancer",
+    "Ecm",
+    "Lc-ms/ms"
+  ],
+  "publications": [
+    {
+      "pubmed_id": "",
+      "doi": "10.1021/acs.jproteome.7b00191",
+      "ref": "Naba A, Pearce OMT, Del Rosario A, Ma D, Ding H, Rajeeve V, Cutillas PR, Balkwill FR, Hynes RO. Characterization of the Extracellular Matrix of Normal and Diseased Tissues Using Proteomics. J Proteome Res. 2017 16(8):3083-3091"
+    }
+  ],
+  "inferred_fragmentation": "HCD",
+  "inferred_ms2_analyzer": "orbitrap",
+  "inferred_ionization": "nanoESI",
+  "raw_files": []
+}

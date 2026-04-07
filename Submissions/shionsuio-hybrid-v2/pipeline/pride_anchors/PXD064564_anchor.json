@@ -1,0 +1,76 @@
+{
+  "pxd": "PXD064564",
+  "source": "PRIDE_API",
+  "organism": [
+    {
+      "name": "Homo sapiens (human)",
+      "accession": "NEWT:9606"
+    }
+  ],
+  "instruments": [
+    {
+      "name": "Orbitrap Astral",
+      "accession": "MS:1003378",
+      "sdrf_format": "AC=MS:1003378;NT=Orbitrap Astral"
+    }
+  ],
+  "modifications": [],
+  "organism_parts": [
+    {
+      "name": "Epithelial cell",
+      "accession": "CL:0000066"
+    }
+  ],
+  "diseases": [
+    {
+      "name": "Lung cancer",
+      "accession": "DOID:1324"
+    }
+  ],
+  "experiment_types": [
+    "Data-independent acquisition",
+    "Bottom-up proteomics"
+  ],
+  "quantification_methods": [
+    "label-free quantification"
+  ],
+  "keywords": [
+    "Mass spectrometry",
+    "Astral",
+    "A549",
+    "Liquid chromatography",
+    "Aurora column",
+    "Single-cell proteomics",
+    "Trophectoderm-like cells",
+    "Naïve human stem cells"
+  ],
+  "publications": [
+    {
+      "pubmed_id": "",
+      "doi": "10.1038/s41592-024-02559-1",
+      "ref": "Bubis JA, Arrey TN, Damoc E, Delanghe B, Slovakova J, Sommer TM, Kagawa H, Pichler P, Rivron N, Mechtler K, Matzinger M. Challenging the Astral mass analyzer to quantify up to 5,300 proteins per single cell at unseen accuracy to uncover cellular heterogeneity. Nat Methods. 2025 22(3):510-519"
+    }
+  ],
+  "inferred_fragmentation": "HCD",
+  "inferred_ms2_analyzer": "orbitrap",
+  "inferred_ionization": "nanoESI",
+  "raw_files": [
+    "20243102_100pgHeLa_240k_250ms_20Th_60ms_FAIMSCV-48_1.raw",
+    "20243102_700pgHeLa_240k_100ms_10Th_20ms_FAIMSCV-48_1.raw",
+    "20243102_1000pgHeLa_240k_100ms_10Th_20ms_FAIMSCV-48_2.raw",
+    "20243102_250pgHeLa_240k_250ms_20Th_40ms_FAIMSCV-48_2.raw",
+    "20243102_5000pgHeLa_240k_100ms_5Th_10ms_FAIMSCV-48_3.raw",
+    "20243102_50pgHeLa_240k_250ms_20Th_80ms_FAIMSCV-48_3.raw",
+    "20243102_10000pgHeLa_240k_100ms_5Th_10ms_FAIMSCV-48_2.raw",
+    "20243102_700pgHeLa_240k_100ms_10Th_20ms_FAIMSCV-48_2.raw",
+    "20243102_50pgHeLa_240k_250ms_20Th_80ms_FAIMSCV-48_1.raw",
+    "20243102_5000pgHeLa_240k_100ms_5Th_10ms_FAIMSCV-48_1.raw",
+    "20243102_100pgHeLa_240k_250ms_20Th_60ms_FAIMSCV-48_3.raw",
+    "20243102_250pgHeLa_240k_250ms_20Th_40ms_FAIMSCV-48_3.raw",
+    "20243102_1000pgHeLa_240k_100ms_10Th_20ms_FAIMSCV-48_3.raw",
+    "20243102_500pgHeLa_240k_100ms_20Th_40ms_FAIMSCV-48_2.raw",
+    "20243102_2000pgHeLa_240k_100ms_8Th_14ms_FAIMSCV-48_2.raw",
+    "20243102_150pgHeLa_240k_250ms_20Th_60ms_FAIMSCV-48_3.raw",
+    "20243102_150pgHeLa_240k_250ms_20Th_60ms_FAIMSCV-48_1.raw"
+  ]
+}

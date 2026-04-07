@@ -1,0 +1,441 @@
+{
+  "pxd": "PXD003531",
+  "raw_files": [
+    "20130611_QE3_UPLC10_CFR_SA_OC_T_FI_01_01_01.raw",
+    "20130606_QE3_UPLC10_CFR_SA_OC_T_AS_04_01_01.raw",
+    "20130606_QE3_UPLC9_CFR_SA_OC_T_AS_01_03_01.raw",
+    "20150623_QE7_UPLC10_RJC_COLLAB_CFR_UOprot_1_01.raw",
+    "20130608_QE3_UPLC10_CFR_SA_OC_T_AS_06_03_01.raw",
+    "20130606_QE3_UPLC9_CFR_SA_OC_T_AS_01_02_01.raw",
+    "20130606_QE3_UPLC10_CFR_SA_OC_T_AS_03_03_01.raw",
+    "20130603_QE3_UPLC9_CFR_SA_OC_P_FI_02.raw",
+    "20150616_QE7_UPLC10_RJC_COLLAB_CFR_NTp1_4_01.raw",
+    "20150619_QE7_UPLC10_RJC_COLLAB_CFR_THZ1p2_1_01.raw",
+    "20130603_QE3_UPLC9_CFR_SA_OC_P_NO_03.raw",
+    "20130603_QE3_UPLC9_CFR_SA_OC_P_AS_03_03.raw",
+    "20130603_QE3_UPLC9_CFR_SA_OC_P_NO_05.raw",
+    "20130611_QE3_UPLC10_CFR_SA_OC_T_NO_05_01_01.raw",
+    "20150619_QE7_UPLC10_RJC_COLLAB_CFR_NTp2_4_01.raw",
+    "20150619_QE7_UPLC10_RJC_COLLAB_CFR_UOp2_1_01.raw",
+    "20150623_QE7_UPLC10_RJC_COLLAB_CFR_NTprot_3_01.raw",
+    "20150616_QE7_UPLC10_RJC_COLLAB_CFR_NTp1_1_01.raw",
+    "20150619_QE7_UPLC10_RJC_COLLAB_CFR_THZ1p2_4_01.raw",
+    "20130603_QE3_UPLC9_CFR_SA_OC_P_FI_03.raw",
+    "20130611_QE3_UPLC10_CFR_SA_OC_T_FI_04_01_01.raw",
+    "20150616_QE7_UPLC10_RJC_COLLAB_CFR_NTp1_3_01.raw",
+    "20150623_QE7_UPLC10_RJC_COLLAB_CFR_NTprot_1_01.raw",
+    "20130603_QE3_UPLC9_CFR_SA_OC_P_AS_03_02.raw",
+    "20150616_QE7_UPLC10_RJC_COLLAB_CFR_THZ1p1_2_01.raw",
+    "20150619_QE7_UPLC10_RJC_COLLAB_CFR_NTp2_3_01.raw",
+    "20130603_QE3_UPLC9_CFR_SA_OC_P_FI_04.raw",
+    "20130608_QE3_UPLC10_CFR_SA_OC_T_AS_06_02_01.raw",
+    "20130603_QE3_UPLC9_CFR_SA_OC_P_AS_06_03.raw",
+    "20130606_QE3_UPLC10_CFR_SA_OC_T_AS_03_02_01.raw",
+    "20130603_QE3_UPLC9_CFR_SA_OC_P_AS_06_02.raw",
+    "20150616_QE7_UPLC10_RJC_COLLAB_CFR_UOp1_3_01.raw",
+    "20150619_QE7_UPLC10_RJC_COLLAB_CFR_UOp2_3_01.raw",
+    "20130603_QE3_UPLC9_CFR_SA_OC_P_FI_01.raw",
+    "20130611_QE3_UPLC10_CFR_SA_OC_T_NO_04_01_01.raw",
+    "20130603_QE3_UPLC9_CFR_SA_OC_P_AS_01_02.raw",
+    "20150623_QE7_UPLC10_RJC_COLLAB_CFR_UOprot_3_01.raw",
+    "20150619_QE7_UPLC10_RJC_COLLAB_CFR_NTp2_1_01.raw",
+    "20130611_QE3_UPLC10_CFR_SA_OC_T_FI_02_01_01.raw",
+    "20130603_QE3_UPLC9_CFR_SA_OC_P_FI_05.raw",
+    "20150623_QE7_UPLC10_RJC_COLLAB_CFR_THZ1prot_1_01.raw",
+    "20130611_QE3_UPLC10_CFR_SA_OC_T_FI_05_01_01.raw",
+    "20150619_QE7_UPLC10_RJC_COLLAB_CFR_UOp2_2_01.raw",
+    "20130603_QE3_UPLC9_CFR_SA_OC_P_NO_02.raw",
+    "20150616_QE7_UPLC10_RJC_COLLAB_CFR_THZ1p1_1_01.raw",
+    "20150616_QE7_UPLC10_RJC_COLLAB_CFR_THZ1p1_4_01.raw",
+    "20150623_QE7_UPLC10_RJC_COLLAB_CFR_UOprot_2_01.raw",
+    "20130603_QE3_UPLC9_CFR_SA_OC_P_NO_04.raw",
+    "20150623_QE7_UPLC10_RJC_COLLAB_CFR_THZ1prot_4_01.raw",
+    "20150616_QE7_UPLC10_RJC_COLLAB_CFR_UOp1_1_01.raw",
+    "20130611_QE3_UPLC10_CFR_SA_OC_T_NO_03_01_01.raw",
+    "20130603_QE3_UPLC9_CFR_SA_OC_P_AS_04.raw",
+    "20150619_QE7_UPLC10_RJC_COLLAB_CFR_THZ1p2_2_01.raw",
+    "20150616_QE7_UPLC10_RJC_COLLAB_CFR_UOp1_2_01.raw",
+    "20130603_QE3_UPLC9_CFR_SA_OC_P_AS_01_03.raw",
+    "20130611_QE3_UPLC10_CFR_SA_OC_T_FI_03_01_01.raw",
+    "20130611_QE3_UPLC10_CFR_SA_OC_T_NO_02_01_01.raw",
+    "20150623_QE7_UPLC10_RJC_COLLAB_CFR_THZ1prot_2_01.raw",
+    "20150623_QE7_UPLC10_RJC_COLLAB_CFR_NTprot_4_01.raw"
+  ],
+  "anchor": {
+    "pxd": "PXD003531",
+    "source": "PRIDE_API",
+    "organism": [
+      {
+        "name": "Homo sapiens (human)",
+        "accession": "NEWT:9606"
+      }
+    ],
+    "instruments": [
+      {
+        "name": "Q Exactive",
+        "accession": "MS:1001911",
+        "sdrf_format": "AC=MS:1001911;NT=Q Exactive"
+      }
+    ],
+    "modifications": [],
+    "organism_parts": [
+      {
+        "name": "Primary cell",
+        "accession": "BTO:0001413"
+      }
+    ],
+    "diseases": [
+      {
+        "name": "Malignant neoplasm of ovary",
+        "accession": "DOID:2144"
+      }
+    ],
+    "experiment_types": [
+      "Shotgun proteomics"
+    ],
+    "quantification_methods": [
+      "Label free"
+    ],
+    "keywords": [
+      "Ovarian cancer",
+      "Proteomics",
+      "Eoc",
+      "Ovcar3",
+      "Fte",
+      "Ihc",
+      "Quantitative phosphoproteomics",
+      "Primary cells",
+      "Ose",
+      "Cdk7"
+    ],
+    "publications": [
+      {
+        "pubmed_id": "",
+        "doi": "10.1016/j.celrep.2017.03.015",
+        "ref": "Francavilla C, Lupia M, Tsafou K, Villa A, Kowalczyk K, Rakownikow Jersie-Christensen R, Bertalot G, Confalonieri S, Brunak S, Jensen LJ, Cavallaro U, Olsen JV. Phosphoproteomics of Primary Cells Reveals Druggable Kinase Signatures in Ovarian Cancer. Cell Rep. 2017 Mar 28;18(13):3242-3256"
+      }
+    ],
+    "inferred_fragmentation": "HCD",
+    "inferred_ms2_analyzer": "orbitrap",
+    "inferred_ionization": "nanoESI",
+    "raw_files": [
+      "20130611_QE3_UPLC10_CFR_SA_OC_T_FI_01_01_01.raw",
+      "20130606_QE3_UPLC10_CFR_SA_OC_T_AS_04_01_01.raw",
+      "20130606_QE3_UPLC9_CFR_SA_OC_T_AS_01_03_01.raw",
+      "20150623_QE7_UPLC10_RJC_COLLAB_CFR_UOprot_1_01.raw",
+      "20130608_QE3_UPLC10_CFR_SA_OC_T_AS_06_03_01.raw",
+      "20130606_QE3_UPLC9_CFR_SA_OC_T_AS_01_02_01.raw",
+      "20130606_QE3_UPLC10_CFR_SA_OC_T_AS_03_03_01.raw",
+      "20130603_QE3_UPLC9_CFR_SA_OC_P_FI_02.raw",
+      "20150616_QE7_UPLC10_RJC_COLLAB_CFR_NTp1_4_01.raw",
+      "20150619_QE7_UPLC10_RJC_COLLAB_CFR_THZ1p2_1_01.raw",
+      "20130603_QE3_UPLC9_CFR_SA_OC_P_NO_03.raw",
+      "20130603_QE3_UPLC9_CFR_SA_OC_P_AS_03_03.raw",
+      "20130603_QE3_UPLC9_CFR_SA_OC_P_NO_05.raw",
+      "20130611_QE3_UPLC10_CFR_SA_OC_T_NO_05_01_01.raw",
+      "20150619_QE7_UPLC10_RJC_COLLAB_CFR_NTp2_4_01.raw",
+      "20150619_QE7_UPLC10_RJC_COLLAB_CFR_UOp2_1_01.raw",
+      "20150623_QE7_UPLC10_RJC_COLLAB_CFR_NTprot_3_01.raw",
+      "20150616_QE7_UPLC10_RJC_COLLAB_CFR_NTp1_1_01.raw",
+      "20150619_QE7_UPLC10_RJC_COLLAB_CFR_THZ1p2_4_01.raw",
+      "20130603_QE3_UPLC9_CFR_SA_OC_P_FI_03.raw",
+      "20130611_QE3_UPLC10_CFR_SA_OC_T_FI_04_01_01.raw",
+      "20150616_QE7_UPLC10_RJC_COLLAB_CFR_NTp1_3_01.raw",
+      "20150623_QE7_UPLC10_RJC_COLLAB_CFR_NTprot_1_01.raw",
+      "20130603_QE3_UPLC9_CFR_SA_OC_P_AS_03_02.raw",
+      "20150616_QE7_UPLC10_RJC_COLLAB_CFR_THZ1p1_2_01.raw",
+      "20150619_QE7_UPLC10_RJC_COLLAB_CFR_NTp2_3_01.raw",
+      "20130603_QE3_UPLC9_CFR_SA_OC_P_FI_04.raw",
+      "20130608_QE3_UPLC10_CFR_SA_OC_T_AS_06_02_01.raw",
+      "20130603_QE3_UPLC9_CFR_SA_OC_P_AS_06_03.raw",
+      "20130606_QE3_UPLC10_CFR_SA_OC_T_AS_03_02_01.raw",
+      "20130603_QE3_UPLC9_CFR_SA_OC_P_AS_06_02.raw",
+      "20150616_QE7_UPLC10_RJC_COLLAB_CFR_UOp1_3_01.raw",
+      "20150619_QE7_UPLC10_RJC_COLLAB_CFR_UOp2_3_01.raw",
+      "20130603_QE3_UPLC9_CFR_SA_OC_P_FI_01.raw",
+      "20130611_QE3_UPLC10_CFR_SA_OC_T_NO_04_01_01.raw",
+      "20130603_QE3_UPLC9_CFR_SA_OC_P_AS_01_02.raw",
+      "20150623_QE7_UPLC10_RJC_COLLAB_CFR_UOprot_3_01.raw",
+      "20150619_QE7_UPLC10_RJC_COLLAB_CFR_NTp2_1_01.raw",
+      "20130611_QE3_UPLC10_CFR_SA_OC_T_FI_02_01_01.raw",
+      "20130603_QE3_UPLC9_CFR_SA_OC_P_FI_05.raw",
+      "20150623_QE7_UPLC10_RJC_COLLAB_CFR_THZ1prot_1_01.raw",
+      "20130611_QE3_UPLC10_CFR_SA_OC_T_FI_05_01_01.raw",
+      "20150619_QE7_UPLC10_RJC_COLLAB_CFR_UOp2_2_01.raw",
+      "20130603_QE3_UPLC9_CFR_SA_OC_P_NO_02.raw",
+      "20150616_QE7_UPLC10_RJC_COLLAB_CFR_THZ1p1_1_01.raw",
+      "20150616_QE7_UPLC10_RJC_COLLAB_CFR_THZ1p1_4_01.raw",
+      "20150623_QE7_UPLC10_RJC_COLLAB_CFR_UOprot_2_01.raw",
+      "20130603_QE3_UPLC9_CFR_SA_OC_P_NO_04.raw",
+      "20150623_QE7_UPLC10_RJC_COLLAB_CFR_THZ1prot_4_01.raw",
+      "20150616_QE7_UPLC10_RJC_COLLAB_CFR_UOp1_1_01.raw",
+      "20130611_QE3_UPLC10_CFR_SA_OC_T_NO_03_01_01.raw",
+      "20130603_QE3_UPLC9_CFR_SA_OC_P_AS_04.raw",
+      "20150619_QE7_UPLC10_RJC_COLLAB_CFR_THZ1p2_2_01.raw",
+      "20150616_QE7_UPLC10_RJC_COLLAB_CFR_UOp1_2_01.raw",
+      "20130603_QE3_UPLC9_CFR_SA_OC_P_AS_01_03.raw",
+      "20130611_QE3_UPLC10_CFR_SA_OC_T_FI_03_01_01.raw",
+      "20130611_QE3_UPLC10_CFR_SA_OC_T_NO_02_01_01.raw",
+      "20150623_QE7_UPLC10_RJC_COLLAB_CFR_THZ1prot_2_01.raw",
+      "20150623_QE7_UPLC10_RJC_COLLAB_CFR_NTprot_4_01.raw"
+    ]
+  },
+  "steps": {
+    "STEP1_OVERVIEW": {
+      "confirmed": {
+        "Characteristics[Organism]": {
+          "value": "Homo sapiens",
+          "evidence": "patient-derived epithelial cells from either healthy or cancerous tissues",
+          "source": "manuscript"
+        },
+        "Characteristics[OrganismPart]": {
+          "value": "ovary",
+          "evidence": "epithelial ovarian cancer (EOC)",
+          "source": "manuscript"
+        },
+        "Characteristics[CellType]": {
+          "value": "epithelial cell",
+          "evidence": "patient-derived epithelial cells from either healthy or cancerous tissues",
+          "source": "manuscript"
+        },
+        "Characteristics[Disease]": {
+          "value": "epithelial ovarian cancer",
+          "evidence": "epithelial ovarian cancer (EOC)",
+          "source": "manuscript"
+        },
+        "Characteristics[MaterialType]": {
+          "value": "primary cell",
+          "evidence": "We analyze ex-vivo-cultured primary cells using phosphoproteomics",
+          "source": "manuscript"
+        },
+        "Characteristics[Label]": {
+          "value": "label free",
+          "evidence": "single-shot mass-spectrometry-based phosphoproteomics",
+          "source": "manuscript"
+        },
+        "Comment[AcquisitionMethod]": {
+          "value": "single-shot",
+          "evidence": "single-shot mass-spectrometry-based phosphoproteomics",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {
+        "Characteristics[Treatment]": {
+          "candidates": [
+            "CDK7 inhibitor",
+            "pharmacological inhibition"
+          ],
+          "reasoning": "論文でCDK7の薬理学的阻害について言及されているが、全サンプルに適用されたかは不明",
+          "needs": "実験デザインの詳細情報"
+        },
+        "Characteristics[Compound]": {
+          "candidates": [
+            "CDK7 inhibitor"
+          ],
+          "reasoning": "CDK7阻害剤の使用が示唆されているが、具体的な化合物名や全体での使用は不明",
+          "needs": "化合物の具体名と処理条件"
+        }
+      },
+      "not_applicable": [
+        "Characteristics[CellLine]",
+        "Characteristics[Specimen]",
+        "Characteristics[Strain]",
+        "Characteristics[GeneticModification]",
+        "Characteristics[DevelopmentalStage]",
+        "Characteristics[ConcentrationOfCompound]"
+      ],
+      "summary": "卵巣上皮癌患者由来の初代上皮細胞を用いたリン酸化プロテオミクス研究。健常組織と癌組織の比較解析でCDK7キナーゼシグネチャーを同定。Label-freeのsingle-shot MS法を使用。CDK7阻害剤処理の可能性があるが詳細は不明で、実験デザインの詳細確認が必要。"
+    },
+    "STEP2_SAMPLE_PREP": {
+      "confirmed": {
+        "Characteristics[CleavageAgent]": {
+          "value": "trypsin",
+          "evidence": "Proteins were digested with endoproteinase Lys-C and sequencing grade modified trypsin",
+          "source": "manuscript"
+        },
+        "Characteristics[CleavageAgent].1": {
+          "value": "Lys-C",
+          "evidence": "Proteins were digested with endoproteinase Lys-C and sequencing grade modified trypsin",
+          "source": "manuscript"
+        },
+        "Characteristics[Label]": {
+          "value": "label free",
+          "evidence": "Previously confirmed from PRIDE database and Step1",
+          "source": "anchor"
+        },
+        "Comment[EnrichmentMethod]": {
+          "value": "phosphopeptide enrichment",
+          "evidence": "The remaining peptides were used for the analysis of phosphoproteome as previously described",
+          "source": "manuscript"
+        },
+        "Comment[Separation]": {
+          "value": "reversed-phase chromatography",
+          "evidence": "Peptides were purified using reversed-phase Sep-Pak C18 cartridges",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {
+        "Characteristics[AlkylationReagent]": {
+          "candidates": [
+            "iodoacetamide",
+            "chloroacetamide"
+          ],
+          "reasoning": "標準的なプロテオミクス手法では還元・アルキル化が必須だが、具体的な試薬名の記載がない",
+          "needs": "詳細なプロトコルまたは参照論文の確認"
+        },
+        "Characteristics[ReductionReagent]": {
+          "candidates": [
+            "DTT",
+            "TCEP"
+          ],
+          "reasoning": "タンパク質変性処理が示唆されているが、還元試薬の具体名が記載されていない",
+          "needs": "詳細なプロトコルまたは参照論文の確認"
+        },
+        "Characteristics[Modification]": {
+          "candidates": [
+            "phosphorylation"
+          ],
+          "reasoning": "リン酸化プロテオーム解析が明記されており、リン酸化修飾の検索が行われていると推測される",
+          "needs": "MaxQuantの検索パラメータ詳細"
+        }
+      },
+      "not_applicable": [
+        "Characteristics[Modification].1",
+        "Characteristics[Modification].2",
+        "Characteristics[Modification].3",
+        "Characteristics[Modification].4",
+        "Characteristics[Modification].5",
+        "Characteristics[Modification].6",
+        "Characteristics[Depletion",
+        "Characteristics[SpikedCompound]",
+        "Characteristics[SyntheticPeptide]",
+        "Comment[FractionationMethod]",
+        "Comment[NumberOfFractions]"
+      ],
+      "summary": "サンプル調製では、Lys-Cとtrypsinによるダブル消化プロトコルを使用。逆相C18カートリッジで精製後、1%をプロテオーム解析、残りをリン酸化プロテオーム解析に使用。還元・アルキル化試薬や検索対象修飾の具体的詳細は記載されておらず、参照文献での確認が必要。"
+    },
+    "STEP3_MS_SETTINGS": {
+      "confirmed": {
+        "Comment[Instrument]": {
+          "value": "Q-Exactive mass spectrometer",
+          "evidence": "Peptide mixtures were analyzed using an EASY-nLC system (Proxeon) connected to a Q-Exactive mass spectrometer (Thermo Fisher Scientific)",
+          "source": "manuscript"
+        },
+        "Comment[AcquisitionMethod]": {
+          "value": "EASY-nLC system connected to Q-Exactive",
+          "evidence": "Peptide mixtures were analyzed using an EASY-nLC system (Proxeon) connected to a Q-Exactive mass spectrometer (Thermo Fisher Scientific)",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {
+        "Comment[FragmentationMethod]": {
+          "candidates": [
+            "HCD"
+          ],
+          "reasoning": "PRIDEデータベースでHCDと確認されており、Q-Exactive装置の標準的なフラグメンテーション方法",
+          "needs": "Methods sectionでの明記または機器設定の詳細記載"
+        },
+        "Comment[IonizationType]": {
+          "candidates": [
+            "nanoESI"
+          ],
+          "reasoning": "PRIDEデータベースでnanoESIと確認されており、EASY-nLCシステムとQ-Exactiveの組み合わせで標準的",
+          "needs": "論文中でのイオン化方法の明記"
+        },
+        "Comment[MS2MassAnalyzer]": {
+          "candidates": [
+            "orbitrap"
+          ],
+          "reasoning": "PRIDEデータベースでorbitrapと確認されており、Q-Exactive装置の標準MS2アナライザー",
+          "needs": "機器設定の詳細記載"
+        },
+        "Comment[PrecursorMassTolerance]": {
+          "candidates": [
+            "20 ppm",
+            "10 ppm"
+          ],
+          "reasoning": "MaxQuantでのQ-Exactive標準設定として一般的な値",
+          "needs": "MaxQuant解析パラメータの詳細記載"
+        },
+        "Comment[FragmentMassTolerance]": {
+          "candidates": [
+            "20 ppm",
+            "0.5 Da"
+          ],
+          "reasoning": "MaxQuantでのQ-Exactive標準設定として一般的な値",
+          "needs": "MaxQuant解析パラメータの詳細記載"
+        }
+      },
+      "not_applicable": [
+        "Comment[CollisionEnergy]",
+        "Comment[NumberOfMissedCleavages]",
+        "Comment[GradientTime]",
+        "Comment[FlowRateChromatogram]"
+      ],
+      "summary": "MS装置としてQ-ExactiveとEASY-nLCシステムの組み合わせが確認された。MaxQuant 1.4.1.4を用いてAndromeda検索エンジンで解析し、Andromedaスコア>40のペプチドのみを含めた。フラグメンテーション方法、イオン化方法、質量許容誤差などの詳細な機器設定パラメータは論文に記載されておらず、標準設定の推定に留まる。"
+    },
+    "STEP4_RAW_FILES": {
+      "confirmed": {
+        "Characteristics[NumberOfSamples]": {
+          "value": "56",
+          "evidence": "rawファイル総数56個から確認",
+          "source": "filename"
+        },
+        "Comment[FractionIdentifier]": {
+          "value": "per_file",
+          "per_file": {
+            "20130603_QE3_UPLC9_CFR_SA_OC_P_AS_01_02.raw": "proteome",
+            "20130603_QE3_UPLC9_CFR_SA_OC_P_AS_01_03.raw": "phosphoproteome",
+            "20130606_QE3_UPLC9_CFR_SA_OC_T_AS_01_02_01.raw": "proteome",
+            "20130606_QE3_UPLC9_CFR_SA_OC_T_AS_01_03_01.raw": "phosphoproteome",
+            "20130603_QE3_UPLC9_CFR_SA_OC_P_AS_03_02.raw": "proteome",
+            "20130603_QE3_UPLC9_CFR_SA_OC_P_AS_03_03.raw": "phosphoproteome"
+          },
+          "evidence": "ファイル名の末尾トークンで_02がproteome (1%), _03がphosphoproteome (99%)を示す。論文でも1%がプロテオーム解析、残りがリン酸化プロテオーム解析と記載",
+          "source": "filename + manuscript"
+        }
+      },
+      "hypotheses": {
+        "Characteristics[BiologicalReplicate]": {
+          "candidates": [
+            "per_file based on sample numbers"
+          ],
+          "reasoning": "ファイル名のAS_01, AS_03, AS_04, AS_06やFI_01-05, NO_02-05等の数字がサンプル番号を示している可能性があるが、生物学的レプリケート数の明確な記載なし",
+          "needs": "論文での生物学的レプリケート数の明示的記載"
+        },
+        "Characteristics[NumberOfBiologicalReplicates]": {
+          "candidates": [
+            "multiple samples per group"
+          ],
+          "reasoning": "EOC, FTE, OSEの3グループに分けられ、各グループで複数サンプルが存在することが論文とファイル名から示唆される",
+          "needs": "各群での正確なサンプル数とレプリケート設計の詳細"
+        },
+        "FactorValue[Treatment]": {
+          "candidates": [
+            "per_file with THZ1 vs NT",
+            "control vs treated"
+          ],
+          "reasoning": "2015年のファイル名でTHZ1 (CDK7阻害剤) とNT (no treatment/control)のトークンが明確に識別可能。THZ1p1, THZ1p2, THZ1protとNTp1, NTp2, NTprotのペア構造",
+          "needs": "THZ1処理条件と対照群の詳細確認"
+        },
+        "FactorValue[Compound]": {
+          "candidates": [
+            "THZ1"
+          ],
+          "reasoning": "2015年ファイル群でTHZ1トークンが明確に存在し、これがCDK7阻害剤を示している可能性が高い",
+          "needs": "THZ1がCDK7阻害剤であることの論文での確認"
+        }
+      },
+      "not_applicable": [
+        "Characteristics[NumberOfTechnicalReplicates]",
+        "FactorValue[Temperature]",
+        "FactorValue[GeneticModification]",
+        "FactorValue[Bait]",
+        "FactorValue[CellPart]",
+        "FactorValue[ConcentrationOfCompound].1",
+        "FactorValue[FractionIdentifier]"
+      ],
+      "summary": "56個のrawファイルを解析し、プロテオーム/リン酸化プロテオーム分画の識別が可能であることを確認。2013年データは患者サンプル(AS, FI, NO)、2015年データはTHZ1処理実験を示唆。ファイル名から治療条件とサンプル分類の構造は読み取れるが、正確なレプリケート数と実験デザインの詳細は論文記載が不十分で確定に至らず。"
+    }
+  }
+}

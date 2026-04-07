@@ -1,0 +1,51 @@
+{
+  "pxd": "PXD005463",
+  "source": "PRIDE_API",
+  "organism": [
+    {
+      "name": "Saccharomyces cerevisiae (baker's yeast)",
+      "accession": "NEWT:4932"
+    }
+  ],
+  "instruments": [
+    {
+      "name": "Q Exactive",
+      "accession": "MS:1001911",
+      "sdrf_format": "AC=MS:1001911;NT=Q Exactive"
+    }
+  ],
+  "modifications": [],
+  "organism_parts": [
+    {
+      "name": "Cell culture",
+      "accession": "BTO:0000214"
+    }
+  ],
+  "diseases": [],
+  "experiment_types": [
+    "Shotgun proteomics"
+  ],
+  "quantification_methods": [
+    "SILAC"
+  ],
+  "keywords": [
+    "Mitochondria",
+    "Yeast",
+    "Subcompartments"
+  ],
+  "publications": [
+    {
+      "pubmed_id": "",
+      "doi": "10.1038/s41467-017-00359-0",
+      "ref": "Vögtle FN, Burkhart JM, Gonczarowska-Jorge H, Kücükköse C, Taskin AA, Kopczynski D, Ahrends R, Mossmann D, Sickmann A, Zahedi RP, Meisinger C. Landscape of submitochondrial protein distribution. Nat Commun. 2017 8(1):290"
+    }
+  ],
+  "inferred_fragmentation": "HCD",
+  "inferred_ms2_analyzer": "orbitrap",
+  "inferred_ionization": "nanoESI",
+  "raw_files": [
+    "qExPlus02_01602.raw",
+    "qExPlus02_01603.raw",
+    "qExPlus02_01604.raw"
+  ]
+}

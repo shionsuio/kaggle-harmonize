@@ -1,0 +1,156 @@
+{
+  "pxd": "PXD006233",
+  "source": "PRIDE_API",
+  "organism": [
+    {
+      "name": "Homo sapiens (human)",
+      "accession": "NEWT:9606"
+    }
+  ],
+  "instruments": [
+    {
+      "name": "LTQ Orbitrap Elite",
+      "accession": "MS:1001910",
+      "sdrf_format": "AC=MS:1001910;NT=LTQ Orbitrap Elite"
+    }
+  ],
+  "modifications": [],
+  "organism_parts": [
+    {
+      "name": "Brain",
+      "accession": "BTO:0000142"
+    }
+  ],
+  "diseases": [
+    {
+      "name": "Dementia",
+      "accession": "DOID:1307"
+    }
+  ],
+  "experiment_types": [
+    "Shotgun proteomics"
+  ],
+  "quantification_methods": [
+    "Protein Abundance Index - PAI",
+    "Spectrum counting",
+    "Peptide counting"
+  ],
+  "keywords": [
+    "Dpms",
+    "Human brain",
+    "Citrullination",
+    "Carbamylation"
+  ],
+  "publications": [
+    {
+      "pubmed_id": "",
+      "doi": "10.1186/s12974-017-0946-y",
+      "ref": "Gallart-Palau X, Serra A, Lee BST, Guo X, Sze SK. Brain ureido degenerative protein modifications are associated with neuroinflammation and proteinopathy in Alzheimer's disease with cerebrovascular disease. J Neuroinflammation. 2017 14(1):175"
+    }
+  ],
+  "inferred_fragmentation": null,
+  "inferred_ms2_analyzer": "orbitrap",
+  "inferred_ionization": "nanoESI",
+  "raw_files": [
+    "BA21_C2_S_04.raw",
+    "BA21_D1_P_29.raw",
+    "BA21_D1_S_31.raw",
+    "BA21_D3_S_02.raw",
+    "BA21_C3_P_24.raw",
+    "BA21_D1_P_26.raw",
+    "BA21_D2_P_28.raw",
+    "BA21_C1_P_07.raw",
+    "BA21_D1_P_23.raw",
+    "BA21_D2_S_24.raw",
+    "BA21_C1_S_06.raw",
+    "BA21_C3_S_20.raw",
+    "BA21_D1_P_21.raw",
+    "BA21_C3_P_05.raw",
+    "BA21_C3_P_27.raw",
+    "BA21_D1_S_19.raw",
+    "BA21_C1_S_26.raw",
+    "BA21_C3_P_12.raw",
+    "BA21_D2_S_27.raw",
+    "BA21_D3_S_08.raw",
+    "BA21_C3_P_14.raw",
+    "BA21_D1_S_28.raw",
+    "BA21_D1_S_32.raw",
+    "BA21_D3_S_27.raw",
+    "BA21_D1_S_08.raw",
+    "BA21_C3_P_20.raw",
+    "BA21_D3_S_33.raw",
+    "BA21_D3_S_30.raw",
+    "BA21_C2_P_05.raw",
+    "BA21_D1_S_17.raw",
+    "BA21_D2_S_03.raw",
+    "BA21_C2_P_27.raw",
+    "BA21_C1_P_19.raw",
+    "BA21_C2_P_29.raw",
+    "BA21_D1_P_22.raw",
+    "BA21_D2_P_24.raw",
+    "BA21_D3_S_04.raw",
+    "BA21_C2_S_28.raw",
+    "BA21_C2_P_02.raw",
+    "BA21_C3_S_03.raw",
+    "BA21_C1_P_11.raw",
+    "BA21_D1_S_03.raw",
+    "BA21_C3_S_10.raw",
+    "BA21_C3_S_08.raw",
+    "BA21_C2_P_01.raw",
+    "BA21_D3_S_32.raw",
+    "BA21_D1_S_15.raw",
+    "BA21_C2_S_18.raw",
+    "BA21_C3_P_17.raw",
+    "BA21_D2_S_28.raw",
+    "BA21_D3_P_14.raw",
+    "BA21_D3_S_05.raw",
+    "BA21_C2_P_08.raw",
+    "BA21_C3_P_32.raw",
+    "BA21_C1_S_13.raw",
+    "BA21_D2_P_13.raw",
+    "BA21_C1_S_02.raw",
+    "BA21_D2_P_03.raw",
+    "BA21_D3_P_19.raw",
+    "BA21_D3_S_16.raw",
+    "BA21_C1_P_01.raw",
+    "BA21_C1_P_03.raw",
+    "BA21_C2_P_26.raw",
+    "BA21_C1_S_45.raw",
+    "BA21_D1_S_25.raw",
+    "BA21_D3_S_06.raw",
+    "BA21_D1_S_14.raw",
+    "BA21_D3_S_10.raw",
+    "BA21_C3_P_28.raw",
+    "BA21_D1_S_30.raw",
+    "BA21_C1_S_37.raw",
+    "BA21_D3_P_10.raw",
+    "BA21_C1_S_36.raw",
+    "BA21_D3_P_02.raw",
+    "BA21_C3_P_21.raw",
+    "BA21_C3_S_02.raw",
+    "BA21_C2_S_22.raw",
+    "BA21_C2_P_03.raw",
+    "BA21_C2_P_25.raw",
+    "BA21_D2_S_16.raw",
+    "BA21_C1_P_06.raw",
+    "BA21_C3_P_25.raw",
+    "BA21_D1_P_24.raw",
+    "BA21_D2_P_22.raw",
+    "BA21_C2_P_14.raw",
+    "BA21_D3_S_09.raw",
+    "BA21_C3_S_11.raw",
+    "BA21_D2_P_18.raw",
+    "BA21_D2_P_29.raw",
+    "BA21_D1_S_07.raw",
+    "BA21_D3_P_23.raw",
+    "BA21_C2_P_23.raw",
+    "BA21_C1_S_20.raw",
+    "BA21_C2_P_24.raw",
+    "BA21_D2_P_17.raw",
+    "BA21_C1_S_32.raw",
+    "BA21_C1_S_34.raw",
+    "BA21_C2_S_01.raw",
+    "BA21_C2_S_27.raw",
+    "BA21_D3_P_13.raw"
+  ]
+}

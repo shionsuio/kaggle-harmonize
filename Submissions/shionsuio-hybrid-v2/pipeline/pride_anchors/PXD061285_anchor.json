@@ -1,0 +1,98 @@
+{
+  "pxd": "PXD061285",
+  "source": "PRIDE_API",
+  "organism": [
+    {
+      "name": "Mus musculus (mouse)",
+      "accession": "NEWT:10090"
+    }
+  ],
+  "instruments": [
+    {
+      "name": "LTQ Orbitrap Elite",
+      "accession": "MS:1001910",
+      "sdrf_format": "AC=MS:1001910;NT=LTQ Orbitrap Elite"
+    }
+  ],
+  "modifications": [],
+  "organism_parts": [
+    {
+      "name": "Brain",
+      "accession": "BTO:0000142"
+    }
+  ],
+  "diseases": [],
+  "experiment_types": [
+    "Bottom-up proteomics",
+    "Affinity purification coupled with mass spectrometry proteomics",
+    "Data-dependent acquisition"
+  ],
+  "quantification_methods": [
+    "MS1 intensity based label-free quantification method"
+  ],
+  "keywords": [
+    "Ap-ms",
+    "Chloride channels",
+    "Membrane protein complex",
+    "Auxiliary subunits",
+    "Mouse brain",
+    "Protein-protein interactions"
+  ],
+  "publications": [
+    {
+      "pubmed_id": "",
+      "doi": "10.1038/s41467-025-58546-3",
+      "ref": "Planells-Cases R, Vorobeva V, Kar S, Schmitt FW, Schulte U, Schrecker M, Hite RK, Fakler B, Jentsch TJ. Endosomal chloride/proton exchangers need inhibitory TMEM9 β-subunits for regulation and prevention of disease-causing overactivity. Nat Commun. 2025 16(1):3117"
+    }
+  ],
+  "inferred_fragmentation": null,
+  "inferred_ms2_analyzer": "orbitrap",
+  "inferred_ionization": "nanoESI",
+  "raw_files": [
+    "mousebrain-KO-Tmem9-CL47-T9AC2-rb1_u.raw",
+    "mousebrain-WT-CL47-T9BC1_u.raw",
+    "mousebrain-WT-CL47-T9Act-rb2_u.raw",
+    "mousebrain-KO-Tmem9b-CL47-T9BC2_o.raw",
+    "mousebrain-KO-Tmem9b-CL47-T9B-Proteintech-24331-1_o.raw",
+    "mousebrain2-KO-Tmem9-CL47-T9BC2_u.raw",
+    "mousebrain-KO-Tmem9-CL47-T9AC2-rb1_o.raw",
+    "mousebrain2-WT-CL47_T9AC2-rb1_u.raw",
+    "mousebrain2-KO-Tmem9-CL47-T9BC2_o.raw",
+    "mousebrain-WT-CL47-IgG-control-2_u.raw",
+    "mousebrain-KO-Tmem9b-CL47-T9BC2_u.raw",
+    "mousebrain-KO-Tmem9b-CL47-T9B-Proteintech-24331-1_u.raw",
+    "mousebrain3-Venus-CLCN3-CL47-GFP-RnDSystems-AF4240_o.raw",
+    "mousebrain-KO-Tmem9b-CL47-T9BCt-gp2_u.raw",
+    "mousebrain-WT-CL47-T9AC2-rb2_u.raw",
+    "mousebrain-WT-CL47-IgG-control-3_u.raw",
+    "mousebrain-Venus-CLCN3-CL47-GFP-RnDSystems-AF4240_o.raw",
+    "mousebrain-WT-CL47-IgG-control-1_u.raw",
+    "mousebrain2-Venus-CLCN3-CL47-GFP-Roche-11814460001_o.raw",
+    "mousebrain-Venus-CLCN3-CL47-GFP-Roche-11814460001_u.raw",
+    "mousebrain-KO-Tmem9-CL47-T9ACt-rb2_u.raw",
+    "mousebrain2-KO-Tmem9-CL47-TMEM9B-Proteintech-24331-1_u.raw",
+    "mousebrain2-KO-Tmem9-CL47-TMEM9B-Proteintech-24331-1_o.raw",
+    "mousebrain-WT-CL47-T9AC2-gp1_o.raw",
+    "mousebrain2-Venus-CLCN3-CL47-GFP-RnDSystems-AF4240_o.raw",
+    "mousebrain2-WT-CL47_T9AC2-rb1_o.raw",
+    "mousebrain-KO-Tmem9-CL47-T9AC2-gp1_o.raw",
+    "mousebrain-WT-CL47-T9Act-rb2_o.raw",
+    "mousebrain-WT-CL47-T9AC2-rb1_o.raw",
+    "mousebrain-WT-CL47-T9BC2_u.raw",
+    "mousebrain-KO-Tmem9-CL47-T9AC2-gp1_u.raw",
+    "mousebrain2-Venus-CLCN3-CL47-GFP-Roche-11814460001_u.raw",
+    "mousebrain-WT-CL47-T9AC2-gp1_u.raw",
+    "mousebrain-KO-Tmem9b-CL47-T9BC1_o.raw",
+    "mousebrain3-Venus-CLCN3-CL47-GFP-RnDSystems-AF4240_u.raw",
+    "mousebrain-WT-CL47-T9B-Proteintech-24331-1_o.raw",
+    "mousebrain-WT-CL47-T9AC2-rb1_u.raw",
+    "mousebrain2-KO-Tmem9-CL47-T9AC2-rb1_o.raw",
+    "mousebrain2-Venus-CLCN3-CL47-GFP-RnDSystems-AF4240_u.raw",
+    "mousebrain-KO-Tmem9b-CL47-T9BCt-gp2_o.raw",
+    "mousebrain-KO-Tmem9-CL47-T9ACt-rb2_o.raw",
+    "mousebrain-WT-CL47-T9Bct-gp2_o.raw",
+    "mousebrain2-KO-Tmem9-CL47-T9AC2-rb1_u.raw",
+    "mousebrain-Venus-CLCN3-CL47-GFP-Roche-11814460001_o.raw",
+    "mousebrain-WT-CL47-T9B-Proteintech-24331-1_u.raw"
+  ]
+}

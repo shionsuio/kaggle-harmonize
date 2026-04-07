@@ -1,0 +1,347 @@
+{
+  "pxd": "PXD004705",
+  "raw_files": [
+    "Rice_phos_BR_3h_20per_F1_R2.raw",
+    "Rice_phos_Nip_0h_20per_F1_R1.raw",
+    "Rice_phos_Nip_0h_20per_F1_R2.raw",
+    "Rice_phos_BR_12h_20per_F1_R2.raw",
+    "Rice_phos_BR_12h_20per_F1_R1.raw",
+    "Rice_phos_BR_12h_20per_F1_R3.raw",
+    "Rice_phos_BR_3h_20per_F1_R3.raw",
+    "Rice_phos_BR_3h_20per_F1_R1.raw",
+    "Rice_phos_Nip_0h_20per_F1_R3.raw"
+  ],
+  "anchor": {
+    "pxd": "PXD004705",
+    "source": "PRIDE_API",
+    "organism": [
+      {
+        "name": "Oryza sativa (rice)",
+        "accession": "NEWT:4530"
+      }
+    ],
+    "instruments": [
+      {
+        "name": "Q Exactive",
+        "accession": "MS:1001911",
+        "sdrf_format": "AC=MS:1001911;NT=Q Exactive"
+      }
+    ],
+    "modifications": [],
+    "organism_parts": [
+      {
+        "name": "Leaf",
+        "accession": "BTO:0000713"
+      }
+    ],
+    "diseases": [],
+    "experiment_types": [
+      "Affinity purification coupled with mass spectrometry proteomics"
+    ],
+    "quantification_methods": [],
+    "keywords": [
+      "Abscisic acid",
+      "Phosphoproteome",
+      "Rice (oryza sativa l.)",
+      "Signaling"
+    ],
+    "publications": [
+      {
+        "pubmed_id": "",
+        "doi": "10.3389/fpls.2017.00514",
+        "ref": "Hou Y, Qiu J, Wang Y, Li Z, Zhao J, Tong X, Lin H, Zhang J. A Quantitative Proteomic Analysis of Brassinosteroid-induced Protein Phosphorylation in Rice (Oryza sativa L.). Front Plant Sci. 2017 8:514"
+      }
+    ],
+    "inferred_fragmentation": "HCD",
+    "inferred_ms2_analyzer": "orbitrap",
+    "inferred_ionization": "nanoESI",
+    "raw_files": [
+      "Rice_phos_BR_3h_20per_F1_R2.raw",
+      "Rice_phos_Nip_0h_20per_F1_R1.raw",
+      "Rice_phos_Nip_0h_20per_F1_R2.raw",
+      "Rice_phos_BR_12h_20per_F1_R2.raw",
+      "Rice_phos_BR_12h_20per_F1_R1.raw",
+      "Rice_phos_BR_12h_20per_F1_R3.raw",
+      "Rice_phos_BR_3h_20per_F1_R3.raw",
+      "Rice_phos_BR_3h_20per_F1_R1.raw",
+      "Rice_phos_Nip_0h_20per_F1_R3.raw"
+    ]
+  },
+  "steps": {
+    "STEP1_OVERVIEW": {
+      "confirmed": {
+        "Characteristics[Organism]": {
+          "value": "Oryza sativa",
+          "evidence": "A Quantitative Proteomic Analysis of Brassinosteroid-induced Protein Phosphorylation in Rice (Oryza sativa L.)",
+          "source": "manuscript"
+        },
+        "Characteristics[MaterialType]": {
+          "value": "whole organism",
+          "evidence": "4,034 phosphosites on 1,900 phosphoproteins from rice young seedlings",
+          "source": "manuscript"
+        },
+        "Characteristics[Label]": {
+          "value": "label-free",
+          "evidence": "By employing a label-free, MS (Mass Spectrometry)-based phosphoproteomic approach",
+          "source": "manuscript"
+        },
+        "Characteristics[DevelopmentalStage]": {
+          "value": "seedling",
+          "evidence": "from rice young seedlings and their dynamic response to BR",
+          "source": "manuscript"
+        },
+        "Characteristics[Treatment]": {
+          "value": "brassinosteroid treatment",
+          "evidence": "1,821 proteins, including kinases, transcription factors and core components of BR and other hormone signaling pathways, were found to be differentially phosphorylated during the BR treatment",
+          "source": "manuscript"
+        },
+        "Characteristics[Compound]": {
+          "value": "brassinosteroids",
+          "evidence": "The group of polyhydroxysteroid phytohormones referred to as the brassinosteroids (BRs)",
+          "source": "manuscript"
+        },
+        "Comment[AcquisitionMethod]": {
+          "value": "phosphoproteomics",
+          "evidence": "MS (Mass Spectrometry)-based phosphoproteomic approach",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {
+        "Characteristics[OrganismPart]": {
+          "candidates": [
+            "whole seedling",
+            "leaf"
+          ],
+          "reasoning": "PRIDEデータベースではLeafと記録されているが、論文では'young seedlings'と記述されており、全体か特定部位かが不明確",
+          "needs": "材料と方法セクションで使用した植物部位の詳細確認"
+        }
+      },
+      "not_applicable": [
+        "Characteristics[CellType]",
+        "Characteristics[CellLine]",
+        "Characteristics[Disease]",
+        "Characteristics[Specimen]",
+        "Characteristics[Strain]",
+        "Characteristics[GeneticModification]",
+        "Characteristics[ConcentrationOfCompound]"
+      ],
+      "summary": "イネの若い実生を用いたブラシノステロイド処理によるリン酸化プロテオミクス実験であることが確定。Label-free MS手法を使用し、発達段階は実生期。PRIDEデータベースの葉組織記録と論文の実生記述に矛盾があり、使用した植物部位の詳細確認が必要。化合物濃度や品種情報は未記載。"
+    },
+    "STEP2_SAMPLE_PREP": {
+      "confirmed": {
+        "Characteristics[CleavageAgent]": {
+          "value": "trypsin",
+          "evidence": "Two missed cleavage on trypsin was allowed",
+          "source": "manuscript"
+        },
+        "Characteristics[AlkylationReagent]": {
+          "value": "iodoacetamide",
+          "evidence": "Carbamidomethyl (C) as static modification in the Mascot searches",
+          "source": "manuscript"
+        },
+        "Characteristics[Label]": {
+          "value": "label-free",
+          "evidence": "The phosphorylation is quantified based on the peak area under the ion intensity by using precursor ions area detector",
+          "source": "manuscript"
+        },
+        "Characteristics[Modification]": {
+          "value": "Phospho",
+          "evidence": "Phospho(S/T/Y) were set as variable modifications",
+          "source": "manuscript"
+        },
+        "Characteristics[Modification].1": {
+          "value": "Oxidation",
+          "evidence": "Oxidation (M), Acetyl (Protein-N term), and Phospho(S/T/Y) were set as variable modifications",
+          "source": "manuscript"
+        },
+        "Characteristics[Modification].2": {
+          "value": "Acetyl",
+          "evidence": "Oxidation (M), Acetyl (Protein-N term), and Phospho(S/T/Y) were set as variable modifications",
+          "source": "manuscript"
+        },
+        "Characteristics[Modification].3": {
+          "value": "Carbamidomethyl",
+          "evidence": "Carbamidomethyl (C) as static modification",
+          "source": "manuscript"
+        },
+        "Comment[EnrichmentMethod]": {
+          "value": "TiO2",
+          "evidence": "incubated with 4 mg TiO2 beads (GL sciences, Torrance, CA, USA) for three times",
+          "source": "manuscript"
+        },
+        "Comment[Separation]": {
+          "value": "nanoLC-MS/MS",
+          "evidence": "LC-MS/MS analyses were performed on an Easy-nLC 1000 liquid chromatography system",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {
+        "Characteristics[ReductionReagent]": {
+          "candidates": [
+            "DTT",
+            "TCEP",
+            "beta-mercaptoethanol"
+          ],
+          "reasoning": "Carbamidomethyl修飾が確認されており、システイン残基の還元処理が行われていることは確実だが、具体的な還元剤は記載されていない",
+          "needs": "実験プロトコルの詳細または参照文献の確認"
+        }
+      },
+      "not_applicable": [
+        "Characteristics[Modification].4",
+        "Characteristics[Modification].5",
+        "Characteristics[Modification].6",
+        "Characteristics[Depletion",
+        "Characteristics[SpikedCompound]",
+        "Characteristics[SyntheticPeptide]",
+        "Comment[FractionationMethod]",
+        "Comment[NumberOfFractions]"
+      ],
+      "summary": "サンプル調製では、トリプシン消化、ヨードアセトアミドによるアルキル化、リン酸化ペプチドのTiO2エンリッチメントが行われている。Label-free定量法を用用い、リン酸化、酸化、アセチル化、カルバミドメチル化の修飾を設定。nanoLC-MS/MSによる分離分析。還元剤の詳細は記載されておらず、分画は実施されていない。"
+    },
+    "STEP3_MS_SETTINGS": {
+      "confirmed": {
+        "Comment[Instrument]": {
+          "value": "Q-Exactive Plus",
+          "evidence": "LC-MS/MS analyses were performed on an Easy-nLC 1000 liquid chromatography system (Thermo, Waltham, MA, USA) coupled to a Q-Exactive Plus via a nano-electrospray ion source",
+          "source": "manuscript"
+        },
+        "Comment[FragmentationMethod]": {
+          "value": "HCD",
+          "evidence": "The top 20 most intense precursor ions were selected for fragmentation in the HCD cell at normalized collision energy of 27%",
+          "source": "manuscript"
+        },
+        "Comment[IonizationType]": {
+          "value": "nano-electrospray",
+          "evidence": "coupled to a Q-Exactive Plus via a nano-electrospray ion source (Thermo, Waltham, MA, USA)",
+          "source": "manuscript"
+        },
+        "Comment[MS2MassAnalyzer]": {
+          "value": "Orbitrap",
+          "evidence": "then fragment ions were transferred into the Orbitrap analyzer operating at a resolution of 17,500 at m/z 400",
+          "source": "manuscript"
+        },
+        "Comment[CollisionEnergy]": {
+          "value": "27%",
+          "evidence": "selected for fragmentation in the HCD cell at normalized collision energy of 27%",
+          "source": "manuscript"
+        },
+        "Comment[PrecursorMassTolerance]": {
+          "value": "20 ppm",
+          "evidence": "The mass tolerance was set at 20 ppm for precursor",
+          "source": "manuscript"
+        },
+        "Comment[FragmentMassTolerance]": {
+          "value": "50 mmu",
+          "evidence": "and 50 mmu for the tolerance of product ions",
+          "source": "manuscript"
+        },
+        "Comment[NumberOfMissedCleavages]": {
+          "value": "2",
+          "evidence": "Two missed cleavage on trypsin was allowed",
+          "source": "manuscript"
+        },
+        "Comment[FlowRateChromatogram]": {
+          "value": "500 nl/min",
+          "evidence": "separated on a homemade 100 μm ID × 10 cm column with a linear 5–35% acetonitrile gradient at 500 nl/min",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {
+        "Comment[AcquisitionMethod]": {
+          "candidates": [
+            "data-dependent acquisition",
+            "DDA"
+          ],
+          "reasoning": "top 20 most intense precursor ionsを選択する記述から、データ依存取得モードと推定されるが、明確にDDAと記載されていない",
+          "needs": "取得モードの明示的な記述"
+        }
+      },
+      "not_applicable": [
+        "Comment[GradientTime]"
+      ],
+      "summary": "質量分析装置はQ-Exactive Plusを使用し、HCD断片化、nano-electrospray電離、Orbitrapアナライザーを確認。コリジョンエネルギー27%、前駆体質量許容誤差20ppm、フラグメント質量許容誤差50mmu、トリプシン切断見逃し数2、流速500nl/minが確定。取得方法はtop20選択からDDAと推定されるが明示的記述なし。グラディエント時間は記載されていない。"
+    },
+    "STEP4_RAW_FILES": {
+      "confirmed": {
+        "Characteristics[BiologicalReplicate]": {
+          "value": "per_file",
+          "per_file": {
+            "Rice_phos_Nip_0h_20per_F1_R1.raw": "1",
+            "Rice_phos_Nip_0h_20per_F1_R2.raw": "2",
+            "Rice_phos_Nip_0h_20per_F1_R3.raw": "3",
+            "Rice_phos_BR_3h_20per_F1_R1.raw": "1",
+            "Rice_phos_BR_3h_20per_F1_R2.raw": "2",
+            "Rice_phos_BR_3h_20per_F1_R3.raw": "3",
+            "Rice_phos_BR_12h_20per_F1_R1.raw": "1",
+            "Rice_phos_BR_12h_20per_F1_R2.raw": "2",
+            "Rice_phos_BR_12h_20per_F1_R3.raw": "3"
+          },
+          "evidence": "ファイル名のR1, R2, R3トークンと論文テキスト「Three biological replicates were performed for each treatment and the control」",
+          "source": "manuscript/filename"
+        },
+        "Characteristics[NumberOfBiologicalReplicates]": {
+          "value": "3",
+          "evidence": "Three biological replicates were performed for each treatment and the control",
+          "source": "manuscript"
+        },
+        "Characteristics[NumberOfSamples]": {
+          "value": "9",
+          "evidence": "rawファイル数9個（0h: 3サンプル, 3h: 3サンプル, 12h: 3サンプル）",
+          "source": "filename"
+        },
+        "FactorValue[Treatment]": {
+          "value": "per_file",
+          "per_file": {
+            "Rice_phos_Nip_0h_20per_F1_R1.raw": "control",
+            "Rice_phos_Nip_0h_20per_F1_R2.raw": "control",
+            "Rice_phos_Nip_0h_20per_F1_R3.raw": "control",
+            "Rice_phos_BR_3h_20per_F1_R1.raw": "brassinosteroid treatment",
+            "Rice_phos_BR_3h_20per_F1_R2.raw": "brassinosteroid treatment",
+            "Rice_phos_BR_3h_20per_F1_R3.raw": "brassinosteroid treatment",
+            "Rice_phos_BR_12h_20per_F1_R1.raw": "brassinosteroid treatment",
+            "Rice_phos_BR_12h_20per_F1_R2.raw": "brassinosteroid treatment",
+            "Rice_phos_BR_12h_20per_F1_R3.raw": "brassinosteroid treatment"
+          },
+          "evidence": "ファイル名のNip（0時間コントロール）とBR（ブラシノステロイド処理）トークン、論文テキスト「soaked into water containing 10 μM epibrassinolide for 24 hours」",
+          "source": "manuscript/filename"
+        },
+        "FactorValue[Compound]": {
+          "value": "epibrassinolide",
+          "evidence": "soaked into water containing 10 μM epibrassinolide (Cat No. E1641, Sigma, St. Louis, MN, USA)",
+          "source": "manuscript"
+        },
+        "FactorValue[ConcentrationOfCompound].1": {
+          "value": "10 μM",
+          "evidence": "soaked into water containing 10 μM epibrassinolide",
+          "source": "manuscript"
+        },
+        "Comment[FractionIdentifier]": {
+          "value": "F1",
+          "evidence": "全ファイル名にF1トークンが含まれており、単一フラクション分析を示す",
+          "source": "filename"
+        }
+      },
+      "hypotheses": {
+        "FactorValue[TimePoint]": {
+          "candidates": [
+            "0h",
+            "3h",
+            "12h"
+          ],
+          "reasoning": "ファイル名の0h, 3h, 12hトークンが時間因子を示唆し、論文では0h, 3h, 6h, 12h, 24hの時点でサンプル採取と記載されているが、rawファイルは3つの時点のみ",
+          "needs": "なぜ6hと24hのファイルが含まれていないかの確認"
+        }
+      },
+      "not_applicable": [
+        "Characteristics[NumberOfTechnicalReplicates]",
+        "FactorValue[Temperature]",
+        "FactorValue[Disease]",
+        "FactorValue[GeneticModification]",
+        "FactorValue[Bait]",
+        "FactorValue[CellPart]",
+        "FactorValue[FractionIdentifier]"
+      ],
+      "summary": "rawファイル名の解析により、3つの生物学的複製（R1-R3）で3つの時点（0h, 3h, 12h）の実験設計が確定。コントロール（Nip_0h）とブラシノステロイド処理（BR_3h, BR_12h）の比較実験で、10μMエピブラシノライド処理を確認。単一フラクション（F1）分析。論文では5つの時点（0-24h）での採取を記載しているが、提供されたrawファイルは3つの時点のみで、残りの時点のデータが含まれていない理由は不明。"
+    }
+  }
+}

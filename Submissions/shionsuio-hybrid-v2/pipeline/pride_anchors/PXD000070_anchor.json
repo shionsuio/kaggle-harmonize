@@ -1,0 +1,48 @@
+{
+  "pxd": "PXD000070",
+  "source": "PRIDE_API",
+  "organism": [
+    {
+      "name": "Plasmodium falciparum (isolate 3d7)",
+      "accession": "NEWT:36329"
+    }
+  ],
+  "instruments": [
+    {
+      "name": "LTQ Orbitrap Velos",
+      "accession": "MS:1001742",
+      "sdrf_format": "AC=MS:1001742;NT=LTQ Orbitrap Velos"
+    }
+  ],
+  "modifications": [],
+  "organism_parts": [],
+  "diseases": [],
+  "experiment_types": [
+    "Bottom-up proteomics"
+  ],
+  "quantification_methods": [],
+  "keywords": [
+    "Plasmodium falciparum",
+    "Cid",
+    "Phosphoproteome",
+    "Etd"
+  ],
+  "publications": [
+    {
+      "pubmed_id": "",
+      "doi": "10.1016/j.jprot.2014.03.010",
+      "ref": "Collins MO, Wright JC, Jones M, Rayner JC, Choudhary JS. Confident and sensitive phosphoproteomics using combinations of collision induced dissociation and electron transfer dissociation. J Proteomics. 2014 Mar 21;103C:1-14"
+    }
+  ],
+  "inferred_fragmentation": null,
+  "inferred_ms2_analyzer": "orbitrap",
+  "inferred_ionization": "nanoESI",
+  "raw_files": [
+    "OTPf-IMACDDNL_2010Mar9-01.raw",
+    "OTPf-IMACDT2010Mar11-01.raw",
+    "OTPf-IMACDT2010Mar11-02.raw",
+    "OTPf-IMACDT2010Mar10-01.raw",
+    "OTPf-IMACDDNL_2010Mar9-02.raw",
+    "OTPf-IMACDDNL_2010Mar06-02.raw"
+  ]
+}

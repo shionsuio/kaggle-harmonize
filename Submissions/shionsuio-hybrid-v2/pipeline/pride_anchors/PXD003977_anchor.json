@@ -1,0 +1,89 @@
+{
+  "pxd": "PXD003977",
+  "source": "PRIDE_API",
+  "organism": [
+    {
+      "name": "Homo sapiens (human)",
+      "accession": "NEWT:9606"
+    }
+  ],
+  "instruments": [
+    {
+      "name": "Orbitrap Fusion ETD",
+      "accession": "MS:1002417",
+      "sdrf_format": "AC=MS:1002417;NT=Orbitrap Fusion ETD"
+    }
+  ],
+  "modifications": [],
+  "organism_parts": [
+    {
+      "name": "Epithelial cell",
+      "accession": "CL:0000066"
+    },
+    {
+      "name": "Cell culture",
+      "accession": "BTO:0000214"
+    }
+  ],
+  "diseases": [
+    {
+      "name": "Breast adenocarcinoma",
+      "accession": "DOID:3458"
+    }
+  ],
+  "experiment_types": [
+    "Shotgun proteomics"
+  ],
+  "quantification_methods": [
+    "Spectrum counting"
+  ],
+  "keywords": [
+    "Fusion lumos",
+    "Deep proteome"
+  ],
+  "publications": [
+    {
+      "pubmed_id": "",
+      "doi": "10.1021/acs.jproteome.6b00915",
+      "ref": "Davis S, Charles PD, He L, Mowlds P, Kessler BM, Fischer R. Expanding proteome coverage with CHarge Ordered Parallel Ion aNalysis (CHOPIN) combined with broad specificity proteolysis. J Proteome Res. 2017 Feb 6"
+    }
+  ],
+  "inferred_fragmentation": null,
+  "inferred_ms2_analyzer": "orbitrap",
+  "inferred_ionization": "nanoESI",
+  "raw_files": [
+    "FL0026_RFI_261114_Deep_High_ET_F27_hybrid.raw",
+    "FL0026_RFI_261114_Deep_High_ET_F22F37_hybrid.raw",
+    "FL0026_RFI_261114_Deep_High_ET_F25F40_uni.raw",
+    "FL0026_RFI_261114_Deep_High_E_F24F39_uni.raw",
+    "FL0026_RFI_261114_Deep_High_ET_F23F38_hybrid.raw",
+    "FL0026_RFI_261114_Deep_High_Trypsin_F13F28_hybrid.raw",
+    "FL0026_RFI_261114_Deep_High_E_F14F29_hybrid.raw",
+    "FL0026_RFI_261114_Deep_High_ET_F13F28_hybrid.raw",
+    "FL0026_RFI_261114_Deep_High_Trypsin_F23F38_hybrid.raw",
+    "FL0026_RFI_261114_Deep_High_E_F20F35_hybrid.raw",
+    "FL0026_RFI_261114_Deep_High_ET_F40_hybrid_151219140953.raw",
+    "FL0026_RFI_261114_Deep_High_E_F23F38_hybrid.raw",
+    "FL0026_RFI_261114_Deep_High_ET_F25F40_hybrid.raw",
+    "FL0026_RFI_261114_Deep_High_ET_F37_hybrid.raw",
+    "FL0026_RFI_261114_Deep_High_Trypsin_F24F39_uni.raw",
+    "FL0026_RFI_261114_Deep_High_E_F17F32_hybrid.raw",
+    "FL0026_RFI_261114_Deep_High_ET_F13F28_uni.raw",
+    "FL0026_RFI_261114_Deep_High_ET_F21F36_hybrid.raw",
+    "FL0026_RFI_261114_Deep_High_ET_F36_hybrid.raw",
+    "FL0026_RFI_261114_Deep_High_Trypsin_F22F37_uni.raw",
+    "FL0026_RFI_261114_Deep_High_Trypsin_F17F32_uni.raw",
+    "FL0026_RFI_261114_Deep_High_ET_F15_hybrid.raw",
+    "FL0026_RFI_261114_Deep_High_E_F23F38_uni.raw",
+    "FL0026_RFI_261114_Deep_High_ET_F15F30_uni.raw",
+    "FL0026_RFI_261114_Deep_High_ET_F13_hybrid.raw",
+    "FL0026_RFI_261114_Deep_High_Trypsin_F16F31_uni.raw",
+    "FL0026_RFI_261114_Deep_High_ET_F19_hybrid.raw",
+    "FL0026_RFI_261114_Deep_High_ET_F17F32_hybrid.raw",
+    "FL0026_RFI_261114_Deep_High_ET_F12F27_hybrid.raw",
+    "FL0026_RFI_261114_Deep_High_ET_F16_hybrid.raw",
+    "FL0026_RFI_261114_Deep_High_ET_F17F32_uni.raw",
+    "FL0026_RFI_261114_Deep_High_ET_F39_hybrid.raw",
+    "FL0026_RFI_261114_Deep_High_ET_F23F38_uni.raw"
+  ]
+}

@@ -1,0 +1,318 @@
+{
+  "pxd": "PXD000999",
+  "raw_files": [
+    "20131106_Q2_SDC_120MIN_HELA2.raw",
+    "20131202_hela1_120min_2MZ.raw",
+    "20131106_Q2_SDC_120MIN_HELA1.raw",
+    "20131202_hela1_120min_6MZ.raw",
+    "20131106_Q2_SDC_120MIN_HELA3.raw",
+    "20131202_hela1_120min_131202214433.raw",
+    "20131202_hela1_120min_8MZ.raw"
+  ],
+  "anchor": {
+    "pxd": "PXD000999",
+    "source": "PRIDE_API",
+    "organism": [
+      {
+        "name": "Homo sapiens (human)",
+        "accession": "NEWT:9606"
+      }
+    ],
+    "instruments": [
+      {
+        "name": "Q Exactive",
+        "accession": "MS:1001911",
+        "sdrf_format": "AC=MS:1001911;NT=Q Exactive"
+      }
+    ],
+    "modifications": [],
+    "organism_parts": [
+      {
+        "name": "Hela cell",
+        "accession": "BTO:0000567"
+      }
+    ],
+    "diseases": [],
+    "experiment_types": [
+      "Shotgun proteomics"
+    ],
+    "quantification_methods": [],
+    "keywords": [
+      "Hela",
+      "Deep proteomics",
+      "Orbitrap"
+    ],
+    "publications": [
+      {
+        "pubmed_id": "",
+        "doi": "",
+        "ref": "Zhang B, Pirmoradian M, Chernobrovkin A, Zubarev RA. DeMix Workflow for Efficient Identification of Co-fragmented Peptides in High Resolution Data-dependent Tandem Mass Spectrometry. Mol Cell Proteomics. 2014 Aug 6. pii: mcp.O114.038877"
+      }
+    ],
+    "inferred_fragmentation": "HCD",
+    "inferred_ms2_analyzer": "orbitrap",
+    "inferred_ionization": "nanoESI",
+    "raw_files": [
+      "20131106_Q2_SDC_120MIN_HELA2.raw",
+      "20131202_hela1_120min_2MZ.raw",
+      "20131106_Q2_SDC_120MIN_HELA1.raw",
+      "20131202_hela1_120min_6MZ.raw",
+      "20131106_Q2_SDC_120MIN_HELA3.raw",
+      "20131202_hela1_120min_131202214433.raw",
+      "20131202_hela1_120min_8MZ.raw"
+    ]
+  },
+  "steps": {
+    "STEP1_OVERVIEW": {
+      "confirmed": {
+        "Characteristics[Organism]": {
+          "value": "Homo sapiens",
+          "evidence": "analysis of over 5000 human proteins",
+          "source": "manuscript"
+        },
+        "Characteristics[MaterialType]": {
+          "value": "protein extract",
+          "evidence": "shotgun proteomics, analysis of over 5000 human proteins in single-dimensional LC-MS/MS",
+          "source": "manuscript"
+        },
+        "Comment[AcquisitionMethod]": {
+          "value": "data-dependent acquisition",
+          "evidence": "Based on conventional data-dependent acquisition strategy of shotgun proteomics",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {
+        "Characteristics[CellLine]": {
+          "candidates": [
+            "HeLa"
+          ],
+          "reasoning": "PRIDE database anchor information indicates 'Hela cell' as organism part, suggesting HeLa cell line was used",
+          "needs": "Confirmation from methods section or sample description"
+        },
+        "Characteristics[OrganismPart]": {
+          "candidates": [
+            "cell culture",
+            "cultured cells"
+          ],
+          "reasoning": "PRIDE database indicates 'Hela cell' and the context suggests cultured cell analysis rather than tissue",
+          "needs": "Explicit mention in methods or sample preparation section"
+        },
+        "Characteristics[CellType]": {
+          "candidates": [
+            "epithelial cell"
+          ],
+          "reasoning": "If HeLa cells were used, they are cervical epithelial adenocarcinoma cells",
+          "needs": "Confirmation of cell line and detailed cell type information"
+        },
+        "Characteristics[Disease]": {
+          "candidates": [
+            "cervical adenocarcinoma",
+            "cancer"
+          ],
+          "reasoning": "HeLa cells are derived from cervical adenocarcinoma, but disease context not explicitly mentioned",
+          "needs": "Confirmation whether disease context is relevant to the study"
+        },
+        "Characteristics[Label]": {
+          "candidates": [
+            "label-free"
+          ],
+          "reasoning": "No mention of chemical labeling methods (TMT, SILAC, iTRAQ) in abstract, suggesting label-free quantification",
+          "needs": "Explicit mention of quantification method in methods section"
+        }
+      },
+      "not_applicable": [
+        "Characteristics[Specimen]",
+        "Characteristics[Strain]",
+        "Characteristics[GeneticModification]",
+        "Characteristics[Treatment]",
+        "Characteristics[DevelopmentalStage]",
+        "Characteristics[Compound]",
+        "Characteristics[ConcentrationOfCompound]"
+      ],
+      "summary": "This is a human proteomics study using data-dependent acquisition shotgun proteomics for protein extract analysis. PRIDE database suggests HeLa cells were used, but this needs methods section confirmation. The study appears to be label-free based on no mention of chemical labeling. Key focus is on methodology development (DeMix workflow) rather than biological treatment comparisons."
+    },
+    "STEP2_SAMPLE_PREP": {
+      "confirmed": {
+        "Characteristics[CleavageAgent]": {
+          "value": "trypsin",
+          "evidence": "Proteins (80 μg) were digested with trypsin and incubated at 37 °C for 9 h.",
+          "source": "manuscript"
+        },
+        "Characteristics[ReductionReagent]": {
+          "value": "DTT",
+          "evidence": "protein extracts were reduced and alkylated via incubation with 10 mm of DTT and iodoacetamide, respectively.",
+          "source": "manuscript"
+        },
+        "Characteristics[AlkylationReagent]": {
+          "value": "iodoacetamide",
+          "evidence": "protein extracts were reduced and alkylated via incubation with 10 mm of DTT and iodoacetamide, respectively.",
+          "source": "manuscript"
+        },
+        "Characteristics[Label]": {
+          "value": "label-free",
+          "evidence": "No chemical labeling methods mentioned in sample preparation protocol, and LC-MS/MS described as direct analysis without labeling reagents.",
+          "source": "manuscript"
+        },
+        "Characteristics[Modification]": {
+          "value": "carbamidomethylation of C",
+          "evidence": "Fixed Modifications = (carbamidomethylation of C)",
+          "source": "manuscript"
+        },
+        "Characteristics[Modification].1": {
+          "value": "oxidation of M",
+          "evidence": "Variable Modifications = [oxidation of M, acetylation of protein N terminus]",
+          "source": "manuscript"
+        },
+        "Characteristics[Modification].2": {
+          "value": "acetylation of protein N terminus",
+          "evidence": "Variable Modifications = [oxidation of M, acetylation of protein N terminus]",
+          "source": "manuscript"
+        },
+        "Comment[Separation]": {
+          "value": "reverse phase",
+          "evidence": "Thermo Scientific EASY-Spray columns (PepMap® RSLC, C18, 100 Å, 2 μm bead packed 50 cm column)",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {},
+      "not_applicable": [
+        "Characteristics[Modification].3",
+        "Characteristics[Modification].4",
+        "Characteristics[Modification].5",
+        "Characteristics[Modification].6",
+        "Characteristics[Depletion",
+        "Characteristics[SpikedCompound]",
+        "Characteristics[SyntheticPeptide]",
+        "Comment[EnrichmentMethod]",
+        "Comment[FractionationMethod]",
+        "Comment[NumberOfFractions]"
+      ],
+      "summary": "Sample preparation details are fully characterized. HeLa cells were processed using standard proteomics workflow with trypsin digestion, DTT reduction, and iodoacetamide alkylation. The study used label-free quantification with reverse phase LC separation. Three modifications were searched: carbamidomethylation (fixed) and oxidation/N-terminal acetylation (variable). No enrichment or fractionation methods were employed."
+    },
+    "STEP3_MS_SETTINGS": {
+      "confirmed": {
+        "Comment[Instrument]": {
+          "value": "Orbitrap Q Exactive mass spectrometer",
+          "evidence": "Mass spectra were acquired with an Orbitrap Q Exactive mass spectrometer (Thermo Scientific)",
+          "source": "manuscript"
+        },
+        "Comment[FragmentationMethod]": {
+          "value": "HCD",
+          "evidence": "Peptide fragmentation was performed via higher-energy collisional dissociation",
+          "source": "manuscript"
+        },
+        "Comment[AcquisitionMethod]": {
+          "value": "data-dependent acquisition",
+          "evidence": "Mass spectra were acquired with an Orbitrap Q Exactive mass spectrometer (Thermo Scientific) in a data-dependent manner using a top-20 method",
+          "source": "manuscript"
+        },
+        "Comment[IonizationType]": {
+          "value": "nanoESI",
+          "evidence": "nanoESI",
+          "source": "anchor"
+        },
+        "Comment[MS2MassAnalyzer]": {
+          "value": "orbitrap",
+          "evidence": "orbitrap",
+          "source": "anchor"
+        },
+        "Comment[CollisionEnergy]": {
+          "value": "25 V normalized collisional energy",
+          "evidence": "higher-energy collisional dissociation set at 25 V of normalized collisional energy",
+          "source": "manuscript"
+        },
+        "Comment[PrecursorMassTolerance]": {
+          "value": "10 ppm",
+          "evidence": "The second pass database search was performed on deconvoluted MS/MS data with a narrower MS tolerance (10 ppm)",
+          "source": "manuscript"
+        },
+        "Comment[FragmentMassTolerance]": {
+          "value": "20 ppm",
+          "evidence": "the tolerance for MS/MS was still 20 ppm",
+          "source": "manuscript"
+        },
+        "Comment[NumberOfMissedCleavages]": {
+          "value": "3",
+          "evidence": "Maximum Missed Cleavages = 3",
+          "source": "manuscript"
+        },
+        "Comment[GradientTime]": {
+          "value": "150 min",
+          "evidence": "eluted in a 150 min LC-MS/MS experiment",
+          "source": "manuscript"
+        },
+        "Comment[FlowRateChromatogram]": {
+          "value": "250 nL/min",
+          "evidence": "at a flow rate of 250 nL/min",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {},
+      "not_applicable": [],
+      "summary": "Mass spectrometry instrumentation and acquisition parameters are fully characterized. The study used an Orbitrap Q Exactive with data-dependent acquisition (top-20 method), HCD fragmentation at 25V, and nanoESI ionization. Search parameters included 10 ppm precursor tolerance, 20 ppm fragment tolerance, and maximum 3 missed cleavages. LC conditions were 150 min gradient at 250 nL/min flow rate. All technical parameters for mass spectrometry analysis are now complete."
+    },
+    "STEP4_RAW_FILES": {
+      "confirmed": {
+        "Characteristics[BiologicalReplicate]": {
+          "value": "per_file",
+          "per_file": {
+            "20131106_Q2_SDC_120MIN_HELA1.raw": "1",
+            "20131106_Q2_SDC_120MIN_HELA2.raw": "2",
+            "20131106_Q2_SDC_120MIN_HELA3.raw": "3",
+            "20131202_hela1_120min_2MZ.raw": "1",
+            "20131202_hela1_120min_6MZ.raw": "1",
+            "20131202_hela1_120min_8MZ.raw": "1",
+            "20131202_hela1_120min_131202214433.raw": "1"
+          },
+          "evidence": "Three separate cell pellets were lysed... The same set of three .RAW files was processed using Mascot MS/MS search engine",
+          "source": "manuscript"
+        },
+        "Characteristics[NumberOfBiologicalReplicates]": {
+          "value": "3",
+          "evidence": "Three separate cell pellets were lysed",
+          "source": "manuscript"
+        },
+        "Characteristics[NumberOfTechnicalReplicates]": {
+          "value": "4",
+          "evidence": "For testing precursor selectivity, replicated experiments were performed with four different isolation widths: ±1.0, ±2.0, ±3.0, and ±4.0 Th",
+          "source": "manuscript"
+        },
+        "Characteristics[NumberOfSamples]": {
+          "value": "7",
+          "evidence": "Total raw files present: 7 files (3 biological replicates + 4 technical replicates with different isolation widths)",
+          "source": "filename"
+        }
+      },
+      "hypotheses": {
+        "FactorValue[Treatment]": {
+          "candidates": [
+            "isolation width"
+          ],
+          "reasoning": "Files with 2MZ, 6MZ, 8MZ suggest different isolation width treatments as experimental factors",
+          "needs": "Confirmation of what the MZ values represent in the experimental design"
+        },
+        "Comment[FractionIdentifier]": {
+          "candidates": [
+            "±1.0 Th",
+            "±2.0 Th",
+            "±3.0 Th",
+            "±4.0 Th"
+          ],
+          "reasoning": "Four different isolation widths mentioned, likely corresponding to files with 2MZ, 6MZ, 8MZ and one control file",
+          "needs": "Clear mapping between filename tokens and isolation width values"
+        }
+      },
+      "not_applicable": [
+        "FactorValue[Temperature]",
+        "FactorValue[Disease]",
+        "FactorValue[GeneticModification]",
+        "FactorValue[Compound]",
+        "FactorValue[Bait]",
+        "FactorValue[CellPart]",
+        "FactorValue[ConcentrationOfCompound].1",
+        "FactorValue[FractionIdentifier]"
+      ],
+      "summary": "Study confirmed to use 3 biological replicates (HELA1, HELA2, HELA3) with 4 different isolation width conditions (±1.0, ±2.0, ±3.0, ±4.0 Th) totaling 7 raw files. The experimental design focuses on testing precursor selectivity with different isolation widths rather than biological treatments. Clear biological replicate structure identified from filename tokens and manuscript text."
+    }
+  }
+}

@@ -1,0 +1,429 @@
+{
+  "pxd": "PXD012986",
+  "raw_files": [
+    "QExHF04026.raw",
+    "QExHF04032.raw",
+    "QExHF04050.raw",
+    "QExHF04036.raw",
+    "QExHF04044.raw",
+    "QExHF04028.raw",
+    "QExHF04034.raw",
+    "QExHF04048.raw",
+    "QExHF04046.raw",
+    "QExHF04038.raw",
+    "QExHF04030.raw",
+    "QExHF04040.raw",
+    "QExHF04052.raw",
+    "QExHF04054.raw",
+    "QExHF04042.raw"
+  ],
+  "anchor": {
+    "pxd": "PXD012986",
+    "source": "PRIDE_API",
+    "organism": [
+      {
+        "name": "Mus musculus (mouse)",
+        "accession": "NEWT:10090"
+      }
+    ],
+    "instruments": [
+      {
+        "name": "Q Exactive HF",
+        "accession": "MS:1002523",
+        "sdrf_format": "AC=MS:1002523;NT=Q Exactive HF"
+      }
+    ],
+    "modifications": [],
+    "organism_parts": [
+      {
+        "name": "Myoblast",
+        "accession": "CL:0000056"
+      },
+      {
+        "name": "Cell culture",
+        "accession": "BTO:0000214"
+      }
+    ],
+    "diseases": [],
+    "experiment_types": [
+      "Shotgun proteomics"
+    ],
+    "quantification_methods": [
+      "MS1 intensity based label-free quantification method"
+    ],
+    "keywords": [
+      "Data-independent acquisition (dia)",
+      "Label-free quantification",
+      "Peptide identification",
+      "Spectral library"
+    ],
+    "publications": [
+      {
+        "pubmed_id": "",
+        "doi": "10.1074/mcp.ra119.001714",
+        "ref": "Barkovits K, Pacharra S, Pfeiffer K, Steinbach S, Eisenacher M, Marcus K, Uszkoreit J. Reproducibility, specificity and accuracy of relative quantification using spectral library-based data-independent acquisition. Mol Cell Proteomics. 2019"
+      }
+    ],
+    "inferred_fragmentation": "HCD",
+    "inferred_ms2_analyzer": "orbitrap",
+    "inferred_ionization": "nanoESI",
+    "raw_files": [
+      "QExHF04026.raw",
+      "QExHF04032.raw",
+      "QExHF04050.raw",
+      "QExHF04036.raw",
+      "QExHF04044.raw",
+      "QExHF04028.raw",
+      "QExHF04034.raw",
+      "QExHF04048.raw"
+    ]
+  },
+  "extractions": {
+    "TITLE_ABSTRACT": {
+      "Characteristics[Organism]": {
+        "value": "Mus musculus",
+        "evidence": "Ground truth from PRIDE database",
+        "confidence": "high",
+        "source": "anchor",
+        "applies_to": "all"
+      },
+      "Characteristics[OrganismPart]": {
+        "value": "Myoblast",
+        "evidence": "Ground truth from PRIDE database",
+        "confidence": "high",
+        "source": "anchor",
+        "applies_to": "all"
+      },
+      "Characteristics[CellType]": {
+        "value": "Myoblast",
+        "evidence": "Ground truth from PRIDE database",
+        "confidence": "high",
+        "source": "anchor",
+        "applies_to": "all"
+      },
+      "Characteristics[CellLine]": {
+        "value": "Not Applicable",
+        "evidence": "No specific cell line mentioned in manuscript or anchor data",
+        "confidence": "high",
+        "source": "manuscript",
+        "applies_to": "all"
+      },
+      "Characteristics[Disease]": {
+        "value": "Not Applicable",
+        "evidence": "No disease condition mentioned in manuscript or anchor data",
+        "confidence": "high",
+        "source": "manuscript",
+        "applies_to": "all"
+      },
+      "Characteristics[MaterialType]": {
+        "value": "Cell culture",
+        "evidence": "Ground truth from PRIDE database indicates Cell culture",
+        "confidence": "high",
+        "source": "anchor",
+        "applies_to": "all"
+      },
+      "Characteristics[Label]": {
+        "value": "label free sample",
+        "evidence": "Ground truth indicates MS1 intensity based label-free quantification method",
+        "confidence": "high",
+        "source": "anchor",
+        "applies_to": "all"
+      },
+      "Characteristics[Specimen]": {
+        "value": "Not Applicable",
+        "evidence": "No specific specimen information provided beyond cell culture",
+        "confidence": "medium",
+        "source": "manuscript",
+        "applies_to": "all"
+      },
+      "Characteristics[Strain]": {
+        "value": "Not Applicable",
+        "evidence": "No strain information mentioned in manuscript or anchor data",
+        "confidence": "high",
+        "source": "manuscript",
+        "applies_to": "all"
+      },
+      "Characteristics[GeneticModification]": {
+        "value": "Not Applicable",
+        "evidence": "No genetic modification mentioned in manuscript or anchor data",
+        "confidence": "high",
+        "source": "manuscript",
+        "applies_to": "all"
+      },
+      "Characteristics[Treatment]": {
+        "value": "spike-in",
+        "evidence": "gold standard spike-in sample set with known contents and ratios of proteins",
+        "confidence": "high",
+        "source": "manuscript",
+        "applies_to": "all"
+      },
+      "Characteristics[DevelopmentalStage]": {
+        "value": "Not Applicable",
+        "evidence": "No developmental stage information mentioned in manuscript or anchor data",
+        "confidence": "high",
+        "source": "manuscript",
+        "applies_to": "all"
+      },
+      "Comment[AcquisitionMethod]": {
+        "value": "data-independent acquisition",
+        "evidence": "data-independent acquisition (DIA) is steadily becoming more important... DIA analysis",
+        "confidence": "high",
+        "source": "manuscript",
+        "applies_to": "all"
+      }
+    },
+    "METHODS_SAMPLE": {
+      "Characteristics[CleavageAgent]": {
+        "value": "trypsin",
+        "evidence": "digestion was carried out using trypsin (Serva, Heidelberg, Germany) at an enzyme to substrate ratio of approx. 1:27 at 37 °C overnight",
+        "confidence": "high",
+        "source": "manuscript",
+        "applies_to": "all"
+      },
+      "Characteristics[AlkylationReagent]": {
+        "value": "iodoacetamide",
+        "evidence": "proteins were alkylated with iodoacetamide (13.75 mm final concentration) at ambient temperature for 30 min in the dark",
+        "confidence": "high",
+        "source": "manuscript",
+        "applies_to": "all"
+      },
+      "Characteristics[ReductionReagent]": {
+        "value": "dithiothreitol",
+        "evidence": "After reduction with dithiothreitol (DTT, final concentration of 5 mm) for 20 min at 56 °C",
+        "confidence": "high",
+        "source": "manuscript",
+        "applies_to": "all"
+      },
+      "Characteristics[Label]": {
+        "value": "label free sample",
+        "evidence": "MS1 intensity based label-free quantification method",
+        "confidence": "high",
+        "source": "anchor",
+        "applies_to": "all"
+      },
+      "Characteristics[Modification]": {
+        "value": "carbamidomethylation at C",
+        "evidence": "as fixed modification, only carbamidomethylation at C was set",
+        "confidence": "high",
+        "source": "manuscript",
+        "applies_to": "all"
+      },
+      "Characteristics[Modification].1": {
+        "value": "oxidation (M)",
+        "evidence": "as variable modifications oxidation (M), Gln->pyro-Glu (N-terminal Q), deamidated (NQ), ammonium (DE) and ammonia-loss (N, N-terminal C) were allowed",
+        "confidence": "high",
+        "source": "manuscript",
+        "applies_to": "all"
+      },
+      "Characteristics[Modification].2": {
+        "value": "Gln->pyro-Glu (N-terminal Q)",
+        "evidence": "as variable modifications oxidation (M), Gln->pyro-Glu (N-terminal Q), deamidated (NQ), ammonium (DE) and ammonia-loss (N, N-terminal C) were allowed",
+        "confidence": "high",
+        "source": "manuscript",
+        "applies_to": "all"
+      },
+      "Characteristics[Modification].3": {
+        "value": "deamidated (NQ)",
+        "evidence": "as variable modifications oxidation (M), Gln->pyro-Glu (N-terminal Q), deamidated (NQ), ammonium (DE) and ammonia-loss (N, N-terminal C) were allowed",
+        "confidence": "high",
+        "source": "manuscript",
+        "applies_to": "all"
+      },
+      "Characteristics[Modification].4": {
+        "value": "ammonium (DE)",
+        "evidence": "as variable modifications oxidation (M), Gln->pyro-Glu (N-terminal Q), deamidated (NQ), ammonium (DE) and ammonia-loss (N, N-terminal C) were allowed",
+        "confidence": "high",
+        "source": "manuscript",
+        "applies_to": "all"
+      },
+      "Characteristics[Modification].5": {
+        "value": "ammonia-loss (N, N-terminal C)",
+        "evidence": "as variable modifications oxidation (M), Gln->pyro-Glu (N-terminal Q), deamidated (NQ), ammonium (DE) and ammonia-loss (N, N-terminal C) were allowed",
+        "confidence": "high",
+        "source": "manuscript",
+        "applies_to": "all"
+      },
+      "Characteristics[Modification].6": {
+        "value": "Not Applicable",
+        "evidence": "",
+        "confidence": "high",
+        "source": "manuscript",
+        "applies_to": "all"
+      },
+      "Characteristics[Depletion]": {
+        "value": "Not Applicable",
+        "evidence": "",
+        "confidence": "high",
+        "source": "manuscript",
+        "applies_to": "all"
+      },
+      "Characteristics[SpikedCompound]": {
+        "value": "13 non-mouse proteins: human α-synuclein, β-lactoglobulin from bovine milk, fibrinogen α/β/γ from human plasma, glucose oxidase from Aspergillus niger, human hemoglobin α/β, lipases 1/2/3 from Candida rugosa, lysozyme from chicken egg white, myoglobin from equine skeletal muscle",
+        "evidence": "As spike-in proteins we chose 13 non-mouse proteins with varying physico-chemical properties: human α-synuclein, β-lactoglobulin from bovine milk, fibrinogen α, β and γ from human plasma, glucose oxidase from Aspergillus niger, human hemoglobin α and β, lipases 1, 2 and 3 from Candida rugosa, lysozyme from chicken egg white and myoglobin from equine skeletal muscle",
+        "confidence": "high",
+        "source": "manuscript",
+        "applies_to": "all"
+      },
+      "Characteristics[SyntheticPeptide]": {
+        "value": "iRT peptides",
+        "evidence": "Before LC-MS/MS analysis was performed, the iRT kit provided by Biognosys, which is required for DIA analysis using Biognosys' SN, was added according to the manufacturer's instructions",
+        "confidence": "high",
+        "source": "manuscript",
+        "applies_to": "all"
+      },
+      "Comment[EnrichmentMethod]": {
+        "value": "Not Applicable",
+        "evidence": "",
+        "confidence": "high",
+        "source": "manuscript",
+        "applies_to": "all"
+      },
+      "Comment[FractionationMethod]": {
+        "value": "SDS-PAGE and High pH Reversed Phase Chromatography",
+        "evidence": "Protein Fractionation by SDS-PAGE and In-gel Tryptic Digestion... Peptide Fractionation by High pH Reversed Phase Chromatography",
+        "confidence": "high",
+        "source": "manuscript",
+        "applies_to": {
+          "file_pattern": "applies to library generation samples only, not to the 8 files in dataset"
+        }
+      },
+      "Comment[NumberOfFractions]": {
+        "value": "10 fractions (SDS-PAGE), 8 fractions (High pH RP)",
+        "evidence": "each lane was cut into 10 slices... Peptides were eluted stepwise with increasing ACN concentration in 0.1% triethylamine into 8 fractions",
+        "confidence": "high",
+        "source": "manuscript",
+        "applies_to": {
+          "file_pattern": "applies to library generation samples only, not to the 8 files in dataset"
+        }
+      },
+      "Comment[Separation]": {
+        "value": "nanoHPLC Ultimate 3000 with PepMap C18 columns",
+        "evidence": "For LC separation the nanoHPLC system Ultimate 3000 (Thermo Fisher Scientific) was used with a PepMap 100 C18 (100 μm ID × 2 cm, particle size 5 μm, pore size 100 Å; Thermo Fisher Scientific) as precolumn and a PepMap C18 (75 μm × 50 cm, particle size 2 μm, pore size 100 Å; Thermo Fisher Scientific) as analytical column",
+        "confidence": "high",
+        "source": "manuscript",
+        "applies_to": "all"
+      }
+    },
+    "METHODS_MS": {
+      "Comment[Instrument]": {
+        "value": "Q Exactive HF",
+        "evidence": "Subsequently, peptides were ionized by electrospray ionization and transferred into a Q Exactive HF mass spectrometer (Thermo Fisher Scientific).",
+        "confidence": "high",
+        "source": "manuscript",
+        "applies_to": "all"
+      },
+      "Comment[FragmentationMethod]": {
+        "value": "HCD",
+        "evidence": "HCD fragmentation of the Top10 abundant precursor ions was performed at 27% NCE.",
+        "confidence": "high",
+        "source": "manuscript",
+        "applies_to": "all"
+      },
+      "Comment[AcquisitionMethod]": {
+        "value": "DDA and DIA",
+        "evidence": "For DDA MS runs (library generation and DDA analyses)... For DIA MS runs, the MS1 full scans were performed...",
+        "confidence": "high",
+        "source": "manuscript",
+        "applies_to": "all"
+      },
+      "Comment[IonizationType]": {
+        "value": "electrospray ionization",
+        "evidence": "Subsequently, peptides were ionized by electrospray ionization and transferred into a Q Exactive HF mass spectrometer",
+        "confidence": "high",
+        "source": "manuscript",
+        "applies_to": "all"
+      },
+      "Comment[MS2MassAnalyzer]": {
+        "value": "Orbitrap",
+        "evidence": "The fragment analysis (MS2) was performed with a resolution of 30,000 at 200 m/z",
+        "confidence": "high",
+        "source": "inferred",
+        "applies_to": "all",
+        "note": "Orbitrap analyzer inferred from Q Exactive HF instrument and resolution specifications"
+      },
+      "Comment[CollisionEnergy]": {
+        "value": "DDA: 27% NCE; DIA: stepped collision energy (25.5%, 27 and 30% NCE)",
+        "evidence": "HCD fragmentation of the Top10 abundant precursor ions was performed at 27% NCE... Stepped collision energy was used (25.5%, 27 and 30% NCE).",
+        "confidence": "high",
+        "source": "manuscript",
+        "applies_to": "all"
+      },
+      "Comment[PrecursorMassTolerance]": {
+        "value": "5 ppm",
+        "evidence": "The precursor tolerance was set to 5 ppm and the fragment tolerance to 20 mmu.",
+        "confidence": "high",
+        "source": "manuscript",
+        "applies_to": "all"
+      },
+      "Comment[FragmentMassTolerance]": {
+        "value": "20 mmu",
+        "evidence": "The precursor tolerance was set to 5 ppm and the fragment tolerance to 20 mmu.",
+        "confidence": "high",
+        "source": "manuscript",
+        "applies_to": "all"
+      },
+      "Comment[NumberOfMissedCleavages]": {
+        "value": "2",
+        "evidence": "A maximum of two missed cleavages was allowed.",
+        "confidence": "high",
+        "source": "manuscript",
+        "applies_to": "all"
+      },
+      "Comment[GradientTime]": {
+        "value": "120 min",
+        "evidence": "Peptides were separated by a 120 min gradient using 0.1% formic acid (FA) as buffer A and 84% ACN in 0.1% FA as buffer B.",
+        "confidence": "high",
+        "source": "manuscript",
+        "applies_to": "all"
+      },
+      "Comment[FlowRateChromatogram]": {
+        "value": "Not Applicable",
+        "evidence": "No flow rate information found in the manuscript",
+        "confidence": "high",
+        "source": "manuscript",
+        "applies_to": "all"
+      }
+    },
+    "RAW_FILES": {
+      "Comment[FractionIdentifier]": {
+        "value": "Not Applicable",
+        "evidence": "No fractionation information found in the provided text",
+        "confidence": "high",
+        "source": "manuscript",
+        "applies_to": "all"
+      },
+      "Characteristics[BiologicalReplicate]": {
+        "value": "Not Applicable",
+        "evidence": "No explicit biological replicate information found in the provided text",
+        "confidence": "medium",
+        "source": "manuscript",
+        "applies_to": "all",
+        "note": "Cannot determine replicate structure from filename patterns alone without additional context"
+      },
+      "Characteristics[NumberOfBiologicalReplicates]": {
+        "value": "Not Applicable",
+        "evidence": "No explicit information about number of biological replicates in the provided text",
+        "confidence": "medium",
+        "source": "manuscript",
+        "applies_to": "all",
+        "note": "15 raw files listed but cannot determine replicate structure without additional experimental design information"
+      },
+      "Characteristics[NumberOfTechnicalReplicates]": {
+        "value": "Not Applicable",
+        "evidence": "No explicit information about number of technical replicates in the provided text",
+        "confidence": "medium",
+        "source": "manuscript",
+        "applies_to": "all",
+        "note": "15 raw files listed but cannot determine replicate structure without additional experimental design information"
+      },
+      "Characteristics[NumberOfSamples]": {
+        "value": "15",
+        "evidence": "15 raw data files listed: QExHF04026.raw through QExHF04042.raw",
+        "confidence": "high",
+        "source": "filename",
+        "applies_to": "all",
+        "note": "Discrepancy with anchor information which states 8 files in dataset, but 15 files are actually listed in the raw data section"
+      }
+    }
+  }
+}

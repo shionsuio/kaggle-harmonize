@@ -1,0 +1,78 @@
+{
+  "pxd": "PXD004682",
+  "source": "PRIDE_API",
+  "organism": [
+    {
+      "name": "Homo sapiens (human)",
+      "accession": "NEWT:9606"
+    }
+  ],
+  "instruments": [
+    {
+      "name": "Q Exactive",
+      "accession": "MS:1001911",
+      "sdrf_format": "AC=MS:1001911;NT=Q Exactive"
+    }
+  ],
+  "modifications": [],
+  "organism_parts": [
+    {
+      "name": "Epithelial cell",
+      "accession": "CL:0000066"
+    },
+    {
+      "name": "Lung",
+      "accession": "BTO:0000763"
+    }
+  ],
+  "diseases": [
+    {
+      "name": "Non-small cell lung carcinoma",
+      "accession": "DOID:3908"
+    }
+  ],
+  "experiment_types": [
+    "Shotgun proteomics"
+  ],
+  "quantification_methods": [
+    "TIC"
+  ],
+  "keywords": [
+    "Human",
+    "Brplc fractionation",
+    "Discovery proteomics",
+    "Lung cancer",
+    "Lc-ms/ms"
+  ],
+  "publications": [
+    {
+      "pubmed_id": "",
+      "doi": "10.1002/pmic.201600300",
+      "ref": "Stewart PA, Fang B, Slebos RJ, Zhang G, Borne AL, Fellows K, Teer JK, Chen YA, Welsh E, Eschrich SA, Haura EB, Koomen JM. Relative protein quantification and accessible biology in lung tumor proteomes from four LC-MS/MS discovery platforms. Proteomics. 2017 Feb 14"
+    }
+  ],
+  "inferred_fragmentation": "HCD",
+  "inferred_ms2_analyzer": "orbitrap",
+  "inferred_ionization": "nanoESI",
+  "raw_files": [
+    "20150912_Haura-Pilot_T0300_bRPLC07-2.raw",
+    "20150912_Haura-Pilot_T0300_bRPLC09-1.raw",
+    "20150912_Haura-Pilot_N0296_bRPLC07-1.raw",
+    "20150912_Haura-Pilot_N0299_bRPLC06-2.raw",
+    "20150912_Haura-Pilot_T0298_bRPLC12-2.raw",
+    "20150912_Haura-Pilot_T0303_bRPLC11-1.raw",
+    "20150912_Haura-Pilot_T0303_bRPLC02-1.raw",
+    "20150912_Haura-Pilot_N0299_bRPLC03-2.raw",
+    "20150912_Haura-Pilot_T0303_bRPLC03-2.raw",
+    "20150912_Haura-Pilot_N0295_bRPLC03-2.raw",
+    "20150912_Haura-Pilot_T0300_bRPLC04-1.raw",
+    "20150912_Haura-Pilot_T0301_bRPLC11-1.raw",
+    "20150912_Haura-Pilot_N0296_bRPLC11-1.raw",
+    "20150912_Haura-Pilot_N0296_bRPLC01-1.raw",
+    "20150912_Haura-Pilot_N0296_bRPLC04-2.raw",
+    "20150912_Haura-Pilot_N0296_bRPLC10-1.raw",
+    "20150912_Haura-Pilot_N0294_bRPLC01-1.raw",
+    "20150912_Haura-Pilot_T0298_bRPLC07-1.raw",
+    "20150912_Haura-Pilot_N0296_bRPLC10-2.raw"
+  ]
+}

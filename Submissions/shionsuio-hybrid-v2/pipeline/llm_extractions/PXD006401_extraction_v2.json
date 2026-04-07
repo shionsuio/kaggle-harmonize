@@ -1,0 +1,418 @@
+{
+  "pxd": "PXD006401",
+  "raw_files": [
+    "1_HE1_1.raw",
+    "15_unstained2_1.raw",
+    "14_hemalaun2_2.raw",
+    "16_unstained2_2.raw",
+    "7_unstained1_1.raw",
+    "11_hematoxylin2_1.raw",
+    "8_unstained1_2.raw",
+    "12_FASP30k_4.raw",
+    "9_HE2_1.raw",
+    "2_HE1_2.raw",
+    "5_FASP10k_1.raw",
+    "4_hematoxylin1_2.raw",
+    "2_DTR2.raw",
+    "6_hemalaun1_2.raw",
+    "3_hematoxylin1_1.raw",
+    "12_hematoxylin2_2.raw",
+    "3_DTR3.raw",
+    "13_hemalaun2_1.raw",
+    "10_FASP30k_2.raw",
+    "10_HE2_2.raw",
+    "1_DTR1.raw",
+    "4_DTR4.raw",
+    "7_FASP10k_3.raw",
+    "11_FASP30k_3.raw",
+    "5_hemalaun1_1.raw",
+    "9_FASP30k_1.raw",
+    "8_FASP10k_4.raw",
+    "6_FASP10k_2.raw"
+  ],
+  "anchor": {
+    "pxd": "PXD006401",
+    "source": "PRIDE_API",
+    "organism": [
+      {
+        "name": "Homo sapiens (human)",
+        "accession": "NEWT:9606"
+      },
+      {
+        "name": "Mus musculus (mouse)",
+        "accession": "NEWT:10090"
+      }
+    ],
+    "instruments": [
+      {
+        "name": "Q Exactive",
+        "accession": "MS:1001911",
+        "sdrf_format": "AC=MS:1001911;NT=Q Exactive"
+      }
+    ],
+    "modifications": [],
+    "organism_parts": [
+      {
+        "name": "Tonsil",
+        "accession": "BTO:0001387"
+      },
+      {
+        "name": "Kidney",
+        "accession": "BTO:0000671"
+      }
+    ],
+    "diseases": [],
+    "experiment_types": [
+      "Shotgun proteomics"
+    ],
+    "quantification_methods": [
+      "Label free"
+    ],
+    "keywords": [
+      "Shotgun  proteomics",
+      "Archival tissue",
+      "Rapigest",
+      "Ffpe",
+      "Fasp",
+      "Biomarker discovery",
+      "Label-free quantitation"
+    ],
+    "publications": [
+      {
+        "pubmed_id": "",
+        "doi": "10.1186/s12014-018-9188-y",
+        "ref": "Föll MC, Fahrner M, Oria VO, Kühs M, Biniossek ML, Werner M, Bronsert P, Schilling O. Reproducible proteomics sample preparation for single FFPE tissue slices using acid-labile surfactant and direct trypsinization. Clin Proteomics. 2018 15:11"
+      }
+    ],
+    "inferred_fragmentation": "HCD",
+    "inferred_ms2_analyzer": "orbitrap",
+    "inferred_ionization": "nanoESI",
+    "raw_files": [
+      "1_HE1_1.raw",
+      "15_unstained2_1.raw",
+      "14_hemalaun2_2.raw",
+      "16_unstained2_2.raw",
+      "7_unstained1_1.raw",
+      "11_hematoxylin2_1.raw",
+      "8_unstained1_2.raw",
+      "12_FASP30k_4.raw",
+      "9_HE2_1.raw",
+      "2_HE1_2.raw",
+      "5_FASP10k_1.raw",
+      "4_hematoxylin1_2.raw",
+      "2_DTR2.raw",
+      "6_hemalaun1_2.raw",
+      "3_hematoxylin1_1.raw",
+      "12_hematoxylin2_2.raw",
+      "3_DTR3.raw",
+      "13_hemalaun2_1.raw",
+      "10_FASP30k_2.raw",
+      "10_HE2_2.raw",
+      "1_DTR1.raw",
+      "4_DTR4.raw",
+      "7_FASP10k_3.raw",
+      "11_FASP30k_3.raw",
+      "5_hemalaun1_1.raw",
+      "9_FASP30k_1.raw",
+      "8_FASP10k_4.raw",
+      "6_FASP10k_2.raw"
+    ]
+  },
+  "steps": {
+    "STEP1_OVERVIEW": {
+      "confirmed": {
+        "Characteristics[Organism]": {
+          "value": "Homo sapiens; Mus musculus",
+          "evidence": "Four single consecutive murine kidney tissue specimens... four human tonsil FFPE tissue specimens",
+          "source": "manuscript"
+        },
+        "Characteristics[OrganismPart]": {
+          "value": "kidney; tonsil",
+          "evidence": "murine kidney tissue specimens... human tonsil FFPE tissue specimens",
+          "source": "manuscript"
+        },
+        "Characteristics[MaterialType]": {
+          "value": "FFPE tissue",
+          "evidence": "formalin-fixation and paraffin embedding (FFPE)... human tonsil FFPE tissue specimens",
+          "source": "manuscript"
+        },
+        "Characteristics[Label]": {
+          "value": "label-free",
+          "evidence": "analyzed by label-free, quantitative liquid chromatography–tandem mass spectrometry",
+          "source": "manuscript"
+        },
+        "Characteristics[Specimen]": {
+          "value": "single tissue slices",
+          "evidence": "single FFPE tissue slices... Four single consecutive murine kidney tissue specimens... four human tonsil FFPE tissue specimens",
+          "source": "manuscript"
+        },
+        "Comment[AcquisitionMethod]": {
+          "value": "label-free quantitative LC-MS/MS",
+          "evidence": "analyzed by label-free, quantitative liquid chromatography–tandem mass spectrometry (LC–MS/MS)",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {
+        "Characteristics[Treatment]": {
+          "candidates": [
+            "histological staining (H&E, hematoxylin, hemalaun)",
+            "unstained control"
+          ],
+          "reasoning": "論文では組織学的染色の影響を調べており、H&E染色、ヘマトキシリン染色、ヘマラン染色と未染色コントロールを比較している",
+          "needs": "各サンプルが具体的にどの染色処理を受けたかの詳細情報"
+        },
+        "Characteristics[Compound]": {
+          "candidates": [
+            "RapiGest",
+            "hematoxylin",
+            "eosin",
+            "hemalaun"
+          ],
+          "reasoning": "RapiGestは酸不安定界面活性剤として使用され、染色試薬として各種化合物が言及されている",
+          "needs": "これらが処理試薬なのか分析対象なのかの明確化"
+        }
+      },
+      "not_applicable": [
+        "Characteristics[CellType]",
+        "Characteristics[CellLine]",
+        "Characteristics[Disease]",
+        "Characteristics[Strain]",
+        "Characteristics[GeneticModification]",
+        "Characteristics[DevelopmentalStage]",
+        "Characteristics[ConcentrationOfCompound]"
+      ],
+      "summary": "ヒトとマウスのFFPE組織（扁桃腺と腎臓）を用いたlabel-free定量プロテオミクス研究。組織学的染色の影響を調べる比較実験が含まれる。サンプル調製法（DTR vs FASP）の比較が主目的で、RapiGestを用いた直接トリプシン消化法を検証している。"
+    },
+    "STEP2_SAMPLE_PREP": {
+      "confirmed": {
+        "Characteristics[CleavageAgent]": {
+          "value": "trypsin",
+          "evidence": "Sequencing grade trypsin (Worthington, Lakewood, NJ, USA) was added in a ratio of at least 2 µg per mm3 tissue. For trypsinization, the sample was incubated at 37 °C over night.",
+          "source": "manuscript"
+        },
+        "Characteristics[AlkylationReagent]": {
+          "value": "iodoacetamide",
+          "evidence": "The cysteine residues of the peptides in the supernatant were then reduced and alkylated by incubation in 10 mM DTT for 15 min at 37 °C, followed by 30 mM iodacetamide (Sigma-Aldrich, St. Louis, USA) for 15 min at 37 °C",
+          "source": "manuscript"
+        },
+        "Characteristics[ReductionReagent]": {
+          "value": "DTT",
+          "evidence": "1 mM dithiothreitol (DTT) (AppliChem, Darmstadt, Germany) were added to each reaction tube... The cysteine residues of the peptides in the supernatant were then reduced and alkylated by incubation in 10 mM DTT for 15 min at 37 °C",
+          "source": "manuscript"
+        },
+        "Characteristics[Label]": {
+          "value": "label free",
+          "evidence": "Label-free quantitation (LFQ) on at least one peptide per protein was performed using the MaxLFQ algorithm",
+          "source": "manuscript"
+        },
+        "Characteristics[Modification]": {
+          "value": "Carbamidomethyl",
+          "evidence": "Carbamidomethyl at cysteines was the only fixed modification.",
+          "source": "manuscript"
+        },
+        "Comment[FractionationMethod]": {
+          "value": "not applicable",
+          "evidence": "No fractionation method is described in the manuscript",
+          "source": "manuscript"
+        },
+        "Comment[Separation]": {
+          "value": "LC",
+          "evidence": "5 µl of each sample were analyzed by an Orbitrap Q-Exactive plus (Thermo Scientific) mass spectrometer coupled to an Easy nanoLC 1000 (Thermo Scientific) with a flow rate of 300 nl/min... They were applied with an increasing gradient of acetonitrile over time (0–60% (v/v) acetonitrile in 90 min) in order to separate the peptides on the analytical column",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {
+        "Characteristics[Compound]": {
+          "candidates": [
+            "RapiGest",
+            "hematoxylin",
+            "eosin",
+            "hemalaun",
+            "SDS",
+            "guanidinium chloride"
+          ],
+          "reasoning": "RapiGestは直接組織トリプシン消化法で使用される酸不安定界面活性剤として確認。SDSはFASP法で使用。グアニジニウム塩酸塩はRapiGest除去に使用。染色試薬として各種化合物が使用されている",
+          "needs": "どの化合物がサンプル中に残存している可能性があるかの詳細情報"
+        }
+      },
+      "not_applicable": [
+        "Characteristics[Modification].1",
+        "Characteristics[Modification].2",
+        "Characteristics[Modification].3",
+        "Characteristics[Modification].4",
+        "Characteristics[Modification].5",
+        "Characteristics[Modification].6",
+        "Characteristics[Depletion]",
+        "Characteristics[SpikedCompound]",
+        "Characteristics[SyntheticPeptide]",
+        "Comment[EnrichmentMethod]",
+        "Comment[NumberOfFractions]"
+      ],
+      "summary": "サンプル調製の詳細が明らかになった。トリプシンを用いたタンパク質消化、DTTによる還元、ヨードアセトアミドによるアルキル化、システインのカルバミドメチル化修飾が確認された。DTR法とFASP法の2つの調製法が使用され、ラベルフリー定量が行われている。LC分離が確認されたが、分画は行われていない。化合物については複数の候補があるが、どれがサンプル中に残存するかは不明。"
+    },
+    "STEP3_MS_SETTINGS": {
+      "confirmed": {
+        "Comment[Instrument]": {
+          "value": "Orbitrap Q-Exactive plus",
+          "evidence": "5 µl of each sample were analyzed by an Orbitrap Q-Exactive plus (Thermo Scientific) mass spectrometer",
+          "source": "manuscript"
+        },
+        "Comment[FragmentationMethod]": {
+          "value": "HCD",
+          "evidence": "HCD",
+          "source": "anchor"
+        },
+        "Comment[AcquisitionMethod]": {
+          "value": "data dependent mode with maximum of ten MS/MS scans",
+          "evidence": "The MS was operated in data dependent mode and each MS scan was followed by a maximum of ten MS/MS scans",
+          "source": "manuscript"
+        },
+        "Comment[IonizationType]": {
+          "value": "nanoESI",
+          "evidence": "nanoESI",
+          "source": "anchor"
+        },
+        "Comment[MS2MassAnalyzer]": {
+          "value": "orbitrap",
+          "evidence": "orbitrap",
+          "source": "anchor"
+        },
+        "Comment[PrecursorMassTolerance]": {
+          "value": "4.5 ppm (main search), 20 ppm (initial search)",
+          "evidence": "The precursor mass tolerance for the initial search was 20 ppm and for the main search 4.5 ppm",
+          "source": "manuscript"
+        },
+        "Comment[FragmentMassTolerance]": {
+          "value": "20 ppm",
+          "evidence": "whereas the fragment mass tolerance was 20 ppm",
+          "source": "manuscript"
+        },
+        "Comment[NumberOfMissedCleavages]": {
+          "value": "2",
+          "evidence": "Tryptic cleavage specificity with two missed cleavages was applied",
+          "source": "manuscript"
+        },
+        "Comment[GradientTime]": {
+          "value": "90 min",
+          "evidence": "increasing gradient of acetonitrile over time (0–60% (v/v) acetonitrile in 90 min)",
+          "source": "manuscript"
+        },
+        "Comment[FlowRateChromatogram]": {
+          "value": "300 nl/min",
+          "evidence": "coupled to an Easy nanoLC 1000 (Thermo Scientific) with a flow rate of 300 nl/min",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {},
+      "not_applicable": [
+        "Comment[CollisionEnergy]"
+      ],
+      "summary": "質量分析装置と設定パラメータの詳細が確定した。Orbitrap Q-Exactive plusを使用し、データ依存取得モード（最大10個のMS/MS）、90分勾配、300 nl/min流速で測定。前駆体質量許容誤差4.5 ppm、フラグメント質量許容誤差20 ppm、トリプシン切断で最大2ヶ所のミスクリーベージを設定している。コリジョンエネルギー情報は記載されていない。"
+    },
+    "STEP4_RAW_FILES": {
+      "confirmed": {
+        "Characteristics[BiologicalReplicate]": {
+          "value": "per_file",
+          "per_file": {
+            "1_HE1_1.raw": "1",
+            "2_HE1_2.raw": "1",
+            "3_hematoxylin1_1.raw": "1",
+            "4_hematoxylin1_2.raw": "1",
+            "5_hemalaun1_1.raw": "1",
+            "6_hemalaun1_2.raw": "1",
+            "7_unstained1_1.raw": "1",
+            "8_unstained1_2.raw": "1",
+            "9_HE2_1.raw": "2",
+            "10_HE2_2.raw": "2",
+            "11_hematoxylin2_1.raw": "2",
+            "12_hematoxylin2_2.raw": "2",
+            "13_hemalaun2_1.raw": "2",
+            "14_hemalaun2_2.raw": "2",
+            "15_unstained2_1.raw": "2",
+            "16_unstained2_2.raw": "2"
+          },
+          "evidence": "For each tonsil, adjacent tissue slices were stained... The 16 single deparaffinized and dehydrated tissue slices... The tissue area for tonsil 1 was 118 mm2, for tonsil 2 93 mm2",
+          "source": "manuscript"
+        },
+        "Characteristics[NumberOfBiologicalReplicates]": {
+          "value": "2 (tonsil experiment), 1 (kidney experiment)",
+          "evidence": "5 µm thick sections from two FFPE tonsil tissue blocks... Kidneys of a male, 6-months old C57 black 6 mouse",
+          "source": "manuscript"
+        },
+        "Characteristics[NumberOfTechnicalReplicates]": {
+          "value": "2 (tonsil experiment), 12 (kidney experiment)",
+          "evidence": "For each tonsil, adjacent tissue slices were stained... _1.raw and _2.raw suffix pattern in tonsil files; Twelve single kidney tissue slices... were transferred into separate reaction tubes and used as replicates",
+          "source": "manuscript"
+        },
+        "Characteristics[NumberOfSamples]": {
+          "value": "44 total (16 tonsil + 28 kidney)",
+          "evidence": "The 16 single deparaffinized and dehydrated tissue slices (tonsil); Twelve single kidney tissue slices... for each of the three protocols (DTR, FASP 10k, FASP 30k) = 36 kidney samples listed in methods but 28 raw files present",
+          "source": "manuscript"
+        },
+        "FactorValue[Treatment]": {
+          "value": "per_file",
+          "per_file": {
+            "1_HE1_1.raw": "H&E staining",
+            "2_HE1_2.raw": "H&E staining",
+            "9_HE2_1.raw": "H&E staining",
+            "10_HE2_2.raw": "H&E staining",
+            "3_hematoxylin1_1.raw": "hematoxylin staining",
+            "4_hematoxylin1_2.raw": "hematoxylin staining",
+            "11_hematoxylin2_1.raw": "hematoxylin staining",
+            "12_hematoxylin2_2.raw": "hematoxylin staining",
+            "5_hemalaun1_1.raw": "hemalaun staining",
+            "6_hemalaun1_2.raw": "hemalaun staining",
+            "13_hemalaun2_1.raw": "hemalaun staining",
+            "14_hemalaun2_2.raw": "hemalaun staining",
+            "7_unstained1_1.raw": "unstained control",
+            "8_unstained1_2.raw": "unstained control",
+            "15_unstained2_1.raw": "unstained control",
+            "16_unstained2_2.raw": "unstained control"
+          },
+          "evidence": "For each tonsil, adjacent tissue slices were stained with hematoxylin, H&E, hemalaun or left unstained as control",
+          "source": "manuscript"
+        },
+        "FactorValue[Compound]": {
+          "value": "per_file",
+          "per_file": {
+            "1_HE1_1.raw": "hematoxylin; eosin",
+            "2_HE1_2.raw": "hematoxylin; eosin",
+            "9_HE2_1.raw": "hematoxylin; eosin",
+            "10_HE2_2.raw": "hematoxylin; eosin",
+            "3_hematoxylin1_1.raw": "hematoxylin",
+            "4_hematoxylin1_2.raw": "hematoxylin",
+            "11_hematoxylin2_1.raw": "hematoxylin",
+            "12_hematoxylin2_2.raw": "hematoxylin",
+            "5_hemalaun1_1.raw": "hemalaun",
+            "6_hemalaun1_2.raw": "hemalaun",
+            "13_hemalaun2_1.raw": "hemalaun",
+            "14_hemalaun2_2.raw": "hemalaun"
+          },
+          "evidence": "For the hematoxylin staining the tissues were incubated for 4 min in hematoxylin solution... The same procedure was performed for the H&E staining but afterwards the tissue was incubated in eosin for 1 min... Hemalaun staining was performed by immersing the tissue in Mayer's acid Hemalaun solution",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {
+        "Comment[FractionIdentifier]": {
+          "candidates": [
+            "DTR",
+            "FASP10k",
+            "FASP30k"
+          ],
+          "reasoning": "Kidney samples show clear method identifiers (DTR1-4, FASP10k_1-4, FASP30k_1-4) in filenames, suggesting these represent different sample preparation fractions rather than MS fractions",
+          "needs": "Confirmation whether these represent sample preparation methods or actual fractionation steps"
+        }
+      },
+      "not_applicable": [
+        "FactorValue[Temperature]",
+        "FactorValue[Disease]",
+        "FactorValue[GeneticModification]",
+        "FactorValue[Bait]",
+        "FactorValue[CellPart]",
+        "FactorValue[ConcentrationOfCompound].1",
+        "FactorValue[FractionIdentifier]"
+      ],
+      "summary": "ファイル名解析により実験設計が明確になった。扁桃腺実験では2つの生物学的複製×4つの処理条件×2つの技術的複製で16サンプル。腎臓実験では1つの生物学的複製×3つの調製法×複数の技術的複製。染色処理と使用化合物の対応が確定した。DTR/FASP10k/FASP30kが分画なのか調製法なのかは要確認。"
+    }
+  }
+}

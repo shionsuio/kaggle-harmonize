@@ -1,0 +1,307 @@
+{
+  "pxd": "PXD005463",
+  "raw_files": [
+    "qExPlus02_01602.raw",
+    "qExPlus02_01603.raw",
+    "qExPlus02_01604.raw"
+  ],
+  "anchor": {
+    "pxd": "PXD005463",
+    "source": "PRIDE_API",
+    "organism": [
+      {
+        "name": "Saccharomyces cerevisiae (baker's yeast)",
+        "accession": "NEWT:4932"
+      }
+    ],
+    "instruments": [
+      {
+        "name": "Q Exactive",
+        "accession": "MS:1001911",
+        "sdrf_format": "AC=MS:1001911;NT=Q Exactive"
+      }
+    ],
+    "modifications": [],
+    "organism_parts": [
+      {
+        "name": "Cell culture",
+        "accession": "BTO:0000214"
+      }
+    ],
+    "diseases": [],
+    "experiment_types": [
+      "Shotgun proteomics"
+    ],
+    "quantification_methods": [
+      "SILAC"
+    ],
+    "keywords": [
+      "Mitochondria",
+      "Yeast",
+      "Subcompartments"
+    ],
+    "publications": [
+      {
+        "pubmed_id": "",
+        "doi": "10.1038/s41467-017-00359-0",
+        "ref": "Vögtle FN, Burkhart JM, Gonczarowska-Jorge H, Kücükköse C, Taskin AA, Kopczynski D, Ahrends R, Mossmann D, Sickmann A, Zahedi RP, Meisinger C. Landscape of submitochondrial protein distribution. Nat Commun. 2017 8(1):290"
+      }
+    ],
+    "inferred_fragmentation": "HCD",
+    "inferred_ms2_analyzer": "orbitrap",
+    "inferred_ionization": "nanoESI",
+    "raw_files": [
+      "qExPlus02_01602.raw",
+      "qExPlus02_01603.raw",
+      "qExPlus02_01604.raw"
+    ]
+  },
+  "steps": {
+    "STEP1_OVERVIEW": {
+      "confirmed": {
+        "Characteristics[Organism]": {
+          "value": "Saccharomyces cerevisiae",
+          "evidence": "quantitative map of submitochondrial protein distribution in S. cerevisiae",
+          "source": "manuscript"
+        },
+        "Characteristics[OrganismPart]": {
+          "value": "mitochondria",
+          "evidence": "integrated approach combining stable isotope labeling, various protein enrichment and extraction strategies and quantitative mass spectrometry to produce a quantitative map of submitochondrial protein distribution",
+          "source": "manuscript"
+        },
+        "Characteristics[Label]": {
+          "value": "SILAC",
+          "evidence": "integrated approach combining stable isotope labeling",
+          "source": "manuscript"
+        },
+        "Characteristics[MaterialType]": {
+          "value": "protein extract",
+          "evidence": "various protein enrichment and extraction strategies",
+          "source": "manuscript"
+        },
+        "Comment[AcquisitionMethod]": {
+          "value": "shotgun proteomics",
+          "evidence": "quantitative mass spectrometry to produce a quantitative map",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {
+        "Characteristics[CellType]": {
+          "candidates": [
+            "yeast cell"
+          ],
+          "reasoning": "S. cerevisiae is used, implying yeast cells, but specific cell type not explicitly mentioned",
+          "needs": "explicit mention of cell type or culture conditions"
+        }
+      },
+      "not_applicable": [
+        "Characteristics[CellLine]",
+        "Characteristics[Disease]",
+        "Characteristics[Specimen]",
+        "Characteristics[Strain]",
+        "Characteristics[GeneticModification]",
+        "Characteristics[Treatment]",
+        "Characteristics[DevelopmentalStage]",
+        "Characteristics[Compound]",
+        "Characteristics[ConcentrationOfCompound]"
+      ],
+      "summary": "この研究はS. cerevisiaeの細胞培養を用いたミトコンドリアタンパク質の定量プロテオミクス解析である。SILAC標識とショットガンプロテオミクスにより986個のタンパク質をマッピングした。酵母株情報や培養条件の詳細は不明。"
+    },
+    "STEP2_SAMPLE_PREP": {
+      "confirmed": {
+        "Characteristics[CleavageAgent]": {
+          "value": "trypsin",
+          "evidence": "Trypsin (Promega, sequencing grade) was added at a ratio of 1:30 and incubated at 37 °C for 12 h",
+          "source": "manuscript"
+        },
+        "Characteristics[ReductionReagent]": {
+          "value": "DTT",
+          "evidence": "Cysteines were reduced with 10 mM DTT for 30 min at 56 °C",
+          "source": "manuscript"
+        },
+        "Characteristics[AlkylationReagent]": {
+          "value": "iodoacetamide",
+          "evidence": "free sulfhydryl groups were carbamidomethylated using 30 mM iodoacetamide for 30 min at room temperature in the dark",
+          "source": "manuscript"
+        },
+        "Characteristics[Label]": {
+          "value": "SILAC",
+          "evidence": "The medium was supplemented with natural arginine and lysine (light) or [13C6/15N4]arginine and [13C6/15N2]lysine (heavy)",
+          "source": "manuscript"
+        },
+        "Characteristics[Modification]": {
+          "value": "Oxidation",
+          "evidence": "oxidation of methionine, acetylation of protein N-termini, 13C6 15N2 Lys and 13C6 15N4 Arg as variable modifications",
+          "source": "manuscript"
+        },
+        "Characteristics[Modification].1": {
+          "value": "Acetyl",
+          "evidence": "oxidation of methionine, acetylation of protein N-termini, 13C6 15N2 Lys and 13C6 15N4 Arg as variable modifications",
+          "source": "manuscript"
+        },
+        "Characteristics[Modification].2": {
+          "value": "Carbamidomethyl",
+          "evidence": "carbamidomethylation of cysteine as fixed",
+          "source": "manuscript"
+        },
+        "Comment[FractionationMethod]": {
+          "value": "SCX",
+          "evidence": "Samples were resuspended in 10 mM KH2PO4 (pH 2.7) and fractionated using strong cation exchange chromatography (SCX)",
+          "source": "manuscript"
+        },
+        "Comment[NumberOfFractions]": {
+          "value": "6",
+          "evidence": "Six fractions were collected in concatenation mode",
+          "source": "manuscript"
+        },
+        "Comment[Separation]": {
+          "value": "LC",
+          "evidence": "Nano-LC-MS/MS was performed on an LTQ-Orbitrap Elite mass spectrometer coupled to an Ultimate 3000 RSLC",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {},
+      "not_applicable": [
+        "Characteristics[Depletion]",
+        "Characteristics[SpikedCompound]",
+        "Characteristics[SyntheticPeptide]",
+        "Comment[EnrichmentMethod]",
+        "Characteristics[Modification].3",
+        "Characteristics[Modification].4",
+        "Characteristics[Modification].5",
+        "Characteristics[Modification].6"
+      ],
+      "summary": "サンプル調製の詳細が明らかになった。トリプシン消化、DTT還元、ヨードアセトアミドアルキル化によるタンパク質処理、SILAC標識（重軽アルギニン・リジン）を使用。強カチオン交換クロマトグラフィーで6フラクションに分画後、LC-MS/MS分析を実施。修飾として酸化、アセチル化、カルバミドメチル化を設定。"
+    },
+    "STEP3_MS_SETTINGS": {
+      "confirmed": {
+        "Comment[Instrument]": {
+          "value": "LTQ-Orbitrap Elite",
+          "evidence": "Nano-LC-MS/MS was performed on an LTQ-Orbitrap Elite mass spectrometer coupled to an Ultimate 3000 RSLC",
+          "source": "manuscript"
+        },
+        "Comment[FragmentationMethod]": {
+          "value": "CID",
+          "evidence": "The 20 most intense signals... were subjected to collision induced dissociation in the ion trap with a normalized collision energy of 35%",
+          "source": "manuscript"
+        },
+        "Comment[AcquisitionMethod]": {
+          "value": "DDA",
+          "evidence": "The 20 most intense signals above an intensity threshold of 10⁴ and with charge states 2–5 were subjected to collision induced dissociation",
+          "source": "manuscript"
+        },
+        "Comment[IonizationType]": {
+          "value": "nanoESI",
+          "evidence": "Nano-LC-MS/MS was performed on an LTQ-Orbitrap Elite mass spectrometer",
+          "source": "manuscript"
+        },
+        "Comment[MS2MassAnalyzer]": {
+          "value": "ion trap",
+          "evidence": "were subjected to collision induced dissociation in the ion trap",
+          "source": "manuscript"
+        },
+        "Comment[CollisionEnergy]": {
+          "value": "35%",
+          "evidence": "collision induced dissociation in the ion trap with a normalized collision energy of 35%",
+          "source": "manuscript"
+        },
+        "Comment[PrecursorMassTolerance]": {
+          "value": "10 ppm",
+          "evidence": "MS and MS/MS tolerances of 10 ppm and 0.5 Da, respectively",
+          "source": "manuscript"
+        },
+        "Comment[FragmentMassTolerance]": {
+          "value": "0.5 Da",
+          "evidence": "MS and MS/MS tolerances of 10 ppm and 0.5 Da, respectively",
+          "source": "manuscript"
+        },
+        "Comment[NumberOfMissedCleavages]": {
+          "value": "0",
+          "evidence": "trypsin without missed cleavages",
+          "source": "manuscript"
+        },
+        "Comment[GradientTime]": {
+          "value": "185 min",
+          "evidence": "using a binary gradient... ranging from 3 to 42% B in 185 min",
+          "source": "manuscript"
+        },
+        "Comment[FlowRateChromatogram]": {
+          "value": "250 nL/min",
+          "evidence": "at a flow rate of 250 nL min⁻¹",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {
+        "Comment[Instrument]": {
+          "candidates": [
+            "Q Exactive Plus"
+          ],
+          "reasoning": "Q Exactive Plusも使用されているが、主たる実験ではLTQ-Orbitrap Eliteが使用されている。アンカーではQ Exactive (MS:1001911)が記載されている",
+          "needs": "どちらが主たる装置か、またはどちらもSDRFに記載すべきか判断が必要"
+        }
+      },
+      "not_applicable": [],
+      "summary": "質量分析装置設定の詳細が明らかになった。主要装置はLTQ-Orbitrap Elite、CIDフラグメンテーション（35% NCE）、DDAs取得方式、185分グラジエント（250 nL/min）、MS許容差10 ppm、MS/MS許容差0.5 Da、ミスクリベージ0回に設定。ただしQ Exactive Plusも一部実験で使用されており、アンカー情報との整合性確認が必要。"
+    },
+    "STEP4_RAW_FILES": {
+      "confirmed": {
+        "Characteristics[BiologicalReplicate]": {
+          "value": "2",
+          "evidence": "In total four replicates (two biological replicates with each time one forward (e.g., SNheavy/PELlight) and one reverse experiment (e.g., SNlight/PELheavy) respecively)",
+          "source": "manuscript"
+        },
+        "Characteristics[NumberOfBiologicalReplicates]": {
+          "value": "2",
+          "evidence": "Material was isolated from four independent yeast cultures, of which two were grown with supplementation of heavy and two with supplementation of light amino acids",
+          "source": "manuscript"
+        },
+        "Characteristics[NumberOfTechnicalReplicates]": {
+          "value": "2",
+          "evidence": "two biological replicates with each time one forward (e.g., SNheavy/PELlight) and one reverse experiment (e.g., SNlight/PELheavy) respecively",
+          "source": "manuscript"
+        },
+        "Characteristics[NumberOfSamples]": {
+          "value": "4",
+          "evidence": "In total four replicates (two biological replicates with each time one forward and one reverse experiment)",
+          "source": "manuscript"
+        },
+        "Comment[FractionIdentifier]": {
+          "value": "6",
+          "evidence": "Six fractions were collected in concatenation mode",
+          "source": "manuscript"
+        },
+        "FactorValue[CellPart]": {
+          "value": "mitochondria",
+          "evidence": "Highly purified mitochondria were generated and subjected to sonication or carbonate extraction",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {
+        "FactorValue[Treatment]": {
+          "candidates": [
+            "sonication",
+            "carbonate extraction"
+          ],
+          "reasoning": "論文では2つの処理方法（sonication vs carbonate extraction）でミトコンドリア膜タンパク質を分画している",
+          "needs": "各rawファイルがどの処理に対応するかの情報"
+        },
+        "FactorValue[FractionIdentifier]": {
+          "candidates": [
+            "per_file based on SCX fractions"
+          ],
+          "reasoning": "SCXで6フラクションに分画されているが、3個のrawファイルとフラクション番号の対応は不明",
+          "needs": "ファイル名からフラクション番号を判定できる明確なトークンまたは実験デザインの詳細"
+        }
+      },
+      "not_applicable": [
+        "FactorValue[Temperature]",
+        "FactorValue[Disease]",
+        "FactorValue[GeneticModification]",
+        "FactorValue[Compound]",
+        "FactorValue[Bait]",
+        "FactorValue[ConcentrationOfCompound].1"
+      ],
+      "summary": "実験デザインが明確化：2つの生物学的複製、各複製でforward/reverseの計4実験、SCXで6フラクション分画。ミトコンドリアに対してsonication/carbonate extractionの2つの処理を実施。3つのrawファイルとフラクション・処理条件の対応関係は、ファイル名に明確なトークンがないため推定困難。"
+    }
+  }
+}

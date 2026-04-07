@@ -1,0 +1,367 @@
+{
+  "pxd": "PXD062877",
+  "raw_files": [
+    "20240924_018_West_BMDM_2039_rep1.raw",
+    "20240924_020_West_BMDM_2035_rep2.raw",
+    "20240924_008_West_BMDM_2040_rep1.raw",
+    "20240924_006_West_BMDM_2055_rep2.raw",
+    "20240924_021_West_BMDM_2049_rep1.raw",
+    "20240924_007_West_BMDM_2044_rep2.raw",
+    "20240924_011_West_BMDM_2050_rep2.raw",
+    "20240924_010_West_BMDM_2045_rep2.raw",
+    "20240924_014_West_BMDM_2054_rep2.raw",
+    "20240924_019_West_BMDM_2033_rep1.raw",
+    "20240924_006_West_BMDM_2055_rep1.raw",
+    "20240924_015_West_BMDM_2047_rep2.raw",
+    "20240924_023_West_BMDM_2052_rep2.raw",
+    "20240924_004_West_BMDM_2051_rep2.raw",
+    "20240924_016_West_BMDM_2041_rep1.raw",
+    "20240924_001_West_BMDM_2046_rep1.raw",
+    "20240924_001_West_BMDM_2046_rep2.raw",
+    "20240924_022_West_BMDM_2036_rep1.raw",
+    "20240924_013_West_BMDM_2038_rep1.raw",
+    "20240924_005_West_BMDM_2043_rep2.raw",
+    "20240924_018_West_BMDM_2039_rep2.raw",
+    "20240924_024_West_BMDM_2048_rep2.raw",
+    "20240924_010_West_BMDM_2045_rep1.raw",
+    "20240924_002_West_BMDM_2034_rep2.raw",
+    "20240924_014_West_BMDM_2054_rep1.raw",
+    "20240924_009_West_BMDM_2053_rep2.raw",
+    "20240924_005_West_BMDM_2043_rep1.raw",
+    "20240924_024_West_BMDM_2048_rep1.raw",
+    "20240924_022_West_BMDM_2036_rep2.raw",
+    "20240924_003_West_BMDM_2037_rep2.raw",
+    "20240924_008_West_BMDM_2040_rep2.raw",
+    "20240924_002_West_BMDM_2034_rep1.raw",
+    "20240924_017_West_BMDM_2032_rep2.raw",
+    "20240924_020_West_BMDM_2035_rep1.raw",
+    "20240924_012_West_BMDM_2042_rep2.raw",
+    "20240924_021_West_BMDM_2049_rep2.raw",
+    "20240924_015_West_BMDM_2047_rep1.raw",
+    "20240924_009_West_BMDM_2053_rep1.raw",
+    "20240924_004_West_BMDM_2051_rep1.raw",
+    "20240924_011_West_BMDM_2050_rep1.raw",
+    "20240924_003_West_BMDM_2037_rep1.raw",
+    "20240924_019_West_BMDM_2033_rep2.raw",
+    "20240924_013_West_BMDM_2038_rep2.raw",
+    "20240924_017_West_BMDM_2032_rep1.raw",
+    "20240924_012_West_BMDM_2042_rep1.raw",
+    "20240924_007_West_BMDM_2044_rep1.raw",
+    "20240924_016_West_BMDM_2041_rep2.raw",
+    "20240924_023_West_BMDM_2052_rep1.raw"
+  ],
+  "anchor": {
+    "pxd": "PXD062877",
+    "source": "PRIDE_API",
+    "organism": [
+      {
+        "name": "Mus musculus (mouse)",
+        "accession": "NEWT:10090"
+      }
+    ],
+    "instruments": [
+      {
+        "name": "Orbitrap Astral",
+        "accession": "MS:1003378",
+        "sdrf_format": "AC=MS:1003378;NT=Orbitrap Astral"
+      }
+    ],
+    "modifications": [],
+    "organism_parts": [
+      {
+        "name": "Bone marrow",
+        "accession": "BTO:0000141"
+      },
+      {
+        "name": "Macrophage",
+        "accession": "CL:0000235"
+      },
+      {
+        "name": "Cell culture",
+        "accession": "BTO:0000214"
+      }
+    ],
+    "diseases": [
+      {
+        "name": "Alpers-huttenlocher syndrome",
+        "accession": "DOID:0080122"
+      },
+      {
+        "name": "Mitochondrial metabolism disease",
+        "accession": "DOID:700"
+      }
+    ],
+    "experiment_types": [
+      "Data-independent acquisition"
+    ],
+    "quantification_methods": [
+      "Protein Abundance Index - PAI"
+    ],
+    "keywords": [
+      "Innate immunity",
+      "Polg",
+      "Mouse",
+      "Bone marrow macrophage",
+      "Mitochondrial dysfunction",
+      "Pseudomonas aeruginosa"
+    ],
+    "publications": [
+      {
+        "pubmed_id": "",
+        "doi": "10.1101/2024.05.11.593693",
+        "ref": "VanPortfliet JJ, Lei Y, Ramanathan M, Martinez CG, Wong J, Stodola TJ, Hoffmann BR, Pflug K, Sitcheran R, Kneeland SC, Murray SA, McGuire PJ, Cannon CL, West AP. Caspase-11 drives macrophage hyperinflammation in models of Polg-related mitochondrial disease. bioRxiv. 2025:2024.05.11.593693"
+      }
+    ],
+    "inferred_fragmentation": "HCD",
+    "inferred_ms2_analyzer": "orbitrap",
+    "inferred_ionization": "nanoESI",
+    "raw_files": [
+      "20240924_018_West_BMDM_2039_rep1.raw",
+      "20240924_020_West_BMDM_2035_rep2.raw",
+      "20240924_008_West_BMDM_2040_rep1.raw",
+      "20240924_006_West_BMDM_2055_rep2.raw",
+      "20240924_021_West_BMDM_2049_rep1.raw",
+      "20240924_007_West_BMDM_2044_rep2.raw",
+      "20240924_011_West_BMDM_2050_rep2.raw",
+      "20240924_010_West_BMDM_2045_rep2.raw",
+      "20240924_014_West_BMDM_2054_rep2.raw",
+      "20240924_019_West_BMDM_2033_rep1.raw",
+      "20240924_006_West_BMDM_2055_rep1.raw",
+      "20240924_015_West_BMDM_2047_rep2.raw",
+      "20240924_023_West_BMDM_2052_rep2.raw",
+      "20240924_004_West_BMDM_2051_rep2.raw",
+      "20240924_016_West_BMDM_2041_rep1.raw",
+      "20240924_001_West_BMDM_2046_rep1.raw",
+      "20240924_001_West_BMDM_2046_rep2.raw",
+      "20240924_022_West_BMDM_2036_rep1.raw",
+      "20240924_013_West_BMDM_2038_rep1.raw",
+      "20240924_005_West_BMDM_2043_rep2.raw",
+      "20240924_018_West_BMDM_2039_rep2.raw",
+      "20240924_024_West_BMDM_2048_rep2.raw",
+      "20240924_010_West_BMDM_2045_rep1.raw",
+      "20240924_002_West_BMDM_2034_rep2.raw",
+      "20240924_014_West_BMDM_2054_rep1.raw",
+      "20240924_009_West_BMDM_2053_rep2.raw",
+      "20240924_005_West_BMDM_2043_rep1.raw",
+      "20240924_024_West_BMDM_2048_rep1.raw",
+      "20240924_022_West_BMDM_2036_rep2.raw",
+      "20240924_003_West_BMDM_2037_rep2.raw",
+      "20240924_008_West_BMDM_2040_rep2.raw",
+      "20240924_002_West_BMDM_2034_rep1.raw",
+      "20240924_017_West_BMDM_2032_rep2.raw",
+      "20240924_020_West_BMDM_2035_rep1.raw",
+      "20240924_012_West_BMDM_2042_rep2.raw",
+      "20240924_021_West_BMDM_2049_rep2.raw",
+      "20240924_015_West_BMDM_2047_rep1.raw",
+      "20240924_009_West_BMDM_2053_rep1.raw",
+      "20240924_004_West_BMDM_2051_rep1.raw",
+      "20240924_011_West_BMDM_2050_rep1.raw",
+      "20240924_003_West_BMDM_2037_rep1.raw",
+      "20240924_019_West_BMDM_2033_rep2.raw",
+      "20240924_013_West_BMDM_2038_rep2.raw",
+      "20240924_017_West_BMDM_2032_rep1.raw",
+      "20240924_012_West_BMDM_2042_rep1.raw",
+      "20240924_007_West_BMDM_2044_rep1.raw",
+      "20240924_016_West_BMDM_2041_rep2.raw",
+      "20240924_023_West_BMDM_2052_rep1.raw"
+    ]
+  },
+  "steps": {
+    "STEP1_OVERVIEW": {
+      "confirmed": {
+        "Characteristics[Organism]": {
+          "value": "Mus musculus",
+          "evidence": "Polg mutant mice",
+          "source": "manuscript"
+        },
+        "Characteristics[CellType]": {
+          "value": "cell culture",
+          "evidence": "in vitro and in vivo approaches",
+          "source": "manuscript"
+        },
+        "Characteristics[Disease]": {
+          "value": "normal",
+          "evidence": "models of Polg-related mitochondrial disease - using disease models rather than diseased samples",
+          "source": "manuscript"
+        },
+        "Characteristics[MaterialType]": {
+          "value": "cell",
+          "evidence": "macrophage hyperinflammation, macrophage sensing",
+          "source": "manuscript"
+        },
+        "Comment[AcquisitionMethod]": {
+          "value": "Data-independent acquisition",
+          "evidence": "confirmed from PRIDE database",
+          "source": "anchor"
+        }
+      },
+      "hypotheses": {
+        "Characteristics[OrganismPart]": {
+          "candidates": [
+            "lung",
+            "brain"
+          ],
+          "reasoning": "lung inflammation mentioned, and mitochondrial diseases often affect brain tissue",
+          "needs": "specific tissue extraction details from methods section"
+        },
+        "Characteristics[Strain]": {
+          "candidates": [
+            "C57BL/6J"
+          ],
+          "reasoning": "most common laboratory mouse strain for disease models",
+          "needs": "methods section specifying mouse strain used"
+        },
+        "Characteristics[Label]": {
+          "candidates": [
+            "label free sample"
+          ],
+          "reasoning": "DIA experiments commonly use label-free approaches",
+          "needs": "methods section detailing sample preparation"
+        }
+      },
+      "not_applicable": [
+        "Characteristics[CellLine]",
+        "Characteristics[DevelopmentalStage]",
+        "Characteristics[Specimen]",
+        "Characteristics[Sex]",
+        "Characteristics[Compound]"
+      ],
+      "summary": "論文はPolg変異マウスモデルを用いたミトコンドリア病研究で、マクロファージの細胞培養とin vivo実験を組み合わせている。DIAプロテオミクス解析により炎症経路を調べており、組織部位と実験条件の詳細は方法論セクションで確認が必要。"
+    },
+    "STEP2_SAMPLE_PREP": {
+      "confirmed": {
+        "Characteristics[CleavageAgent]": {
+          "value": "Trypsin",
+          "evidence": "Sequence grade modified trypsin (Promega) was then add at a 1:40 ratio (trypsin:protein) to each sample for digestion at 37oC for 20 hours.",
+          "source": "manuscript"
+        },
+        "Characteristics[ReductionReagent]": {
+          "value": "DTT",
+          "evidence": "Each sample was then reduced with 10 mM dithiothreitol (final concentration) for 30 minutes at 37oC for 30 minutes in a ThermoMixer (500 rpm agitation).",
+          "source": "manuscript"
+        },
+        "Characteristics[AlkylationReagent]": {
+          "value": "IAA",
+          "evidence": "Samples were then cooled to room temperature and alkylated with 15 mM iodoacetamide for 20 minutes at 21oC in a ThermoMixer (500 rpm agitation).",
+          "source": "manuscript"
+        },
+        "Characteristics[Label]": {
+          "value": "label free sample",
+          "evidence": "Data independent acquisition mass spectrometry analysis (DIA-MS) was performed on a Thermo Orbitrap Astral mass spectrometer",
+          "source": "manuscript"
+        },
+        "Characteristics[Modification]": {
+          "value": "Carbamidomethyl",
+          "evidence": "a static carbamidomethlyl modification of cysteine (+57.021 Da)",
+          "source": "manuscript"
+        },
+        "Comment[EnrichmentMethod]": {
+          "value": "no enrichment",
+          "evidence": "The adherent cells were washed on the six-well culture plate with PBS (+calcium and magnesium) three times. After washing the cells, 250 μL of 6M Urea in 50 mM HEPES, pH 8.0 was added to each well.",
+          "source": "manuscript"
+        },
+        "Comment[FractionationMethod]": {
+          "value": "no fractionation",
+          "evidence": "Millipore C18 zip-tips (Millipore, ZTC18S096) were then used to desalt and purify the peptide digests according to the manufacturer protocol. All purified peptide samples were then dried using a vacuum centrifuge.",
+          "source": "manuscript"
+        },
+        "Comment[Separation]": {
+          "value": "Reversed-phase chromatography",
+          "evidence": "Data independent acquisition mass spectrometry analysis (DIA-MS) was performed on a Thermo Orbitrap Astral mass spectrometer coupled to the Vanquish Neo liquid chromatography system with an EASY-Spray column (PepMap Neo C18, 75 μm x 150 mm, #ES75150PN)",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {
+        "Characteristics[Modification]": {
+          "candidates": [
+            "Oxidation"
+          ],
+          "reasoning": "論文に「a dynamic oxidation of methionine modification (+15.995 Da)」と明記されており、可変修飾として酸化修飾も適用されている",
+          "needs": "既にCarbamidomethylは確定しているが、追加の可変修飾として酸化修飾も存在する"
+        }
+      },
+      "not_applicable": [
+        "Characteristics[Depletion]"
+      ],
+      "summary": "プロテオミクス実験では、細胞をurea bufferで溶解後、DTTで還元、IAMで アルキル化し、トリプシン消化を実施。Label freeのDIA-MS解析で、C18逆相クロマトグラフィーによる分離を行った。エンリッチメントやフラクション化は実施せず、シンプルなワークフローを採用している。"
+    },
+    "STEP3_MS_SETTINGS": {
+      "confirmed": {
+        "Comment[Instrument]": {
+          "value": "Orbitrap Astral",
+          "evidence": "Data independent acquisition mass spectrometry analysis (DIA-MS) was performed on a Thermo Orbitrap Astral mass spectrometer",
+          "source": "manuscript"
+        },
+        "Comment[FragmentationMethod]": {
+          "value": "HCD",
+          "evidence": "normalized HCD collision energy of 25%",
+          "source": "manuscript"
+        },
+        "Comment[AcquisitionMethod]": {
+          "value": "Data-independent acquisition",
+          "evidence": "Data independent acquisition mass spectrometry analysis (DIA-MS) was performed",
+          "source": "manuscript"
+        },
+        "Comment[MS2MassAnalyzer]": {
+          "value": "orbitrap",
+          "evidence": "detector type set to Astral with a scan range of 150-2000 m/z... Full scan settings in positive mode included an orbitrap resolution of 240,000",
+          "source": "manuscript"
+        },
+        "Comment[CollisionEnergy]": {
+          "value": "25% NCE",
+          "evidence": "normalized HCD collision energy of 25%",
+          "source": "manuscript"
+        },
+        "Comment[FragmentMassTolerance]": {
+          "value": "10 ppm",
+          "evidence": "a fragment mass tolerance of 10 ppm",
+          "source": "manuscript"
+        },
+        "Comment[NumberOfMissedCleavages]": {
+          "value": "1",
+          "evidence": "a maximum missed cleavage of one",
+          "source": "manuscript"
+        },
+        "Comment[GradientTime]": {
+          "value": "25 minutes",
+          "evidence": "The method gradient was 25 minutes after the column equilibration",
+          "source": "manuscript"
+        },
+        "Comment[FlowRateChromatogram]": {
+          "value": "600 nL/min",
+          "evidence": "with a flow rate of 600 nL/min",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {},
+      "not_applicable": [
+        "Comment[PrecursorMassTolerance]"
+      ],
+      "summary": "Orbitrap Astralを用いたDIA-MS解析で、HCD断裂、25%衝突エネルギー、10ppmフラグメント質量許容値、25分グラジエント、600nL/min流速を確認。前駆体質量許容値は明記されていない。基本的な機器設定パラメータが明確に記載されている。"
+    },
+    "STEP4_RAW_FILES": {
+      "confirmed": {
+        "Comment[FractionIdentifier]": {
+          "value": "not applicable",
+          "evidence": "No fractionation was performed according to methods: 'Comment[FractionationMethod]: no fractionation'",
+          "source": "manuscript"
+        },
+        "Characteristics[BiologicalReplicate]": {
+          "value": "mouse 1",
+          "evidence": "Raw files show pattern like '2032', '2033', '2034' etc. representing different mouse samples, with 'rep1' and 'rep2' indicating technical replicates. Methods describe using multiple mice: 'PolgD257A/D257A mice and littermate controls used for macrophage experiments were aged for 12-16 months'",
+          "source": "filename"
+        }
+      },
+      "hypotheses": {},
+      "not_applicable": [
+        "FactorValue[Treatment]",
+        "FactorValue[Temperature]",
+        "FactorValue[Disease]",
+        "FactorValue[GeneticModification]",
+        "FactorValue[Compound]",
+        "FactorValue[Bait]"
+      ],
+      "summary": "Rawファイル名から生物学的レプリケート（個別マウス）が特定でき、フラクション化は実施されていない。FactorValue項目については、論文中に実験条件として処理群や化合物への言及があるが、rawファイル名からは判別できず、また候補値リストに適合する値も見つからないため、not_applicableとした。BMDMsは複数のマウス由来の細胞を用いており、各マウスが生物学的レプリケートを構成している。"
+    }
+  }
+}

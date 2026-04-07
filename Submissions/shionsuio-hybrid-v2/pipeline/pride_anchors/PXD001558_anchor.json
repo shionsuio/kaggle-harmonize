@@ -1,0 +1,95 @@
+{
+  "pxd": "PXD001558",
+  "source": "PRIDE_API",
+  "organism": [
+    {
+      "name": "Homo sapiens (human)",
+      "accession": "NEWT:9606"
+    }
+  ],
+  "instruments": [
+    {
+      "name": "LTQ Orbitrap Velos",
+      "accession": "MS:1001742",
+      "sdrf_format": "AC=MS:1001742;NT=LTQ Orbitrap Velos"
+    }
+  ],
+  "modifications": [],
+  "organism_parts": [],
+  "diseases": [
+    {
+      "name": "Breast cancer",
+      "accession": "DOID:1612"
+    }
+  ],
+  "experiment_types": [
+    "Top-down proteomics"
+  ],
+  "quantification_methods": [
+    "SILAC"
+  ],
+  "keywords": [
+    "Orbitrap velos",
+    "Phospho",
+    "Contact-initiated signalling",
+    "Silac",
+    "Transendothelial migration",
+    "Mda-mb-231",
+    "Huvec"
+  ],
+  "publications": [
+    {
+      "pubmed_id": "",
+      "doi": "10.1126/scisignal.aac5820",
+      "ref": "Locard-Paulet M, Lim L, Veluscek G, McMahon K, Sinclair J, van Weverwijk A, Worboys JD, Yuan Y, Isacke CM, Jørgensen C. Phosphoproteomic analysis of interacting tumor and endothelial cells identifies regulatory mechanisms of transendothelial migration. Sci Signal. 2016 Feb 9;9(414):ra15"
+    }
+  ],
+  "inferred_fragmentation": null,
+  "inferred_ms2_analyzer": "orbitrap",
+  "inferred_ionization": "nanoESI",
+  "raw_files": [
+    "20120802_MLP_363216_Tio2ps130.raw",
+    "20121010_MLP_363245_TiO2ps135T1_121011150632.raw",
+    "20120703_MLP_363211_TiO2ps128.raw",
+    "20120326_MLP_333188_Tio2ps111.raw",
+    "20120326_MLP_363207_Tio2ps123.raw",
+    "20130115_MLP_363262_ps139B.raw",
+    "20130115_MLP_363262_ps139D.raw",
+    "Locard-Paulet_Tumour_endothelial_all_2014.mzML",
+    "20120229_MLP_333188_ps108TiO2.raw",
+    "20120326_MLP_333188_Tio2ps109.raw",
+    "20120802_MLP_363216_Tio2ps131.raw",
+    "20121026_MLP_psMLP137BT.raw",
+    "20120326_MLP_333188_Tio2ps114.raw",
+    "20120703_MLP_363211_TiO2ps124.raw",
+    "20120823_MLP_363227_TiO2ps132.raw",
+    "20121026_MLP_psMLP137CT.raw",
+    "20120823_MLP_363227_TiO2ps133.raw",
+    "20120703_MLP_363211_TiO2ps125.raw",
+    "20120326_MLP_333188_Tio2ps112.raw",
+    "20120703_MLP_363211_TiO2ps126.raw",
+    "20120326_MLP_363207_Tio2ps121.raw",
+    "20121010_MLP_363245_TiO2ps135T2.raw",
+    "20120326_MLP_363207_Tio2ps120.raw",
+    "20120229_MLP_333188_ps110ATiO2.raw",
+    "20120410_MLP_333195_TiO2ps117.raw",
+    "20130115_MLP_363262_ps139E.raw",
+    "20120823_MLP_363227_TiO2ps111.raw",
+    "20120703_MLP_363211_TiO2ps127.raw",
+    "20120516_psMLP119.raw",
+    "20120326_MLP_333188_Tio2ps113.raw",
+    "20120410_MLP_333195_TiO2ps116.raw",
+    "20120326_MLP_363207_Tio2ps122.raw",
+    "20121010_MLP_363245_TiO2ps136T1.raw",
+    "20121026_MLP_psMLP137AT.raw",
+    "20120229_MLP_333188_ps111TiO2.raw",
+    "20120601_psMLP118.raw",
+    "20120229_MLP_333188_ps109TiO2.raw",
+    "20120326_MLP_333188_Tio2ps115.raw",
+    "20121010_MLP_363245_TiO2ps136T2.raw",
+    "20121026_MLP_psMLP138T.raw",
+    "20130115_MLP_363262_ps139C.raw",
+    "20120703_MLP_363211_TiO2ps129.raw",
+    "20130115_MLP_363262_ps139A.raw"
+  ]
+}

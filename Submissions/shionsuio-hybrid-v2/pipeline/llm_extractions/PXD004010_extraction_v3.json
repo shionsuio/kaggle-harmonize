@@ -1,0 +1,239 @@
+{
+  "pxd": "PXD004010",
+  "raw_files": [
+    "ad_pl03.raw",
+    "ad_pl04.raw",
+    "ad_pl10.raw",
+    "ad_pl07.raw",
+    "ad_pl08.raw",
+    "ad_pl01.raw",
+    "ad_pl06.raw",
+    "ad_pl05.raw",
+    "ad_pl02.raw",
+    "ad_pl09.raw"
+  ],
+  "anchor": {
+    "pxd": "PXD004010",
+    "source": "PRIDE_API",
+    "organism": [
+      {
+        "name": "Homo sapiens (human)",
+        "accession": "NEWT:9606"
+      }
+    ],
+    "instruments": [
+      {
+        "name": "Q Exactive",
+        "accession": "MS:1001911",
+        "sdrf_format": "AC=MS:1001911;NT=Q Exactive"
+      }
+    ],
+    "modifications": [],
+    "organism_parts": [
+      {
+        "name": "Brain",
+        "accession": "BTO:0000142"
+      }
+    ],
+    "diseases": [
+      {
+        "name": "Alzheimer's disease",
+        "accession": "DOID:10652"
+      }
+    ],
+    "experiment_types": [
+      "Shotgun proteomics"
+    ],
+    "quantification_methods": [
+      "Spectrum counting"
+    ],
+    "keywords": [
+      "Proteomics",
+      "Proteogenomics",
+      "Database search",
+      "Mass spectrometry",
+      "Genomics",
+      "Multistage analysis",
+      "Rna-seq",
+      "Spectrum quality control"
+    ],
+    "publications": [
+      {
+        "pubmed_id": "",
+        "doi": "10.1021/acs.jproteome.6b00344",
+        "ref": "Li Y, Wang X, Cho JH, Shaw TI, Wu Z, Bai B, Wang H, Zhou S, Beach TG, Wu G, Zhang J, Peng J. JUMPg: An Integrative Proteogenomics Pipeline Identifying Unannotated Proteins in Human Brain and Cancer Cells. J Proteome Res. 2016 Jul 1;15(7):2309-20"
+      }
+    ],
+    "inferred_fragmentation": "HCD",
+    "inferred_ms2_analyzer": "orbitrap",
+    "inferred_ionization": "nanoESI",
+    "raw_files": [
+      "ad_pl03.raw",
+      "ad_pl04.raw",
+      "ad_pl10.raw",
+      "ad_pl07.raw",
+      "ad_pl08.raw",
+      "ad_pl01.raw",
+      "ad_pl06.raw",
+      "ad_pl05.raw",
+      "ad_pl02.raw",
+      "ad_pl09.raw"
+    ]
+  },
+  "steps": {
+    "STEP1_OVERVIEW": {
+      "confirmed": {
+        "Characteristics[Organism]": {
+          "value": "Homo sapiens",
+          "evidence": "human brain and cancer cells",
+          "source": "manuscript"
+        },
+        "Characteristics[OrganismPart]": {
+          "value": "brain",
+          "evidence": "label-free mass spectrometry dataset of Alzheimer's disease postmortem brain",
+          "source": "manuscript"
+        },
+        "Characteristics[Disease]": {
+          "value": "Alzheimer's disease",
+          "evidence": "label-free mass spectrometry dataset of Alzheimer's disease postmortem brain",
+          "source": "manuscript"
+        },
+        "Characteristics[Label]": {
+          "value": "label free sample",
+          "evidence": "label-free mass spectrometry dataset of Alzheimer's disease postmortem brain",
+          "source": "manuscript"
+        },
+        "Characteristics[MaterialType]": {
+          "value": "tissue",
+          "evidence": "Alzheimer's disease postmortem brain",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {
+        "Characteristics[CellType]": {
+          "candidates": [
+            "not applicable"
+          ],
+          "reasoning": "Brain tissue is mentioned but specific cell types are not detailed in the abstract",
+          "needs": "Methods section describing sample preparation and cell type isolation"
+        },
+        "Characteristics[DevelopmentalStage]": {
+          "candidates": [
+            "adult",
+            "Adult"
+          ],
+          "reasoning": "Postmortem brain samples are typically from adult subjects, especially in Alzheimer's disease studies",
+          "needs": "Patient demographics or methods section confirming age groups"
+        }
+      },
+      "not_applicable": [
+        "Characteristics[CellLine]",
+        "Characteristics[Specimen]",
+        "Characteristics[Strain]",
+        "Characteristics[Sex]",
+        "Characteristics[Compound]",
+        "Comment[AcquisitionMethod]"
+      ],
+      "summary": "論文からAlzheimer's病のヒト脳組織を用いたラベルフリープロテオミクス研究であることが確認された。多発性骨髄腫細胞の言及もあるが、主要な解析対象は脳組織である。患者の年齢や性別、具体的な細胞型については追加情報が必要。"
+    },
+    "STEP2_SAMPLE_PREP": {
+      "confirmed": {
+        "Characteristics[CleavageAgent]": {
+          "value": "Trypsin",
+          "evidence": "MS data were searched against a database combining mutations and splice junction peptides as well as UniProt human proteins (downloaded in February 2015) with fully tryptic restriction. ii) Partially tryptic search was carried out",
+          "source": "manuscript"
+        },
+        "Characteristics[Modification]": {
+          "value": "Oxidation",
+          "evidence": "dynamic mass shift for oxidized Met (+15.9949 Da)",
+          "source": "manuscript"
+        },
+        "Characteristics[Label]": {
+          "value": "label free sample",
+          "evidence": "The first dataset was collected from human Alzheimer's disease postmortem brain, including label-free high resolution MS raw data",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {},
+      "not_applicable": [
+        "Characteristics[AlkylationReagent]",
+        "Characteristics[ReductionReagent]",
+        "Characteristics[Depletion]",
+        "Comment[EnrichmentMethod]",
+        "Comment[FractionationMethod]",
+        "Comment[Separation]"
+      ],
+      "summary": "Alzheimer's病脳組織サンプルはラベルフリー手法で解析され、完全トリプシン消化と部分トリプシン消化の両方が実施された。メチオニンの酸化修飾が動的修飾として考慮されている。アルキル化試薬、還元試薬、濃縮・分画手法については記載がない。TMT標識は多発性骨髄腫細胞データセットに使用されており、脳組織解析には使用されていない。"
+    },
+    "STEP3_MS_SETTINGS": {
+      "confirmed": {
+        "Comment[Instrument]": {
+          "value": "Q Exactive",
+          "evidence": "Q Exactive (MS:1001911)",
+          "source": "PRIDE database confirmation"
+        },
+        "Comment[FragmentationMethod]": {
+          "value": "HCD",
+          "evidence": "Fragmentation (from instrument): HCD",
+          "source": "PRIDE database confirmation"
+        },
+        "Comment[MS2MassAnalyzer]": {
+          "value": "orbitrap",
+          "evidence": "MS2 Analyzer (from instrument): orbitrap",
+          "source": "PRIDE database confirmation"
+        },
+        "Comment[PrecursorMassTolerance]": {
+          "value": "6 ppm",
+          "evidence": "Common parameters include ±6 ppm for precursor ion mass tolerance",
+          "source": "manuscript"
+        },
+        "Comment[NumberOfMissedCleavages]": {
+          "value": "2",
+          "evidence": "fully tryptic restriction in 1st stage, Partially tryptic search in 2nd stage",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {},
+      "not_applicable": [
+        "Comment[AcquisitionMethod]",
+        "Comment[CollisionEnergy]",
+        "Comment[FragmentMassTolerance]",
+        "Comment[GradientTime]",
+        "Comment[FlowRateChromatogram]"
+      ],
+      "summary": "質量分析装置はQ Exactive、フラグメンテーション法はHCD、MS2アナライザーはorbitrapであることが確定。プリカーサーマストレランスは±6 ppmと明記されている。ミスクリーベージ数は完全トリプシン制限から推定して2に設定。その他の詳細なMS設定パラメータ（コリジョンエネルギー、フラグメントマストレランス、グラジエント時間など）は論文テキストに記載されていない。"
+    },
+    "STEP4_RAW_FILES": {
+      "confirmed": {
+        "Comment[FractionIdentifier]": {
+          "value": "not applicable",
+          "evidence": "No evidence of fractionation described in methods or raw file naming pattern",
+          "source": "manuscript"
+        },
+        "FactorValue[Disease]": {
+          "value": "Alzheimer's disease",
+          "evidence": "The first dataset was collected from human Alzheimer's disease postmortem brain",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {
+        "Characteristics[BiologicalReplicate]": {
+          "candidates": [
+            "human 1",
+            "human 2"
+          ],
+          "reasoning": "Raw files ad_pl01-ad_pl10 suggest 10 samples, but specific biological replication structure unclear from numbering pattern",
+          "needs": "Information about whether samples represent technical or biological replicates, or different patients"
+        }
+      },
+      "not_applicable": [
+        "FactorValue[Treatment]",
+        "FactorValue[Temperature]",
+        "FactorValue[GeneticModification]",
+        "FactorValue[Compound]",
+        "FactorValue[Bait]"
+      ],
+      "summary": "Raw file analysis confirmed no fractionation was used and Alzheimer's disease as the disease factor. Ten raw files (ad_pl01-ad_pl10) suggest multiple samples but biological replicate structure cannot be determined from numbering alone. No experimental treatments, compounds, or other factors are described in the methods for the AD brain tissue dataset."
+    }
+  }
+}

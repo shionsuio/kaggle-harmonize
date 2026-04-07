@@ -1,0 +1,61 @@
+{
+  "pxd": "PXD009157",
+  "source": "PRIDE_API",
+  "organism": [
+    {
+      "name": "Plasmodium falciparum mad71/papua new guinea",
+      "accession": "NEWT:70154"
+    },
+    {
+      "name": "Homo sapiens (human)",
+      "accession": "NEWT:9606"
+    }
+  ],
+  "instruments": [
+    {
+      "name": "Orbitrap Fusion Lumos",
+      "accession": "MS:1002732",
+      "sdrf_format": "AC=MS:1002732;NT=Orbitrap Fusion Lumos"
+    }
+  ],
+  "modifications": [],
+  "organism_parts": [],
+  "diseases": [],
+  "experiment_types": [
+    "Shotgun proteomics"
+  ],
+  "quantification_methods": [
+    "TMT"
+  ],
+  "keywords": [
+    "Phosphoproteomics",
+    "Camp",
+    "Malaria",
+    "Tmt",
+    "Pka",
+    "Orbitrap"
+  ],
+  "publications": [
+    {
+      "pubmed_id": "",
+      "doi": "10.1371/journal.pbio.3000154",
+      "ref": "Flueck C, Drought LG, Jones A, Patel A, Perrin AJ, Walker EM, Nofal SD, Snijders AP, Blackman MJ, Baker DA. Phosphodiesterase beta is the master regulator of cAMP signalling during malaria parasite invasion. PLoS Biol. 2019 17(2):e3000154"
+    }
+  ],
+  "inferred_fragmentation": null,
+  "inferred_ms2_analyzer": "orbitrap",
+  "inferred_ionization": "nanoESI",
+  "raw_files": [
+    "92-149139488_C1.raw",
+    "92-149139489_D1.raw",
+    "92-149138155_A1.raw",
+    "92-149139486_A1.raw",
+    "92-149138154_A1.raw",
+    "92-149139491_F1.raw",
+    "92-149139493_H1.raw",
+    "92-149139492_G1.raw",
+    "92-149139490_E1.raw",
+    "92-149139487_B1.raw",
+    "92-149137486_A1.raw"
+  ]
+}

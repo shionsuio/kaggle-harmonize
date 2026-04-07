@@ -1,0 +1,59 @@
+{
+  "pxd": "PXD003209",
+  "source": "PRIDE_API",
+  "organism": [
+    {
+      "name": "Homo sapiens (human)",
+      "accession": "NEWT:9606"
+    }
+  ],
+  "instruments": [
+    {
+      "name": "LTQ Orbitrap Velos",
+      "accession": "MS:1001742",
+      "sdrf_format": "AC=MS:1001742;NT=LTQ Orbitrap Velos"
+    }
+  ],
+  "modifications": [],
+  "organism_parts": [
+    {
+      "name": "Epithelial cell",
+      "accession": "CL:0000066"
+    },
+    {
+      "name": "Permanent cell line cell",
+      "accession": "CL:0000002"
+    },
+    {
+      "name": "Cell culture",
+      "accession": "BTO:0000214"
+    }
+  ],
+  "diseases": [],
+  "experiment_types": [
+    "Shotgun proteomics"
+  ],
+  "quantification_methods": [
+    "Spectrum counting"
+  ],
+  "keywords": [
+    "Extracellular vesicle",
+    "Exosome",
+    "Polyethylene glycol"
+  ],
+  "publications": [
+    {
+      "pubmed_id": "",
+      "doi": "10.1038/srep23978",
+      "ref": "Rider MA, Hurwitz SN, Meckes DG Jr. ExtraPEG: A Polyethylene Glycol-Based Method for Enrichment of Extracellular Vesicles. Sci Rep. 2016 Apr 12;6:23978"
+    }
+  ],
+  "inferred_fragmentation": null,
+  "inferred_ms2_analyzer": "orbitrap",
+  "inferred_ionization": "nanoESI",
+  "raw_files": [
+    "01112016_DM798_Run1.raw",
+    "01112016_DM798_Run3.raw",
+    "01112016_DM798_Run2.raw"
+  ]
+}

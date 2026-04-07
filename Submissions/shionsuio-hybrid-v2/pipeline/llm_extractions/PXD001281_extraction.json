@@ -1,0 +1,432 @@
+{
+  "pxd": "PXD001281",
+  "raw_files": [
+    "20130526_11_qEx_TT_T150_IP_II_A80.raw",
+    "20130519_04_qEx_TT_T150_IP_II.raw",
+    "20130222_06_qEx_TT_T90_IP_S2.raw",
+    "20130910_14_qEx_TT_T90_IP_gluC_IT1s.raw",
+    "20130912_04_qEx_TT_T150_IP_lysC_IT1s_T1.raw",
+    "20130912_09_qEx_TT_T150_IP_gluC_IT1s_T1.raw",
+    "20130528_09_qEx_TT_T90_IP_I_II.raw",
+    "20130216_12_qEx_TT_T90_IP_S2.raw",
+    "20130402_06_qEx_TT_T90_IPv2_S2_T5.raw",
+    "20130910_08_qEx_TT_T90_IP_lysC_IT1s.raw"
+  ],
+  "anchor": {
+    "pxd": "PXD001281",
+    "source": "PRIDE_API",
+    "organism": [
+      {
+        "name": "Homo sapiens (human)",
+        "accession": "NEWT:9606"
+      }
+    ],
+    "instruments": [
+      {
+        "name": "Q Exactive",
+        "accession": "MS:1001911",
+        "sdrf_format": "AC=MS:1001911;NT=Q Exactive"
+      }
+    ],
+    "modifications": [],
+    "organism_parts": [
+      {
+        "name": "Cell suspension culture",
+        "accession": "BTO:0000221"
+      },
+      {
+        "name": "Hek-293 cell",
+        "accession": "BTO:0000007"
+      }
+    ],
+    "diseases": [],
+    "experiment_types": [
+      "Shotgun proteomics",
+      "Affinity purification coupled with mass spectrometry proteomics"
+    ],
+    "quantification_methods": [],
+    "keywords": [
+      "Heat-shock",
+      "Sumo modification sites",
+      "Hek293"
+    ],
+    "publications": [
+      {
+        "pubmed_id": "",
+        "doi": "10.1126/scisignal.2005146",
+        "ref": "Tammsalu T, Matic I, Jaffray EG, Ibrahim AF, Tatham MH, Hay RT; Proteome-wide identification of SUMO2 modification sites., Sci Signal, 2014 Apr 29, 7, 323, rs2, "
+      }
+    ],
+    "inferred_fragmentation": "HCD",
+    "inferred_ms2_analyzer": "orbitrap",
+    "inferred_ionization": "nanoESI",
+    "raw_files": [
+      "20130526_11_qEx_TT_T150_IP_II_A80.raw",
+      "20130519_04_qEx_TT_T150_IP_II.raw",
+      "20130222_06_qEx_TT_T90_IP_S2.raw",
+      "20130910_14_qEx_TT_T90_IP_gluC_IT1s.raw",
+      "20130912_04_qEx_TT_T150_IP_lysC_IT1s_T1.raw",
+      "20130912_09_qEx_TT_T150_IP_gluC_IT1s_T1.raw",
+      "20130528_09_qEx_TT_T90_IP_I_II.raw",
+      "20130216_12_qEx_TT_T90_IP_S2.raw",
+      "20130402_06_qEx_TT_T90_IPv2_S2_T5.raw",
+      "20130910_08_qEx_TT_T90_IP_lysC_IT1s.raw"
+    ]
+  },
+  "extractions": {
+    "TITLE_ABSTRACT": {
+      "Characteristics[Organism]": {
+        "value": "Homo sapiens (human)",
+        "evidence": "human cell lysates",
+        "confidence": "high",
+        "source": "manuscript",
+        "applies_to": "all"
+      },
+      "Characteristics[OrganismPart]": {
+        "value": "Not Applicable",
+        "evidence": "",
+        "confidence": "low",
+        "source": "inferred",
+        "applies_to": "all"
+      },
+      "Characteristics[CellType]": {
+        "value": "Not Applicable",
+        "evidence": "",
+        "confidence": "low",
+        "source": "inferred",
+        "applies_to": "all"
+      },
+      "Characteristics[CellLine]": {
+        "value": "Not Applicable",
+        "evidence": "",
+        "confidence": "low",
+        "source": "inferred",
+        "applies_to": "all",
+        "note": "Anchor database indicates Hek-293 cell line, but not explicitly mentioned in manuscript text"
+      },
+      "Characteristics[Disease]": {
+        "value": "Not Applicable",
+        "evidence": "",
+        "confidence": "low",
+        "source": "inferred",
+        "applies_to": "all"
+      },
+      "Characteristics[MaterialType]": {
+        "value": "cell lysates",
+        "evidence": "human cell lysates",
+        "confidence": "high",
+        "source": "manuscript",
+        "applies_to": "all"
+      },
+      "Characteristics[Label]": {
+        "value": "polyhistidine (6His)-tagged SUMO2",
+        "evidence": "expression of polyhistidine (6His)-tagged SUMO2 with Thr90 mutated to Lys",
+        "confidence": "high",
+        "source": "manuscript",
+        "applies_to": "all"
+      },
+      "Characteristics[Specimen]": {
+        "value": "Not Applicable",
+        "evidence": "",
+        "confidence": "low",
+        "source": "inferred",
+        "applies_to": "all"
+      },
+      "Characteristics[Strain]": {
+        "value": "Not Applicable",
+        "evidence": "",
+        "confidence": "low",
+        "source": "inferred",
+        "applies_to": "all"
+      },
+      "Characteristics[GeneticModification]": {
+        "value": "SUMO2 with Thr90 mutated to Lys",
+        "evidence": "expression of polyhistidine (6His)-tagged SUMO2 with Thr90 mutated to Lys",
+        "confidence": "high",
+        "source": "manuscript",
+        "applies_to": "all"
+      },
+      "Characteristics[Treatment]": {
+        "value": "immunoprecipitation of SUMO2T90K modified peptides",
+        "evidence": "immunoprecipitation of SUMO2T90K modified peptides",
+        "confidence": "high",
+        "source": "manuscript",
+        "applies_to": "all"
+      },
+      "Characteristics[DevelopmentalStage]": {
+        "value": "Not Applicable",
+        "evidence": "",
+        "confidence": "low",
+        "source": "inferred",
+        "applies_to": "all"
+      },
+      "Comment[AcquisitionMethod]": {
+        "value": "Shotgun proteomics with affinity purification",
+        "evidence": "Mass spectrometry analysis of SUMO enriched peptides",
+        "confidence": "high",
+        "source": "manuscript",
+        "applies_to": "all"
+      }
+    },
+    "METHODS_SAMPLE": {
+      "Characteristics[CleavageAgent]": {
+        "value": "Lys-C, Glu-C, trypsin",
+        "evidence": "digested for 16 hours with Lys-C (Wako) in 50 μl IP buffer at 37 °C (enzyme to protein ratio 1:50)... subsequently digested with endoproteinase Glu-C for 16 hours in 50 μl of IP buffer at 20°C (enzyme to protein ratio 1:100)... trypsinized",
+        "confidence": "high",
+        "source": "manuscript",
+        "applies_to": "all"
+      },
+      "Characteristics[AlkylationReagent]": {
+        "value": "chloroacetamide",
+        "evidence": "treated with 50 mM chloroacetamide in UA buffer for 20 minutes in the dark... treated with 50 mM chloroacetamide for 1.5 h at 20 °C",
+        "confidence": "high",
+        "source": "manuscript",
+        "applies_to": "all"
+      },
+      "Characteristics[ReductionReagent]": {
+        "value": "β-mercaptoethanol",
+        "evidence": "cell lysis buffer (6 M guanidinium-HCl, 100 mM sodium phosphate buffer pH 8.0, 10 mM Tris-HCl, 20 mM imidazole, 5 mM β-mercaptoethanol)... wash buffer pH 8.0 (8 M urea, 100 mM sodium phosphate buffer pH 8.0, 10 mM Tris-HCl, 10 mM imidazole, 5 mM β-mercaptoethanol)",
+        "confidence": "high",
+        "source": "manuscript",
+        "applies_to": "all"
+      },
+      "Characteristics[Label]": {
+        "value": "label free sample",
+        "evidence": "No labeling reagents mentioned in the experimental procedures",
+        "confidence": "high",
+        "source": "inferred",
+        "applies_to": "all"
+      },
+      "Characteristics[Modification]": {
+        "value": "Carbamidomethyl",
+        "evidence": "Carbamidomethylation of Cys was set as a fixed modification",
+        "confidence": "high",
+        "source": "manuscript",
+        "applies_to": "all"
+      },
+      "Characteristics[Modification].1": {
+        "value": "Oxidation",
+        "evidence": "oxidation of Met... were set as variable modifications",
+        "confidence": "high",
+        "source": "manuscript",
+        "applies_to": "all"
+      },
+      "Characteristics[Modification].2": {
+        "value": "Acetyl",
+        "evidence": "acetylation of protein N-termini... were set as variable modifications",
+        "confidence": "high",
+        "source": "manuscript",
+        "applies_to": "all"
+      },
+      "Characteristics[Modification].3": {
+        "value": "Phospho",
+        "evidence": "phosphorylation of Ser, Thr, and Tyr... were set as variable modifications",
+        "confidence": "high",
+        "source": "manuscript",
+        "applies_to": "all"
+      },
+      "Characteristics[Modification].4": {
+        "value": "GlyGly",
+        "evidence": "diGly adduction to Lys (except in peptide C-terminus) were set as variable modifications",
+        "confidence": "high",
+        "source": "manuscript",
+        "applies_to": "all"
+      },
+      "Characteristics[Modification].5": {
+        "value": "Not Applicable",
+        "evidence": "",
+        "confidence": "",
+        "source": "",
+        "applies_to": ""
+      },
+      "Characteristics[Modification].6": {
+        "value": "Not Applicable",
+        "evidence": "",
+        "confidence": "",
+        "source": "",
+        "applies_to": ""
+      },
+      "Characteristics[Depletion]": {
+        "value": "Not Applicable",
+        "evidence": "",
+        "confidence": "",
+        "source": "",
+        "applies_to": ""
+      },
+      "Characteristics[SpikedCompound]": {
+        "value": "Not Applicable",
+        "evidence": "",
+        "confidence": "",
+        "source": "",
+        "applies_to": ""
+      },
+      "Characteristics[SyntheticPeptide]": {
+        "value": "Not Applicable",
+        "evidence": "",
+        "confidence": "",
+        "source": "",
+        "applies_to": ""
+      },
+      "Comment[EnrichmentMethod]": {
+        "value": "nickel affinity chromatography, anti-K-ε-GG immunoaffinity purification",
+        "evidence": "Nickel affinity purification of 6His-SUMO2T90K conjugates was performed with Ni2+-NTA agarose beads... Enrichment of diGly-Lys containing peptides with anti-KεGG was performed... Anti-K-ε-GG conjugated to protein A beads",
+        "confidence": "high",
+        "source": "manuscript",
+        "applies_to": "all"
+      },
+      "Comment[FractionationMethod]": {
+        "value": "SDS-PAGE",
+        "evidence": "TAP-SUMO2 protein samples... were fractionated by protein electrophoresis and the gel was cut into nine slices",
+        "confidence": "medium",
+        "source": "manuscript",
+        "applies_to": {
+          "file_pattern": "TAP-SUMO2 samples only, not clearly specified for all files"
+        }
+      },
+      "Comment[NumberOfFractions]": {
+        "value": "9",
+        "evidence": "the gel was cut into nine slices",
+        "confidence": "medium",
+        "source": "manuscript",
+        "applies_to": {
+          "file_pattern": "TAP-SUMO2 samples only"
+        }
+      },
+      "Comment[Separation]": {
+        "value": "reversed-phase liquid chromatography",
+        "evidence": "analysed by liquid chromatography tandem MS on a Q Exactive mass spectrometer... coupled to an EASY-nLC 1000 liquid chromatography system... Purified peptides were loaded onto 75 μm × 500 mm EASY-Spray column... with a linear gradient of 5 % to 22 % of solvent B",
+        "confidence": "high",
+        "source": "manuscript",
+        "applies_to": "all"
+      }
+    },
+    "METHODS_MS": {
+      "Comment[Instrument]": {
+        "value": "Q Exactive",
+        "evidence": "analysed by liquid chromatography tandem MS on a Q Exactive mass spectrometer (Thermo Scientific)",
+        "confidence": "high",
+        "source": "manuscript",
+        "applies_to": "all"
+      },
+      "Comment[FragmentationMethod]": {
+        "value": "HCD",
+        "evidence": "Not explicitly mentioned in manuscript text",
+        "confidence": "high",
+        "source": "inferred",
+        "applies_to": "all",
+        "note": "Inferred from Q Exactive instrument which uses HCD by default"
+      },
+      "Comment[AcquisitionMethod]": {
+        "value": "data dependent acquisition",
+        "evidence": "Up to one data dependent MS2 spectrum was acquired",
+        "confidence": "high",
+        "source": "manuscript",
+        "applies_to": "all"
+      },
+      "Comment[IonizationType]": {
+        "value": "nanoESI",
+        "evidence": "coupled to an EASY-nLC 1000 liquid chromatography system (Thermo Scientific) via an EASY-Spray ion source",
+        "confidence": "high",
+        "source": "inferred",
+        "applies_to": "all",
+        "note": "EASY-Spray ion source uses nanoESI"
+      },
+      "Comment[MS2MassAnalyzer]": {
+        "value": "orbitrap",
+        "evidence": "Up to one data dependent MS2 spectrum was acquired with a resolution of 35,000 at m/z 400",
+        "confidence": "high",
+        "source": "inferred",
+        "applies_to": "all",
+        "note": "Q Exactive uses orbitrap analyzer for MS2"
+      },
+      "Comment[CollisionEnergy]": {
+        "value": "Not Applicable",
+        "evidence": "No collision energy values mentioned in manuscript",
+        "confidence": "low",
+        "source": "manuscript"
+      },
+      "Comment[PrecursorMassTolerance]": {
+        "value": "6 ppm",
+        "evidence": "a mass deviation of 6 parts per million was set for main search",
+        "confidence": "high",
+        "source": "manuscript",
+        "applies_to": "all"
+      },
+      "Comment[FragmentMassTolerance]": {
+        "value": "0.5 Da",
+        "evidence": "0.5 Da for MS2 peaks",
+        "confidence": "high",
+        "source": "manuscript",
+        "applies_to": "all"
+      },
+      "Comment[NumberOfMissedCleavages]": {
+        "value": "3 or 5",
+        "evidence": "A maximum number of three or five missed cleavages were allowed for samples cleaved with Lys-C, or Lys-C and Glu-C, respectively",
+        "confidence": "high",
+        "source": "manuscript",
+        "applies_to": "all",
+        "note": "3 for Lys-C only samples, 5 for Lys-C and Glu-C samples"
+      },
+      "Comment[GradientTime]": {
+        "value": "90-150 minutes",
+        "evidence": "various gradient lengths from 90 minutes to 150 minutes were used",
+        "confidence": "medium",
+        "source": "filename",
+        "applies_to": {
+          "T90": "90 minutes based on T90 in filenames",
+          "T150": "150 minutes based on T150 in filenames"
+        },
+        "note": "T90 and T150 tokens in filenames likely indicate gradient times of 90 and 150 minutes respectively"
+      },
+      "Comment[FlowRateChromatogram]": {
+        "value": "250 nl/min",
+        "evidence": "Flow rate was set to 250 nl/min",
+        "confidence": "high",
+        "source": "manuscript",
+        "applies_to": "all"
+      }
+    },
+    "RAW_FILES": {
+      "Comment[FractionIdentifier]": {
+        "value": "Not Applicable",
+        "evidence": "No explicit fraction information found in the provided text",
+        "confidence": "medium",
+        "source": "filename",
+        "applies_to": "all",
+        "note": "Raw filenames do not contain clear fraction identifiers, though they contain various experimental conditions (T90, T150, different enzymes)"
+      },
+      "Characteristics[BiologicalReplicate]": {
+        "value": "Not Applicable",
+        "evidence": "No explicit biological replicate information found in filenames or text",
+        "confidence": "low",
+        "source": "filename",
+        "applies_to": "all",
+        "note": "Cannot definitively identify biological replicates from filename patterns alone"
+      },
+      "Characteristics[NumberOfBiologicalReplicates]": {
+        "value": "Not Applicable",
+        "evidence": "Cannot determine number of biological replicates from available information",
+        "confidence": "low",
+        "source": "inferred",
+        "applies_to": "all"
+      },
+      "Characteristics[NumberOfTechnicalReplicates]": {
+        "value": "2",
+        "evidence": "Files 20130912_04_qEx_TT_T150_IP_lysC_IT1s_T1.raw and 20130912_09_qEx_TT_T150_IP_gluC_IT1s_T1.raw both contain '_T1' suffix suggesting technical replicates",
+        "confidence": "low",
+        "source": "filename",
+        "applies_to": {
+          "file_pattern": "Files with _T1 suffix may represent technical replicates"
+        },
+        "note": "Limited evidence from filename patterns, '_T1' and 'T5' suffixes in some files may indicate technical replicates"
+      },
+      "Characteristics[NumberOfSamples]": {
+        "value": "10",
+        "evidence": "Total count of raw data files listed: 10 unique .raw files",
+        "confidence": "high",
+        "source": "manuscript",
+        "applies_to": "all"
+      }
+    }
+  }
+}

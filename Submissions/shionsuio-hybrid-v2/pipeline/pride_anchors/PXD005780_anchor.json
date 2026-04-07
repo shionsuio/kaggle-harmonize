@@ -1,0 +1,63 @@
+{
+  "pxd": "PXD005780",
+  "source": "PRIDE_API",
+  "organism": [
+    {
+      "name": "Human gut metagenome",
+      "accession": "NEWT:408170"
+    }
+  ],
+  "instruments": [
+    {
+      "name": "LTQ Orbitrap Velos",
+      "accession": "MS:1001742",
+      "sdrf_format": "AC=MS:1001742;NT=LTQ Orbitrap Velos"
+    }
+  ],
+  "modifications": [],
+  "organism_parts": [
+    {
+      "name": "Feces",
+      "accession": "BTO:0000440"
+    }
+  ],
+  "diseases": [],
+  "experiment_types": [
+    "Shotgun proteomics"
+  ],
+  "quantification_methods": [
+    "Spectrum counting"
+  ],
+  "keywords": [
+    "Gut metagenome",
+    "Gut metaproteome",
+    "Metaproteomics"
+  ],
+  "publications": [
+    {
+      "pubmed_id": "",
+      "doi": "10.1186/s40168-017-0293-3",
+      "ref": "Tanca A, Abbondio M, Palomba A, Fraumene C, Manghina V, Cucca F, Fiorillo E, Uzzau S. Potential and active functions in the gut microbiota of a healthy human cohort. Microbiome. 2017 Jul 14;5(1):79"
+    }
+  ],
+  "inferred_fragmentation": null,
+  "inferred_ms2_analyzer": "orbitrap",
+  "inferred_ionization": "nanoESI",
+  "raw_files": [
+    "S28.raw",
+    "S20.raw",
+    "S44.raw",
+    "S65.raw",
+    "S6.raw",
+    "S13.raw",
+    "S61.raw",
+    "S23.raw",
+    "S7.raw",
+    "S27.raw",
+    "S34.raw",
+    "S36.raw",
+    "S72.raw",
+    "S25.raw",
+    "S51.raw"
+  ]
+}

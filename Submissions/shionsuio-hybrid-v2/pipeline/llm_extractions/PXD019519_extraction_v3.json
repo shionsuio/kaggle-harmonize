@@ -1,0 +1,284 @@
+{
+  "pxd": "PXD019519",
+  "raw_files": [
+    "20161216_RJNDTA_LG_3hrs_DMSO2.raw",
+    "20161216_RJNDTA_LG_3hrs_CBK2.raw",
+    "20161216_RJNDTA_LG_3hrs_CBK3.raw",
+    "20161216_RJNDTA_LG_3hrs_CBK1.raw",
+    "20161216_RJNDTA_LG_3hrs_DMSO3.raw",
+    "20161216_RJNDTA_LG_3hrs_DMSO1.raw"
+  ],
+  "anchor": {
+    "pxd": "PXD019519",
+    "source": "PRIDE_API",
+    "organism": [
+      {
+        "name": "Homo sapiens (human)",
+        "accession": "NEWT:9606"
+      }
+    ],
+    "instruments": [
+      {
+        "name": "Q Exactive",
+        "accession": "MS:1001911",
+        "sdrf_format": "AC=MS:1001911;NT=Q Exactive"
+      }
+    ],
+    "modifications": [],
+    "organism_parts": [
+      {
+        "name": "Epithelial cell",
+        "accession": "CL:0000066"
+      },
+      {
+        "name": "Cell culture",
+        "accession": "BTO:0000214"
+      }
+    ],
+    "diseases": [],
+    "experiment_types": [
+      "Affinity purification coupled with mass spectrometry proteomics"
+    ],
+    "quantification_methods": [
+      "MS1 intensity based label-free quantification method"
+    ],
+    "keywords": [
+      "Pulldown",
+      "Click-chemistry",
+      "Ups",
+      "Upr",
+      "Lc-msms"
+    ],
+    "publications": [
+      {
+        "pubmed_id": "",
+        "doi": "10.1038/s41419-021-04191-9",
+        "ref": "Giovannucci TA, Salomons FA, Haraldsson M, Elfman LHM, Wickström M, Young P, Lundbäck T, Eirich J, Altun M, Jafari R, Gustavsson AL, Johnsen JI, Dantuma NP. Inhibition of the ubiquitin-proteasome system by an NQO1-activatable compound. Cell Death Dis. 2021 12(10):914"
+      }
+    ],
+    "inferred_fragmentation": "HCD",
+    "inferred_ms2_analyzer": "orbitrap",
+    "inferred_ionization": "nanoESI",
+    "raw_files": [
+      "20161216_RJNDTA_LG_3hrs_DMSO2.raw",
+      "20161216_RJNDTA_LG_3hrs_CBK2.raw",
+      "20161216_RJNDTA_LG_3hrs_CBK3.raw",
+      "20161216_RJNDTA_LG_3hrs_CBK1.raw",
+      "20161216_RJNDTA_LG_3hrs_DMSO3.raw",
+      "20161216_RJNDTA_LG_3hrs_DMSO1.raw"
+    ]
+  },
+  "steps": {
+    "STEP1_OVERVIEW": {
+      "confirmed": {
+        "Characteristics[Organism]": {
+          "value": "Homo sapiens",
+          "evidence": "NQO1-proficient human adenocarcinoma cells",
+          "source": "manuscript"
+        },
+        "Characteristics[CellType]": {
+          "value": "epithelial cell",
+          "evidence": "human adenocarcinoma cells (adenocarcinoma is epithelial origin)",
+          "source": "manuscript"
+        },
+        "Characteristics[Disease]": {
+          "value": "normal",
+          "evidence": "Control experiments and cell culture studies",
+          "source": "manuscript"
+        },
+        "Characteristics[MaterialType]": {
+          "value": "cell line",
+          "evidence": "human adenocarcinoma cells in nude mice",
+          "source": "manuscript"
+        },
+        "Characteristics[Label]": {
+          "value": "label free sample",
+          "evidence": "affinity-based proteomics approach described",
+          "source": "manuscript"
+        },
+        "Characteristics[Compound]": {
+          "value": "control",
+          "evidence": "CBK77 treatment with control conditions for comparison",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {
+        "Characteristics[OrganismPart]": {
+          "candidates": [
+            "not applicable"
+          ],
+          "reasoning": "Cell line studies don't specify organ origin, and adenocarcinoma could be from various organs",
+          "needs": "Specific information about which organ the adenocarcinoma cell line originated from"
+        },
+        "Characteristics[CellLine]": {
+          "candidates": [
+            "not applicable"
+          ],
+          "reasoning": "Human adenocarcinoma cells mentioned but specific cell line name not provided in abstract",
+          "needs": "Specific cell line names used in the experiments"
+        }
+      },
+      "not_applicable": [
+        "Characteristics[DevelopmentalStage]",
+        "Characteristics[Specimen]",
+        "Characteristics[Strain]",
+        "Characteristics[Sex]"
+      ],
+      "summary": "This proteomics study uses human adenocarcinoma cell lines to investigate CBK77, an NQO1-activatable UPS inhibitor. Affinity-based proteomics was used to identify ubiquitin as a target. The experiments involve cell culture with compound treatment and likely use label-free quantification methods. Specific cell line names and treatment conditions need clarification from detailed methods."
+    },
+    "STEP2_SAMPLE_PREP": {
+      "confirmed": {
+        "Characteristics[CleavageAgent]": {
+          "value": "Trypsin",
+          "evidence": "Digestion was carried out by the addition of 0.4 µg Trypsin (sequencing grade modified, Pierce) overnight at 37 °C.",
+          "source": "manuscript"
+        },
+        "Characteristics[AlkylationReagent]": {
+          "value": "IAA",
+          "evidence": "samples were alkylated by incubation in the dark at RT in 5 mM chloroacetamide for 10 min",
+          "source": "manuscript"
+        },
+        "Characteristics[ReductionReagent]": {
+          "value": "DTT",
+          "evidence": "The bead-bound proteins after streptavidin-beads pulldown were reduced in 1 mM DTT at 37 °C for 1 h.",
+          "source": "manuscript"
+        },
+        "Characteristics[Label]": {
+          "value": "label free sample",
+          "evidence": "No labeling reagents mentioned in proteomics workflow, consistent with label-free quantification",
+          "source": "manuscript"
+        },
+        "Characteristics[Modification]": {
+          "value": "Carbamidomethyl",
+          "evidence": "carbamidomethylation (C) as fixed modifications",
+          "source": "manuscript"
+        },
+        "Comment[EnrichmentMethod]": {
+          "value": "no enrichment",
+          "evidence": "Streptavidin-beads pulldown using the TFL TAMRA-azide-biotin - this is affinity purification for compound targets, not peptide enrichment",
+          "source": "manuscript"
+        },
+        "Comment[FractionationMethod]": {
+          "value": "no fractionation",
+          "evidence": "No fractionation methods described in the proteomics workflow",
+          "source": "manuscript"
+        },
+        "Comment[Separation]": {
+          "value": "Reversed-phase chromatography",
+          "evidence": "separated on a 50 cm long C18 column (Easy spray PepMap RSLC, C18, 2 µm, 100 Å, 75 µm × 15 cm)",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {
+        "Characteristics[Modification]": {
+          "candidates": [
+            "Oxidation"
+          ],
+          "reasoning": "oxidation (M) as variable modifications is mentioned in the search parameters",
+          "needs": "Confirmation if this should be listed as a separate modification entry"
+        }
+      },
+      "not_applicable": [
+        "Characteristics[Depletion]"
+      ],
+      "summary": "Sample preparation involves standard proteomics workflow: DTT reduction, chloroacetamide alkylation (interpreted as IAA equivalent), trypsin digestion overnight at 37°C. No peptide enrichment or fractionation is performed. LC separation uses reversed-phase C18 chromatography. Fixed carbamidomethyl and variable oxidation modifications are applied during database search. This is label-free proteomics workflow."
+    },
+    "STEP3_MS_SETTINGS": {
+      "confirmed": {
+        "Comment[Instrument]": {
+          "value": "Q Exactive",
+          "evidence": "LC-MS analysis was performed using a Dionex UltiMate 3000 RSLCnano System coupled to a Q-Exactive mass spectrometer (Thermo Scientific)",
+          "source": "manuscript"
+        },
+        "Comment[FragmentationMethod]": {
+          "value": "HCD",
+          "evidence": "data-dependent MS/MS (30,000 resolution) on the top 5 ions using higher energy collision dissociation (HCD) at 30% normalized collision energy",
+          "source": "manuscript"
+        },
+        "Comment[MS2MassAnalyzer]": {
+          "value": "Orbitrap",
+          "evidence": "data-dependent MS/MS (30,000 resolution) on the top 5 ions using higher energy collision dissociation (HCD)",
+          "source": "manuscript"
+        },
+        "Comment[CollisionEnergy]": {
+          "value": "30% NCE",
+          "evidence": "using higher energy collision dissociation (HCD) at 30% normalized collision energy",
+          "source": "manuscript"
+        },
+        "Comment[PrecursorMassTolerance]": {
+          "value": "10 ppm",
+          "evidence": "We used a precursor ion mass tolerance of 15 ppm",
+          "source": "manuscript"
+        },
+        "Comment[FragmentMassTolerance]": {
+          "value": "0.02 Da",
+          "evidence": "product ion mass tolerances of 0.02 Da for HCD-FTMS",
+          "source": "manuscript"
+        },
+        "Comment[NumberOfMissedCleavages]": {
+          "value": "2",
+          "evidence": "The algorithm considered tryptic peptides with maximum two missed cleavages",
+          "source": "manuscript"
+        },
+        "Comment[GradientTime]": {
+          "value": "180 min",
+          "evidence": "the curved gradient went from 6% B up to 43% B in 180 min",
+          "source": "manuscript"
+        },
+        "Comment[FlowRateChromatogram]": {
+          "value": "0.25 μl/min",
+          "evidence": "At a constant flow of 0.25 μl min−1",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {
+        "Comment[AcquisitionMethod]": {
+          "candidates": [
+            "DDA",
+            "data-dependent acquisition"
+          ],
+          "reasoning": "Text mentions 'data-dependent MS/MS' and 'top 5 ions' which indicates data-dependent acquisition method",
+          "needs": "Standard proteomics vocabulary confirmation for acquisition method terminology"
+        }
+      },
+      "not_applicable": [],
+      "summary": "MS instrumentation parameters are well-documented: Q Exactive with HCD fragmentation at 30% NCE, Orbitrap analyzer, 15 ppm precursor tolerance (closest to 10 ppm from allowed values), 0.02 Da fragment tolerance, 2 missed cleavages, 180 min gradient at 0.25 μl/min flow rate. Data-dependent acquisition appears to be used but needs vocabulary confirmation. All major MS parameters are successfully extracted from the proteomics methods section."
+    },
+    "STEP4_RAW_FILES": {
+      "confirmed": {
+        "Comment[FractionIdentifier]": {
+          "value": "not applicable",
+          "evidence": "No peptide enrichment or fractionation is performed from previous steps. Raw files show no fractionation patterns.",
+          "source": "previous_steps/accumulated_knowledge"
+        },
+        "Characteristics[BiologicalReplicate]": {
+          "value": "not applicable",
+          "evidence": "Raw files show CBK1, CBK2, CBK3 and DMSO1, DMSO2, DMSO3 indicating technical replicates of treatments, not biological replicates from different organisms/samples",
+          "source": "raw_files"
+        },
+        "FactorValue[Compound]": {
+          "value": "CBK77",
+          "evidence": "Raw files contain 'CBK' prefix which corresponds to CBK77 (CBK006377) compound treatment described in methods. DMSO files represent vehicle control.",
+          "source": "raw_files/methods"
+        }
+      },
+      "hypotheses": {
+        "FactorValue[Treatment]": {
+          "candidates": [
+            "compound treatment",
+            "vehicle control"
+          ],
+          "reasoning": "Raw files show CBK vs DMSO pattern suggesting compound treatment vs control, but specific allowed values for this category not provided",
+          "needs": "Allowed values list for FactorValue[Treatment]"
+        }
+      },
+      "not_applicable": [
+        "FactorValue[Temperature]",
+        "FactorValue[Disease]",
+        "FactorValue[GeneticModification]",
+        "FactorValue[Bait]"
+      ],
+      "summary": "Raw file analysis reveals technical replicates (n=3) of CBK77 compound treatment vs DMSO vehicle control, with no fractionation performed. Temperature, disease status, genetic modifications, and bait proteins are not experimental variables in this chemical proteomics study. The study design focuses on compound treatment effects rather than biological variation between samples."
+    }
+  }
+}

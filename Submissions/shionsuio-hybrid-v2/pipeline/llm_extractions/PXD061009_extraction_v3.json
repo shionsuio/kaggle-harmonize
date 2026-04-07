@@ -1,0 +1,236 @@
+{
+  "pxd": "PXD061009",
+  "raw_files": [
+    "2907.raw",
+    "IgG.raw"
+  ],
+  "anchor": {
+    "pxd": "PXD061009",
+    "source": "PRIDE_API",
+    "organism": [
+      {
+        "name": "Homo sapiens (human)",
+        "accession": "NEWT:9606"
+      }
+    ],
+    "instruments": [
+      {
+        "name": "Q Exactive",
+        "accession": "MS:1001911",
+        "sdrf_format": "AC=MS:1001911;NT=Q Exactive"
+      }
+    ],
+    "modifications": [],
+    "organism_parts": [
+      {
+        "name": "Cell culture",
+        "accession": "BTO:0000214"
+      },
+      {
+        "name": "Stem cell",
+        "accession": "CL:0000034"
+      }
+    ],
+    "diseases": [
+      {
+        "name": "Brain glioblastoma multiforme",
+        "accession": "DOID:3073"
+      }
+    ],
+    "experiment_types": [
+      "Proteogenomics"
+    ],
+    "quantification_methods": [
+      "Relative quantification"
+    ],
+    "keywords": [
+      "Human gsc srgn ms"
+    ],
+    "publications": [
+      {
+        "pubmed_id": "",
+        "doi": "10.1038/s41467-025-58366-5",
+        "ref": "Lu C, Kang T, Zhang J, Yang K, Liu Y, Song K, Lin Q, Dixit D, Gimple RC, Zhang Q, Shi Z, Fan X, Wu Q, Li D, Shan D, Gao J, Gu D, You H, Li Y, Yang J, Zhao L, Qiu Z, Yang H, Zhao N, Gao W, Tao W, Lu Y, Chen Y, Ji J, Zhu Z, Kang C, Man J, Agnihotri S, Wang Q, Lin F, Qian X, Mack SC, Hu Z, Li C, Taylor MD, Liu N, Zhang N, Lu M, You Y, Rich JN, Zhang W, Wang X. Combined targeting of glioblastoma stem cells of different cellular states disrupts malignant progression. Nat Commun. 2025 16(1):2974"
+      }
+    ],
+    "inferred_fragmentation": "HCD",
+    "inferred_ms2_analyzer": "orbitrap",
+    "inferred_ionization": "nanoESI",
+    "raw_files": [
+      "2907.raw",
+      "IgG.raw"
+    ]
+  },
+  "steps": {
+    "STEP1_OVERVIEW": {
+      "confirmed": {
+        "Characteristics[Organism]": {
+          "value": "Homo sapiens",
+          "evidence": "Glioblastoma (GBM) is the most lethal primary brain tumor",
+          "source": "manuscript"
+        },
+        "Characteristics[OrganismPart]": {
+          "value": "brain",
+          "evidence": "Glioblastoma (GBM) is the most lethal primary brain tumor",
+          "source": "manuscript"
+        },
+        "Characteristics[CellType]": {
+          "value": "cell culture",
+          "evidence": "glioblastoma stem cells (GSCs)",
+          "source": "manuscript"
+        },
+        "Characteristics[Disease]": {
+          "value": "normal",
+          "evidence": "Glioblastoma (GBM) is the most lethal primary brain tumor with glioblastoma stem cells",
+          "source": "manuscript"
+        },
+        "Characteristics[MaterialType]": {
+          "value": "cell",
+          "evidence": "classical (CL) and mesenchymal (MES) GSCs",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {
+        "Characteristics[Label]": {
+          "candidates": [
+            "label free sample"
+          ],
+          "reasoning": "No labeling mentioned in abstract, proteogenomics experiments often use label-free approaches",
+          "needs": "Methods section describing sample preparation and labeling strategy"
+        },
+        "Characteristics[Compound]": {
+          "candidates": [
+            "not applicable",
+            "none"
+          ],
+          "reasoning": "FDA-approved drugs mentioned as targeting agents, but unclear if used in the proteomics experiment",
+          "needs": "Methods section describing compound treatments for proteomics samples"
+        }
+      },
+      "not_applicable": [
+        "Characteristics[CellLine]",
+        "Characteristics[DevelopmentalStage]",
+        "Characteristics[Specimen]",
+        "Characteristics[Strain]",
+        "Characteristics[Sex]",
+        "Comment[AcquisitionMethod]"
+      ],
+      "summary": "論文はヒト脳のグリオブラストーマ幹細胞を対象とした研究で、古典型(CL)と間葉系(MES)の2つの細胞状態のGSCsを解析している。プロテオゲノミクス解析により特異的標的分子MEOX2とSRGNを同定し、組み合わせ標的療法の有効性を示している。細胞培養ベースの研究で、ラベリング戦略や化合物処理の詳細は不明。"
+    },
+    "STEP2_SAMPLE_PREP": {
+      "confirmed": {
+        "Characteristics[CleavageAgent]": {
+          "value": "Trypsin",
+          "evidence": "Enzyme: Trypsin. Peptide mass tolerance: 20 ppm. Fragment mass tolerance:0.05 Da. Fixed modifications: Carbamidomethyl (C). Variable modifications: Oxidation (M), Gln->pyro-Glu (N-term Q), Deamidated (NQ). Max missed cleavages: 1",
+          "source": "manuscript"
+        },
+        "Characteristics[AlkylationReagent]": {
+          "value": "IAA",
+          "evidence": "Fixed modifications: Carbamidomethyl (C)",
+          "source": "manuscript"
+        },
+        "Characteristics[ReductionReagent]": {
+          "value": "DTT",
+          "evidence": "lysed in IP buffer (20 mM Tris-HCl, 150 mM NaCl 1% Triton X-100, 0.5% sodium deoxycholate, 1 mM DTT)",
+          "source": "manuscript"
+        },
+        "Characteristics[Modification]": {
+          "value": "Deamidated",
+          "evidence": "Variable modifications: Oxidation (M), Gln->pyro-Glu (N-term Q), Deamidated (NQ)",
+          "source": "manuscript"
+        },
+        "Comment[FractionationMethod]": {
+          "value": "SDS-PAGE",
+          "evidence": "The identification of protein gel strips was to separate the sample proteins by gel electrophoresis, then obtain the protein gel strips at different positions on the film",
+          "source": "manuscript"
+        },
+        "Comment[Separation]": {
+          "value": "Reversed-phase chromatography",
+          "evidence": "The peptides separated by liquid phase chromatography were ionized by a nanoESI source",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {
+        "Characteristics[Label]": {
+          "candidates": [
+            "label free sample",
+            "Label free"
+          ],
+          "reasoning": "MSプロトコルでタンパク質同定とMascot検索のみ記載され、TMTやiTRAQなどの定量ラベリングの記載がない",
+          "needs": "明確なラベリング戦略の記載"
+        }
+      },
+      "not_applicable": [
+        "Characteristics[Depletion]",
+        "Comment[EnrichmentMethod]"
+      ],
+      "summary": "質量分析プロトコルの詳細が明記され、トリプシン消化、カルバミドメチル化（固定修飾）、酸化・グルタミン環化・脱アミド化（可変修飾）を確認。SDS-PAGE分画と逆相クロマトグラフィー分離を実施。ラベルフリーと推定されるが明確な記載なし。デプリーションやエンリッチメントの記載はなし。"
+    },
+    "STEP3_MS_SETTINGS": {
+      "confirmed": {
+        "Comment[Instrument]": {
+          "value": "Q Exactive",
+          "evidence": "then passed to a tandem mass spectrometer Q-Exactive HF X (Thermo Fisher Scientific, San Jose, CA) for DDA (Data Dependent Acquisition) mode detection",
+          "source": "manuscript"
+        },
+        "Comment[FragmentationMethod]": {
+          "value": "HCD",
+          "evidence": "The ion fragmentation mode was HCD, and the fragment ions were detected in Orbitrap",
+          "source": "manuscript"
+        },
+        "Comment[MS2MassAnalyzer]": {
+          "value": "Orbitrap",
+          "evidence": "and the fragment ions were detected in Orbitrap",
+          "source": "manuscript"
+        },
+        "Comment[PrecursorMassTolerance]": {
+          "value": "20 ppm",
+          "evidence": "Peptide mass tolerance: 20 ppm",
+          "source": "manuscript"
+        },
+        "Comment[FragmentMassTolerance]": {
+          "value": "0.05 Da",
+          "evidence": "Fragment mass tolerance:0.05 Da",
+          "source": "manuscript"
+        },
+        "Comment[NumberOfMissedCleavages]": {
+          "value": "1",
+          "evidence": "Max missed cleavages: 1",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {},
+      "not_applicable": [
+        "Comment[AcquisitionMethod]",
+        "Comment[CollisionEnergy]",
+        "Comment[GradientTime]",
+        "Comment[FlowRateChromatogram]"
+      ],
+      "summary": "質量分析装置はQ Exactive HF X、フラグメンテーションはHCD、MS2検出器はOrbitrap、プリカーサー質量許容誤差20 ppm、フラグメント質量許容誤差0.05 Da、ミスクリーベージ数1を確認。データ取得法、コリジョンエネルギー、グラジエント時間、流速の記載はなし。"
+    },
+    "STEP4_RAW_FILES": {
+      "confirmed": {
+        "Comment[FractionIdentifier]": {
+          "value": "not applicable",
+          "evidence": "The paper describes SDS-PAGE fractionation method but raw file names (2907.raw, IgG.raw) do not indicate specific fraction identifiers like membrane or cytoplasm",
+          "source": "manuscript"
+        },
+        "Characteristics[BiologicalReplicate]": {
+          "value": "not applicable",
+          "evidence": "Raw file names (2907.raw, IgG.raw) do not contain biological replicate indicators. Only two files with one being IgG control",
+          "source": "filename"
+        }
+      },
+      "hypotheses": {},
+      "not_applicable": [
+        "FactorValue[Treatment]",
+        "FactorValue[Temperature]",
+        "FactorValue[Disease]",
+        "FactorValue[GeneticModification]",
+        "FactorValue[Compound]",
+        "FactorValue[Bait]"
+      ],
+      "summary": "rawファイル名から実験条件の推定を行った。2907.rawとIgG.rawの2ファイルのみで、フラクション識別子や生物学的複製の情報は読み取れない。2907は細胞株名（MES GSC）、IgGはコントロールサンプルと推定される。処理条件や疾患状態などの因子値は論文テキストから特定できない。"
+    }
+  }
+}

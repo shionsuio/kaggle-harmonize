@@ -1,0 +1,60 @@
+{
+  "pxd": "PXD019519",
+  "source": "PRIDE_API",
+  "organism": [
+    {
+      "name": "Homo sapiens (human)",
+      "accession": "NEWT:9606"
+    }
+  ],
+  "instruments": [
+    {
+      "name": "Q Exactive",
+      "accession": "MS:1001911",
+      "sdrf_format": "AC=MS:1001911;NT=Q Exactive"
+    }
+  ],
+  "modifications": [],
+  "organism_parts": [
+    {
+      "name": "Epithelial cell",
+      "accession": "CL:0000066"
+    },
+    {
+      "name": "Cell culture",
+      "accession": "BTO:0000214"
+    }
+  ],
+  "diseases": [],
+  "experiment_types": [
+    "Affinity purification coupled with mass spectrometry proteomics"
+  ],
+  "quantification_methods": [
+    "MS1 intensity based label-free quantification method"
+  ],
+  "keywords": [
+    "Pulldown",
+    "Click-chemistry",
+    "Ups",
+    "Upr",
+    "Lc-msms"
+  ],
+  "publications": [
+    {
+      "pubmed_id": "",
+      "doi": "10.1038/s41419-021-04191-9",
+      "ref": "Giovannucci TA, Salomons FA, Haraldsson M, Elfman LHM, Wickström M, Young P, Lundbäck T, Eirich J, Altun M, Jafari R, Gustavsson AL, Johnsen JI, Dantuma NP. Inhibition of the ubiquitin-proteasome system by an NQO1-activatable compound. Cell Death Dis. 2021 12(10):914"
+    }
+  ],
+  "inferred_fragmentation": "HCD",
+  "inferred_ms2_analyzer": "orbitrap",
+  "inferred_ionization": "nanoESI",
+  "raw_files": [
+    "20161216_RJNDTA_LG_3hrs_DMSO2.raw",
+    "20161216_RJNDTA_LG_3hrs_CBK2.raw",
+    "20161216_RJNDTA_LG_3hrs_CBK3.raw",
+    "20161216_RJNDTA_LG_3hrs_CBK1.raw",
+    "20161216_RJNDTA_LG_3hrs_DMSO3.raw",
+    "20161216_RJNDTA_LG_3hrs_DMSO1.raw"
+  ]
+}

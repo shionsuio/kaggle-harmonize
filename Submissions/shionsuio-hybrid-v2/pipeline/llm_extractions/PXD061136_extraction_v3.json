@@ -1,0 +1,256 @@
+{
+  "pxd": "PXD061136",
+  "raw_files": [
+    "20240227_Z02.raw",
+    "20240227_Z01.raw"
+  ],
+  "anchor": {
+    "pxd": "PXD061136",
+    "source": "PRIDE_API",
+    "organism": [
+      {
+        "name": "Homo sapiens (human)",
+        "accession": "NEWT:9606"
+      }
+    ],
+    "instruments": [
+      {
+        "name": "ZenoTOF 7600",
+        "accession": "MS:1003293",
+        "sdrf_format": "AC=MS:1003293;NT=ZenoTOF 7600"
+      }
+    ],
+    "modifications": [],
+    "organism_parts": [
+      {
+        "name": "Epithelial cell",
+        "accession": "CL:0000066"
+      },
+      {
+        "name": "Cell culture",
+        "accession": "BTO:0000214"
+      }
+    ],
+    "diseases": [],
+    "experiment_types": [
+      "Bottom-up proteomics"
+    ],
+    "quantification_methods": [
+      "Spectrum counting",
+      "Peptide counting",
+      "Spectrum count/molecular weight"
+    ],
+    "keywords": [
+      "Gpat4",
+      "Er stress",
+      "Huvecs"
+    ],
+    "publications": [
+      {
+        "pubmed_id": "",
+        "doi": "10.1038/s41467-025-58722-5",
+        "ref": "Zhao T, Jin K, Wang X, Su X, Wang Y, Gao M, Luo W, Yang H, Yang Z. GPAT4 sustains endoplasmic reticulum homeostasis in endocardial cells and safeguards heart development. Nat Commun. 2025 16(1):3345"
+      }
+    ],
+    "inferred_fragmentation": "CID",
+    "inferred_ms2_analyzer": "TOF",
+    "inferred_ionization": "nanoESI",
+    "raw_files": [
+      "20240227_Z02.wiff",
+      "20240227_Z02.wiff.scan",
+      "20240227_Z01.wiff.scan",
+      "20240227_Z01.wiff"
+    ]
+  },
+  "steps": {
+    "STEP1_OVERVIEW": {
+      "confirmed": {
+        "Characteristics[Organism]": {
+          "value": "Mus musculus",
+          "evidence": "we generate Gpat4 global and tissue-specific knockout mice",
+          "source": "manuscript"
+        },
+        "Characteristics[OrganismPart]": {
+          "value": "heart",
+          "evidence": "heart development, heart defects of Gpat4 deletion mice, cardiac organogenesis",
+          "source": "manuscript"
+        },
+        "Characteristics[CellType]": {
+          "value": "endothelial",
+          "evidence": "endocardial cells, The endocardium plays a pivotal role in governing myocardial development",
+          "source": "manuscript"
+        },
+        "Characteristics[MaterialType]": {
+          "value": "tissue",
+          "evidence": "tissue-specific knockout mice, endocardial and myocardial development",
+          "source": "manuscript"
+        },
+        "Characteristics[DevelopmentalStage]": {
+          "value": "embryo stage",
+          "evidence": "heart development, endocardial and heart development, cardiac organogenesis",
+          "source": "manuscript"
+        },
+        "Characteristics[Disease]": {
+          "value": "normal",
+          "evidence": "The study focuses on normal heart development process and knockout model effects",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {
+        "Characteristics[Label]": {
+          "candidates": [
+            "label free sample",
+            "Label free"
+          ],
+          "reasoning": "Bottom-up proteomics experiment often uses label-free quantification, but no explicit labeling method mentioned",
+          "needs": "Methods section describing quantification approach"
+        },
+        "Characteristics[Strain]": {
+          "candidates": [
+            "C57BL/6J"
+          ],
+          "reasoning": "Most common mouse strain for knockout studies, but specific strain not mentioned",
+          "needs": "Methods section specifying mouse strain used"
+        }
+      },
+      "not_applicable": [
+        "Characteristics[CellLine]",
+        "Characteristics[Specimen]",
+        "Characteristics[Sex]",
+        "Characteristics[Compound]",
+        "Comment[AcquisitionMethod]"
+      ],
+      "summary": "This is a mouse model study focusing on heart development using Gpat4 knockout mice. The samples are heart tissue from endocardial cells during developmental stages. The organism is confirmed as Mus musculus with heart tissue and endothelial cell types. Labeling method and specific mouse strain require confirmation from methods section."
+    },
+    "STEP2_SAMPLE_PREP": {
+      "confirmed": {
+        "Characteristics[CleavageAgent]": {
+          "value": "Trypsin",
+          "evidence": "precipitated proteins were in-gel digested by adding 1% trypsin and incubating at 37 °C overnight to peptides",
+          "source": "manuscript"
+        },
+        "Characteristics[Label]": {
+          "value": "label free sample",
+          "evidence": "LC–MS/MS for protein identification using AB SCIEX Zeno TOF 7600 mass spectrometer with no mention of any labeling reagents",
+          "source": "manuscript"
+        },
+        "Comment[FractionationMethod]": {
+          "value": "SDS-PAGE",
+          "evidence": "precipitated proteins were in-gel digested by adding 1% trypsin and incubating at 37 °C overnight to peptides. After separation via SDS-PAGE, proteins were transferred to PVDF membranes",
+          "source": "manuscript"
+        },
+        "Comment[Separation]": {
+          "value": "Reversed-phase chromatography",
+          "evidence": "The LC gradient were prepared with Buffer A (0.1% formic acid and 2% acetonitrile in MS water) and Buffer B (0.1% formic acid and 2% water in MS acetonitrile). Separation is performed using a linear gradient from 3% to 80% Buffer B over 46 min",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {
+        "Characteristics[AlkylationReagent]": {
+          "candidates": [
+            "IAA"
+          ],
+          "reasoning": "Standard protein processing protocol usually includes alkylation step, but not explicitly mentioned in the methods",
+          "needs": "Explicit mention of alkylation reagent in sample preparation protocol"
+        },
+        "Characteristics[ReductionReagent]": {
+          "candidates": [
+            "DTT"
+          ],
+          "reasoning": "Standard protein processing protocol usually includes reduction step, but not explicitly mentioned in the methods",
+          "needs": "Explicit mention of reduction reagent in sample preparation protocol"
+        }
+      },
+      "not_applicable": [
+        "Characteristics[Modification]",
+        "Characteristics[Depletion]",
+        "Comment[EnrichmentMethod]"
+      ],
+      "summary": "This proteomics study used in-gel trypsin digestion following SDS-PAGE fractionation for sample preparation. LC-MS/MS analysis was performed using label-free quantification with reversed-phase chromatography separation on AB SCIEX Zeno TOF 7600. Standard reduction and alkylation steps were likely performed but not explicitly described in the methods section."
+    },
+    "STEP3_MS_SETTINGS": {
+      "confirmed": {
+        "Comment[GradientTime]": {
+          "value": "46 min",
+          "evidence": "Separation is performed using a linear gradient from 3% to 80% Buffer B over 46 min",
+          "source": "manuscript"
+        },
+        "Comment[FlowRateChromatogram]": {
+          "value": "5 μL/min",
+          "evidence": "Separation is performed using a linear gradient from 3% to 80% Buffer B over 46 min at a flow rate of 5 μL/min",
+          "source": "manuscript"
+        },
+        "Comment[FragmentationMethod]": {
+          "value": "CID",
+          "evidence": "Fragmentation (from instrument): CID",
+          "source": "anchor"
+        },
+        "Comment[MS2MassAnalyzer]": {
+          "value": "TOF",
+          "evidence": "MS2 Analyzer (from instrument): TOF",
+          "source": "anchor"
+        }
+      },
+      "hypotheses": {
+        "Comment[Instrument]": {
+          "candidates": [
+            "AB SCIEX Zeno TOF 7600"
+          ],
+          "reasoning": "Manuscript mentions 'AB SCIEX Zeno TOF 7600 mass spectrometer' but this exact format is not in the allowed values list",
+          "needs": "Need to find closest match in allowed values or confirm exact instrument designation"
+        },
+        "Comment[PrecursorMassTolerance]": {
+          "candidates": [
+            "10 ppm",
+            "20 ppm"
+          ],
+          "reasoning": "Not specified in manuscript but typical values for TOF instruments",
+          "needs": "ProteinPilot search parameters or method details"
+        },
+        "Comment[FragmentMassTolerance]": {
+          "candidates": [
+            "0.05 Da",
+            "0.1 Da"
+          ],
+          "reasoning": "Not specified in manuscript but typical values for TOF fragment analysis",
+          "needs": "ProteinPilot search parameters or method details"
+        },
+        "Comment[NumberOfMissedCleavages]": {
+          "candidates": [
+            "2",
+            "3"
+          ],
+          "reasoning": "Standard trypsin digestion parameters but not explicitly stated",
+          "needs": "ProteinPilot search parameters"
+        }
+      },
+      "not_applicable": [
+        "Comment[AcquisitionMethod]",
+        "Comment[CollisionEnergy]"
+      ],
+      "summary": "MS analysis used AB SCIEX Zeno TOF 7600 with CID fragmentation and TOF analyzer. LC gradient was 46 min at 5 μL/min flow rate. ProteinPilot software was used for database searching with <1% FDR. Search parameters for mass tolerances and missed cleavages were not specified in the methods section."
+    },
+    "STEP4_RAW_FILES": {
+      "confirmed": {},
+      "hypotheses": {
+        "Characteristics[BiologicalReplicate]": {
+          "candidates": [
+            "not applicable"
+          ],
+          "reasoning": "rawファイル名20240227_Z01.raw、20240227_Z02.rawにはrep、BRなどの明確な生物学的複製を示すトークンがない。Z01、Z02は意味不明な連番のため推測不可",
+          "needs": "rawファイル名の命名規則に関する詳細情報、または実験デザインでの複製数の明記"
+        }
+      },
+      "not_applicable": [
+        "Comment[FractionIdentifier]",
+        "FactorValue[Treatment]",
+        "FactorValue[Temperature]",
+        "FactorValue[Disease]",
+        "FactorValue[GeneticModification]",
+        "FactorValue[Compound]",
+        "FactorValue[Bait]"
+      ],
+      "summary": "rawファイル名から実験条件の抽出を試みたが、20240227_Z01.raw、20240227_Z02.rawには明確な実験条件を示すトークンが含まれていない。Z01、Z02は意味不明な連番のため生物学的複製の判定は困難。論文テキストにも分画、処理条件、化合物等の具体的な実験デザインに関する記載がないため、多くのカテゴリがnot applicableと判定された。"
+    }
+  }
+}

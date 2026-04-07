@@ -1,0 +1,59 @@
+{
+  "pxd": "PXD002222",
+  "source": "PRIDE_API",
+  "organism": [
+    {
+      "name": "Oryza sativa (rice)",
+      "accession": "NEWT:4530"
+    }
+  ],
+  "instruments": [
+    {
+      "name": "Q Exactive",
+      "accession": "MS:1001911",
+      "sdrf_format": "AC=MS:1001911;NT=Q Exactive"
+    }
+  ],
+  "modifications": [],
+  "organism_parts": [
+    {
+      "name": "Leaf",
+      "accession": "BTO:0000713"
+    },
+    {
+      "name": "Plant cell",
+      "accession": "CL:0000610"
+    }
+  ],
+  "diseases": [],
+  "experiment_types": [
+    "Affinity purification coupled with mass spectrometry proteomics"
+  ],
+  "quantification_methods": [
+    "TIC"
+  ],
+  "keywords": [
+    "Lc-msms",
+    "Phosphoproteome",
+    "Xoo",
+    "Rice"
+  ],
+  "publications": [
+    {
+      "pubmed_id": "",
+      "doi": "10.1186/s12870-015-0541-2",
+      "ref": "Hou Y, Qiu J, Tong X, Wei X, Nallamilli BR, Wu W, Huang S, Zhang J. A comprehensive quantitative phosphoproteome analysis of rice in response to bacterial blight. BMC Plant Biol. 2015 Jun 26;15:163"
+    }
+  ],
+  "inferred_fragmentation": "HCD",
+  "inferred_ms2_analyzer": "orbitrap",
+  "inferred_ionization": "nanoESI",
+  "raw_files": [
+    "Rice_leaf_0h_phospho_test1.raw",
+    "Rice_leaf_24h_phospho_test1.raw",
+    "Rice_leaf_24h_phospho_test3.raw",
+    "Rice_leaf_24h_phospho_test2.raw",
+    "Rice_leaf_0h_phospho_test2.raw",
+    "Rice_leaf_0h_phospho_test3.raw"
+  ]
+}

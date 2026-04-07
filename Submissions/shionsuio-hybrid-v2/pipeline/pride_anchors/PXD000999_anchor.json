@@ -1,0 +1,53 @@
+{
+  "pxd": "PXD000999",
+  "source": "PRIDE_API",
+  "organism": [
+    {
+      "name": "Homo sapiens (human)",
+      "accession": "NEWT:9606"
+    }
+  ],
+  "instruments": [
+    {
+      "name": "Q Exactive",
+      "accession": "MS:1001911",
+      "sdrf_format": "AC=MS:1001911;NT=Q Exactive"
+    }
+  ],
+  "modifications": [],
+  "organism_parts": [
+    {
+      "name": "Hela cell",
+      "accession": "BTO:0000567"
+    }
+  ],
+  "diseases": [],
+  "experiment_types": [
+    "Shotgun proteomics"
+  ],
+  "quantification_methods": [],
+  "keywords": [
+    "Hela",
+    "Deep proteomics",
+    "Orbitrap"
+  ],
+  "publications": [
+    {
+      "pubmed_id": "",
+      "doi": "",
+      "ref": "Zhang B, Pirmoradian M, Chernobrovkin A, Zubarev RA. DeMix Workflow for Efficient Identification of Co-fragmented Peptides in High Resolution Data-dependent Tandem Mass Spectrometry. Mol Cell Proteomics. 2014 Aug 6. pii: mcp.O114.038877"
+    }
+  ],
+  "inferred_fragmentation": "HCD",
+  "inferred_ms2_analyzer": "orbitrap",
+  "inferred_ionization": "nanoESI",
+  "raw_files": [
+    "20131106_Q2_SDC_120MIN_HELA2.raw",
+    "20131202_hela1_120min_2MZ.raw",
+    "20131106_Q2_SDC_120MIN_HELA1.raw",
+    "20131202_hela1_120min_6MZ.raw",
+    "20131106_Q2_SDC_120MIN_HELA3.raw",
+    "20131202_hela1_120min_131202214433.raw",
+    "20131202_hela1_120min_8MZ.raw"
+  ]
+}

@@ -1,0 +1,489 @@
+{
+  "pxd": "PXD003977",
+  "raw_files": [
+    "FL0026_RFI_261114_Deep_High_ET_F27_hybrid.raw",
+    "FL0026_RFI_261114_Deep_High_ET_F22F37_hybrid.raw",
+    "FL0026_RFI_261114_Deep_High_ET_F25F40_uni.raw",
+    "FL0026_RFI_261114_Deep_High_E_F24F39_uni.raw",
+    "FL0026_RFI_261114_Deep_High_ET_F23F38_hybrid.raw",
+    "FL0026_RFI_261114_Deep_High_Trypsin_F13F28_hybrid.raw",
+    "FL0026_RFI_261114_Deep_High_E_F14F29_hybrid.raw",
+    "FL0026_RFI_261114_Deep_High_ET_F13F28_hybrid.raw",
+    "FL0026_RFI_261114_Deep_High_Trypsin_F23F38_hybrid.raw",
+    "FL0026_RFI_261114_Deep_High_E_F20F35_hybrid.raw",
+    "FL0026_RFI_261114_Deep_High_ET_F40_hybrid_151219140953.raw",
+    "FL0026_RFI_261114_Deep_High_E_F23F38_hybrid.raw",
+    "FL0026_RFI_261114_Deep_High_ET_F25F40_hybrid.raw",
+    "FL0026_RFI_261114_Deep_High_ET_F37_hybrid.raw",
+    "FL0026_RFI_261114_Deep_High_Trypsin_F24F39_uni.raw",
+    "FL0026_RFI_261114_Deep_High_E_F17F32_hybrid.raw",
+    "FL0026_RFI_261114_Deep_High_ET_F13F28_uni.raw",
+    "FL0026_RFI_261114_Deep_High_ET_F21F36_hybrid.raw",
+    "FL0026_RFI_261114_Deep_High_ET_F36_hybrid.raw",
+    "FL0026_RFI_261114_Deep_High_Trypsin_F22F37_uni.raw",
+    "FL0026_RFI_261114_Deep_High_Trypsin_F17F32_uni.raw",
+    "FL0026_RFI_261114_Deep_High_ET_F15_hybrid.raw",
+    "FL0026_RFI_261114_Deep_High_E_F23F38_uni.raw",
+    "FL0026_RFI_261114_Deep_High_ET_F15F30_uni.raw",
+    "FL0026_RFI_261114_Deep_High_ET_F13_hybrid.raw",
+    "FL0026_RFI_261114_Deep_High_Trypsin_F16F31_uni.raw",
+    "FL0026_RFI_261114_Deep_High_ET_F19_hybrid.raw",
+    "FL0026_RFI_261114_Deep_High_ET_F17F32_hybrid.raw",
+    "FL0026_RFI_261114_Deep_High_ET_F12F27_hybrid.raw",
+    "FL0026_RFI_261114_Deep_High_ET_F16_hybrid.raw",
+    "FL0026_RFI_261114_Deep_High_ET_F17F32_uni.raw",
+    "FL0026_RFI_261114_Deep_High_ET_F39_hybrid.raw",
+    "FL0026_RFI_261114_Deep_High_ET_F23F38_uni.raw",
+    "FL0026_RFI_261114_Deep_High_Trypsin_F26F41_uni.raw",
+    "FL0026_RFI_261114_Deep_High_ET_F19F34_uni.raw",
+    "FL0026_RFI_261114_Deep_High_Trypsin_F21F36_hybrid.raw",
+    "FL0026_RFI_261114_Deep_High_ET_F25_hybrid.raw",
+    "FL0026_RFI_261114_Deep_High_E_F12F27_uni.raw",
+    "FL0026_RFI_261114_Deep_High_ET_F20_hybrid.raw",
+    "FL0026_RFI_261114_Deep_High_ET_F21F36_uni.raw",
+    "FL0026_RFI_261114_Deep_High_Trypsin_F14F29_uni.raw",
+    "FL0026_RFI_261114_Deep_High_Trypsin_F16F31_hybrid.raw",
+    "FL0026_RFI_261114_Deep_High_ET_F35_hybrid.raw",
+    "FL0026_RFI_261114_Deep_High_Trypsin_F19F34_hybrid.raw",
+    "FL0026_RFI_261114_Deep_High_E_F14F29_uni.raw",
+    "FL0026_RFI_261114_Deep_High_Trypsin_F21F36_uni.raw",
+    "FL0026_RFI_261114_Deep_High_Trypsin_F13F28_uni.raw",
+    "FL0026_RFI_261114_Deep_High_E_F16F31_uni.raw",
+    "FL0026_RFI_261114_Deep_High_E_F22F37_uni.raw",
+    "FL0026_RFI_261114_Deep_High_ET_F18F33_hybrid.raw",
+    "FL0026_RFI_261114_Deep_High_ET_F22F37_uni.raw",
+    "FL0026_RFI_261114_Deep_High_ET_F32_hybrid.raw",
+    "FL0026_RFI_261114_Deep_High_ET_F20F35_uni.raw",
+    "FL0026_RFI_261114_Deep_High_ET_F16F31_hybrid.raw",
+    "FL0026_RFI_261114_Deep_High_ET_F38_hybrid.raw",
+    "FL0026_RFI_261114_Deep_High_Trypsin_F12F27_uni.raw",
+    "FL0026_RFI_261114_Deep_High_Trypsin_F25F40_uni.raw",
+    "FL0026_RFI_261114_Deep_High_ET_F34_hybrid.raw",
+    "FL0026_RFI_261114_Deep_High_Trypsin_F20F35_uni.raw",
+    "FL0026_RFI_261114_Deep_High_E_F16F31_hybrid.raw",
+    "FL0026_RFI_261114_Deep_High_ET_F24F39_hybrid.raw",
+    "FL0026_RFI_261114_Deep_High_ET_F24_hybrid.raw",
+    "FL0026_RFI_261114_Deep_High_Trypsin_F12F27_hybrid.raw",
+    "FL0026_RFI_261114_Deep_High_E_F13F28_uni.raw",
+    "FL0026_RFI_261114_Deep_High_ET_F12F27_uni.raw",
+    "FL0026_RFI_261114_Deep_High_ET_F18_hybrid.raw",
+    "FL0026_RFI_261114_Deep_High_E_F19F34_hybrid.raw",
+    "FL0026_RFI_261114_Deep_High_ET_F12_hybrid.raw",
+    "FL0026_RFI_261114_Deep_High_ET_F21_hybrid.raw",
+    "FL0026_RFI_261114_Deep_High_ET_F15F30_hybrid.raw",
+    "FL0026_RFI_261114_Deep_High_ET_F20F35_hybrid.raw",
+    "FL0026_RFI_261114_Deep_High_E_F21F36_uni.raw",
+    "FL0026_RFI_261114_Deep_High_E_F20F35_uni.raw",
+    "FL0026_RFI_261114_Deep_High_ET_F17_hybrid.raw",
+    "FL0026_RFI_261114_Deep_High_E_F15F30_hybrid.raw",
+    "FL0026_RFI_261114_Deep_High_Trypsin_F15F30_uni.raw",
+    "FL0026_RFI_261114_Deep_High_ET_F18F33_uni.raw",
+    "FL0026_RFI_261114_Deep_High_ET_F19F34_hybrid.raw",
+    "FL0026_RFI_261114_Deep_High_ET_F24F39_uni.raw",
+    "FL0026_RFI_261114_Deep_High_ET_F41_hybrid.raw",
+    "FL0026_RFI_261114_Deep_High_ET_F23_hybrid.raw",
+    "FL0026_RFI_261114_Deep_High_ET_F30_hybrid.raw",
+    "FL0026_RFI_261114_Deep_High_E_F12F27_hybrid.raw",
+    "FL0026_RFI_261114_Deep_High_Trypsin_F24F39_hybrid.raw",
+    "FL0026_RFI_261114_Deep_High_Trypsin_F20F35_hybrid.raw",
+    "FL0026_RFI_261114_Deep_High_ET_F33_hybrid.raw",
+    "FL0026_RFI_261114_Deep_High_E_F26F41_hybrid.raw",
+    "FL0026_RFI_261114_Deep_High_Trypsin_F17F32_hybrid.raw",
+    "FL0026_RFI_261114_Deep_High_E_F25F40_uni.raw",
+    "FL0026_RFI_261114_Deep_High_ET_F22_hybrid.raw",
+    "FL0026_RFI_261114_Deep_High_E_F21F36_hybrid.raw",
+    "FL0026_RFI_261114_Deep_High_E_F18F33_hybrid.raw",
+    "FL0026_RFI_261114_Deep_High_Trypsin_F18F33_hybrid.raw",
+    "FL0026_RFI_261114_Deep_High_ET_F29_hybrid.raw",
+    "FL0026_RFI_261114_Deep_High_ET_F14F29_hybrid.raw",
+    "FL0026_RFI_261114_Deep_High_Trypsin_F19F34_uni.raw",
+    "FL0026_RFI_261114_Deep_High_E_F25F40_hybrid.raw",
+    "FL0026_RFI_261114_Deep_High_ET_F14F29_uni.raw",
+    "FL0026_RFI_261114_Deep_High_Trypsin_F22F37_hybrid.raw",
+    "FL0026_RFI_261114_Deep_High_E_F15F30_uni.raw",
+    "FL0026_RFI_261114_Deep_High_ET_F26F41_uni.raw",
+    "FL0026_RFI_261114_Deep_High_ET_F31_hybrid.raw",
+    "FL0026_RFI_261114_Deep_High_E_F19F34_uni.raw",
+    "FL0026_RFI_261114_Deep_High_Trypsin_F25F40_hybrid.raw",
+    "FL0026_RFI_261114_Deep_High_E_F17F32_uni.raw",
+    "FL0026_RFI_261114_Deep_High_Trypsin_F14F29_hybrid.raw",
+    "FL0026_RFI_261114_Deep_High_Trypsin_F26F41_hybrid.raw",
+    "FL0026_RFI_261114_Deep_High_ET_F16F31_uni.raw",
+    "FL0026_RFI_261114_Deep_High_E_F18F33_uni.raw",
+    "FL0026_RFI_261114_Deep_High_ET_F14_hybrid.raw",
+    "FL0026_RFI_261114_Deep_High_E_F13F28_hybrid.raw",
+    "FL0026_RFI_261114_Deep_High_Trypsin_F15F30_hybrid.raw",
+    "FL0026_RFI_261114_Deep_High_Trypsin_F23F38_uni.raw",
+    "FL0026_RFI_261114_Deep_High_ET_F26_hybrid.raw",
+    "FL0026_RFI_261114_Deep_High_Trypsin_F18F33_uni.raw",
+    "FL0026_RFI_261114_Deep_High_E_F24F39_hybrid.raw",
+    "FL0026_RFI_261114_Deep_High_E_F22F37_hybrid.raw",
+    "FL0026_RFI_261114_Deep_High_ET_F26F41_hybrid.raw",
+    "FL0026_RFI_261114_Deep_High_ET_F28_hybrid.raw",
+    "FL0026_RFI_261114_Deep_High_E_F26F41_uni.raw"
+  ],
+  "anchor": {
+    "pxd": "PXD003977",
+    "source": "PRIDE_API",
+    "organism": [
+      {
+        "name": "Homo sapiens (human)",
+        "accession": "NEWT:9606"
+      }
+    ],
+    "instruments": [
+      {
+        "name": "Orbitrap Fusion ETD",
+        "accession": "MS:1002417",
+        "sdrf_format": "AC=MS:1002417;NT=Orbitrap Fusion ETD"
+      }
+    ],
+    "modifications": [],
+    "organism_parts": [
+      {
+        "name": "Epithelial cell",
+        "accession": "CL:0000066"
+      },
+      {
+        "name": "Cell culture",
+        "accession": "BTO:0000214"
+      }
+    ],
+    "diseases": [
+      {
+        "name": "Breast adenocarcinoma",
+        "accession": "DOID:3458"
+      }
+    ],
+    "experiment_types": [
+      "Shotgun proteomics"
+    ],
+    "quantification_methods": [
+      "Spectrum counting"
+    ],
+    "keywords": [
+      "Fusion lumos",
+      "Deep proteome"
+    ],
+    "publications": [
+      {
+        "pubmed_id": "",
+        "doi": "10.1021/acs.jproteome.6b00915",
+        "ref": "Davis S, Charles PD, He L, Mowlds P, Kessler BM, Fischer R. Expanding proteome coverage with CHarge Ordered Parallel Ion aNalysis (CHOPIN) combined with broad specificity proteolysis. J Proteome Res. 2017 Feb 6"
+      }
+    ],
+    "inferred_fragmentation": null,
+    "inferred_ms2_analyzer": "orbitrap",
+    "inferred_ionization": "nanoESI",
+    "raw_files": [
+      "FL0026_RFI_261114_Deep_High_ET_F27_hybrid.raw",
+      "FL0026_RFI_261114_Deep_High_ET_F22F37_hybrid.raw",
+      "FL0026_RFI_261114_Deep_High_ET_F25F40_uni.raw",
+      "FL0026_RFI_261114_Deep_High_E_F24F39_uni.raw",
+      "FL0026_RFI_261114_Deep_High_ET_F23F38_hybrid.raw",
+      "FL0026_RFI_261114_Deep_High_Trypsin_F13F28_hybrid.raw",
+      "FL0026_RFI_261114_Deep_High_E_F14F29_hybrid.raw",
+      "FL0026_RFI_261114_Deep_High_ET_F13F28_hybrid.raw",
+      "FL0026_RFI_261114_Deep_High_Trypsin_F23F38_hybrid.raw",
+      "FL0026_RFI_261114_Deep_High_E_F20F35_hybrid.raw",
+      "FL0026_RFI_261114_Deep_High_ET_F40_hybrid_151219140953.raw",
+      "FL0026_RFI_261114_Deep_High_E_F23F38_hybrid.raw",
+      "FL0026_RFI_261114_Deep_High_ET_F25F40_hybrid.raw",
+      "FL0026_RFI_261114_Deep_High_ET_F37_hybrid.raw",
+      "FL0026_RFI_261114_Deep_High_Trypsin_F24F39_uni.raw",
+      "FL0026_RFI_261114_Deep_High_E_F17F32_hybrid.raw",
+      "FL0026_RFI_261114_Deep_High_ET_F13F28_uni.raw",
+      "FL0026_RFI_261114_Deep_High_ET_F21F36_hybrid.raw",
+      "FL0026_RFI_261114_Deep_High_ET_F36_hybrid.raw",
+      "FL0026_RFI_261114_Deep_High_Trypsin_F22F37_uni.raw",
+      "FL0026_RFI_261114_Deep_High_Trypsin_F17F32_uni.raw",
+      "FL0026_RFI_261114_Deep_High_ET_F15_hybrid.raw",
+      "FL0026_RFI_261114_Deep_High_E_F23F38_uni.raw",
+      "FL0026_RFI_261114_Deep_High_ET_F15F30_uni.raw",
+      "FL0026_RFI_261114_Deep_High_ET_F13_hybrid.raw",
+      "FL0026_RFI_261114_Deep_High_Trypsin_F16F31_uni.raw",
+      "FL0026_RFI_261114_Deep_High_ET_F19_hybrid.raw",
+      "FL0026_RFI_261114_Deep_High_ET_F17F32_hybrid.raw",
+      "FL0026_RFI_261114_Deep_High_ET_F12F27_hybrid.raw",
+      "FL0026_RFI_261114_Deep_High_ET_F16_hybrid.raw",
+      "FL0026_RFI_261114_Deep_High_ET_F17F32_uni.raw",
+      "FL0026_RFI_261114_Deep_High_ET_F39_hybrid.raw",
+      "FL0026_RFI_261114_Deep_High_ET_F23F38_uni.raw"
+    ]
+  },
+  "steps": {
+    "STEP1_OVERVIEW": {
+      "confirmed": {
+        "Characteristics[Organism]": {
+          "value": "Homo sapiens",
+          "evidence": "MCF-7 breast cancer cells",
+          "source": "manuscript"
+        },
+        "Characteristics[CellLine]": {
+          "value": "MCF-7",
+          "evidence": "MCF-7 breast cancer cells",
+          "source": "manuscript"
+        },
+        "Characteristics[Disease]": {
+          "value": "breast cancer",
+          "evidence": "MCF-7 breast cancer cells",
+          "source": "manuscript"
+        },
+        "Characteristics[OrganismPart]": {
+          "value": "breast",
+          "evidence": "MCF-7 breast cancer cells",
+          "source": "manuscript"
+        },
+        "Characteristics[Label]": {
+          "value": "label-free",
+          "evidence": "No labeling method mentioned, consistent with anchor data showing spectrum counting quantification",
+          "source": "manuscript"
+        },
+        "Comment[AcquisitionMethod]": {
+          "value": "CHarge Ordered Parallel Ion aNalysis (CHOPIN)",
+          "evidence": "CHarge Ordered Parallel Ion aNalysis (CHOPIN), available on an Orbitrap Fusion (Lumos) mass spectrometer",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {
+        "Characteristics[CellType]": {
+          "candidates": [
+            "epithelial cell",
+            "cancer cell"
+          ],
+          "reasoning": "MCF-7 is a breast cancer cell line typically of epithelial origin, and anchor data confirms epithelial cell type",
+          "needs": "Confirmation from methods section about specific cell type classification"
+        },
+        "Characteristics[MaterialType]": {
+          "candidates": [
+            "protein extract",
+            "whole cell lysate"
+          ],
+          "reasoning": "Deep proteome analysis typically uses whole cell protein extracts, GASP method suggests protein sample preparation",
+          "needs": "Methods section details about sample preparation and material type"
+        },
+        "Characteristics[Treatment]": {
+          "candidates": [
+            "multienzyme digestion",
+            "trypsin/elastase treatment"
+          ],
+          "reasoning": "Combined trypsin/elastase digests mentioned as part of the workflow",
+          "needs": "Clarification if this is sample treatment or just analytical procedure"
+        }
+      },
+      "not_applicable": [
+        "Characteristics[Specimen]",
+        "Characteristics[Strain]",
+        "Characteristics[GeneticModification]",
+        "Characteristics[DevelopmentalStage]",
+        "Characteristics[Compound]",
+        "Characteristics[ConcentrationOfCompound]"
+      ],
+      "summary": "確定事項: MCF-7乳癌細胞株を用いたヒト由来サンプル、CHOPIN法による取得、label-free定量。未解決: 具体的な細胞タイプ分類、材料タイプ（全細胞vs特定画分）、酵素処理が実験処理に該当するか分析手順のみか。アンカーデータとの整合性は良好。"
+    },
+    "STEP2_SAMPLE_PREP": {
+      "confirmed": {
+        "Characteristics[CleavageAgent]": {
+          "value": "trypsin",
+          "evidence": "50 μg of trypsin (Promega, no. V5111) or 50 μg of elastase (Worthington Biochemical, no. LS006365)",
+          "source": "manuscript"
+        },
+        "Characteristics[CleavageAgent].1": {
+          "value": "elastase",
+          "evidence": "The gel slurry was split equally into two by volume for digestion by separate enzymes... 50 μg of elastase (Worthington Biochemical, no. LS006365)",
+          "source": "manuscript"
+        },
+        "Characteristics[ReductionReagent]": {
+          "value": "DTT",
+          "evidence": "5 mL of RIPA lysis buffer (Thermo Pierce, no. 89901) supplemented with 4% SDS, 6 M urea, 2 M thiourea, 100 mM DTT",
+          "source": "manuscript"
+        },
+        "Characteristics[AlkylationReagent]": {
+          "value": "propionamide",
+          "evidence": "set propionamide as fixed cysteine modification",
+          "source": "manuscript"
+        },
+        "Characteristics[Label]": {
+          "value": "label free sample",
+          "evidence": "Quantification: Spectrum counting from anchor data, no labeling reagents mentioned in sample preparation",
+          "source": "anchor"
+        },
+        "Characteristics[Modification]": {
+          "value": "Carbamidomethyl",
+          "evidence": "set propionamide as fixed cysteine modification",
+          "source": "manuscript"
+        },
+        "Characteristics[Modification].1": {
+          "value": "Oxidation",
+          "evidence": "variable modification... Oxidation (M)",
+          "source": "manuscript"
+        },
+        "Characteristics[Modification].2": {
+          "value": "Deamidated",
+          "evidence": "variable modification... Deamidation (N,Q)",
+          "source": "manuscript"
+        },
+        "Comment[FractionationMethod]": {
+          "value": "Off-line high-pH reverse-phase prefractionation",
+          "evidence": "Off-line high-pH reverse-phase prefractionation was performed on 800 μg of digested material using the loading pump of a Dionex Ultimate 3000 HPLC",
+          "source": "manuscript"
+        },
+        "Comment[NumberOfFractions]": {
+          "value": "50",
+          "evidence": "fractions collected every 2 min throughout the run over 100 min gradient (100/2 = 50 fractions)",
+          "source": "manuscript"
+        },
+        "Comment[Separation]": {
+          "value": "HPLC",
+          "evidence": "nano-UPLC–MS/MS using a Dionex Ultimate 3000 nano-UPLC with EASY-Spray column",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {
+        "Characteristics[Modification].3": {
+          "candidates": [
+            "Propionamide",
+            "Propionamide on Lys"
+          ],
+          "reasoning": "Propionamide was mentioned as variable modification on lysine and N-termini, but unclear if this should be listed as separate modification or if it's the same as the Carbamidomethyl modification",
+          "needs": "Clarification of whether propionamide on Lys/N-term is distinct from Cys modification"
+        }
+      },
+      "not_applicable": [
+        "Characteristics[Modification].4",
+        "Characteristics[Modification].5",
+        "Characteristics[Modification].6",
+        "Characteristics[Depletion]",
+        "Characteristics[SpikedCompound]",
+        "Characteristics[SyntheticPeptide]",
+        "Comment[EnrichmentMethod]"
+      ],
+      "summary": "確定事項: トリプシン/エラスターゼの二重消化、DTT還元・プロピオンアミドアルキル化、酸化・脱アミド化可変修飾、高pH逆相で50画分に分画、HPLCでの分離。Label-freeサンプル。未解決: プロピオンアミドのLys/N末端修飾が追加の修飾カテゴリに該当するか。GASP法による詳細な前処理プロトコルが確認された。"
+    },
+    "STEP3_MS_SETTINGS": {
+      "confirmed": {
+        "Comment[Instrument]": {
+          "value": "Orbitrap Fusion Lumos",
+          "evidence": "MS data were acquired with an Orbitrap Fusion Lumos instrument using the methods described below",
+          "source": "manuscript"
+        },
+        "Comment[FragmentationMethod]": {
+          "value": "CID; HCD",
+          "evidence": "MS/MS spectra were acquired in the linear ion trap (rapid scan mode) after collision-induced dissociation (CID) fragmentation... high collision energy dissociation (HCD) fragmentation",
+          "source": "manuscript"
+        },
+        "Comment[AcquisitionMethod]": {
+          "value": "Universal Method; CHOPIN",
+          "evidence": "The Universal method has been developed by Eliuk et al... CHarge Ordered Parallel Ion aNalysis (CHOPIN) employs selection criteria to channel ions to the best suited detector",
+          "source": "manuscript"
+        },
+        "Comment[IonizationType]": {
+          "value": "nanoESI",
+          "evidence": "nanoESI",
+          "source": "anchor"
+        },
+        "Comment[MS2MassAnalyzer]": {
+          "value": "orbitrap; linear ion trap",
+          "evidence": "MS/MS spectra were acquired in the linear ion trap (rapid scan mode)... scheduled for analysis by a fast HCD/FT scan",
+          "source": "manuscript"
+        },
+        "Comment[CollisionEnergy]": {
+          "value": "35% (CID); 25% (HCD); 32% (HCD for elastase)",
+          "evidence": "collision-induced dissociation (CID) fragmentation at a collision energy of 35%... increased collision energy (32% instead of 25%)",
+          "source": "manuscript"
+        },
+        "Comment[PrecursorMassTolerance]": {
+          "value": "20 ppm",
+          "evidence": "searched in Peaks 7.5 using the default target decoy approach with 20 ppm mass error tolerance for the precursor",
+          "source": "manuscript"
+        },
+        "Comment[FragmentMassTolerance]": {
+          "value": "0.5 Da (CID/IT); 0.05 Da (HCD/FT)",
+          "evidence": "0.5 Da for fragment masses while HCD/FT spectra were searched with a 0.05 Da mass tolerance for fragment masses",
+          "source": "manuscript"
+        },
+        "Comment[NumberOfMissedCleavages]": {
+          "value": "4",
+          "evidence": "We allowed up to four missed cleavage sites and no nonspecific cleavage for tryptic samples",
+          "source": "manuscript"
+        },
+        "Comment[GradientTime]": {
+          "value": "60 min",
+          "evidence": "with a 60 min gradient of 0.1% formic acid in 5% DMSO to 0.1% formic acid to 35% acetonitrile in 5% DMSO",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {},
+      "not_applicable": [
+        "Comment[FlowRateChromatogram]"
+      ],
+      "summary": "確定事項: Orbitrap Fusion Lumos装置でUniversal法とCHOPIN法を使用、CID(35%)とHCD(25-32%)によるフラグメンテーション、線形イオントラップとオービトラップの両方でMS/MS取得、60分グラジエント、前駆体質量許容誤差20ppm、フラグメント質量許容誤差0.5Da(IT)/0.05Da(FT)、最大4ミスクリーベージ許容。装置設定パラメータの詳細が網羅的に確認された。"
+    },
+    "STEP4_RAW_FILES": {
+      "confirmed": {
+        "Comment[FractionIdentifier]": {
+          "value": "per_file",
+          "per_file": {
+            "FL0026_RFI_261114_Deep_High_ET_F27_hybrid.raw": "27",
+            "FL0026_RFI_261114_Deep_High_ET_F22F37_hybrid.raw": "22,37",
+            "FL0026_RFI_261114_Deep_High_ET_F25F40_uni.raw": "25,40",
+            "FL0026_RFI_261114_Deep_High_E_F24F39_uni.raw": "24,39",
+            "FL0026_RFI_261114_Deep_High_ET_F23F38_hybrid.raw": "23,38"
+          },
+          "evidence": "Raw file names contain clear fraction identifiers: single fractions like F27, F36, F37, F39, F40, F41, and concatenated fractions like F22F37, F25F40. The concatenation scheme mentioned in methods: 'Fractions were loaded on the LC–MS/MS following the concatenation scheme shown in Figure 1B'",
+          "source": "filename"
+        },
+        "Characteristics[NumberOfSamples]": {
+          "value": "50",
+          "evidence": "Off-line high-pH reverse-phase prefractionation was performed... over a 100 min gradient... with fractions collected every 2 min throughout the run",
+          "source": "manuscript"
+        },
+        "FactorValue[Treatment]": {
+          "value": "per_file",
+          "per_file": {
+            "FL0026_RFI_261114_Deep_High_Trypsin_F13F28_hybrid.raw": "Trypsin",
+            "FL0026_RFI_261114_Deep_High_E_F14F29_hybrid.raw": "Elastase",
+            "FL0026_RFI_261114_Deep_High_ET_F13F28_hybrid.raw": "Trypsin+Elastase"
+          },
+          "evidence": "Raw file names contain enzyme identifiers: 'Trypsin' for trypsin digestion, 'E' for elastase digestion, 'ET' for combined trypsin+elastase treatment. Methods confirm: 'The gel slurry was split equally into two by volume for digestion by separate enzymes... 50 μg of trypsin... or 50 μg of elastase'",
+          "source": "filename"
+        }
+      },
+      "hypotheses": {
+        "Characteristics[BiologicalReplicate]": {
+          "candidates": [
+            "1",
+            "single biological sample"
+          ],
+          "reasoning": "Methods state 'Five T175 tissue culture flasks of confluent MCF-7 cells were harvested' and processed as a single lysate, suggesting single biological replicate, but no explicit replication mentioned",
+          "needs": "Clarification whether the five flasks represent technical pooling or biological replication"
+        },
+        "Characteristics[NumberOfBiologicalReplicates]": {
+          "candidates": [
+            "1"
+          ],
+          "reasoning": "Single MCF-7 cell culture preparation described, no mention of independent biological replicates",
+          "needs": "Confirmation that this represents single biological sample rather than replicated experiment"
+        },
+        "Characteristics[NumberOfTechnicalReplicates]": {
+          "candidates": [
+            "1",
+            "multiple per fraction"
+          ],
+          "reasoning": "Each fraction appears analyzed once, but concatenation scheme may represent technical replication strategy",
+          "needs": "Clarification of technical replication design within fractionation scheme"
+        }
+      },
+      "not_applicable": [
+        "FactorValue[Temperature]",
+        "FactorValue[Disease]",
+        "FactorValue[GeneticModification]",
+        "FactorValue[Compound]",
+        "FactorValue[Bait]",
+        "FactorValue[CellPart]",
+        "FactorValue[ConcentrationOfCompound].1"
+      ],
+      "summary": "確定事項: rawファイル名から画分識別子（F27, F22F37等の単一・連結画分）と酵素処理タイプ（Trypsin, Elastase, ET混合）を特定。50画分への前分画が確認された。未解決: 5つのフラスコが技術的プールか生物学的反復かの区別、実験設計における反復数の詳細。ファイル名パターンから実験因子の分類が可能だが、反復設計は不明確。"
+    }
+  }
+}

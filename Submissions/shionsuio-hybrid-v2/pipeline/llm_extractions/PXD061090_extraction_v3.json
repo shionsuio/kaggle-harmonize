@@ -1,0 +1,220 @@
+{
+  "pxd": "PXD061090",
+  "raw_files": [
+    "20230109-OA1.raw",
+    "20230109-OA2.raw",
+    "20230109-OA3.raw",
+    "20230109-LIPUS1.raw",
+    "20230109-LIPUS2.raw",
+    "20230109-LIPUS3.raw",
+    "20230109-OA1.raw",
+    "20230109-OA2.raw",
+    "20230109-OA3.raw",
+    "20230109-LIPUS1.raw",
+    "20230109-LIPUS2.raw",
+    "20230109-LIPUS3.raw"
+  ],
+  "anchor": {
+    "pxd": "PXD061090",
+    "source": "PRIDE_API",
+    "organism": [
+      {
+        "name": "Rattus norvegicus (rat)",
+        "accession": "NEWT:10116"
+      }
+    ],
+    "instruments": [
+      {
+        "name": "Q Exactive",
+        "accession": "MS:1001911",
+        "sdrf_format": "AC=MS:1001911;NT=Q Exactive"
+      }
+    ],
+    "modifications": [],
+    "organism_parts": [
+      {
+        "name": "Blood serum",
+        "accession": "BTO:0000133"
+      }
+    ],
+    "diseases": [
+      {
+        "name": "Osteoarthritis",
+        "accession": "DOID:8398"
+      }
+    ],
+    "experiment_types": [
+      "Data-independent acquisition"
+    ],
+    "quantification_methods": [
+      "Relative quantification"
+    ],
+    "keywords": [
+      "Rat; serum; data-independent acquisition proteomics"
+    ],
+    "publications": [
+      {
+        "pubmed_id": "",
+        "doi": "10.1038/s41598-025-92413-x",
+        "ref": "Liao Q, Chen J, Liu G. Low intensity pulsed ultrasound alleviates synovial fibrosis in osteoarthritis via the PI3K/AKT pathway.  Sci Rep. 2025 15(1):9644"
+      }
+    ],
+    "inferred_fragmentation": "HCD",
+    "inferred_ms2_analyzer": "orbitrap",
+    "inferred_ionization": "nanoESI",
+    "raw_files": [
+      "Raw.zip"
+    ]
+  },
+  "steps": {
+    "STEP1_OVERVIEW": {
+      "confirmed": {
+        "Characteristics[Organism]": {
+          "value": "not applicable",
+          "evidence": "rat OA animal model based on anterior cruciate ligament transection (ACLT) and partial medial meniscectomy (MMx) were used",
+          "source": "manuscript"
+        },
+        "Characteristics[OrganismPart]": {
+          "value": "not applicable",
+          "evidence": "synovial tissue in OA rats",
+          "source": "manuscript"
+        },
+        "Characteristics[Disease]": {
+          "value": "normal",
+          "evidence": "osteoarthritis (OA), synovial fibrosis in osteoarthritis",
+          "source": "manuscript"
+        },
+        "Characteristics[MaterialType]": {
+          "value": "tissue",
+          "evidence": "synovial tissue in OA rats, collagen deposition of synovial tissue",
+          "source": "manuscript"
+        },
+        "Characteristics[Compound]": {
+          "value": "not applicable",
+          "evidence": "TGF-β stimulation, 740Y-P, LY294002, LIPUS treatment",
+          "source": "manuscript"
+        },
+        "Comment[AcquisitionMethod]": {
+          "value": "not applicable",
+          "evidence": "Data-independent acquisition confirmed from PRIDE database",
+          "source": "anchor"
+        }
+      },
+      "hypotheses": {
+        "Characteristics[CellType]": {
+          "candidates": [
+            "not applicable"
+          ],
+          "reasoning": "FLS (fibroblast-like synoviocytes) cells are mentioned but this specific cell type is not in the allowed values list",
+          "needs": "Confirmation if fibroblast-like synoviocytes can be classified under any available cell type category"
+        },
+        "Characteristics[Label]": {
+          "candidates": [
+            "label free sample",
+            "Label free",
+            "label free"
+          ],
+          "reasoning": "Blood serum samples from PRIDE database typically use label-free quantification methods",
+          "needs": "Explicit mention of labeling strategy in experimental methods"
+        }
+      },
+      "not_applicable": [
+        "Characteristics[CellLine]",
+        "Characteristics[DevelopmentalStage]",
+        "Characteristics[Specimen]",
+        "Characteristics[Strain]",
+        "Characteristics[Sex]"
+      ],
+      "summary": "論文はラットの変形性関節症モデルと滑膜線維症に関する研究で、TGF-β刺激されたFLS細胞とACLT/MMx手術モデルを使用。PRIDEデータベースからは血清サンプルのData-independent acquisitionが確認されているが、論文本文では滑膜組織に焦点。生物種、組織部位、疾患、材料タイプは確定できたが、具体的な実験条件の詳細は追加情報が必要。"
+    },
+    "STEP2_SAMPLE_PREP": {
+      "confirmed": {},
+      "hypotheses": {
+        "Characteristics[Label]": {
+          "candidates": [
+            "label free sample"
+          ],
+          "reasoning": "PRIDEデータベースでData-independent acquisitionが確認されており、論文中にTMTやSILAC等のラベル化手法の記載がないため、ラベルフリーの可能性が高い",
+          "needs": "プロテオミクス解析の詳細なサンプル調製プロトコル"
+        }
+      },
+      "not_applicable": [
+        "Characteristics[CleavageAgent]",
+        "Characteristics[AlkylationReagent]",
+        "Characteristics[ReductionReagent]",
+        "Characteristics[Modification]",
+        "Characteristics[Depletion]",
+        "Comment[EnrichmentMethod]",
+        "Comment[FractionationMethod]",
+        "Comment[Separation]"
+      ],
+      "summary": "論文のMethodsセクションではプロテオミクス解析について血清サンプルの採取・保存方法とBeip Bioによる外部委託でのDIA解析実施のみ記載されており、具体的なサンプル調製・消化・修飾の詳細は記載されていない。ラベル化手法の記載がないことからラベルフリーと推測されるが、詳細な実験プロトコルは外部委託先の情報が必要。"
+    },
+    "STEP3_MS_SETTINGS": {
+      "confirmed": {
+        "Comment[Instrument]": {
+          "value": "Q Exactive",
+          "evidence": "PRIDEデータベースで確認済み: Instrument: Q Exactive (MS:1001911)",
+          "source": "PRIDE database confirmation"
+        },
+        "Comment[FragmentationMethod]": {
+          "value": "HCD",
+          "evidence": "PRIDEデータベースで確認済み: Fragmentation (from instrument): HCD",
+          "source": "PRIDE database confirmation"
+        },
+        "Comment[MS2MassAnalyzer]": {
+          "value": "orbitrap",
+          "evidence": "PRIDEデータベースで確認済み: MS2 Analyzer (from instrument): orbitrap",
+          "source": "PRIDE database confirmation"
+        },
+        "Comment[AcquisitionMethod]": {
+          "value": "data-independent acquisition",
+          "evidence": "Proteomic detection and bioinformatics analysis were performed by Beip Bio. Three samples were selected from each group for analysis by (data-independent acquisition, DIA) DIA proteomics",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {},
+      "not_applicable": [
+        "Comment[CollisionEnergy]",
+        "Comment[PrecursorMassTolerance]",
+        "Comment[FragmentMassTolerance]",
+        "Comment[NumberOfMissedCleavages]",
+        "Comment[GradientTime]",
+        "Comment[FlowRateChromatogram]"
+      ],
+      "summary": "質量分析装置と設定については、PRIDEデータベースからQ Exactive装置、HCD断片化、orbitrap MS2アナライザーが確認され、論文からDIA取得方法が確認された。ただし具体的な測定パラメータ（衝突エネルギー、質量精度、勾配時間等）は外部委託（Beip Bio）のため論文に記載がなく、これらは該当なしとして扱われる。基本的な装置情報は確定し、詳細パラメータは外部委託先の標準プロトコルに依存している。"
+    },
+    "STEP4_RAW_FILES": {
+      "confirmed": {
+        "FactorValue[Disease]": {
+          "value": "osteoarthritis",
+          "evidence": "Eighteen male adult Sprague-Dawley rats (8 weeks old, 250 ± 20 g) were randomly divided into three groups: normal control (NC), osteoarthritis (OA), and LIPUS (n = 6)",
+          "source": "manuscript"
+        },
+        "Characteristics[BiologicalReplicate]": {
+          "value": "not applicable",
+          "evidence": "Three samples were selected from each group for analysis by (data-independent acquisition, DIA) DIA proteomics at Beip Biotech",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {
+        "FactorValue[Treatment]": {
+          "candidates": [
+            "LIPUS",
+            "no treatment"
+          ],
+          "reasoning": "rawファイル名からOAグループ（変形性関節症のみ）とLIPUSグループ（LIPUS治療）の2つの処理条件が確認される",
+          "needs": "FactorValue[Treatment]の許可された候補値リストが必要"
+        }
+      },
+      "not_applicable": [
+        "Comment[FractionIdentifier]",
+        "FactorValue[Temperature]",
+        "FactorValue[GeneticModification]",
+        "FactorValue[Compound]",
+        "FactorValue[Bait]"
+      ],
+      "summary": "rawファイル名解析により、OAグループ（変形性関節症モデル）とLIPUSグループ（LIPUS治療）の2つの処理条件が確認され、各群3つの生物学的複製があることが判明。疾患状態は変形性関節症と確定。分画や遺伝子改変、化合物処理、温度変化、ベイト使用は該当なし。処理条件の詳細な値は許可候補リストが必要。"
+    }
+  }
+}

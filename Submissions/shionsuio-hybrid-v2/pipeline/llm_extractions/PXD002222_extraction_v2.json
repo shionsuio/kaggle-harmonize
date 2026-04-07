@@ -1,0 +1,348 @@
+{
+  "pxd": "PXD002222",
+  "raw_files": [
+    "Rice_leaf_0h_phospho_test1.raw",
+    "Rice_leaf_24h_phospho_test1.raw",
+    "Rice_leaf_24h_phospho_test3.raw",
+    "Rice_leaf_24h_phospho_test2.raw",
+    "Rice_leaf_0h_phospho_test2.raw",
+    "Rice_leaf_0h_phospho_test3.raw"
+  ],
+  "anchor": {
+    "pxd": "PXD002222",
+    "source": "PRIDE_API",
+    "organism": [
+      {
+        "name": "Oryza sativa (rice)",
+        "accession": "NEWT:4530"
+      }
+    ],
+    "instruments": [
+      {
+        "name": "Q Exactive",
+        "accession": "MS:1001911",
+        "sdrf_format": "AC=MS:1001911;NT=Q Exactive"
+      }
+    ],
+    "modifications": [],
+    "organism_parts": [
+      {
+        "name": "Leaf",
+        "accession": "BTO:0000713"
+      },
+      {
+        "name": "Plant cell",
+        "accession": "CL:0000610"
+      }
+    ],
+    "diseases": [],
+    "experiment_types": [
+      "Affinity purification coupled with mass spectrometry proteomics"
+    ],
+    "quantification_methods": [
+      "TIC"
+    ],
+    "keywords": [
+      "Lc-msms",
+      "Phosphoproteome",
+      "Xoo",
+      "Rice"
+    ],
+    "publications": [
+      {
+        "pubmed_id": "",
+        "doi": "10.1186/s12870-015-0541-2",
+        "ref": "Hou Y, Qiu J, Tong X, Wei X, Nallamilli BR, Wu W, Huang S, Zhang J. A comprehensive quantitative phosphoproteome analysis of rice in response to bacterial blight. BMC Plant Biol. 2015 Jun 26;15:163"
+      }
+    ],
+    "inferred_fragmentation": "HCD",
+    "inferred_ms2_analyzer": "orbitrap",
+    "inferred_ionization": "nanoESI",
+    "raw_files": [
+      "Rice_leaf_0h_phospho_test1.raw",
+      "Rice_leaf_24h_phospho_test1.raw",
+      "Rice_leaf_24h_phospho_test3.raw",
+      "Rice_leaf_24h_phospho_test2.raw",
+      "Rice_leaf_0h_phospho_test2.raw",
+      "Rice_leaf_0h_phospho_test3.raw"
+    ]
+  },
+  "steps": {
+    "STEP1_OVERVIEW": {
+      "confirmed": {
+        "Characteristics[Organism]": {
+          "value": "Oryza sativa",
+          "evidence": "Rice is a major crop worldwide... quantitative phosphoproteome analysis of rice",
+          "source": "manuscript"
+        },
+        "Characteristics[OrganismPart]": {
+          "value": "Leaf",
+          "evidence": "From PRIDE database anchor data",
+          "source": "anchor"
+        },
+        "Characteristics[MaterialType]": {
+          "value": "Plant cell",
+          "evidence": "From PRIDE database anchor data and rice phosphoproteome context",
+          "source": "anchor"
+        },
+        "Characteristics[Disease]": {
+          "value": "Bacterial blight",
+          "evidence": "Bacterial blight (BB) caused by Xanthomonas oryzae pv. oryzae (Xoo) has become one of the most devastating diseases for rice",
+          "source": "manuscript"
+        },
+        "Characteristics[Treatment]": {
+          "value": "Xanthomonas oryzae pv. oryzae infection",
+          "evidence": "before and 24 h after Xoo infection... 0 h and 24 h after Xoo infection",
+          "source": "manuscript"
+        },
+        "Comment[AcquisitionMethod]": {
+          "value": "Affinity purification coupled with mass spectrometry proteomics",
+          "evidence": "From PRIDE database anchor data - phosphopeptide enrichment study",
+          "source": "anchor"
+        }
+      },
+      "hypotheses": {
+        "Characteristics[Label]": {
+          "candidates": [
+            "label-free",
+            "TIC quantification"
+          ],
+          "reasoning": "PRIDE anchor shows TIC quantification method, commonly associated with label-free approaches in phosphoproteomics",
+          "needs": "Explicit mention of labeling strategy in methods section"
+        },
+        "Characteristics[Compound]": {
+          "candidates": [
+            "phosphatase inhibitors",
+            "enrichment reagents"
+          ],
+          "reasoning": "Phosphoproteome studies typically require phosphatase inhibitors and phosphopeptide enrichment reagents",
+          "needs": "Sample preparation details"
+        }
+      },
+      "not_applicable": [
+        "Characteristics[CellType]",
+        "Characteristics[CellLine]",
+        "Characteristics[Specimen]",
+        "Characteristics[Strain]",
+        "Characteristics[GeneticModification]",
+        "Characteristics[DevelopmentalStage]",
+        "Characteristics[ConcentrationOfCompound]"
+      ],
+      "summary": "This is a rice phosphoproteomics study examining bacterial blight disease response. Confirmed organism (Oryza sativa), disease (bacterial blight), treatment (Xoo infection at 0h and 24h timepoints), and leaf tissue from anchor data. The experiment uses affinity purification MS with TIC quantification. Key unknowns include specific labeling strategy, rice strain/variety, and detailed sample preparation compounds."
+    },
+    "STEP2_SAMPLE_PREP": {
+      "confirmed": {
+        "Characteristics[CleavageAgent]": {
+          "value": "trypsin",
+          "evidence": "The reduced and alkylated proteins were digested on the 30 kDa filter unit (Millipore) over night with trypsin at pH8.0 (with an enzyme to protein ratio of 1:50)",
+          "source": "manuscript"
+        },
+        "Characteristics[AlkylationReagent]": {
+          "value": "iodoacetamide",
+          "evidence": "alkylated with 20 mM IAA in dark for 30 min",
+          "source": "manuscript"
+        },
+        "Characteristics[ReductionReagent]": {
+          "value": "dithiothreitol",
+          "evidence": "Protein were first reduced with 5 mM DTT in 56 °C for 30 min",
+          "source": "manuscript"
+        },
+        "Characteristics[Label]": {
+          "value": "label free sample",
+          "evidence": "No labeling reagents mentioned, quantification based on intensity comparison: 'The differentially phosphorylated protein was defined to have over two fold changes in the normalized average intensity'",
+          "source": "manuscript"
+        },
+        "Characteristics[Modification]": {
+          "value": "Oxidation",
+          "evidence": "Oxidation (M), Acetyl (Protein-N term), and Phospho (S/T/Y) was chosen as variable modifications, Carbamidomethyl (C) as fixed modification",
+          "source": "manuscript"
+        },
+        "Characteristics[Modification].1": {
+          "value": "Acetyl",
+          "evidence": "Oxidation (M), Acetyl (Protein-N term), and Phospho (S/T/Y) was chosen as variable modifications",
+          "source": "manuscript"
+        },
+        "Characteristics[Modification].2": {
+          "value": "Phospho",
+          "evidence": "Oxidation (M), Acetyl (Protein-N term), and Phospho (S/T/Y) was chosen as variable modifications",
+          "source": "manuscript"
+        },
+        "Characteristics[Modification].3": {
+          "value": "Carbamidomethyl",
+          "evidence": "Carbamidomethyl (C) as fixed modification",
+          "source": "manuscript"
+        },
+        "Comment[EnrichmentMethod]": {
+          "value": "TiO2 affinity chromatography",
+          "evidence": "The digested peptides were resolved with binding buffer (80 % ACN, 5 % TFA, 1 M lac acid), then incubated with TiO2 beads (GL sciences, peptide to TiO2 ratio of 1:4) for three times",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {
+        "Characteristics[Compound]": {
+          "candidates": [
+            "phosphatase inhibitors",
+            "phenylmethylsulfonyl fluoride"
+          ],
+          "reasoning": "Lysis buffer contained '1X phosphoprotein protease inhibitor complex, and 1 mM phenylmethylsulfonyl fluoride' which are compounds used in sample preparation",
+          "needs": "Clarification on whether these should be listed as compounds or are part of standard buffer composition"
+        }
+      },
+      "not_applicable": [
+        "Characteristics[Modification].4",
+        "Characteristics[Modification].5",
+        "Characteristics[Modification].6",
+        "Characteristics[Depletion",
+        "Characteristics[SpikedCompound]",
+        "Characteristics[SyntheticPeptide]",
+        "Comment[FractionationMethod]",
+        "Comment[NumberOfFractions]",
+        "Comment[Separation]"
+      ],
+      "summary": "Sample preparation details confirmed: trypsin digestion with DTT reduction and IAA alkylation using FASP protocol. Label-free quantification confirmed with four modification types (Oxidation, Acetyl, Phospho as variable; Carbamidomethyl as fixed). TiO2 enrichment method confirmed for phosphopeptide capture. No fractionation or additional separation methods beyond LC-MS/MS. Previous Label hypothesis resolved as label-free."
+    },
+    "STEP3_MS_SETTINGS": {
+      "confirmed": {
+        "Comment[Instrument]": {
+          "value": "Q Exactive Plus",
+          "evidence": "analyzed by Q Exactive Plus (Thermo)",
+          "source": "manuscript"
+        },
+        "Comment[FragmentationMethod]": {
+          "value": "HCD",
+          "evidence": "Q Exactive Plus instrument uses HCD fragmentation",
+          "source": "anchor"
+        },
+        "Comment[MS2MassAnalyzer]": {
+          "value": "orbitrap",
+          "evidence": "Q Exactive Plus uses orbitrap analyzer for MS2",
+          "source": "anchor"
+        },
+        "Comment[IonizationType]": {
+          "value": "nanoESI",
+          "evidence": "Q Exactive Plus with Easy-nLC1000 system uses nanoESI",
+          "source": "anchor"
+        },
+        "Comment[PrecursorMassTolerance]": {
+          "value": "20 ppm",
+          "evidence": "The mass tolerance was set to be 20 ppm for precursor",
+          "source": "manuscript"
+        },
+        "Comment[FragmentMassTolerance]": {
+          "value": "50 mmu",
+          "evidence": "it was set 50mmu for the tolerance of product ions",
+          "source": "manuscript"
+        },
+        "Comment[NumberOfMissedCleavages]": {
+          "value": "1",
+          "evidence": "one missed cleavage on trypsin was allowed",
+          "source": "manuscript"
+        },
+        "Comment[GradientTime]": {
+          "value": "1 h",
+          "evidence": "eluted in a 1 h 5-30 % acetonitrile gradient",
+          "source": "manuscript"
+        },
+        "Comment[AcquisitionMethod]": {
+          "value": "Affinity purification coupled with mass spectrometry proteomics",
+          "evidence": "TiO2 phosphopeptide enrichment followed by LC-MS/MS analysis",
+          "source": "anchor"
+        }
+      },
+      "hypotheses": {
+        "Comment[FlowRateChromatogram]": {
+          "candidates": [
+            "200-300 nL/min",
+            "standard nanoflow rate"
+          ],
+          "reasoning": "Easy-nLC1000 with 75μm ID column typically operates at nanoflow rates, but specific flow rate not mentioned in text",
+          "needs": "explicit flow rate specification in methods"
+        },
+        "Comment[CollisionEnergy]": {
+          "candidates": [
+            "stepped NCE",
+            "default Q Exactive settings"
+          ],
+          "reasoning": "Q Exactive Plus typically uses normalized collision energy, but specific values not provided in manuscript",
+          "needs": "instrument method parameters or acquisition settings details"
+        }
+      },
+      "not_applicable": [],
+      "summary": "Mass spectrometry instrumentation confirmed as Q Exactive Plus with HCD fragmentation, orbitrap analyzer, and nanoESI ionization. Key search parameters established: 20 ppm precursor tolerance, 50 mmu fragment tolerance, 1 missed cleavage allowed. LC gradient confirmed as 1 hour 5-30% acetonitrile. Flow rate and collision energy settings remain unspecified in the manuscript text."
+    },
+    "STEP4_RAW_FILES": {
+      "confirmed": {
+        "Characteristics[BiologicalReplicate]": {
+          "value": "per_file",
+          "per_file": {
+            "Rice_leaf_0h_phospho_test1.raw": "1",
+            "Rice_leaf_0h_phospho_test2.raw": "2",
+            "Rice_leaf_0h_phospho_test3.raw": "3",
+            "Rice_leaf_24h_phospho_test1.raw": "1",
+            "Rice_leaf_24h_phospho_test2.raw": "2",
+            "Rice_leaf_24h_phospho_test3.raw": "3"
+          },
+          "evidence": "Three individual biological replicates were used for each time point. Filename tokens 'test1', 'test2', 'test3' correspond to biological replicates.",
+          "source": "manuscript + filename"
+        },
+        "Characteristics[NumberOfBiologicalReplicates]": {
+          "value": "3",
+          "evidence": "Three individual biological replicates were used for each time point",
+          "source": "manuscript"
+        },
+        "Characteristics[NumberOfSamples]": {
+          "value": "6",
+          "evidence": "2 time points (0h, 24h) × 3 biological replicates = 6 total samples, matching the 6 raw files provided",
+          "source": "manuscript + filename"
+        },
+        "FactorValue[Treatment]": {
+          "value": "per_file",
+          "per_file": {
+            "Rice_leaf_0h_phospho_test1.raw": "0h",
+            "Rice_leaf_0h_phospho_test2.raw": "0h",
+            "Rice_leaf_0h_phospho_test3.raw": "0h",
+            "Rice_leaf_24h_phospho_test1.raw": "24h",
+            "Rice_leaf_24h_phospho_test2.raw": "24h",
+            "Rice_leaf_24h_phospho_test3.raw": "24h"
+          },
+          "evidence": "around 5 cm long IRBB5 leaves close to the clip position were collected immediately after Xoo inoculation (0 h) and at 24 h after inoculation (24 h). Filename tokens '0h' and '24h' clearly indicate time points.",
+          "source": "manuscript + filename"
+        },
+        "FactorValue[Disease]": {
+          "value": "bacterial blight",
+          "evidence": "IRBB5 and IRBB13 plants were inoculated with the Chinese representative strain of Xoo (Zhe173) at the booting stage",
+          "source": "manuscript"
+        },
+        "FactorValue[Compound]": {
+          "value": "Xanthomonas oryzae pv. oryzae",
+          "evidence": "IRBB5 and IRBB13 plants were inoculated with the Chinese representative strain of Xoo (Zhe173)",
+          "source": "manuscript"
+        },
+        "FactorValue[ConcentrationOfCompound].1": {
+          "value": "3x10^8 cfu/mL",
+          "evidence": "The concentrations of Xoo suspension is up to 3x108 cfu/mL",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {
+        "Characteristics[NumberOfTechnicalReplicates]": {
+          "candidates": [
+            "1",
+            "no technical replicates"
+          ],
+          "reasoning": "Each biological replicate appears to have one corresponding raw file, suggesting no technical replicates, but this is not explicitly stated",
+          "needs": "Explicit statement about technical replicate strategy"
+        }
+      },
+      "not_applicable": [
+        "Comment[FractionIdentifier]",
+        "FactorValue[Temperature]",
+        "FactorValue[GeneticModification]",
+        "FactorValue[Bait]",
+        "FactorValue[CellPart]",
+        "FactorValue[FractionIdentifier]"
+      ],
+      "summary": "Raw file analysis successfully mapped experimental design: 6 files represent 3 biological replicates at 2 time points (0h, 24h post-Xoo inoculation). Clear filename tokens enabled confident assignment of biological replicates (test1-3) and treatment time points (0h/24h). Confirmed bacterial blight disease model with Xoo strain Zhe173 at 3×10^8 cfu/mL concentration. Technical replicate strategy remains unclear from available information."
+    }
+  }
+}

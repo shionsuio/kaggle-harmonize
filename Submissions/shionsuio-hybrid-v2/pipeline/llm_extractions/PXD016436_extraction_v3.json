@@ -1,0 +1,245 @@
+{
+  "pxd": "PXD016436",
+  "raw_files": [
+    "LX055-80-3-milk_serum_after_80C_30min.raw",
+    "LX045-65-2-milk_serum_after_65C_30min.raw",
+    "LX056-85-1-milk_serum_after_85C_30min.raw",
+    "LX057-85-2-milk_serum_after_85C_30min.raw",
+    "LX049-70-3-milk_serum_after_70C_30min.raw",
+    "LX054-80-2-milk_serum_after_80C_30min.raw",
+    "LX051-75-2-milk_serum_after_75C_30min.raw",
+    "LX050-75-1-milk_serum_after_75C_30min.raw",
+    "LX041-0-1-milk_serum_from_raw_milk.raw",
+    "LX042-0-2-milk_serum_from_raw_milk.raw",
+    "LX048-70-2-milk_serum_after_70C_30min.raw",
+    "LX052-75-3-milk_serum_after_75C_30min.raw",
+    "LX043-0-3-milk_serum_from_raw_milk.raw",
+    "LX053-80-1-milk_serum_after_80C_30min.raw",
+    "LX058-85-3-milk_serum_after_85C_30min.raw",
+    "LX046-65-3-milk_serum_after_65C_30min.raw",
+    "LX047-70-1-milk_serum_after_70C_30min.raw",
+    "LX044-65-1-milk_serum_after_65C_30min.raw"
+  ],
+  "anchor": {
+    "pxd": "PXD016436",
+    "source": "PRIDE_API",
+    "organism": [
+      {
+        "name": "Bos taurus (bovine)",
+        "accession": "NEWT:9913"
+      }
+    ],
+    "instruments": [
+      {
+        "name": "LTQ Orbitrap",
+        "accession": "MS:1000449",
+        "sdrf_format": "AC=MS:1000449;NT=LTQ Orbitrap"
+      }
+    ],
+    "modifications": [],
+    "organism_parts": [],
+    "diseases": [],
+    "experiment_types": [
+      "Shotgun proteomics"
+    ],
+    "quantification_methods": [
+      "MS1 intensity based label-free quantification method"
+    ],
+    "keywords": [
+      "Whey protein",
+      "Proteomics",
+      "Heat treatment",
+      "Pasteurization",
+      "Milk"
+    ],
+    "publications": [
+      {
+        "pubmed_id": "",
+        "doi": "10.1016/j.dib.2020.105227",
+        "ref": "Xiong L, Boeren S, Vervoort J, Hettinga K. Dataset on proteomic changes of whey protein after different heat treatment. Data Brief. 2020 29:105227"
+      }
+    ],
+    "inferred_fragmentation": "CID",
+    "inferred_ms2_analyzer": "orbitrap",
+    "inferred_ionization": "nanoESI",
+    "raw_files": [
+      "LX055-80-3-milk_serum_after_80C_30min.raw",
+      "LX045-65-2-milk_serum_after_65C_30min.raw",
+      "LX056-85-1-milk_serum_after_85C_30min.raw",
+      "LX057-85-2-milk_serum_after_85C_30min.raw",
+      "LX049-70-3-milk_serum_after_70C_30min.raw",
+      "LX054-80-2-milk_serum_after_80C_30min.raw",
+      "LX051-75-2-milk_serum_after_75C_30min.raw",
+      "LX050-75-1-milk_serum_after_75C_30min.raw",
+      "LX041-0-1-milk_serum_from_raw_milk.raw",
+      "LX042-0-2-milk_serum_from_raw_milk.raw",
+      "LX048-70-2-milk_serum_after_70C_30min.raw",
+      "LX052-75-3-milk_serum_after_75C_30min.raw",
+      "LX043-0-3-milk_serum_from_raw_milk.raw",
+      "LX053-80-1-milk_serum_after_80C_30min.raw",
+      "LX058-85-3-milk_serum_after_85C_30min.raw",
+      "LX046-65-3-milk_serum_after_65C_30min.raw",
+      "LX047-70-1-milk_serum_after_70C_30min.raw",
+      "LX044-65-1-milk_serum_after_65C_30min.raw"
+    ]
+  },
+  "steps": {
+    "STEP1_OVERVIEW": {
+      "confirmed": {
+        "Characteristics[MaterialType]": {
+          "value": "organism part",
+          "evidence": "whey protein after different heat treatment",
+          "source": "manuscript"
+        },
+        "Characteristics[Compound]": {
+          "value": "not applicable",
+          "evidence": "heat treatment at different temperatures (65°C, 70°C, 75°C, 80°C, 85°C) but no chemical compounds mentioned in allowed values",
+          "source": "manuscript"
+        },
+        "Comment[AcquisitionMethod]": {
+          "value": "not applicable",
+          "evidence": "no acquisition method information found in allowed values",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {
+        "Characteristics[Organism]": {
+          "candidates": [
+            "not applicable"
+          ],
+          "reasoning": "Bos taurus confirmed from PRIDE database but not in allowed values list",
+          "needs": "Addition of Bos taurus to allowed values or clarification on organism classification"
+        },
+        "Characteristics[OrganismPart]": {
+          "candidates": [
+            "not applicable"
+          ],
+          "reasoning": "Whey is a milk-derived product but 'milk' or 'mammary gland' not in allowed values",
+          "needs": "Clarification on how to classify dairy-derived materials"
+        }
+      },
+      "not_applicable": [
+        "Characteristics[CellType]",
+        "Characteristics[CellLine]",
+        "Characteristics[Disease]",
+        "Characteristics[Label]",
+        "Characteristics[DevelopmentalStage]",
+        "Characteristics[Specimen]",
+        "Characteristics[Strain]",
+        "Characteristics[Sex]"
+      ],
+      "summary": "This is a proteomics study of bovine whey proteins subjected to different heat treatments (65-85°C). The organism (Bos taurus) and specific material type (whey/milk-derived) are not represented in the current allowed values, requiring either value expansion or classification guidance. No biological disease states, cell types, or labeling methods are involved - this is a food science application focusing on heat-induced protein changes."
+    },
+    "STEP2_SAMPLE_PREP": {
+      "confirmed": {
+        "Characteristics[CleavageAgent]": {
+          "value": "Trypsin",
+          "evidence": "100 μL ABC containing 0.5 μg trypsin was added. The digestion of enzyme was set as trypsin.",
+          "source": "manuscript"
+        },
+        "Characteristics[AlkylationReagent]": {
+          "value": "IAA",
+          "evidence": "20 μL of the sample in the SDT buffer was mixed with 180 μL 0.05 M IAA (Iodoacetamide)/UT",
+          "source": "manuscript"
+        },
+        "Characteristics[ReductionReagent]": {
+          "value": "DTT",
+          "evidence": "180 μL SDT-lysis buffer (100 mM Tris/HCl pH 8.0 + 4% SDS + 0.1 M dithiothreitol)",
+          "source": "manuscript"
+        },
+        "Characteristics[Label]": {
+          "value": "label free sample",
+          "evidence": "The intensity based absolute quantification (iBAQ) algorithm calculates the sum of all peptide intensities - no chemical labeling described",
+          "source": "manuscript"
+        },
+        "Characteristics[Modification]": {
+          "value": "Carbamidomethyl",
+          "evidence": "Carbamidomethylation of cysteines was set as a fixed modification",
+          "source": "manuscript"
+        },
+        "Comment[FractionationMethod]": {
+          "value": "no fractionation",
+          "evidence": "Samples were directly analyzed by LC-MS/MS without prior fractionation steps described",
+          "source": "manuscript"
+        },
+        "Comment[Separation]": {
+          "value": "Reversed-phase chromatography",
+          "evidence": "0.10 ∗ 200 mm ReproSil-Pur 120 C18-AQ 1.9 μm beads analytical column with an acetonitrile gradient",
+          "source": "manuscript"
+        }
+      },
+      "confirmed_additional": {
+        "Characteristics[Modification]_oxidation": {
+          "value": "Oxidation",
+          "evidence": "Oxidation of methionine, N-terminal acetylation and de-amidation of asparagine or glutamine were set as variable modifications",
+          "source": "manuscript"
+        },
+        "Characteristics[Modification]_acetyl": {
+          "value": "Acetyl",
+          "evidence": "N-terminal acetylation and de-amidation of asparagine or glutamine were set as variable modifications",
+          "source": "manuscript"
+        },
+        "Characteristics[Modification]_deamidation": {
+          "value": "deamidation",
+          "evidence": "de-amidation of asparagine or glutamine were set as variable modifications",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {},
+      "not_applicable": [
+        "Characteristics[Depletion]",
+        "Comment[EnrichmentMethod]"
+      ],
+      "summary": "FASP method was used with trypsin digestion, DTT reduction, and IAA alkylation. Label-free quantification with iBAQ was performed. Variable modifications included oxidation, N-terminal acetylation, and deamidation, with carbamidomethylation as fixed modification. Samples were analyzed by reversed-phase LC-MS/MS without fractionation or enrichment steps."
+    },
+    "STEP3_MS_SETTINGS": {
+      "confirmed": {
+        "Comment[AcquisitionMethod]": {
+          "value": "data-dependent acquisition",
+          "evidence": "CID-fragmented MSMS scans of the four most abundant doubly- and triply-charged peaks in the FTMS scan were recorded in data-dependent mode",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {},
+      "not_applicable": [
+        "Comment[CollisionEnergy]"
+      ],
+      "summary": "Mass spectrometry analysis was performed on LTQ-Orbitrap XL using CID fragmentation with ion trap MS2 analysis. Data-dependent acquisition was used with 4.5 ppm precursor and 0.5 Da fragment mass tolerances. LC separation used 50 min gradient at 0.5 μL/min flow rate with maximum 2 missed cleavages allowed. Collision energy was not specified in the manuscript."
+    },
+    "STEP4_RAW_FILES": {
+      "confirmed": {
+        "Comment[FractionIdentifier]": {
+          "value": "not applicable",
+          "evidence": "Native whey protein preparation shows single supernatant fraction collection without fractionation steps",
+          "source": "manuscript"
+        },
+        "FactorValue[Temperature]": {
+          "value": "not applicable",
+          "evidence": "Raw files show temperature conditions: 0°C (raw milk), 65°C, 70°C, 75°C, 80°C, 85°C from filenames like 'LX041-0-1', 'LX044-65-1', 'LX047-70-1'",
+          "source": "filename"
+        },
+        "FactorValue[Treatment]": {
+          "value": "not applicable",
+          "evidence": "Heat treatment at different temperatures (65-85°C for 30 min) as described: '50 ml of the unheated skim milk samples was heated at 65°C, 70°C, 75°C, 80°C or 85°C, in triplicate, for 30 min'",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {
+        "Characteristics[BiologicalReplicate]": {
+          "candidates": [
+            "not applicable"
+          ],
+          "reasoning": "Raw filenames show replicate numbers (1,2,3) like 'LX041-0-1', 'LX042-0-2', 'LX043-0-3' but allowed values only contain 'mouse 1', 'human 1', 'human 2' which don't match bovine replicates",
+          "needs": "Bovine-specific biological replicate values in allowed list"
+        }
+      },
+      "not_applicable": [
+        "FactorValue[Disease]",
+        "FactorValue[GeneticModification]",
+        "FactorValue[Compound]",
+        "FactorValue[Bait]"
+      ],
+      "summary": "Raw file analysis confirmed this is a temperature treatment study with 6 conditions (0°C control plus 65-85°C heat treatments) performed in triplicate. No fractionation was performed as samples were collected as single supernatant fractions. Biological replicate information is present in filenames but current allowed values don't accommodate bovine replicates. No disease, genetic modification, compound treatment, or bait protein studies were conducted."
+    }
+  }
+}

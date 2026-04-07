@@ -1,0 +1,88 @@
+{
+  "pxd": "PXD002029",
+  "source": "PRIDE_API",
+  "organism": [
+    {
+      "name": "Homo sapiens (human)",
+      "accession": "NEWT:9606"
+    }
+  ],
+  "instruments": [
+    {
+      "name": "Q Exactive",
+      "accession": "MS:1001911",
+      "sdrf_format": "AC=MS:1001911;NT=Q Exactive"
+    }
+  ],
+  "modifications": [],
+  "organism_parts": [
+    {
+      "name": "Colonic mucosa",
+      "accession": "BTO:0000271"
+    },
+    {
+      "name": "Colon sigmoideum",
+      "accession": "BTO:0000645"
+    }
+  ],
+  "diseases": [
+    {
+      "name": "Disease free",
+      "accession": "DOID:0000018"
+    }
+  ],
+  "experiment_types": [
+    "Shotgun proteomics"
+  ],
+  "quantification_methods": [
+    "Label free",
+    "MS1 intensity based label-free quantification method"
+  ],
+  "keywords": [
+    "Human",
+    "Snap-frozen",
+    "Proteomics",
+    "Mucosa",
+    "Lc-ms",
+    "Ffpe",
+    "Rnalater",
+    "Colon",
+    "Stability"
+  ],
+  "publications": [
+    {
+      "pubmed_id": "",
+      "doi": "10.1016/j.dib.2016.01.061",
+      "ref": "Bennike TB, Kastaniegaard K, Padurariu S, Gaihede M, Birkelund S, Andersen V, Stensballe A. Proteome stability analysis of snap frozen, RNAlater preserved, and formalin-fixed paraffin-embedded human colon mucosal biopsies. Data Brief. 2016 Feb 6;6:942-7. eCollection 2016 Mar"
+    }
+  ],
+  "inferred_fragmentation": "HCD",
+  "inferred_ms2_analyzer": "orbitrap",
+  "inferred_ionization": "nanoESI",
+  "raw_files": [
+    "Colon_ParticipantA_iFFPE_2.raw",
+    "Colon_ParticipantA_RNAlater_3.raw",
+    "Colon_ParticipantA_RNAlater_1.raw",
+    "Colon_ParticipantA_sFFPE_2.raw",
+    "Colon_ParticipantA_sFFPE_1.raw",
+    "Colon_ParticipantB_iFFPE_1.raw",
+    "Colon_ParticipantB_DF_3.raw",
+    "Colon_ParticipantA_DF_1.raw",
+    "Colon_ParticipantB_iFFPE_3.raw",
+    "Colon_ParticipantA_RNAlater_2.raw",
+    "Colon_ParticipantB_RNAlater_1.raw",
+    "Colon_ParticipantA_DF_3.raw",
+    "Colon_ParticipantA_DF_2.raw",
+    "Colon_ParticipantA_sFFPE_3.raw",
+    "Colon_ParticipantB_DF_1.raw",
+    "Colon_ParticipantB_DF_2.raw",
+    "Colon_ParticipantB_sFFPE_3.raw",
+    "Colon_ParticipantA_iFFPE_3.raw",
+    "Colon_ParticipantB_RNAlater_3.raw",
+    "Colon_ParticipantB_iFFPE_2.raw",
+    "Colon_ParticipantB_sFFPE_1.raw",
+    "Colon_ParticipantB_sFFPE_2.raw",
+    "Colon_ParticipantA_iFFPE_1.raw",
+    "Colon_ParticipantB_RNAlater_2.raw"
+  ]
+}

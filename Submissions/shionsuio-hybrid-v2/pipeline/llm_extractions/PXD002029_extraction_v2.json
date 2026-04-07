@@ -1,0 +1,401 @@
+{
+  "pxd": "PXD002029",
+  "raw_files": [
+    "Colon_ParticipantA_iFFPE_2.raw",
+    "Colon_ParticipantA_RNAlater_3.raw",
+    "Colon_ParticipantA_RNAlater_1.raw",
+    "Colon_ParticipantA_sFFPE_2.raw",
+    "Colon_ParticipantA_sFFPE_1.raw",
+    "Colon_ParticipantB_iFFPE_1.raw",
+    "Colon_ParticipantB_DF_3.raw",
+    "Colon_ParticipantA_DF_1.raw",
+    "Colon_ParticipantB_iFFPE_3.raw",
+    "Colon_ParticipantA_RNAlater_2.raw",
+    "Colon_ParticipantB_RNAlater_1.raw",
+    "Colon_ParticipantA_DF_3.raw",
+    "Colon_ParticipantA_DF_2.raw",
+    "Colon_ParticipantA_sFFPE_3.raw",
+    "Colon_ParticipantB_DF_1.raw",
+    "Colon_ParticipantB_DF_2.raw",
+    "Colon_ParticipantB_sFFPE_3.raw",
+    "Colon_ParticipantA_iFFPE_3.raw",
+    "Colon_ParticipantB_RNAlater_3.raw",
+    "Colon_ParticipantB_iFFPE_2.raw",
+    "Colon_ParticipantB_sFFPE_1.raw",
+    "Colon_ParticipantB_sFFPE_2.raw",
+    "Colon_ParticipantA_iFFPE_1.raw",
+    "Colon_ParticipantB_RNAlater_2.raw"
+  ],
+  "anchor": {
+    "pxd": "PXD002029",
+    "source": "PRIDE_API",
+    "organism": [
+      {
+        "name": "Homo sapiens (human)",
+        "accession": "NEWT:9606"
+      }
+    ],
+    "instruments": [
+      {
+        "name": "Q Exactive",
+        "accession": "MS:1001911",
+        "sdrf_format": "AC=MS:1001911;NT=Q Exactive"
+      }
+    ],
+    "modifications": [],
+    "organism_parts": [
+      {
+        "name": "Colonic mucosa",
+        "accession": "BTO:0000271"
+      },
+      {
+        "name": "Colon sigmoideum",
+        "accession": "BTO:0000645"
+      }
+    ],
+    "diseases": [
+      {
+        "name": "Disease free",
+        "accession": "DOID:0000018"
+      }
+    ],
+    "experiment_types": [
+      "Shotgun proteomics"
+    ],
+    "quantification_methods": [
+      "Label free",
+      "MS1 intensity based label-free quantification method"
+    ],
+    "keywords": [
+      "Human",
+      "Snap-frozen",
+      "Proteomics",
+      "Mucosa",
+      "Lc-ms",
+      "Ffpe",
+      "Rnalater",
+      "Colon",
+      "Stability"
+    ],
+    "publications": [
+      {
+        "pubmed_id": "",
+        "doi": "10.1016/j.dib.2016.01.061",
+        "ref": "Bennike TB, Kastaniegaard K, Padurariu S, Gaihede M, Birkelund S, Andersen V, Stensballe A. Proteome stability analysis of snap frozen, RNAlater preserved, and formalin-fixed paraffin-embedded human colon mucosal biopsies. Data Brief. 2016 Feb 6;6:942-7. eCollection 2016 Mar"
+      }
+    ],
+    "inferred_fragmentation": "HCD",
+    "inferred_ms2_analyzer": "orbitrap",
+    "inferred_ionization": "nanoESI",
+    "raw_files": [
+      "Colon_ParticipantA_iFFPE_2.raw",
+      "Colon_ParticipantA_RNAlater_3.raw",
+      "Colon_ParticipantA_RNAlater_1.raw",
+      "Colon_ParticipantA_sFFPE_2.raw",
+      "Colon_ParticipantA_sFFPE_1.raw",
+      "Colon_ParticipantB_iFFPE_1.raw",
+      "Colon_ParticipantB_DF_3.raw",
+      "Colon_ParticipantA_DF_1.raw",
+      "Colon_ParticipantB_iFFPE_3.raw",
+      "Colon_ParticipantA_RNAlater_2.raw",
+      "Colon_ParticipantB_RNAlater_1.raw",
+      "Colon_ParticipantA_DF_3.raw",
+      "Colon_ParticipantA_DF_2.raw",
+      "Colon_ParticipantA_sFFPE_3.raw",
+      "Colon_ParticipantB_DF_1.raw",
+      "Colon_ParticipantB_DF_2.raw",
+      "Colon_ParticipantB_sFFPE_3.raw",
+      "Colon_ParticipantA_iFFPE_3.raw",
+      "Colon_ParticipantB_RNAlater_3.raw",
+      "Colon_ParticipantB_iFFPE_2.raw",
+      "Colon_ParticipantB_sFFPE_1.raw",
+      "Colon_ParticipantB_sFFPE_2.raw",
+      "Colon_ParticipantA_iFFPE_1.raw",
+      "Colon_ParticipantB_RNAlater_2.raw"
+    ]
+  },
+  "steps": {
+    "STEP1_OVERVIEW": {
+      "confirmed": {
+        "Characteristics[Organism]": {
+          "value": "Homo sapiens",
+          "evidence": "human colon mucosal biopsies",
+          "source": "manuscript"
+        },
+        "Characteristics[OrganismPart]": {
+          "value": "colon mucosa, sigmoideum",
+          "evidence": "24 colon mucosa biopsies, extracted from the sigmoideum",
+          "source": "manuscript"
+        },
+        "Characteristics[Disease]": {
+          "value": "disease free",
+          "evidence": "two gastroenterologically healthy participants",
+          "source": "manuscript"
+        },
+        "Characteristics[MaterialType]": {
+          "value": "tissue",
+          "evidence": "human soft tissue",
+          "source": "manuscript"
+        },
+        "Characteristics[Label]": {
+          "value": "label-free",
+          "evidence": "gel free quantitative proteomics",
+          "source": "manuscript"
+        },
+        "Characteristics[Specimen]": {
+          "value": "biopsy",
+          "evidence": "24 colon mucosa biopsies",
+          "source": "manuscript"
+        },
+        "Comment[AcquisitionMethod]": {
+          "value": "high throughput gel free quantitative proteomics",
+          "evidence": "The samples were analyzed by high throughput gel free quantitative proteomics",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {
+        "Characteristics[Treatment]": {
+          "candidates": [
+            "snap frozen",
+            "RNAlater preservation",
+            "formalin-fixed paraffin-embedded",
+            "room temperature storage 30 min"
+          ],
+          "reasoning": "複数の保存方法が実験条件として記載されており、これらが処理条件として扱われる可能性が高い",
+          "needs": "SDRFでの処理条件の分類方法の確認"
+        }
+      },
+      "not_applicable": [
+        "Characteristics[CellType]",
+        "Characteristics[CellLine]",
+        "Characteristics[Strain]",
+        "Characteristics[GeneticModification]",
+        "Characteristics[DevelopmentalStage]",
+        "Characteristics[Compound]",
+        "Characteristics[ConcentrationOfCompound]"
+      ],
+      "summary": "ヒト結腸粘膜生検サンプルを用いたラベルフリー定量プロテオミクス実験。健常者由来のS状結腸粘膜組織を3つの異なる保存方法で処理した比較研究。生物種、組織部位、疾患状態、実験手法は確定。保存方法の扱い（処理条件かサンプル特性か）が要検討。"
+    },
+    "STEP2_SAMPLE_PREP": {
+      "confirmed": {
+        "Characteristics[CleavageAgent]": {
+          "value": "trypsin",
+          "evidence": "A 1:50 (w/w) trypsin:protein ratio dissolved in 50 µL digestion buffer was added to the spin filter, and the samples were digested overnight at 37 °C",
+          "source": "manuscript"
+        },
+        "Characteristics[AlkylationReagent]": {
+          "value": "chloroacetamide",
+          "evidence": "alkylate with 50 mM chloroacetamide (Sigma-Aldrich, St. Louis, MO, USA) for 20 min at 37 °C",
+          "source": "manuscript"
+        },
+        "Characteristics[ReductionReagent]": {
+          "value": "TCEP",
+          "evidence": "Protein disulfide bonds were reduced with 12 mM tris(2-carboxyethyl)phosphine (Thermo Scientific, Waltham, MA, USA) for 30 min at 37 °C",
+          "source": "manuscript"
+        },
+        "Characteristics[Label]": {
+          "value": "label free",
+          "evidence": "A label-free quantative analysis was performed in MaxQuant 1.5.1.2",
+          "source": "manuscript"
+        },
+        "Characteristics[Modification]": {
+          "value": "Carbamidomethyl",
+          "evidence": "All standard settings were employed with carbamidomethyl (C) as a static modification",
+          "source": "manuscript"
+        },
+        "Characteristics[Modification].1": {
+          "value": "Acetyl",
+          "evidence": "protein N-terminal acetylation, deamidation (NQ), oxidation (M) and peptide N-terminal formylation as variable modifications",
+          "source": "manuscript"
+        },
+        "Characteristics[Modification].2": {
+          "value": "Deamidated",
+          "evidence": "protein N-terminal acetylation, deamidation (NQ), oxidation (M) and peptide N-terminal formylation as variable modifications",
+          "source": "manuscript"
+        },
+        "Characteristics[Modification].3": {
+          "value": "Oxidation",
+          "evidence": "protein N-terminal acetylation, deamidation (NQ), oxidation (M) and peptide N-terminal formylation as variable modifications",
+          "source": "manuscript"
+        },
+        "Characteristics[Modification].4": {
+          "value": "Formyl",
+          "evidence": "protein N-terminal acetylation, deamidation (NQ), oxidation (M) and peptide N-terminal formylation as variable modifications",
+          "source": "manuscript"
+        },
+        "Comment[Separation]": {
+          "value": "reversed phase",
+          "evidence": "The peptide material was loaded onto a 2 cm trapping reversed phase Acclaim PepMap RSLC C18 column (Dionex), and separated using an analytical 50 cm reversed phase Acclaim PepMap RSLC C18 column",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {},
+      "not_applicable": [
+        "Characteristics[Modification].5",
+        "Characteristics[Modification].6",
+        "Characteristics[Depletion]",
+        "Characteristics[SpikedCompound]",
+        "Characteristics[SyntheticPeptide]",
+        "Comment[EnrichmentMethod]",
+        "Comment[FractionationMethod]",
+        "Comment[NumberOfFractions]"
+      ],
+      "summary": "サンプル調製の詳細が明確に記載されている。トリプシン消化、TCEP還元、クロロアセトアミドアルキル化を確認。ラベルフリー定量でカルバミドメチル化（静的修飾）とアセチル化、脱アミド化、酸化、ホルミル化（動的修飾）を設定。逆相クロマトグラフィーによる分離を使用。エンリッチメントや分画は実施されていない単純なショットガンプロテオミクス実験。"
+    },
+    "STEP3_MS_SETTINGS": {
+      "confirmed": {
+        "Comment[Instrument]": {
+          "value": "Q Exactive Plus",
+          "evidence": "coupled online with an emitter for nanospray ionization (New objective picotip 360-20-10) to a Q Exactive Plus mass spectrometer (Thermo Scientific, Waltham, USA)",
+          "source": "manuscript"
+        },
+        "Comment[FragmentationMethod]": {
+          "value": "HCD",
+          "evidence": "selecting up to 12 precursor ions with a mass window of m/z 1.6 based on highest intensity for HCD fragmenting",
+          "source": "manuscript"
+        },
+        "Comment[AcquisitionMethod]": {
+          "value": "DDA",
+          "evidence": "selecting up to 12 precursor ions with a mass window of m/z 1.6 based on highest intensity for HCD fragmenting",
+          "source": "manuscript"
+        },
+        "Comment[IonizationType]": {
+          "value": "nanoESI",
+          "evidence": "coupled online with an emitter for nanospray ionization (New objective picotip 360-20-10)",
+          "source": "manuscript"
+        },
+        "Comment[CollisionEnergy]": {
+          "value": "27 NCE",
+          "evidence": "at a normalized collision energy of 27",
+          "source": "manuscript"
+        },
+        "Comment[GradientTime]": {
+          "value": "180 min",
+          "evidence": "which was increased to 30% solvent B on a 180 min ramp gradient",
+          "source": "manuscript"
+        },
+        "Comment[FlowRateChromatogram]": {
+          "value": "300 nL/min",
+          "evidence": "at a constant flow rate of 300 nL/min",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {
+        "Comment[MS2MassAnalyzer]": {
+          "candidates": [
+            "orbitrap"
+          ],
+          "reasoning": "Q Exactive Plusは通常orbitrap質量分析計だが、テキスト中にMS2アナライザーの明示的記述がない",
+          "needs": "MS2アナライザーの明示的記述またはメソッドファイル情報"
+        },
+        "Comment[NumberOfMissedCleavages]": {
+          "candidates": [
+            "2",
+            "3"
+          ],
+          "reasoning": "MaxQuantの標準設定を使用したと記載されているが、具体的な値は明記されていない",
+          "needs": "MaxQuantの標準設定値の確認またはメソッド詳細"
+        }
+      },
+      "not_applicable": [
+        "Comment[PrecursorMassTolerance]",
+        "Comment[FragmentMassTolerance]"
+      ],
+      "summary": "質量分析装置はQ Exactive Plusに確定（アンカーのQ Exactiveから更新）。HCD断片化、nanoESI、DDA取得、NCE 27、180分グラジエント、300 nL/min流速を確定。MS2アナライザーとmissed cleavages数は推定可能だが明示的記述なし。質量許容値は記載なし。"
+    },
+    "STEP4_RAW_FILES": {
+      "confirmed": {
+        "Characteristics[BiologicalReplicate]": {
+          "value": "per_file",
+          "per_file": {
+            "Colon_ParticipantA_iFFPE_2.raw": "A",
+            "Colon_ParticipantA_RNAlater_3.raw": "A",
+            "Colon_ParticipantA_RNAlater_1.raw": "A",
+            "Colon_ParticipantA_sFFPE_2.raw": "A",
+            "Colon_ParticipantA_sFFPE_1.raw": "A",
+            "Colon_ParticipantB_iFFPE_1.raw": "B",
+            "Colon_ParticipantB_DF_3.raw": "B",
+            "Colon_ParticipantA_DF_1.raw": "A",
+            "Colon_ParticipantB_iFFPE_3.raw": "B",
+            "Colon_ParticipantA_RNAlater_2.raw": "A",
+            "Colon_ParticipantB_RNAlater_1.raw": "B",
+            "Colon_ParticipantA_DF_3.raw": "A",
+            "Colon_ParticipantA_DF_2.raw": "A",
+            "Colon_ParticipantA_sFFPE_3.raw": "A",
+            "Colon_ParticipantB_DF_1.raw": "B",
+            "Colon_ParticipantB_DF_2.raw": "B",
+            "Colon_ParticipantB_sFFPE_3.raw": "B",
+            "Colon_ParticipantA_iFFPE_3.raw": "A",
+            "Colon_ParticipantB_RNAlater_3.raw": "B",
+            "Colon_ParticipantB_iFFPE_2.raw": "B",
+            "Colon_ParticipantB_sFFPE_1.raw": "B",
+            "Colon_ParticipantB_sFFPE_2.raw": "B",
+            "Colon_ParticipantA_iFFPE_1.raw": "A",
+            "Colon_ParticipantB_RNAlater_2.raw": "B"
+          },
+          "evidence": "Colon mucosal biopsies were sampled from the sigmoideum of two gastroenterologically healthy participants",
+          "source": "manuscript"
+        },
+        "Characteristics[NumberOfBiologicalReplicates]": {
+          "value": "2",
+          "evidence": "Colon mucosal biopsies were sampled from the sigmoideum of two gastroenterologically healthy participants",
+          "source": "manuscript"
+        },
+        "Characteristics[NumberOfTechnicalReplicates]": {
+          "value": "3",
+          "evidence": "Filename pattern shows 3 technical replicates per condition (numbered 1, 2, 3) for each participant and treatment combination",
+          "source": "filename"
+        },
+        "Characteristics[NumberOfSamples]": {
+          "value": "24",
+          "evidence": "24 raw files total: 2 participants × 4 treatments × 3 technical replicates",
+          "source": "filename"
+        },
+        "FactorValue[Treatment]": {
+          "value": "per_file",
+          "per_file": {
+            "Colon_ParticipantA_iFFPE_2.raw": "iFFPE",
+            "Colon_ParticipantA_RNAlater_3.raw": "RNAlater",
+            "Colon_ParticipantA_RNAlater_1.raw": "RNAlater",
+            "Colon_ParticipantA_sFFPE_2.raw": "sFFPE",
+            "Colon_ParticipantA_sFFPE_1.raw": "sFFPE",
+            "Colon_ParticipantB_iFFPE_1.raw": "iFFPE",
+            "Colon_ParticipantB_DF_3.raw": "DF",
+            "Colon_ParticipantA_DF_1.raw": "DF",
+            "Colon_ParticipantB_iFFPE_3.raw": "iFFPE",
+            "Colon_ParticipantA_RNAlater_2.raw": "RNAlater",
+            "Colon_ParticipantB_RNAlater_1.raw": "RNAlater",
+            "Colon_ParticipantA_DF_3.raw": "DF",
+            "Colon_ParticipantA_DF_2.raw": "DF",
+            "Colon_ParticipantA_sFFPE_3.raw": "sFFPE",
+            "Colon_ParticipantB_DF_1.raw": "DF",
+            "Colon_ParticipantB_DF_2.raw": "DF",
+            "Colon_ParticipantB_sFFPE_3.raw": "sFFPE",
+            "Colon_ParticipantA_iFFPE_3.raw": "iFFPE",
+            "Colon_ParticipantB_RNAlater_3.raw": "RNAlater",
+            "Colon_ParticipantB_iFFPE_2.raw": "iFFPE",
+            "Colon_ParticipantB_sFFPE_1.raw": "B",
+            "Colon_ParticipantB_sFFPE_2.raw": "sFFPE",
+            "Colon_ParticipantA_iFFPE_1.raw": "iFFPE",
+            "Colon_ParticipantB_RNAlater_2.raw": "RNAlater"
+          },
+          "evidence": "Four different preservation methods described: (1) directly frozen biopsies (DF), (2) RNAlater biopsies, FFPE biopsies either immediately (iFFPE) stabilized or stored for 30 min (sFFPE) before stabilization",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {},
+      "not_applicable": [
+        "Comment[FractionIdentifier]",
+        "FactorValue[Temperature]",
+        "FactorValue[Disease]",
+        "FactorValue[GeneticModification]",
+        "FactorValue[Compound]",
+        "FactorValue[Bait]",
+        "FactorValue[CellPart]",
+        "FactorValue[ConcentrationOfCompound].1",
+        "FactorValue[FractionIdentifier]"
+      ],
+      "summary": "実験設計が明確化: 2名の健常参加者から結腸粘膜生検を採取し、4種類の保存方法（DF, RNAlater, iFFPE, sFFPE）で処理、各条件3回の技術的反復測定を実施。計24ファイルで2×4×3の完全要因計画。生物学的反復数2、技術的反復数3、治療因子として保存方法を確定。分画は実施されておらず、温度・疾患・化合物等の追加因子は該当なし。"
+    }
+  }
+}
