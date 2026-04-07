@@ -1,0 +1,245 @@
+{
+  "pxd": "PXD000561",
+  "source": "PRIDE_API",
+  "organism": [
+    {
+      "name": "Homo sapiens (human)",
+      "accession": "NEWT:9606"
+    }
+  ],
+  "instruments": [
+    {
+      "name": "LTQ Orbitrap Elite",
+      "accession": "MS:1001910",
+      "sdrf_format": "AC=MS:1001910;NT=LTQ Orbitrap Elite"
+    },
+    {
+      "name": "LTQ Orbitrap Velos",
+      "accession": "MS:1001742",
+      "sdrf_format": "AC=MS:1001742;NT=LTQ Orbitrap Velos"
+    }
+  ],
+  "modifications": [],
+  "organism_parts": [
+    {
+      "name": "Heart",
+      "accession": "BTO:0000562"
+    },
+    {
+      "name": "Blood platelet",
+      "accession": "BTO:0000132"
+    },
+    {
+      "name": "Ovary",
+      "accession": "BTO:0000975"
+    },
+    {
+      "name": "Monocyte",
+      "accession": "BTO:0000876"
+    },
+    {
+      "name": "Urinary bladder",
+      "accession": "BTO:0001418"
+    },
+    {
+      "name": "Frontal lobe",
+      "accession": "BTO:0000484"
+    },
+    {
+      "name": "Lung",
+      "accession": "BTO:0000763"
+    },
+    {
+      "name": "Placenta",
+      "accession": "BTO:0001078"
+    },
+    {
+      "name": "Gall bladder",
+      "accession": "BTO:0000493"
+    },
+    {
+      "name": "B-lymphocyte",
+      "accession": "BTO:0000776"
+    },
+    {
+      "name": "Rectum",
+      "accession": "BTO:0001158"
+    },
+    {
+      "name": "Cytotoxic t-lymphocyte",
+      "accession": "BTO:0000289"
+    },
+    {
+      "name": "Spinal cord",
+      "accession": "BTO:0001279"
+    },
+    {
+      "name": "Colon",
+      "accession": "BTO:0000269"
+    },
+    {
+      "name": "Helper t-lymphocyte",
+      "accession": "BTO:0002417"
+    },
+    {
+      "name": "Prostate gland",
+      "accession": "BTO:0001129"
+    },
+    {
+      "name": "Retina",
+      "accession": "BTO:0001175"
+    },
+    {
+      "name": "Pancreas",
+      "accession": "BTO:0000988"
+    },
+    {
+      "name": "Liver",
+      "accession": "BTO:0000759"
+    },
+    {
+      "name": "Adrenal gland",
+      "accession": "BTO:0000047"
+    },
+    {
+      "name": "Gut",
+      "accession": "BTO:0000545"
+    },
+    {
+      "name": "Kidney",
+      "accession": "BTO:0000671"
+    },
+    {
+      "name": "Brain",
+      "accession": "BTO:0000142"
+    },
+    {
+      "name": "Esophagus",
+      "accession": "BTO:0000959"
+    },
+    {
+      "name": "Testis",
+      "accession": "BTO:0001363"
+    },
+    {
+      "name": "Natural killer cell",
+      "accession": "BTO:0000914"
+    }
+  ],
+  "diseases": [],
+  "experiment_types": [
+    "Bottom-up proteomics"
+  ],
+  "quantification_methods": [],
+  "keywords": [
+    "Proteogenomics",
+    "Human proteome map",
+    "Lc-ms/ms"
+  ],
+  "publications": [
+    {
+      "pubmed_id": "",
+      "doi": "10.1038/nature13302",
+      "ref": "Kim MS, Pinto SM, Getnet D, Nirujogi RS, Manda SS, Chaerkady R, Madugundu AK, Kelkar DS, Isserlin R, Jain S, Thomas JK, Muthusamy B, Leal-Rojas P, Kumar P, Sahasrabuddhe NA, Balakrishnan L, Advani J, George B, Renuse S, Selvan LD, Patil AH, Nanjappa V, Radhakrishnan A, Prasad S, Subbannayya T, Raju R, Kumar M, Sreenivasamurthy SK, Marimuthu A, Sathe GJ, Chavan S, Datta KK, Subbannayya Y, Sahu A, Yelamanchi SD, Jayaram S, Rajagopalan P, Sharma J, Murthy KR, Syed N, Goel R, Khan AA, Ahmad S, Dey G, Mudgal K, Chatterjee A, Huang TC, Zhong J, Wu X, Shaw PG, Freed D, Zahari MS, Mukherjee KK, Shankar S, Mahadevan A, Lam H, Mitchell CJ, Shankar SK, Satishchandra P, Schroeder JT, Sirdeshmukh R, Maitra A, Leach SD, Drake CG, Halushka MK, Prasad TS, Hruban RH, Kerr CL, Bader GD, Iacobuzio-Donahue CA, Gowda H, Pandey A. A draft map of the human proteome. Nature. 2014 May 29;509(7502):575-81"
+    },
+    {
+      "pubmed_id": "",
+      "doi": "",
+      "ref": "Pinto SM, Manda SS, Kim MS, Taylor K, Selvan LD, Balakrishnan L, Subbannayya T, Yan F, Prasad TS, Gowda H, Lee C, Hancock WS, Pandey A. Functional annotation of proteome encoded by human chromosome 22. J Proteome Res. 2014 Mar 26"
+    }
+  ],
+  "inferred_fragmentation": null,
+  "inferred_ms2_analyzer": "orbitrap",
+  "inferred_ionization": "nanoESI",
+  "raw_files": [
+    "Fetal_Liver_Gel_Velos_24_f07.raw",
+    "Adult_Kidney_Gel_Velos_9_f09.raw",
+    "Adult_NKcells_Gel_Elite_78_f13.raw",
+    "Fetal_Brain_Gel_Velos_16_f21.raw",
+    "Adult_Platelets_Gel_Velos_36_f36.raw",
+    "Adult_Liver_Gel_Elite_83_f16.raw",
+    "Adult_Liver_Gel_Velos_11_f26.raw",
+    "Fetal_Heart_Gel_Velos_21_f24.raw",
+    "Fetal_Ovary_bRP_Velos_41_f15.raw",
+    "Adult_CD4Tcells_bRP_Elite_28_f08.raw",
+    "Adult_Kidney_Gel_Elite_55_f01.raw",
+    "Fetal_Testis_bRP_Elite_26_f22.raw",
+    "Fetal_Placenta_Gel_Velos_14_f20.raw",
+    "Fetal_Placenta_Gel_Velos_14_f15.raw",
+    "Adult_Colon_Gel_Elite_51_f19.raw",
+    "Adult_Prostate_Gel_Elite_62_f24.raw",
+    "Fetal_Brain_bRP_Elite_15_f15.raw",
+    "Fetal_Brain_bRP_Elite_15_f12.raw",
+    "Adult_CD8Tcells_bRP_Velos_43_f11.raw",
+    "Adult_Esophagus_bRP_Velos_3_f11.raw",
+    "Adult_Bcells_bRP_Velos_42_f05.raw",
+    "Adult_Heart_bRP_Elite_39_f23.raw",
+    "Adult_NKcells_bRP_Velos_46_f23.raw",
+    "Adult_Platelets_bRP_Velos_35_f16.raw",
+    "Adult_Retina_bRP_Elite_64_f05.raw",
+    "Adult_CD4Tcells_bRP_Elite_28_f12.raw",
+    "Adult_Kidney_Gel_Elite_55_f04.raw",
+    "Adult_Platelets_Gel_Elite_48_f18.raw",
+    "Adult_Bcells_bRP_Velos_42_f03.raw",
+    "Fetal_Gut_bRP_Elite_17_f10.raw",
+    "Fetal_Placenta_Gel_Velos_14_f08.raw",
+    "Adult_CD8Tcells_Gel_Velos_45_f30.raw",
+    "Adult_Prostate_Gel_Elite_62_f10.raw",
+    "Fetal_Ovary_bRP_Elite_25_f02.raw",
+    "Adult_Testis_bRP_Elite_68_f18.raw",
+    "Adult_Testis_bRP_Elite_68_f09.raw",
+    "Fetal_Heart_Gel_Velos_73_f21.raw",
+    "Fetal_Placenta_bRP_Elite_79_f21.raw",
+    "Adult_Liver_Gel_Elite_83_f19.raw",
+    "Adult_Platelets_Gel_Velos_36_f18.raw",
+    "Adult_Bcells_Gel_Elite_76_f22.raw",
+    "Adult_Monocytes_Gel_Velos_32_f27.raw",
+    "Adult_Gallbladder_Gel_Elite_52_f06.raw",
+    "Adult_Platelets_Gel_Velos_36_f28.raw",
+    "Adult_Urinarybladder_Gel_Elite_40_f22.raw",
+    "Fetal_Liver_bRP_Elite_23_f20.raw",
+    "Fetal_Ovary_bRP_Velos_41_f08.raw",
+    "Adult_Gallbladder_bRP_Elite_53_f04.raw",
+    "Adult_Monocytes_bRP_Velos_31_f19.raw",
+    "Adult_Platelets_Gel_Velos_36_f23.raw",
+    "Adult_CD8Tcells_bRP_Elite_77_f01.raw",
+    "Adult_Monocytes_bRP_Velos_31_f01.raw",
+    "Fetal_Placenta_Gel_Velos_14_f06.raw",
+    "Adult_Lung_Gel_Velos_13_f07.raw",
+    "Adult_Rectum_Gel_Elite_63_f18.raw",
+    "Adult_Retina_bRP_Elite_64_f18.raw",
+    "Fetal_Testis_bRP_Elite_26_f21.raw",
+    "Adult_CD4Tcells_Gel_Velos_30_f34.raw",
+    "Adult_NKcells_Gel_Elite_78_f19.raw",
+    "Adult_Retina_Gel_Velos_5_f30.raw",
+    "Adult_Liver_bRP_Elite_82_f19.raw",
+    "Adult_Colon_bRP_Elite_50_f13.raw",
+    "Fetal_Brain_Gel_Velos_16_f03.raw",
+    "Adult_Adrenalgland_bRP_Velos_1_f01.raw",
+    "Adult_Prostate_Gel_Elite_62_f09.raw",
+    "Adult_Adrenalgland_bRP_Velos_1_f26.raw",
+    "Adult_Retina_Gel_Velos_5_f23.raw",
+    "Adult_Heart_Gel_Elite_54_f13.raw",
+    "Adult_Lung_Gel_Velos_13_f06.raw",
+    "Fetal_Gut_Gel_Velos_72_f06.raw",
+    "Adult_Rectum_bRP_Elite_84_f19.raw",
+    "Adult_Liver_Gel_Velos_11_f02.raw",
+    "Adult_Retina_Gel_Velos_5_f19.raw",
+    "Adult_Heart_Gel_Elite_54_f16.raw",
+    "Adult_CD4Tcells_bRP_Elite_28_f15.raw",
+    "Adult_NKcells_bRP_Elite_34_f08.raw",
+    "Adult_Liver_Gel_Elite_83_f15.raw",
+    "Adult_Colon_Gel_Elite_51_f17.raw",
+    "Fetal_Placenta_bRP_Elite_79_f06.raw",
+    "Adult_Bcells_bRP_Velos_42_f21.raw",
+    "Adult_Urinarybladder_bRP_Elite_71_f09.raw",
+    "Adult_Kidney_Gel_Elite_55_f03.raw",
+    "Fetal_Gut_bRP_Elite_18_f12.raw",
+    "Adult_Kidney_bRP_Velos_8_f17.raw",
+    "Adult_Retina_Gel_Velos_5_f28.raw",
+    "Adult_CD8Tcells_Gel_Elite_44_f04.raw",
+    "Adult_Heart_Gel_Elite_54_f15.raw",
+    "Adult_NKcells_Gel_Elite_78_f04.raw",
+    "Adult_Esophagus_bRP_Elite_37_f13.raw"
+  ]
+}

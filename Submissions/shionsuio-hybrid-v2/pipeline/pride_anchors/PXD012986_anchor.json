@@ -1,0 +1,61 @@
+{
+  "pxd": "PXD012986",
+  "source": "PRIDE_API",
+  "organism": [
+    {
+      "name": "Mus musculus (mouse)",
+      "accession": "NEWT:10090"
+    }
+  ],
+  "instruments": [
+    {
+      "name": "Q Exactive HF",
+      "accession": "MS:1002523",
+      "sdrf_format": "AC=MS:1002523;NT=Q Exactive HF"
+    }
+  ],
+  "modifications": [],
+  "organism_parts": [
+    {
+      "name": "Myoblast",
+      "accession": "CL:0000056"
+    },
+    {
+      "name": "Cell culture",
+      "accession": "BTO:0000214"
+    }
+  ],
+  "diseases": [],
+  "experiment_types": [
+    "Shotgun proteomics"
+  ],
+  "quantification_methods": [
+    "MS1 intensity based label-free quantification method"
+  ],
+  "keywords": [
+    "Data-independent acquisition (dia)",
+    "Label-free quantification",
+    "Peptide identification",
+    "Spectral library"
+  ],
+  "publications": [
+    {
+      "pubmed_id": "",
+      "doi": "10.1074/mcp.ra119.001714",
+      "ref": "Barkovits K, Pacharra S, Pfeiffer K, Steinbach S, Eisenacher M, Marcus K, Uszkoreit J. Reproducibility, specificity and accuracy of relative quantification using spectral library-based data-independent acquisition. Mol Cell Proteomics. 2019"
+    }
+  ],
+  "inferred_fragmentation": "HCD",
+  "inferred_ms2_analyzer": "orbitrap",
+  "inferred_ionization": "nanoESI",
+  "raw_files": [
+    "QExHF04026.raw",
+    "QExHF04032.raw",
+    "QExHF04050.raw",
+    "QExHF04036.raw",
+    "QExHF04044.raw",
+    "QExHF04028.raw",
+    "QExHF04034.raw",
+    "QExHF04048.raw"
+  ]
+}

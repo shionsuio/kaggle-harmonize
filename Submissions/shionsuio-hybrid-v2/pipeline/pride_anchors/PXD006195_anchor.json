@@ -1,0 +1,90 @@
+{
+  "pxd": "PXD006195",
+  "source": "PRIDE_API",
+  "organism": [
+    {
+      "name": "Escherichia coli",
+      "accession": "NEWT:562"
+    }
+  ],
+  "instruments": [
+    {
+      "name": "LTQ Orbitrap Elite",
+      "accession": "MS:1001910",
+      "sdrf_format": "AC=MS:1001910;NT=LTQ Orbitrap Elite"
+    }
+  ],
+  "modifications": [],
+  "organism_parts": [
+    {
+      "name": "Cell culture",
+      "accession": "BTO:0000214"
+    }
+  ],
+  "diseases": [],
+  "experiment_types": [
+    "Shotgun proteomics",
+    "Gel-based experiment"
+  ],
+  "quantification_methods": [
+    "SILAC"
+  ],
+  "keywords": [
+    "Lipopolysaccharide",
+    "Lc-ms/ms",
+    "Escherichia coli",
+    "Ftsh",
+    "Lpxc",
+    "Proteolysis",
+    "Super-silac",
+    "Quantitative proteomics"
+  ],
+  "publications": [
+    {
+      "pubmed_id": "",
+      "doi": "10.3389/fmicb.2018.03285",
+      "ref": "Thomanek N, Arends J, Lindemann C, Barkovits K, Meyer HE, Marcus K, Narberhaus F. Intricate Crosstalk Between Lipopolysaccharide, Phospholipid and Fatty Acid Metabolism in Escherichia coli Modulates Proteolysis of LpxC. Front Microbiol. 2018 9:3285"
+    }
+  ],
+  "inferred_fragmentation": null,
+  "inferred_ms2_analyzer": "orbitrap",
+  "inferred_ionization": "nanoESI",
+  "raw_files": [
+    "OEII13359.raw",
+    "OEII23117.raw",
+    "OEII13371.raw",
+    "OEII13363.raw",
+    "OEII23103.raw",
+    "OEII13369.raw",
+    "OEII13385.raw",
+    "OEII23101.raw",
+    "OEII23107.raw",
+    "OEII23091.raw",
+    "OEII23127.raw",
+    "OEII13387.raw",
+    "OEII23111.raw",
+    "OEII13393.raw",
+    "OEII13375.raw",
+    "OEII13389.raw",
+    "OEII23115.raw",
+    "OEII13379.raw",
+    "OEII13365.raw",
+    "OEII23121.raw",
+    "OEII13381.raw",
+    "OEII23097.raw",
+    "OEII23099.raw",
+    "OEII23119.raw",
+    "OEII13367.raw",
+    "OEII13373.raw",
+    "OEII13361.raw",
+    "OEII13383.raw",
+    "OEII13391.raw",
+    "OEII23093.raw",
+    "OEII23105.raw",
+    "OEII23129.raw",
+    "OEII23125.raw",
+    "OEII13395.raw",
+    "OEII23095.raw",
+    "OEII23113.raw"
+  ]
+}

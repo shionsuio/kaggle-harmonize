@@ -1,0 +1,410 @@
+{
+  "pxd": "PXD001558",
+  "raw_files": [
+    "20120802_MLP_363216_Tio2ps130.raw",
+    "20121010_MLP_363245_TiO2ps135T1_121011150632.raw",
+    "20120703_MLP_363211_TiO2ps128.raw",
+    "20120326_MLP_333188_Tio2ps111.raw",
+    "20120326_MLP_363207_Tio2ps123.raw",
+    "20130115_MLP_363262_ps139B.raw",
+    "20130115_MLP_363262_ps139D.raw",
+    "20120229_MLP_333188_ps108TiO2.raw",
+    "20120326_MLP_333188_Tio2ps109.raw",
+    "20120802_MLP_363216_Tio2ps131.raw",
+    "20121026_MLP_psMLP137BT.raw",
+    "20120326_MLP_333188_Tio2ps114.raw",
+    "20120703_MLP_363211_TiO2ps124.raw",
+    "20120823_MLP_363227_TiO2ps132.raw",
+    "20121026_MLP_psMLP137CT.raw",
+    "20120823_MLP_363227_TiO2ps133.raw",
+    "20120703_MLP_363211_TiO2ps125.raw",
+    "20120326_MLP_333188_Tio2ps112.raw",
+    "20120703_MLP_363211_TiO2ps126.raw",
+    "20120326_MLP_363207_Tio2ps121.raw",
+    "20121010_MLP_363245_TiO2ps135T2.raw",
+    "20120326_MLP_363207_Tio2ps120.raw",
+    "20120229_MLP_333188_ps110ATiO2.raw",
+    "20120410_MLP_333195_TiO2ps117.raw",
+    "20130115_MLP_363262_ps139E.raw",
+    "20120823_MLP_363227_TiO2ps111.raw",
+    "20120703_MLP_363211_TiO2ps127.raw",
+    "20120516_psMLP119.raw",
+    "20120326_MLP_333188_Tio2ps113.raw",
+    "20120410_MLP_333195_TiO2ps116.raw",
+    "20120326_MLP_363207_Tio2ps122.raw",
+    "20121010_MLP_363245_TiO2ps136T1.raw",
+    "20121026_MLP_psMLP137AT.raw",
+    "20120229_MLP_333188_ps111TiO2.raw",
+    "20120601_psMLP118.raw",
+    "20120229_MLP_333188_ps109TiO2.raw",
+    "20120326_MLP_333188_Tio2ps115.raw",
+    "20121010_MLP_363245_TiO2ps136T2.raw",
+    "20121026_MLP_psMLP138T.raw",
+    "20130115_MLP_363262_ps139C.raw",
+    "20120703_MLP_363211_TiO2ps129.raw",
+    "20130115_MLP_363262_ps139A.raw"
+  ],
+  "anchor": {
+    "pxd": "PXD001558",
+    "source": "PRIDE_API",
+    "organism": [
+      {
+        "name": "Homo sapiens (human)",
+        "accession": "NEWT:9606"
+      }
+    ],
+    "instruments": [
+      {
+        "name": "LTQ Orbitrap Velos",
+        "accession": "MS:1001742",
+        "sdrf_format": "AC=MS:1001742;NT=LTQ Orbitrap Velos"
+      }
+    ],
+    "modifications": [],
+    "organism_parts": [],
+    "diseases": [
+      {
+        "name": "Breast cancer",
+        "accession": "DOID:1612"
+      }
+    ],
+    "experiment_types": [
+      "Top-down proteomics"
+    ],
+    "quantification_methods": [
+      "SILAC"
+    ],
+    "keywords": [
+      "Orbitrap velos",
+      "Phospho",
+      "Contact-initiated signalling",
+      "Silac",
+      "Transendothelial migration",
+      "Mda-mb-231",
+      "Huvec"
+    ],
+    "publications": [
+      {
+        "pubmed_id": "",
+        "doi": "10.1126/scisignal.aac5820",
+        "ref": "Locard-Paulet M, Lim L, Veluscek G, McMahon K, Sinclair J, van Weverwijk A, Worboys JD, Yuan Y, Isacke CM, Jørgensen C. Phosphoproteomic analysis of interacting tumor and endothelial cells identifies regulatory mechanisms of transendothelial migration. Sci Signal. 2016 Feb 9;9(414):ra15"
+      }
+    ],
+    "inferred_fragmentation": null,
+    "inferred_ms2_analyzer": "orbitrap",
+    "inferred_ionization": "nanoESI",
+    "raw_files": [
+      "20120802_MLP_363216_Tio2ps130.raw",
+      "20121010_MLP_363245_TiO2ps135T1_121011150632.raw",
+      "20120703_MLP_363211_TiO2ps128.raw",
+      "20120326_MLP_333188_Tio2ps111.raw",
+      "20120326_MLP_363207_Tio2ps123.raw",
+      "20130115_MLP_363262_ps139B.raw",
+      "20130115_MLP_363262_ps139D.raw",
+      "Locard-Paulet_Tumour_endothelial_all_2014.mzML",
+      "20120229_MLP_333188_ps108TiO2.raw",
+      "20120326_MLP_333188_Tio2ps109.raw",
+      "20120802_MLP_363216_Tio2ps131.raw",
+      "20121026_MLP_psMLP137BT.raw",
+      "20120326_MLP_333188_Tio2ps114.raw",
+      "20120703_MLP_363211_TiO2ps124.raw",
+      "20120823_MLP_363227_TiO2ps132.raw",
+      "20121026_MLP_psMLP137CT.raw",
+      "20120823_MLP_363227_TiO2ps133.raw",
+      "20120703_MLP_363211_TiO2ps125.raw",
+      "20120326_MLP_333188_Tio2ps112.raw",
+      "20120703_MLP_363211_TiO2ps126.raw",
+      "20120326_MLP_363207_Tio2ps121.raw",
+      "20121010_MLP_363245_TiO2ps135T2.raw",
+      "20120326_MLP_363207_Tio2ps120.raw",
+      "20120229_MLP_333188_ps110ATiO2.raw",
+      "20120410_MLP_333195_TiO2ps117.raw",
+      "20130115_MLP_363262_ps139E.raw",
+      "20120823_MLP_363227_TiO2ps111.raw",
+      "20120703_MLP_363211_TiO2ps127.raw",
+      "20120516_psMLP119.raw",
+      "20120326_MLP_333188_Tio2ps113.raw",
+      "20120410_MLP_333195_TiO2ps116.raw",
+      "20120326_MLP_363207_Tio2ps122.raw",
+      "20121010_MLP_363245_TiO2ps136T1.raw",
+      "20121026_MLP_psMLP137AT.raw",
+      "20120229_MLP_333188_ps111TiO2.raw",
+      "20120601_psMLP118.raw",
+      "20120229_MLP_333188_ps109TiO2.raw",
+      "20120326_MLP_333188_Tio2ps115.raw",
+      "20121010_MLP_363245_TiO2ps136T2.raw",
+      "20121026_MLP_psMLP138T.raw",
+      "20130115_MLP_363262_ps139C.raw",
+      "20120703_MLP_363211_TiO2ps129.raw",
+      "20130115_MLP_363262_ps139A.raw"
+    ]
+  },
+  "steps": {
+    "STEP1_OVERVIEW": {
+      "confirmed": {
+        "Characteristics[Organism]": {
+          "value": "Homo sapiens",
+          "evidence": "breast cancer cells",
+          "source": "manuscript"
+        },
+        "Characteristics[Disease]": {
+          "value": "breast cancer",
+          "evidence": "breast cancer cells and endothelial cells...breast cancer cells",
+          "source": "manuscript"
+        },
+        "Characteristics[MaterialType]": {
+          "value": "cell culture",
+          "evidence": "Stable Isotope Labeling by Amino acids in Cell culture (SILAC)",
+          "source": "manuscript"
+        },
+        "Characteristics[Label]": {
+          "value": "SILAC",
+          "evidence": "By combining Stable Isotope Labeling by Amino acids in Cell culture (SILAC) and phosphoproteomic analysis",
+          "source": "manuscript"
+        },
+        "Comment[AcquisitionMethod]": {
+          "value": "phosphoproteomic analysis",
+          "evidence": "By combining Stable Isotope Labeling by Amino acids in Cell culture (SILAC) and phosphoproteomic analysis",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {
+        "Characteristics[CellType]": {
+          "candidates": [
+            "breast cancer cells",
+            "endothelial cells"
+          ],
+          "reasoning": "論文中で明確に2種類の細胞タイプが言及されているが、具体的な細胞株名は記載されていない",
+          "needs": "具体的な細胞株名（HEK293T, MCF-7, MDA-MB-231等）の情報"
+        },
+        "Characteristics[OrganismPart]": {
+          "candidates": [
+            "breast",
+            "lung",
+            "vascular system"
+          ],
+          "reasoning": "乳がん細胞、肺転移、血管系への言及があるが、実験に使用された具体的な組織部位が不明",
+          "needs": "実験で使用された具体的な組織や臓器の情報"
+        }
+      },
+      "not_applicable": [
+        "Characteristics[CellLine]",
+        "Characteristics[Specimen]",
+        "Characteristics[Strain]",
+        "Characteristics[GeneticModification]",
+        "Characteristics[Treatment]",
+        "Characteristics[DevelopmentalStage]",
+        "Characteristics[Compound]",
+        "Characteristics[ConcentrationOfCompound]"
+      ],
+      "summary": "ヒト乳がん細胞と血管内皮細胞を用いたSILAC標識によるリン酸化プロテオーム解析研究。2種類の細胞タイプの相互作用を解析しているが、具体的な細胞株名や実験条件の詳細は不明。EPHA2を介した血管内皮移行制御メカニズムの解明が主目的。"
+    },
+    "STEP2_SAMPLE_PREP": {
+      "confirmed": {
+        "Characteristics[CleavageAgent]": {
+          "value": "Lys-C and trypsin",
+          "evidence": "Digestion was performed with Lys-C (Wako 125-05061) (1% w:w enzyme:substrate) for 3 hours at 37°C, followed by addition of trypsin (Worthington) (1% w:w enzyme:substrate) for overnight digestion.",
+          "source": "manuscript"
+        },
+        "Characteristics[AlkylationReagent]": {
+          "value": "iodoacetamide",
+          "evidence": "proteins were reduced in 20 mM dithiothreitol (DTT), 40 mM ABC for 45 min and subsequently alkylated in 50 mM iodoacetamide (IAA) for 50 min in the dark at room temperature",
+          "source": "manuscript"
+        },
+        "Characteristics[ReductionReagent]": {
+          "value": "dithiothreitol",
+          "evidence": "proteins were reduced in 20 mM dithiothreitol (DTT), 40 mM ABC for 45 min",
+          "source": "manuscript"
+        },
+        "Characteristics[Label]": {
+          "value": "SILAC",
+          "evidence": "L-arginine-13C6,15N4 hydrochloride (Arg+10 Da) and L-lysine-13C6,15N2 hydrochloride (Lys+8 Da) were used for heavy-labeling; L-arginine-13C6 hydrochloride (Arg+6 Da) and L-lysine-4,4,5,5-d4 hydrochloride (Lys+4 Da) were used for medium-labeling; and L-arginine and L-lysine were used for light-labeling",
+          "source": "manuscript"
+        },
+        "Characteristics[Modification]": {
+          "value": "Phosphorylation",
+          "evidence": "phosphorylation of serine, threonine, and tyrosine residues",
+          "source": "manuscript"
+        },
+        "Characteristics[Modification].1": {
+          "value": "Oxidation",
+          "evidence": "oxidation of methionine",
+          "source": "manuscript"
+        },
+        "Characteristics[Modification].2": {
+          "value": "Deamidation",
+          "evidence": "deamidation of asparagine and glutamine",
+          "source": "manuscript"
+        },
+        "Characteristics[Modification].3": {
+          "value": "Carbamidomethylation",
+          "evidence": "Static modifications were limited to carbamidomethylation of cysteine",
+          "source": "manuscript"
+        },
+        "Comment[EnrichmentMethod]": {
+          "value": "TiO2 phosphopeptide enrichment",
+          "evidence": "Dried peptide pellets were resuspended in TiO2 loading buffer (80% MeCN, 5% TFA, 1 M glycolic acid) and 3 mg Titansphere TiO2 beads (10 µm; GL-Sciences 5020 75010) were added per 500 µg peptides for 15 min shaking incubation",
+          "source": "manuscript"
+        },
+        "Comment[FractionationMethod]": {
+          "value": "High pH reverse phase chromatography",
+          "evidence": "High pH reverse phase chromatographic separation was performed on a Agilent Zorbax 300 extend – C18 column (4.6 X 150 mm, 3.5 μm) using a 21 min stepped linear gradient",
+          "source": "manuscript"
+        },
+        "Comment[NumberOfFractions]": {
+          "value": "19",
+          "evidence": "The 186 resulting fractions were pooled with equidistance across the gradient (checkboard) into 19 final fractions for LC-MS analysis",
+          "source": "manuscript"
+        },
+        "Comment[Separation]": {
+          "value": "Membrane fractionation",
+          "evidence": "Cell lysates were then centrifuged at 100,000 g for 30 min at 4°C to separate soluble proteins from membrane-associated proteins (pellet)",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {
+        "Characteristics[Modification].4": {
+          "candidates": [
+            "N-deglycosylation",
+            "Desialylation"
+          ],
+          "reasoning": "論文中で言及されているが、検索パラメータとして明確に記載されていない",
+          "needs": "MSデータ解析における検索パラメータの詳細"
+        }
+      },
+      "not_applicable": [
+        "Characteristics[Modification].5",
+        "Characteristics[Modification].6",
+        "Characteristics[Depletion",
+        "Characteristics[SpikedCompound]",
+        "Characteristics[SyntheticPeptide]"
+      ],
+      "summary": "サンプル調製では、DTT還元、IAアルキル化、Lys-C/トリプシン消化が確認された。SILAC標識（重、中、軽）を使用し、リン酸化、酸化、脱アミド化、カルバミドメチル化が修飾として設定された。TiO2を用いたリン酸化ペプチド濃縮と高pH逆相クロマトグラフィーによる19フラクション分画が実施された。膜分画による細胞内局在分離も行われた。"
+    },
+    "STEP3_MS_SETTINGS": {
+      "confirmed": {
+        "Comment[Instrument]": {
+          "value": "LTQ Orbitrap Velos",
+          "evidence": "Samples were resuspended in 0.1% FA and run on a LTQ Orbitrap Velos mass spectrometer (Thermo Scientific)",
+          "source": "manuscript"
+        },
+        "Comment[FragmentationMethod]": {
+          "value": "HCD",
+          "evidence": "The 10 most abundant ions were selected for fragmentation by higher-energy collisional dissociation",
+          "source": "manuscript"
+        },
+        "Comment[AcquisitionMethod]": {
+          "value": "Data-dependent acquisition",
+          "evidence": "The mass spectrometer was operated in the data-dependent mode",
+          "source": "manuscript"
+        },
+        "Comment[IonizationType]": {
+          "value": "ESI",
+          "evidence": "nanoESI",
+          "source": "anchor"
+        },
+        "Comment[MS2MassAnalyzer]": {
+          "value": "Orbitrap",
+          "evidence": "Fragmented ions were scanned in the Orbitrap at a resolution of 7,500 at m/z 400",
+          "source": "manuscript"
+        },
+        "Comment[PrecursorMassTolerance]": {
+          "value": "20 ppm",
+          "evidence": "Searches were performed with a precursor mass tolerance of 20 ppm",
+          "source": "manuscript"
+        },
+        "Comment[FragmentMassTolerance]": {
+          "value": "0.05 Da",
+          "evidence": "a fragment mass tolerance of 0.05 Da",
+          "source": "manuscript"
+        },
+        "Comment[NumberOfMissedCleavages]": {
+          "value": "2",
+          "evidence": "and a maximum of two missed cleavages",
+          "source": "manuscript"
+        },
+        "Comment[FlowRateChromatogram]": {
+          "value": "300 nL/min",
+          "evidence": "with a flow rate of 300 nL/min",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {
+        "Comment[GradientTime]": {
+          "candidates": [
+            "120 min",
+            "21 min"
+          ],
+          "reasoning": "論文中に2つの異なるクロマトグラフィー条件が記載されており、どちらがリン酸化ペプチド解析に対応するかが不明確",
+          "needs": "リン酸化ペプチド解析で使用された具体的なグラジエント時間の明確化"
+        },
+        "Comment[CollisionEnergy]": {
+          "candidates": [
+            "Not specified",
+            "Variable"
+          ],
+          "reasoning": "HCDによるフラグメンテーションが確認されたが、具体的なコリジョンエネルギー値の記載が見つからない",
+          "needs": "HCDで使用された具体的なコリジョンエネルギー値"
+        }
+      },
+      "not_applicable": [],
+      "summary": "LTQ Orbitrap Velos装置を使用したデータ依存的取得によるHCDフラグメンテーション解析が確定。検索パラメータとして前駆体質量許容誤差20ppm、フラグメント質量許容誤差0.05Da、最大見逃し切断2回が設定された。流速300nL/minのクロマトグラフィー条件も確認されたが、グラジエント時間とコリジョンエネルギーは複数の実験条件が混在しており、リン酸化解析特有の条件の特定が必要。"
+    },
+    "STEP4_RAW_FILES": {
+      "confirmed": {
+        "Characteristics[NumberOfBiologicalReplicates]": {
+          "value": "minimum 3",
+          "evidence": "Labeling efficiency of LM2 cells and HUVECs was assessed for a minimum of 3 independent cell cultures for each label",
+          "source": "manuscript"
+        },
+        "Characteristics[NumberOfSamples]": {
+          "value": "42",
+          "evidence": "Total count of raw data files provided",
+          "source": "filename"
+        },
+        "FactorValue[CellPart]": {
+          "value": "membrane-associated proteins",
+          "evidence": "Cell lysates were then centrifugated at 100,000 g for 30 min at 4°C to separate soluble proteins from membrane-associated proteins (pellet)",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {
+        "Comment[FractionIdentifier]": {
+          "candidates": [
+            "Not Applicable",
+            "TiO2 enrichment step indicator"
+          ],
+          "reasoning": "ファイル名にはps108, ps109などの番号があるが、これらは実験日やサンプル番号と思われ、フラクション番号ではない。TiO2濃縮は3回行われているが、ファイル名からは判別不可能",
+          "needs": "ファイル名の命名規則に関する説明"
+        },
+        "Characteristics[BiologicalReplicate]": {
+          "candidates": [
+            "minimum 3",
+            "4"
+          ],
+          "reasoning": "複数箇所で3回以上の独立実験が言及されているが、pull-down実験では4回の独立サンプルが使用されている",
+          "needs": "各実験タイプでの生物学的反復回数の明確化"
+        },
+        "FactorValue[Treatment]": {
+          "candidates": [
+            "co-culture",
+            "ephrin-A1 stimulation"
+          ],
+          "reasoning": "主要な実験条件として、LM2細胞とHUVECsの共培養、およびephrin-A1による刺激が記載されている",
+          "needs": "実験デザインでの処理条件の特定"
+        }
+      },
+      "not_applicable": [
+        "Characteristics[NumberOfTechnicalReplicates]",
+        "FactorValue[Temperature]",
+        "FactorValue[Disease]",
+        "FactorValue[GeneticModification]",
+        "FactorValue[Compound]",
+        "FactorValue[Bait]",
+        "FactorValue[ConcentrationOfCompound].1",
+        "FactorValue[FractionIdentifier]"
+      ],
+      "summary": "42個のrawファイルを持つ実験で、最低3回の生物学的反復が確認された。実験デザインは膜分画による細胞内局在分離を含む。ファイル名は実験日とサンプル番号の組み合わせと推定されるが、フラクション情報は含まれていない。主要な実験処理として共培養とephrin-A1刺激が候補として挙がったが、確定には追加情報が必要。"
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "pxd": "PXD004705",
+  "source": "PRIDE_API",
+  "organism": [
+    {
+      "name": "Oryza sativa (rice)",
+      "accession": "NEWT:4530"
+    }
+  ],
+  "instruments": [
+    {
+      "name": "Q Exactive",
+      "accession": "MS:1001911",
+      "sdrf_format": "AC=MS:1001911;NT=Q Exactive"
+    }
+  ],
+  "modifications": [],
+  "organism_parts": [
+    {
+      "name": "Leaf",
+      "accession": "BTO:0000713"
+    }
+  ],
+  "diseases": [],
+  "experiment_types": [
+    "Affinity purification coupled with mass spectrometry proteomics"
+  ],
+  "quantification_methods": [],
+  "keywords": [
+    "Abscisic acid",
+    "Phosphoproteome",
+    "Rice (oryza sativa l.)",
+    "Signaling"
+  ],
+  "publications": [
+    {
+      "pubmed_id": "",
+      "doi": "10.3389/fpls.2017.00514",
+      "ref": "Hou Y, Qiu J, Wang Y, Li Z, Zhao J, Tong X, Lin H, Zhang J. A Quantitative Proteomic Analysis of Brassinosteroid-induced Protein Phosphorylation in Rice (Oryza sativa L.). Front Plant Sci. 2017 8:514"
+    }
+  ],
+  "inferred_fragmentation": "HCD",
+  "inferred_ms2_analyzer": "orbitrap",
+  "inferred_ionization": "nanoESI",
+  "raw_files": [
+    "Rice_phos_BR_3h_20per_F1_R2.raw",
+    "Rice_phos_Nip_0h_20per_F1_R1.raw",
+    "Rice_phos_Nip_0h_20per_F1_R2.raw",
+    "Rice_phos_BR_12h_20per_F1_R2.raw",
+    "Rice_phos_BR_12h_20per_F1_R1.raw",
+    "Rice_phos_BR_12h_20per_F1_R3.raw",
+    "Rice_phos_BR_3h_20per_F1_R3.raw",
+    "Rice_phos_BR_3h_20per_F1_R1.raw",
+    "Rice_phos_Nip_0h_20per_F1_R3.raw"
+  ]
+}

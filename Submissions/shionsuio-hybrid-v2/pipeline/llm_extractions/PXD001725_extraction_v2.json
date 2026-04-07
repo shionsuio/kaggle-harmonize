@@ -1,0 +1,379 @@
+{
+  "pxd": "PXD001725",
+  "raw_files": [
+    "130708_M98_002.raw",
+    "130708_M813_003.raw",
+    "130708_M787_001.raw",
+    "130708_M687_001.raw",
+    "130708_M504_002.raw",
+    "130708_M35_003.raw",
+    "130708_M829_002.raw",
+    "130708_M835_003.raw",
+    "130708_M813_002.raw",
+    "130708_M825_001.raw",
+    "130708_M835_002.raw",
+    "130708_M812_002.raw",
+    "130708_M504_001.raw",
+    "130708_M825_002.raw",
+    "130708_M787_002.raw",
+    "130708_M829_003.raw",
+    "130708_M835_001.raw",
+    "130708_M35_001.raw",
+    "130708_M812_003.raw",
+    "130708_M825_003.raw",
+    "130708_M812_001.raw",
+    "130708_M98_001.raw",
+    "130708_M504_003.raw",
+    "130708_M829_001.raw",
+    "130708_M813_001.raw",
+    "130708_M687_003.raw",
+    "130708_M687_002.raw",
+    "130708_M98_003.raw",
+    "130708_M787_003.raw",
+    "130708_M35_002.raw"
+  ],
+  "anchor": {
+    "pxd": "PXD001725",
+    "source": "PRIDE_API",
+    "organism": [
+      {
+        "name": "Homo sapiens (human)",
+        "accession": "NEWT:9606"
+      }
+    ],
+    "instruments": [
+      {
+        "name": "Q Exactive",
+        "accession": "MS:1001911",
+        "sdrf_format": "AC=MS:1001911;NT=Q Exactive"
+      }
+    ],
+    "modifications": [],
+    "organism_parts": [
+      {
+        "name": "Lymph node",
+        "accession": "BTO:0000784"
+      },
+      {
+        "name": "Melanocyte",
+        "accession": "CL:0000148"
+      }
+    ],
+    "diseases": [
+      {
+        "name": "Metastatic melanoma",
+        "accession": "DOID:4358"
+      }
+    ],
+    "experiment_types": [
+      "Shotgun proteomics"
+    ],
+    "quantification_methods": [],
+    "keywords": [
+      "Lymph node metastases",
+      "Malignant melanoma"
+    ],
+    "publications": [
+      {
+        "pubmed_id": "",
+        "doi": "10.1371/journal.pone.0123661",
+        "ref": "Welinder C, Pawłowski K, Sugihara Y, Yakovleva M, Jönsson G, Ingvar C, Lundgren L, Baldetorp B, Olsson H, Rezeli M, Jansson B, Laurell T, Fehniger T, Döme B, Malm J, Wieslander E, Nishimura T, Marko-Varga G. A Protein Deep Sequencing Evaluation of Metastatic Melanoma Tissues. PLoS One. 2015 Apr 13;10(4):e0123661. eCollection 2015"
+      }
+    ],
+    "inferred_fragmentation": "HCD",
+    "inferred_ms2_analyzer": "orbitrap",
+    "inferred_ionization": "nanoESI",
+    "raw_files": [
+      "130708_M98_002.raw",
+      "130708_M813_003.raw",
+      "130708_M787_001.raw",
+      "130708_M687_001.raw",
+      "130708_M504_002.raw",
+      "130708_M35_003.raw",
+      "130708_M829_002.raw",
+      "130708_M835_003.raw",
+      "130708_M813_002.raw",
+      "130708_M825_001.raw",
+      "130708_M835_002.raw",
+      "130708_M812_002.raw",
+      "130708_M504_001.raw",
+      "130708_M825_002.raw",
+      "130708_M787_002.raw",
+      "130708_M829_003.raw",
+      "130708_M835_001.raw",
+      "130708_M35_001.raw",
+      "130708_M812_003.raw",
+      "130708_M825_003.raw",
+      "130708_M812_001.raw",
+      "130708_M98_001.raw",
+      "130708_M504_003.raw",
+      "130708_M829_001.raw",
+      "130708_M813_001.raw",
+      "130708_M687_003.raw",
+      "130708_M687_002.raw",
+      "130708_M98_003.raw",
+      "130708_M787_003.raw",
+      "130708_M35_002.raw"
+    ]
+  },
+  "steps": {
+    "STEP1_OVERVIEW": {
+      "confirmed": {
+        "Characteristics[Organism]": {
+          "value": "Homo sapiens",
+          "evidence": "Ten lymph node metastases (South-Swedish Malignant Melanoma Biobank)",
+          "source": "manuscript"
+        },
+        "Characteristics[OrganismPart]": {
+          "value": "lymph node",
+          "evidence": "Ten lymph node metastases (South-Swedish Malignant Melanoma Biobank) were subjected to global protein expression analysis",
+          "source": "manuscript"
+        },
+        "Characteristics[Disease]": {
+          "value": "metastatic melanoma",
+          "evidence": "A Protein Deep Sequencing Evaluation of Metastatic Melanoma Tissues",
+          "source": "manuscript"
+        },
+        "Characteristics[Specimen]": {
+          "value": "metastases",
+          "evidence": "Ten lymph node metastases (South-Swedish Malignant Melanoma Biobank)",
+          "source": "manuscript"
+        },
+        "Comment[AcquisitionMethod]": {
+          "value": "shotgun proteomics",
+          "evidence": "global protein expression analysis using two proteomics approaches (with/without orthogonal fractionation)",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {
+        "Characteristics[Label]": {
+          "candidates": [
+            "label-free"
+          ],
+          "reasoning": "論文では標識法について明示的に記載がないが、ショットガンプロテオミクスでTMT/iTRAQなどの言及がない場合、label-freeが一般的",
+          "needs": "Methods sectionでの標識法の明確な記載"
+        },
+        "Characteristics[MaterialType]": {
+          "candidates": [
+            "tissue",
+            "clinical sample"
+          ],
+          "reasoning": "lymph node metastasesは臨床組織サンプルを示唆するが、具体的な前処理方法が不明",
+          "needs": "サンプル調製手順の詳細情報"
+        }
+      },
+      "not_applicable": [
+        "Characteristics[CellType]",
+        "Characteristics[CellLine]",
+        "Characteristics[Strain]",
+        "Characteristics[GeneticModification]",
+        "Characteristics[Treatment]",
+        "Characteristics[DevelopmentalStage]",
+        "Characteristics[Compound]",
+        "Characteristics[ConcentrationOfCompound]"
+      ],
+      "summary": "ヒトのリンパ節転移性メラノーマ組織を用いたショットガンプロテオミクス研究であることが確定。10サンプルを2つの手法（分画有り/無し）で解析し、5326の蛋白質を同定。標識法と具体的なサンプル調製法は未確定で、Methods sectionでの確認が必要。"
+    },
+    "STEP2_SAMPLE_PREP": {
+      "confirmed": {
+        "Characteristics[CleavageAgent]": {
+          "value": "trypsin",
+          "evidence": "The samples were then digested with sequencing grade trypsin (Promega, Madison, WI) in a ratio 1:120 w/w (trypsin:protein) overnight at 37°C",
+          "source": "manuscript"
+        },
+        "Characteristics[AlkylationReagent]": {
+          "value": "iodoacetamide",
+          "evidence": "alkylated using 40 mM iodoacetamide (30 min, kept dark at room temperature)",
+          "source": "manuscript"
+        },
+        "Characteristics[ReductionReagent]": {
+          "value": "DTT",
+          "evidence": "A fixed amount (150 μg) of protein were reduced with 10 mM DTT (1 h at 37°C)",
+          "source": "manuscript"
+        },
+        "Characteristics[Label]": {
+          "value": "label free sample",
+          "evidence": "標識試薬の記載がなく、ショットガンプロテオミクス手法で定量解析を実施していることから、label-freeアプローチが確定",
+          "source": "manuscript"
+        },
+        "Comment[FractionationMethod]": {
+          "value": "strong cation exchange chromatography",
+          "evidence": "Strong cation exchange chromatography was performed using Microspin columns (MA SEM HIL-SCX, 10–100μg capacity, The Nest group Inc., South Borough)",
+          "source": "manuscript"
+        },
+        "Comment[NumberOfFractions]": {
+          "value": "6",
+          "evidence": "The peptides were eluted by stepwise salt gradient using 0, 20, 40, 60, 100 and 500 mM KCl",
+          "source": "manuscript"
+        },
+        "Comment[Separation]": {
+          "value": "reversed-phase liquid chromatography",
+          "evidence": "The samples were then separated using a column (50 cm x 75 μm, C18, 2 μm and 100Å, PN 164540, Thermo Scientific)",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {},
+      "not_applicable": [
+        "Characteristics[Modification]",
+        "Characteristics[Modification].1",
+        "Characteristics[Modification].2",
+        "Characteristics[Modification].3",
+        "Characteristics[Modification].4",
+        "Characteristics[Modification].5",
+        "Characteristics[Modification].6",
+        "Characteristics[Depletion]",
+        "Characteristics[SpikedCompound]",
+        "Characteristics[SyntheticPeptide]",
+        "Comment[EnrichmentMethod]"
+      ],
+      "summary": "サンプル調製プロトコルが詳細に記載されており、trypsin消化、DTT還元、iodoacetamideアルキル化が確定。label-freeアプローチであることも確認。Strong cation exchange chromatographyによる6分画とC18逆相LCによる分離も確定。修飾解析、枯渇、スパイク、合成ペプチド、濃縮手法は使用されていない。次ステップではMS設定とデータ処理パラメータの詳細を確認する必要がある。"
+    },
+    "STEP3_MS_SETTINGS": {
+      "confirmed": {
+        "Comment[Instrument]": {
+          "value": "Q-Exactive",
+          "evidence": "Both unfractionated and fractionated tumor lysate digests were analyzed using a Q-Exactive",
+          "source": "manuscript"
+        },
+        "Comment[FragmentationMethod]": {
+          "value": "HCD",
+          "evidence": "The ten most intense peaks with charge state≥2 were fragmented in the HCD collision cell",
+          "source": "manuscript"
+        },
+        "Comment[AcquisitionMethod]": {
+          "value": "data dependent acquisition",
+          "evidence": "using top10 data-dependent approach",
+          "source": "manuscript"
+        },
+        "Comment[MS2MassAnalyzer]": {
+          "value": "Orbitrap",
+          "evidence": "tandem mass spectra were acquired in the Orbitrap mass analyzer with resolution 17,500 at m/z 200",
+          "source": "manuscript"
+        },
+        "Comment[CollisionEnergy]": {
+          "value": "30%",
+          "evidence": "fragmented in the HCD collision cell with normalized collision energy of 30%",
+          "source": "manuscript"
+        },
+        "Comment[PrecursorMassTolerance]": {
+          "value": "1 Da",
+          "evidence": "Precursor and fragment mass tolerances were set to 1 Da",
+          "source": "manuscript"
+        },
+        "Comment[FragmentMassTolerance]": {
+          "value": "1 Da",
+          "evidence": "Precursor and fragment mass tolerances were set to 1 Da",
+          "source": "manuscript"
+        },
+        "Comment[NumberOfMissedCleavages]": {
+          "value": "3",
+          "evidence": "where the maximum of missed cleavage sites was three",
+          "source": "manuscript"
+        },
+        "Comment[GradientTime]": {
+          "value": "190 min",
+          "evidence": "The gradient started with 5% B and 20% B at 120 min, followed by 40% B at 180 min, increased to 90% at 185 min, which was maintained for 5 min",
+          "source": "manuscript"
+        },
+        "Comment[FlowRateChromatogram]": {
+          "value": "250 nL/min",
+          "evidence": "The samples were then separated using a column (50 cm x 75 μm, C18, 2 μm and 100Å, PN 164540, Thermo Scientific, San José, CA, USA) with a flow rate of 250 nL/min",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {
+        "Comment[IonizationType]": {
+          "candidates": [
+            "ESI",
+            "nanoESI"
+          ],
+          "reasoning": "アンカーデータではnanoESIと記載されているが、論文テキストではイオン化方法について明示的な記載がない。nanoflow LC-MS/MSセットアップでは一般的にnanoESIが使用される",
+          "needs": "論文のSupplementary methodsまたは機器仕様での明示的な記載"
+        }
+      },
+      "not_applicable": [],
+      "summary": "Q-Exactive装置を用いたHCD fragmentationによるdata-dependent acquisitionが確定。MS設定パラメータ（collision energy 30%、mass tolerance 1 Da、missed cleavages 3）および分析条件（190分グラジエント、250 nL/min流速）が詳細に記載されている。イオン化方法のみ論文テキストに明記がなく、nanoESIの可能性が高いが確定が必要。次ステップではデータ処理ソフトウェアと検索パラメータの詳細を確認する。"
+    },
+    "STEP4_RAW_FILES": {
+      "confirmed": {
+        "Characteristics[NumberOfBiologicalReplicates]": {
+          "value": "10",
+          "evidence": "The tumor tissues used were lymph nodes metastases from 10 MM patients undergoing surgery at Lund University Hospital, Sweden.",
+          "source": "manuscript"
+        },
+        "Characteristics[NumberOfTechnicalReplicates]": {
+          "value": "3",
+          "evidence": "Raw file names show pattern M[patient_id]_[001-003].raw indicating 3 technical replicates per patient. Files like 130708_M98_001.raw, 130708_M98_002.raw, 130708_M98_003.raw confirm this pattern across all 10 patients.",
+          "source": "filename"
+        },
+        "Characteristics[NumberOfSamples]": {
+          "value": "30",
+          "evidence": "10 patients × 3 technical replicates = 30 raw files total, confirmed by file count",
+          "source": "filename"
+        },
+        "Characteristics[BiologicalReplicate]": {
+          "value": "per_file",
+          "per_file": {
+            "130708_M98_001.raw": "M98",
+            "130708_M98_002.raw": "M98",
+            "130708_M98_003.raw": "M98",
+            "130708_M813_001.raw": "M813",
+            "130708_M813_002.raw": "M813",
+            "130708_M813_003.raw": "M813",
+            "130708_M787_001.raw": "M787",
+            "130708_M787_002.raw": "M787",
+            "130708_M787_003.raw": "M787",
+            "130708_M687_001.raw": "M687",
+            "130708_M687_002.raw": "M687",
+            "130708_M687_003.raw": "M687",
+            "130708_M504_001.raw": "M504",
+            "130708_M504_002.raw": "M504",
+            "130708_M504_003.raw": "M504",
+            "130708_M35_001.raw": "M35",
+            "130708_M35_002.raw": "M35",
+            "130708_M35_003.raw": "M35",
+            "130708_M829_001.raw": "M829",
+            "130708_M829_002.raw": "M829",
+            "130708_M829_003.raw": "M829",
+            "130708_M835_001.raw": "M835",
+            "130708_M835_002.raw": "M835",
+            "130708_M835_003.raw": "M835",
+            "130708_M825_001.raw": "M825",
+            "130708_M825_002.raw": "M825",
+            "130708_M825_003.raw": "M825",
+            "130708_M812_001.raw": "M812",
+            "130708_M812_002.raw": "M812",
+            "130708_M812_003.raw": "M812"
+          },
+          "evidence": "File naming pattern 130708_M[patient_id]_[replicate].raw clearly indicates patient identifiers (M98, M813, etc.) representing biological replicates",
+          "source": "filename"
+        },
+        "Comment[FractionIdentifier]": {
+          "value": "Not Applicable",
+          "evidence": "File names do not contain fraction identifiers. While the manuscript describes fractionated and unfractionated approaches, the raw file names (130708_M[patient]_[001-003].raw) do not distinguish between these approaches or contain fraction numbers.",
+          "source": "filename"
+        }
+      },
+      "hypotheses": {
+        "FactorValue[Disease]": {
+          "candidates": [
+            "metastatic melanoma"
+          ],
+          "reasoning": "All samples are from metastatic melanoma patients, but no comparison with healthy controls or other diseases is mentioned in the experimental design",
+          "needs": "Confirmation if disease status is used as experimental factor for comparison"
+        }
+      },
+      "not_applicable": [
+        "FactorValue[Treatment]",
+        "FactorValue[Temperature]",
+        "FactorValue[GeneticModification]",
+        "FactorValue[Compound]",
+        "FactorValue[Bait]",
+        "FactorValue[CellPart]",
+        "FactorValue[ConcentrationOfCompound].1",
+        "FactorValue[FractionIdentifier]"
+      ],
+      "summary": "Raw file analysis confirms 10 biological replicates (patients M35, M98, M504, M687, M787, M812, M813, M825, M829, M835) with 3 technical replicates each, totaling 30 files. Patient identifiers are clearly extractable from file names. Fractionation information is not encoded in file names despite manuscript describing both fractionated and unfractionated approaches. No experimental factors beyond disease status are indicated. Sample organization and replicate structure are now fully characterized for SDRF generation."
+    }
+  }
+}

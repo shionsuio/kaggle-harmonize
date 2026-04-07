@@ -1,0 +1,162 @@
+{
+  "pxd": "PXD006003",
+  "source": "PRIDE_API",
+  "organism": [
+    {
+      "name": "Homo sapiens (human)",
+      "accession": "NEWT:9606"
+    }
+  ],
+  "instruments": [
+    {
+      "name": "Q Exactive Plus",
+      "accession": "MS:1002634",
+      "sdrf_format": "AC=MS:1002634;NT=Q Exactive Plus"
+    },
+    {
+      "name": "Q Exactive HF",
+      "accession": "MS:1002523",
+      "sdrf_format": "AC=MS:1002523;NT=Q Exactive HF"
+    }
+  ],
+  "modifications": [],
+  "organism_parts": [
+    {
+      "name": "Skin",
+      "accession": "BTO:0001253"
+    },
+    {
+      "name": "Melanocyte",
+      "accession": "CL:0000148"
+    }
+  ],
+  "diseases": [
+    {
+      "name": "Melanoma",
+      "accession": "DOID:1909"
+    }
+  ],
+  "experiment_types": [
+    "Shotgun proteomics"
+  ],
+  "quantification_methods": [
+    "SILAC"
+  ],
+  "keywords": [
+    "Human",
+    "Melanoma",
+    "Lc-ms/ms"
+  ],
+  "publications": [
+    {
+      "pubmed_id": "",
+      "doi": "10.1016/j.cell.2019.08.012",
+      "ref": "Harel M, Ortenberg R, Varanasi SK, Mangalhara KC, Mardamshina M, Markovits E, Baruch EN, Tripple V, Arama-Chayoth M, Greenberg E, Shenoy A, Ayasun R, Knafo N, Xu S, Anafi L, Yanovich-Arad G, Barnabas GD, Ashkenazi S, Besser MJ, Schachter J, Bosenberg M, Shadel GS, Barshack I, Kaech SM, Markel G, Geiger T. Proteomics of Melanoma Response to Immunotherapy Reveals Mitochondrial Dependence. Cell. 2019 179(1):236-250.e18"
+    }
+  ],
+  "inferred_fragmentation": "HCD",
+  "inferred_ms2_analyzer": "orbitrap",
+  "inferred_ionization": "nanoESI",
+  "raw_files": [
+    "20161117_MH_SA_PD1_44-3.raw",
+    "20161101_MH_SA_PD1_20-2.raw",
+    "Fozzie_20181010_MH_SA_PD1_75_1.raw",
+    "Animal_20180726_SA_MH_PD1_73_5.raw",
+    "Animal_20180726_SA_MH_PD1_68_4.raw",
+    "Animal_20180902_SA_MH_PD1_71_2.raw",
+    "20161101_MH_SA_PD1_49-3.raw",
+    "20161101_MH_SA_PD1_5-4.raw",
+    "20161101_MH_SA_PD1_5-5.raw",
+    "20130104_MH_TIL_26_11.raw",
+    "20161117_MH_SA_PD1_45-1.raw",
+    "Animal_20180709_MH_SA_PD1_60_4.raw",
+    "Animal_20180709_MH_SA_PD1_59_1.raw",
+    "20130228_MH_TIL-3_6.raw",
+    "20161101_MH_SA_PD1_32-2.raw",
+    "Animal_20180902_SA_MH_PD1_72_4.raw",
+    "Fozzie_20181010_MH_SA_PD1_70_3.raw",
+    "20130228_MH_TIL-9_5.raw",
+    "20140429_MH_TIL_40_2_11_140508134314.raw",
+    "20161101_MH_SA_PD1_50-2.raw",
+    "20161117_MH_SA_PD1_17-5.raw",
+    "20170329_MH_SA_PD1_4_2.raw",
+    "Animal_20180726_SA_MH_PD1_83_1.raw",
+    "20130228_MH_TIL-21_3.raw",
+    "20130228_MH_TIL-36_3.raw",
+    "20170329_MH_SA_PD1_26_3.raw",
+    "20170329_MH_SA_PD1_42_3.raw",
+    "20161101_MH_SA_PD1_49-5.raw",
+    "20161101_MH_SA_PD1_50-1.raw",
+    "20170322_MH_SA_PD1_18_4.raw",
+    "20161101_MH_SA_PD1_50-3.raw",
+    "20161117_MH_SA_PD1_14-1.raw",
+    "20170329_MH_SA_PD1_25_1.raw",
+    "Animal_20180726_SA_MH_PD1_79_3.raw",
+    "20130228_MH_TIL-2_11.raw",
+    "20130228_MH_TIL-14_8.raw",
+    "20130228_MH_TIL-14_6.raw",
+    "Animal_20180726_SA_MH_PD1_69_2.raw",
+    "20140429_MH_TIL_34_2_6.raw",
+    "20161101_MH_SA_PD1_29-2.raw",
+    "20140429_MH_TIL_34_2_4.raw",
+    "20161117_MH_SA_PD1_9-3.raw",
+    "20161117_MH_SA_PD1_7-2.raw",
+    "20170329_MH_SA_PD1_26_1.raw",
+    "20170329_MH_SA_PD1_29_2.raw",
+    "Fozzie_20181010_MH_SA_PD1_75_3.raw",
+    "20161117_MH_SA_PD1_41-1.raw",
+    "20130228_MH_TIL-11_5.raw",
+    "20130228_MH_TIL-27_6.raw",
+    "Animal_20180705_MH_SA_PD1_55_2.raw",
+    "Animal_20180726_SA_MH_PD1_76_1.raw",
+    "20140429_MH_TIL_40_2_4.raw",
+    "Fozzie_20181010_MH_SA_PD1_77_4.raw",
+    "Animal_20180902_SA_MH_PD1_78_3.raw",
+    "20140429_MH_TIL_42_6.raw",
+    "20140429_MH_TIL_44_8.raw",
+    "Animal_20180917_MH_SA_Crispr526_CPT1A_5_3.raw",
+    "20130228_MH_TIL-38_11.raw",
+    "Animal_20180917_MH_SA_Crispr526_Cont_4.raw",
+    "20161101_MH_SA_PD1_42-4.raw",
+    "20161117_MH_SA_PD1_13-4.raw",
+    "20161117_MH_SA_PD1_7-3.raw",
+    "Animal_20170915_MH_SA_HADHA-3_3.raw",
+    "Animal_20180902_SA_MH_PD1_77_3.raw",
+    "20161101_MH_SA_PD1_24-4.raw",
+    "20130228_MH_TIL-16_4.raw",
+    "20161101_MH_SA_PD1_24-3.raw",
+    "Fozzie_20181010_MH_SA_PD1_78_2.raw",
+    "20161117_MH_SA_PD1_39-3.raw",
+    "Animal_20180902_SA_MH_PD1_75_2.raw",
+    "20161117_MH_SA_PD1_17-2.raw",
+    "20161101_MH_SA_PD1_36-1.raw",
+    "20161101_MH_SA_PD1_24-5.raw",
+    "20161117_MH_SA_PD1_21-3.raw",
+    "20170329_MH_SA_PD1_46_2.raw",
+    "Animal_20180709_MH_SA_PD1_63_1.raw",
+    "20130228_MH_TIL-39_3.raw",
+    "20170329_MH_SA_PD1_49_2.raw",
+    "20130228_MH_TIL-4_3.raw",
+    "20140429_MH_TIL_42_4.raw",
+    "20140429_MH_TIL_39_2_5.raw",
+    "Animal_20180627_MH_SA_PD1_59_1.raw",
+    "20130228_MH_TIL-13_11.raw",
+    "20161101_MH_SA_PD1_19-2.raw",
+    "Animal_20180726_SA_MH_PD1_84_5.raw",
+    "Fozzie_20181008_MH_SA_PD1_82_3.raw",
+    "20130228_MH_TIL-27_11.raw",
+    "20130228_MH_TIL-8_3.raw",
+    "Animal_20180726_SA_MH_PD1_83_5.raw",
+    "Animal_20180827_SA_MH_Mel76-DCA-0_1.raw",
+    "20170322_MH_SA_PD1_23_2.raw",
+    "20170329_MH_SA_PD1_50_2.raw",
+    "Animal_20180902_SA_MH_PD1_70_3.raw",
+    "20130228_MH_TIL-6_5.raw",
+    "20130228_MH_TIL-7_5.raw",
+    "Animal_20180709_MH_SA_PD1_62_3.raw",
+    "20161117_MH_SA_PD1_45-3.raw",
+    "Animal_20180827_SA_MH_Mel76-DCA-30mM_1.raw",
+    "20140429_MH_TIL_65_8.raw",
+    "20130228_MH_TIL-21_8.raw"
+  ]
+}

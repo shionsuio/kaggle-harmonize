@@ -1,0 +1,519 @@
+{
+  "pxd": "PXD003028",
+  "raw_files": [
+    "20150414_QEp1_LC7_NiGr_SA_Saliva_5_fractionated5.raw",
+    "20141116_QEp1_LC7_PhGe_4_53_M1_2.raw",
+    "20150414_QEp1_LC7_NiGr_SA_Saliva_8_fractionated6.raw",
+    "20150414_QEp1_LC7_NiGr_SA_Saliva_7_fractionated3.raw",
+    "20150414_QEp1_LC7_NiGr_SA_Saliva_5_fractionated3.raw",
+    "20150602_QEp3_NiGr_SA_saliva3_4_frac5.raw",
+    "20150602_QEp3_NiGr_SA_saliva3_4_frac1.raw",
+    "20150414_QEp1_LC7_NiGr_SA_Saliva_3_fractionated8.raw",
+    "20150414_QEp1_LC7_NiGr_SA_Saliva_6_fractionated5.raw",
+    "20150414_QEp1_LC7_NiGr_SA_Saliva_3_fractionated5.raw",
+    "20150414_QEp1_LC7_NiGr_SA_Saliva_3_fractionated6.raw",
+    "20141116_QEp1_LC7_PhGe_4_53_M1_4.raw",
+    "20150602_QEp3_NiGr_SA_saliva3_4_frac6.raw",
+    "20150414_QEp1_LC7_NiGr_SA_Saliva_7m.raw",
+    "20150414_QEp1_LC7_NiGr_SA_Saliva_6_fractionated7.raw",
+    "20150414_QEp1_LC7_NiGr_SA_Saliva_1m.raw",
+    "20141116_QEp1_LC7_PhGe_4_53_M1_3.raw",
+    "20150414_QEp1_LC7_NiGr_SA_Saliva_5_fractionated6.raw",
+    "20150414_QEp1_LC7_NiGr_SA_Saliva_6_fractionated8.raw",
+    "20150414_QEp1_LC7_NiGr_SA_Saliva_1.raw",
+    "20150414_QEp1_LC7_NiGr_SA_Saliva_2_fractionated4.raw",
+    "20150414_QEp1_LC7_NiGr_SA_Saliva_8_fractionated7.raw",
+    "20150414_QEp1_LC7_NiGr_SA_Saliva_2_fractionated6.raw",
+    "20150414_QEp1_LC7_NiGr_SA_Saliva_1_fractionated2.raw",
+    "20150414_QEp1_LC7_NiGr_SA_Saliva_7_fractionated8.raw",
+    "20150414_QEp1_LC7_NiGr_SA_Saliva_6_fractionated6.raw",
+    "20150602_QEp3_NiGr_SA_saliva3_4_frac3.raw",
+    "20150414_QEp1_LC7_NiGr_SA_Saliva_3_fractionated2.raw",
+    "20150513_QEp4_NiGr_SA_workflow_rep1.raw",
+    "20150414_QEp1_LC7_NiGr_SA_Saliva_8_fractionated2.raw",
+    "20150414_QEp1_LC7_NiGr_SA_Saliva_8m.raw",
+    "20150414_QEp1_LC7_NiGr_SA_Saliva_1_fractionated4.raw",
+    "20150513_QEp4_NiGr_SA_workflow_rep3.raw",
+    "20150414_QEp1_LC7_NiGr_SA_Saliva_7_fractionated2.raw",
+    "20150414_QEp1_LC7_NiGr_SA_Saliva_2_fractionated1.raw",
+    "20150414_QEp1_LC7_NiGr_SA_Saliva_2_fractionated3.raw",
+    "20150414_QEp1_LC7_NiGr_QC_SA_Saliva2_2.raw",
+    "20150414_QEp1_LC7_NiGr_SA_Saliva_6.raw",
+    "20150414_QEp1_LC7_NiGr_SA_Saliva_5m.raw",
+    "20150414_QEp1_LC7_NiGr_SA_Saliva_5.raw",
+    "20150414_QEp1_LC7_NiGr_SA_Saliva_5_fractionated1.raw",
+    "20150414_QEp1_LC7_NiGr_SA_Saliva_8_fractionated8.raw",
+    "20150414_QEp1_LC7_NiGr_SA_Saliva_8_fractionated5.raw",
+    "20150414_QEp1_LC7_NiGr_SA_Saliva_6_fractionated2.raw",
+    "20150602_QEp3_NiGr_SA_saliva3_4_frac7.raw",
+    "20150414_QEp1_LC7_NiGr_SA_Saliva_1_fractionated5.raw",
+    "20150414_QEp1_LC7_NiGr_SA_Saliva_3_fractionated3.raw",
+    "20150414_QEp1_LC7_NiGr_SA_Saliva_7_fractionated1.raw",
+    "20141116_QEp1_LC7_PhGe_4_53_M2_1.raw",
+    "20150414_QEp1_LC7_NiGr_SA_Saliva_2_fractionated2.raw",
+    "20150414_QEp1_LC7_NiGr_SA_Saliva_3_fractionated4.raw",
+    "20141116_QEp1_LC7_PhGe_4_53_M2_2.raw",
+    "20150602_QEp3_NiGr_SA_saliva3_4_frac2.raw",
+    "20150414_QEp1_LC7_NiGr_SA_Saliva_2_fractionated5.raw",
+    "20150414_QEp1_LC7_NiGr_SA_Saliva_6m.raw",
+    "20150414_QEp1_LC7_NiGr_SA_Saliva_6_fractionated1.raw",
+    "20150414_QEp1_LC7_NiGr_SA_Saliva_7_fractionated7.raw",
+    "20150414_QEp1_LC7_NiGr_SA_Saliva_7_fractionated5.raw",
+    "20150414_QEp1_LC7_NiGr_SA_Saliva_4.raw",
+    "20150414_QEp1_LC7_NiGr_SA_Saliva_7.raw",
+    "20150414_QEp1_LC7_NiGr_SA_Saliva_2_fractionated8.raw",
+    "20150414_QEp1_LC7_NiGr_SA_Saliva_8.raw",
+    "20150414_QEp1_LC7_NiGr_SA_Saliva_7_fractionated6.raw",
+    "20150414_QEp1_LC7_NiGr_SA_Saliva_8_fractionated4.raw",
+    "20150414_QEp1_LC7_NiGr_SA_Saliva_6_fractionated4.raw",
+    "20150414_QEp1_LC7_NiGr_SA_Saliva_5_fractionated7.raw",
+    "20150414_QEp1_LC7_NiGr_SA_Saliva_2m.raw",
+    "20150414_QEp1_LC7_NiGr_SA_Saliva_1_fractionated3.raw",
+    "20150414_QEp1_LC7_NiGr_SA_Saliva_7_fractionated4.raw",
+    "20150414_QEp1_LC7_NiGr_SA_Saliva_5_fractionated4.raw",
+    "20150414_QEp1_LC7_NiGr_SA_Saliva_2_fractionated7.raw",
+    "20150414_QEp1_LC7_NiGr_SA_Saliva_3m.raw",
+    "20150602_QEp3_NiGr_SA_saliva3_4_frac4.raw",
+    "20150414_QEp1_LC7_NiGr_SA_Saliva_8_fractionated3.raw",
+    "20150414_QEp1_LC7_NiGr_SA_Saliva_1_fractionated6.raw",
+    "20150414_QEp1_LC7_NiGr_SA_Saliva_5_fractionated8.raw",
+    "20150414_QEp1_LC7_NiGr_SA_Saliva_6_fractionated3.raw",
+    "20150513_QEp4_NiGr_SA_workflow_rep2.raw",
+    "20150602_QEp3_NiGr_SA_saliva3_4_frac8.raw",
+    "20150414_QEp1_LC7_NiGr_SA_Saliva_1_fractionated1.raw",
+    "20150414_QEp1_LC7_NiGr_SA_Saliva_1_fractionated7.raw",
+    "20150414_QEp1_LC7_NiGr_SA_Saliva_1_fractionated8.raw",
+    "20150414_QEp1_LC7_NiGr_SA_Saliva_4m.raw",
+    "20141116_QEp1_LC7_PhGe_4_53_M2_3.raw",
+    "20150414_QEp1_LC7_NiGr_SA_Saliva_3.raw",
+    "20150414_QEp1_LC7_NiGr_SA_Saliva_3_fractionated7.raw",
+    "20150414_QEp1_LC7_NiGr_SA_Saliva_3_fractionated1.raw",
+    "20150414_QEp1_LC7_NiGr_SA_Saliva_5_fractionated2.raw",
+    "20150414_QEp1_LC7_NiGr_SA_Saliva_8_fractionated1.raw"
+  ],
+  "anchor": {
+    "pxd": "PXD003028",
+    "source": "PRIDE_API",
+    "organism": [
+      {
+        "name": "Homo sapiens (human)",
+        "accession": "NEWT:9606"
+      }
+    ],
+    "instruments": [
+      {
+        "name": "Q Exactive",
+        "accession": "MS:1001911",
+        "sdrf_format": "AC=MS:1001911;NT=Q Exactive"
+      }
+    ],
+    "modifications": [],
+    "organism_parts": [
+      {
+        "name": "Saliva",
+        "accession": "BTO:0001202"
+      }
+    ],
+    "diseases": [],
+    "experiment_types": [
+      "Shotgun proteomics"
+    ],
+    "quantification_methods": [
+      "MS1 intensity based label-free quantification method"
+    ],
+    "keywords": [
+      "Saliva",
+      "Brp",
+      "Microbiome",
+      "Metaproteome",
+      "Ngs",
+      "Ms",
+      "Plasma",
+      "Blood",
+      "Fractionation",
+      "Biomarker"
+    ],
+    "publications": [
+      {
+        "pubmed_id": "",
+        "doi": "10.1186/s13073-016-0293-0",
+        "ref": "Grassl N, Kulak NA, Pichler G, Geyer PE, Jung J, Schubert S, Sinitcyn P, Cox J, Mann M. Ultra-deep and quantitative saliva proteome reveals dynamics of the oral microbiome. Genome Med. 2016 Apr 21;8(1):44"
+      }
+    ],
+    "inferred_fragmentation": "HCD",
+    "inferred_ms2_analyzer": "orbitrap",
+    "inferred_ionization": "nanoESI",
+    "raw_files": [
+      "20150414_QEp1_LC7_NiGr_SA_Saliva_5_fractionated5.raw",
+      "20141116_QEp1_LC7_PhGe_4_53_M1_2.raw",
+      "20150414_QEp1_LC7_NiGr_SA_Saliva_8_fractionated6.raw",
+      "20150414_QEp1_LC7_NiGr_SA_Saliva_7_fractionated3.raw",
+      "20150414_QEp1_LC7_NiGr_SA_Saliva_5_fractionated3.raw",
+      "20150602_QEp3_NiGr_SA_saliva3_4_frac5.raw",
+      "20150602_QEp3_NiGr_SA_saliva3_4_frac1.raw",
+      "20150414_QEp1_LC7_NiGr_SA_Saliva_3_fractionated8.raw",
+      "20150414_QEp1_LC7_NiGr_SA_Saliva_6_fractionated5.raw",
+      "20150414_QEp1_LC7_NiGr_SA_Saliva_3_fractionated5.raw",
+      "20150414_QEp1_LC7_NiGr_SA_Saliva_3_fractionated6.raw",
+      "20141116_QEp1_LC7_PhGe_4_53_M1_4.raw",
+      "20150602_QEp3_NiGr_SA_saliva3_4_frac6.raw",
+      "20150414_QEp1_LC7_NiGr_SA_Saliva_7m.raw",
+      "20150414_QEp1_LC7_NiGr_SA_Saliva_6_fractionated7.raw",
+      "20150414_QEp1_LC7_NiGr_SA_Saliva_1m.raw",
+      "20141116_QEp1_LC7_PhGe_4_53_M1_3.raw",
+      "20150414_QEp1_LC7_NiGr_SA_Saliva_5_fractionated6.raw",
+      "20150414_QEp1_LC7_NiGr_SA_Saliva_6_fractionated8.raw",
+      "20150414_QEp1_LC7_NiGr_SA_Saliva_1.raw",
+      "20150414_QEp1_LC7_NiGr_SA_Saliva_2_fractionated4.raw",
+      "20150414_QEp1_LC7_NiGr_SA_Saliva_8_fractionated7.raw",
+      "20150414_QEp1_LC7_NiGr_SA_Saliva_2_fractionated6.raw",
+      "20150414_QEp1_LC7_NiGr_SA_Saliva_1_fractionated2.raw",
+      "20150414_QEp1_LC7_NiGr_SA_Saliva_7_fractionated8.raw",
+      "20150414_QEp1_LC7_NiGr_SA_Saliva_6_fractionated6.raw",
+      "20150602_QEp3_NiGr_SA_saliva3_4_frac3.raw",
+      "20150414_QEp1_LC7_NiGr_SA_Saliva_3_fractionated2.raw",
+      "20150513_QEp4_NiGr_SA_workflow_rep1.raw",
+      "20150414_QEp1_LC7_NiGr_SA_Saliva_8_fractionated2.raw",
+      "20150414_QEp1_LC7_NiGr_SA_Saliva_8m.raw",
+      "20150414_QEp1_LC7_NiGr_SA_Saliva_1_fractionated4.raw",
+      "20150513_QEp4_NiGr_SA_workflow_rep3.raw",
+      "20150414_QEp1_LC7_NiGr_SA_Saliva_7_fractionated2.raw",
+      "20150414_QEp1_LC7_NiGr_SA_Saliva_2_fractionated1.raw",
+      "20150414_QEp1_LC7_NiGr_SA_Saliva_2_fractionated3.raw",
+      "20150414_QEp1_LC7_NiGr_QC_SA_Saliva2_2.raw",
+      "20150414_QEp1_LC7_NiGr_SA_Saliva_6.raw",
+      "20150414_QEp1_LC7_NiGr_SA_Saliva_5m.raw",
+      "20150414_QEp1_LC7_NiGr_SA_Saliva_5.raw",
+      "20150414_QEp1_LC7_NiGr_SA_Saliva_5_fractionated1.raw",
+      "20150414_QEp1_LC7_NiGr_SA_Saliva_8_fractionated8.raw",
+      "20150414_QEp1_LC7_NiGr_SA_Saliva_8_fractionated5.raw",
+      "20150414_QEp1_LC7_NiGr_SA_Saliva_6_fractionated2.raw",
+      "20150602_QEp3_NiGr_SA_saliva3_4_frac7.raw",
+      "20150414_QEp1_LC7_NiGr_SA_Saliva_1_fractionated5.raw",
+      "20150414_QEp1_LC7_NiGr_SA_Saliva_3_fractionated3.raw",
+      "20150414_QEp1_LC7_NiGr_SA_Saliva_7_fractionated1.raw",
+      "20141116_QEp1_LC7_PhGe_4_53_M2_1.raw",
+      "20150414_QEp1_LC7_NiGr_SA_Saliva_2_fractionated2.raw",
+      "20150414_QEp1_LC7_NiGr_SA_Saliva_3_fractionated4.raw",
+      "20141116_QEp1_LC7_PhGe_4_53_M2_2.raw",
+      "20150602_QEp3_NiGr_SA_saliva3_4_frac2.raw",
+      "20150414_QEp1_LC7_NiGr_SA_Saliva_2_fractionated5.raw",
+      "20150414_QEp1_LC7_NiGr_SA_Saliva_6m.raw",
+      "20150414_QEp1_LC7_NiGr_SA_Saliva_6_fractionated1.raw",
+      "20150414_QEp1_LC7_NiGr_SA_Saliva_7_fractionated7.raw",
+      "20150414_QEp1_LC7_NiGr_SA_Saliva_7_fractionated5.raw",
+      "20150414_QEp1_LC7_NiGr_SA_Saliva_4.raw",
+      "20150414_QEp1_LC7_NiGr_SA_Saliva_7.raw",
+      "20150414_QEp1_LC7_NiGr_SA_Saliva_2_fractionated8.raw",
+      "20150414_QEp1_LC7_NiGr_SA_Saliva_8.raw",
+      "20150414_QEp1_LC7_NiGr_SA_Saliva_7_fractionated6.raw",
+      "20150414_QEp1_LC7_NiGr_SA_Saliva_8_fractionated4.raw",
+      "20150414_QEp1_LC7_NiGr_SA_Saliva_6_fractionated4.raw",
+      "20150414_QEp1_LC7_NiGr_SA_Saliva_5_fractionated7.raw",
+      "20150414_QEp1_LC7_NiGr_SA_Saliva_2m.raw",
+      "20150414_QEp1_LC7_NiGr_SA_Saliva_1_fractionated3.raw",
+      "20150414_QEp1_LC7_NiGr_SA_Saliva_7_fractionated4.raw",
+      "20150414_QEp1_LC7_NiGr_SA_Saliva_5_fractionated4.raw",
+      "20150414_QEp1_LC7_NiGr_SA_Saliva_2_fractionated7.raw",
+      "20150414_QEp1_LC7_NiGr_SA_Saliva_3m.raw",
+      "20150602_QEp3_NiGr_SA_saliva3_4_frac4.raw",
+      "20150414_QEp1_LC7_NiGr_SA_Saliva_8_fractionated3.raw",
+      "20150414_QEp1_LC7_NiGr_SA_Saliva_1_fractionated6.raw",
+      "20150414_QEp1_LC7_NiGr_SA_Saliva_5_fractionated8.raw",
+      "20150414_QEp1_LC7_NiGr_SA_Saliva_6_fractionated3.raw",
+      "20150513_QEp4_NiGr_SA_workflow_rep2.raw",
+      "20150602_QEp3_NiGr_SA_saliva3_4_frac8.raw",
+      "20150414_QEp1_LC7_NiGr_SA_Saliva_1_fractionated1.raw",
+      "20150414_QEp1_LC7_NiGr_SA_Saliva_1_fractionated7.raw",
+      "20150414_QEp1_LC7_NiGr_SA_Saliva_1_fractionated8.raw",
+      "20150414_QEp1_LC7_NiGr_SA_Saliva_4m.raw",
+      "20141116_QEp1_LC7_PhGe_4_53_M2_3.raw",
+      "20150414_QEp1_LC7_NiGr_SA_Saliva_3.raw",
+      "20150414_QEp1_LC7_NiGr_SA_Saliva_3_fractionated7.raw",
+      "20150414_QEp1_LC7_NiGr_SA_Saliva_3_fractionated1.raw",
+      "20150414_QEp1_LC7_NiGr_SA_Saliva_5_fractionated2.raw",
+      "20150414_QEp1_LC7_NiGr_SA_Saliva_8_fractionated1.raw"
+    ]
+  },
+  "steps": {
+    "STEP1_OVERVIEW": {
+      "confirmed": {
+        "Characteristics[Organism]": {
+          "value": "Homo sapiens",
+          "evidence": "Standard clinical cotton swabs were used to collect saliva form eight healthy individuals",
+          "source": "manuscript"
+        },
+        "Characteristics[OrganismPart]": {
+          "value": "saliva",
+          "evidence": "Standard clinical cotton swabs were used to collect saliva form eight healthy individuals",
+          "source": "manuscript"
+        },
+        "Characteristics[MaterialType]": {
+          "value": "body fluid",
+          "evidence": "simultaneously characterize the human and microbiome contributions to the proteome of a body fluid",
+          "source": "manuscript"
+        },
+        "Characteristics[Label]": {
+          "value": "label-free",
+          "evidence": "MS1 intensity based label-free quantification method confirmed from PRIDE database and quantitative measurements described in abstract",
+          "source": "anchor"
+        },
+        "Comment[AcquisitionMethod]": {
+          "value": "cotton swab collection",
+          "evidence": "Standard clinical cotton swabs were used to collect saliva form eight healthy individuals",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {
+        "Characteristics[Disease]": {
+          "candidates": [
+            "healthy",
+            "none"
+          ],
+          "reasoning": "The text mentions 'eight healthy individuals', suggesting no disease condition",
+          "needs": "Confirmation whether 'healthy' should be recorded as disease status or if this category should be not_applicable"
+        }
+      },
+      "not_applicable": [
+        "Characteristics[CellType]",
+        "Characteristics[CellLine]",
+        "Characteristics[Specimen]",
+        "Characteristics[Strain]",
+        "Characteristics[GeneticModification]",
+        "Characteristics[Treatment]",
+        "Characteristics[DevelopmentalStage]",
+        "Characteristics[Compound]",
+        "Characteristics[ConcentrationOfCompound]"
+      ],
+      "summary": "This is a shotgun proteomics study of human saliva collected from healthy individuals using cotton swabs. The study uses label-free quantification and aims to characterize both human and microbial proteins in saliva. Key uncertainties remain around whether the healthy status of subjects should be recorded as a disease characteristic or considered not applicable."
+    },
+    "STEP2_SAMPLE_PREP": {
+      "confirmed": {
+        "Characteristics[CleavageAgent]": {
+          "value": "trypsin;LysC",
+          "evidence": "a total of 20 μg of protein was digested by adding 0.4 μg trypsin and LysC to our lysis buffer and incubating for 60 min at 37 °C while shaking",
+          "source": "manuscript"
+        },
+        "Characteristics[AlkylationReagent]": {
+          "value": "2-chloroacetamide",
+          "evidence": "lysis buffer (1 % sodium dodecyl carbonate (v/v), 10 mM tris (2-carboxyethyl) phosphine, 40 mM 2-chloroacetamide, 100 mM Tris buffer pH 8.5)",
+          "source": "manuscript"
+        },
+        "Characteristics[ReductionReagent]": {
+          "value": "tris(2-carboxyethyl)phosphine",
+          "evidence": "lysis buffer (1 % sodium dodecyl carbonate (v/v), 10 mM tris (2-carboxyethyl) phosphine, 40 mM 2-chloroacetamide, 100 mM Tris buffer pH 8.5)",
+          "source": "manuscript"
+        },
+        "Characteristics[Label]": {
+          "value": "label free sample",
+          "evidence": "Relative quantification was performed using the default parameters of the MaxLFQ algorithm",
+          "source": "manuscript"
+        },
+        "Characteristics[Modification]": {
+          "value": "NT:acetyl",
+          "evidence": "We set N-acetylation of proteins' N-termini (42.010565 Da) and oxidation of methionine (15.994915 Da) as variable modifications",
+          "source": "manuscript"
+        },
+        "Characteristics[Modification].1": {
+          "value": "15.994915,M,Oxidation",
+          "evidence": "We set N-acetylation of proteins' N-termini (42.010565 Da) and oxidation of methionine (15.994915 Da) as variable modifications",
+          "source": "manuscript"
+        },
+        "Characteristics[Modification].2": {
+          "value": "57.021464,C,Carbamidomethyl",
+          "evidence": "carbamidomethylation of cysteine as a fixed modification (57.021464 Da)",
+          "source": "manuscript"
+        },
+        "Comment[FractionationMethod]": {
+          "value": "basic reversed phase chromatography",
+          "evidence": "we used basic reversed phase chromatography to fractionate our eight waking samples prior to liquid chromatography (LC)-MS measurement",
+          "source": "manuscript"
+        },
+        "Comment[Separation]": {
+          "value": "reversed phase chromatography",
+          "evidence": "Approximately 15 μg of peptides were separated in an 80-min gradient on a 20-cm, 75-μm inner diameter column that was in-house packed with ReproSil-Pur C18 beads",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {
+        "Comment[NumberOfFractions]": {
+          "candidates": [
+            "8",
+            "concatenated fractions (number not specified)"
+          ],
+          "reasoning": "Text mentions fractionating 'eight waking samples' and 'concatenated fractions' but doesn't explicitly state the number of fractions created",
+          "needs": "Clear statement of how many fractions were generated from the basic reversed phase chromatography"
+        }
+      },
+      "not_applicable": [
+        "Characteristics[Modification].3",
+        "Characteristics[Modification].4",
+        "Characteristics[Modification].5",
+        "Characteristics[Modification].6",
+        "Characteristics[Depletion",
+        "Characteristics[SpikedCompound]",
+        "Characteristics[SyntheticPeptide]",
+        "Comment[EnrichmentMethod]"
+      ],
+      "summary": "Sample preparation details are well documented: trypsin/LysC digestion with TCEP reduction and 2-chloroacetamide alkylation. Three modifications identified: N-terminal acetylation and methionine oxidation (variable), carbamidomethylation of cysteine (fixed). Basic reversed phase fractionation was used for deep proteome analysis, though the exact number of fractions remains unclear. No enrichment, depletion, or synthetic peptide spikes were mentioned."
+    },
+    "STEP3_MS_SETTINGS": {
+      "confirmed": {
+        "Comment[Instrument]": {
+          "value": "Q Exactive HF",
+          "evidence": "The chromatography was on-line coupled to a Q Exactive HF mass spectrometer (Thermo Fisher Scientific)",
+          "source": "manuscript"
+        },
+        "Comment[FragmentationMethod]": {
+          "value": "HCD",
+          "evidence": "The 15 most intense ions per MS scan were selected for higher-energy collisional dissociation (HCD) fragmentation",
+          "source": "manuscript"
+        },
+        "Comment[IonizationType]": {
+          "value": "electrospray ionization",
+          "evidence": "by applying a spray voltage of 2.2 kV",
+          "source": "manuscript"
+        },
+        "Comment[MS2MassAnalyzer]": {
+          "value": "orbitrap",
+          "evidence": "measured at a resolution of 30,000 (Q Exactive HF uses orbitrap analyzer)",
+          "source": "manuscript"
+        },
+        "Comment[PrecursorMassTolerance]": {
+          "value": "4.5 ppm",
+          "evidence": "The initial allowed mass tolerance was set to 4.5 ppm at the MS level",
+          "source": "manuscript"
+        },
+        "Comment[FragmentMassTolerance]": {
+          "value": "0.5 Da",
+          "evidence": "The initial allowed mass tolerance was set to 4.5 ppm at the MS level and 0.5 Da at the MS/MS level",
+          "source": "manuscript"
+        },
+        "Comment[NumberOfMissedCleavages]": {
+          "value": "2",
+          "evidence": "Only tryptic peptides that were at least seven amino acids in length with up to two missed cleavages were considered",
+          "source": "manuscript"
+        },
+        "Comment[GradientTime]": {
+          "value": "100 min",
+          "evidence": "Both the fractionated and the single run samples were subjected to a 100-min chromatography gradient",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {
+        "Comment[AcquisitionMethod]": {
+          "candidates": [
+            "DDA",
+            "data-dependent acquisition"
+          ],
+          "reasoning": "Text mentions 'The 15 most intense ions per MS scan were selected for higher-energy collisional dissociation' which indicates data-dependent acquisition, but the term DDA is not explicitly stated",
+          "needs": "Explicit mention of DDA or data-dependent acquisition method"
+        },
+        "Comment[CollisionEnergy]": {
+          "candidates": [
+            "stepped NCE",
+            "default HCD energy"
+          ],
+          "reasoning": "HCD fragmentation is confirmed but specific collision energy values are not mentioned in the text",
+          "needs": "Explicit collision energy values or NCE settings"
+        }
+      },
+      "not_applicable": [
+        "Comment[FlowRateChromatogram]"
+      ],
+      "summary": "Mass spectrometry parameters are well documented: Q Exactive HF instrument with HCD fragmentation, electrospray ionization, and orbitrap MS2 analyzer. Search parameters include 4.5 ppm precursor tolerance, 0.5 Da fragment tolerance, up to 2 missed cleavages, and 100-min gradient time. The acquisition method appears to be DDA based on ion selection strategy, but this needs confirmation. Collision energy and flow rate information are not provided in the text."
+    },
+    "STEP4_RAW_FILES": {
+      "confirmed": {
+        "Characteristics[NumberOfBiologicalReplicates]": {
+          "value": "8",
+          "evidence": "We collected saliva at two different time points from four female and four male, healthy, non-smoking individuals aged 24 to 40 years",
+          "source": "manuscript"
+        },
+        "Characteristics[NumberOfTechnicalReplicates]": {
+          "value": "1",
+          "evidence": "Because this showed very high reproducibility (mean R2 = 0.92, Additional file 1: Figure S3b), we did not perform technical replicates in this study",
+          "source": "manuscript"
+        },
+        "Characteristics[NumberOfSamples]": {
+          "value": "16",
+          "evidence": "8 individuals × 2 time points (waking and postprandial) = 16 single run samples, as confirmed by 'all 16 single shot runs' in the text",
+          "source": "manuscript"
+        },
+        "Comment[FractionIdentifier]": {
+          "value": "per_file",
+          "per_file": {
+            "20150414_QEp1_LC7_NiGr_SA_Saliva_1_fractionated1.raw": "1",
+            "20150414_QEp1_LC7_NiGr_SA_Saliva_1_fractionated2.raw": "2",
+            "20150414_QEp1_LC7_NiGr_SA_Saliva_1_fractionated3.raw": "3",
+            "20150414_QEp1_LC7_NiGr_SA_Saliva_1_fractionated4.raw": "4",
+            "20150414_QEp1_LC7_NiGr_SA_Saliva_1_fractionated5.raw": "5",
+            "20150414_QEp1_LC7_NiGr_SA_Saliva_1_fractionated6.raw": "6",
+            "20150414_QEp1_LC7_NiGr_SA_Saliva_1_fractionated7.raw": "7",
+            "20150414_QEp1_LC7_NiGr_SA_Saliva_1_fractionated8.raw": "8",
+            "20150602_QEp3_NiGr_SA_saliva3_4_frac1.raw": "1",
+            "20150602_QEp3_NiGr_SA_saliva3_4_frac2.raw": "2",
+            "20150602_QEp3_NiGr_SA_saliva3_4_frac3.raw": "3",
+            "20150602_QEp3_NiGr_SA_saliva3_4_frac4.raw": "4",
+            "20150602_QEp3_NiGr_SA_saliva3_4_frac5.raw": "5",
+            "20150602_QEp3_NiGr_SA_saliva3_4_frac6.raw": "6",
+            "20150602_QEp3_NiGr_SA_saliva3_4_frac7.raw": "7",
+            "20150602_QEp3_NiGr_SA_saliva3_4_frac8.raw": "8"
+          },
+          "evidence": "Fraction numbers are clearly indicated in filenames with 'fractionated[1-8]' and 'frac[1-8]' patterns. Text confirms 'we used basic reversed phase chromatography to fractionate our eight waking samples'",
+          "source": "filename"
+        },
+        "Characteristics[BiologicalReplicate]": {
+          "value": "per_file",
+          "per_file": {
+            "20150414_QEp1_LC7_NiGr_SA_Saliva_1.raw": "1",
+            "20150414_QEp1_LC7_NiGr_SA_Saliva_2m.raw": "2",
+            "20150414_QEp1_LC7_NiGr_SA_Saliva_3.raw": "3",
+            "20150414_QEp1_LC7_NiGr_SA_Saliva_4.raw": "4",
+            "20150414_QEp1_LC7_NiGr_SA_Saliva_5.raw": "5",
+            "20150414_QEp1_LC7_NiGr_SA_Saliva_6.raw": "6",
+            "20150414_QEp1_LC7_NiGr_SA_Saliva_7.raw": "7",
+            "20150414_QEp1_LC7_NiGr_SA_Saliva_8.raw": "8"
+          },
+          "evidence": "Subject numbers 1-8 are clearly indicated in filenames. Files with 'm' suffix (e.g., _1m, _2m) represent the same subjects at different time points (postprandial vs waking)",
+          "source": "filename"
+        },
+        "FactorValue[FractionIdentifier]": {
+          "value": "per_file",
+          "per_file": {
+            "20150414_QEp1_LC7_NiGr_SA_Saliva_1_fractionated1.raw": "1",
+            "20150414_QEp1_LC7_NiGr_SA_Saliva_1_fractionated2.raw": "2",
+            "20150414_QEp1_LC7_NiGr_SA_Saliva_1_fractionated3.raw": "3",
+            "20150414_QEp1_LC7_NiGr_SA_Saliva_1_fractionated4.raw": "4",
+            "20150414_QEp1_LC7_NiGr_SA_Saliva_1_fractionated5.raw": "5",
+            "20150414_QEp1_LC7_NiGr_SA_Saliva_1_fractionated6.raw": "6",
+            "20150414_QEp1_LC7_NiGr_SA_Saliva_1_fractionated7.raw": "7",
+            "20150414_QEp1_LC7_NiGr_SA_Saliva_1_fractionated8.raw": "8"
+          },
+          "evidence": "Same as Comment[FractionIdentifier] - fraction numbers clearly indicated in filenames",
+          "source": "filename"
+        }
+      },
+      "hypotheses": {
+        "FactorValue[Treatment]": {
+          "candidates": [
+            "waking",
+            "postprandial"
+          ],
+          "reasoning": "Files with 'm' suffix appear to represent postprandial samples (10 a.m. collection after breakfast), while files without 'm' represent waking samples (immediately after waking). Text mentions 'The first collection was immediately after waking' and 'The second collection took place at 10 a.m., at least 30 min after the donors had eaten breakfast'",
+          "needs": "Confirmation that 'm' suffix specifically indicates postprandial/morning samples vs waking samples"
+        }
+      },
+      "not_applicable": [
+        "FactorValue[Temperature]",
+        "FactorValue[Disease]",
+        "FactorValue[GeneticModification]",
+        "FactorValue[Compound]",
+        "FactorValue[Bait]",
+        "FactorValue[CellPart]",
+        "FactorValue[ConcentrationOfCompound].1"
+      ],
+      "summary": "File analysis confirms 8 biological replicates with no technical replicates, totaling 16 single-run samples. Fractionated samples clearly show 8 fractions per sample based on filename patterns. The 'm' suffix in filenames likely indicates postprandial samples vs waking samples, representing the two time points mentioned in the experimental design. Workflow reproducibility files (rep1, rep2, rep3) and plasma comparison files (PhGe) are separate validation experiments."
+    }
+  }
+}

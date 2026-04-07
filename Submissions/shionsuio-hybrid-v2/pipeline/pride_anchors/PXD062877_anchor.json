@@ -1,0 +1,116 @@
+{
+  "pxd": "PXD062877",
+  "source": "PRIDE_API",
+  "organism": [
+    {
+      "name": "Mus musculus (mouse)",
+      "accession": "NEWT:10090"
+    }
+  ],
+  "instruments": [
+    {
+      "name": "Orbitrap Astral",
+      "accession": "MS:1003378",
+      "sdrf_format": "AC=MS:1003378;NT=Orbitrap Astral"
+    }
+  ],
+  "modifications": [],
+  "organism_parts": [
+    {
+      "name": "Bone marrow",
+      "accession": "BTO:0000141"
+    },
+    {
+      "name": "Macrophage",
+      "accession": "CL:0000235"
+    },
+    {
+      "name": "Cell culture",
+      "accession": "BTO:0000214"
+    }
+  ],
+  "diseases": [
+    {
+      "name": "Alpers-huttenlocher syndrome",
+      "accession": "DOID:0080122"
+    },
+    {
+      "name": "Mitochondrial metabolism disease",
+      "accession": "DOID:700"
+    }
+  ],
+  "experiment_types": [
+    "Data-independent acquisition"
+  ],
+  "quantification_methods": [
+    "Protein Abundance Index - PAI"
+  ],
+  "keywords": [
+    "Innate immunity",
+    "Polg",
+    "Mouse",
+    "Bone marrow macrophage",
+    "Mitochondrial dysfunction",
+    "Pseudomonas aeruginosa"
+  ],
+  "publications": [
+    {
+      "pubmed_id": "",
+      "doi": "10.1101/2024.05.11.593693",
+      "ref": "VanPortfliet JJ, Lei Y, Ramanathan M, Martinez CG, Wong J, Stodola TJ, Hoffmann BR, Pflug K, Sitcheran R, Kneeland SC, Murray SA, McGuire PJ, Cannon CL, West AP. Caspase-11 drives macrophage hyperinflammation in models of Polg-related mitochondrial disease. bioRxiv. 2025:2024.05.11.593693"
+    }
+  ],
+  "inferred_fragmentation": "HCD",
+  "inferred_ms2_analyzer": "orbitrap",
+  "inferred_ionization": "nanoESI",
+  "raw_files": [
+    "20240924_018_West_BMDM_2039_rep1.raw",
+    "20240924_020_West_BMDM_2035_rep2.raw",
+    "20240924_008_West_BMDM_2040_rep1.raw",
+    "20240924_006_West_BMDM_2055_rep2.raw",
+    "20240924_021_West_BMDM_2049_rep1.raw",
+    "20240924_007_West_BMDM_2044_rep2.raw",
+    "20240924_011_West_BMDM_2050_rep2.raw",
+    "20240924_010_West_BMDM_2045_rep2.raw",
+    "20240924_014_West_BMDM_2054_rep2.raw",
+    "20240924_019_West_BMDM_2033_rep1.raw",
+    "20240924_006_West_BMDM_2055_rep1.raw",
+    "20240924_015_West_BMDM_2047_rep2.raw",
+    "20240924_023_West_BMDM_2052_rep2.raw",
+    "20240924_004_West_BMDM_2051_rep2.raw",
+    "20240924_016_West_BMDM_2041_rep1.raw",
+    "20240924_001_West_BMDM_2046_rep1.raw",
+    "20240924_001_West_BMDM_2046_rep2.raw",
+    "20240924_022_West_BMDM_2036_rep1.raw",
+    "20240924_013_West_BMDM_2038_rep1.raw",
+    "20240924_005_West_BMDM_2043_rep2.raw",
+    "20240924_018_West_BMDM_2039_rep2.raw",
+    "20240924_024_West_BMDM_2048_rep2.raw",
+    "20240924_010_West_BMDM_2045_rep1.raw",
+    "20240924_002_West_BMDM_2034_rep2.raw",
+    "20240924_014_West_BMDM_2054_rep1.raw",
+    "20240924_009_West_BMDM_2053_rep2.raw",
+    "20240924_005_West_BMDM_2043_rep1.raw",
+    "20240924_024_West_BMDM_2048_rep1.raw",
+    "20240924_022_West_BMDM_2036_rep2.raw",
+    "20240924_003_West_BMDM_2037_rep2.raw",
+    "20240924_008_West_BMDM_2040_rep2.raw",
+    "20240924_002_West_BMDM_2034_rep1.raw",
+    "20240924_017_West_BMDM_2032_rep2.raw",
+    "20240924_020_West_BMDM_2035_rep1.raw",
+    "20240924_012_West_BMDM_2042_rep2.raw",
+    "20240924_021_West_BMDM_2049_rep2.raw",
+    "20240924_015_West_BMDM_2047_rep1.raw",
+    "20240924_009_West_BMDM_2053_rep1.raw",
+    "20240924_004_West_BMDM_2051_rep1.raw",
+    "20240924_011_West_BMDM_2050_rep1.raw",
+    "20240924_003_West_BMDM_2037_rep1.raw",
+    "20240924_019_West_BMDM_2033_rep2.raw",
+    "20240924_013_West_BMDM_2038_rep2.raw",
+    "20240924_017_West_BMDM_2032_rep1.raw",
+    "20240924_012_West_BMDM_2042_rep1.raw",
+    "20240924_007_West_BMDM_2044_rep1.raw",
+    "20240924_016_West_BMDM_2041_rep2.raw",
+    "20240924_023_West_BMDM_2052_rep1.raw"
+  ]
+}

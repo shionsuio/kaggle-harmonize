@@ -1,0 +1,55 @@
+{
+  "pxd": "PXD004613",
+  "source": "PRIDE_API",
+  "organism": [
+    {
+      "name": "Homo sapiens (human)",
+      "accession": "NEWT:9606"
+    }
+  ],
+  "instruments": [
+    {
+      "name": "Q Exactive",
+      "accession": "MS:1001911",
+      "sdrf_format": "AC=MS:1001911;NT=Q Exactive"
+    }
+  ],
+  "modifications": [],
+  "organism_parts": [
+    {
+      "name": "Cell culture",
+      "accession": "BTO:0000214"
+    }
+  ],
+  "diseases": [],
+  "experiment_types": [
+    "Shotgun proteomics"
+  ],
+  "quantification_methods": [],
+  "keywords": [
+    "Human",
+    "Shotgun proteomics heretochromatin",
+    "Hela",
+    "Repo-man"
+  ],
+  "publications": [
+    {
+      "pubmed_id": "",
+      "doi": "10.1038/ncomms14048",
+      "ref": "de Castro IJ, Budzak J, Di Giacinto ML, Ligammari L, Gokhan E, Spanos C, Moralli D, Richardson C, de Las Heras JI, Salatino S, Schirmer EC, Ullman KS, Bickmore WA, Green C, Rappsilber J, Lamble S, Goldberg MW, Vinciotti V, Vagnarelli P. Repo-Man/PP1 regulates heterochromatin formation in interphase. Nat Commun. 2017 Jan 16;8:14048"
+    }
+  ],
+  "inferred_fragmentation": "HCD",
+  "inferred_ms2_analyzer": "orbitrap",
+  "inferred_ionization": "nanoESI",
+  "raw_files": [
+    "E150416_08_Quty1_CS_CO_220_Ines_GSTalone_3.raw",
+    "E150416_06_Quty1_CS_CO_220_Ines_GSTalone_1.raw",
+    "E160618_07_Quty1_CS_CO_220_PV_Ines_PV1B.raw",
+    "E150416_02_Quty1_CS_CO_220_Ines_CtermGST_1.raw",
+    "E150416_07_Quty1_CS_CO_220_Ines_GSTalone_2.raw",
+    "E150416_03_Quty1_CS_CO_220_Ines_CtermGST_2.raw",
+    "E150416_04_Quty1_CS_CO_220_Ines_CtermGST_3.raw",
+    "E160618_05_Quty1_CS_CO_220_PV_Ines_PV1A.raw"
+  ]
+}

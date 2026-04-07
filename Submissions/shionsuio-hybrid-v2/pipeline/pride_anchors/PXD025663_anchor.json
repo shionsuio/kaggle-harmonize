@@ -1,0 +1,78 @@
+{
+  "pxd": "PXD025663",
+  "source": "PRIDE_API",
+  "organism": [
+    {
+      "name": "Homo sapiens (human)",
+      "accession": "NEWT:9606"
+    }
+  ],
+  "instruments": [
+    {
+      "name": "Orbitrap Fusion Lumos",
+      "accession": "MS:1002732",
+      "sdrf_format": "AC=MS:1002732;NT=Orbitrap Fusion Lumos"
+    }
+  ],
+  "modifications": [],
+  "organism_parts": [
+    {
+      "name": "Brain",
+      "accession": "BTO:0000142"
+    }
+  ],
+  "diseases": [
+    {
+      "name": "Gerstmann-straussler-scheinker syndrome",
+      "accession": "DOID:4249"
+    },
+    {
+      "name": "Alzheimer's disease",
+      "accession": "DOID:10652"
+    },
+    {
+      "name": "Cerebral amyloid angiopathy",
+      "accession": "DOID:9246"
+    }
+  ],
+  "experiment_types": [
+    "Shotgun proteomics"
+  ],
+  "quantification_methods": [
+    "Spectrum counting"
+  ],
+  "keywords": [
+    "Brain",
+    "Tau",
+    "Gss",
+    "Prp-caa",
+    "Cryo-em",
+    "Seeding",
+    "Aprp",
+    "Neurodegeneration"
+  ],
+  "publications": [
+    {
+      "pubmed_id": "",
+      "doi": "10.1007/s00401-021-02336-w",
+      "ref": "Hallinan GI, Hoq MR, Ghosh M, Vago FS, Fernandez A, Garringer HJ, Vidal R, Jiang W, Ghetti B. Structure of Tau filaments in Prion protein amyloidoses. Acta Neuropathol. 2021 142(2):227-241"
+    }
+  ],
+  "inferred_fragmentation": null,
+  "inferred_ms2_analyzer": "orbitrap",
+  "inferred_ionization": "nanoESI",
+  "raw_files": [
+    "Lumos_2020_08_68_Vidal_F198S_CID.raw",
+    "2020_09_96_Q160_2_repeat_etHCD.raw",
+    "Lumos_2020_08_68_Vidal_F198S_HCD_etHCD.raw",
+    "2020_09_96_F198S_2_repeat_etHCD.raw",
+    "2020_09_96_AD_2_repeat_etHCD.raw",
+    "2020_09_96_F198S_2_repeat_CID.raw",
+    "Lumos_2020_07_47_taoprotein_Vidal_CID.raw",
+    "Lumos_2020_08_68_Vidal_Q160X_CID.raw",
+    "Lumos_2020_08_68_Vidal_Q160X_HCD_etHCD_2.raw",
+    "2020_09_96_Q160_2_repeat_CID.raw",
+    "2020_09_96_AD_2_repeat_CID.raw",
+    "Lumos_2020_07_47_taoprotein_Vidal_HCD_etHCD.raw"
+  ]
+}

@@ -1,0 +1,409 @@
+{
+  "pxd": "PXD002266",
+  "raw_files": [
+    "130412_002_UL01429-LS-13.raw",
+    "130830_001_UL01504-LS-05.raw",
+    "130830_001_UL01504-LS-15.raw",
+    "130830_001_UL01504-LS-13.raw",
+    "130412_002_UL01429-LS-05.raw",
+    "130412_002_UL01429-LS-18.raw",
+    "130412_002_UL01429-LS-17.raw",
+    "130830_001_UL01504-LS-10.raw",
+    "130830_001_UL01504-LS-14.raw",
+    "130412_002_UL01429-LS-07.raw",
+    "130412_002_UL01429-LS-10.raw",
+    "130830_001_UL01504-LS-11.raw",
+    "130412_002_UL01429-LS-03.raw",
+    "130412_002_UL01429-LS-15.raw",
+    "130412_002_UL01429-LS-14.raw",
+    "130830_001_UL01504-LS-01.raw",
+    "130830_001_UL01504-LS-07.raw",
+    "130830_001_UL01504-LS-06.raw",
+    "130830_001_UL01504-LS-18.raw",
+    "130412_002_UL01429-LS-01.raw",
+    "130412_002_UL01429-LS-12.raw",
+    "130830_001_UL01504-LS-08.raw",
+    "130412_002_UL01429-LS-04.raw",
+    "130830_001_UL01504-LS-03.raw",
+    "130412_002_UL01429-LS-16.raw",
+    "130412_002_UL01429-LS-02.raw",
+    "130830_001_UL01504-LS-17.raw",
+    "130830_001_UL01504-LS-04.raw",
+    "130412_002_UL01429-LS-11.raw",
+    "130830_001_UL01504-LS-16.raw",
+    "130830_001_UL01504-LS-02.raw",
+    "130412_002_UL01429-LS-08.raw",
+    "130830_001_UL01504-LS-09.raw",
+    "130412_002_UL01429-LS-09.raw",
+    "130830_001_UL01504-LS-12.raw",
+    "130412_002_UL01429-LS-06.raw"
+  ],
+  "anchor": {
+    "pxd": "PXD002266",
+    "source": "PRIDE_API",
+    "organism": [
+      {
+        "name": "Plasmodium falciparum",
+        "accession": "NEWT:5833"
+      }
+    ],
+    "instruments": [
+      {
+        "name": "LTQ Orbitrap Velos",
+        "accession": "MS:1001742",
+        "sdrf_format": "AC=MS:1001742;NT=LTQ Orbitrap Velos"
+      }
+    ],
+    "modifications": [],
+    "organism_parts": [
+      {
+        "name": "Blood",
+        "accession": "BTO:0000089"
+      }
+    ],
+    "diseases": [],
+    "experiment_types": [
+      "Shotgun proteomics"
+    ],
+    "quantification_methods": [],
+    "keywords": [
+      "Malaria",
+      "Quantitation",
+      "Signalling",
+      "Phosphorylation",
+      "Parasite",
+      "Invasion",
+      "Protein kinase g",
+      "Tandem mass tags"
+    ],
+    "publications": [
+      {
+        "pubmed_id": "",
+        "doi": "10.1038/ncomms8285",
+        "ref": "Alam MM, Solyakov L, Bottrill AR, Flueck C, Siddiqui FA, Singh S, Mistry S, Viskaduraki M, Lee K, Hopp CS, Chitnis CE, Doerig C, Moon RW, Green JL, Holder AA, Baker DA, Tobin AB. Phosphoproteomics reveals malaria parasite Protein Kinase G as a signalling hub regulating egress and invasion. Nat Commun. 2015 6:7285"
+      }
+    ],
+    "inferred_fragmentation": null,
+    "inferred_ms2_analyzer": "orbitrap",
+    "inferred_ionization": "nanoESI",
+    "raw_files": [
+      "130412_002_UL01429-LS-13.raw",
+      "130830_001_UL01504-LS-05.raw",
+      "130830_001_UL01504-LS-15.raw",
+      "130830_001_UL01504-LS-13.raw",
+      "130412_002_UL01429-LS-05.raw",
+      "130412_002_UL01429-LS-18.raw",
+      "130412_002_UL01429-LS-17.raw",
+      "130830_001_UL01504-LS-10.raw",
+      "130830_001_UL01504-LS-14.raw",
+      "130412_002_UL01429-LS-07.raw",
+      "130412_002_UL01429-LS-10.raw",
+      "130830_001_UL01504-LS-11.raw",
+      "130412_002_UL01429-LS-03.raw",
+      "130412_002_UL01429-LS-15.raw",
+      "130412_002_UL01429-LS-14.raw",
+      "130830_001_UL01504-LS-01.raw",
+      "130830_001_UL01504-LS-07.raw",
+      "130830_001_UL01504-LS-06.raw",
+      "130830_001_UL01504-LS-18.raw",
+      "130412_002_UL01429-LS-01.raw",
+      "130412_002_UL01429-LS-12.raw",
+      "130830_001_UL01504-LS-08.raw",
+      "130412_002_UL01429-LS-04.raw",
+      "130830_001_UL01504-LS-03.raw",
+      "130412_002_UL01429-LS-16.raw",
+      "130412_002_UL01429-LS-02.raw",
+      "130830_001_UL01504-LS-17.raw",
+      "130830_001_UL01504-LS-04.raw",
+      "130412_002_UL01429-LS-11.raw",
+      "130830_001_UL01504-LS-16.raw",
+      "130830_001_UL01504-LS-02.raw",
+      "130412_002_UL01429-LS-08.raw",
+      "130830_001_UL01504-LS-09.raw",
+      "130412_002_UL01429-LS-09.raw",
+      "130830_001_UL01504-LS-12.raw",
+      "130412_002_UL01429-LS-06.raw"
+    ]
+  },
+  "steps": {
+    "STEP1_OVERVIEW": {
+      "confirmed": {
+        "Characteristics[Organism]": {
+          "value": "Plasmodium falciparum",
+          "evidence": "human malaria parasite, Plasmodium falciparum",
+          "source": "manuscript"
+        },
+        "Characteristics[OrganismPart]": {
+          "value": "Blood",
+          "evidence": "parasite egress from red blood cells",
+          "source": "manuscript"
+        },
+        "Comment[AcquisitionMethod]": {
+          "value": "quantitative global phosphoproteomics",
+          "evidence": "By employing chemical and genetic tools in combination with quantitative global phosphoproteomics",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {
+        "Characteristics[MaterialType]": {
+          "candidates": [
+            "cell",
+            "protein extract"
+          ],
+          "reasoning": "研究はリン酸化プロテオームを対象としており、細胞または細胞抽出物が使用されたと考えられる",
+          "needs": "具体的な実験材料の記載"
+        },
+        "Characteristics[Label]": {
+          "candidates": [
+            "label-free",
+            "chemical labeling"
+          ],
+          "reasoning": "定量的プロテオミクスが行われているが、具体的な標識法の記載なし",
+          "needs": "標識法の具体的な記述"
+        },
+        "Characteristics[Treatment]": {
+          "candidates": [
+            "chemical treatment",
+            "genetic modification"
+          ],
+          "reasoning": "chemical and genetic toolsが使用されたと記載があるが詳細不明",
+          "needs": "具体的な処理条件や化合物名"
+        },
+        "Characteristics[Compound]": {
+          "candidates": [
+            "kinase inhibitor",
+            "cGMP analog"
+          ],
+          "reasoning": "PKGの研究でchemical toolsが使用されており、キナーゼ阻害剤やcGMPアナログが使用された可能性",
+          "needs": "具体的な化合物名と濃度"
+        }
+      },
+      "not_applicable": [
+        "Characteristics[CellType]",
+        "Characteristics[CellLine]",
+        "Characteristics[Disease]",
+        "Characteristics[Specimen]",
+        "Characteristics[Strain]",
+        "Characteristics[GeneticModification]",
+        "Characteristics[DevelopmentalStage]",
+        "Characteristics[ConcentrationOfCompound]"
+      ],
+      "summary": "マラリア原虫Plasmodium falciparumを用いた定量的リン酸化プロテオミクス研究。赤血球からの脱出過程を対象とし、PfPKGキナーゼの標的タンパク質69個を同定。化学的・遺伝学的ツールが使用されたが具体的な処理条件は不明。標識法や具体的な実験材料についてはさらなる情報が必要。"
+    },
+    "STEP2_SAMPLE_PREP": {
+      "confirmed": {
+        "Characteristics[CleavageAgent]": {
+          "value": "trypsin",
+          "evidence": "digested with trypsin (Promega) at a ratio of 1:20 (w/w) trypsin to protein content, overnight at 37 °C",
+          "source": "manuscript"
+        },
+        "Characteristics[ReductionReagent]": {
+          "value": "DTT",
+          "evidence": "This was then incubated at 37 °C for 30 min in the presence 10 mM DTT and 0.1% SDS",
+          "source": "manuscript"
+        },
+        "Characteristics[AlkylationReagent]": {
+          "value": "iodoacetamide",
+          "evidence": "Iodoacetamide (1 M solution) was then added to a final concentration of 100 mM and incubation was continued for another 1 h at room temperature in the dark",
+          "source": "manuscript"
+        },
+        "Characteristics[Label]": {
+          "value": "TMT6plex",
+          "evidence": "For tandem mass tag labelling (TMT labelling), completely digested samples were concentrated to about 250–300 μl in a Speedvac centrifuge and labelled with 6-plex TMT reagents (Thermo scientific)",
+          "source": "manuscript"
+        },
+        "Comment[EnrichmentMethod]": {
+          "value": "IMAC and TiO2",
+          "evidence": "The combined flow-through and wash fractions together with each of the gradient eluate fractions (fractions 10–16) were prepared for immobilized metal affinity chromatography (IMAC) and titanium dioxide (TiO2) enrichment of phosphopeptides",
+          "source": "manuscript"
+        },
+        "Comment[FractionationMethod]": {
+          "value": "anion exchange chromatography",
+          "evidence": "The sample was loaded onto a Resource Q anion-exchange column (1 ml bed volume, GE Healthcare) equilibrated with 10 mM TEAB, pH 8.0. Peptides were eluted by a linear gradient of 0–1 M NaCl",
+          "source": "manuscript"
+        },
+        "Comment[NumberOfFractions]": {
+          "value": "9",
+          "evidence": "The fractions associated with the flow-through (fractions 2–4) were combined and wash fractions (fractions 5–7) were combined... The combined flow-through and wash fractions together with each of the gradient eluate fractions (fractions 10–16)",
+          "source": "manuscript"
+        },
+        "Comment[Separation]": {
+          "value": "nanoLC",
+          "evidence": "LC-MS/MS was carried out using an RSLCnano HPLC system (Dionex)... Peptides were eluted from the column at a flow rate of 0.3 μl min−1 and passed through a reverse-phase PicoFrit capillary column",
+          "source": "manuscript"
+        },
+        "Characteristics[Modification]": {
+          "value": "Carbamidomethyl",
+          "evidence": "Fixed modifications were set as carboxyamidomethyl (C)",
+          "source": "manuscript"
+        },
+        "Characteristics[Modification].1": {
+          "value": "Oxidation",
+          "evidence": "variable modifications set as oxidation (M)",
+          "source": "manuscript"
+        },
+        "Characteristics[Modification].2": {
+          "value": "Phosphorylation",
+          "evidence": "variable modifications set as oxidation (M) and phosphorylation (S/T/Y)",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {},
+      "not_applicable": [
+        "Characteristics[Modification].3",
+        "Characteristics[Modification].4",
+        "Characteristics[Modification].5",
+        "Characteristics[Modification].6",
+        "Characteristics[Depletion",
+        "Characteristics[SpikedCompound]",
+        "Characteristics[SyntheticPeptide]"
+      ],
+      "summary": "サンプル調製の詳細が判明：トリプシン消化、DTT還元、ヨードアセトアミドアルキル化、TMT6plex標識を使用。リン酸化ペプチド濃縮にはIMAC・TiO2の2段階手法、分画にはアニオン交換クロマトグラフィー（9分画）を適用。修飾としてカルバミドメチル化（固定）、酸化・リン酸化（可変）を設定。nanoLC-MS/MSによる解析を実施。"
+    },
+    "STEP3_MS_SETTINGS": {
+      "confirmed": {
+        "Comment[Instrument]": {
+          "value": "LTQ-Orbitrap-Velos",
+          "evidence": "LC-MS/MS was carried out using an RSLCnano HPLC system (Dionex) and an LTQ-Orbitrap-Velos mass spectrometer (Thermo Scientific)",
+          "source": "manuscript"
+        },
+        "Comment[FragmentationMethod]": {
+          "value": "HCD",
+          "evidence": "Subsequently, up to ten data-dependent higher-energy collision dissociation (HCD) MS/MS were triggered from the FTMS scan",
+          "source": "manuscript"
+        },
+        "Comment[AcquisitionMethod]": {
+          "value": "data-dependent",
+          "evidence": "Subsequently, up to ten data-dependent higher-energy collision dissociation (HCD) MS/MS were triggered from the FTMS scan",
+          "source": "manuscript"
+        },
+        "Comment[CollisionEnergy]": {
+          "value": "42.5",
+          "evidence": "The isolation width was 2.0 Da, with normalized collision energy of 42.5",
+          "source": "manuscript"
+        },
+        "Comment[PrecursorMassTolerance]": {
+          "value": "10 ppm",
+          "evidence": "The peptide tolerance was set to 10 p.p.m.",
+          "source": "manuscript"
+        },
+        "Comment[FragmentMassTolerance]": {
+          "value": "0.02 Da",
+          "evidence": "the MS/MS tolerance was set to 0.02 Da",
+          "source": "manuscript"
+        },
+        "Comment[GradientTime]": {
+          "value": "4 h",
+          "evidence": "Peptides were eluted over a period of 4 h",
+          "source": "manuscript"
+        },
+        "Comment[FlowRateChromatogram]": {
+          "value": "0.3 μl/min",
+          "evidence": "Peptides were eluted from the column at a flow rate of 0.3 μl min−1",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {
+        "Comment[IonizationType]": {
+          "candidates": [
+            "nanoESI",
+            "nanospray"
+          ],
+          "reasoning": "論文では'nanospray ion source'と記載されており、アンカー情報のnanoESIと一致する可能性が高い",
+          "needs": "nanosprayとnanoESIの同一性確認"
+        },
+        "Comment[MS2MassAnalyzer]": {
+          "candidates": [
+            "orbitrap",
+            "HCD cell"
+          ],
+          "reasoning": "アンカー情報ではorbirapとあるが、論文ではHCD MS/MSと記載。HCDはOrbitrapで検出される可能性がある",
+          "needs": "LTQ-Orbitrap-VelosでのHCD MS/MS検出器の明確化"
+        },
+        "Comment[NumberOfMissedCleavages]": {
+          "candidates": [
+            "2",
+            "1"
+          ],
+          "reasoning": "トリプシン消化が確認されているが、許容ミスクリベージ数の記載なし。プロテオミクス標準では通常1-2",
+          "needs": "データベース検索設定の詳細情報"
+        }
+      },
+      "not_applicable": [],
+      "summary": "質量分析パラメータの大部分が確定：LTQ-Orbitrap-Velos、HCDフラグメンテーション、データ依存取得、4時間グラジエント、0.3μl/min流速、正規化衝突エネルギー42.5、プリカーサー質量許容誤差10ppm、フラグメント質量許容誤差0.02Da。イオン化法とMS2検出器について軽微な確認が必要だが、機器設定の全体像は明確。"
+    },
+    "STEP4_RAW_FILES": {
+      "confirmed": {
+        "FactorValue[Compound]": {
+          "value": "per_file",
+          "per_file": {
+            "pattern": "two_treatment_groups",
+            "description": "Vehicle control (DMSO 0.2%) and Compound 2 (2 μM) treatment groups"
+          },
+          "evidence": "Late-stage schizonts were split into two equal aliquots and incubated in the presence or absence of Compound 2 (2 μM) for 1 h at 37 °C",
+          "source": "manuscript"
+        },
+        "FactorValue[ConcentrationOfCompound].1": {
+          "value": "2 μM",
+          "evidence": "incubated in the presence or absence of Compound 2 (2 μM)",
+          "source": "manuscript"
+        },
+        "Comment[FractionIdentifier]": {
+          "value": "per_file",
+          "per_file": {
+            "pattern": "LS-01_to_LS-18",
+            "description": "Fractions numbered 01-18 based on filename suffix LS-XX"
+          },
+          "evidence": "Filename pattern shows LS-01 through LS-18, consistent with anion exchange fractionation described: 'fractions 2-4 combined, fractions 5-7 combined, fractions 10-16 individual'",
+          "source": "filename"
+        },
+        "FactorValue[FractionIdentifier]": {
+          "value": "per_file",
+          "per_file": {
+            "pattern": "LS-01_to_LS-18",
+            "description": "Same as Comment[FractionIdentifier]"
+          },
+          "evidence": "Filename pattern LS-XX matches fractionation methodology",
+          "source": "filename"
+        }
+      },
+      "hypotheses": {
+        "Characteristics[BiologicalReplicate]": {
+          "candidates": [
+            "per_file based on date prefix",
+            "experiment date groups"
+          ],
+          "reasoning": "Two distinct date prefixes in filenames: 130412_002 and 130830_001, suggesting two separate experimental dates/batches",
+          "needs": "Confirmation whether date prefixes represent biological replicates or technical replicates"
+        },
+        "Characteristics[NumberOfBiologicalReplicates]": {
+          "candidates": [
+            "2",
+            "3"
+          ],
+          "reasoning": "Two date groups in filenames suggest 2 biological replicates, but text mentions 'three experiments with wild-type parasites' in data analysis section",
+          "needs": "Clarification of experimental design - whether date groups or analysis mentions represent biological replicates"
+        },
+        "Characteristics[NumberOfSamples]": {
+          "candidates": [
+            "2",
+            "4",
+            "6"
+          ],
+          "reasoning": "Two treatment conditions (vehicle vs Compound 2) across potential replicate experiments",
+          "needs": "Clear mapping of samples across replicates and treatments"
+        }
+      },
+      "not_applicable": [
+        "Characteristics[NumberOfTechnicalReplicates]",
+        "FactorValue[Treatment]",
+        "FactorValue[Temperature]",
+        "FactorValue[Disease]",
+        "FactorValue[GeneticModification]",
+        "FactorValue[Bait]",
+        "FactorValue[CellPart]"
+      ],
+      "summary": "実験デザインの主要構造が判明：Compound 2（2μM）と対照群（DMSO）の2処理群、アニオン交換クロマトグラフィーによる18分画（LS-01～LS-18）。ファイル名の日付プレフィックス（130412, 130830）から生物学的反復の存在が示唆されるが、論文中の「3回の実験」との記載と合致を要確認。処理条件は確定したが、反復数とサンプル総数の詳細は未解決。"
+    }
+  }
+}

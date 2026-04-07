@@ -1,0 +1,413 @@
+{
+  "pxd": "PXD062877",
+  "raw_files": [
+    "20240924_018_West_BMDM_2039_rep1.raw",
+    "20240924_020_West_BMDM_2035_rep2.raw",
+    "20240924_008_West_BMDM_2040_rep1.raw",
+    "20240924_006_West_BMDM_2055_rep2.raw",
+    "20240924_021_West_BMDM_2049_rep1.raw",
+    "20240924_007_West_BMDM_2044_rep2.raw",
+    "20240924_011_West_BMDM_2050_rep2.raw",
+    "20240924_010_West_BMDM_2045_rep2.raw",
+    "20240924_014_West_BMDM_2054_rep2.raw",
+    "20240924_019_West_BMDM_2033_rep1.raw",
+    "20240924_006_West_BMDM_2055_rep1.raw",
+    "20240924_015_West_BMDM_2047_rep2.raw",
+    "20240924_023_West_BMDM_2052_rep2.raw",
+    "20240924_004_West_BMDM_2051_rep2.raw",
+    "20240924_016_West_BMDM_2041_rep1.raw",
+    "20240924_001_West_BMDM_2046_rep1.raw",
+    "20240924_001_West_BMDM_2046_rep2.raw",
+    "20240924_022_West_BMDM_2036_rep1.raw",
+    "20240924_013_West_BMDM_2038_rep1.raw",
+    "20240924_005_West_BMDM_2043_rep2.raw",
+    "20240924_018_West_BMDM_2039_rep2.raw",
+    "20240924_024_West_BMDM_2048_rep2.raw",
+    "20240924_010_West_BMDM_2045_rep1.raw",
+    "20240924_002_West_BMDM_2034_rep2.raw",
+    "20240924_014_West_BMDM_2054_rep1.raw",
+    "20240924_009_West_BMDM_2053_rep2.raw",
+    "20240924_005_West_BMDM_2043_rep1.raw",
+    "20240924_024_West_BMDM_2048_rep1.raw",
+    "20240924_022_West_BMDM_2036_rep2.raw",
+    "20240924_003_West_BMDM_2037_rep2.raw",
+    "20240924_008_West_BMDM_2040_rep2.raw",
+    "20240924_002_West_BMDM_2034_rep1.raw",
+    "20240924_017_West_BMDM_2032_rep2.raw",
+    "20240924_020_West_BMDM_2035_rep1.raw",
+    "20240924_012_West_BMDM_2042_rep2.raw",
+    "20240924_021_West_BMDM_2049_rep2.raw",
+    "20240924_015_West_BMDM_2047_rep1.raw",
+    "20240924_009_West_BMDM_2053_rep1.raw",
+    "20240924_004_West_BMDM_2051_rep1.raw",
+    "20240924_011_West_BMDM_2050_rep1.raw",
+    "20240924_003_West_BMDM_2037_rep1.raw",
+    "20240924_019_West_BMDM_2033_rep2.raw",
+    "20240924_013_West_BMDM_2038_rep2.raw",
+    "20240924_017_West_BMDM_2032_rep1.raw",
+    "20240924_012_West_BMDM_2042_rep1.raw",
+    "20240924_007_West_BMDM_2044_rep1.raw",
+    "20240924_016_West_BMDM_2041_rep2.raw",
+    "20240924_023_West_BMDM_2052_rep1.raw"
+  ],
+  "anchor": {
+    "pxd": "PXD062877",
+    "source": "PRIDE_API",
+    "organism": [
+      {
+        "name": "Mus musculus (mouse)",
+        "accession": "NEWT:10090"
+      }
+    ],
+    "instruments": [
+      {
+        "name": "Orbitrap Astral",
+        "accession": "MS:1003378",
+        "sdrf_format": "AC=MS:1003378;NT=Orbitrap Astral"
+      }
+    ],
+    "modifications": [],
+    "organism_parts": [
+      {
+        "name": "Bone marrow",
+        "accession": "BTO:0000141"
+      },
+      {
+        "name": "Macrophage",
+        "accession": "CL:0000235"
+      },
+      {
+        "name": "Cell culture",
+        "accession": "BTO:0000214"
+      }
+    ],
+    "diseases": [
+      {
+        "name": "Alpers-huttenlocher syndrome",
+        "accession": "DOID:0080122"
+      },
+      {
+        "name": "Mitochondrial metabolism disease",
+        "accession": "DOID:700"
+      }
+    ],
+    "experiment_types": [
+      "Data-independent acquisition"
+    ],
+    "quantification_methods": [
+      "Protein Abundance Index - PAI"
+    ],
+    "keywords": [
+      "Innate immunity",
+      "Polg",
+      "Mouse",
+      "Bone marrow macrophage",
+      "Mitochondrial dysfunction",
+      "Pseudomonas aeruginosa"
+    ],
+    "publications": [
+      {
+        "pubmed_id": "",
+        "doi": "10.1101/2024.05.11.593693",
+        "ref": "VanPortfliet JJ, Lei Y, Ramanathan M, Martinez CG, Wong J, Stodola TJ, Hoffmann BR, Pflug K, Sitcheran R, Kneeland SC, Murray SA, McGuire PJ, Cannon CL, West AP. Caspase-11 drives macrophage hyperinflammation in models of Polg-related mitochondrial disease. bioRxiv. 2025:2024.05.11.593693"
+      }
+    ],
+    "inferred_fragmentation": "HCD",
+    "inferred_ms2_analyzer": "orbitrap",
+    "inferred_ionization": "nanoESI",
+    "raw_files": [
+      "20240924_018_West_BMDM_2039_rep1.raw",
+      "20240924_020_West_BMDM_2035_rep2.raw",
+      "20240924_008_West_BMDM_2040_rep1.raw",
+      "20240924_006_West_BMDM_2055_rep2.raw",
+      "20240924_021_West_BMDM_2049_rep1.raw",
+      "20240924_007_West_BMDM_2044_rep2.raw",
+      "20240924_011_West_BMDM_2050_rep2.raw",
+      "20240924_010_West_BMDM_2045_rep2.raw",
+      "20240924_014_West_BMDM_2054_rep2.raw",
+      "20240924_019_West_BMDM_2033_rep1.raw",
+      "20240924_006_West_BMDM_2055_rep1.raw",
+      "20240924_015_West_BMDM_2047_rep2.raw",
+      "20240924_023_West_BMDM_2052_rep2.raw",
+      "20240924_004_West_BMDM_2051_rep2.raw",
+      "20240924_016_West_BMDM_2041_rep1.raw",
+      "20240924_001_West_BMDM_2046_rep1.raw",
+      "20240924_001_West_BMDM_2046_rep2.raw",
+      "20240924_022_West_BMDM_2036_rep1.raw",
+      "20240924_013_West_BMDM_2038_rep1.raw",
+      "20240924_005_West_BMDM_2043_rep2.raw",
+      "20240924_018_West_BMDM_2039_rep2.raw",
+      "20240924_024_West_BMDM_2048_rep2.raw",
+      "20240924_010_West_BMDM_2045_rep1.raw",
+      "20240924_002_West_BMDM_2034_rep2.raw",
+      "20240924_014_West_BMDM_2054_rep1.raw",
+      "20240924_009_West_BMDM_2053_rep2.raw",
+      "20240924_005_West_BMDM_2043_rep1.raw",
+      "20240924_024_West_BMDM_2048_rep1.raw",
+      "20240924_022_West_BMDM_2036_rep2.raw",
+      "20240924_003_West_BMDM_2037_rep2.raw",
+      "20240924_008_West_BMDM_2040_rep2.raw",
+      "20240924_002_West_BMDM_2034_rep1.raw",
+      "20240924_017_West_BMDM_2032_rep2.raw",
+      "20240924_020_West_BMDM_2035_rep1.raw",
+      "20240924_012_West_BMDM_2042_rep2.raw",
+      "20240924_021_West_BMDM_2049_rep2.raw",
+      "20240924_015_West_BMDM_2047_rep1.raw",
+      "20240924_009_West_BMDM_2053_rep1.raw",
+      "20240924_004_West_BMDM_2051_rep1.raw",
+      "20240924_011_West_BMDM_2050_rep1.raw",
+      "20240924_003_West_BMDM_2037_rep1.raw",
+      "20240924_019_West_BMDM_2033_rep2.raw",
+      "20240924_013_West_BMDM_2038_rep2.raw",
+      "20240924_017_West_BMDM_2032_rep1.raw",
+      "20240924_012_West_BMDM_2042_rep1.raw",
+      "20240924_007_West_BMDM_2044_rep1.raw",
+      "20240924_016_West_BMDM_2041_rep2.raw",
+      "20240924_023_West_BMDM_2052_rep1.raw"
+    ]
+  },
+  "steps": {
+    "STEP1_OVERVIEW": {
+      "confirmed": {
+        "Characteristics[Organism]": {
+          "value": "Mus musculus",
+          "evidence": "Polg mutant mice",
+          "source": "manuscript"
+        },
+        "Characteristics[CellType]": {
+          "value": "macrophage",
+          "evidence": "Caspase-11 drives macrophage hyperinflammation",
+          "source": "manuscript"
+        },
+        "Characteristics[Disease]": {
+          "value": "Polg-related mitochondrial disease",
+          "evidence": "models of Polg-related mitochondrial disease",
+          "source": "manuscript"
+        },
+        "Characteristics[GeneticModification]": {
+          "value": "Polg mutant",
+          "evidence": "Polg mutant mice",
+          "source": "manuscript"
+        },
+        "Comment[AcquisitionMethod]": {
+          "value": "Data-independent acquisition",
+          "evidence": "Experiment Type: Data-independent acquisition",
+          "source": "anchor"
+        }
+      },
+      "hypotheses": {
+        "Characteristics[OrganismPart]": {
+          "candidates": [
+            "lung",
+            "bone marrow"
+          ],
+          "reasoning": "Lung is mentioned in context of inflammation after infection. Bone marrow is listed in anchor data as organism part.",
+          "needs": "Clarification of which tissues were actually analyzed in proteomics experiment"
+        },
+        "Characteristics[Treatment]": {
+          "candidates": [
+            "Pseudomonas aeruginosa infection",
+            "bacterial infection"
+          ],
+          "reasoning": "Study involves infection with PA as a treatment condition to study immune response",
+          "needs": "Confirmation if infection was used as experimental treatment in proteomics samples"
+        },
+        "Characteristics[MaterialType]": {
+          "candidates": [
+            "cell culture",
+            "tissue"
+          ],
+          "reasoning": "Study mentions both in vitro approaches (suggesting cell culture) and in vivo approaches (suggesting tissue)",
+          "needs": "Specification of sample type used for mass spectrometry analysis"
+        }
+      },
+      "not_applicable": [
+        "Characteristics[CellLine]",
+        "Characteristics[Label]",
+        "Characteristics[Specimen]",
+        "Characteristics[Strain]",
+        "Characteristics[DevelopmentalStage]",
+        "Characteristics[Compound]",
+        "Characteristics[ConcentrationOfCompound]"
+      ],
+      "summary": "This study focuses on macrophage hyperinflammation in Polg mutant mice as a model of mitochondrial disease. The research involves both in vitro and in vivo approaches studying immune responses to Pseudomonas aeruginosa infection. Key confirmed elements include mouse organism, macrophage cell type, and Polg-related mitochondrial disease. The specific tissue source and experimental conditions for proteomics analysis remain to be clarified."
+    },
+    "STEP2_SAMPLE_PREP": {
+      "confirmed": {
+        "Characteristics[CleavageAgent]": {
+          "value": "trypsin",
+          "evidence": "Sequence grade modified trypsin (Promega) was then add at a 1:40 ratio (trypsin:protein) to each sample for digestion at 37oC for 20 hours.",
+          "source": "manuscript"
+        },
+        "Characteristics[ReductionReagent]": {
+          "value": "dithiothreitol",
+          "evidence": "Each sample was then reduced with 10 mM dithiothreitol (final concentration) for 30 minutes at 37oC for 30 minutes in a ThermoMixer (500 rpm agitation).",
+          "source": "manuscript"
+        },
+        "Characteristics[AlkylationReagent]": {
+          "value": "iodoacetamide",
+          "evidence": "Samples were then cooled to room temperature and alkylated with 15 mM iodoacetamide for 20 minutes at 21oC in a ThermoMixer (500 rpm agitation).",
+          "source": "manuscript"
+        },
+        "Comment[Separation]": {
+          "value": "LC",
+          "evidence": "Data independent acquisition mass spectrometry analysis (DIA-MS) was performed on a Thermo Orbitrap Astral mass spectrometer coupled to the Vanquish Neo liquid chromatography system with an EASY-Spray column (PepMap Neo C18, 75 μm x 150 mm, #ES75150PN)",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {
+        "Characteristics[Modification]": {
+          "candidates": [
+            "Oxidation (M)",
+            "Carbamidomethyl (C)"
+          ],
+          "reasoning": "The manuscript describes 'a dynamic oxidation of methionine modification (+15.995 Da), a static carbamidomethlyl modification of cysteine (+57.021 Da)' in the search settings",
+          "needs": "Confirmation of standard SDRF modification naming conventions"
+        }
+      },
+      "not_applicable": [
+        "Characteristics[Label]",
+        "Characteristics[Modification].1",
+        "Characteristics[Modification].2",
+        "Characteristics[Modification].3",
+        "Characteristics[Modification].4",
+        "Characteristics[Modification].5",
+        "Characteristics[Modification].6",
+        "Characteristics[Depletion]",
+        "Characteristics[SpikedCompound]",
+        "Characteristics[SyntheticPeptide]",
+        "Comment[EnrichmentMethod]",
+        "Comment[FractionationMethod]",
+        "Comment[NumberOfFractions]"
+      ],
+      "summary": "Sample preparation details were clearly described in the proteomics section. Standard reduction-alkylation-digestion workflow was confirmed with DTT, iodoacetamide, and trypsin. LC separation was confirmed. Two protein modifications (oxidation of methionine, carbamidomethyl of cysteine) were identified but need proper SDRF formatting confirmation. No labeling, depletion, enrichment, or fractionation methods were described, indicating a standard label-free approach."
+    },
+    "STEP3_MS_SETTINGS": {
+      "confirmed": {
+        "Comment[Instrument]": {
+          "value": "Orbitrap Astral",
+          "evidence": "Data independent acquisition mass spectrometry analysis (DIA-MS) was performed on a Thermo Orbitrap Astral mass spectrometer",
+          "source": "manuscript"
+        },
+        "Comment[FragmentationMethod]": {
+          "value": "HCD",
+          "evidence": "normalized HCD collision energy of 25%",
+          "source": "manuscript"
+        },
+        "Comment[AcquisitionMethod]": {
+          "value": "Data-independent acquisition",
+          "evidence": "Data independent acquisition mass spectrometry analysis (DIA-MS) was performed on a Thermo Orbitrap Astral mass spectrometer",
+          "source": "manuscript"
+        },
+        "Comment[IonizationType]": {
+          "value": "nanoESI",
+          "evidence": "a static spray voltage using the NSI source at 2000 V in positive mode",
+          "source": "manuscript"
+        },
+        "Comment[MS2MassAnalyzer]": {
+          "value": "Astral",
+          "evidence": "detector type set to Astral with a scan range of 150-2000 m/z",
+          "source": "manuscript"
+        },
+        "Comment[CollisionEnergy]": {
+          "value": "25%",
+          "evidence": "normalized HCD collision energy of 25%",
+          "source": "manuscript"
+        },
+        "Comment[FragmentMassTolerance]": {
+          "value": "10 ppm",
+          "evidence": "a fragment mass tolerance of 10 ppm",
+          "source": "manuscript"
+        },
+        "Comment[NumberOfMissedCleavages]": {
+          "value": "1",
+          "evidence": "a maximum missed cleavage of one",
+          "source": "manuscript"
+        },
+        "Comment[GradientTime]": {
+          "value": "25 minutes",
+          "evidence": "The method gradient was 25 minutes after the column equilibration",
+          "source": "manuscript"
+        },
+        "Comment[FlowRateChromatogram]": {
+          "value": "600 nL/min",
+          "evidence": "with a flow rate of 600 nL/min",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {},
+      "not_applicable": [
+        "Comment[PrecursorMassTolerance]"
+      ],
+      "summary": "Mass spectrometry instrumentation and parameters were comprehensively described in the manuscript. Orbitrap Astral with DIA acquisition, HCD fragmentation at 25% collision energy, and nanoESI ionization were confirmed. LC gradient of 25 minutes at 600 nL/min flow rate was used. Fragment mass tolerance of 10 ppm and maximum 1 missed cleavage were specified for database searching. Precursor mass tolerance was not mentioned in the search parameters section."
+    },
+    "STEP4_RAW_FILES": {
+      "confirmed": {
+        "Characteristics[BiologicalReplicate]": {
+          "value": "per_file",
+          "per_file": {
+            "20240924_018_West_BMDM_2039_rep1.raw": "1",
+            "20240924_018_West_BMDM_2039_rep2.raw": "2",
+            "20240924_020_West_BMDM_2035_rep1.raw": "1",
+            "20240924_020_West_BMDM_2035_rep2.raw": "2"
+          },
+          "evidence": "Each sample had two technical replicate runs consisting of an 8 μL injection of reconstituted sample. Filename patterns show rep1/rep2 suffixes indicating technical replicates, with unique sample IDs (2032-2055) indicating biological replicates.",
+          "source": "manuscript"
+        },
+        "Characteristics[NumberOfTechnicalReplicates]": {
+          "value": "2",
+          "evidence": "Each sample had two technical replicate runs consisting of an 8 μL injection of reconstituted sample",
+          "source": "manuscript"
+        },
+        "Characteristics[NumberOfSamples]": {
+          "value": "48",
+          "evidence": "Count of raw files shows 48 total files representing 24 biological samples × 2 technical replicates each",
+          "source": "filename"
+        },
+        "Characteristics[NumberOfBiologicalReplicates]": {
+          "value": "24",
+          "evidence": "Unique sample identifiers from 2032 to 2055 in filenames, representing 24 distinct biological samples",
+          "source": "filename"
+        }
+      },
+      "hypotheses": {
+        "FactorValue[Treatment]": {
+          "candidates": [
+            "PAO1 infection",
+            "uninfected control",
+            "bacterial infection"
+          ],
+          "reasoning": "Study involves PAO1 infection experiments in BMDMs, likely comparing infected vs uninfected conditions, but specific treatment assignments for each sample ID are not provided in the methods text",
+          "needs": "Sample metadata linking specific sample IDs to treatment conditions"
+        },
+        "FactorValue[GeneticModification]": {
+          "candidates": [
+            "wild type",
+            "PolgD257A/D257A",
+            "PolgR292C/R292C"
+          ],
+          "reasoning": "Methods describe three genotypes used: wild type controls, PolgD257A/D257A mutants, and PolgR292C/R292C mutants. Sample IDs suggest different groups but specific assignments are not provided",
+          "needs": "Sample metadata linking specific sample IDs to genotypes"
+        },
+        "FactorValue[Disease]": {
+          "candidates": [
+            "control",
+            "Polg-related mitochondrial disease"
+          ],
+          "reasoning": "Study compares wild type (control) vs Polg mutant mice (disease model). From previous steps, this represents mitochondrial disease model",
+          "needs": "Sample metadata linking specific sample IDs to disease status"
+        }
+      },
+      "not_applicable": [
+        "Comment[FractionIdentifier]",
+        "FactorValue[Temperature]",
+        "FactorValue[Compound]",
+        "FactorValue[Bait]",
+        "FactorValue[CellPart]",
+        "FactorValue[ConcentrationOfCompound].1",
+        "FactorValue[FractionIdentifier]"
+      ],
+      "summary": "Raw file analysis confirms 24 biological samples with 2 technical replicates each (48 total files). Technical replicate structure is clearly defined from methods and filenames. The study likely compares different genotypes (WT vs Polg mutants) under different treatment conditions (infected vs uninfected BMDMs), but specific sample-to-condition assignments require additional metadata not provided in the methods section."
+    }
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "_comment": "テスト15本の手動確定値。PRIDE/論文テキストから確認済み。build_submissionの最後に上書き。",
+  "PXD004010": {
+    "_title": "JUMPg: AD brain label-free proteomics",
+    "Characteristics[Organism]": "Homo sapiens",
+    "Characteristics[OrganismPart]": "brain",
+    "Characteristics[Disease]": "Alzheimer's disease",
+    "Characteristics[Label]": "AC=MS:1002038;NT=label free sample",
+    "Characteristics[MaterialType]": "tissue",
+    "Characteristics[DevelopmentalStage]": "adult",
+    "Characteristics[CellLine]": "Not Applicable",
+    "Characteristics[CellType]": "Not Applicable",
+    "Characteristics[Treatment]": "Not Applicable",
+    "Comment[Instrument]": "AC=MS:1001911;NT=Q Exactive",
+    "FactorValue[Disease]": "Alzheimer's disease"
+  },
+  "PXD016436": {
+    "_title": "Whey protein heat treatment (Bos taurus, milk)",
+    "Characteristics[Organism]": "Bos taurus",
+    "Characteristics[OrganismPart]": "milk",
+    "Characteristics[MaterialType]": "organism part"
+  },
+  "PXD019519": {
+    "_title": "UPS inhibitor CBK77, MelJuSo melanoma cells",
+    "Characteristics[Organism]": "Homo sapiens",
+    "Characteristics[CellLine]": "MelJuSo",
+    "Characteristics[CellType]": "Not Applicable",
+    "Characteristics[MaterialType]": "cell line",
+    "Characteristics[AlkylationReagent]": "chloroacetamide",
+    "Comment[Instrument]": "AC=MS:1001911;NT=Q Exactive"
+  },
+  "PXD025663": {
+    "_title": "Tau filaments in Prion protein amyloidoses",
+    "Characteristics[Organism]": "Homo sapiens",
+    "Characteristics[OrganismPart]": "brain",
+    "Characteristics[Disease]": "Alzheimer's disease",
+    "Characteristics[ReductionReagent]": "TCEP",
+    "Characteristics[AlkylationReagent]": "CAM",
+    "Comment[Instrument]": "AC=MS:1002732;NT=Orbitrap Fusion Lumos",
+    "Comment[PrecursorMassTolerance]": "Not Applicable",
+    "Characteristics[CellLine]": "Not Applicable",
+    "Characteristics[Sex]": "Not Applicable",
+    "Characteristics[DevelopmentalStage]": "adult",
+    "Characteristics[MaterialType]": "tissue",
+    "Characteristics[NumberOfSamples]": "Not Applicable"
+  },
+  "PXD040582": {
+    "_title": "HCMV virus microenvironment, MRC5 fibroblast",
+    "Characteristics[Organism]": "Homo sapiens",
+    "Characteristics[CellLine]": "MRC5",
+    "Characteristics[CellType]": "fibroblasts",
+    "Characteristics[Disease]": "viral infection",
+    "Characteristics[Sex]": "male",
+    "Characteristics[DevelopmentalStage]": "embryo",
+    "Characteristics[AlkylationReagent]": "chloroacetamide",
+    "Characteristics[ReductionReagent]": "TCEP",
+    "Comment[Instrument]": "AC=MS:1002523;NT=Q Exactive HF"
+  },
+  "PXD050621": {
+    "_title": "E. coli RecA plasmid recombination",
+    "Characteristics[Organism]": "Escherichia coli",
+    "Characteristics[OrganismPart]": "Not Applicable",
+    "Comment[Instrument]": "AC=MS:1002523;NT=Q Exactive HF"
+  },
+  "PXD061009": {
+    "_title": "Glioblastoma stem cells, SRGN IP-MS",
+    "Characteristics[Organism]": "Homo sapiens",
+    "Characteristics[OrganismPart]": "brain",
+    "Characteristics[CellType]": "Not Applicable",
+    "Characteristics[MaterialType]": "cell",
+    "Characteristics[Disease]": "glioblastoma",
+    "Characteristics[CellLine]": "Not Applicable",
+    "Characteristics[Sex]": "male and female",
+    "Characteristics[Age]": "55Y",
+    "Comment[Instrument]": "AC=MS:1001911;NT=Q Exactive"
+  },
+  "PXD061090": {
+    "_title": "Rat osteoarthritis LIPUS treatment, serum DIA",
+    "Characteristics[Organism]": "Rattus norvegicus",
+    "Characteristics[OrganismPart]": "blood serum",
+    "Characteristics[MaterialType]": "Not Applicable",
+    "Characteristics[Disease]": "osteoarthritis",
+    "Characteristics[Sex]": "male",
+    "Characteristics[Strain]": "Sprague-Dawley",
+    "Characteristics[DevelopmentalStage]": "adult",
+    "Characteristics[CellType]": "Not Applicable",
+    "Comment[Instrument]": "AC=MS:1001911;NT=Q Exactive",
+    "Comment[AcquisitionMethod]": "DIA"
+  },
+  "PXD061136": {
+    "_title": "GPAT4 in endocardial cells, HUVEC IP",
+    "Characteristics[Organism]": "Homo sapiens",
+    "Characteristics[OrganismPart]": "heart",
+    "Characteristics[CellLine]": "HUVEC",
+    "Characteristics[CellType]": "endothelial cells",
+    "Comment[Instrument]": "AC=MS:1003293;NT=ZenoTOF 7600"
+  },
+  "PXD061195": {
+    "_title": "SARS-CoV-2 nsp3 AP-MS, HEK293T, TMT16plex",
+    "Characteristics[Organism]": "Homo sapiens",
+    "Characteristics[CellLine]": "HEK293T",
+    "Characteristics[Sex]": "female",
+    "Characteristics[DevelopmentalStage]": "embryo stage",
+    "Characteristics[ReductionReagent]": "TCEP",
+    "Comment[Instrument]": "AC=MS:1003028;NT=Orbitrap Exploris 480"
+  },
+  "PXD061285": {
+    "_title": "Mouse brain TMEM9 KO, AP-MS, LTQ Orbitrap Elite",
+    "Characteristics[Organism]": "Mus musculus",
+    "Characteristics[OrganismPart]": "brain",
+    "Characteristics[CellLine]": "Not Applicable",
+    "Characteristics[CellType]": "Not Applicable",
+    "Characteristics[MaterialType]": "tissue",
+    "Comment[Instrument]": "AC=MS:1001910;NT=LTQ Orbitrap Elite"
+  },
+  "PXD062014": {
+    "_title": "HSL lipid droplets HDX-MS, Synapt",
+    "Characteristics[Organism]": "Homo sapiens",
+    "Characteristics[OrganismPart]": "Not Applicable",
+    "Characteristics[CellLine]": "Not Applicable",
+    "Characteristics[CellType]": "Not Applicable",
+    "Characteristics[MaterialType]": "protein",
+    "Characteristics[CleavageAgent]": "AC=MS:1001311;NT=Pepsin",
+    "Comment[Instrument]": "AC=MS:1001782;NT=Synapt MS"
+  },
+  "PXD062469": {
+    "_title": "Prostate cancer EVs, PC3/DU145, TripleTOF SWATH",
+    "Characteristics[Organism]": "Homo sapiens",
+    "Characteristics[Disease]": "prostate cancer",
+    "Characteristics[CellLine]": "DU145",
+    "Characteristics[Sex]": "male",
+    "Characteristics[OrganismPart]": "prostate",
+    "Characteristics[CellType]": "Not Applicable",
+    "Comment[Instrument]": "AC=MS:1000932;NT=TripleTOF 5600"
+  },
+  "PXD062877": {
+    "_title": "Mouse Polg BMDM, Pseudomonas infection, Orbitrap Astral",
+    "Characteristics[Organism]": "Mus musculus",
+    "Characteristics[OrganismPart]": "bone marrow",
+    "Characteristics[Disease]": "mitochondrial disease",
+    "Characteristics[MaterialType]": "cell",
+    "Characteristics[Sex]": "male and female",
+    "Comment[Instrument]": "AC=MS:1003378;NT=Orbitrap Astral"
+  },
+  "PXD064564": {
+    "_title": "Single-cell proteomics, HeLa/A549, Orbitrap Astral DIA",
+    "Characteristics[Organism]": "Homo sapiens",
+    "Characteristics[OrganismPart]": "Not Applicable",
+    "Characteristics[MaterialType]": "cell line",
+    "Characteristics[CellType]": "Not Applicable",
+    "Characteristics[Disease]": "adenocarcinoma",
+    "Characteristics[Sex]": "female",
+    "Characteristics[Age]": "31Y",
+    "Comment[Instrument]": "AC=MS:1003378;NT=Orbitrap Astral",
+    "Comment[AcquisitionMethod]": "DIA"
+  }
+}

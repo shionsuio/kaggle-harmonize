@@ -1,0 +1,334 @@
+{
+  "pxd": "PXD001281",
+  "raw_files": [
+    "20130526_11_qEx_TT_T150_IP_II_A80.raw",
+    "20130519_04_qEx_TT_T150_IP_II.raw",
+    "20130222_06_qEx_TT_T90_IP_S2.raw",
+    "20130910_14_qEx_TT_T90_IP_gluC_IT1s.raw",
+    "20130912_04_qEx_TT_T150_IP_lysC_IT1s_T1.raw",
+    "20130912_09_qEx_TT_T150_IP_gluC_IT1s_T1.raw",
+    "20130528_09_qEx_TT_T90_IP_I_II.raw",
+    "20130216_12_qEx_TT_T90_IP_S2.raw",
+    "20130402_06_qEx_TT_T90_IPv2_S2_T5.raw",
+    "20130910_08_qEx_TT_T90_IP_lysC_IT1s.raw"
+  ],
+  "anchor": {
+    "pxd": "PXD001281",
+    "source": "PRIDE_API",
+    "organism": [
+      {
+        "name": "Homo sapiens (human)",
+        "accession": "NEWT:9606"
+      }
+    ],
+    "instruments": [
+      {
+        "name": "Q Exactive",
+        "accession": "MS:1001911",
+        "sdrf_format": "AC=MS:1001911;NT=Q Exactive"
+      }
+    ],
+    "modifications": [],
+    "organism_parts": [
+      {
+        "name": "Cell suspension culture",
+        "accession": "BTO:0000221"
+      },
+      {
+        "name": "Hek-293 cell",
+        "accession": "BTO:0000007"
+      }
+    ],
+    "diseases": [],
+    "experiment_types": [
+      "Shotgun proteomics",
+      "Affinity purification coupled with mass spectrometry proteomics"
+    ],
+    "quantification_methods": [],
+    "keywords": [
+      "Heat-shock",
+      "Sumo modification sites",
+      "Hek293"
+    ],
+    "publications": [
+      {
+        "pubmed_id": "",
+        "doi": "10.1126/scisignal.2005146",
+        "ref": "Tammsalu T, Matic I, Jaffray EG, Ibrahim AF, Tatham MH, Hay RT; Proteome-wide identification of SUMO2 modification sites., Sci Signal, 2014 Apr 29, 7, 323, rs2, "
+      }
+    ],
+    "inferred_fragmentation": "HCD",
+    "inferred_ms2_analyzer": "orbitrap",
+    "inferred_ionization": "nanoESI",
+    "raw_files": [
+      "20130526_11_qEx_TT_T150_IP_II_A80.raw",
+      "20130519_04_qEx_TT_T150_IP_II.raw",
+      "20130222_06_qEx_TT_T90_IP_S2.raw",
+      "20130910_14_qEx_TT_T90_IP_gluC_IT1s.raw",
+      "20130912_04_qEx_TT_T150_IP_lysC_IT1s_T1.raw",
+      "20130912_09_qEx_TT_T150_IP_gluC_IT1s_T1.raw",
+      "20130528_09_qEx_TT_T90_IP_I_II.raw",
+      "20130216_12_qEx_TT_T90_IP_S2.raw",
+      "20130402_06_qEx_TT_T90_IPv2_S2_T5.raw",
+      "20130910_08_qEx_TT_T90_IP_lysC_IT1s.raw"
+    ]
+  },
+  "steps": {
+    "STEP1_OVERVIEW": {
+      "confirmed": {
+        "Characteristics[Organism]": {
+          "value": "Homo sapiens",
+          "evidence": "human cell lysates",
+          "source": "manuscript"
+        },
+        "Characteristics[MaterialType]": {
+          "value": "cell lysate",
+          "evidence": "6His-SUMO2T90K modifed proteins from human cell lysates",
+          "source": "manuscript"
+        },
+        "Characteristics[Label]": {
+          "value": "polyhistidine (6His)-tagged",
+          "evidence": "expression of polyhistidine (6His)-tagged SUMO2 with Thr90 mutated to Lys",
+          "source": "manuscript"
+        },
+        "Characteristics[GeneticModification]": {
+          "value": "SUMO2 T90K mutation",
+          "evidence": "6His-tagged SUMO2 with Thr90 mutated to Lys",
+          "source": "manuscript"
+        },
+        "Comment[AcquisitionMethod]": {
+          "value": "Affinity purification coupled with mass spectrometry",
+          "evidence": "immunoprecipitation of SUMO2T90K modified peptides",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {
+        "Characteristics[CellLine]": {
+          "candidates": [
+            "HEK293",
+            "HEK293T"
+          ],
+          "reasoning": "PRIDE database indicates Hek-293 cell, and human cell lysates from abstract suggest cultured cell line usage",
+          "needs": "Methods section to confirm exact cell line used"
+        },
+        "Characteristics[OrganismPart]": {
+          "candidates": [
+            "cell culture",
+            "cultured cells"
+          ],
+          "reasoning": "PRIDE database shows cell suspension culture, consistent with cell lysates mentioned in abstract",
+          "needs": "Methods section to confirm culture conditions"
+        }
+      },
+      "not_applicable": [
+        "Characteristics[CellType]",
+        "Characteristics[Disease]",
+        "Characteristics[Specimen]",
+        "Characteristics[Strain]",
+        "Characteristics[Treatment]",
+        "Characteristics[DevelopmentalStage]",
+        "Characteristics[Compound]",
+        "Characteristics[ConcentrationOfCompound]"
+      ],
+      "summary": "論文は6His-tagged SUMO2 T90K変異体を用いたヒト細胞のSUMO2修飾部位の網羅的解析。アフィニティ精製-MS法により1000以上の修飾サイトを同定。PRIDEデータベースからHEK293細胞の使用が示唆されるが、論文テキストからは確定できない。Methods部での細胞株と培養条件の確認が必要。"
+    },
+    "STEP2_SAMPLE_PREP": {
+      "confirmed": {
+        "Characteristics[CleavageAgent]": {
+          "value": "Lys-C",
+          "evidence": "digested for 16 hours with Lys-C (Wako) in 50 μl IP buffer at 37 °C (enzyme to protein ratio 1:50)",
+          "source": "manuscript"
+        },
+        "Characteristics[CleavageAgent].1": {
+          "value": "Glu-C",
+          "evidence": "Peptides retained on the filter units were subsequently digested with endoproteinase Glu-C for 16 hours in 50 μl of IP buffer at 20°C (enzyme to protein ratio 1:100)",
+          "source": "manuscript"
+        },
+        "Characteristics[AlkylationReagent]": {
+          "value": "chloroacetamide",
+          "evidence": "treated with 50 mM chloroacetamide in UA buffer for 20 minutes in the dark",
+          "source": "manuscript"
+        },
+        "Characteristics[ReductionReagent]": {
+          "value": "β-mercaptoethanol",
+          "evidence": "cell lysis buffer (6 M guanidinium-HCl, 100 mM sodium phosphate buffer pH 8.0, 10 mM Tris-HCl, 20 mM imidazole, 5 mM β-mercaptoethanol)",
+          "source": "manuscript"
+        },
+        "Characteristics[Modification]": {
+          "value": "Carbamidomethyl",
+          "evidence": "Carbamidomethylation of Cys was set as a fixed modification",
+          "source": "manuscript"
+        },
+        "Characteristics[Modification].1": {
+          "value": "Oxidation",
+          "evidence": "oxidation of Met, acetylation of protein N-termini, phosphorylation of Ser, Thr, and Tyr, and diGly adduction to Lys (except in peptide C-terminus) were set as variable modifications",
+          "source": "manuscript"
+        },
+        "Characteristics[Modification].2": {
+          "value": "Acetyl",
+          "evidence": "oxidation of Met, acetylation of protein N-termini, phosphorylation of Ser, Thr, and Tyr, and diGly adduction to Lys (except in peptide C-terminus) were set as variable modifications",
+          "source": "manuscript"
+        },
+        "Characteristics[Modification].3": {
+          "value": "Phospho",
+          "evidence": "oxidation of Met, acetylation of protein N-termini, phosphorylation of Ser, Thr, and Tyr, and diGly adduction to Lys (except in peptide C-terminus) were set as variable modifications",
+          "source": "manuscript"
+        },
+        "Characteristics[Modification].4": {
+          "value": "GlyGly",
+          "evidence": "oxidation of Met, acetylation of protein N-termini, phosphorylation of Ser, Thr, and Tyr, and diGly adduction to Lys (except in peptide C-terminus) were set as variable modifications",
+          "source": "manuscript"
+        },
+        "Comment[EnrichmentMethod]": {
+          "value": "nickel affinity chromatography",
+          "evidence": "Nickel affinity purification of 6His-SUMO2T90K conjugates was performed with Ni2+-NTA agarose beads (Qiagen)",
+          "source": "manuscript"
+        },
+        "Comment[EnrichmentMethod].1": {
+          "value": "immunoaffinity purification",
+          "evidence": "Enrichment of diGly-Lys containing peptides with anti-KεGG was performed according to a published protocol",
+          "source": "manuscript"
+        },
+        "Comment[Separation]": {
+          "value": "reverse-phase liquid chromatography",
+          "evidence": "Purified peptides were loaded onto 75 μm × 500 mm EASY-Spray column (Thermo Scientific) at a maximum pressure of 800 bars and various gradient lengths from 90 minutes to 150 minutes were used with a linear gradient of 5 % to 22 % of solvent B",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {},
+      "not_applicable": [
+        "Characteristics[Modification].5",
+        "Characteristics[Modification].6",
+        "Characteristics[Depletion",
+        "Characteristics[SpikedCompound]",
+        "Characteristics[SyntheticPeptide]",
+        "Comment[FractionationMethod]",
+        "Comment[NumberOfFractions]"
+      ],
+      "summary": "サンプル調製プロトコルが詳細に記載されている。6His-taggedタンパク質のニッケルアフィニティ精製後、Lys-CとGlu-Cによる二段階消化を実施。固定修飾としてカルバミドメチル化、変動修飾として酸化、アセチル化、リン酸化、GlyGly修飾を設定。diGly含有ペプチドの免疫精製による濃縮も実施している。"
+    },
+    "STEP3_MS_SETTINGS": {
+      "confirmed": {
+        "Comment[Instrument]": {
+          "value": "Q Exactive mass spectrometer",
+          "evidence": "analysed by liquid chromatography tandem MS on a Q Exactive mass spectrometer (Thermo Scientific)",
+          "source": "manuscript"
+        },
+        "Comment[FragmentationMethod]": {
+          "value": "HCD",
+          "evidence": "CONFIRMED FROM PRIDE DATABASE: Fragmentation (from instrument): HCD",
+          "source": "anchor"
+        },
+        "Comment[AcquisitionMethod]": {
+          "value": "data dependent acquisition",
+          "evidence": "Up to one data dependent MS2 spectrum was acquired",
+          "source": "manuscript"
+        },
+        "Comment[IonizationType]": {
+          "value": "nanoESI",
+          "evidence": "CONFIRMED FROM PRIDE DATABASE: Ionization (from instrument): nanoESI",
+          "source": "anchor"
+        },
+        "Comment[MS2MassAnalyzer]": {
+          "value": "orbitrap",
+          "evidence": "CONFIRMED FROM PRIDE DATABASE: MS2 Analyzer (from instrument): orbitrap",
+          "source": "anchor"
+        },
+        "Comment[PrecursorMassTolerance]": {
+          "value": "6 ppm",
+          "evidence": "a mass deviation of 6 parts per million was set for main search",
+          "source": "manuscript"
+        },
+        "Comment[FragmentMassTolerance]": {
+          "value": "0.5 Da",
+          "evidence": "and 0.5 Da for MS2 peaks",
+          "source": "manuscript"
+        },
+        "Comment[NumberOfMissedCleavages]": {
+          "value": "3 (Lys-C only) or 5 (Lys-C and Glu-C)",
+          "evidence": "A maximum number of three or five missed cleavages were allowed for samples cleaved with Lys-C, or Lys-C and Glu-C, respectively",
+          "source": "manuscript"
+        },
+        "Comment[GradientTime]": {
+          "value": "90-150 minutes",
+          "evidence": "various gradient lengths from 90 minutes to 150 minutes were used",
+          "source": "manuscript"
+        },
+        "Comment[FlowRateChromatogram]": {
+          "value": "250 nl/min",
+          "evidence": "Flow rate was set to 250 nl/min",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {},
+      "not_applicable": [
+        "Comment[CollisionEnergy]"
+      ],
+      "summary": "質量分析装置設定パラメータが詳細に記載されている。Q Exactive装置でHCD断片化、データ依存取得方式を使用。前駆体質量許容誤差6 ppm、フラグメント質量許容誤差0.5 Da。グラデーション時間90-150分、フロー速度250 nl/min。見逃し切断回数は酵素により3回または5回。コリジョンエネルギーのみ記載なし。"
+    },
+    "STEP4_RAW_FILES": {
+      "confirmed": {
+        "Characteristics[NumberOfBiologicalReplicates]": {
+          "value": "2",
+          "evidence": "In the experiment designed to evaluate reproducibility, duplicate 750mL cultures of HEK293 6His-SUMO2T90K corresponding to 4 × 107 cells were processed in parallel.",
+          "source": "manuscript"
+        },
+        "FactorValue[Treatment]": {
+          "value": "heat shock",
+          "evidence": "6 L of cell culture (~800 000 cells/ml) was stimulated by heat shock at 43 °C",
+          "source": "manuscript"
+        },
+        "FactorValue[Temperature]": {
+          "value": "43",
+          "evidence": "6 L of cell culture (~800 000 cells/ml) was stimulated by heat shock at 43 °C",
+          "source": "manuscript"
+        },
+        "FactorValue[GeneticModification]": {
+          "value": "6His-SUMO2T90K",
+          "evidence": "HEK293 N3S cells stably expressing 6His-SUMO2T90K",
+          "source": "manuscript"
+        },
+        "FactorValue[Bait]": {
+          "value": "6His-SUMO2T90K",
+          "evidence": "Nickel affinity purification of 6His-SUMO2T90K conjugates was performed with Ni2+-NTA agarose beads",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {
+        "Comment[FractionIdentifier]": {
+          "candidates": [
+            "gradient time fractions based on T90/T150",
+            "enzyme digestion fractions based on lysC/gluC"
+          ],
+          "reasoning": "Raw file names contain T90/T150 tokens (likely gradient times 90-150 min mentioned in previous steps) and lysC/gluC tokens (enzyme digestion types). File naming pattern suggests systematic fractionation.",
+          "needs": "Confirmation whether T90/T150 refers to gradient time fractions or other experimental conditions"
+        },
+        "Characteristics[BiologicalReplicate]": {
+          "candidates": [
+            "T1 indicates replicate 1",
+            "files without T1 are first replicate by default"
+          ],
+          "reasoning": "Files 20130912_04 and 20130912_09 contain '_T1' suffix, suggesting biological replicate 1. Other files may represent different replicates or first replicate without explicit labeling.",
+          "needs": "Clarification of T1 suffix meaning and identification of second replicate files"
+        },
+        "Characteristics[NumberOfSamples]": {
+          "candidates": [
+            "10",
+            "varies by experimental design"
+          ],
+          "reasoning": "10 raw files present, but may represent technical replicates, fractions, or different experimental conditions rather than independent samples",
+          "needs": "Understanding of experimental design to distinguish samples from replicates/fractions"
+        }
+      },
+      "not_applicable": [
+        "Characteristics[NumberOfTechnicalReplicates]",
+        "FactorValue[Disease]",
+        "FactorValue[Compound]",
+        "FactorValue[CellPart]",
+        "FactorValue[ConcentrationOfCompound].1",
+        "FactorValue[FractionIdentifier]"
+      ],
+      "summary": "実験デザインが明確化された。2つの生物学的レプリケートでの再現性評価実験が実施され、43°Cでの熱ショック処理、6His-SUMO2T90K遺伝子改変HEK293細胞の使用が確定。rawファイル名からT90/T150（グラデーション時間）、lysC/gluC（酵素消化）、T1（レプリケート）のトークンが読み取れるが、正確な割り当てには実験デザインの詳細確認が必要。10個のrawファイルの関係性と技術的レプリケート数は未確定。"
+    }
+  }
+}

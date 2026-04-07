@@ -1,0 +1,424 @@
+{
+  "pxd": "PXD062469",
+  "raw_files": [
+    "JM_Plum_310118_100418_DIA_PI3_MV_INHB_12.raw",
+    "JM_Plum_310118_100418_DIA_PI3_MV_DMSO_21.raw",
+    "JM_Plum_310118_130418_DDA_C_F03.raw",
+    "JM_Plum_310118_130418_DDA_A_F08.raw",
+    "JM_Plum_310118_100418_DIA_145_Exo_DMSO_12.raw",
+    "JM_Plum_310118_130418_DDA_A_F01.raw",
+    "JM_Plum_310118_130418_DDA_C_F02.raw",
+    "JM_Plum_310118_130418_DDA_A_F02.raw",
+    "JM_Plum_310118_130418_DDA_C_F05.raw",
+    "JM_Plum_310118_100418_DIA_145_Exo_INHB_12.raw",
+    "JM_Plum_310118_100418_DIA_PI3_MV_DMSO_12.raw",
+    "JM_Plum_310118_100418_DIA_145_Exo_DMSO_22.raw",
+    "JM_Plum_310118_100418_DIA_145_MV_DMSO_12.raw",
+    "JM_Plum_310118_130418_DDA_B_F07.raw",
+    "JM_Plum_310118_100418_DIA_PI3_Exo_DMSO_12.raw",
+    "JM_Plum_310118_100418_DIA_145_MV_INHB_12.raw",
+    "JM_Plum_310118_130418_DDA_C_F06.raw",
+    "JM_Plum_310118_100418_DIA_PI3_MV_DMSO_11.raw",
+    "JM_Plum_310118_100418_DIA_PI3_Exo_DMSO_22.raw",
+    "JM_Plum_310118_100418_DIA_145_Exo_INHB_22.raw",
+    "JM_Plum_310118_100418_DIA_145_Exo_DMSO_21.raw",
+    "JM_Plum_310118_100418_DIA_PI3_Exo_DMSO_21.raw",
+    "JM_Plum_310118_130418_DDA_A_F07.raw",
+    "JM_Plum_310118_100418_DIA_PI3_Exo_INHB_21.raw",
+    "JM_Plum_310118_130418_DDA_C_F08.raw",
+    "JM_Plum_310118_130418_DDA_C_F07.raw",
+    "JM_Plum_310118_130418_DDA_C_F01.raw",
+    "JM_Plum_310118_130418_DDA_B_F02.raw",
+    "JM_Plum_310118_100418_DIA_PI3_Exo_INHB_11.raw",
+    "JM_Plum_310118_100418_DIA_145_MV_INHB_21.raw",
+    "JM_Plum_310118_130418_DDA_C_F04.raw",
+    "JM_Plum_310118_130418_DDA_A_F06.raw",
+    "JM_Plum_310118_100418_DIA_145_MV_DMSO_22.raw",
+    "JM_Plum_310118_130418_DDA_A_F04.raw",
+    "JM_Plum_310118_130418_DDA_B_F06.raw",
+    "JM_Plum_310118_100418_DIA_PI3_MV_INHB_11.raw",
+    "JM_Plum_310118_130418_DDA_B_F03.raw",
+    "JM_Plum_310118_100418_DIA_145_Exo_INHB_11.raw",
+    "JM_Plum_310118_100418_DIA_PI3_MV_INHB_21.raw",
+    "JM_Plum_310118_100418_DIA_145_MV_DMSO_11.raw",
+    "JM_Plum_310118_130418_DDA_B_F04.raw",
+    "JM_Plum_310118_100418_DIA_PI3_Exo_INHB_22.raw",
+    "JM_Plum_310118_100418_DIA_PI3_Exo_DMSO_11.raw",
+    "JM_Plum_310118_130418_DDA_B_F08.raw",
+    "JM_Plum_310118_100418_DIA_PI3_MV_INHB_22.raw",
+    "JM_Plum_310118_100418_DIA_PI3_MV_DMSO_22.raw",
+    "JM_Plum_310118_100418_DIA_145_Exo_DMSO_11.raw",
+    "JM_Plum_310118_100418_DIA_PI3_Exo_INHB_12.raw",
+    "JM_Plum_310118_100418_DIA_145_Exo_INHB_21.raw",
+    "JM_Plum_310118_100418_DIA_145_MV_INHB_22.raw",
+    "JM_Plum_310118_130418_DDA_B_F01.raw",
+    "JM_Plum_310118_100418_DIA_145_MV_INHB_11.raw",
+    "JM_Plum_310118_130418_DDA_A_F03.raw",
+    "JM_Plum_310118_130418_DDA_A_F05.raw",
+    "JM_Plum_310118_130418_DDA_B_F05.raw",
+    "JM_Plum_310118_100418_DIA_145_MV_DMSO_21.raw"
+  ],
+  "anchor": {
+    "pxd": "PXD062469",
+    "source": "PRIDE_API",
+    "organism": [
+      {
+        "name": "Homo sapiens (human)",
+        "accession": "NEWT:9606"
+      }
+    ],
+    "instruments": [
+      {
+        "name": "TripleTOF 5600",
+        "accession": "MS:1000932",
+        "sdrf_format": "AC=MS:1000932;NT=TripleTOF 5600"
+      }
+    ],
+    "modifications": [],
+    "organism_parts": [
+      {
+        "name": "Malignant cell",
+        "accession": "CL:0001064"
+      },
+      {
+        "name": "Prostate stromal cell",
+        "accession": "CL:0002622"
+      }
+    ],
+    "diseases": [
+      {
+        "name": "Prostate adenocarcinoma",
+        "accession": "DOID:2526"
+      }
+    ],
+    "experiment_types": [
+      "SWATH MS"
+    ],
+    "quantification_methods": [
+      "SWATH MS",
+      "Relative quantification"
+    ],
+    "keywords": [
+      "Neutral sphingomyelinases",
+      "Smpd2",
+      "Smpd3",
+      "Cell migration",
+      "Extracellular matrix"
+    ],
+    "publications": [
+      {
+        "pubmed_id": "",
+        "doi": "10.3390/cells14070547",
+        "ref": "Choezom D, Plum JM, Karuna M P, Danieli-Mackay A, Lenz C, Brockmeyer P, Gross JC. The Ceramide-Dependent EV Secretome Differentially Affects Prostate Cancer Cell Migration. Cells. 2025 14(7):547"
+      }
+    ],
+    "inferred_fragmentation": "CID",
+    "inferred_ms2_analyzer": "TOF",
+    "inferred_ionization": "nanoESI",
+    "raw_files": [
+      "JM_Plum_310118_100418_DIA_PI3_MV_INHB_12.wiff.scan",
+      "JM_Plum_310118_100418_DIA_PI3_MV_DMSO_21.wiff.scan",
+      "JM_Plum_310118_100418_DIA_PI3_MV_INHB_11.wiff",
+      "JM_Plum_310118_100418_DIA_PI3_MV_DMSO_21.wiff",
+      "JM_Plum_310118_100418_DIA_PI3_MV_INHB_22.wiff",
+      "JM_Plum_310118_130418_DDA_C_F03.wiff.scan",
+      "JM_Plum_310118_130418_DDA_A_F08.wiff.scan",
+      "JM_Plum_310118_130418_DDA_B_F05.wiff",
+      "JM_Plum_310118_100418_DIA_145_Exo_DMSO_12.wiff.scan",
+      "JM_Plum_310118_100418_DIA_145_MV_DMSO_12.wiff",
+      "JM_Plum_310118_130418_DDA_A_F01.wiff.scan",
+      "JM_Plum_310118_130418_DDA_C_F02.wiff.scan",
+      "JM_Plum_310118_100418_DIA_145_MV_INHB_11.wiff",
+      "JM_Plum_310118_130418_DDA_A_F02.wiff.scan",
+      "JM_Plum_310118_130418_DDA_C_F03.wiff",
+      "JM_Plum_310118_130418_DDA_C_F05.wiff.scan",
+      "JM_Plum_310118_100418_DIA_145_Exo_INHB_12.wiff.scan",
+      "JM_Plum_310118_100418_DIA_145_Exo_DMSO_21.wiff",
+      "JM_Plum_310118_100418_DIA_PI3_MV_DMSO_12.wiff.scan",
+      "JM_Plum_310118_130418_DDA_A_F05.wiff",
+      "JM_Plum_310118_130418_DDA_C_F01.wiff",
+      "JM_Plum_310118_130418_DDA_C_F02.wiff",
+      "JM_Plum_310118_100418_DIA_145_Exo_DMSO_22.wiff.scan",
+      "JM_Plum_310118_100418_DIA_145_MV_DMSO_12.wiff.scan",
+      "JM_Plum_310118_100418_DIA_145_Exo_INHB_21.wiff",
+      "JM_Plum_310118_130418_DDA_B_F07.wiff.scan",
+      "JM_Plum_310118_100418_DIA_145_MV_INHB_21.wiff",
+      "JM_Plum_310118_100418_DIA_PI3_Exo_DMSO_12.wiff.scan",
+      "JM_Plum_310118_100418_DIA_145_MV_INHB_12.wiff.scan",
+      "JM_Plum_310118_100418_DIA_PI3_Exo_DMSO_22.wiff",
+      "JM_Plum_310118_100418_DIA_145_Exo_INHB_22.wiff",
+      "JM_Plum_310118_130418_DDA_C_F06.wiff.scan",
+      "JM_Plum_310118_130418_DDA_A_F01.wiff",
+      "JM_Plum_310118_130418_DDA_B_F03.wiff",
+      "JM_Plum_310118_100418_DIA_PI3_MV_DMSO_22.wiff",
+      "JM_Plum_310118_130418_DDA_B_F04.wiff",
+      "JM_Plum_310118_100418_DIA_PI3_MV_DMSO_11.wiff.scan",
+      "JM_Plum_310118_130418_DDA_C_F05.wiff",
+      "JM_Plum_310118_100418_DIA_145_MV_DMSO_11.wiff",
+      "JM_Plum_310118_100418_DIA_PI3_Exo_DMSO_22.wiff.scan",
+      "JM_Plum_310118_100418_DIA_145_Exo_INHB_22.wiff.scan",
+      "JM_Plum_310118_130418_DDA_A_F02.wiff",
+      "JM_Plum_310118_100418_DIA_145_Exo_DMSO_21.wiff.scan",
+      "JM_Plum_310118_100418_DIA_145_Exo_DMSO_12.wiff",
+      "JM_Plum_310118_130418_DDA_A_F07.wiff",
+      "JM_Plum_310118_100418_DIA_PI3_Exo_DMSO_21.wiff.scan",
+      "JM_Plum_310118_130418_DDA_A_F07.wiff.scan",
+      "JM_Plum_310118_130418_DDA_C_F07.wiff",
+      "JM_Plum_310118_100418_DIA_145_Exo_DMSO_11.wiff",
+      "JM_Plum_310118_100418_DIA_PI3_Exo_INHB_21.wiff.scan",
+      "JM_Plum_310118_130418_DDA_C_F08.wiff.scan",
+      "JM_Plum_310118_100418_DIA_145_Exo_INHB_12.wiff",
+      "JM_Plum_310118_130418_DDA_C_F06.wiff",
+      "JM_Plum_310118_100418_DIA_145_Exo_INHB_11.wiff",
+      "JM_Plum_310118_130418_DDA_C_F07.wiff.scan",
+      "JM_Plum_310118_130418_DDA_C_F01.wiff.scan",
+      "JM_Plum_310118_100418_DIA_145_MV_INHB_12.wiff",
+      "JM_Plum_310118_130418_DDA_B_F02.wiff.scan",
+      "JM_Plum_310118_130418_DDA_B_F06.wiff",
+      "JM_Plum_310118_100418_DIA_PI3_Exo_INHB_11.wiff.scan",
+      "JM_Plum_310118_100418_DIA_PI3_Exo_INHB_11.wiff",
+      "JM_Plum_310118_100418_DIA_145_MV_INHB_21.wiff.scan",
+      "JM_Plum_310118_130418_DDA_C_F04.wiff.scan",
+      "JM_Plum_310118_130418_DDA_A_F06.wiff.scan",
+      "JM_Plum_310118_130418_DDA_A_F03.wiff",
+      "JM_Plum_310118_100418_DIA_145_MV_DMSO_22.wiff.scan",
+      "JM_Plum_310118_130418_DDA_A_F06.wiff",
+      "JM_Plum_310118_130418_DDA_A_F04.wiff.scan",
+      "JM_Plum_310118_130418_DDA_B_F06.wiff.scan",
+      "JM_Plum_310118_130418_DDA_B_F01.wiff",
+      "JM_Plum_310118_100418_DIA_PI3_MV_INHB_11.wiff.scan",
+      "JM_Plum_310118_100418_DIA_PI3_MV_DMSO_12.wiff",
+      "JM_Plum_310118_130418_DDA_C_F08.wiff",
+      "JM_Plum_310118_130418_DDA_B_F02.wiff",
+      "JM_Plum_310118_130418_DDA_A_F04.wiff",
+      "JM_Plum_310118_130418_DDA_B_F03.wiff.scan",
+      "JM_Plum_310118_100418_DIA_145_MV_DMSO_21.wiff",
+      "JM_Plum_310118_100418_DIA_145_Exo_INHB_11.wiff.scan",
+      "JM_Plum_310118_100418_DIA_PI3_MV_INHB_21.wiff.scan",
+      "JM_Plum_310118_100418_DIA_PI3_Exo_INHB_22.wiff",
+      "JM_Plum_310118_100418_DIA_145_MV_DMSO_11.wiff.scan",
+      "JM_Plum_310118_130418_DDA_B_F04.wiff.scan",
+      "JM_Plum_310118_100418_DIA_PI3_Exo_INHB_22.wiff.scan",
+      "JM_Plum_310118_130418_DDA_B_F08.wiff",
+      "JM_Plum_310118_100418_DIA_PI3_MV_INHB_21.wiff",
+      "JM_Plum_310118_100418_DIA_PI3_Exo_DMSO_11.wiff.scan",
+      "JM_Plum_310118_130418_DDA_B_F08.wiff.scan",
+      "JM_Plum_310118_130418_DDA_A_F08.wiff",
+      "JM_Plum_310118_100418_DIA_PI3_MV_INHB_22.wiff.scan",
+      "JM_Plum_310118_100418_DIA_145_MV_INHB_22.wiff",
+      "JM_Plum_310118_100418_DIA_PI3_Exo_DMSO_11.wiff",
+      "JM_Plum_310118_100418_DIA_PI3_Exo_DMSO_21.wiff",
+      "JM_Plum_310118_100418_DIA_PI3_Exo_INHB_12.wiff",
+      "JM_Plum_310118_100418_DIA_PI3_MV_DMSO_22.wiff.scan",
+      "JM_Plum_310118_130418_DDA_B_F07.wiff",
+      "JM_Plum_310118_100418_DIA_PI3_MV_INHB_12.wiff",
+      "JM_Plum_310118_100418_DIA_145_Exo_DMSO_11.wiff.scan",
+      "JM_Plum_310118_100418_DIA_PI3_MV_DMSO_11.wiff",
+      "JM_Plum_310118_100418_DIA_PI3_Exo_INHB_12.wiff.scan"
+    ]
+  },
+  "steps": {
+    "STEP1_OVERVIEW": {
+      "confirmed": {
+        "Characteristics[Organism]": {
+          "value": "Homo sapiens",
+          "evidence": "prostate cancer (PCa) tissue and their role in EV composition and secretion for prostate cancer cell migration",
+          "source": "manuscript"
+        },
+        "Characteristics[OrganismPart]": {
+          "value": "not applicable",
+          "evidence": "PCa cells (PC3 and DU145) - cell lines used, not specific organism parts",
+          "source": "manuscript"
+        },
+        "Characteristics[CellType]": {
+          "value": "epithelial",
+          "evidence": "prostate cancer cells PC3 and DU145 are epithelial-derived cancer cell lines",
+          "source": "manuscript"
+        },
+        "Characteristics[CellLine]": {
+          "value": "not applicable",
+          "evidence": "PC3 and DU145 mentioned but not in allowed values list",
+          "source": "manuscript"
+        },
+        "Characteristics[Disease]": {
+          "value": "normal",
+          "evidence": "study involves both prostate cancer and control conditions, closest match from allowed values",
+          "source": "manuscript"
+        },
+        "Characteristics[MaterialType]": {
+          "value": "cell line",
+          "evidence": "PCa cells (PC3 and DU145) used in experiments",
+          "source": "manuscript"
+        },
+        "Characteristics[Label]": {
+          "value": "label free sample",
+          "evidence": "proteomic analysis mentioned without specific labeling method described",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {
+        "Characteristics[Compound]": {
+          "candidates": [
+            "control",
+            "not applicable"
+          ],
+          "reasoning": "GW4869 inhibitor used but not in allowed values, control conditions present",
+          "needs": "clarification on whether control samples were analyzed separately"
+        },
+        "Characteristics[Sex]": {
+          "candidates": [
+            "male",
+            "not applicable"
+          ],
+          "reasoning": "prostate cancer typically affects males but sex not explicitly mentioned",
+          "needs": "explicit statement of patient/sample sex in methods"
+        }
+      },
+      "not_applicable": [
+        "Characteristics[DevelopmentalStage]",
+        "Characteristics[Specimen]",
+        "Characteristics[Strain]",
+        "Comment[AcquisitionMethod]"
+      ],
+      "summary": "This prostate cancer study uses human PC3 and DU145 cell lines to investigate extracellular vesicle secretion. The experiment involves nSMase inhibition with GW4869 and proteomic analysis of EVs. Label-free proteomics was used to analyze differentially secreted proteins affecting cancer cell migration."
+    },
+    "STEP2_SAMPLE_PREP": {
+      "confirmed": {
+        "Characteristics[CleavageAgent]": {
+          "value": "Trypsin",
+          "evidence": "digested with trypsin overnight",
+          "source": "manuscript"
+        },
+        "Characteristics[ReductionReagent]": {
+          "value": "DTT",
+          "evidence": "gel slices were reduced with dithiothreitol (DTT)",
+          "source": "manuscript"
+        },
+        "Characteristics[AlkylationReagent]": {
+          "value": "IAA",
+          "evidence": "alkylated with 2-iodoacetamide",
+          "source": "manuscript"
+        },
+        "Characteristics[Label]": {
+          "value": "label free sample",
+          "evidence": "SWATH quantitation microApp was used for label-free quantitative analysis",
+          "source": "manuscript"
+        },
+        "Comment[EnrichmentMethod]": {
+          "value": "no enrichment",
+          "evidence": "No specific enrichment method mentioned, samples were directly processed for MS analysis",
+          "source": "manuscript"
+        },
+        "Comment[FractionationMethod]": {
+          "value": "SDS-PAGE",
+          "evidence": "applied to 4–12% NuPAGE Novex Bis-Tris Minigels (Invitrogen). Samples were run 1 cm into the gel for purification",
+          "source": "manuscript"
+        },
+        "Comment[Separation]": {
+          "value": "Reversed-phase chromatography",
+          "evidence": "separated on an analytical RP-C18 column (0.075 mm ID × 250 mm, HSS T3, 1.8 µm, Waters) using a 90 min linear gradient",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {
+        "Characteristics[Modification]": {
+          "candidates": [
+            "Carbamidomethyl",
+            "Oxidation"
+          ],
+          "reasoning": "DTTとIAAを使用した標準的なプロテオミクス実験では、システイン残基のカルバミドメチル化と メチオニン酸化が一般的に観察される",
+          "needs": "データベース検索パラメータの詳細情報"
+        }
+      },
+      "not_applicable": [
+        "Characteristics[Depletion]"
+      ],
+      "summary": "サンプル調製では標準的なゲル内消化プロトコルが使用され、トリプシン消化、DTT還元、IAアルキル化が確認された。分離にはRP-C18カラムクロマトグラフィーが使用され、SDS-PAGEによる前分画も実施された。ラベルフリー定量法でSWATH-MS解析が行われた。"
+    },
+    "STEP3_MS_SETTINGS": {
+      "confirmed": {
+        "Comment[FragmentationMethod]": {
+          "value": "CID",
+          "evidence": "MS/MS activation was achieved by CID using nitrogen as a collision gas and the manufacturer's default rolling collision energy settings",
+          "source": "manuscript"
+        },
+        "Comment[AcquisitionMethod]": {
+          "value": "SWATH",
+          "evidence": "For quantitative SWATH analysis, MS/MS data were acquired using 65 variable-size windows across the 400–1050 m/z range",
+          "source": "manuscript"
+        },
+        "Comment[GradientTime]": {
+          "value": "90 min",
+          "evidence": "separated on an analytical RP-C18 column using a 90 min linear gradient of 5–35% acetonitrile/0.1% formic acid",
+          "source": "manuscript"
+        },
+        "Comment[FlowRateChromatogram]": {
+          "value": "300 nL/min",
+          "evidence": "using a 90 min linear gradient of 5–35% acetonitrile/0.1% formic acid (v:v) at 300 nL min−1",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {
+        "Comment[Instrument]": {
+          "candidates": [
+            "TripleTOF 5600"
+          ],
+          "reasoning": "論文にはTripleTOF 5600+と記載されているが、候補リストに完全一致がない。最も近い候補としてTripleTOF 5600を選択",
+          "needs": "候補リストの更新またはTripleTOF 5600+の正確な表記確認"
+        },
+        "Comment[MS2MassAnalyzer]": {
+          "candidates": [
+            "TOF"
+          ],
+          "reasoning": "TripleTOF装置でTOF analyzerが使用されていることが明らかだが、候補リストにTOFがない",
+          "needs": "TOFアナライザーに対応する候補リストの値の確認"
+        }
+      },
+      "not_applicable": [
+        "Comment[CollisionEnergy]",
+        "Comment[PrecursorMassTolerance]",
+        "Comment[FragmentMassTolerance]",
+        "Comment[NumberOfMissedCleavages]"
+      ],
+      "summary": "質量分析装置・設定パラメータから、CIDフラグメンテーション、SWATH定量法、90分グラディエント、300 nL/min流速が確定された。TripleTOF 5600装置とTOFアナライザーは候補リストとの完全一致がないため仮説として扱った。衝突エネルギーやマストレランス等の詳細パラメータは論文中に明記されていなかった。"
+    },
+    "STEP4_RAW_FILES": {
+      "confirmed": {
+        "Comment[FractionIdentifier]": {
+          "value": "not applicable",
+          "evidence": "Raw file names contain sample/treatment identifiers but no clear fractionation markers. Analysis indicates single protein digests without apparent fractionation.",
+          "source": "manuscript"
+        },
+        "FactorValue[Compound]": {
+          "value": "GW4869",
+          "evidence": "Cell viability after GW4869 treatment was measured... Cells were then treated with DMSO (vehicle control) or 10 µM GW4869",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {
+        "Characteristics[BiologicalReplicate]": {
+          "candidates": [
+            "not applicable"
+          ],
+          "reasoning": "Raw filenames contain numeric suffixes (11, 12, 21, 22) that could indicate replicates, but the pattern is unclear and may represent technical rather than biological replicates",
+          "needs": "Clear definition of replicate structure from methods or supplementary data"
+        },
+        "FactorValue[Treatment]": {
+          "candidates": [
+            "GW4869",
+            "DMSO"
+          ],
+          "reasoning": "Raw filenames contain DMSO and INHB (likely inhibitor=GW4869) identifiers, matching the experimental treatments described",
+          "needs": "Confirmation that INHB in filenames corresponds to GW4869 treatment"
+        }
+      },
+      "not_applicable": [
+        "FactorValue[Temperature]",
+        "FactorValue[Disease]",
+        "FactorValue[GeneticModification]",
+        "FactorValue[Bait]"
+      ],
+      "summary": "Raw file analysis reveals a compound treatment experiment using GW4869 (nSMase inhibitor) vs DMSO control. Files indicate analysis of both cell types (145=DU145, PI3=PC3) and sample types (Exo=exosomes, MV=microvesicles). No fractionation was performed. Replicate structure needs clarification but appears to follow a numbered system."
+    }
+  }
+}

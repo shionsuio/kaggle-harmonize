@@ -1,0 +1,578 @@
+{
+  "pxd": "PXD005207",
+  "raw_files": [
+    "CDPK1_TP_01_R1.raw",
+    "Plfalci_TP_iTRAQ12_R2.raw",
+    "Plasmo_TP4_R3.raw",
+    "CDPK1_TP_8_R5.raw",
+    "Plfalci_TP_iTRAQ10_R2.raw",
+    "Plasmo_TP1_R3.raw",
+    "Plasmo_TP12_R3.raw",
+    "CDPK1_phospho_R4_9.raw",
+    "CDPK1_phospho_R4_8.raw",
+    "Plasmo_TP3_R3.raw",
+    "CDPK1_TP_09_R1.raw",
+    "CDPK1_Phospho_9_R3.raw",
+    "CDPK1_TP_7_R5.raw",
+    "CDPK1_Phospho_5_R3.raw",
+    "CDPK1_TP_5_R4.raw",
+    "CDPK1_phospho_R4_7.raw",
+    "CDPK1_phospho_12_R5.raw",
+    "CDPK1_phospho_2_R5.raw",
+    "CDPK1_TP_08_R1.raw",
+    "CDPK1_TP_8_R4.raw",
+    "CDPK1_Phospho_iTRAQ_5_R1.raw",
+    "CDPK1_Phospho_iTRAQ_12_R1.raw",
+    "CDPK1_phospho_7_R5.raw",
+    "Plasmo_TP7_R3.raw",
+    "CDPK1_TP_3_R4.raw",
+    "CDPK1_Phospho_iTRAQ5_R2.raw",
+    "PKARCDPK1_invitrokinase.raw",
+    "CDPK1_Phospho_iTRAQ_4_R1.raw",
+    "CDPK1_TP_2_R5.raw",
+    "CDPK1_TP_1_R5.raw",
+    "CDPK1_TP_10_R4.raw",
+    "CDPK1_phospho_14_R5.raw",
+    "CDPK1_Phospho_iTRAQ8_Re_R2.raw",
+    "CDPK1_Phospho_11_R3.raw",
+    "CDPK1_Phospho_iTRAQ4_R2.raw",
+    "Plfalci_TP_iTRAQ8_R2.raw",
+    "CDPK1_phospho_R4_11.raw",
+    "CDPK1_phospho_13_R5.raw",
+    "Plfalci_TP_iTRAQ7_R2.raw",
+    "CDPK1_Phospho_iTRAQ7_Re_R2.raw",
+    "CDPK1_Phospho_iTRAQ_1Re_R1.raw",
+    "CDPK1_Phospho_6_R3.raw",
+    "CDPK1_phospho_R4_4.raw",
+    "Plasmo_TP6_R3.raw",
+    "CDPK1_Phospho_iTRAQ_6_R1.raw",
+    "CDPK1_phospho_R4_2.raw",
+    "CDPK1_phospho_6_R5.raw",
+    "CDPK1_Phospho_iTRAQ2_Re_R2.raw",
+    "Plasmo_TP10_R3.raw",
+    "CDPK1_TP_7_R4.raw",
+    "Plfalci_TP_iTRAQ5_R2.raw",
+    "CDPK1_phospho_R4_12.raw",
+    "CDPK1_phospho_3_R5.raw",
+    "CDPK1_Phospho_iTRAQ7_R2.raw",
+    "Plfalci_TP_iTRAQ6_R2.raw",
+    "CDPK1_Phospho_iTRAQ_10_R1.raw",
+    "CDPK1_Phospho_iTRAQ2_R2.raw",
+    "CDPK1_phospho_R4_3.raw",
+    "CDPK1_TP_2_R4.raw",
+    "CDPK1_TP_4_R5.raw",
+    "CDPK1_TP_02_R1.raw",
+    "CDPK1_7_TP_R4.raw",
+    "CDPK1_Phospho_iTRAQ6_Re_R2.raw",
+    "CDPK1_Phospho_iTRAQ9_Re_R2.raw",
+    "Plasmo_TP9_R3.raw",
+    "CDPK1_phospho_R4_5.raw",
+    "CDPK1_TP_1_R4.raw",
+    "CDPK1_Phospho_4_R3.raw",
+    "CDPK1_phospho_9_R5.raw",
+    "CDPK1_TP_06_R1.raw",
+    "CDPK1_TP_05_R1.raw",
+    "CDPK1_Phospho_7_R3.raw",
+    "CDPK1_TP_11_R1.raw",
+    "CDPK1_TP_8_Re_R4.raw",
+    "CDPK1_Phospho_iTRAQ_8_R1.raw",
+    "CDPK1_Phospho_8_R3.raw",
+    "CDPK1_Phospho_iTRAQ_1_R1.raw",
+    "CDPK1_phospho_8_R5.raw",
+    "CDPK1_Phospho_iTRAQ9_R2.raw",
+    "Plfalci_TP_iTRAQ3_R2.raw",
+    "CDPK1_TP_3_R5.raw",
+    "Plasmo_TP5_R3.raw",
+    "CDPK1_Phospho_iTRAQ_11_R1.raw",
+    "CDPK1_Phospho_1_R3.raw",
+    "CDPK1_Phospho_3_R3.raw",
+    "CDPK1_TP_10_R1.raw",
+    "CDPK1_TP_5_R5.raw",
+    "CDPK1_Phospho_iTRAQ12_R2.raw",
+    "CDPK1_phospho_R4_6.raw",
+    "CDPK1_Phospho_iTRAQ_7_R1.raw",
+    "CDPK1_Phospho_2_Re_R3.raw",
+    "CDPK1_TP_11_R4.raw",
+    "CDPK1_phospho_5_R5.raw",
+    "CDPK1_TP_6_R5.raw",
+    "CDPK1_Phospho_12_R3.raw",
+    "CDPK1_Phospho_iTRAQ3_Re_R2.raw",
+    "Plfalci_TP_iTRAQ2_R2.raw",
+    "CDPK1_Phospho_iTRAQ1_R2.raw",
+    "Plasmo_TP11_R3.raw",
+    "CDPK1_TP_11_R5.raw",
+    "CDPK1_Phospho_iTRAQ10_R2.raw",
+    "CDPK1_phospho_10_R5.raw",
+    "Plfalci_TP_iTRAQ_1_R2.raw",
+    "CDPK1_phospho_R4_1.raw",
+    "Plasmo_TP2_R3.raw",
+    "CDPK1_phospho_R4_10.raw",
+    "CDPK1_phospho_1_R5.raw",
+    "CDPK1_TP_9_R5.raw",
+    "CDPK1_Phospho_iTRAQ_9_R1.raw",
+    "Plasmo_TP8_R3.raw",
+    "Plfalci_TP_iTRAQ4_R2.raw",
+    "CDPK1_TP_7_RE_R4.raw",
+    "CDPK1_TP_9_R4.raw",
+    "CDPK1_TP_6_R4.raw",
+    "CDPK1_phospho_4_R5.raw",
+    "CDPK1_TP_7_R1.raw",
+    "CDPK1_Phospho_iTRAQ_3_R1.raw",
+    "CDPK1_Phospho_1_Re_R3.raw",
+    "CDPK1_TP_12_R1.raw",
+    "CDPK1_phospho_11_R5.raw",
+    "CDPK1_TP_04_R1.raw",
+    "CDPK1_TP_03_R1.raw",
+    "CDPK1_TP_12_R5.raw",
+    "Plfalci_TP_iTRAQ9_R2.raw",
+    "CDPK1_TP_12_R4.raw",
+    "CDPK1_Phospho_iTRAQ11_R2.raw",
+    "Plfalci_TP_iTRAQ11_R2.raw",
+    "CDPK1_Phospho_10_R3.raw",
+    "CDPK1_TP_10_R5.raw",
+    "CDPK1_Phospho_iTRAQ_2_R1.raw"
+  ],
+  "anchor": {
+    "pxd": "PXD005207",
+    "source": "PRIDE_API",
+    "organism": [
+      {
+        "name": "Plasmodium falciparum",
+        "accession": "NEWT:5833"
+      }
+    ],
+    "instruments": [
+      {
+        "name": "Orbitrap Fusion",
+        "accession": "MS:1002416",
+        "sdrf_format": "AC=MS:1002416;NT=Orbitrap Fusion"
+      }
+    ],
+    "modifications": [],
+    "organism_parts": [
+      {
+        "name": "Cell",
+        "accession": "CL:0000000"
+      }
+    ],
+    "diseases": [
+      {
+        "name": "Disease free",
+        "accession": "DOID:0000018"
+      }
+    ],
+    "experiment_types": [
+      "Shotgun proteomics"
+    ],
+    "quantification_methods": [
+      "iTRAQ"
+    ],
+    "keywords": [
+      "Orbitrap fusion",
+      "Phosphoproteome"
+    ],
+    "publications": [
+      {
+        "pubmed_id": "",
+        "doi": "10.1038/s41467-017-00053-1",
+        "ref": "Kumar S, Kumar M, Ekka R, Dvorin JD, Paul AS, Madugundu AK, Gilberger T, Gowda H, Duraisingh MT, Keshava Prasad TS, Sharma P. PfCDPK1 mediated signaling in erythrocytic stages of Plasmodium falciparum. Nat Commun. 2017 8(1):63"
+      }
+    ],
+    "inferred_fragmentation": null,
+    "inferred_ms2_analyzer": "orbitrap",
+    "inferred_ionization": "nanoESI",
+    "raw_files": [
+      "CDPK1_TP_01_R1.raw",
+      "Plfalci_TP_iTRAQ12_R2.raw",
+      "Plasmo_TP4_R3.raw",
+      "CDPK1_TP_8_R5.raw",
+      "Plfalci_TP_iTRAQ10_R2.raw",
+      "Plasmo_TP1_R3.raw",
+      "Plasmo_TP12_R3.raw",
+      "CDPK1_phospho_R4_9.raw",
+      "CDPK1_phospho_R4_8.raw",
+      "Plasmo_TP3_R3.raw",
+      "CDPK1_TP_09_R1.raw",
+      "CDPK1_Phospho_9_R3.raw",
+      "CDPK1_TP_7_R5.raw",
+      "CDPK1_Phospho_5_R3.raw",
+      "CDPK1_TP_5_R4.raw",
+      "CDPK1_phospho_R4_7.raw",
+      "CDPK1_phospho_12_R5.raw",
+      "CDPK1_phospho_2_R5.raw",
+      "CDPK1_TP_08_R1.raw",
+      "CDPK1_TP_8_R4.raw",
+      "CDPK1_Phospho_iTRAQ_5_R1.raw",
+      "CDPK1_Phospho_iTRAQ_12_R1.raw",
+      "CDPK1_phospho_7_R5.raw",
+      "Plasmo_TP7_R3.raw",
+      "CDPK1_TP_3_R4.raw",
+      "CDPK1_Phospho_iTRAQ5_R2.raw",
+      "PKARCDPK1_invitrokinase.raw",
+      "CDPK1_Phospho_iTRAQ_4_R1.raw",
+      "CDPK1_TP_2_R5.raw",
+      "CDPK1_TP_1_R5.raw",
+      "CDPK1_TP_10_R4.raw",
+      "CDPK1_phospho_14_R5.raw",
+      "CDPK1_Phospho_iTRAQ8_Re_R2.raw",
+      "CDPK1_Phospho_11_R3.raw",
+      "CDPK1_Phospho_iTRAQ4_R2.raw",
+      "Plfalci_TP_iTRAQ8_R2.raw",
+      "CDPK1_phospho_R4_11.raw",
+      "CDPK1_phospho_13_R5.raw",
+      "Plfalci_TP_iTRAQ7_R2.raw",
+      "CDPK1_Phospho_iTRAQ7_Re_R2.raw",
+      "CDPK1_Phospho_iTRAQ_1Re_R1.raw",
+      "CDPK1_Phospho_6_R3.raw",
+      "CDPK1_phospho_R4_4.raw",
+      "Plasmo_TP6_R3.raw",
+      "CDPK1_Phospho_iTRAQ_6_R1.raw",
+      "CDPK1_phospho_R4_2.raw",
+      "CDPK1_phospho_6_R5.raw",
+      "CDPK1_Phospho_iTRAQ2_Re_R2.raw",
+      "Plasmo_TP10_R3.raw",
+      "CDPK1_TP_7_R4.raw",
+      "Plfalci_TP_iTRAQ5_R2.raw",
+      "CDPK1_phospho_R4_12.raw",
+      "CDPK1_phospho_3_R5.raw",
+      "CDPK1_Phospho_iTRAQ7_R2.raw",
+      "Plfalci_TP_iTRAQ6_R2.raw",
+      "CDPK1_Phospho_iTRAQ_10_R1.raw",
+      "CDPK1_Phospho_iTRAQ2_R2.raw",
+      "CDPK1_phospho_R4_3.raw",
+      "CDPK1_TP_2_R4.raw",
+      "CDPK1_TP_4_R5.raw",
+      "CDPK1_TP_02_R1.raw",
+      "CDPK1_7_TP_R4.raw",
+      "CDPK1_Phospho_iTRAQ6_Re_R2.raw",
+      "CDPK1_Phospho_iTRAQ9_Re_R2.raw",
+      "Plasmo_TP9_R3.raw",
+      "CDPK1_phospho_R4_5.raw",
+      "CDPK1_TP_1_R4.raw",
+      "CDPK1_Phospho_4_R3.raw",
+      "CDPK1_phospho_9_R5.raw",
+      "CDPK1_TP_06_R1.raw",
+      "CDPK1_TP_05_R1.raw",
+      "CDPK1_Phospho_7_R3.raw",
+      "CDPK1_TP_11_R1.raw",
+      "CDPK1_TP_8_Re_R4.raw",
+      "CDPK1_Phospho_iTRAQ_8_R1.raw",
+      "CDPK1_Phospho_8_R3.raw",
+      "CDPK1_Phospho_iTRAQ_1_R1.raw",
+      "CDPK1_phospho_8_R5.raw",
+      "CDPK1_Phospho_iTRAQ9_R2.raw",
+      "Plfalci_TP_iTRAQ3_R2.raw",
+      "CDPK1_TP_3_R5.raw",
+      "Plasmo_TP5_R3.raw",
+      "CDPK1_Phospho_iTRAQ_11_R1.raw",
+      "CDPK1_Phospho_1_R3.raw",
+      "CDPK1_Phospho_3_R3.raw",
+      "CDPK1_TP_10_R1.raw",
+      "CDPK1_TP_5_R5.raw",
+      "CDPK1_Phospho_iTRAQ12_R2.raw",
+      "CDPK1_phospho_R4_6.raw",
+      "CDPK1_Phospho_iTRAQ_7_R1.raw",
+      "CDPK1_Phospho_2_Re_R3.raw"
+    ]
+  },
+  "steps": {
+    "STEP1_OVERVIEW": {
+      "confirmed": {
+        "Characteristics[Organism]": {
+          "value": "Plasmodium falciparum",
+          "evidence": "PfCDPK1 mediated signaling in erythrocytic stages of Plasmodium falciparum",
+          "source": "manuscript"
+        },
+        "Characteristics[OrganismPart]": {
+          "value": "Cell",
+          "evidence": "erythrocytic stages of Plasmodium falciparum",
+          "source": "manuscript"
+        },
+        "Characteristics[Disease]": {
+          "value": "Disease free",
+          "evidence": "No disease mentioned in context, study focuses on parasite biology",
+          "source": "manuscript"
+        },
+        "Characteristics[Label]": {
+          "value": "iTRAQ",
+          "evidence": "From PRIDE database anchor information",
+          "source": "anchor"
+        },
+        "Characteristics[DevelopmentalStage]": {
+          "value": "erythrocytic stages",
+          "evidence": "PfCDPK1 mediated signaling in erythrocytic stages of Plasmodium falciparum",
+          "source": "manuscript"
+        },
+        "Comment[AcquisitionMethod]": {
+          "value": "Shotgun proteomics",
+          "evidence": "From PRIDE database anchor information",
+          "source": "anchor"
+        }
+      },
+      "hypotheses": {
+        "Characteristics[Treatment]": {
+          "candidates": [
+            "conditional knockdown",
+            "CDPK1 knockdown"
+          ],
+          "reasoning": "Abstract mentions 'conditional knockdown strategy' and 'conditional knockdown of CDPK1'",
+          "needs": "Detailed methods section to confirm specific knockdown conditions and controls"
+        },
+        "Characteristics[MaterialType]": {
+          "candidates": [
+            "protein",
+            "cell lysate"
+          ],
+          "reasoning": "Phosphoproteomics study implies protein analysis from parasite cells",
+          "needs": "Methods section to confirm sample preparation and material type"
+        }
+      },
+      "not_applicable": [
+        "Characteristics[CellType]",
+        "Characteristics[CellLine]",
+        "Characteristics[Specimen]",
+        "Characteristics[Strain]",
+        "Characteristics[GeneticModification]",
+        "Characteristics[Compound]",
+        "Characteristics[ConcentrationOfCompound]"
+      ],
+      "summary": "Study focuses on Plasmodium falciparum erythrocytic stages using iTRAQ-based shotgun proteomics. Conditional knockdown strategy was used to study PfCDPK1 function. Key unknowns include specific treatment conditions, sample preparation details, and whether genetic modifications beyond knockdown were used."
+    },
+    "STEP2_SAMPLE_PREP": {
+      "confirmed": {
+        "Characteristics[Label]": {
+          "value": "iTRAQ",
+          "evidence": "iTRAQ labeling of the peptides was carried out as per manufacturer's instructions. Peptides from wild type parasites were labeled in technical replicates with 114 and 115 iTRAQ reporter ions and peptides from CDPK1 knockdown parasites were labeled with 116 and 117 reporter ions.",
+          "source": "manuscript"
+        },
+        "Characteristics[CleavageAgent]": {
+          "value": "trypsin",
+          "evidence": "Trypsin was added in a ratio of 1 unit of trypsin per 20 unit of sample and kept for overnight digestion at 37 °C... Trypsin was set as the protease and maximum of one missed cleavage was allowed.",
+          "source": "manuscript"
+        },
+        "Characteristics[ReductionReagent]": {
+          "value": "DTT",
+          "evidence": "An equal amount of protein (1.5 mg) from each case was reduced using DTT at a final concentration of 5 mM at 60 °C for 30 min",
+          "source": "manuscript"
+        },
+        "Characteristics[AlkylationReagent]": {
+          "value": "iodoacetamide",
+          "evidence": "alkylated using 10 mM iodoacetamide for 10 min at room temperature kept in dark",
+          "source": "manuscript"
+        },
+        "Characteristics[Modification]": {
+          "value": "Carbamidomethyl",
+          "evidence": "carbamidomethylation of cysteine residues, peptide N-terminal and lysine side chain of iTRAQ as fixed modification",
+          "source": "manuscript"
+        },
+        "Characteristics[Modification].1": {
+          "value": "iTRAQ4plex",
+          "evidence": "carbamidomethylation of cysteine residues, peptide N-terminal and lysine side chain of iTRAQ as fixed modification",
+          "source": "manuscript"
+        },
+        "Characteristics[Modification].2": {
+          "value": "Oxidation",
+          "evidence": "Oxidation of methionine and phosphorylation of serine, threonine and tyrosine was selected as dynamic modifications",
+          "source": "manuscript"
+        },
+        "Characteristics[Modification].3": {
+          "value": "Phospho",
+          "evidence": "Oxidation of methionine and phosphorylation of serine, threonine and tyrosine was selected as dynamic modifications",
+          "source": "manuscript"
+        },
+        "Comment[EnrichmentMethod]": {
+          "value": "TiO2",
+          "evidence": "the rest was further processed for TiO2 based enrichment of phosphopeptides. Titansphere beads (GL Sciences, Japan) were mixed with peptides in 1:1 ratio and incubated on rotor for 1 h at room temperature",
+          "source": "manuscript"
+        },
+        "Comment[FractionationMethod]": {
+          "value": "Basic reverse phase liquid chromatography",
+          "evidence": "fractionated on Xbridge C18 5 um 250 × 4.6 mm column... using a gradient of 5 to 60% solvent B (10 mM triethylammonium bicarbonate, pH 8.5 in 95% Acetonitrile)",
+          "source": "manuscript"
+        },
+        "Comment[NumberOfFractions]": {
+          "value": "12",
+          "evidence": "A total of 96 fractions were concatenated into 12 fractions and vacuum dried",
+          "source": "manuscript"
+        },
+        "Comment[Separation]": {
+          "value": "LC-MS/MS",
+          "evidence": "analyzed on Orbitrap Fusion Tribrid mass spectrometer interfaced with Proxeon Easy-nLC 1000 system... Peptides were resolved on an analytical column (75 µ × 15 cm, 3 µ particle and 100 Å pore size)",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {},
+      "not_applicable": [
+        "Characteristics[Depletion]",
+        "Characteristics[SpikedCompound]",
+        "Characteristics[SyntheticPeptide]",
+        "Characteristics[Modification].4",
+        "Characteristics[Modification].5",
+        "Characteristics[Modification].6"
+      ],
+      "summary": "サンプル調製の詳細が明確に特定されました。タンパク質はDTTで還元、ヨードアセトアミドでアルキル化後、トリプシンで消化され、iTRAQ標識されています。TiO2による燐酸化ペプチド濃縮と12画分への分画が行われ、LC-MS/MS分析に供されました。修飾は固定修飾としてカルバミドメチル化とiTRAQ、動的修飾として酸化と燐酸化が設定されています。"
+    },
+    "STEP3_MS_SETTINGS": {
+      "confirmed": {
+        "Comment[Instrument]": {
+          "value": "Orbitrap Fusion Tribrid",
+          "evidence": "Each fraction was reconstituted in 0.1% formic acid and analyzed on Orbitrap Fusion Tribrid mass spectrometer interfaced with Proxeon Easy-nLC 1000 system",
+          "source": "manuscript"
+        },
+        "Comment[FragmentationMethod]": {
+          "value": "HCD",
+          "evidence": "Most intense precursor ions were selected and fragmented using higher-energy collisional dissociation (HCD) with 35% normalized collision energy",
+          "source": "manuscript"
+        },
+        "Comment[AcquisitionMethod]": {
+          "value": "Data dependent acquisition",
+          "evidence": "The data were acquired in top speed mode with 3 s cycles, which would allow the instrument to continuously perform MS2 scans until the list of precursors diminish to zero or 3 s",
+          "source": "manuscript"
+        },
+        "Comment[IonizationType]": {
+          "value": "nanoESI",
+          "evidence": "nanoESI",
+          "source": "anchor"
+        },
+        "Comment[MS2MassAnalyzer]": {
+          "value": "orbitrap",
+          "evidence": "Fragment ions were detected in Orbitrap with mass resolution of 30,000",
+          "source": "manuscript"
+        },
+        "Comment[CollisionEnergy]": {
+          "value": "35% HCD",
+          "evidence": "Most intense precursor ions were selected and fragmented using higher-energy collisional dissociation (HCD) with 35% normalized collision energy",
+          "source": "manuscript"
+        },
+        "Comment[PrecursorMassTolerance]": {
+          "value": "20 ppm",
+          "evidence": "Precursor mass tolerance was set to 20 ppm",
+          "source": "manuscript"
+        },
+        "Comment[FragmentMassTolerance]": {
+          "value": "0.1 Da",
+          "evidence": "fragment mass tolerance of 0.1 Da was allowed",
+          "source": "manuscript"
+        },
+        "Comment[NumberOfMissedCleavages]": {
+          "value": "1",
+          "evidence": "Trypsin was set as the protease and maximum of one missed cleavage was allowed",
+          "source": "manuscript"
+        },
+        "Comment[GradientTime]": {
+          "value": "120 min",
+          "evidence": "Peptides were resolved on an analytical column (75 µ × 15 cm, 3 µ particle and 100 Å pore size) using a linear gradient of 7 to 30% of solvent B (0.1% formic acid in 95% Acetonitrile) over 120 min",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {},
+      "not_applicable": [
+        "Comment[FlowRateChromatogram]"
+      ],
+      "summary": "質量分析装置と設定パラメータが詳細に特定されました。Orbitrap Fusion TribridとProxeon Easy-nLC 1000を使用し、HCD断片化、データ依存取得モードで分析されています。プレカーサー質量許容誤差20 ppm、フラグメント質量許容誤差0.1 Da、最大1回の切断見逃し、120分グラディエント分析が確認されました。クロマトグラフィーの流速情報のみ論文に記載されていませんでした。"
+    },
+    "STEP4_RAW_FILES": {
+      "confirmed": {
+        "Characteristics[NumberOfBiologicalReplicates]": {
+          "value": "4",
+          "evidence": "The analysis was carried out on four independent biological replicates and one of the replicate was further processed and analyzed as technical duplicates. Therefore, the phosphorylation levels of proteins upon CDPK1 knockdown was studied in five independent analyses.",
+          "source": "manuscript"
+        },
+        "Characteristics[NumberOfTechnicalReplicates]": {
+          "value": "2",
+          "evidence": "one of the replicate was further processed and analyzed as technical duplicates... One more biological replicate was processed in the same way, which was again analyzed as two technical replicates",
+          "source": "manuscript"
+        },
+        "Characteristics[NumberOfSamples]": {
+          "value": "5",
+          "evidence": "Therefore, the phosphorylation levels of proteins upon CDPK1 knockdown was studied in five independent analyses.",
+          "source": "manuscript"
+        },
+        "FactorValue[Treatment]": {
+          "value": "CDPK1 knockdown",
+          "evidence": "PfCDPK1-3HA-DD parasites were cultured in the presence or absence of Shld-1 and harvested at the late schizont stage",
+          "source": "manuscript"
+        },
+        "Comment[FractionIdentifier]": {
+          "value": "per_file",
+          "per_file": {
+            "CDPK1_TP_01_R1.raw": "1",
+            "CDPK1_TP_02_R1.raw": "2",
+            "CDPK1_TP_03_R1.raw": "3",
+            "CDPK1_TP_04_R1.raw": "4",
+            "CDPK1_TP_05_R1.raw": "5",
+            "CDPK1_TP_06_R1.raw": "6",
+            "CDPK1_TP_7_R1.raw": "7",
+            "CDPK1_TP_08_R1.raw": "8",
+            "CDPK1_TP_09_R1.raw": "9",
+            "CDPK1_TP_10_R1.raw": "10",
+            "CDPK1_TP_11_R1.raw": "11",
+            "CDPK1_TP_12_R1.raw": "12",
+            "CDPK1_TP_1_R4.raw": "1",
+            "CDPK1_TP_2_R4.raw": "2",
+            "CDPK1_TP_3_R4.raw": "3",
+            "CDPK1_TP_5_R4.raw": "5",
+            "CDPK1_TP_6_R4.raw": "6",
+            "CDPK1_TP_7_R4.raw": "7",
+            "CDPK1_TP_8_R4.raw": "8",
+            "CDPK1_TP_9_R4.raw": "9",
+            "CDPK1_TP_10_R4.raw": "10",
+            "CDPK1_TP_11_R4.raw": "11",
+            "CDPK1_TP_12_R4.raw": "12",
+            "CDPK1_TP_1_R5.raw": "1",
+            "CDPK1_TP_2_R5.raw": "2",
+            "CDPK1_TP_3_R5.raw": "3",
+            "CDPK1_TP_4_R5.raw": "4",
+            "CDPK1_TP_5_R5.raw": "5",
+            "CDPK1_TP_6_R5.raw": "6",
+            "CDPK1_TP_7_R5.raw": "7",
+            "CDPK1_TP_8_R5.raw": "8",
+            "CDPK1_TP_9_R5.raw": "9",
+            "CDPK1_TP_10_R5.raw": "10",
+            "CDPK1_TP_11_R5.raw": "11",
+            "CDPK1_TP_12_R5.raw": "12",
+            "CDPK1_Phospho_1_R3.raw": "1",
+            "CDPK1_Phospho_3_R3.raw": "3",
+            "CDPK1_Phospho_4_R3.raw": "4",
+            "CDPK1_Phospho_5_R3.raw": "5",
+            "CDPK1_Phospho_6_R3.raw": "6",
+            "CDPK1_Phospho_7_R3.raw": "7",
+            "CDPK1_Phospho_8_R3.raw": "8",
+            "CDPK1_Phospho_9_R3.raw": "9",
+            "CDPK1_Phospho_10_R3.raw": "10",
+            "CDPK1_Phospho_11_R3.raw": "11",
+            "CDPK1_Phospho_12_R3.raw": "12"
+          },
+          "evidence": "A total of 96 fractions were concatenated into 12 fractions and vacuum dried. Fraction numbers are clearly indicated in filenames with numeric tokens (1-12)",
+          "source": "manuscript/filename_analysis"
+        }
+      },
+      "hypotheses": {
+        "Characteristics[BiologicalReplicate]": {
+          "candidates": [
+            "per_file based on R1/R2/R3/R4/R5 tokens"
+          ],
+          "reasoning": "Filename tokens R1, R2, R3, R4, R5 likely represent biological replicates. Paper mentions 4 biological replicates + 1 technical duplicate = 5 total analyses matching the R1-R5 pattern",
+          "needs": "Clear correlation between R tokens and biological replicate assignments"
+        },
+        "FactorValue[FractionIdentifier]": {
+          "candidates": [
+            "same as Comment[FractionIdentifier]"
+          ],
+          "reasoning": "Fraction numbers are clearly identified in filenames and correspond to the 12 fractions mentioned in methods",
+          "needs": "Confirmation if FactorValue should duplicate Comment field"
+        }
+      },
+      "not_applicable": [
+        "FactorValue[Temperature]",
+        "FactorValue[Disease]",
+        "FactorValue[GeneticModification]",
+        "FactorValue[Compound]",
+        "FactorValue[Bait]",
+        "FactorValue[CellPart]",
+        "FactorValue[ConcentrationOfCompound].1"
+      ],
+      "summary": "実験デザインが明確になりました。4つの生物学的複製と1つの技術的重複で合計5解析が行われ、各々が12画分に分画されています。ファイル名からR1-R5が生物学的複製、数字1-12が画分を表すと推定されます。CDPK1ノックダウン（Shld-1除去）が主要な処理条件として確認されました。"
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "pxd": "PXD061009",
+  "source": "PRIDE_API",
+  "organism": [
+    {
+      "name": "Homo sapiens (human)",
+      "accession": "NEWT:9606"
+    }
+  ],
+  "instruments": [
+    {
+      "name": "Q Exactive",
+      "accession": "MS:1001911",
+      "sdrf_format": "AC=MS:1001911;NT=Q Exactive"
+    }
+  ],
+  "modifications": [],
+  "organism_parts": [
+    {
+      "name": "Cell culture",
+      "accession": "BTO:0000214"
+    },
+    {
+      "name": "Stem cell",
+      "accession": "CL:0000034"
+    }
+  ],
+  "diseases": [
+    {
+      "name": "Brain glioblastoma multiforme",
+      "accession": "DOID:3073"
+    }
+  ],
+  "experiment_types": [
+    "Proteogenomics"
+  ],
+  "quantification_methods": [
+    "Relative quantification"
+  ],
+  "keywords": [
+    "Human gsc srgn ms"
+  ],
+  "publications": [
+    {
+      "pubmed_id": "",
+      "doi": "10.1038/s41467-025-58366-5",
+      "ref": "Lu C, Kang T, Zhang J, Yang K, Liu Y, Song K, Lin Q, Dixit D, Gimple RC, Zhang Q, Shi Z, Fan X, Wu Q, Li D, Shan D, Gao J, Gu D, You H, Li Y, Yang J, Zhao L, Qiu Z, Yang H, Zhao N, Gao W, Tao W, Lu Y, Chen Y, Ji J, Zhu Z, Kang C, Man J, Agnihotri S, Wang Q, Lin F, Qian X, Mack SC, Hu Z, Li C, Taylor MD, Liu N, Zhang N, Lu M, You Y, Rich JN, Zhang W, Wang X. Combined targeting of glioblastoma stem cells of different cellular states disrupts malignant progression. Nat Commun. 2025 16(1):2974"
+    }
+  ],
+  "inferred_fragmentation": "HCD",
+  "inferred_ms2_analyzer": "orbitrap",
+  "inferred_ionization": "nanoESI",
+  "raw_files": [
+    "2907.raw",
+    "IgG.raw"
+  ]
+}

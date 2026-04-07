@@ -1,0 +1,52 @@
+{
+  "pxd": "PXD050621",
+  "source": "PRIDE_API",
+  "organism": [
+    {
+      "name": "Escherichia coli",
+      "accession": "NEWT:562"
+    }
+  ],
+  "instruments": [
+    {
+      "name": "Q Exactive HF",
+      "accession": "MS:1002523",
+      "sdrf_format": "AC=MS:1002523;NT=Q Exactive HF"
+    }
+  ],
+  "modifications": [],
+  "organism_parts": [],
+  "diseases": [],
+  "experiment_types": [
+    "Shotgun proteomics"
+  ],
+  "quantification_methods": [
+    "Peptide counting"
+  ],
+  "keywords": [
+    "Restriction alleviation. e. coli",
+    "Ab1157",
+    "Ecoki"
+  ],
+  "publications": [
+    {
+      "pubmed_id": "",
+      "doi": "10.1093/nar/gkae243",
+      "ref": "Skutel M, Yanovskaya D, Demkina A, Shenfeld A, Musharova O, Severinov K, Isaev A. RecA-dependent or independent recombination of plasmid DNA generates a conflict with the host EcoKI immunity by launching restriction alleviation. Nucleic Acids Res. 2024 52(9):5195-5208"
+    }
+  ],
+  "inferred_fragmentation": "HCD",
+  "inferred_ms2_analyzer": "orbitrap",
+  "inferred_ionization": "nanoESI",
+  "raw_files": [
+    "pTn5053_delta_Chi_1.raw",
+    "pTn5053_delta_Chi_3.raw",
+    "pTn5053_delta_Chi_2.raw",
+    "pTn5053_delta_ClpX_1.raw",
+    "pTn5053_1.raw",
+    "pTn5053_delta_ClpX_3.raw",
+    "pTn5053_3.raw",
+    "pTn5053_2.raw",
+    "pTn5053_delta_ClpX_2.raw"
+  ]
+}

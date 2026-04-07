@@ -1,0 +1,420 @@
+{
+  "pxd": "PXD009157",
+  "raw_files": [
+    "92-149139488_C1.raw",
+    "92-149139489_D1.raw",
+    "92-149138155_A1.raw",
+    "92-149139486_A1.raw",
+    "92-149138154_A1.raw",
+    "92-149139491_F1.raw",
+    "92-149139493_H1.raw",
+    "92-149139492_G1.raw",
+    "92-149139490_E1.raw",
+    "92-149139487_B1.raw",
+    "92-149137486_A1.raw"
+  ],
+  "anchor": {
+    "pxd": "PXD009157",
+    "source": "PRIDE_API",
+    "organism": [
+      {
+        "name": "Plasmodium falciparum mad71/papua new guinea",
+        "accession": "NEWT:70154"
+      },
+      {
+        "name": "Homo sapiens (human)",
+        "accession": "NEWT:9606"
+      }
+    ],
+    "instruments": [
+      {
+        "name": "Orbitrap Fusion Lumos",
+        "accession": "MS:1002732",
+        "sdrf_format": "AC=MS:1002732;NT=Orbitrap Fusion Lumos"
+      }
+    ],
+    "modifications": [],
+    "organism_parts": [],
+    "diseases": [],
+    "experiment_types": [
+      "Shotgun proteomics"
+    ],
+    "quantification_methods": [
+      "TMT"
+    ],
+    "keywords": [
+      "Phosphoproteomics",
+      "Camp",
+      "Malaria",
+      "Tmt",
+      "Pka",
+      "Orbitrap"
+    ],
+    "publications": [
+      {
+        "pubmed_id": "",
+        "doi": "10.1371/journal.pbio.3000154",
+        "ref": "Flueck C, Drought LG, Jones A, Patel A, Perrin AJ, Walker EM, Nofal SD, Snijders AP, Blackman MJ, Baker DA. Phosphodiesterase beta is the master regulator of cAMP signalling during malaria parasite invasion. PLoS Biol. 2019 17(2):e3000154"
+      }
+    ],
+    "inferred_fragmentation": null,
+    "inferred_ms2_analyzer": "orbitrap",
+    "inferred_ionization": "nanoESI",
+    "raw_files": [
+      "92-149139488_C1.raw",
+      "92-149139489_D1.raw",
+      "92-149138155_A1.raw",
+      "92-149139486_A1.raw",
+      "92-149138154_A1.raw",
+      "92-149139491_F1.raw",
+      "92-149139493_H1.raw",
+      "92-149139492_G1.raw",
+      "92-149139490_E1.raw",
+      "92-149139487_B1.raw",
+      "92-149137486_A1.raw"
+    ]
+  },
+  "extractions": {
+    "TITLE_ABSTRACT": {
+      "Characteristics[Organism]": {
+        "value": "Plasmodium falciparum",
+        "evidence": "Plasmodium falciparum phosphodiesterase β (PDEβ)",
+        "confidence": "high",
+        "source": "manuscript",
+        "applies_to": "all",
+        "note": "Matches anchor information for Plasmodium falciparum"
+      },
+      "Characteristics[OrganismPart]": {
+        "value": "erythrocytes",
+        "evidence": "invasion of erythrocytes",
+        "confidence": "medium",
+        "source": "manuscript",
+        "applies_to": "all"
+      },
+      "Characteristics[CellType]": {
+        "value": "blood stage parasites",
+        "evidence": "blood stage development of the malaria parasite",
+        "confidence": "high",
+        "source": "manuscript",
+        "applies_to": "all"
+      },
+      "Characteristics[CellLine]": {
+        "value": "Not Applicable",
+        "evidence": "",
+        "confidence": "high",
+        "source": "manuscript",
+        "applies_to": "all"
+      },
+      "Characteristics[Disease]": {
+        "value": "malaria",
+        "evidence": "malaria parasite invasion",
+        "confidence": "high",
+        "source": "manuscript",
+        "applies_to": "all"
+      },
+      "Characteristics[MaterialType]": {
+        "value": "protein extract",
+        "evidence": "Quantitative phosphoproteomic analysis",
+        "confidence": "medium",
+        "source": "inferred",
+        "applies_to": "all"
+      },
+      "Characteristics[Label]": {
+        "value": "TMT",
+        "evidence": "Not explicitly stated in manuscript text",
+        "confidence": "high",
+        "source": "anchor",
+        "applies_to": "all",
+        "note": "Value from anchor information - TMT quantification mentioned"
+      },
+      "Characteristics[Specimen]": {
+        "value": "PDEβ-null parasites",
+        "evidence": "Phosphoproteomic analysis of PDEβ-null parasites",
+        "confidence": "high",
+        "source": "manuscript",
+        "applies_to": "all"
+      },
+      "Characteristics[Strain]": {
+        "value": "Not Applicable",
+        "evidence": "",
+        "confidence": "medium",
+        "source": "manuscript",
+        "applies_to": "all"
+      },
+      "Characteristics[GeneticModification]": {
+        "value": "PDEβ knockout",
+        "evidence": "conditional gene knockout approach, PDEβ disruption, PDEβ knockout",
+        "confidence": "high",
+        "source": "manuscript",
+        "applies_to": "all"
+      },
+      "Characteristics[Treatment]": {
+        "value": "conditional gene disruption",
+        "evidence": "Conditional gene disruption causes a profound reduction in invasion",
+        "confidence": "high",
+        "source": "manuscript",
+        "applies_to": "all"
+      },
+      "Characteristics[DevelopmentalStage]": {
+        "value": "blood stage",
+        "evidence": "essential for blood stage viability, blood stage development",
+        "confidence": "high",
+        "source": "manuscript",
+        "applies_to": "all"
+      },
+      "Comment[AcquisitionMethod]": {
+        "value": "shotgun proteomics",
+        "evidence": "Not explicitly stated in manuscript text",
+        "confidence": "high",
+        "source": "anchor",
+        "applies_to": "all",
+        "note": "Inferred from anchor experiment type"
+      }
+    },
+    "METHODS_SAMPLE": {
+      "Characteristics[CleavageAgent]": {
+        "value": "trypsin",
+        "evidence": "Samples were diluted with 50 mM HEPES to reduce the urea concentration to <2 M prior to trypsin digestion.",
+        "confidence": "high",
+        "source": "manuscript",
+        "applies_to": "all"
+      },
+      "Characteristics[AlkylationReagent]": {
+        "value": "iodoacetamide",
+        "evidence": "A total of 1.05 mg of each protein sample was reduced by 5 mM dithiothreitol, alkylated with 10 mM iodoacetamide, and quenched with 7.5 mM dithiothreitol.",
+        "confidence": "high",
+        "source": "manuscript",
+        "applies_to": "all"
+      },
+      "Characteristics[ReductionReagent]": {
+        "value": "dithiothreitol",
+        "evidence": "A total of 1.05 mg of each protein sample was reduced by 5 mM dithiothreitol, alkylated with 10 mM iodoacetamide, and quenched with 7.5 mM dithiothreitol.",
+        "confidence": "high",
+        "source": "manuscript",
+        "applies_to": "all"
+      },
+      "Characteristics[Label]": {
+        "value": "TMTsixplex",
+        "evidence": "Samples were resuspended in 50 mM HEPES and 30% (v/v) acetonitrile, and the corresponding TMTsixplex (0.8 mg) label (resuspended in anhydrous acetonitrile) was added (TMT6-126, -127, -128 to +RAP; TMT6-129, -130, -131 to DMSO).",
+        "confidence": "high",
+        "source": "manuscript",
+        "applies_to": "all"
+      },
+      "Characteristics[Modification]": {
+        "value": "Phospho(STY)",
+        "evidence": "Default MaxQuant parameters were used with the following adjustments: reporter ion MS2 with the sixplex TMT isobaric labels was selected, Phospho(STY) was added as a variable modification",
+        "confidence": "high",
+        "source": "manuscript",
+        "applies_to": "all"
+      },
+      "Characteristics[Modification].1": {
+        "value": "Not Applicable",
+        "evidence": null,
+        "confidence": "high",
+        "source": "manuscript",
+        "applies_to": "all"
+      },
+      "Characteristics[Modification].2": {
+        "value": "Not Applicable",
+        "evidence": null,
+        "confidence": "high",
+        "source": "manuscript",
+        "applies_to": "all"
+      },
+      "Characteristics[Modification].3": {
+        "value": "Not Applicable",
+        "evidence": null,
+        "confidence": "high",
+        "source": "manuscript",
+        "applies_to": "all"
+      },
+      "Characteristics[Modification].4": {
+        "value": "Not Applicable",
+        "evidence": null,
+        "confidence": "high",
+        "source": "manuscript",
+        "applies_to": "all"
+      },
+      "Characteristics[Modification].5": {
+        "value": "Not Applicable",
+        "evidence": null,
+        "confidence": "high",
+        "source": "manuscript",
+        "applies_to": "all"
+      },
+      "Characteristics[Modification].6": {
+        "value": "Not Applicable",
+        "evidence": null,
+        "confidence": "high",
+        "source": "manuscript",
+        "applies_to": "all"
+      },
+      "Characteristics[Depletion]": {
+        "value": "Not Applicable",
+        "evidence": null,
+        "confidence": "high",
+        "source": "manuscript",
+        "applies_to": "all"
+      },
+      "Characteristics[SpikedCompound]": {
+        "value": "Not Applicable",
+        "evidence": null,
+        "confidence": "high",
+        "source": "manuscript",
+        "applies_to": "all"
+      },
+      "Characteristics[SyntheticPeptide]": {
+        "value": "Not Applicable",
+        "evidence": null,
+        "confidence": "high",
+        "source": "manuscript",
+        "applies_to": "all"
+      },
+      "Comment[EnrichmentMethod]": {
+        "value": "titanium dioxide phosphopeptide enrichment",
+        "evidence": "Dried peptide mixtures were resuspended in 1 M glycolic acid + 80% acetonitrile + 5% trifluoroacetic acid and added to titanium dioxide beads (5:1 [w/w] beads:protein), washed under acidic pH, and eluted from the beads by adding 1% ammonium hydroxide followed by 5% ammonium hydroxide",
+        "confidence": "high",
+        "source": "manuscript",
+        "applies_to": "all"
+      },
+      "Comment[FractionationMethod]": {
+        "value": "Pierce High pH Reversed-Phase Peptide Fractionation",
+        "evidence": "the other two thirds was fractionated and desalted by the use of a Pierce High pH Reversed-Phase Peptide Fractionation Kit",
+        "confidence": "high",
+        "source": "manuscript",
+        "applies_to": "all"
+      },
+      "Comment[NumberOfFractions]": {
+        "value": "Not Applicable",
+        "evidence": null,
+        "confidence": "medium",
+        "source": "manuscript",
+        "applies_to": "all"
+      },
+      "Comment[Separation]": {
+        "value": "nanoLC",
+        "evidence": "Each run consisted of a 3-hour gradient elution (75 μm × 50 cm C18 column)",
+        "confidence": "high",
+        "source": "inferred",
+        "applies_to": "all"
+      }
+    },
+    "METHODS_MS": {
+      "Comment[Instrument]": {
+        "value": "Orbitrap Fusion Lumos",
+        "evidence": "An Orbitrap Fusion Lumos was used for data acquisition.",
+        "confidence": "high",
+        "source": "manuscript",
+        "applies_to": "all"
+      },
+      "Comment[FragmentationMethod]": {
+        "value": "HCD",
+        "evidence": "with higher-energy collision dissociation (HCD) being the selected activation method",
+        "confidence": "high",
+        "source": "manuscript",
+        "applies_to": "all"
+      },
+      "Comment[AcquisitionMethod]": {
+        "value": "DDA",
+        "evidence": "Not explicitly stated but inferred from standard shotgun proteomics workflow described",
+        "confidence": "medium",
+        "source": "inferred",
+        "applies_to": "all"
+      },
+      "Comment[IonizationType]": {
+        "value": "nanoESI",
+        "evidence": "Not explicitly mentioned in manuscript text",
+        "confidence": "high",
+        "source": "anchor",
+        "applies_to": "all"
+      },
+      "Comment[MS2MassAnalyzer]": {
+        "value": "orbitrap",
+        "evidence": "Orbitrap Fusion Lumos instrument uses orbitrap for MS2 analysis",
+        "confidence": "high",
+        "source": "inferred",
+        "applies_to": "all"
+      },
+      "Comment[CollisionEnergy]": {
+        "value": "Not Applicable",
+        "evidence": "No collision energy parameters specified in the methods section",
+        "confidence": "high",
+        "source": "manuscript",
+        "applies_to": "all"
+      },
+      "Comment[PrecursorMassTolerance]": {
+        "value": "Not Applicable",
+        "evidence": "No precursor mass tolerance specified in the methods section",
+        "confidence": "high",
+        "source": "manuscript",
+        "applies_to": "all"
+      },
+      "Comment[FragmentMassTolerance]": {
+        "value": "Not Applicable",
+        "evidence": "No fragment mass tolerance specified in the methods section",
+        "confidence": "high",
+        "source": "manuscript",
+        "applies_to": "all"
+      },
+      "Comment[NumberOfMissedCleavages]": {
+        "value": "Not Applicable",
+        "evidence": "No missed cleavages parameter specified in the methods section",
+        "confidence": "high",
+        "source": "manuscript",
+        "applies_to": "all"
+      },
+      "Comment[GradientTime]": {
+        "value": "3 hours",
+        "evidence": "Each run consisted of a 3-hour gradient elution (75 μm × 50 cm C18 column)",
+        "confidence": "high",
+        "source": "manuscript",
+        "applies_to": "all"
+      },
+      "Comment[FlowRateChromatogram]": {
+        "value": "Not Applicable",
+        "evidence": "No flow rate specified in the methods section",
+        "confidence": "high",
+        "source": "manuscript",
+        "applies_to": "all"
+      }
+    },
+    "RAW_FILES": {
+      "Comment[FractionIdentifier]": {
+        "value": "Not Applicable",
+        "evidence": "No fractionation information found in manuscript text or filenames",
+        "confidence": "high",
+        "source": "manuscript",
+        "applies_to": "all"
+      },
+      "Characteristics[BiologicalReplicate]": {
+        "value": "Not Applicable",
+        "evidence": "No biological replicate information explicitly stated in manuscript text",
+        "confidence": "medium",
+        "source": "manuscript",
+        "applies_to": "all",
+        "note": "Filename analysis shows '_A1' suffix pattern in multiple files (92-149138155_A1.raw, 92-149139486_A1.raw, 92-149138154_A1.raw, 92-149137486_A1.raw) and unique letter patterns (A1,B1,C1,D1,E1,F1,G1,H1) but cannot definitively determine if these represent biological or technical replicates without additional context"
+      },
+      "Characteristics[NumberOfBiologicalReplicates]": {
+        "value": "Not Applicable",
+        "evidence": "No biological replicate count specified in manuscript text",
+        "confidence": "medium",
+        "source": "manuscript",
+        "applies_to": "all"
+      },
+      "Characteristics[NumberOfTechnicalReplicates]": {
+        "value": "Not Applicable",
+        "evidence": "No technical replicate count specified in manuscript text",
+        "confidence": "medium",
+        "source": "manuscript",
+        "applies_to": "all"
+      },
+      "Characteristics[NumberOfSamples]": {
+        "value": "11",
+        "evidence": "11 raw data files listed: 92-149139488_C1.raw, 92-149139489_D1.raw, 92-149138155_A1.raw, 92-149139486_A1.raw, 92-149138154_A1.raw, 92-149139491_F1.raw, 92-149139493_H1.raw, 92-149139492_G1.raw, 92-149139490_E1.raw, 92-149139487_B1.raw, 92-149137486_A1.raw",
+        "confidence": "high",
+        "source": "filename",
+        "applies_to": "all"
+      }
+    }
+  }
+}

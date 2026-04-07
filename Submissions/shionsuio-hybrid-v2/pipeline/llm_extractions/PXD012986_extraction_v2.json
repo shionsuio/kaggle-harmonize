@@ -1,0 +1,337 @@
+{
+  "pxd": "PXD012986",
+  "raw_files": [
+    "QExHF04026.raw",
+    "QExHF04032.raw",
+    "QExHF04050.raw",
+    "QExHF04036.raw",
+    "QExHF04044.raw",
+    "QExHF04028.raw",
+    "QExHF04034.raw",
+    "QExHF04048.raw",
+    "QExHF04046.raw",
+    "QExHF04038.raw",
+    "QExHF04030.raw",
+    "QExHF04040.raw",
+    "QExHF04052.raw",
+    "QExHF04054.raw",
+    "QExHF04042.raw"
+  ],
+  "anchor": {
+    "pxd": "PXD012986",
+    "source": "PRIDE_API",
+    "organism": [
+      {
+        "name": "Mus musculus (mouse)",
+        "accession": "NEWT:10090"
+      }
+    ],
+    "instruments": [
+      {
+        "name": "Q Exactive HF",
+        "accession": "MS:1002523",
+        "sdrf_format": "AC=MS:1002523;NT=Q Exactive HF"
+      }
+    ],
+    "modifications": [],
+    "organism_parts": [
+      {
+        "name": "Myoblast",
+        "accession": "CL:0000056"
+      },
+      {
+        "name": "Cell culture",
+        "accession": "BTO:0000214"
+      }
+    ],
+    "diseases": [],
+    "experiment_types": [
+      "Shotgun proteomics"
+    ],
+    "quantification_methods": [
+      "MS1 intensity based label-free quantification method"
+    ],
+    "keywords": [
+      "Data-independent acquisition (dia)",
+      "Label-free quantification",
+      "Peptide identification",
+      "Spectral library"
+    ],
+    "publications": [
+      {
+        "pubmed_id": "",
+        "doi": "10.1074/mcp.ra119.001714",
+        "ref": "Barkovits K, Pacharra S, Pfeiffer K, Steinbach S, Eisenacher M, Marcus K, Uszkoreit J. Reproducibility, specificity and accuracy of relative quantification using spectral library-based data-independent acquisition. Mol Cell Proteomics. 2019"
+      }
+    ],
+    "inferred_fragmentation": "HCD",
+    "inferred_ms2_analyzer": "orbitrap",
+    "inferred_ionization": "nanoESI",
+    "raw_files": [
+      "QExHF04026.raw",
+      "QExHF04032.raw",
+      "QExHF04050.raw",
+      "QExHF04036.raw",
+      "QExHF04044.raw",
+      "QExHF04028.raw",
+      "QExHF04034.raw",
+      "QExHF04048.raw"
+    ]
+  },
+  "steps": {
+    "STEP1_OVERVIEW": {
+      "confirmed": {
+        "Characteristics[Organism]": {
+          "value": "Mus musculus",
+          "evidence": "Confirmed from PRIDE database: Organism: Mus musculus (mouse)",
+          "source": "anchor"
+        },
+        "Characteristics[OrganismPart]": {
+          "value": "Myoblast",
+          "evidence": "Confirmed from PRIDE database: Organism Part: Myoblast, Cell culture",
+          "source": "anchor"
+        },
+        "Characteristics[MaterialType]": {
+          "value": "cell culture",
+          "evidence": "Confirmed from PRIDE database: Organism Part: Myoblast, Cell culture",
+          "source": "anchor"
+        },
+        "Characteristics[Label]": {
+          "value": "label-free",
+          "evidence": "Confirmed from PRIDE database: MS1 intensity based label-free quantification method",
+          "source": "anchor"
+        },
+        "Comment[AcquisitionMethod]": {
+          "value": "data-independent acquisition (DIA)",
+          "evidence": "Title mentions 'spectral library-based Data-independent Acquisition' and abstract focuses on DIA analysis methods",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {
+        "Characteristics[CellType]": {
+          "candidates": [
+            "myoblast"
+          ],
+          "reasoning": "Myoblast is confirmed as organism part from PRIDE database, and myoblasts are a specific type of muscle precursor cells",
+          "needs": "Confirmation whether this should be classified as CellType vs OrganismPart or both"
+        },
+        "Characteristics[Specimen]": {
+          "candidates": [
+            "spike-in sample set",
+            "complex protein matrix"
+          ],
+          "reasoning": "Abstract mentions 'gold standard spike-in sample set with known contents and ratios of proteins in a complex protein matrix'",
+          "needs": "More details about the specific sample composition and preparation"
+        }
+      },
+      "not_applicable": [
+        "Characteristics[CellLine]",
+        "Characteristics[Disease]",
+        "Characteristics[Strain]",
+        "Characteristics[GeneticModification]",
+        "Characteristics[Treatment]",
+        "Characteristics[DevelopmentalStage]",
+        "Characteristics[Compound]",
+        "Characteristics[ConcentrationOfCompound]"
+      ],
+      "summary": "This is a mouse myoblast cell culture study using label-free DIA proteomics. The experiment uses gold standard spike-in samples to evaluate different spectral library generation approaches for DIA quantification. Key confirmed characteristics include Mus musculus organism, myoblast cell culture material, and label-free quantification method. The study focuses on methodological comparison rather than biological treatments or disease states."
+    },
+    "STEP2_SAMPLE_PREP": {
+      "confirmed": {
+        "Characteristics[CleavageAgent]": {
+          "value": "trypsin",
+          "evidence": "digestion was carried out using trypsin (Serva, Heidelberg, Germany) at an enzyme to substrate ratio of approx. 1:27 at 37 °C overnight",
+          "source": "manuscript"
+        },
+        "Characteristics[AlkylationReagent]": {
+          "value": "iodoacetamide",
+          "evidence": "proteins were alkylated with iodoacetamide (13.75 mm final concentration) at ambient temperature for 30 min in the dark",
+          "source": "manuscript"
+        },
+        "Characteristics[ReductionReagent]": {
+          "value": "dithiothreitol",
+          "evidence": "After reduction with dithiothreitol (DTT, final concentration of 5 mm) for 20 min at 56 °C",
+          "source": "manuscript"
+        },
+        "Characteristics[Label]": {
+          "value": "label-free",
+          "evidence": "confirmed from PRIDE database and previous steps",
+          "source": "anchor"
+        },
+        "Characteristics[Modification]": {
+          "value": "carbamidomethylation at C",
+          "evidence": "as fixed modification, only carbamidomethylation at C was set",
+          "source": "manuscript"
+        },
+        "Characteristics[Modification].1": {
+          "value": "oxidation (M)",
+          "evidence": "as variable modifications oxidation (M), Gln->pyro-Glu (N-terminal Q), deamidated (NQ), ammonium (DE) and ammonia-loss (N, N-terminal C) were allowed",
+          "source": "manuscript"
+        },
+        "Characteristics[Modification].2": {
+          "value": "Gln->pyro-Glu (N-terminal Q)",
+          "evidence": "as variable modifications oxidation (M), Gln->pyro-Glu (N-terminal Q), deamidated (NQ), ammonium (DE) and ammonia-loss (N, N-terminal C) were allowed",
+          "source": "manuscript"
+        },
+        "Characteristics[Modification].3": {
+          "value": "deamidated (NQ)",
+          "evidence": "as variable modifications oxidation (M), Gln->pyro-Glu (N-terminal Q), deamidated (NQ), ammonium (DE) and ammonia-loss (N, N-terminal C) were allowed",
+          "source": "manuscript"
+        },
+        "Characteristics[Modification].4": {
+          "value": "ammonium (DE)",
+          "evidence": "as variable modifications oxidation (M), Gln->pyro-Glu (N-terminal Q), deamidated (NQ), ammonium (DE) and ammonia-loss (N, N-terminal C) were allowed",
+          "source": "manuscript"
+        },
+        "Characteristics[Modification].5": {
+          "value": "ammonia-loss (N, N-terminal C)",
+          "evidence": "as variable modifications oxidation (M), Gln->pyro-Glu (N-terminal Q), deamidated (NQ), ammonium (DE) and ammonia-loss (N, N-terminal C) were allowed",
+          "source": "manuscript"
+        },
+        "Characteristics[SpikedCompound]": {
+          "value": "13 non-mouse proteins and iRT peptides",
+          "evidence": "As spike-in proteins we chose 13 non-mouse proteins with varying physico-chemical properties... the iRT kit provided by Biognosys, which is required for DIA analysis using Biognosys' SN, was added",
+          "source": "manuscript"
+        },
+        "Comment[FractionationMethod]": {
+          "value": "SDS-PAGE and high pH reversed phase chromatography",
+          "evidence": "Protein Fractionation by SDS-PAGE and In-gel Tryptic Digestion... Peptide Fractionation by High pH Reversed Phase Chromatography",
+          "source": "manuscript"
+        },
+        "Comment[NumberOfFractions]": {
+          "value": "10 for SDS-PAGE, 8 for peptide fractionation",
+          "evidence": "each lane was cut into 10 slices... Peptides were eluted stepwise with increasing ACN concentration in 0.1% triethylamine into 8 fractions",
+          "source": "manuscript"
+        },
+        "Comment[Separation]": {
+          "value": "reversed phase chromatography",
+          "evidence": "For LC separation the nanoHPLC system Ultimate 3000... PepMap 100 C18... PepMap C18... Peptides were separated by a 120 min gradient",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {},
+      "not_applicable": [
+        "Characteristics[Modification].6",
+        "Characteristics[Depletion]",
+        "Characteristics[SyntheticPeptide]",
+        "Comment[EnrichmentMethod]"
+      ],
+      "summary": "Sample preparation details are well-documented with trypsin digestion, DTT reduction, and iodoacetamide alkylation confirmed. Multiple modification types are specified including fixed carbamidomethylation and five variable modifications. Spike-in compounds (13 non-mouse proteins plus iRT peptides) are used for quantification validation. Fractionation methods include both protein-level SDS-PAGE (10 fractions) and peptide-level high pH RP chromatography (8 fractions). LC separation uses standard reversed phase chromatography with C18 columns."
+    },
+    "STEP3_MS_SETTINGS": {
+      "confirmed": {
+        "Comment[Instrument]": {
+          "value": "Q Exactive HF mass spectrometer",
+          "evidence": "Subsequently, peptides were ionized by electrospray ionization and transferred into a Q Exactive HF mass spectrometer (Thermo Fisher Scientific).",
+          "source": "manuscript"
+        },
+        "Comment[FragmentationMethod]": {
+          "value": "HCD",
+          "evidence": "HCD fragmentation of the Top10 abundant precursor ions was performed at 27% NCE.",
+          "source": "manuscript"
+        },
+        "Comment[AcquisitionMethod]": {
+          "value": "data-independent acquisition (DIA) and data-dependent acquisition (DDA)",
+          "evidence": "For DDA MS runs (library generation and DDA analyses)... For DIA MS runs, the MS1 full scans were performed",
+          "source": "manuscript"
+        },
+        "Comment[IonizationType]": {
+          "value": "electrospray ionization",
+          "evidence": "Subsequently, peptides were ionized by electrospray ionization and transferred into a Q Exactive HF mass spectrometer",
+          "source": "manuscript"
+        },
+        "Comment[MS2MassAnalyzer]": {
+          "value": "orbitrap",
+          "evidence": "Q Exactive HF mass spectrometer (Thermo Fisher Scientific)",
+          "source": "manuscript"
+        },
+        "Comment[CollisionEnergy]": {
+          "value": "27% NCE (DDA), stepped collision energy 25.5%, 27 and 30% NCE (DIA)",
+          "evidence": "HCD fragmentation of the Top10 abundant precursor ions was performed at 27% NCE... Stepped collision energy was used (25.5%, 27 and 30% NCE).",
+          "source": "manuscript"
+        },
+        "Comment[PrecursorMassTolerance]": {
+          "value": "5 ppm",
+          "evidence": "The precursor tolerance was set to 5 ppm and the fragment tolerance to 20 mmu.",
+          "source": "manuscript"
+        },
+        "Comment[FragmentMassTolerance]": {
+          "value": "20 mmu",
+          "evidence": "The precursor tolerance was set to 5 ppm and the fragment tolerance to 20 mmu.",
+          "source": "manuscript"
+        },
+        "Comment[NumberOfMissedCleavages]": {
+          "value": "2",
+          "evidence": "A maximum of two missed cleavages was allowed.",
+          "source": "manuscript"
+        },
+        "Comment[GradientTime]": {
+          "value": "120 min",
+          "evidence": "Peptides were separated by a 120 min gradient using 0.1% formic acid (FA) as buffer A and 84% ACN in 0.1% FA as buffer B.",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {},
+      "not_applicable": [
+        "Comment[FlowRateChromatogram]"
+      ],
+      "summary": "Mass spectrometry instrument parameters are comprehensively documented. Q Exactive HF with HCD fragmentation and orbitrap analyzer is confirmed. Both DDA and DIA acquisition methods are used with different collision energies. Search parameters include 5 ppm precursor tolerance, 20 mmu fragment tolerance, and maximum 2 missed cleavages. LC gradient time is 120 minutes. Flow rate information is not provided in the available text."
+    },
+    "STEP4_RAW_FILES": {
+      "confirmed": {
+        "Characteristics[NumberOfBiologicalReplicates]": {
+          "value": "3",
+          "evidence": "the described five spike-in states were measured in triplicates to reflect a common replicate number, resulting in 15 LC-MS/MS runs per method",
+          "source": "manuscript"
+        },
+        "Characteristics[NumberOfTechnicalReplicates]": {
+          "value": "Not Applicable",
+          "evidence": "Only biological replicates (triplicates) are mentioned, no technical replicates described",
+          "source": "manuscript"
+        },
+        "Characteristics[NumberOfSamples]": {
+          "value": "15",
+          "evidence": "five spike-in states were measured in triplicates to reflect a common replicate number, resulting in 15 LC-MS/MS runs per method",
+          "source": "manuscript"
+        },
+        "FactorValue[Compound]": {
+          "value": "spike-in protein concentration levels",
+          "evidence": "The gold standard spike-in sample set (GS) consisting of five samples was prepared as follows: a constant amount of C2C12 lysate as background matrix was spiked with varying amounts of the 13 spike-in proteins",
+          "source": "manuscript"
+        },
+        "Comment[FractionIdentifier]": {
+          "value": "Not Applicable",
+          "evidence": "Raw file names QExHF04026-QExHF04054 contain only instrument identifiers and sequential numbers, no fraction identifiers can be determined",
+          "source": "filename"
+        }
+      },
+      "hypotheses": {
+        "FactorValue[ConcentrationOfCompound].1": {
+          "candidates": [
+            "5 different spike-in concentration levels",
+            "varying amounts as specified in Table I"
+          ],
+          "reasoning": "Five different spike-in states are mentioned with varying amounts of 13 spike-in proteins, but exact concentrations are referenced to Table I which is not provided",
+          "needs": "Access to Table I with specific concentration values"
+        },
+        "Characteristics[BiologicalReplicate]": {
+          "candidates": [
+            "per_file with values 1, 2, 3 for each of 5 conditions"
+          ],
+          "reasoning": "15 files total with 3 replicates for each of 5 spike-in states, but file naming pattern QExHF04026-QExHF04054 does not contain clear replicate identifiers",
+          "needs": "Sample sheet or metadata linking specific raw files to replicate numbers and conditions"
+        }
+      },
+      "not_applicable": [
+        "FactorValue[Treatment]",
+        "FactorValue[Temperature]",
+        "FactorValue[Disease]",
+        "FactorValue[GeneticModification]",
+        "FactorValue[Bait]",
+        "FactorValue[CellPart]",
+        "FactorValue[FractionIdentifier]"
+      ],
+      "summary": "Experimental design is confirmed with 5 spike-in concentration conditions measured in biological triplicates (n=3), totaling 15 samples. The main experimental factor is spike-in protein concentration levels with 13 non-mouse proteins spiked into C2C12 cell lysate. Raw file names (QExHF04026-QExHF04054) contain only instrument identifiers and do not reveal replicate assignments or condition mappings. Specific concentration values and file-to-condition mapping require additional metadata not present in the manuscript text."
+    }
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "pxd": "PXD004684",
+  "source": "PRIDE_API",
+  "organism": [
+    {
+      "name": "Homo sapiens (human)",
+      "accession": "NEWT:9606"
+    }
+  ],
+  "instruments": [
+    {
+      "name": "Q Exactive",
+      "accession": "MS:1001911",
+      "sdrf_format": "AC=MS:1001911;NT=Q Exactive"
+    }
+  ],
+  "modifications": [],
+  "organism_parts": [
+    {
+      "name": "Epithelial cell",
+      "accession": "CL:0000066"
+    },
+    {
+      "name": "Lung",
+      "accession": "BTO:0000763"
+    }
+  ],
+  "diseases": [
+    {
+      "name": "Lung cancer",
+      "accession": "DOID:1324"
+    }
+  ],
+  "experiment_types": [
+    "SWATH MS"
+  ],
+  "quantification_methods": [
+    "TIC"
+  ],
+  "keywords": [
+    "Human",
+    "Brplc fractionation",
+    "Discovery proteomics",
+    "Lung cancer",
+    "Lc-ms/ms"
+  ],
+  "publications": [
+    {
+      "pubmed_id": "",
+      "doi": "10.1002/pmic.201600300",
+      "ref": "Stewart PA, Fang B, Slebos RJ, Zhang G, Borne AL, Fellows K, Teer JK, Chen YA, Welsh E, Eschrich SA, Haura EB, Koomen JM. Relative protein quantification and accessible biology in lung tumor proteomes from four LC-MS/MS discovery platforms. Proteomics. 2017 Feb 14"
+    }
+  ],
+  "inferred_fragmentation": "HCD",
+  "inferred_ms2_analyzer": "orbitrap",
+  "inferred_ionization": "nanoESI",
+  "raw_files": [
+    "N295-1.raw",
+    "N295-2.raw",
+    "T303-2.raw",
+    "T298-1.raw",
+    "N299-1.raw",
+    "T298-2.raw",
+    "N296-2.raw",
+    "T303-1.raw",
+    "N294-2.raw",
+    "N299-2.raw",
+    "T300-2.raw",
+    "T301-2.raw",
+    "T301-1.raw",
+    "N294-1.raw",
+    "T300-1.raw",
+    "N296-1.raw"
+  ]
+}

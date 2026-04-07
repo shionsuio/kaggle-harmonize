@@ -717,6 +717,25 @@ def build_submission_v2():
 
     # per-file構造割当（overrides後、書き出し前）
     perfile_count = 0
+    tmtpro16_labels = [
+        "TMT126",
+        "TMT127N",
+        "TMT127C",
+        "TMT128N",
+        "TMT128C",
+        "TMT129N",
+        "TMT129C",
+        "TMT130N",
+        "TMT130C",
+        "TMT131N",
+        "TMT131C",
+        "TMT132N",
+        "TMT132C",
+        "TMT133N",
+        "TMT133C",
+        "TMT134N",
+    ]
+    raw_row_index = defaultdict(int)
     for row in rows:
         pxd = row["PXD"]
         raw = row.get("Raw Data File", "")
@@ -776,6 +795,9 @@ def build_submission_v2():
 
         elif pxd == "PXD025663":
             # 3疾患 × 2 fragmentation × 2 batch = 12
+            # "repeat" は technical replicate を示す可能性が高く、
+            # biological replicate 列には流さない
+            row["Characteristics[BiologicalReplicate]"] = "Not Applicable"
             if "AD" in raw.split("_"):
                 row["FactorValue[Disease]"] = "Alzheimer's disease"
             elif "F198S" in raw:
@@ -791,17 +813,70 @@ def build_submission_v2():
                 row["Comment[FragmentationMethod]"] = "AC=MS:1000133;NT=CID"
             # FractionIdentifier: 1固定（fractionationなし）
             row["Comment[FractionIdentifier]"] = "1"
-            # BiologicalReplicate: batch由来（2020_09_96系 vs Lumos_2020系）
-            if raw.startswith("2020_09"):
-                row["Characteristics[BiologicalReplicate]"] = "2"
-            elif raw.startswith("Lumos"):
-                row["Characteristics[BiologicalReplicate]"] = "1"
             perfile_count += 1
 
         elif pxd == "PXD062877":
             m = re.search(r'rep(\d)', raw)
             if m:
                 row["Characteristics[BiologicalReplicate]"] = m.group(1)
+            # sample ID -> treatment/genotype/disease の対応は raw 名から一意に決まらない
+            row["FactorValue[Treatment]"] = "Not Applicable"
+            row["FactorValue[Disease]"] = "Not Applicable"
+            row["FactorValue[GeneticModification]"] = "Not Applicable"
+            perfile_count += 1
+
+        elif pxd == "PXD061285":
+            if raw.startswith("mousebrain3-"):
+                row["Characteristics[BiologicalReplicate]"] = "3"
+            elif raw.startswith("mousebrain2-"):
+                row["Characteristics[BiologicalReplicate]"] = "2"
+            elif raw.startswith("mousebrain-"):
+                row["Characteristics[BiologicalReplicate]"] = "1"
+
+            if raw.endswith("_u.raw"):
+                row["Comment[FractionIdentifier]"] = "upper"
+            elif raw.endswith("_o.raw"):
+                row["Comment[FractionIdentifier]"] = "lower"
+
+            if "KO-Tmem9b" in raw:
+                row["FactorValue[GeneticModification]"] = "TMEM9B knockout"
+            elif "KO-Tmem9" in raw:
+                row["FactorValue[GeneticModification]"] = "TMEM9 knockout"
+            elif "-WT-" in raw:
+                row["FactorValue[GeneticModification]"] = "wild-type"
+            elif "Venus-CLCN3" in raw:
+                row["FactorValue[GeneticModification]"] = "Venus-ClC-3 transgenic"
+            perfile_count += 1
+
+        elif pxd == "PXD061195":
+            channel_idx = raw_row_index[raw]
+            raw_row_index[raw] += 1
+            if channel_idx < len(tmtpro16_labels):
+                row["Characteristics[Label]"] = tmtpro16_labels[channel_idx]
+            row["FactorValue[Treatment]"] = "SARS-CoV-2 nsp3 transfection"
+
+            m_frac = re.search(r'_(\d+)(?:_\d+)?\.raw$', raw)
+            if m_frac:
+                row["Comment[FractionIdentifier]"] = m_frac.group(1)
+
+            if "nsp31" in raw and "var" in raw:
+                row["FactorValue[GeneticModification]"] = "SARS-CoV-2 nsp3.1 variant"
+            elif "nsp32" in raw and "var" in raw:
+                row["FactorValue[GeneticModification]"] = "SARS-CoV-2 nsp3.2 variant"
+            elif "nsp31" in raw:
+                row["FactorValue[GeneticModification]"] = "SARS-CoV-2 nsp3.1"
+            elif "nsp32" in raw:
+                row["FactorValue[GeneticModification]"] = "SARS-CoV-2 nsp3.2"
+            perfile_count += 1
+
+        elif pxd == "PXD062469":
+            # 2 cell lines × 2 EV fractions × 2 treatments × 2 biological replicates
+            m = re.search(r'DIA_(145|PI3)_(Exo|MV)_(DMSO|INHB)_(\d)(\d)\.raw$', raw)
+            if m:
+                cell_token, _, treatment_token, rep_group, _ = m.groups()
+                row["Characteristics[CellLine]"] = "DU145" if cell_token == "145" else "PC3"
+                row["FactorValue[Treatment]"] = "DMSO" if treatment_token == "DMSO" else "GW4869"
+                row["Characteristics[BiologicalReplicate]"] = rep_group
                 perfile_count += 1
 
         elif pxd == "PXD064564":

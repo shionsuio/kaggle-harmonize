@@ -1,0 +1,440 @@
+{
+  "pxd": "PXD061195",
+  "raw_files": [
+    "01-038-VGL-20211115-nsp31-TMT16-0C_1.raw",
+    "01-043-VGL-20220530-nsp32-TMT16-60C_5.raw",
+    "01-044-VGL-20220531-nsp32-TMT16-80C_6.raw",
+    "01-042-VGL-20220629-VGL-TMT16-0C_1.raw",
+    "01-037-VGL-20211019-nsp32-TMT16-10C_2.raw",
+    "01-036-VGL-20211018-nsp31TMT16-80C_6.raw",
+    "01-045-VGL-20220804-TMT16-0C_1.raw",
+    "20210818-VGL-01-026-nsp31-var-TMT16-70C_8.raw",
+    "01-043-VGL-20220530-nsp32-TMT16-20C_3.raw",
+    "01-045-VGL-20220804-TMT16-10C_2.raw",
+    "20210818-VGL-01-026-nsp31-var-TMT16-40C_5.raw",
+    "01-044-VGL-20220531-nsp32-TMT16-40C_4.raw",
+    "01-042-VGL-20220615-nsp31-TMT16-0C_1.raw",
+    "01-036-VGL-20211018-nsp31-TMT16-20C_3.raw",
+    "01-036-VGL-20211018-nsp31-TMT16-90C10B_8.raw",
+    "01-037-VGL-20211019-nsp32-TMT16-90C10B_8.raw",
+    "01-045-VGL-20220804-TMT16-40C_4.raw",
+    "20210819_VGL_01_030_nsp32-var-TMT16-100C_11.raw",
+    "01-038-VGL-20211115-nsp31-TMT16-100C_7.raw",
+    "20210818-VGL-01-026-nsp31-var-TMT16-20C_3.raw",
+    "01-039-VGL-20211116-nsp32-TMT16-40C_4.raw",
+    "20210819_VGL_01_030_nsp32-var-TMT16-40C_5.raw",
+    "01-044-VGL-20220531-nsp32-TMT16-10C_2.raw",
+    "01-045-VGL-20220804-TMT16-100C_7.raw",
+    "01-044-VGL-20220531-nsp32-TMT16-20C_3.raw",
+    "20210818_VGL_01_026_nsp31-var-TMT16-0C_1.raw",
+    "01-043-VGL-20220530-nsp32-TMT16-90C10B_8.raw",
+    "01-038-VGL-20211115-nsp31-TMT16-90C10B_8.raw",
+    "01-045-VGL-20220804-TMT16-20C_3.raw",
+    "01-036-VGL-20211018-nsp31-TMT16-0C_1.raw",
+    "01-039-VGL-20211116-nsp32-TMT16-10C_2.raw",
+    "01-042-VGL-20220629-VGL-TMT16-80C_6.raw",
+    "01-042-VGL-20220629-VGL-TMT16-90C10B_8.raw",
+    "20210818-VGL-01-026-nsp31-var-TMT16-80C_9.raw",
+    "01-039-VGL-20211116-nsp32-TMT16-60C_5.raw",
+    "01-042-VGL-20220629-VGL-TMT16-20C_3.raw",
+    "20210819_VGL_01_030_nsp32-var-TMT16-20C_3.raw",
+    "20210819_VGL_01_030_nsp32-var-TMT16-10C_2.raw",
+    "01-043-VGL-20220530-nsp32-TMT16-0C_1_20220530163336.raw",
+    "01-036-VGL-20211018-nsp31TMT16-60C_5.raw",
+    "01-038-VGL-20211115-nsp31-TMT16-80C_6.raw",
+    "01-037-VGL-20211019-nsp32-TMT16-80C_6.raw",
+    "01-038-VGL-20211115-nsp31-TMT16-20C_3.raw",
+    "20210819_VGL_01_030_nsp32-var-TMT16-0C_1.raw",
+    "01-042-VGL-20220629-VGL-TMT16-40C_4.raw",
+    "01-037-VGL-20211019-nsp32-TMT16-100C_7.raw",
+    "01-038-VGL-20211115-nsp31-TMT16-10C_2.raw",
+    "01-036-VGL-20211018-nsp31-TMT16-100C_7.raw",
+    "01-042-VGL-20220629-VGL-TMT16-100C_7.raw",
+    "20210818-VGL-01-026-nsp31-var-TMT16-90C10B_12.raw",
+    "01-045-VGL-20220804-TMT16-90C10B_8.raw",
+    "20210818-VGL-01-026-nsp31-var-TMT16-90C_10.raw",
+    "01-037-VGL-20211019-nsp32-TMT16-0C_1.raw",
+    "01-036-VGL-20211018-nsp31-TMT16-40C_4.raw",
+    "01-039-VGL-20211116-nsp32-TMT16-100C_7.raw",
+    "01-038-VGL-20211115-nsp31-TMT16-60C_5.raw",
+    "01-045-VGL-20220804-TMT16-60C_5.raw",
+    "20210819_VGL_01_030_nsp32-var-TMT16-60C_7.raw",
+    "01-043-VGL-20220530-nsp32-TMT16-0C_1.raw",
+    "20210818-VGL-01-026-nsp31-var-TMT16-10C_2.raw",
+    "01-037-VGL-20211019-nsp32-TMT16-20C_3.raw",
+    "01-037-VGL-20211019-nsp32-TMT16-40C_4.raw",
+    "01-043-VGL-20220530-nsp32-TMT16-10C_2.raw",
+    "01-044-VGL-20220531-nsp32-TMT16-90C10B_8.raw",
+    "01-043-VGL-20220530-nsp32-TMT16-80C_6.raw",
+    "20210819_VGL_01_030_nsp32-var-TMT16-90C10B_12.raw",
+    "01-039-VGL-20211116-nsp32-TMT16-0C_1.raw",
+    "20210818-VGL-01-026-nsp31-var-TMT16-100C_11.raw",
+    "01-039-VGL-20211116-nsp32-TMT16-80C_6.raw",
+    "01-044-VGL-20220531-nsp32-TMT16-100C_7.raw",
+    "01-036-VGL-20211018-nsp31-TMT16-10C_2.raw",
+    "01-038-VGL-20211115-nsp31-TMT16-40C_4.raw",
+    "01-037-VGL-20211019-nsp32-TMT16-60C_5.raw",
+    "01-042-VGL-20220629-VGL-TMT16-10C_2.raw",
+    "20210819_VGL_01_030_nsp32-var-TMT16-30C_4.raw",
+    "20210818-VGL-01-026-nsp31-var-TMT16-50C_6.raw",
+    "20210818-VGL-01-026-nsp31-var-TMT16-30C_4.raw",
+    "01-044-VGL-20220531-nsp32-TMT16-0C_1.raw",
+    "01-045-VGL-20220804-TMT16-80C_6.raw",
+    "01-042-VGL-20220629-VGL-TMT16-60C_5.raw",
+    "20210818-VGL-01-026-nsp31-var-TMT16-60C_7.raw",
+    "01-039-VGL-20211116-nsp32-TMT16-20C_3.raw",
+    "01-044-VGL-20220531-nsp32-TMT16-60C_5.raw",
+    "01-043-VGL-20220530-nsp32-TMT16-100C_7.raw",
+    "20210819_VGL_01_030_nsp32-var-TMT16-50C_6.raw",
+    "01-043-VGL-20220530-nsp32-TMT16-40C_4.raw",
+    "01-039-VGL-20211116-nsp32-TMT16-90C10B_8.raw"
+  ],
+  "anchor": {
+    "pxd": "PXD061195",
+    "source": "PRIDE_API",
+    "organism": [
+      {
+        "name": "Homo sapiens (human)",
+        "accession": "NEWT:9606"
+      }
+    ],
+    "instruments": [
+      {
+        "name": "Orbitrap Exploris 480",
+        "accession": "MS:1003028",
+        "sdrf_format": "AC=MS:1003028;NT=Orbitrap Exploris 480"
+      }
+    ],
+    "modifications": [],
+    "organism_parts": [
+      {
+        "name": "Cell culture",
+        "accession": "BTO:0000214"
+      }
+    ],
+    "diseases": [],
+    "experiment_types": [
+      "Bottom-up proteomics",
+      "Data-dependent acquisition"
+    ],
+    "quantification_methods": [
+      "TMT"
+    ],
+    "keywords": [
+      "Virus-host interactions",
+      "Affinity purification-mass spectrometry",
+      "Variants",
+      "Nsp3"
+    ],
+    "publications": [
+      {
+        "pubmed_id": "",
+        "doi": "10.3390/v17030447",
+        "ref": "Garcia Lopez V, Plate L. Comparative Interactome Profiling of Nonstructural Protein 3 Across SARS-CoV-2 Variants Emerged During the COVID-19 Pandemic. Viruses. 2025 17(3):447"
+      }
+    ],
+    "inferred_fragmentation": "HCD",
+    "inferred_ms2_analyzer": "orbitrap",
+    "inferred_ionization": "nanoESI",
+    "raw_files": [
+      "01-038-VGL-20211115-nsp31-TMT16-0C_1.raw",
+      "01-043-VGL-20220530-nsp32-TMT16-60C_5.raw",
+      "01-044-VGL-20220531-nsp32-TMT16-80C_6.raw",
+      "01-042-VGL-20220629-VGL-TMT16-0C_1.raw",
+      "01-037-VGL-20211019-nsp32-TMT16-10C_2.raw",
+      "01-036-VGL-20211018-nsp31TMT16-80C_6.raw",
+      "01-045-VGL-20220804-TMT16-0C_1.raw",
+      "20210818-VGL-01-026-nsp31-var-TMT16-70C_8.raw",
+      "01-043-VGL-20220530-nsp32-TMT16-20C_3.raw",
+      "01-045-VGL-20220804-TMT16-10C_2.raw",
+      "20210818-VGL-01-026-nsp31-var-TMT16-40C_5.raw",
+      "01-044-VGL-20220531-nsp32-TMT16-40C_4.raw",
+      "01-042-VGL-20220615-nsp31-TMT16-0C_1.raw",
+      "01-036-VGL-20211018-nsp31-TMT16-20C_3.raw",
+      "01-036-VGL-20211018-nsp31-TMT16-90C10B_8.raw",
+      "01-037-VGL-20211019-nsp32-TMT16-90C10B_8.raw",
+      "01-045-VGL-20220804-TMT16-40C_4.raw",
+      "20210819_VGL_01_030_nsp32-var-TMT16-100C_11.raw",
+      "01-038-VGL-20211115-nsp31-TMT16-100C_7.raw",
+      "20210818-VGL-01-026-nsp31-var-TMT16-20C_3.raw",
+      "01-039-VGL-20211116-nsp32-TMT16-40C_4.raw",
+      "20210819_VGL_01_030_nsp32-var-TMT16-40C_5.raw",
+      "01-044-VGL-20220531-nsp32-TMT16-10C_2.raw",
+      "01-045-VGL-20220804-TMT16-100C_7.raw",
+      "01-044-VGL-20220531-nsp32-TMT16-20C_3.raw",
+      "20210818_VGL_01_026_nsp31-var-TMT16-0C_1.raw",
+      "01-043-VGL-20220530-nsp32-TMT16-90C10B_8.raw",
+      "01-038-VGL-20211115-nsp31-TMT16-90C10B_8.raw",
+      "01-045-VGL-20220804-TMT16-20C_3.raw",
+      "01-036-VGL-20211018-nsp31-TMT16-0C_1.raw",
+      "01-039-VGL-20211116-nsp32-TMT16-10C_2.raw",
+      "01-042-VGL-20220629-VGL-TMT16-80C_6.raw",
+      "01-042-VGL-20220629-VGL-TMT16-90C10B_8.raw",
+      "20210818-VGL-01-026-nsp31-var-TMT16-80C_9.raw",
+      "01-039-VGL-20211116-nsp32-TMT16-60C_5.raw",
+      "01-042-VGL-20220629-VGL-TMT16-20C_3.raw",
+      "20210819_VGL_01_030_nsp32-var-TMT16-20C_3.raw",
+      "20210819_VGL_01_030_nsp32-var-TMT16-10C_2.raw",
+      "01-043-VGL-20220530-nsp32-TMT16-0C_1_20220530163336.raw",
+      "01-036-VGL-20211018-nsp31TMT16-60C_5.raw",
+      "01-038-VGL-20211115-nsp31-TMT16-80C_6.raw",
+      "01-037-VGL-20211019-nsp32-TMT16-80C_6.raw",
+      "01-038-VGL-20211115-nsp31-TMT16-20C_3.raw",
+      "20210819_VGL_01_030_nsp32-var-TMT16-0C_1.raw",
+      "01-042-VGL-20220629-VGL-TMT16-40C_4.raw",
+      "01-037-VGL-20211019-nsp32-TMT16-100C_7.raw",
+      "01-038-VGL-20211115-nsp31-TMT16-10C_2.raw",
+      "01-036-VGL-20211018-nsp31-TMT16-100C_7.raw",
+      "01-042-VGL-20220629-VGL-TMT16-100C_7.raw",
+      "20210818-VGL-01-026-nsp31-var-TMT16-90C10B_12.raw",
+      "01-045-VGL-20220804-TMT16-90C10B_8.raw",
+      "20210818-VGL-01-026-nsp31-var-TMT16-90C_10.raw",
+      "01-037-VGL-20211019-nsp32-TMT16-0C_1.raw",
+      "01-036-VGL-20211018-nsp31-TMT16-40C_4.raw",
+      "01-039-VGL-20211116-nsp32-TMT16-100C_7.raw",
+      "01-038-VGL-20211115-nsp31-TMT16-60C_5.raw",
+      "01-045-VGL-20220804-TMT16-60C_5.raw",
+      "20210819_VGL_01_030_nsp32-var-TMT16-60C_7.raw",
+      "01-043-VGL-20220530-nsp32-TMT16-0C_1.raw",
+      "20210818-VGL-01-026-nsp31-var-TMT16-10C_2.raw",
+      "01-037-VGL-20211019-nsp32-TMT16-20C_3.raw",
+      "01-037-VGL-20211019-nsp32-TMT16-40C_4.raw",
+      "01-043-VGL-20220530-nsp32-TMT16-10C_2.raw",
+      "01-044-VGL-20220531-nsp32-TMT16-90C10B_8.raw",
+      "01-043-VGL-20220530-nsp32-TMT16-80C_6.raw",
+      "20210819_VGL_01_030_nsp32-var-TMT16-90C10B_12.raw",
+      "01-039-VGL-20211116-nsp32-TMT16-0C_1.raw",
+      "20210818-VGL-01-026-nsp31-var-TMT16-100C_11.raw",
+      "01-039-VGL-20211116-nsp32-TMT16-80C_6.raw",
+      "01-044-VGL-20220531-nsp32-TMT16-100C_7.raw",
+      "01-036-VGL-20211018-nsp31-TMT16-10C_2.raw",
+      "01-038-VGL-20211115-nsp31-TMT16-40C_4.raw",
+      "01-037-VGL-20211019-nsp32-TMT16-60C_5.raw",
+      "01-042-VGL-20220629-VGL-TMT16-10C_2.raw",
+      "20210819_VGL_01_030_nsp32-var-TMT16-30C_4.raw",
+      "20210818-VGL-01-026-nsp31-var-TMT16-50C_6.raw",
+      "20210818-VGL-01-026-nsp31-var-TMT16-30C_4.raw",
+      "01-044-VGL-20220531-nsp32-TMT16-0C_1.raw",
+      "01-045-VGL-20220804-TMT16-80C_6.raw",
+      "01-042-VGL-20220629-VGL-TMT16-60C_5.raw",
+      "20210818-VGL-01-026-nsp31-var-TMT16-60C_7.raw",
+      "01-039-VGL-20211116-nsp32-TMT16-20C_3.raw",
+      "01-044-VGL-20220531-nsp32-TMT16-60C_5.raw",
+      "01-043-VGL-20220530-nsp32-TMT16-100C_7.raw",
+      "20210819_VGL_01_030_nsp32-var-TMT16-50C_6.raw",
+      "01-043-VGL-20220530-nsp32-TMT16-40C_4.raw",
+      "01-039-VGL-20211116-nsp32-TMT16-90C10B_8.raw"
+    ]
+  },
+  "steps": {
+    "STEP1_OVERVIEW": {
+      "confirmed": {
+        "Characteristics[Organism]": {
+          "value": "Homo sapiens",
+          "evidence": "Using affinity purification–mass spectrometry (AP-MS), we identify differential protein interactions in nsp3 caused by mutations found in variants",
+          "source": "manuscript"
+        },
+        "Characteristics[CellType]": {
+          "value": "cell culture",
+          "evidence": "PRIDE database confirms Cell culture as organism part, and AP-MS experiments typically use cultured cells",
+          "source": "anchor"
+        },
+        "Characteristics[MaterialType]": {
+          "value": "cell",
+          "evidence": "AP-MS methodology requires cellular material for protein interaction studies",
+          "source": "manuscript"
+        },
+        "Characteristics[Label]": {
+          "value": "label free sample",
+          "evidence": "Standard AP-MS approach without indication of labeling methodology",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {
+        "Characteristics[CellLine]": {
+          "candidates": [
+            "HEK293T",
+            "HeLa cells",
+            "A549"
+          ],
+          "reasoning": "SARS-CoV-2 research commonly uses these cell lines for viral protein studies, but specific cell line not mentioned",
+          "needs": "Methods section specifying cell line used for nsp3 expression"
+        },
+        "Characteristics[Compound]": {
+          "candidates": [
+            "not applicable",
+            "control"
+          ],
+          "reasoning": "Study focuses on variant comparison rather than compound treatment, but control conditions likely present",
+          "needs": "Methods section detailing experimental conditions and controls"
+        }
+      },
+      "not_applicable": [
+        "Characteristics[OrganismPart]",
+        "Characteristics[Disease]",
+        "Characteristics[DevelopmentalStage]",
+        "Characteristics[Specimen]",
+        "Characteristics[Strain]",
+        "Characteristics[Sex]"
+      ],
+      "summary": "This is a SARS-CoV-2 variant comparative study using AP-MS to profile nsp3 protein interactions in human cell culture. The study examines multiple viral variants (Alpha, Beta, Delta, Gamma, Kappa, Lambda, Omicron) but focuses on viral protein differences rather than host characteristics. Key missing information includes specific cell line and experimental conditions that would require methods section review."
+    },
+    "STEP2_SAMPLE_PREP": {
+      "confirmed": {
+        "Characteristics[CleavageAgent]": {
+          "value": "Trypsin/P",
+          "evidence": "digesting with 0.5 μg trypsin/Lys-C (Thermo, Waltham, MA, USA) overnight at 37 °C",
+          "source": "manuscript"
+        },
+        "Characteristics[AlkylationReagent]": {
+          "value": "IAA",
+          "evidence": "alkylated with iodoacetamide for 30 min",
+          "source": "manuscript"
+        },
+        "Characteristics[ReductionReagent]": {
+          "value": "DTT",
+          "evidence": "Proteins were reduced using TCEP for 30 min",
+          "source": "manuscript"
+        },
+        "Characteristics[Label]": {
+          "value": "TMT127",
+          "evidence": "TMTpro 16plex (Thermo) was used to label digested peptides",
+          "source": "manuscript"
+        },
+        "Characteristics[Modification]": {
+          "value": "Carbamidomethyl",
+          "evidence": "static modifications of TMTpro (+304.207 Da) at Lys, and N-termini and Cys carbamidomethylation (+57.021 Da)",
+          "source": "manuscript"
+        },
+        "Comment[EnrichmentMethod]": {
+          "value": "no enrichment",
+          "evidence": "FLAG IPs were performed as immunoprecipitation method, but no specific peptide enrichment mentioned",
+          "source": "manuscript"
+        },
+        "Comment[FractionationMethod]": {
+          "value": "Strong cation-exchange chromatography (SCX)",
+          "evidence": "MudPIT columns were prepared as described previously, in triphasic layers of 1.5 cm C18/SCX/C18 resins. Online fractionation by liquid chromatography",
+          "source": "manuscript"
+        },
+        "Comment[Separation]": {
+          "value": "Reversed-phase chromatography",
+          "evidence": "Online fractionation by liquid chromatography was carried out using an Ultimate 3000 nanoLC with gradient elution using buffer B (99.9% acetonitrile, 0.1% formic acid v/v)",
+          "source": "manuscript"
+        }
+      },
+      "confirmed_additional_modifications": {
+        "Characteristics[Modification]": [
+          {
+            "value": "Oxidation",
+            "evidence": "dynamic modifications of Met oxidation (+15.995 Da)",
+            "source": "manuscript"
+          },
+          {
+            "value": "Acetyl",
+            "evidence": "protein N-terminal acetylation (+42.011 Da)",
+            "source": "manuscript"
+          }
+        ]
+      },
+      "hypotheses": {
+        "Characteristics[Depletion]": {
+          "candidates": [
+            "no depletion"
+          ],
+          "reasoning": "No depletion step mentioned in the sample preparation workflow",
+          "needs": "Explicit confirmation that no depletion was performed"
+        }
+      },
+      "not_applicable": [],
+      "summary": "Sample preparation used trypsin/Lys-C digestion, TCEP reduction, iodoacetamide alkylation, and TMTpro 16plex labeling. Multiple modifications were applied including carbamidomethylation (static), oxidation and acetylation (dynamic). MudPIT fractionation with SCX and C18 was used, followed by reversed-phase LC separation. No specific peptide enrichment was performed beyond the initial FLAG immunoprecipitation."
+    },
+    "STEP3_MS_SETTINGS": {
+      "confirmed": {
+        "Comment[Instrument]": {
+          "value": "Orbitrap Exploris 480",
+          "evidence": "analyzed using an Exploris480 mass spectrometer (Thermo)",
+          "source": "manuscript"
+        },
+        "Comment[FragmentationMethod]": {
+          "value": "HCD",
+          "evidence": "HCD fragmentation using a normalized collision energy of 32 (TMTpro)",
+          "source": "manuscript"
+        },
+        "Comment[AcquisitionMethod]": {
+          "value": "data-dependent acquisition",
+          "evidence": "MS2 spectra were gathered in a data-dependent mode using a monoisotopic peak selection",
+          "source": "manuscript"
+        },
+        "Comment[MS2MassAnalyzer]": {
+          "value": "Orbitrap",
+          "evidence": "resolution 45k for MS2 spectra collection on Exploris480",
+          "source": "manuscript"
+        },
+        "Comment[PrecursorMassTolerance]": {
+          "value": "20 ppm",
+          "evidence": "precursor mass tolerance of 20 ppm",
+          "source": "manuscript"
+        },
+        "Comment[FragmentMassTolerance]": {
+          "value": "0.02 Da",
+          "evidence": "fragment mass tolerance of 0.02 Da",
+          "source": "manuscript"
+        },
+        "Comment[NumberOfMissedCleavages]": {
+          "value": "2",
+          "evidence": "trypsin cleavage (maximum two missed cleavages)",
+          "source": "manuscript"
+        },
+        "Comment[GradientTime]": {
+          "value": "130 min",
+          "evidence": "Each injection had a 130 min gradient",
+          "source": "manuscript"
+        },
+        "Comment[FlowRateChromatogram]": {
+          "value": "500 nl/min",
+          "evidence": "with a flow rate of 500 nl/min",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {
+        "Comment[CollisionEnergy]": {
+          "candidates": [
+            "30 NCE"
+          ],
+          "reasoning": "論文には'normalized collision energy of 32 (TMTpro)'とあるが、候補リストには32 NCEがない。最も近い値は30 NCE",
+          "needs": "より詳細な機器設定情報または他の値の確認"
+        }
+      },
+      "not_applicable": [],
+      "summary": "Mass spectrometry parameters are well documented. The study used Orbitrap Exploris 480 with HCD fragmentation, data-dependent acquisition, 20 ppm precursor tolerance, 0.02 Da fragment tolerance, 2 missed cleavages, 130 min gradient, and 500 nl/min flow rate. Only collision energy (32 NCE) doesn't exactly match the allowed values list."
+    },
+    "STEP4_RAW_FILES": {
+      "confirmed": {
+        "Comment[FractionIdentifier]": {
+          "value": "not applicable",
+          "evidence": "Sequential injections of 10 μL were carried out for 0, 10, 20, 40, 60, 80, and 100% buffer C... with a final injection of 90% buffer C and 10% buffer B. Each injection had a 130 min gradient",
+          "source": "manuscript"
+        },
+        "Characteristics[BiologicalReplicate]": {
+          "value": "not applicable",
+          "evidence": "Five individual runs were used for analysis... 80 IP samples were distributed across the 5 mass spectrometry runs for nsp3.1: 11× GFP, 11× nsp3.1, 8× Omicron 21K, 8× Omicron 21L, etc.",
+          "source": "manuscript"
+        },
+        "FactorValue[Bait]": {
+          "value": "not applicable",
+          "evidence": "nsp3.1 and nsp3.2 constructs with FLAG tags used for immunoprecipitation with G1 anti-DYKDDDDK resin. Raw files show nsp31 and nsp32 patterns indicating different bait proteins",
+          "source": "manuscript/filename"
+        }
+      },
+      "hypotheses": {},
+      "not_applicable": [
+        "FactorValue[Treatment]",
+        "FactorValue[Temperature]",
+        "FactorValue[Disease]",
+        "FactorValue[GeneticModification]",
+        "FactorValue[Compound]"
+      ],
+      "summary": "Raw file analysis reveals SCX fractionation pattern (0C to 100C indicating salt concentration gradients), not biological replicates but technical fractions. The study uses nsp3.1 and nsp3.2 as different baits across 5 MS runs with multiple variant samples per run. No treatment, temperature, disease, genetic modification, or compound factors are applicable to this comparative viral protein interaction study design."
+    }
+  }
+}

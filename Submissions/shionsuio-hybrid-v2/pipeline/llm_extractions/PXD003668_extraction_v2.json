@@ -1,0 +1,462 @@
+{
+  "pxd": "PXD003668",
+  "raw_files": [
+    "20150305_QEp7_FaCo_SA_CL_OVCAR3_A.raw",
+    "20150305_QEp7_FaCo_SA_CL_COV318_B.raw",
+    "20150305_QEp7_FaCo_SA_CL_JHOS2_A.raw",
+    "20150305_QEp7_FaCo_SA_CL_HEYA8_A.raw",
+    "20150305_QEp7_FaCo_SA_CL_OVCAR3_B.raw",
+    "20150305_QEp7_FaCo_SA_CL_HEYA8_B.raw",
+    "20150305_QEp7_FaCo_SA_CL_OVKATE_C.raw",
+    "20130607_EXQ4_FaCo_SA_CL_A2780_A.raw",
+    "20130607_EXQ4_FaCo_SA_CL_A2780_B.raw",
+    "20150305_QEp7_FaCo_SA_CL_OVKATE_A.raw",
+    "20150305_QEp7_FaCo_SA_CL_OVCAR5_A.raw",
+    "20150305_QEp7_FaCo_SA_CL_OVCAR5_C.raw",
+    "20150305_QEp7_FaCo_SA_CL_OVKATE_B.raw",
+    "20150305_QEp7_FaCo_SA_CL_OVSAHO_A.raw",
+    "20150305_QEp7_FaCo_SA_CL_CAOV3_B.raw",
+    "20150305_QEp7_FaCo_SA_CL_JHOS2_B.raw",
+    "20150305_QEp7_FaCo_SA_CL_COV318_A.raw",
+    "20150305_QEp7_FaCo_SA_CL_JHOS4_C.raw",
+    "20150305_QEp7_FaCo_SA_CL_HEYA8_C.raw",
+    "20150305_QEp7_FaCo_SA_CL_JHOS2_C.raw",
+    "20130619_EXQ4_FaCo_SA_CL_A2780_C.raw",
+    "20150305_QEp7_FaCo_SA_CL_COV318_C.raw",
+    "20150305_QEp7_FaCo_SA_CL_OVCAR3_C.raw",
+    "20150305_QEp7_FaCo_SA_CL_JHOS4_B.raw",
+    "20150305_QEp7_FaCo_SA_CL_OVCAR5_B.raw",
+    "20150305_QEp7_FaCo_SA_CL_OVSAHO_C.raw",
+    "20150305_QEp7_FaCo_SA_CL_OVSAHO_B.raw",
+    "20150305_QEp7_FaCo_SA_CL_JHOS4_A.raw",
+    "20150305_QEp7_FaCo_SA_CL_CAOV3_C.raw",
+    "20150305_QEp7_FaCo_SA_CL_CAOV3_A.raw"
+  ],
+  "anchor": {
+    "pxd": "PXD003668",
+    "source": "PRIDE_API",
+    "organism": [
+      {
+        "name": "Homo sapiens (human)",
+        "accession": "NEWT:9606"
+      }
+    ],
+    "instruments": [
+      {
+        "name": "Q Exactive",
+        "accession": "MS:1001911",
+        "sdrf_format": "AC=MS:1001911;NT=Q Exactive"
+      }
+    ],
+    "modifications": [],
+    "organism_parts": [
+      {
+        "name": "Epithelial cell",
+        "accession": "CL:0000066"
+      },
+      {
+        "name": "Cell culture",
+        "accession": "BTO:0000214"
+      }
+    ],
+    "diseases": [
+      {
+        "name": "Malignant neoplasm of ovary",
+        "accession": "DOID:2144"
+      }
+    ],
+    "experiment_types": [
+      "Shotgun proteomics"
+    ],
+    "quantification_methods": [
+      "MS1 intensity based label-free quantification method"
+    ],
+    "keywords": [
+      "Ovarian cancer proteomics"
+    ],
+    "publications": [
+      {
+        "pubmed_id": "",
+        "doi": "10.1038/ncomms12645",
+        "ref": "Coscia F, Watters KM, Curtis M, Eckert MA, Chiang CY, Tyanova S, Montag A, Lastra RR, Lengyel E, Mann M. Integrative proteomic profiling of ovarian cancer cell lines reveals precursor cell associated proteins and functional status. Nat Commun. 2016 Aug 26;7:12645"
+      }
+    ],
+    "inferred_fragmentation": "HCD",
+    "inferred_ms2_analyzer": "orbitrap",
+    "inferred_ionization": "nanoESI",
+    "raw_files": [
+      "20130314_EXQ4_FaCo_SA_CL_OVISE_B.RAW",
+      "20130315_EXQ4_FaCo_SA_CL_SKOV3IP1_C.RAW",
+      "20150305_QEp7_FaCo_SA_CL_OVCAR3_A.raw",
+      "20150305_QEp7_FaCo_SA_CL_COV318_B.raw",
+      "20131022_EXQ3_FaCo_SA_CL_TYKNU_C.RAW",
+      "20150305_QEp7_FaCo_SA_CL_JHOS2_A.raw",
+      "20130607_EXQ4_FaCo_SA_CL_A2780CP70_C.RAW",
+      "20140521_QEp4_FaCo_SA_PC_FTEC_1229.RAW",
+      "20150305_QEp7_FaCo_SA_CL_HEYA8_A.raw",
+      "20130315_EXQ4_FaCo_SA_CL_SKOV3IP1_A.RAW",
+      "20140516_QEp3_FaCo_SA_CL_TYKNUCP_B.RAW",
+      "20130315_EXQ4_FaCo_SA_CL_IOSE7576_C.RAW",
+      "20131021_EXQ3_FaCo_SA_CL_ME180_B.RAW",
+      "20150305_QEp7_FaCo_SA_CL_OVCAR3_B.raw",
+      "20140109_EXQ8_FaCo_SA_CL_SNU119_C.RAW",
+      "20140709_QEp3_FaCo_SA_CL_59M_C.RAW",
+      "20150305_QEp7_FaCo_SA_CL_HEYA8_B.raw",
+      "20131025_EXQ3_FaCo_SA_CL_IGROV1_A.RAW",
+      "20150305_QEp7_FaCo_SA_CL_OVKATE_C.raw",
+      "20131029_EXQ3_FaCo_SA_CL_TYKNU_B.RAW",
+      "20140521_QEp4_FaCo_SA_PC_FTEC_1218.RAW",
+      "20141013_QEp8_FaCo_SA_TU_LOV_2.RAW",
+      "20130315_EXQ4_FaCo_SA_CL_IOSE7675_A.RAW",
+      "20130607_EXQ4_FaCo_SA_CL_A2780_A.raw",
+      "20131018_EXQ3_FaCo_SA_CL_TOV112D_A.RAW",
+      "20140402_EXQ6_FaCo_SA_CL_PEO1_A.RAW",
+      "20130607_EXQ4_FaCo_SA_CL_A2780_B.raw",
+      "20131021_EXQ3_FaCo_SA_CL_ME180_A.RAW",
+      "20140109_EXQ8_FaCo_SA_CL_KURAMOCHI_C.RAW",
+      "20150305_QEp7_FaCo_SA_CL_OVKATE_A.raw",
+      "20150305_QEp7_FaCo_SA_CL_OVCAR5_A.raw",
+      "20131018_EXQ3_FaCo_SA_CL_ME180C13_A.RAW",
+      "20150305_QEp7_FaCo_SA_CL_OVCAR5_C.raw",
+      "20140709_QEp3_FaCo_SA_CL_59M_A.RAW",
+      "20150305_QEp7_FaCo_SA_CL_OVKATE_B.raw",
+      "20141013_QEp8_FaCo_SA_TU_ROV_4.RAW",
+      "20150305_QEp7_FaCo_SA_CL_OVSAHO_A.raw",
+      "20131025_EXQ3_FaCo_SA_CL_IGROV1CP_B.RAW",
+      "20130312_EXQ4_FaCo_SA_CL_DOV13_A.RAW",
+      "20150305_QEp7_FaCo_SA_CL_CAOV3_B.raw",
+      "20150305_QEp7_FaCo_SA_CL_JHOS2_B.raw",
+      "20150305_QEp7_FaCo_SA_CL_COV318_A.raw",
+      "20130315_EXQ4_FaCo_SA_CL_SKOV3IP1_B.RAW",
+      "20131018_EXQ3_FaCo_SA_CL_TOV112D_B.RAW",
+      "20131025_EXQ3_FaCo_SA_CL_IGROV1_C.RAW",
+      "20140402_EXQ6_FaCo_SA_CL_PEO1_C.RAW",
+      "20131222_EXQ2_FaCo_SA_CL_OVCA433_C.RAW",
+      "20131021_EXQ3_FaCo_SA_CL_ME180_C.RAW",
+      "20130607_EXQ4_FaCo_SA_CL_A2780CP70_A.RAW",
+      "20141013_QEp8_FaCo_SA_TU_LOV_1.RAW",
+      "20130312_EXQ4_FaCo_SA_CL_DOV13_C.RAW",
+      "20150305_QEp7_FaCo_SA_CL_JHOS4_C.raw",
+      "20130312_EXQ4_FaCo_SA_CL_DOV13_B.RAW",
+      "20150305_QEp7_FaCo_SA_CL_HEYA8_C.raw",
+      "20131025_EXQ3_FaCo_SA_CL_TOV112DR_B.RAW",
+      "20140402_EXQ6_FaCo_SA_CL_PEO1_B.RAW",
+      "20150305_QEp7_FaCo_SA_CL_JHOS2_C.raw",
+      "20140516_QEp3_FaCo_SA_CL_TYKNUCP_C.RAW",
+      "20131025_EXQ3_FaCo_SA_CL_IGROV1_B.RAW",
+      "20130619_EXQ4_FaCo_SA_CL_A2780_C.raw",
+      "20141013_QEp8_FaCo_SA_TU_LOV_4.RAW",
+      "20140115_EXQ6_FaCo_SA_CL_OVCA433_A.RAW",
+      "20140402_EXQ6_FaCo_SA_CL_PEO4_C.RAW",
+      "20141013_QEp8_FaCo_SA_TU_ROV_5.RAW",
+      "20131025_EXQ3_FaCo_SA_CL_TOV112D_C.RAW",
+      "20130315_EXQ4_FaCo_SA_CL_IOSE7675_B.RAW",
+      "20150305_QEp7_FaCo_SA_CL_COV318_C.raw",
+      "20130809_EXQ3_FaCo_SA_CL_IOSE397_B.RAW",
+      "20150305_QEp7_FaCo_SA_CL_OVCAR3_C.raw",
+      "20140109_EXQ8_FaCo_SA_CL_SNU119_A.RAW",
+      "20131025_EXQ3_FaCo_SA_CL_TOV112DR_A.RAW",
+      "20141013_QEp8_FaCo_SA_TU_OV_1131.RAW",
+      "20150305_QEp7_FaCo_SA_CL_JHOS4_B.raw",
+      "20150305_QEp7_FaCo_SA_CL_OVCAR5_B.raw",
+      "20130314_EXQ4_FaCo_SA_CL_OVCA433_B.RAW",
+      "20140516_QEp3_FaCo_SA_CL_PEO4_B.RAW",
+      "20130607_EXQ4_FaCo_SA_CL_A2780CP70_B.RAW",
+      "20130314_EXQ4_FaCo_SA_CL_OVISE_A.RAW",
+      "20150305_QEp7_FaCo_SA_CL_OVSAHO_C.raw",
+      "20140709_QEp3_FaCo_SA_CL_59M_B.RAW",
+      "20150305_QEp7_FaCo_SA_CL_OVSAHO_B.raw",
+      "20140109_EXQ8_FaCo_SA_CL_SNU119_B.RAW",
+      "20140521_QEp4_FaCo_SA_PC_FTEC_1216.RAW",
+      "20131025_EXQ3_FaCo_SA_CL_TOV112DR_C.RAW",
+      "20130314_EXQ4_FaCo_SA_CL_OVISE_C.RAW",
+      "20130809_EXQ3_FaCo_SA_CL_IOSE397_A.RAW",
+      "20150305_QEp7_FaCo_SA_CL_JHOS4_A.raw",
+      "20140516_QEp3_FaCo_SA_CL_TYKNUCP_A.RAW",
+      "20140109_EXQ8_FaCo_SA_CL_KURAMOCHI_B.RAW",
+      "20141013_QEp8_FaCo_SA_TU_ROV_1.RAW",
+      "20131029_EXQ3_FaCo_SA_CL_TYKNU_A.RAW",
+      "20131025_EXQ3_FaCo_SA_CL_IGROV1CP_A.RAW",
+      "20131025_EXQ3_FaCo_SA_CL_IGROV1CP_C.RAW",
+      "20131018_EXQ3_FaCo_SA_CL_ME180C13_C.RAW",
+      "20141013_QEp8_FaCo_SA_TU_LOV_5.RAW",
+      "20150305_QEp7_FaCo_SA_CL_CAOV3_C.raw",
+      "20140115_EXQ6_FaCo_SA_CL_IOSE397_C.RAW",
+      "20140516_QEp3_FaCo_SA_CL_PEO4_A.RAW",
+      "20140109_EXQ8_FaCo_SA_CL_KURAMOCHI_A.RAW"
+    ]
+  },
+  "steps": {
+    "STEP1_OVERVIEW": {
+      "confirmed": {
+        "Characteristics[Organism]": {
+          "value": "Homo sapiens",
+          "evidence": "A cell line representative of human high-grade serous ovarian cancer (HGSOC)",
+          "source": "manuscript"
+        },
+        "Characteristics[Disease]": {
+          "value": "high-grade serous ovarian cancer",
+          "evidence": "human high-grade serous ovarian cancer (HGSOC)",
+          "source": "manuscript"
+        },
+        "Characteristics[CellType]": {
+          "value": "epithelial cell",
+          "evidence": "immortalized ovarian surface epithelial cells and fallopian tube epithelial cells",
+          "source": "manuscript"
+        },
+        "Characteristics[MaterialType]": {
+          "value": "cell culture",
+          "evidence": "26 ovarian cancer cell lines",
+          "source": "manuscript"
+        },
+        "Characteristics[Label]": {
+          "value": "label-free",
+          "evidence": "MS1 intensity based label-free quantification method",
+          "source": "anchor"
+        },
+        "Comment[AcquisitionMethod]": {
+          "value": "single-run mass spectrometric workflow",
+          "evidence": "via a single-run mass spectrometric workflow",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {
+        "Characteristics[OrganismPart]": {
+          "candidates": [
+            "ovary",
+            "fallopian tube"
+          ],
+          "reasoning": "論文では卵巣癌細胞株と卵管上皮細胞について言及されており、これらの部位が関連している",
+          "needs": "具体的にどの細胞株がどの部位由来かの詳細情報"
+        },
+        "Characteristics[CellLine]": {
+          "candidates": [
+            "26 ovarian cancer cell lines (specific names not provided)"
+          ],
+          "reasoning": "26の卵巣癌細胞株が使用されたことは明記されているが、具体的な細胞株名は記載されていない",
+          "needs": "具体的な細胞株名のリスト（HeLa, SKOV3, OVCAR3等）"
+        }
+      },
+      "not_applicable": [
+        "Characteristics[Specimen]",
+        "Characteristics[Strain]",
+        "Characteristics[GeneticModification]",
+        "Characteristics[Treatment]",
+        "Characteristics[DevelopmentalStage]",
+        "Characteristics[Compound]",
+        "Characteristics[ConcentrationOfCompound]"
+      ],
+      "summary": "ヒト高悪性度漿液性卵巣癌の26細胞株を用いたlabel-free定量プロテオミクス研究であることが確定。上皮細胞由来で単一ランMS解析を実施。具体的な細胞株名と正確な臓器部位の特定が次ステップで必要。"
+    },
+    "STEP2_SAMPLE_PREP": {
+      "confirmed": {
+        "Characteristics[CleavageAgent]": {
+          "value": "trypsin",
+          "evidence": "After adding four volumes of 50 mM ammonium bicarbonate, 1 μg trypsin was added and tryptic digestion carried out overnight",
+          "source": "manuscript"
+        },
+        "Characteristics[AlkylationReagent]": {
+          "value": "iodoacetamide",
+          "evidence": "alkylated with 55 mM iodoacetamide for an additional 30 min",
+          "source": "manuscript"
+        },
+        "Characteristics[ReductionReagent]": {
+          "value": "DTT",
+          "evidence": "Proteins in the lysate were reduced with 10 mM DTT for 30 min",
+          "source": "manuscript"
+        },
+        "Characteristics[Label]": {
+          "value": "label-free",
+          "evidence": "For label-free protein quantification, the MaxLFQ algorithm was used",
+          "source": "manuscript"
+        },
+        "Characteristics[Modification]": {
+          "value": "Carbamidomethyl",
+          "evidence": "Default settings were used for variable and fixed modifications (variable modification, acetylation (N terminus) and methionine oxidation; fixed modification, carbamidomethylation)",
+          "source": "manuscript"
+        },
+        "Characteristics[Modification].1": {
+          "value": "Acetyl",
+          "evidence": "variable modification, acetylation (N terminus) and methionine oxidation",
+          "source": "manuscript"
+        },
+        "Characteristics[Modification].2": {
+          "value": "Oxidation",
+          "evidence": "variable modification, acetylation (N terminus) and methionine oxidation",
+          "source": "manuscript"
+        },
+        "Comment[Separation]": {
+          "value": "LC-MS",
+          "evidence": "MS analysis was performed using Quadrupole Orbitrap mass spectrometers (Q Exactive and Q Exactive HF, Thermo Fisher Scientific, Rockford, IL, USA) coupled to an EASY-nLC 1000 HPLC system",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {
+        "Comment[EnrichmentMethod]": {
+          "candidates": [
+            "desalting on C18 StageTips"
+          ],
+          "reasoning": "ペプチドの前処理としてC18 StageTipsでのデソルトが記載されているが、これが濃縮に該当するかは曖昧",
+          "needs": "エンリッチメントの定義確認が必要"
+        }
+      },
+      "not_applicable": [
+        "Characteristics[Modification].3",
+        "Characteristics[Modification].4",
+        "Characteristics[Modification].5",
+        "Characteristics[Modification].6",
+        "Characteristics[Depletion",
+        "Characteristics[SpikedCompound]",
+        "Characteristics[SyntheticPeptide]",
+        "Comment[FractionationMethod]",
+        "Comment[NumberOfFractions]"
+      ],
+      "summary": "サンプル調製プロトコルが詳細に記載されており、トリプシン消化、DTT還元、ヨードアセトアミドアルキル化、label-free定量が確定。修飾はカルバミドメチル化（固定）、アセチル化・酸化（可変）の3種類を確認。フラクショネーションは実施されず、LC-MS単一ランでの解析。C18 StageTipsでのデソルトがエンリッチメントに該当するかは要確認事項として残る。"
+    },
+    "STEP3_MS_SETTINGS": {
+      "confirmed": {
+        "Comment[Instrument]": {
+          "value": "Q Exactive; Q Exactive HF",
+          "evidence": "MS analysis was performed using Quadrupole Orbitrap mass spectrometers (Q Exactive and Q Exactive HF, Thermo Fisher Scientific, Rockford, IL, USA)",
+          "source": "manuscript"
+        },
+        "Comment[FragmentationMethod]": {
+          "value": "HCD",
+          "evidence": "Selected precursor ions were subjected to high-energy collisional dissociation fragmentation",
+          "source": "manuscript"
+        },
+        "Comment[AcquisitionMethod]": {
+          "value": "top-five method",
+          "evidence": "A top-five method was used to select up to the five most abundant precursor ions with a charge ≥2",
+          "source": "manuscript"
+        },
+        "Comment[IonizationType]": {
+          "value": "nano electrospray",
+          "evidence": "coupled to an EASY-nLC 1000 HPLC system (Thermo Fisher Scientific) via a nano electrospray source",
+          "source": "manuscript"
+        },
+        "Comment[MS2MassAnalyzer]": {
+          "value": "Orbitrap",
+          "evidence": "MS analysis was performed using Quadrupole Orbitrap mass spectrometers",
+          "source": "manuscript"
+        },
+        "Comment[CollisionEnergy]": {
+          "value": "25 (Q Exactive); 27 (Q Exactive HF)",
+          "evidence": "normalized collision energy of 25 (27 for Q Exactive HF)",
+          "source": "manuscript"
+        },
+        "Comment[GradientTime]": {
+          "value": "250 min",
+          "evidence": "Peptides were separated over a 250 min gradient from 2% to 60%",
+          "source": "manuscript"
+        },
+        "Comment[FlowRateChromatogram]": {
+          "value": "200 nl/min",
+          "evidence": "in buffer B (80% acetonitrile, 0.5% formic acid) at 200 nl min−1",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {
+        "Comment[PrecursorMassTolerance]": {
+          "candidates": [
+            "20 ppm",
+            "10 ppm"
+          ],
+          "reasoning": "MaxQuantのデフォルト設定が使用されたと記載があり、一般的にMaxQuantのデフォルトは20 ppmまたは10 ppmであることが多い",
+          "needs": "MaxQuant設定の詳細またはSupplementary methodsの情報"
+        },
+        "Comment[FragmentMassTolerance]": {
+          "candidates": [
+            "0.5 Da",
+            "20 ppm"
+          ],
+          "reasoning": "Orbitrap装置でMaxQuantのデフォルト設定が使用されたため、一般的なデフォルト値が適用されている可能性",
+          "needs": "MaxQuant設定の詳細またはSupplementary methodsの情報"
+        },
+        "Comment[NumberOfMissedCleavages]": {
+          "candidates": [
+            "2"
+          ],
+          "reasoning": "MaxQuantのデフォルト設定が使用され、一般的にトリプシンの場合は2回までのmissed cleavageが許容される",
+          "needs": "MaxQuant設定の詳細またはSupplementary methodsの情報"
+        }
+      },
+      "not_applicable": [],
+      "summary": "質量分析装置設定の大部分が確定。Q ExactiveとQ Exactive HFの2機種を使用し、HCD fragmentation、top-5 acquisition、nanoESI ionizationを実装。250分グラディエント、200 nl/min流速での解析。衝突エネルギーは機種により異なる（25 vs 27）。MaxQuantのデフォルト設定に依存するトレランスや許容missed cleavage数は論文に明記されておらず、Supplementary methodsでの確認が必要。"
+    },
+    "STEP4_RAW_FILES": {
+      "confirmed": {
+        "Comment[FractionIdentifier]": {
+          "value": "Not Applicable",
+          "evidence": "No fractionation was performed. Single-run LC-MS analysis was conducted as described in methods: 'Peptides were separated over a 250 min gradient' with no mention of fractionation",
+          "source": "manuscript"
+        },
+        "Characteristics[BiologicalReplicate]": {
+          "value": "per_file",
+          "per_file": {
+            "20150305_QEp7_FaCo_SA_CL_OVCAR3_A.raw": "1",
+            "20150305_QEp7_FaCo_SA_CL_OVCAR3_B.raw": "2",
+            "20150305_QEp7_FaCo_SA_CL_OVCAR3_C.raw": "3",
+            "20150305_QEp7_FaCo_SA_CL_COV318_A.raw": "1",
+            "20150305_QEp7_FaCo_SA_CL_COV318_B.raw": "2",
+            "20150305_QEp7_FaCo_SA_CL_COV318_C.raw": "3",
+            "20150305_QEp7_FaCo_SA_CL_JHOS2_A.raw": "1",
+            "20150305_QEp7_FaCo_SA_CL_JHOS2_B.raw": "2",
+            "20150305_QEp7_FaCo_SA_CL_JHOS2_C.raw": "3",
+            "20150305_QEp7_FaCo_SA_CL_HEYA8_A.raw": "1",
+            "20150305_QEp7_FaCo_SA_CL_HEYA8_B.raw": "2",
+            "20150305_QEp7_FaCo_SA_CL_HEYA8_C.raw": "3",
+            "20150305_QEp7_FaCo_SA_CL_OVKATE_A.raw": "1",
+            "20150305_QEp7_FaCo_SA_CL_OVKATE_B.raw": "2",
+            "20150305_QEp7_FaCo_SA_CL_OVKATE_C.raw": "3",
+            "20150305_QEp7_FaCo_SA_CL_OVCAR5_A.raw": "1",
+            "20150305_QEp7_FaCo_SA_CL_OVCAR5_B.raw": "2",
+            "20150305_QEp7_FaCo_SA_CL_OVCAR5_C.raw": "3",
+            "20150305_QEp7_FaCo_SA_CL_OVSAHO_A.raw": "1",
+            "20150305_QEp7_FaCo_SA_CL_OVSAHO_B.raw": "2",
+            "20150305_QEp7_FaCo_SA_CL_OVSAHO_C.raw": "3",
+            "20150305_QEp7_FaCo_SA_CL_CAOV3_A.raw": "1",
+            "20150305_QEp7_FaCo_SA_CL_CAOV3_B.raw": "2",
+            "20150305_QEp7_FaCo_SA_CL_CAOV3_C.raw": "3",
+            "20150305_QEp7_FaCo_SA_CL_JHOS4_A.raw": "1",
+            "20150305_QEp7_FaCo_SA_CL_JHOS4_B.raw": "2",
+            "20150305_QEp7_FaCo_SA_CL_JHOS4_C.raw": "3",
+            "20130607_EXQ4_FaCo_SA_CL_A2780_A.raw": "1",
+            "20130607_EXQ4_FaCo_SA_CL_A2780_B.raw": "2",
+            "20130619_EXQ4_FaCo_SA_CL_A2780_C.raw": "3"
+          },
+          "evidence": "File names contain clear replicate identifiers A, B, C for each cell line. Methods state: 'the samples were collected from three consecutive passages for n=3 replicates for each line'",
+          "source": "filename"
+        },
+        "Characteristics[NumberOfBiologicalReplicates]": {
+          "value": "3",
+          "evidence": "Methods clearly state: 'the samples were collected from three consecutive passages for n=3 replicates for each line'",
+          "source": "manuscript"
+        },
+        "Characteristics[NumberOfTechnicalReplicates]": {
+          "value": "1",
+          "evidence": "No technical replicates mentioned. Each biological replicate was analyzed once by MS as indicated by single raw file per replicate",
+          "source": "manuscript"
+        },
+        "Characteristics[NumberOfSamples]": {
+          "value": "30",
+          "evidence": "Methods state: 'Thirty cell lines were included in this study' and 30 raw files are provided (10 cell lines × 3 replicates each)",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {},
+      "not_applicable": [
+        "FactorValue[Treatment]",
+        "FactorValue[Temperature]",
+        "FactorValue[Disease]",
+        "FactorValue[GeneticModification]",
+        "FactorValue[Compound]",
+        "FactorValue[Bait]",
+        "FactorValue[CellPart]",
+        "FactorValue[ConcentrationOfCompound].1",
+        "FactorValue[FractionIdentifier]"
+      ],
+      "summary": "ファイル名解析により実験デザインが完全に確定。10種類の卵巣癌細胞株（OVCAR3, COV318, JHOS2, HEYA8, OVKATE, OVCAR5, OVSAHO, CAOV3, JHOS4, A2780）に対して各3回の生物学的反復実験を実施。ファイル名末尾のA/B/Cが明確に反復番号を示している。フラクショネーションは実施されておらず、各サンプル1回のMS解析。実験的要因（処理、温度変化等）は基本的な細胞株特性比較のため該当なし。"
+    }
+  }
+}

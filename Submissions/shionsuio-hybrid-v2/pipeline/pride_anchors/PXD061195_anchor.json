@@ -1,0 +1,137 @@
+{
+  "pxd": "PXD061195",
+  "source": "PRIDE_API",
+  "organism": [
+    {
+      "name": "Homo sapiens (human)",
+      "accession": "NEWT:9606"
+    }
+  ],
+  "instruments": [
+    {
+      "name": "Orbitrap Exploris 480",
+      "accession": "MS:1003028",
+      "sdrf_format": "AC=MS:1003028;NT=Orbitrap Exploris 480"
+    }
+  ],
+  "modifications": [],
+  "organism_parts": [
+    {
+      "name": "Cell culture",
+      "accession": "BTO:0000214"
+    }
+  ],
+  "diseases": [],
+  "experiment_types": [
+    "Bottom-up proteomics",
+    "Data-dependent acquisition"
+  ],
+  "quantification_methods": [
+    "TMT"
+  ],
+  "keywords": [
+    "Virus-host interactions",
+    "Affinity purification-mass spectrometry",
+    "Variants",
+    "Nsp3"
+  ],
+  "publications": [
+    {
+      "pubmed_id": "",
+      "doi": "10.3390/v17030447",
+      "ref": "Garcia Lopez V, Plate L. Comparative Interactome Profiling of Nonstructural Protein 3 Across SARS-CoV-2 Variants Emerged During the COVID-19 Pandemic. Viruses. 2025 17(3):447"
+    }
+  ],
+  "inferred_fragmentation": "HCD",
+  "inferred_ms2_analyzer": "orbitrap",
+  "inferred_ionization": "nanoESI",
+  "raw_files": [
+    "01-038-VGL-20211115-nsp31-TMT16-0C_1.raw",
+    "01-043-VGL-20220530-nsp32-TMT16-60C_5.raw",
+    "01-044-VGL-20220531-nsp32-TMT16-80C_6.raw",
+    "01-042-VGL-20220629-VGL-TMT16-0C_1.raw",
+    "01-037-VGL-20211019-nsp32-TMT16-10C_2.raw",
+    "01-036-VGL-20211018-nsp31TMT16-80C_6.raw",
+    "01-045-VGL-20220804-TMT16-0C_1.raw",
+    "20210818-VGL-01-026-nsp31-var-TMT16-70C_8.raw",
+    "01-043-VGL-20220530-nsp32-TMT16-20C_3.raw",
+    "01-045-VGL-20220804-TMT16-10C_2.raw",
+    "20210818-VGL-01-026-nsp31-var-TMT16-40C_5.raw",
+    "01-044-VGL-20220531-nsp32-TMT16-40C_4.raw",
+    "01-042-VGL-20220615-nsp31-TMT16-0C_1.raw",
+    "01-036-VGL-20211018-nsp31-TMT16-20C_3.raw",
+    "01-036-VGL-20211018-nsp31-TMT16-90C10B_8.raw",
+    "01-037-VGL-20211019-nsp32-TMT16-90C10B_8.raw",
+    "01-045-VGL-20220804-TMT16-40C_4.raw",
+    "20210819_VGL_01_030_nsp32-var-TMT16-100C_11.raw",
+    "01-038-VGL-20211115-nsp31-TMT16-100C_7.raw",
+    "20210818-VGL-01-026-nsp31-var-TMT16-20C_3.raw",
+    "01-039-VGL-20211116-nsp32-TMT16-40C_4.raw",
+    "20210819_VGL_01_030_nsp32-var-TMT16-40C_5.raw",
+    "01-044-VGL-20220531-nsp32-TMT16-10C_2.raw",
+    "01-045-VGL-20220804-TMT16-100C_7.raw",
+    "01-044-VGL-20220531-nsp32-TMT16-20C_3.raw",
+    "20210818_VGL_01_026_nsp31-var-TMT16-0C_1.raw",
+    "01-043-VGL-20220530-nsp32-TMT16-90C10B_8.raw",
+    "01-038-VGL-20211115-nsp31-TMT16-90C10B_8.raw",
+    "01-045-VGL-20220804-TMT16-20C_3.raw",
+    "01-036-VGL-20211018-nsp31-TMT16-0C_1.raw",
+    "01-039-VGL-20211116-nsp32-TMT16-10C_2.raw",
+    "01-042-VGL-20220629-VGL-TMT16-80C_6.raw",
+    "01-042-VGL-20220629-VGL-TMT16-90C10B_8.raw",
+    "20210818-VGL-01-026-nsp31-var-TMT16-80C_9.raw",
+    "01-039-VGL-20211116-nsp32-TMT16-60C_5.raw",
+    "01-042-VGL-20220629-VGL-TMT16-20C_3.raw",
+    "20210819_VGL_01_030_nsp32-var-TMT16-20C_3.raw",
+    "20210819_VGL_01_030_nsp32-var-TMT16-10C_2.raw",
+    "01-043-VGL-20220530-nsp32-TMT16-0C_1_20220530163336.raw",
+    "01-036-VGL-20211018-nsp31TMT16-60C_5.raw",
+    "01-038-VGL-20211115-nsp31-TMT16-80C_6.raw",
+    "01-037-VGL-20211019-nsp32-TMT16-80C_6.raw",
+    "01-038-VGL-20211115-nsp31-TMT16-20C_3.raw",
+    "20210819_VGL_01_030_nsp32-var-TMT16-0C_1.raw",
+    "01-042-VGL-20220629-VGL-TMT16-40C_4.raw",
+    "01-037-VGL-20211019-nsp32-TMT16-100C_7.raw",
+    "01-038-VGL-20211115-nsp31-TMT16-10C_2.raw",
+    "01-036-VGL-20211018-nsp31-TMT16-100C_7.raw",
+    "01-042-VGL-20220629-VGL-TMT16-100C_7.raw",
+    "20210818-VGL-01-026-nsp31-var-TMT16-90C10B_12.raw",
+    "01-045-VGL-20220804-TMT16-90C10B_8.raw",
+    "20210818-VGL-01-026-nsp31-var-TMT16-90C_10.raw",
+    "01-037-VGL-20211019-nsp32-TMT16-0C_1.raw",
+    "01-036-VGL-20211018-nsp31-TMT16-40C_4.raw",
+    "01-039-VGL-20211116-nsp32-TMT16-100C_7.raw",
+    "01-038-VGL-20211115-nsp31-TMT16-60C_5.raw",
+    "01-045-VGL-20220804-TMT16-60C_5.raw",
+    "20210819_VGL_01_030_nsp32-var-TMT16-60C_7.raw",
+    "01-043-VGL-20220530-nsp32-TMT16-0C_1.raw",
+    "20210818-VGL-01-026-nsp31-var-TMT16-10C_2.raw",
+    "01-037-VGL-20211019-nsp32-TMT16-20C_3.raw",
+    "01-037-VGL-20211019-nsp32-TMT16-40C_4.raw",
+    "01-043-VGL-20220530-nsp32-TMT16-10C_2.raw",
+    "01-044-VGL-20220531-nsp32-TMT16-90C10B_8.raw",
+    "01-043-VGL-20220530-nsp32-TMT16-80C_6.raw",
+    "20210819_VGL_01_030_nsp32-var-TMT16-90C10B_12.raw",
+    "01-039-VGL-20211116-nsp32-TMT16-0C_1.raw",
+    "20210818-VGL-01-026-nsp31-var-TMT16-100C_11.raw",
+    "01-039-VGL-20211116-nsp32-TMT16-80C_6.raw",
+    "01-044-VGL-20220531-nsp32-TMT16-100C_7.raw",
+    "01-036-VGL-20211018-nsp31-TMT16-10C_2.raw",
+    "01-038-VGL-20211115-nsp31-TMT16-40C_4.raw",
+    "01-037-VGL-20211019-nsp32-TMT16-60C_5.raw",
+    "01-042-VGL-20220629-VGL-TMT16-10C_2.raw",
+    "20210819_VGL_01_030_nsp32-var-TMT16-30C_4.raw",
+    "20210818-VGL-01-026-nsp31-var-TMT16-50C_6.raw",
+    "20210818-VGL-01-026-nsp31-var-TMT16-30C_4.raw",
+    "01-044-VGL-20220531-nsp32-TMT16-0C_1.raw",
+    "01-045-VGL-20220804-TMT16-80C_6.raw",
+    "01-042-VGL-20220629-VGL-TMT16-60C_5.raw",
+    "20210818-VGL-01-026-nsp31-var-TMT16-60C_7.raw",
+    "01-039-VGL-20211116-nsp32-TMT16-20C_3.raw",
+    "01-044-VGL-20220531-nsp32-TMT16-60C_5.raw",
+    "01-043-VGL-20220530-nsp32-TMT16-100C_7.raw",
+    "20210819_VGL_01_030_nsp32-var-TMT16-50C_6.raw",
+    "01-043-VGL-20220530-nsp32-TMT16-40C_4.raw",
+    "01-039-VGL-20211116-nsp32-TMT16-90C10B_8.raw"
+  ]
+}

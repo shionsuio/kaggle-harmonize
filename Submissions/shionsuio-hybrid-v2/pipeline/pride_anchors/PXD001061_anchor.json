@@ -1,0 +1,91 @@
+{
+  "pxd": "PXD001061",
+  "source": "PRIDE_API",
+  "organism": [
+    {
+      "name": "Homo sapiens (human)",
+      "accession": "NEWT:9606"
+    }
+  ],
+  "instruments": [
+    {
+      "name": "Q Exactive",
+      "accession": "MS:1001911",
+      "sdrf_format": "AC=MS:1001911;NT=Q Exactive"
+    }
+  ],
+  "modifications": [],
+  "organism_parts": [
+    {
+      "name": "Permanent cell line cell",
+      "accession": "CL:0000002"
+    },
+    {
+      "name": "Hela cell",
+      "accession": "BTO:0000567"
+    }
+  ],
+  "diseases": [
+    {
+      "name": "Cervix carcinoma",
+      "accession": "DOID:2893"
+    }
+  ],
+  "experiment_types": [
+    "Affinity purification coupled with mass spectrometry proteomics"
+  ],
+  "quantification_methods": [
+    "Label free"
+  ],
+  "keywords": [
+    "Sumo-2",
+    "Qqtgg",
+    "Sumo",
+    "Sumo2",
+    "Q87r"
+  ],
+  "publications": [
+    {
+      "pubmed_id": "",
+      "doi": "10.1038/nsmb.2890",
+      "ref": "Hendriks IA, D'Souza RC, Yang B, Verlaan-de Vries M, Mann M, Vertegaal AC. Uncovering global SUMOylation signaling networks in a site-specific manner. Nat Struct Mol Biol. 2014 Sep 14"
+    }
+  ],
+  "inferred_fragmentation": "HCD",
+  "inferred_ms2_analyzer": "orbitrap",
+  "inferred_ionization": "nanoESI",
+  "raw_files": [
+    "QE_IA_QQTGG_Control_BR4_TR1.raw",
+    "QE_IA_QQTGG_Control_BR5_TR2.raw",
+    "QE_IA_QQTGG_Control_BR6_TR1.raw",
+    "QE_IA_QQTGG_HEAT_BR1_TR1.raw",
+    "QE_IA_QQTGG_Control_BR4_TR2.raw",
+    "QE_IA_QQTGG_PR619_BR4_TR1.raw",
+    "QE_IA_QQTGG_Control_BR5_TR1.raw",
+    "QE_IA_QQTGG_PR619_BR2_TR2.raw",
+    "QE_IA_QQTGG_Control_BR2_TR2.raw",
+    "QE_IA_QQTGG_HEAT_BR2_TR2.raw",
+    "QE_IA_QQTGG_MG132_BR3_TR2.raw",
+    "QE_IA_QQTGG_PR619_BR5_TR1.raw",
+    "QE_IA_QQTGG_Control_BR3_TR1.raw",
+    "QE_IA_QQTGG_MG132_BR2_TR2.raw",
+    "QE_IA_QQTGG_Control_BR6_TR2.raw",
+    "QE_IA_QQTGG_Control_BR1_TR1.raw",
+    "QE_IA_QQTGG_HEAT_BR2_TR1.raw",
+    "QE_IA_QQTGG_PR619_BR3_TR2.raw",
+    "QE_IA_QQTGG_PR619_BR1_TR1.raw",
+    "QE_IA_QQTGG_PR619_BR5_TR2.raw",
+    "QE_IA_QQTGG_PR619_BR3_TR1.raw",
+    "QE_IA_QQTGG_PR619_BR1_TR2.raw",
+    "QE_IA_QQTGG_MG132_BR1_TR1.raw",
+    "QE_IA_QQTGG_HEAT_BR3_TR2.raw",
+    "QE_IA_QQTGG_HEAT_BR3_TR1.raw",
+    "QE_IA_QQTGG_PR619_BR2_TR1.raw",
+    "QE_IA_QQTGG_Control_BR2_TR1.raw",
+    "QE_IA_QQTGG_MG132_BR1_TR2.raw",
+    "QE_IA_QQTGG_MG132_BR3_TR1.raw",
+    "QE_IA_QQTGG_Control_BR3_TR2.raw",
+    "QE_IA_QQTGG_MG132_BR2_TR1.raw",
+    "QE_IA_QQTGG_HEAT_BR1_TR2.raw"
+  ]
+}

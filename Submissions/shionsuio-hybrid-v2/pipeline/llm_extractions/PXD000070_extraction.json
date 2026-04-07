@@ -1,0 +1,410 @@
+{
+  "pxd": "PXD000070",
+  "raw_files": [
+    "OTPf-IMACDDNL_2010Mar9-01.raw",
+    "OTPf-IMACDT2010Mar11-01.raw",
+    "OTPf-IMACDT2010Mar11-02.raw",
+    "OTPf-IMACDT2010Mar10-01.raw",
+    "OTPf-IMACDDNL_2010Mar9-02.raw",
+    "OTPf-IMACDDNL_2010Mar06-02.raw"
+  ],
+  "anchor": {
+    "pxd": "PXD000070",
+    "source": "PRIDE_API",
+    "organism": [
+      {
+        "name": "Plasmodium falciparum (isolate 3d7)",
+        "accession": "NEWT:36329"
+      }
+    ],
+    "instruments": [
+      {
+        "name": "LTQ Orbitrap Velos",
+        "accession": "MS:1001742",
+        "sdrf_format": "AC=MS:1001742;NT=LTQ Orbitrap Velos"
+      }
+    ],
+    "modifications": [],
+    "organism_parts": [],
+    "diseases": [],
+    "experiment_types": [
+      "Bottom-up proteomics"
+    ],
+    "quantification_methods": [],
+    "keywords": [
+      "Plasmodium falciparum",
+      "Cid",
+      "Phosphoproteome",
+      "Etd"
+    ],
+    "publications": [
+      {
+        "pubmed_id": "",
+        "doi": "10.1016/j.jprot.2014.03.010",
+        "ref": "Collins MO, Wright JC, Jones M, Rayner JC, Choudhary JS. Confident and sensitive phosphoproteomics using combinations of collision induced dissociation and electron transfer dissociation. J Proteomics. 2014 Mar 21;103C:1-14"
+      }
+    ],
+    "inferred_fragmentation": null,
+    "inferred_ms2_analyzer": "orbitrap",
+    "inferred_ionization": "nanoESI",
+    "raw_files": [
+      "OTPf-IMACDDNL_2010Mar9-01.raw",
+      "OTPf-IMACDT2010Mar11-01.raw",
+      "OTPf-IMACDT2010Mar11-02.raw",
+      "OTPf-IMACDT2010Mar10-01.raw",
+      "OTPf-IMACDDNL_2010Mar9-02.raw",
+      "OTPf-IMACDDNL_2010Mar06-02.raw"
+    ]
+  },
+  "extractions": {
+    "TITLE_ABSTRACT": {
+      "Characteristics[Organism]": {
+        "value": "Plasmodium falciparum",
+        "evidence": "We analysed the Plasmodium falciparum schizont phosphoproteome",
+        "confidence": "high",
+        "source": "manuscript",
+        "applies_to": "all",
+        "note": "Matches anchor information (Plasmodium falciparum isolate 3d7)"
+      },
+      "Characteristics[OrganismPart]": {
+        "value": "Not Applicable",
+        "evidence": "",
+        "confidence": "low",
+        "source": "manuscript",
+        "applies_to": "all"
+      },
+      "Characteristics[CellType]": {
+        "value": "Not Applicable",
+        "evidence": "",
+        "confidence": "low",
+        "source": "manuscript",
+        "applies_to": "all"
+      },
+      "Characteristics[CellLine]": {
+        "value": "Not Applicable",
+        "evidence": "",
+        "confidence": "low",
+        "source": "manuscript",
+        "applies_to": "all"
+      },
+      "Characteristics[Disease]": {
+        "value": "Not Applicable",
+        "evidence": "",
+        "confidence": "low",
+        "source": "manuscript",
+        "applies_to": "all"
+      },
+      "Characteristics[MaterialType]": {
+        "value": "protein extract",
+        "evidence": "We analysed the Plasmodium falciparum schizont phosphoproteome",
+        "confidence": "medium",
+        "source": "inferred",
+        "applies_to": "all"
+      },
+      "Characteristics[Label]": {
+        "value": "label free sample",
+        "evidence": "No labeling methods mentioned in the manuscript",
+        "confidence": "medium",
+        "source": "inferred",
+        "applies_to": "all"
+      },
+      "Characteristics[Specimen]": {
+        "value": "schizont",
+        "evidence": "We analysed the Plasmodium falciparum schizont phosphoproteome",
+        "confidence": "high",
+        "source": "manuscript",
+        "applies_to": "all"
+      },
+      "Characteristics[Strain]": {
+        "value": "3D7",
+        "evidence": "",
+        "confidence": "high",
+        "source": "anchor",
+        "applies_to": "all",
+        "note": "Inferred from anchor information (isolate 3d7)"
+      },
+      "Characteristics[GeneticModification]": {
+        "value": "Not Applicable",
+        "evidence": "",
+        "confidence": "low",
+        "source": "manuscript",
+        "applies_to": "all"
+      },
+      "Characteristics[Treatment]": {
+        "value": "IMAC enrichment",
+        "evidence": "OTPf-IMACDDNL_2010Mar9-01.raw, OTPf-IMACDT2010Mar11-01.raw",
+        "confidence": "high",
+        "source": "filename",
+        "applies_to": "all",
+        "note": "IMAC token present in all filenames indicates immobilized metal affinity chromatography enrichment"
+      },
+      "Characteristics[DevelopmentalStage]": {
+        "value": "schizont stage",
+        "evidence": "We analysed the Plasmodium falciparum schizont phosphoproteome",
+        "confidence": "high",
+        "source": "manuscript",
+        "applies_to": "all"
+      },
+      "Comment[AcquisitionMethod]": {
+        "value": "data-dependent neutral loss-triggered-ETD (DDNL) and decision-tree method",
+        "evidence": "a data-dependent neutral loss-triggered-ETD (DDNL) strategy and a conventional decision-tree method",
+        "confidence": "high",
+        "source": "manuscript",
+        "applies_to": {
+          "DDNL_files": "OTPf-IMACDDNL_2010Mar9-01.raw, OTPf-IMACDDNL_2010Mar9-02.raw, OTPf-IMACDDNL_2010Mar06-02.raw",
+          "DT_files": "OTPf-IMACDT2010Mar11-01.raw, OTPf-IMACDT2010Mar11-02.raw, OTPf-IMACDT2010Mar10-01.raw"
+        },
+        "note": "DDNL and DT tokens in filenames indicate different acquisition methods used"
+      }
+    },
+    "METHODS_SAMPLE": {
+      "Characteristics[CleavageAgent]": {
+        "value": "trypsin",
+        "evidence": "proteins were digested with Trypsin Gold (Promega) for 4 h at 37 °C at an enzyme substrate ratio of 1:20",
+        "confidence": "high",
+        "source": "manuscript",
+        "applies_to": "all"
+      },
+      "Characteristics[AlkylationReagent]": {
+        "value": "iodoacetamide",
+        "evidence": "cysteine alkylation was performed in situ with iodoacetamide",
+        "confidence": "high",
+        "source": "manuscript",
+        "applies_to": "all"
+      },
+      "Characteristics[ReductionReagent]": {
+        "value": "DTT",
+        "evidence": "extraction buffer (4% SDS, 0.1 M DTT, 0.1 M Tris pH 8",
+        "confidence": "high",
+        "source": "manuscript",
+        "applies_to": "all"
+      },
+      "Characteristics[Label]": {
+        "value": "Not Applicable",
+        "evidence": null,
+        "confidence": "high",
+        "source": "manuscript",
+        "applies_to": "all"
+      },
+      "Characteristics[Modification]": {
+        "value": "Acetyl (Protein N-term)",
+        "evidence": "with Acetyl (Protein N-term), Oxidation (M), Deamidated (NQ), Carbamidomethyl (C) and Phospho (ST) set as variable modifications",
+        "confidence": "high",
+        "source": "manuscript",
+        "applies_to": "all"
+      },
+      "Characteristics[Modification].1": {
+        "value": "Oxidation (M)",
+        "evidence": "with Acetyl (Protein N-term), Oxidation (M), Deamidated (NQ), Carbamidomethyl (C) and Phospho (ST) set as variable modifications",
+        "confidence": "high",
+        "source": "manuscript",
+        "applies_to": "all"
+      },
+      "Characteristics[Modification].2": {
+        "value": "Deamidated (NQ)",
+        "evidence": "with Acetyl (Protein N-term), Oxidation (M), Deamidated (NQ), Carbamidomethyl (C) and Phospho (ST) set as variable modifications",
+        "confidence": "high",
+        "source": "manuscript",
+        "applies_to": "all"
+      },
+      "Characteristics[Modification].3": {
+        "value": "Carbamidomethyl (C)",
+        "evidence": "with Acetyl (Protein N-term), Oxidation (M), Deamidated (NQ), Carbamidomethyl (C) and Phospho (ST) set as variable modifications",
+        "confidence": "high",
+        "source": "manuscript",
+        "applies_to": "all"
+      },
+      "Characteristics[Modification].4": {
+        "value": "Phospho (ST)",
+        "evidence": "with Acetyl (Protein N-term), Oxidation (M), Deamidated (NQ), Carbamidomethyl (C) and Phospho (ST) set as variable modifications",
+        "confidence": "high",
+        "source": "manuscript",
+        "applies_to": "all"
+      },
+      "Characteristics[Modification].5": {
+        "value": "Phospho Y",
+        "evidence": "CID and ETD spectra from DT experiments and CID spectra from DDNL experiments were also searched with the addition of Phospho Y to identify putative tyrosine phosphorylation sites",
+        "confidence": "high",
+        "source": "manuscript",
+        "applies_to": {
+          "file_pattern": "DT and DDNL experiment files"
+        }
+      },
+      "Characteristics[Modification].6": {
+        "value": "Not Applicable",
+        "evidence": null,
+        "confidence": "high",
+        "source": "manuscript",
+        "applies_to": "all"
+      },
+      "Characteristics[Depletion]": {
+        "value": "erythrocyte material removal",
+        "evidence": "parasites were collected by saponin lysis, an approach that removes the vast majority of erythrocyte material",
+        "confidence": "medium",
+        "source": "manuscript",
+        "applies_to": "all"
+      },
+      "Characteristics[SpikedCompound]": {
+        "value": "Not Applicable",
+        "evidence": null,
+        "confidence": "high",
+        "source": "manuscript",
+        "applies_to": "all"
+      },
+      "Characteristics[SyntheticPeptide]": {
+        "value": "Not Applicable",
+        "evidence": null,
+        "confidence": "high",
+        "source": "manuscript",
+        "applies_to": "all"
+      },
+      "Comment[EnrichmentMethod]": {
+        "value": "IMAC phosphopeptide enrichment",
+        "evidence": "IMAC purifications were performed... Peptides were re-suspended in IMAC loading buffer (50% acetonitrile, 0.1% TFA) and incubated with pre-equilibrated Phos-Select beads (Sigma)",
+        "confidence": "high",
+        "source": "manuscript",
+        "applies_to": "all"
+      },
+      "Comment[FractionationMethod]": {
+        "value": "Not Applicable",
+        "evidence": "Phosphopeptides from two IMAC purifications were pooled and split into 6 aliquots for LC–MS/MS analysis",
+        "confidence": "medium",
+        "source": "manuscript",
+        "applies_to": "all",
+        "note": "Samples were split into aliquots but no chromatographic fractionation was performed"
+      },
+      "Comment[NumberOfFractions]": {
+        "value": "6",
+        "evidence": "Phosphopeptides from two IMAC purifications were pooled and split into 6 aliquots for LC–MS/MS analysis",
+        "confidence": "high",
+        "source": "manuscript",
+        "applies_to": "all"
+      },
+      "Comment[Separation]": {
+        "value": "reversed phase chromatography",
+        "evidence": "separated using a 320 min RP gradient (4–30% acetonitrile/0.1% formic acid) on an Acclaim PepMap100 C18 analytical column",
+        "confidence": "high",
+        "source": "manuscript",
+        "applies_to": "all"
+      }
+    },
+    "METHODS_MS": {
+      "Comment[Instrument]": {
+        "value": "LTQ Orbitrap Velos",
+        "evidence": "coupled to an LTQ Orbitrap Velos hybrid mass spectrometer (Thermo Scientific)",
+        "confidence": "high",
+        "source": "manuscript",
+        "applies_to": "all"
+      },
+      "Comment[FragmentationMethod]": {
+        "value": "CID;ETD",
+        "evidence": "subjected to either CID or ETD fragmentation in the linear ion trap with supplemental activation enabled",
+        "confidence": "high",
+        "source": "manuscript",
+        "applies_to": "all"
+      },
+      "Comment[AcquisitionMethod]": {
+        "value": "data dependent acquisition",
+        "evidence": "The mass spectrometer was operated in standard data dependent acquisition mode",
+        "confidence": "high",
+        "source": "manuscript",
+        "applies_to": "all"
+      },
+      "Comment[IonizationType]": {
+        "value": "nanospray",
+        "evidence": "equipped with a nanospray ion source",
+        "confidence": "high",
+        "source": "manuscript",
+        "applies_to": "all"
+      },
+      "Comment[MS2MassAnalyzer]": {
+        "value": "linear ion trap",
+        "evidence": "subjected to either CID or ETD fragmentation in the linear ion trap",
+        "confidence": "high",
+        "source": "manuscript",
+        "applies_to": "all"
+      },
+      "Comment[CollisionEnergy]": {
+        "value": "Not Applicable",
+        "evidence": "",
+        "confidence": "low",
+        "source": "manuscript",
+        "applies_to": "all"
+      },
+      "Comment[PrecursorMassTolerance]": {
+        "value": "10 ppm",
+        "evidence": "10 ppm for MS mass tolerance",
+        "confidence": "high",
+        "source": "manuscript",
+        "applies_to": "all"
+      },
+      "Comment[FragmentMassTolerance]": {
+        "value": "0.5 Da",
+        "evidence": "0.5 Da for MS/MS mass tolerance",
+        "confidence": "high",
+        "source": "manuscript",
+        "applies_to": "all"
+      },
+      "Comment[NumberOfMissedCleavages]": {
+        "value": "3",
+        "evidence": "trypsin with a maximum of 3 missed cleavages",
+        "confidence": "high",
+        "source": "manuscript",
+        "applies_to": "all"
+      },
+      "Comment[GradientTime]": {
+        "value": "320 min",
+        "evidence": "separated using a 320 min RP gradient (4–30% acetonitrile/0.1% formic acid)",
+        "confidence": "high",
+        "source": "manuscript",
+        "applies_to": "all"
+      },
+      "Comment[FlowRateChromatogram]": {
+        "value": "0.3 μl/min",
+        "evidence": "with a flow rate of 0.3 μl/min",
+        "confidence": "high",
+        "source": "manuscript",
+        "applies_to": "all"
+      }
+    },
+    "RAW_FILES": {
+      "Comment[FractionIdentifier]": {
+        "value": "Not Applicable",
+        "evidence": "No fraction information found in the provided text",
+        "confidence": "high",
+        "source": "manuscript",
+        "applies_to": "all"
+      },
+      "Characteristics[BiologicalReplicate]": {
+        "value": "Not Applicable",
+        "evidence": "No explicit biological replicate information found in the provided text",
+        "confidence": "medium",
+        "source": "manuscript",
+        "applies_to": "all",
+        "note": "Cannot determine biological replicate information from filenames alone without additional experimental context"
+      },
+      "Characteristics[NumberOfBiologicalReplicates]": {
+        "value": "Not Applicable",
+        "evidence": "No information about number of biological replicates found in the provided text",
+        "confidence": "medium",
+        "source": "manuscript",
+        "applies_to": "all"
+      },
+      "Characteristics[NumberOfTechnicalReplicates]": {
+        "value": "6",
+        "evidence": "6 raw files present: OTPf-IMACDDNL_2010Mar9-01.raw, OTPf-IMACDT2010Mar11-01.raw, OTPf-IMACDT2010Mar11-02.raw, OTPf-IMACDT2010Mar10-01.raw, OTPf-IMACDDNL_2010Mar9-02.raw, OTPf-IMACDDNL_2010Mar06-02.raw",
+        "confidence": "low",
+        "source": "inferred",
+        "applies_to": "all",
+        "note": "Inferred from total number of raw files, but cannot distinguish between technical and biological replicates without additional context"
+      },
+      "Characteristics[NumberOfSamples]": {
+        "value": "6",
+        "evidence": "6 raw files present in the dataset",
+        "confidence": "high",
+        "source": "filename",
+        "applies_to": "all"
+      }
+    }
+  }
+}

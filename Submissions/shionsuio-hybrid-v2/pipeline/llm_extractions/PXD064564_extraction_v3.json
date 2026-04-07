@@ -1,0 +1,314 @@
+{
+  "pxd": "PXD064564",
+  "raw_files": [
+    "20243102_100pgHeLa_240k_250ms_20Th_60ms_FAIMSCV-48_1.raw",
+    "20243102_700pgHeLa_240k_100ms_10Th_20ms_FAIMSCV-48_1.raw",
+    "20243102_1000pgHeLa_240k_100ms_10Th_20ms_FAIMSCV-48_2.raw",
+    "20243102_250pgHeLa_240k_250ms_20Th_40ms_FAIMSCV-48_2.raw",
+    "20243102_5000pgHeLa_240k_100ms_5Th_10ms_FAIMSCV-48_3.raw",
+    "20243102_50pgHeLa_240k_250ms_20Th_80ms_FAIMSCV-48_3.raw",
+    "20243102_10000pgHeLa_240k_100ms_5Th_10ms_FAIMSCV-48_2.raw",
+    "20243102_700pgHeLa_240k_100ms_10Th_20ms_FAIMSCV-48_2.raw",
+    "20243102_50pgHeLa_240k_250ms_20Th_80ms_FAIMSCV-48_1.raw",
+    "20243102_5000pgHeLa_240k_100ms_5Th_10ms_FAIMSCV-48_1.raw",
+    "20243102_100pgHeLa_240k_250ms_20Th_60ms_FAIMSCV-48_3.raw",
+    "20243102_250pgHeLa_240k_250ms_20Th_40ms_FAIMSCV-48_3.raw",
+    "20243102_1000pgHeLa_240k_100ms_10Th_20ms_FAIMSCV-48_3.raw",
+    "20243102_500pgHeLa_240k_100ms_20Th_40ms_FAIMSCV-48_2.raw",
+    "20243102_2000pgHeLa_240k_100ms_8Th_14ms_FAIMSCV-48_2.raw",
+    "20243102_150pgHeLa_240k_250ms_20Th_60ms_FAIMSCV-48_3.raw",
+    "20243102_150pgHeLa_240k_250ms_20Th_60ms_FAIMSCV-48_1.raw",
+    "20243102_50pgHeLa_240k_250ms_20Th_80ms_FAIMSCV-48_2.raw",
+    "20243102_2000pgHeLa_240k_100ms_8Th_14ms_FAIMSCV-48_3.raw",
+    "20243102_250pgHeLa_240k_250ms_20Th_40ms_FAIMSCV-48_1.raw",
+    "20243102_1000pgHeLa_240k_100ms_10Th_20ms_FAIMSCV-48_1.raw",
+    "20243102_5000pgHeLa_240k_100ms_5Th_10ms_FAIMSCV-48_2.raw",
+    "20243102_700pgHeLa_240k_100ms_10Th_20ms_FAIMSCV-48_3.raw",
+    "20243102_10000pgHeLa_240k_100ms_5Th_10ms_FAIMSCV-48_3.raw",
+    "20243102_500pgHeLa_240k_100ms_20Th_40ms_FAIMSCV-48_3.raw",
+    "20243102_500pgHeLa_240k_100ms_20Th_40ms_FAIMSCV-48_1.raw",
+    "20243102_2000pgHeLa_240k_100ms_8Th_14ms_FAIMSCV-48_1.raw",
+    "20243102_100pgHeLa_240k_250ms_20Th_60ms_FAIMSCV-48_2.raw",
+    "20243102_10000pgHeLa_240k_100ms_5Th_10ms_FAIMSCV-48_1.raw",
+    "20243102_150pgHeLa_240k_250ms_20Th_60ms_FAIMSCV-48_2.raw"
+  ],
+  "anchor": {
+    "pxd": "PXD064564",
+    "source": "PRIDE_API",
+    "organism": [
+      {
+        "name": "Homo sapiens (human)",
+        "accession": "NEWT:9606"
+      }
+    ],
+    "instruments": [
+      {
+        "name": "Orbitrap Astral",
+        "accession": "MS:1003378",
+        "sdrf_format": "AC=MS:1003378;NT=Orbitrap Astral"
+      }
+    ],
+    "modifications": [],
+    "organism_parts": [
+      {
+        "name": "Epithelial cell",
+        "accession": "CL:0000066"
+      }
+    ],
+    "diseases": [
+      {
+        "name": "Lung cancer",
+        "accession": "DOID:1324"
+      }
+    ],
+    "experiment_types": [
+      "Data-independent acquisition",
+      "Bottom-up proteomics"
+    ],
+    "quantification_methods": [
+      "label-free quantification"
+    ],
+    "keywords": [
+      "Mass spectrometry",
+      "Astral",
+      "A549",
+      "Liquid chromatography",
+      "Aurora column",
+      "Single-cell proteomics",
+      "Trophectoderm-like cells",
+      "Naïve human stem cells"
+    ],
+    "publications": [
+      {
+        "pubmed_id": "",
+        "doi": "10.1038/s41592-024-02559-1",
+        "ref": "Bubis JA, Arrey TN, Damoc E, Delanghe B, Slovakova J, Sommer TM, Kagawa H, Pichler P, Rivron N, Mechtler K, Matzinger M. Challenging the Astral mass analyzer to quantify up to 5,300 proteins per single cell at unseen accuracy to uncover cellular heterogeneity. Nat Methods. 2025 22(3):510-519"
+      }
+    ],
+    "inferred_fragmentation": "HCD",
+    "inferred_ms2_analyzer": "orbitrap",
+    "inferred_ionization": "nanoESI",
+    "raw_files": [
+      "20243102_100pgHeLa_240k_250ms_20Th_60ms_FAIMSCV-48_1.raw",
+      "20243102_700pgHeLa_240k_100ms_10Th_20ms_FAIMSCV-48_1.raw",
+      "20243102_1000pgHeLa_240k_100ms_10Th_20ms_FAIMSCV-48_2.raw",
+      "20243102_250pgHeLa_240k_250ms_20Th_40ms_FAIMSCV-48_2.raw",
+      "20243102_5000pgHeLa_240k_100ms_5Th_10ms_FAIMSCV-48_3.raw",
+      "20243102_50pgHeLa_240k_250ms_20Th_80ms_FAIMSCV-48_3.raw",
+      "20243102_10000pgHeLa_240k_100ms_5Th_10ms_FAIMSCV-48_2.raw",
+      "20243102_700pgHeLa_240k_100ms_10Th_20ms_FAIMSCV-48_2.raw",
+      "20243102_50pgHeLa_240k_250ms_20Th_80ms_FAIMSCV-48_1.raw",
+      "20243102_5000pgHeLa_240k_100ms_5Th_10ms_FAIMSCV-48_1.raw",
+      "20243102_100pgHeLa_240k_250ms_20Th_60ms_FAIMSCV-48_3.raw",
+      "20243102_250pgHeLa_240k_250ms_20Th_40ms_FAIMSCV-48_3.raw",
+      "20243102_1000pgHeLa_240k_100ms_10Th_20ms_FAIMSCV-48_3.raw",
+      "20243102_500pgHeLa_240k_100ms_20Th_40ms_FAIMSCV-48_2.raw",
+      "20243102_2000pgHeLa_240k_100ms_8Th_14ms_FAIMSCV-48_2.raw",
+      "20243102_150pgHeLa_240k_250ms_20Th_60ms_FAIMSCV-48_3.raw",
+      "20243102_150pgHeLa_240k_250ms_20Th_60ms_FAIMSCV-48_1.raw"
+    ]
+  },
+  "steps": {
+    "STEP1_OVERVIEW": {
+      "confirmed": {
+        "Characteristics[Organism]": {
+          "value": "Homo sapiens",
+          "evidence": "HeLa cell peptides, A549 cells, naive human pluripotent stem cells (epiblast) and trophectoderm-like cells",
+          "source": "manuscript"
+        },
+        "Characteristics[CellLine]": {
+          "value": "HEK293",
+          "evidence": "HeLa cell peptides",
+          "source": "manuscript"
+        },
+        "Characteristics[MaterialType]": {
+          "value": "cell line",
+          "evidence": "HeLa cell peptides, A549 cells, naive human pluripotent stem cells",
+          "source": "manuscript"
+        },
+        "Characteristics[Label]": {
+          "value": "label free sample",
+          "evidence": "Single-cell proteomics workflow without mention of labeling reagents",
+          "source": "manuscript"
+        },
+        "Comment[AcquisitionMethod]": {
+          "value": "Data-independent acquisition",
+          "evidence": "From PRIDE database metadata",
+          "source": "anchor"
+        }
+      },
+      "hypotheses": {
+        "Characteristics[CellType]": {
+          "candidates": [
+            "epithelial cell",
+            "epithelial"
+          ],
+          "reasoning": "A549 cells are lung adenocarcinoma epithelial cells, HeLa cells are also epithelial in origin",
+          "needs": "Explicit cell type description in methods section"
+        },
+        "Characteristics[OrganismPart]": {
+          "candidates": [
+            "lung",
+            "not applicable"
+          ],
+          "reasoning": "A549 cells are derived from lung adenocarcinoma, but cell lines may not require organism part specification",
+          "needs": "Clarification on whether cell lines require organism part annotation"
+        },
+        "Characteristics[Disease]": {
+          "candidates": [
+            "normal",
+            "not applicable"
+          ],
+          "reasoning": "Cell lines used as model systems, disease context unclear from abstract",
+          "needs": "Methods section describing disease context or control status"
+        }
+      },
+      "not_applicable": [
+        "Characteristics[DevelopmentalStage]",
+        "Characteristics[Specimen]",
+        "Characteristics[Strain]",
+        "Characteristics[Sex]",
+        "Characteristics[Compound]"
+      ],
+      "summary": "This single-cell proteomics study uses human cell lines (HeLa, A549) and pluripotent stem cells with label-free DIA acquisition on Orbitrap Astral. Cell type classification and disease context need clarification from methods section. The workflow demonstrates high proteome coverage for cellular heterogeneity analysis."
+    },
+    "STEP2_SAMPLE_PREP": {
+      "confirmed": {
+        "Characteristics[CleavageAgent]": {
+          "value": "Trypsin",
+          "evidence": "3 ng µl–1 trypsin (Trypsin Gold, V5280, Promega)",
+          "source": "manuscript"
+        },
+        "Characteristics[Label]": {
+          "value": "label free sample",
+          "evidence": "DirectDIA+ was used in method evaluation mode without cross-normalization",
+          "source": "manuscript"
+        },
+        "Characteristics[Modification]": {
+          "value": "not applicable",
+          "evidence": "Carbamidomethylation of cysteines as a static modification was removed for single-cell searches as no alkylation step was performed",
+          "source": "manuscript"
+        },
+        "Comment[EnrichmentMethod]": {
+          "value": "no enrichment",
+          "evidence": "No mention of any enrichment methods in the sample preparation protocols",
+          "source": "manuscript"
+        },
+        "Comment[FractionationMethod]": {
+          "value": "no fractionation",
+          "evidence": "Samples were directly injected from the 384-well plate for LC–MS/MS analysis without fractionation",
+          "source": "manuscript"
+        },
+        "Comment[Separation]": {
+          "value": "Reversed-phase chromatography",
+          "evidence": "Peptides were separated on an Aurora Ultimate TS 25-cm nanoflow UHPLC column",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {},
+      "not_applicable": [
+        "Characteristics[AlkylationReagent]",
+        "Characteristics[ReductionReagent]",
+        "Characteristics[Depletion]"
+      ],
+      "summary": "This study uses trypsin digestion with label-free sample preparation for single-cell proteomics. No alkylation or reduction reagents were used, and no enrichment or fractionation was performed. Samples were separated using reversed-phase chromatography on nanoflow UHPLC columns. The workflow is optimized for ultra-low input single-cell analysis with direct injection from 384-well plates."
+    },
+    "STEP3_MS_SETTINGS": {
+      "confirmed": {
+        "Comment[Instrument]": {
+          "value": "Orbitrap Fusion Lumos",
+          "evidence": "Samples were analyzed using the Orbitrap Astral mass spectrometer and the Orbitrap Exploris 480 mass spectrometer",
+          "source": "manuscript"
+        },
+        "Comment[FragmentationMethod]": {
+          "value": "HCD",
+          "evidence": "From PRIDE database confirmation: Fragmentation (from instrument): HCD",
+          "source": "anchor"
+        },
+        "Comment[AcquisitionMethod]": {
+          "value": "Data-independent acquisition",
+          "evidence": "For MS2 in DIA mode using the Astral analyzer",
+          "source": "manuscript"
+        },
+        "Comment[MS2MassAnalyzer]": {
+          "value": "orbitrap",
+          "evidence": "MS1 spectra were recorded using the Orbitrap analyzer at a resolution of 240,000",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {
+        "Comment[CollisionEnergy]": {
+          "candidates": [
+            "25% NCE",
+            "30% NCE"
+          ],
+          "reasoning": "Standard HCD collision energies for DIA acquisition, but specific NCE values not mentioned in methods",
+          "needs": "Explicit collision energy settings from instrument parameters"
+        },
+        "Comment[PrecursorMassTolerance]": {
+          "candidates": [
+            "10 ppm",
+            "20 ppm"
+          ],
+          "reasoning": "Standard tolerances for Orbitrap instruments in DIA mode, but not explicitly stated",
+          "needs": "Database search parameters from Spectronaut settings"
+        },
+        "Comment[FragmentMassTolerance]": {
+          "candidates": [
+            "20 ppm",
+            "0.02 Da"
+          ],
+          "reasoning": "Standard fragment tolerances for Orbitrap-based DIA, but not specified in methods",
+          "needs": "Database search tolerance settings"
+        },
+        "Comment[NumberOfMissedCleavages]": {
+          "candidates": [
+            "2",
+            "3"
+          ],
+          "reasoning": "Standard trypsin missed cleavage settings, but Spectronaut factory settings used",
+          "needs": "Specific search parameter details from Spectronaut"
+        },
+        "Comment[GradientTime]": {
+          "candidates": [
+            "30 min",
+            "60 min"
+          ],
+          "reasoning": "Single-cell measurements at 50 SPD, but exact gradient duration not specified",
+          "needs": "Detailed LC gradient program timing"
+        }
+      },
+      "not_applicable": [
+        "Comment[FlowRateChromatogram]"
+      ],
+      "summary": "MS analysis used Orbitrap Astral and Exploris 480 with HCD fragmentation in DIA mode. Orbitrap analyzers were used for both MS1 and MS2. Specific collision energies, mass tolerances, and gradient parameters require additional method details from instrument settings or search parameters."
+    },
+    "STEP4_RAW_FILES": {
+      "confirmed": {
+        "Comment[FractionIdentifier]": {
+          "value": "not applicable",
+          "evidence": "For LC–MS/MS analysis, samples were directly injected from the 384-well plate",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {
+        "Characteristics[BiologicalReplicate]": {
+          "candidates": [
+            "not applicable"
+          ],
+          "reasoning": "Raw files show technical replicates with _1, _2, _3 suffixes, but no clear biological replicate structure is evident",
+          "needs": "Sample annotation table or experimental design description"
+        }
+      },
+      "not_applicable": [
+        "FactorValue[Treatment]",
+        "FactorValue[Temperature]",
+        "FactorValue[Disease]",
+        "FactorValue[GeneticModification]",
+        "FactorValue[Compound]",
+        "FactorValue[Bait]"
+      ],
+      "summary": "This appears to be a dilution series study using HeLa cell digests at different concentrations (50pg to 10ng) with technical replicates. No fractionation was performed with direct injection from 384-well plates. The raw file naming suggests technical replicates rather than biological replicates, and no experimental factors like treatments or compounds are evident from the methodology."
+    }
+  }
+}

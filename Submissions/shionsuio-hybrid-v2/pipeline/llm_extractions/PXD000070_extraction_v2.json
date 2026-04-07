@@ -1,0 +1,319 @@
+{
+  "pxd": "PXD000070",
+  "raw_files": [
+    "OTPf-IMACDDNL_2010Mar9-01.raw",
+    "OTPf-IMACDT2010Mar11-01.raw",
+    "OTPf-IMACDT2010Mar11-02.raw",
+    "OTPf-IMACDT2010Mar10-01.raw",
+    "OTPf-IMACDDNL_2010Mar9-02.raw",
+    "OTPf-IMACDDNL_2010Mar06-02.raw"
+  ],
+  "anchor": {
+    "pxd": "PXD000070",
+    "source": "PRIDE_API",
+    "organism": [
+      {
+        "name": "Plasmodium falciparum (isolate 3d7)",
+        "accession": "NEWT:36329"
+      }
+    ],
+    "instruments": [
+      {
+        "name": "LTQ Orbitrap Velos",
+        "accession": "MS:1001742",
+        "sdrf_format": "AC=MS:1001742;NT=LTQ Orbitrap Velos"
+      }
+    ],
+    "modifications": [],
+    "organism_parts": [],
+    "diseases": [],
+    "experiment_types": [
+      "Bottom-up proteomics"
+    ],
+    "quantification_methods": [],
+    "keywords": [
+      "Plasmodium falciparum",
+      "Cid",
+      "Phosphoproteome",
+      "Etd"
+    ],
+    "publications": [
+      {
+        "pubmed_id": "",
+        "doi": "10.1016/j.jprot.2014.03.010",
+        "ref": "Collins MO, Wright JC, Jones M, Rayner JC, Choudhary JS. Confident and sensitive phosphoproteomics using combinations of collision induced dissociation and electron transfer dissociation. J Proteomics. 2014 Mar 21;103C:1-14"
+      }
+    ],
+    "inferred_fragmentation": null,
+    "inferred_ms2_analyzer": "orbitrap",
+    "inferred_ionization": "nanoESI",
+    "raw_files": [
+      "OTPf-IMACDDNL_2010Mar9-01.raw",
+      "OTPf-IMACDT2010Mar11-01.raw",
+      "OTPf-IMACDT2010Mar11-02.raw",
+      "OTPf-IMACDT2010Mar10-01.raw",
+      "OTPf-IMACDDNL_2010Mar9-02.raw",
+      "OTPf-IMACDDNL_2010Mar06-02.raw"
+    ]
+  },
+  "steps": {
+    "STEP1_OVERVIEW": {
+      "confirmed": {
+        "Characteristics[Organism]": {
+          "value": "Plasmodium falciparum",
+          "evidence": "We analysed the Plasmodium falciparum schizont phosphoproteome",
+          "source": "manuscript"
+        },
+        "Characteristics[DevelopmentalStage]": {
+          "value": "schizont",
+          "evidence": "We analysed the Plasmodium falciparum schizont phosphoproteome",
+          "source": "manuscript"
+        },
+        "Characteristics[Label]": {
+          "value": "label-free",
+          "evidence": "No mention of TMT, iTRAQ, or SILAC labeling methods in the text, and the focus is on fragmentation methods (CID/ETD) rather than chemical labeling",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {
+        "Characteristics[Strain]": {
+          "candidates": [
+            "3d7"
+          ],
+          "reasoning": "PRIDE database indicates isolate 3d7, but this specific strain is not mentioned in the manuscript text",
+          "needs": "Methods section confirmation of the specific P. falciparum strain used"
+        },
+        "Characteristics[MaterialType]": {
+          "candidates": [
+            "protein extract",
+            "whole cell lysate"
+          ],
+          "reasoning": "Phosphoproteomics study requires protein extraction, but specific sample preparation not detailed in abstract",
+          "needs": "Sample preparation methodology from materials and methods"
+        }
+      },
+      "not_applicable": [
+        "Characteristics[OrganismPart]",
+        "Characteristics[CellType]",
+        "Characteristics[CellLine]",
+        "Characteristics[Disease]",
+        "Characteristics[Specimen]",
+        "Characteristics[GeneticModification]",
+        "Characteristics[Treatment]",
+        "Characteristics[Compound]",
+        "Characteristics[ConcentrationOfCompound]",
+        "Comment[AcquisitionMethod]"
+      ],
+      "summary": "This is a phosphoproteomics study of Plasmodium falciparum schizont stage parasites using label-free quantification. The experiment focuses on comparing CID and ETD fragmentation methods with data-dependent neutral loss triggered ETD strategy. The specific strain (3d7 from PRIDE) and detailed sample preparation methods need confirmation from the full methods section."
+    },
+    "STEP2_SAMPLE_PREP": {
+      "confirmed": {
+        "Characteristics[CleavageAgent]": {
+          "value": "trypsin",
+          "evidence": "proteins were digested with Trypsin Gold (Promega) for 4 h at 37 °C at an enzyme substrate ratio of 1:20",
+          "source": "manuscript"
+        },
+        "Characteristics[AlkylationReagent]": {
+          "value": "iodoacetamide",
+          "evidence": "cysteine alkylation was performed in situ with iodoacetamide",
+          "source": "manuscript"
+        },
+        "Characteristics[ReductionReagent]": {
+          "value": "DTT",
+          "evidence": "extraction buffer (4% SDS, 0.1 M DTT, 0.1 M Tris pH 8, 0.5 mM PMSF, 2 μg/ml Aprotinin/Leupeptin, 20 μM ZnCl and 25 mM Sodium fluoride)",
+          "source": "manuscript"
+        },
+        "Characteristics[Label]": {
+          "value": "label-free",
+          "evidence": "No labeling reagents mentioned in the protocol, consistent with previous confirmation",
+          "source": "manuscript"
+        },
+        "Characteristics[Modification]": {
+          "value": "Phospho (ST)",
+          "evidence": "with Acetyl (Protein N-term), Oxidation (M), Deamidated (NQ), Carbamidomethyl (C) and Phospho (ST) set as variable modifications",
+          "source": "manuscript"
+        },
+        "Characteristics[Modification].1": {
+          "value": "Acetyl (Protein N-term)",
+          "evidence": "with Acetyl (Protein N-term), Oxidation (M), Deamidated (NQ), Carbamidomethyl (C) and Phospho (ST) set as variable modifications",
+          "source": "manuscript"
+        },
+        "Characteristics[Modification].2": {
+          "value": "Oxidation (M)",
+          "evidence": "with Acetyl (Protein N-term), Oxidation (M), Deamidated (NQ), Carbamidomethyl (C) and Phospho (ST) set as variable modifications",
+          "source": "manuscript"
+        },
+        "Characteristics[Modification].3": {
+          "value": "Deamidated (NQ)",
+          "evidence": "with Acetyl (Protein N-term), Oxidation (M), Deamidated (NQ), Carbamidomethyl (C) and Phospho (ST) set as variable modifications",
+          "source": "manuscript"
+        },
+        "Characteristics[Modification].4": {
+          "value": "Carbamidomethyl (C)",
+          "evidence": "with Acetyl (Protein N-term), Oxidation (M), Deamidated (NQ), Carbamidomethyl (C) and Phospho (ST) set as variable modifications",
+          "source": "manuscript"
+        },
+        "Comment[EnrichmentMethod]": {
+          "value": "IMAC",
+          "evidence": "IMAC purifications were performed as described, with the following modifications. Peptides were re-suspended in IMAC loading buffer (50% acetonitrile, 0.1% TFA) and incubated with pre-equilibrated Phos-Select beads (Sigma)",
+          "source": "manuscript"
+        },
+        "Comment[FractionationMethod]": {
+          "value": "IMAC phosphopeptide enrichment",
+          "evidence": "Phosphopeptides from two IMAC purifications were pooled and split into 6 aliquots for LC–MS/MS analysis",
+          "source": "manuscript"
+        },
+        "Comment[NumberOfFractions]": {
+          "value": "6",
+          "evidence": "Phosphopeptides from two IMAC purifications were pooled and split into 6 aliquots for LC–MS/MS analysis",
+          "source": "manuscript"
+        },
+        "Comment[Separation]": {
+          "value": "reverse phase chromatography",
+          "evidence": "then separated using a 320 min RP gradient (4–30% acetonitrile/0.1% formic acid) on an Acclaim PepMap100 C18 analytical column",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {
+        "Characteristics[Modification].5": {
+          "candidates": [
+            "Phospho (Y)"
+          ],
+          "reasoning": "CID and ETD spectra from DT experiments and CID spectra from DDNL experiments were also searched with the addition of Phospho Y to identify putative tyrosine phosphorylation sites",
+          "needs": "Confirmation whether Phospho Y was used as a standard modification or only for specific searches"
+        }
+      },
+      "not_applicable": [
+        "Characteristics[Modification].6",
+        "Characteristics[Depletion]",
+        "Characteristics[SpikedCompound]",
+        "Characteristics[SyntheticPeptide]"
+      ],
+      "summary": "Sample preparation details are now fully characterized: trypsin digestion with DTT reduction and iodoacetamide alkylation using FASP protocol. Five variable modifications confirmed (Phospho ST, Acetyl N-term, Oxidation M, Deamidated NQ, Carbamidomethyl C). IMAC phosphopeptide enrichment with 6 fractions per sample, analyzed by reverse phase LC-MS/MS. Tyrosine phosphorylation searches were performed but unclear if Phospho Y should be listed as standard modification."
+    },
+    "STEP3_MS_SETTINGS": {
+      "confirmed": {
+        "Comment[Instrument]": {
+          "value": "LTQ Orbitrap Velos",
+          "evidence": "coupled to an LTQ Orbitrap Velos hybrid mass spectrometer (Thermo Scientific)",
+          "source": "manuscript"
+        },
+        "Comment[FragmentationMethod]": {
+          "value": "CID; ETD",
+          "evidence": "top 10 most abundant multiply-charged (2 + and higher) ions in a given chromatographic window subjected to either CID or ETD fragmentation in the linear ion trap with supplemental activation enabled",
+          "source": "manuscript"
+        },
+        "Comment[AcquisitionMethod]": {
+          "value": "data dependent acquisition",
+          "evidence": "The mass spectrometer was operated in standard data dependent acquisition mode controlled by Xcalibur 2.1",
+          "source": "manuscript"
+        },
+        "Comment[IonizationType]": {
+          "value": "nanospray",
+          "evidence": "equipped with a nanospray ion source",
+          "source": "manuscript"
+        },
+        "Comment[MS2MassAnalyzer]": {
+          "value": "linear ion trap",
+          "evidence": "subjected to either CID or ETD fragmentation in the linear ion trap",
+          "source": "manuscript"
+        },
+        "Comment[PrecursorMassTolerance]": {
+          "value": "10 ppm",
+          "evidence": "10 ppm for MS mass tolerance",
+          "source": "manuscript"
+        },
+        "Comment[FragmentMassTolerance]": {
+          "value": "0.5 Da",
+          "evidence": "0.5 Da for MS/MS mass tolerance",
+          "source": "manuscript"
+        },
+        "Comment[NumberOfMissedCleavages]": {
+          "value": "3",
+          "evidence": "trypsin with a maximum of 3 missed cleavages",
+          "source": "manuscript"
+        },
+        "Comment[GradientTime]": {
+          "value": "320 min",
+          "evidence": "separated using a 320 min RP gradient (4–30% acetonitrile/0.1% formic acid)",
+          "source": "manuscript"
+        },
+        "Comment[FlowRateChromatogram]": {
+          "value": "0.3 μl/min",
+          "evidence": "with a flow rate of 0.3 μl/min",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {},
+      "not_applicable": [
+        "Comment[CollisionEnergy]"
+      ],
+      "summary": "All major LC-MS/MS parameters have been successfully extracted and confirmed. The LTQ Orbitrap Velos used data-dependent acquisition with both CID and ETD fragmentation methods. Key parameters include 10 ppm precursor tolerance, 0.5 Da fragment tolerance, 320 min gradient at 0.3 μl/min flow rate, and maximum 3 missed cleavages for trypsin. Collision energy was not specified in the methods. All instrumentation and acquisition parameters are now fully characterized for SDRF completion."
+    },
+    "STEP4_RAW_FILES": {
+      "confirmed": {
+        "Characteristics[NumberOfBiologicalReplicates]": {
+          "value": "3",
+          "evidence": "Triplicate DT experiments were performed... Triplicate DDNL experiments were performed... triplicate experiments using CID fragmentation and triplicate DT experiments",
+          "source": "manuscript"
+        },
+        "Characteristics[NumberOfTechnicalReplicates]": {
+          "value": "1",
+          "evidence": "All experiments described as 'triplicate' refer to biological replicates with no mention of technical replicates",
+          "source": "manuscript"
+        },
+        "Comment[FractionIdentifier]": {
+          "value": "per_file",
+          "per_file": {
+            "OTPf-IMACDDNL_2010Mar9-01.raw": "1",
+            "OTPf-IMACDDNL_2010Mar9-02.raw": "2",
+            "OTPf-IMACDDNL_2010Mar06-02.raw": "2",
+            "OTPf-IMACDT2010Mar10-01.raw": "1",
+            "OTPf-IMACDT2010Mar11-01.raw": "1",
+            "OTPf-IMACDT2010Mar11-02.raw": "2"
+          },
+          "evidence": "Raw file names contain clear tokens: -01 and -02 indicating fraction numbers. DDNL and DT refer to different acquisition methods (data-dependent neutral loss vs dual fragmentation)",
+          "source": "filename"
+        },
+        "FactorValue[FractionIdentifier]": {
+          "value": "per_file",
+          "per_file": {
+            "OTPf-IMACDDNL_2010Mar9-01.raw": "DDNL_1",
+            "OTPf-IMACDDNL_2010Mar9-02.raw": "DDNL_2",
+            "OTPf-IMACDDNL_2010Mar06-02.raw": "DDNL_2",
+            "OTPf-IMACDT2010Mar10-01.raw": "DT_1",
+            "OTPf-IMACDT2010Mar11-01.raw": "DT_1",
+            "OTPf-IMACDT2010Mar11-02.raw": "DT_2"
+          },
+          "evidence": "File names clearly indicate two experimental approaches: IMACDDNL (data-dependent neutral loss) and IMACDT (dual fragmentation), with fraction numbers -01 and -02",
+          "source": "filename"
+        },
+        "Characteristics[NumberOfSamples]": {
+          "value": "6",
+          "evidence": "Six raw files provided, representing different fractions and acquisition methods from triplicate experiments",
+          "source": "filename"
+        }
+      },
+      "hypotheses": {
+        "Characteristics[BiologicalReplicate]": {
+          "candidates": [
+            "per_file assignment based on dates"
+          ],
+          "reasoning": "Files have different dates (Mar06, Mar09, Mar10, Mar11) suggesting different biological replicates, but cannot definitively assign replicate numbers without clearer naming convention",
+          "needs": "More explicit replicate numbering in filenames or additional metadata"
+        }
+      },
+      "not_applicable": [
+        "FactorValue[Treatment]",
+        "FactorValue[Temperature]",
+        "FactorValue[Disease]",
+        "FactorValue[GeneticModification]",
+        "FactorValue[Compound]",
+        "FactorValue[Bait]",
+        "FactorValue[CellPart]",
+        "FactorValue[ConcentrationOfCompound].1"
+      ],
+      "summary": "Successfully identified experimental design with 3 biological replicates and 1 technical replicate per sample. Raw file analysis reveals 6 samples representing two acquisition methods (DDNL and DT) with clear fraction identifiers (-01, -02). The study compares data-dependent neutral loss and dual fragmentation approaches across multiple fractions from IMAC-enriched phosphopeptides. Biological replicate assignment remains unclear due to ambiguous date-based naming rather than explicit replicate numbering."
+    }
+  }
+}

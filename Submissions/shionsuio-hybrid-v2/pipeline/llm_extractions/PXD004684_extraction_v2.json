@@ -1,0 +1,371 @@
+{
+  "pxd": "PXD004684",
+  "raw_files": [
+    "N295-1.raw",
+    "N295-2.raw",
+    "T303-2.raw",
+    "T298-1.raw",
+    "N299-1.raw",
+    "T298-2.raw",
+    "N296-2.raw",
+    "T303-1.raw",
+    "N294-2.raw",
+    "N299-2.raw",
+    "T300-2.raw",
+    "T301-2.raw",
+    "T301-1.raw",
+    "N294-1.raw",
+    "T300-1.raw",
+    "N296-1.raw"
+  ],
+  "anchor": {
+    "pxd": "PXD004684",
+    "source": "PRIDE_API",
+    "organism": [
+      {
+        "name": "Homo sapiens (human)",
+        "accession": "NEWT:9606"
+      }
+    ],
+    "instruments": [
+      {
+        "name": "Q Exactive",
+        "accession": "MS:1001911",
+        "sdrf_format": "AC=MS:1001911;NT=Q Exactive"
+      }
+    ],
+    "modifications": [],
+    "organism_parts": [
+      {
+        "name": "Epithelial cell",
+        "accession": "CL:0000066"
+      },
+      {
+        "name": "Lung",
+        "accession": "BTO:0000763"
+      }
+    ],
+    "diseases": [
+      {
+        "name": "Lung cancer",
+        "accession": "DOID:1324"
+      }
+    ],
+    "experiment_types": [
+      "SWATH MS"
+    ],
+    "quantification_methods": [
+      "TIC"
+    ],
+    "keywords": [
+      "Human",
+      "Brplc fractionation",
+      "Discovery proteomics",
+      "Lung cancer",
+      "Lc-ms/ms"
+    ],
+    "publications": [
+      {
+        "pubmed_id": "",
+        "doi": "10.1002/pmic.201600300",
+        "ref": "Stewart PA, Fang B, Slebos RJ, Zhang G, Borne AL, Fellows K, Teer JK, Chen YA, Welsh E, Eschrich SA, Haura EB, Koomen JM. Relative protein quantification and accessible biology in lung tumor proteomes from four LC-MS/MS discovery platforms. Proteomics. 2017 Feb 14"
+      }
+    ],
+    "inferred_fragmentation": "HCD",
+    "inferred_ms2_analyzer": "orbitrap",
+    "inferred_ionization": "nanoESI",
+    "raw_files": [
+      "N295-1.raw",
+      "N295-2.raw",
+      "T303-2.raw",
+      "T298-1.raw",
+      "N299-1.raw",
+      "T298-2.raw",
+      "N296-2.raw",
+      "T303-1.raw",
+      "N294-2.raw",
+      "N299-2.raw",
+      "T300-2.raw",
+      "T301-2.raw",
+      "T301-1.raw",
+      "N294-1.raw",
+      "T300-1.raw",
+      "N296-1.raw"
+    ]
+  },
+  "steps": {
+    "STEP1_OVERVIEW": {
+      "confirmed": {
+        "Characteristics[Organism]": {
+          "value": "Homo sapiens",
+          "evidence": "lung squamous cell carcinomas and adjacent tissues",
+          "source": "manuscript"
+        },
+        "Characteristics[OrganismPart]": {
+          "value": "lung",
+          "evidence": "lung squamous cell carcinomas and adjacent tissues",
+          "source": "manuscript"
+        },
+        "Characteristics[Disease]": {
+          "value": "squamous cell carcinoma",
+          "evidence": "4 frozen lung squamous cell carcinomas",
+          "source": "manuscript"
+        },
+        "Characteristics[MaterialType]": {
+          "value": "tissue",
+          "evidence": "4 frozen lung squamous cell carcinomas and 4 adjacent tissues",
+          "source": "manuscript"
+        },
+        "Characteristics[Label]": {
+          "value": "TMT 6-plex; label-free",
+          "evidence": "isobaric labeling followed by peptide fractionation (TMT 6-plex)... label-free quantification (LF)",
+          "source": "manuscript"
+        },
+        "Comment[AcquisitionMethod]": {
+          "value": "data dependent acquisition (DDA); data independent acquisition (DIA)",
+          "evidence": "single sample liquid chromatography-tandem mass spectrometry (LC-MS/MS) with data dependent acquisition (DDA) to single sample LC-MS/MS with data independent acquisition (DIA)",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {
+        "Characteristics[Specimen]": {
+          "candidates": [
+            "frozen tissue",
+            "primary tissue"
+          ],
+          "reasoning": "論文では'frozen lung squamous cell carcinomas'と記載されており、frozen tissueが適切な可能性が高い",
+          "needs": "標本の保存状態や処理方法の詳細情報"
+        }
+      },
+      "not_applicable": [
+        "Characteristics[CellType]",
+        "Characteristics[CellLine]",
+        "Characteristics[Strain]",
+        "Characteristics[GeneticModification]",
+        "Characteristics[Treatment]",
+        "Characteristics[DevelopmentalStage]",
+        "Characteristics[Compound]",
+        "Characteristics[ConcentrationOfCompound]"
+      ],
+      "summary": "ヒト肺扁平上皮癌組織と隣接正常組織を用いたプロテオミクス実験。4つのLC-MS/MS戦略（DDA、DIA、TMT 6-plex、label-free）を比較。冷凍組織サンプルを使用し、DDAとDIAによるデータ取得方法、TMTとlabel-freeによる定量法を検討。細胞株は使用されておらず、primary tissueベースの研究。"
+    },
+    "STEP2_SAMPLE_PREP": {
+      "confirmed": {
+        "Characteristics[CleavageAgent]": {
+          "value": "trypsin",
+          "evidence": "trypsin digestion was carried out overnight at 37 °C with an enzyme/substrate ratio of 1/50",
+          "source": "manuscript"
+        },
+        "Characteristics[AlkylationReagent]": {
+          "value": "iodoacetamide",
+          "evidence": "followed by alkylation with 11 mM iodoacetamide at room temperature for 15 minutes in the dark",
+          "source": "manuscript"
+        },
+        "Characteristics[ReductionReagent]": {
+          "value": "DTT",
+          "evidence": "The proteins were reduced with 4.5 mM DTT at 60 °C for 20 minutes",
+          "source": "manuscript"
+        },
+        "Characteristics[Label]": {
+          "value": "TMT 6-plex; label-free",
+          "evidence": "For TMT, an aliquot (100 µg) of total protein digest was labeled for each reporter ion channel",
+          "source": "manuscript"
+        },
+        "Characteristics[Modification]": {
+          "value": "Carbamidomethyl",
+          "evidence": "carbamidomethylation (cysteine), oxidation (methionine), and pyroglutamic acid (glutamic acid) as allowable modifications",
+          "source": "manuscript"
+        },
+        "Characteristics[Modification].1": {
+          "value": "Oxidation",
+          "evidence": "carbamidomethylation (cysteine), oxidation (methionine), and pyroglutamic acid (glutamic acid) as allowable modifications",
+          "source": "manuscript"
+        },
+        "Characteristics[Modification].2": {
+          "value": "Pyroglutamic acid",
+          "evidence": "carbamidomethylation (cysteine), oxidation (methionine), and pyroglutamic acid (glutamic acid) as allowable modifications",
+          "source": "manuscript"
+        },
+        "Characteristics[SpikedCompound]": {
+          "value": "PRTC",
+          "evidence": "A standard peptide retention time calibrator mixture (PRTC, Pierce #88320) was spiked in each LC-MS/MS analysis",
+          "source": "manuscript"
+        },
+        "Comment[FractionationMethod]": {
+          "value": "basic pH reversed phase HPLC",
+          "evidence": "an aliquot (600 µg) of total protein digest was fractionated using basic pH reversed phase HPLC",
+          "source": "manuscript"
+        },
+        "Comment[NumberOfFractions]": {
+          "value": "12",
+          "evidence": "Twelve concatenated fractions were analyzed with LC-MS/MS for the LF and TMT experiments",
+          "source": "manuscript"
+        },
+        "Comment[Separation]": {
+          "value": "C18 reversed phase",
+          "evidence": "The trapped peptides were eluted onto the analytical column, (C18, 75 µm ID×50 cm, 2 µm, 100Å, Dionex, Sunnyvale, CA)",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {},
+      "not_applicable": [
+        "Characteristics[Modification].3",
+        "Characteristics[Modification].4",
+        "Characteristics[Modification].5",
+        "Characteristics[Modification].6",
+        "Characteristics[Depletion",
+        "Characteristics[SyntheticPeptide]",
+        "Comment[EnrichmentMethod]"
+      ],
+      "summary": "サンプル調製の詳細が明確に特定された。trypsin消化、DTT還元、iodoacetamide alkylation、TMT 6-plexおよびlabel-free標識を使用。修飾はCarbamidomethyl、Oxidation、Pyroglutamic acidを設定。basic pH reversed phase HPLCで12分画に分離し、C18逆相クロマトグラフィーで分析。PRTCペプチドを品質管理用にスパイクイン。"
+    },
+    "STEP3_MS_SETTINGS": {
+      "confirmed": {
+        "Comment[Instrument]": {
+          "value": "Q Exactive Plus",
+          "evidence": "A nanoflow ultra high performance liquid chromatograph (RSLC, Dionex, Sunnyvale, CA) interfaced with an electrospray quadrupole-orbital ion trap mass spectrometer (QExactive Plus, Thermo, San Jose, CA) was used for tandem mass spectrometry peptide sequencing experiments.",
+          "source": "manuscript"
+        },
+        "Comment[FragmentationMethod]": {
+          "value": "HCD",
+          "evidence": "normalized collision energy set to 28 (DDA), normalized collision energy value was set to 30 (TMT)",
+          "source": "anchor"
+        },
+        "Comment[AcquisitionMethod]": {
+          "value": "data dependent acquisition (DDA); data independent acquisition (DIA)",
+          "evidence": "DDA LC-MS/MS Analysis... DIA Analysis of Label-Free Unfractionated Samples",
+          "source": "manuscript"
+        },
+        "Comment[IonizationType]": {
+          "value": "nanoESI",
+          "evidence": "electrospray quadrupole-orbital ion trap mass spectrometer",
+          "source": "manuscript"
+        },
+        "Comment[MS2MassAnalyzer]": {
+          "value": "orbitrap",
+          "evidence": "electrospray quadrupole-orbital ion trap mass spectrometer (QExactive Plus)",
+          "source": "manuscript"
+        },
+        "Comment[CollisionEnergy]": {
+          "value": "28 (DDA); 30 (TMT)",
+          "evidence": "normalized collision energy set to 28... normalized collision energy value was set to 30",
+          "source": "manuscript"
+        },
+        "Comment[PrecursorMassTolerance]": {
+          "value": "10 ppm",
+          "evidence": "precursor mass tolerance was set to 10 ppm",
+          "source": "manuscript"
+        },
+        "Comment[FragmentMassTolerance]": {
+          "value": "0.05 Da",
+          "evidence": "MS/MS mass tolerance was 0.05 Da",
+          "source": "manuscript"
+        },
+        "Comment[NumberOfMissedCleavages]": {
+          "value": "2",
+          "evidence": "Two missed tryptic cleavages were allowed",
+          "source": "manuscript"
+        },
+        "Comment[GradientTime]": {
+          "value": "90 minutes",
+          "evidence": "The 90-minute gradient was programmed as: 95% solvent A (aqueous 2% acetonitrile + 0.1% formic acid) for 8 minutes...",
+          "source": "manuscript"
+        },
+        "Comment[FlowRateChromatogram]": {
+          "value": "300 nl/min",
+          "evidence": "The flow rate on analytical column was 300 nl/min",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {},
+      "not_applicable": [],
+      "summary": "質量分析装置と設定パラメータが完全に特定された。Q Exactive Plus装置を使用し、DDAおよびDIA取得方法でHCD断片化を実施。nanoESIイオン化、orbitrap MS2分析器を使用。衝突エネルギーはDDAで28、TMTで30に設定。前駆体質量許容誤差10 ppm、フラグメント質量許容誤差0.05 Da、最大見逃し切断数2、90分間グラデーション、300 nl/minの流速で分析を実施。"
+    },
+    "STEP4_RAW_FILES": {
+      "confirmed": {
+        "Characteristics[BiologicalReplicate]": {
+          "value": "per_file",
+          "per_file": {
+            "N294-1.raw": "1",
+            "N294-2.raw": "1",
+            "N295-1.raw": "2",
+            "N295-2.raw": "2",
+            "N296-1.raw": "3",
+            "N296-2.raw": "3",
+            "N299-1.raw": "4",
+            "N299-2.raw": "4",
+            "T298-1.raw": "5",
+            "T298-2.raw": "5",
+            "T300-1.raw": "6",
+            "T300-2.raw": "6",
+            "T301-1.raw": "7",
+            "T301-2.raw": "7",
+            "T303-1.raw": "8",
+            "T303-2.raw": "8"
+          },
+          "evidence": "Six of the eight clinical samples are paired sets of tumor and adjacent lung tissues from the same patients. ファイル名のN/T+数字パターンから、N294-N299が隣接正常組織、T298-T303が腫瘍組織を表し、同じ数字が同じ患者（生物学的レプリケート）を示す",
+          "source": "manuscript"
+        },
+        "Characteristics[NumberOfBiologicalReplicates]": {
+          "value": "8",
+          "evidence": "Six of the eight clinical samples are paired sets of tumor and adjacent lung tissues from the same patients, and the unpaired samples are designated as patients 4 and 5 or P4/5. 8つの臨床サンプルが使用された",
+          "source": "manuscript"
+        },
+        "Characteristics[NumberOfTechnicalReplicates]": {
+          "value": "2",
+          "evidence": "ファイル名パターンでN/T+数字-1.rawとN/T+数字-2.rawが存在し、-1と-2が技術的レプリケートを示している。各生物学的サンプルに対して2つのテクニカルレプリケートが実施されている",
+          "source": "filename"
+        },
+        "Characteristics[NumberOfSamples]": {
+          "value": "16",
+          "evidence": "8つの生物学的サンプル × 2つの技術的レプリケート = 16ファイル。実際のrawファイル数も16個で一致",
+          "source": "filename"
+        },
+        "FactorValue[Disease]": {
+          "value": "per_file",
+          "per_file": {
+            "N294-1.raw": "normal",
+            "N294-2.raw": "normal",
+            "N295-1.raw": "normal",
+            "N295-2.raw": "normal",
+            "N296-1.raw": "normal",
+            "N296-2.raw": "normal",
+            "N299-1.raw": "normal",
+            "N299-2.raw": "normal",
+            "T298-1.raw": "squamous cell carcinoma",
+            "T298-2.raw": "squamous cell carcinoma",
+            "T300-1.raw": "squamous cell carcinoma",
+            "T300-2.raw": "squamous cell carcinoma",
+            "T301-1.raw": "squamous cell carcinoma",
+            "T301-2.raw": "squamous cell carcinoma",
+            "T303-1.raw": "squamous cell carcinoma",
+            "T303-2.raw": "squamous cell carcinoma"
+          },
+          "evidence": "paired sets of tumor and adjacent lung tissues. ファイル名のNプレフィックスが隣接正常組織（normal/adjacent）、Tプレフィックスが腫瘍組織（tumor）を示している",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {
+        "Comment[FractionIdentifier]": {
+          "candidates": [
+            "1-12 fractions for LF and TMT",
+            "not applicable for DIA single samples"
+          ],
+          "reasoning": "Twelve concatenated fractions were analyzed with LC-MS/MS for the LF and TMT experiments. しかし現在のrawファイル名には分画番号が含まれておらず、DIA実験のunfractionated samplesの可能性が高い",
+          "needs": "他のPRIDE datasetに分画データが存在するかの確認"
+        }
+      },
+      "not_applicable": [
+        "FactorValue[Treatment]",
+        "FactorValue[Temperature]",
+        "FactorValue[GeneticModification]",
+        "FactorValue[Compound]",
+        "FactorValue[Bait]",
+        "FactorValue[CellPart]",
+        "FactorValue[ConcentrationOfCompound].1",
+        "FactorValue[FractionIdentifier]"
+      ],
+      "summary": "rawファイル名の体系的分析により実験デザインが明確化された。16ファイルは8人の患者から採取した腫瘍組織（T）と隣接正常組織（N）の技術的重複測定を表している。各患者につき2つの組織タイプ×2回の技術的レプリケートで計16分析が実施された。ファイル名に分画識別子がないため、これらはDIA実験のunfractionated samplesと推定される。分画を含むLF/TMT実験データは別のPRIDE datasetに存在する可能性がある。"
+    }
+  }
+}

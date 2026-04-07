@@ -1,0 +1,158 @@
+{
+  "pxd": "PXD002870",
+  "source": "PRIDE_API",
+  "organism": [
+    {
+      "name": "Mus musculus (mouse)",
+      "accession": "NEWT:10090"
+    }
+  ],
+  "instruments": [
+    {
+      "name": "LTQ Orbitrap Elite",
+      "accession": "MS:1001910",
+      "sdrf_format": "AC=MS:1001910;NT=LTQ Orbitrap Elite"
+    }
+  ],
+  "modifications": [],
+  "organism_parts": [
+    {
+      "name": "Heart",
+      "accession": "BTO:0000562"
+    },
+    {
+      "name": "Cardiocyte",
+      "accession": "CL:0002494"
+    }
+  ],
+  "diseases": [
+    {
+      "name": "Cardiovascular system disease",
+      "accession": "DOID:1287"
+    }
+  ],
+  "experiment_types": [
+    "Shotgun proteomics"
+  ],
+  "quantification_methods": [
+    "Spectrum counting"
+  ],
+  "keywords": [
+    "Isoproterenol",
+    "Mouse",
+    "Turnover",
+    "Heart",
+    "Lc-ms/ms"
+  ],
+  "publications": [
+    {
+      "pubmed_id": "",
+      "doi": "10.1038/sdata.2016.15",
+      "ref": "Lau E, Cao Q, Ng DC, Bleakley BJ, Dincer TU, Bot BM, Wang D, Liem DA, Lam MP, Ge J, Ping P. A large dataset of protein dynamics in the mammalian heart proteome. Sci Data. 2016 Mar 15;3:160015"
+    }
+  ],
+  "inferred_fragmentation": null,
+  "inferred_ms2_analyzer": "orbitrap",
+  "inferred_ionization": "nanoESI",
+  "raw_files": [
+    "BALB_ISO_Heart_Mito_d10_A10.raw",
+    "AJ_CTRL_Heart_Nucl_d14_A17.raw",
+    "DBA_ISO_Heart_Nucl_d05_A17.raw",
+    "DBA_ISO_Heart_Cyto_d07_A05.raw",
+    "CEJ_CTRL_Heart_Mito_d00_A12.raw",
+    "AJ_ISO_Heart_Cyto_d10_A03.raw",
+    "CEJ_ISO_Heart_Nucl_d03_A13.raw",
+    "C57_CTRL_Heart_Cyto_d00_A04.raw",
+    "CEJ_CTRL_Heart_Mito_d05_A08.raw",
+    "FVB_ISO_Heart_Cyto_d10_A05.raw",
+    "C57_CTRL_Heart_Mito_d03_A11.raw",
+    "FVB_ISO_Heart_Nucl_d10_A13.raw",
+    "FVB_CTRL_Heart_Cyto_d03_A03.raw",
+    "FVB_CTRL_Heart_Cyto_d01_A05.raw",
+    "BALB_ISO_Heart_Mito_d05_A12.raw",
+    "CEJ_CTRL_Heart_Cyto_d03_A02.raw",
+    "FVB_CTRL_Heart_Nucl_d05_A14.raw",
+    "BALB_ISO_Heart_Cyto_d01_A06.raw",
+    "AJ_ISO_Heart_Nucl_d05_A17.raw",
+    "AJ_ISO_Heart_Mito_d14_A08.raw",
+    "BALB_ISO_Heart_Cyto_d07_A01.raw",
+    "AJ_ISO_Heart_Mito_d07_A08.raw",
+    "C57_ISO_Heart_Cyto_d03_A02.raw",
+    "FVB_CTRL_Heart_Cyto_d00_A06.raw",
+    "DBA_ISO_Heart_Nucl_d03_A14.raw",
+    "C57_CTRL_Heart_Cyto_d01_A06.raw",
+    "FVB_ISO_Heart_Nucl_d03_A14.raw",
+    "C57_CTRL_Heart_Mito_d14_A07.raw",
+    "C57_ISO_Heart_Cyto_d01_A06.raw",
+    "BALB_CTRL_Heart_Cyto_d00_A03.raw",
+    "FVB_CTRL_Heart_Cyto_d03_A01.raw",
+    "C57_ISO_Heart_Mito_d07_A08.raw",
+    "BALB_ISO_Heart_Nucl_d03a_A14.raw",
+    "CEJ_CTRL_Heart_Cyto_d00_A05.raw",
+    "AJ_CTRL_Heart_Cyto_d07_A03.raw",
+    "CEJ_ISO_Heart_Mito_d01_A07.raw",
+    "C57_CTRL_Heart_Cyto_d14_A06.raw",
+    "AJ_CTRL_Heart_Mito_d14_A09.raw",
+    "BALB_CTRL_Heart_Nucl_d05_A18.raw",
+    "BALB_CTRL_Heart_Cyto_d01_A02.raw",
+    "CEJ_ISO_Heart_Mito_d05_A17.raw",
+    "BALB_ISO_Heart_Cyto_d03_A04.raw",
+    "C57_CTRL_Heart_Mito_d00_A08.raw",
+    "DBA_CTRL_Heart_Cyto_d03_A01.raw",
+    "C57_ISO_Heart_Nucl_d07_A14.raw",
+    "AJ_CTRL_Heart_Cyto_d01-2_A01.raw",
+    "AJ_CTRL_Heart_Nucl_d01_A14.raw",
+    "CEJ_ISO_Heart_Nucl_d10_A13.raw",
+    "CEJ_CTRL_Heart_Mito_d10_A10.raw",
+    "C57_CTRL_Heart_Nucl_d05_A16.raw",
+    "BALB_CTRL_Heart_Cyto_d01_A04.raw",
+    "BALB_CTRL_Heart_Cyto_d05_A06.raw",
+    "BALB_ISO_Heart_Mito_d01_A10.raw",
+    "C57_ISO_Heart_Mito_d07_A09.raw",
+    "AJ_CTRL_Heart_Nucl_d01_A15.raw",
+    "C57_CTRL_Heart_Cyto_d10_A02.raw",
+    "BALB_ISO_Heart_Mito_d01_A12.raw",
+    "BALB_CTRL_Heart_Nucl_d01_A17.raw",
+    "C57_CTRL_Heart_Nucl_d07_A14.raw",
+    "AJ_ISO_Heart_Nucl_d14_A13.raw",
+    "AJ_CTRL_Heart_Mito_d07_A09.raw",
+    "FVB_ISO_Heart_Mito_d05_A10.raw",
+    "AJ_CTRL_Heart_Mito_d05_A10.raw",
+    "C57_CTRL_Heart_Cyto_d03_A03.raw",
+    "AJ_ISO_Heart_Nucl_d05_A14.raw",
+    "BALB_CTRL_Heart_Nucl_d14_A17.raw",
+    "DBA_CTRL_Heart_Cyto_d14_A01.raw",
+    "BALB_CTRL_Heart_Mito_d00_A08.raw",
+    "FVB_ISO_Heart_Cyto_d05_A04.raw",
+    "AJ_CTRL_Heart_Cyto_d00_A06.raw",
+    "DBA_ISO_Heart_Nucl_d07_A14.raw",
+    "FVB_CTRL_Heart_Cyto_d01_A02.raw",
+    "C57_ISO_Heart_Cyto_d14_A03.raw",
+    "AJ_CTRL_Heart_Mito_d07_A07.raw",
+    "BALB_CTRL_Heart_Mito_d03_A10.raw",
+    "C57_ISO_Heart_Cyto_d05_A05.raw",
+    "CEJ_CTRL_Heart_Nucl_d07_A16.raw",
+    "DBA_ISO_Heart_Nucl_d10_A15.raw",
+    "FVB_ISO_Heart_Nucl_d03_A17.raw",
+    "FVB_CTRL_Heart_Cyto_d02_A01.raw",
+    "AJ_ISO_Heart_Cyto_d03_A07.raw",
+    "DBA_ISO_Heart_Cyto_d01_A01.raw",
+    "FVB_CTRL_Heart_Cyto_d07_A07.raw",
+    "CEJ_ISO_Heart_Cyto_d10_A05.raw",
+    "C57_CTRL_Heart_Cyto_d05_A03.raw",
+    "DBA_ISO_Heart_Nucl_d14_A17.raw",
+    "BALB_ISO_Heart_Cyto_d10_A02.raw",
+    "C57_CTRL_Heart_Cyto_d10_A05.raw",
+    "AJ_ISO_Heart_Nucl_d03_A17.raw",
+    "BALB_CTRL_Heart_Cyto_d05_A01.raw",
+    "FVB_CTRL_Heart_Mito_d14_A08.raw",
+    "DBA_ISO_Heart_Nucl_d07_A17.raw",
+    "AJ_CTRL_Heart_Cyto_d14_A01.raw",
+    "AJ_CTRL_Heart_Mito_d05_A09.raw",
+    "FVB_ISO_Heart_Nucl_d14_A14.raw",
+    "FVB_ISO_Heart_Mito_d10_A12.raw",
+    "CEJ_ISO_Heart_Cyto_d07_A07.raw",
+    "C57_CTRL_Heart_Cyto_d05_A05.raw",
+    "DBA_CTRL_Heart_Mito_d03_A08.raw"
+  ]
+}

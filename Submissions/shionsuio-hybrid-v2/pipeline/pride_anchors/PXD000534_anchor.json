@@ -1,0 +1,72 @@
+{
+  "pxd": "PXD000534",
+  "source": "PRIDE_API",
+  "organism": [
+    {
+      "name": "Homo sapiens (human)",
+      "accession": "NEWT:9606"
+    }
+  ],
+  "instruments": [
+    {
+      "name": "LTQ Orbitrap",
+      "accession": "MS:1000449",
+      "sdrf_format": "AC=MS:1000449;NT=LTQ Orbitrap"
+    }
+  ],
+  "modifications": [],
+  "organism_parts": [
+    {
+      "name": "Liver",
+      "accession": "BTO:0000759"
+    },
+    {
+      "name": "Cholangioma cell",
+      "accession": "BTO:0002842"
+    },
+    {
+      "name": "Hepatocyte",
+      "accession": "CL:0000182"
+    }
+  ],
+  "diseases": [],
+  "experiment_types": [
+    "Bottom-up proteomics"
+  ],
+  "quantification_methods": [],
+  "keywords": [
+    "Human",
+    "Lc-ms",
+    "Maldi",
+    "Liver",
+    "Cholangiocellular carcinoma"
+  ],
+  "publications": [
+    {
+      "pubmed_id": "",
+      "doi": "",
+      "ref": "Padden J, Megger DA, Bracht T, Reis H, Ahrens M, Kohl M, Eisenacher M, Schlaak JO, Canbay AE, Weber F, Hoffmann AC, Kuhlmann K, Meyer HE, Baba HA, Sitek B. Identification of Novel Biomarker Candidates for the Immunohistochemical Diagnosis of Cholangiocellular Carcinoma. Mol Cell Proteomics. 2014 Jul 17. pii: mcp.M113.034942"
+    }
+  ],
+  "inferred_fragmentation": "CID",
+  "inferred_ms2_analyzer": "orbitrap",
+  "inferred_ionization": "nanoESI",
+  "raw_files": [
+    "OEI00094.raw",
+    "OEI00078.raw",
+    "OEI00068.raw",
+    "OEI00088.raw",
+    "OEI00090.raw",
+    "OEI00082.raw",
+    "OEI00076.raw",
+    "OEI00074.raw",
+    "OEI00096.raw",
+    "OEI00070.raw",
+    "OEI00086.raw",
+    "OEI00072.raw",
+    "OEI00084.raw",
+    "OEI00080.raw",
+    "OEI00092.raw",
+    "OEI00066.raw"
+  ]
+}

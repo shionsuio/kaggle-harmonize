@@ -1,0 +1,389 @@
+{
+  "pxd": "PXD064564",
+  "raw_files": [
+    "20243102_100pgHeLa_240k_250ms_20Th_60ms_FAIMSCV-48_1.raw",
+    "20243102_700pgHeLa_240k_100ms_10Th_20ms_FAIMSCV-48_1.raw",
+    "20243102_1000pgHeLa_240k_100ms_10Th_20ms_FAIMSCV-48_2.raw",
+    "20243102_250pgHeLa_240k_250ms_20Th_40ms_FAIMSCV-48_2.raw",
+    "20243102_5000pgHeLa_240k_100ms_5Th_10ms_FAIMSCV-48_3.raw",
+    "20243102_50pgHeLa_240k_250ms_20Th_80ms_FAIMSCV-48_3.raw",
+    "20243102_10000pgHeLa_240k_100ms_5Th_10ms_FAIMSCV-48_2.raw",
+    "20243102_700pgHeLa_240k_100ms_10Th_20ms_FAIMSCV-48_2.raw",
+    "20243102_50pgHeLa_240k_250ms_20Th_80ms_FAIMSCV-48_1.raw",
+    "20243102_5000pgHeLa_240k_100ms_5Th_10ms_FAIMSCV-48_1.raw",
+    "20243102_100pgHeLa_240k_250ms_20Th_60ms_FAIMSCV-48_3.raw",
+    "20243102_250pgHeLa_240k_250ms_20Th_40ms_FAIMSCV-48_3.raw",
+    "20243102_1000pgHeLa_240k_100ms_10Th_20ms_FAIMSCV-48_3.raw",
+    "20243102_500pgHeLa_240k_100ms_20Th_40ms_FAIMSCV-48_2.raw",
+    "20243102_2000pgHeLa_240k_100ms_8Th_14ms_FAIMSCV-48_2.raw",
+    "20243102_150pgHeLa_240k_250ms_20Th_60ms_FAIMSCV-48_3.raw",
+    "20243102_150pgHeLa_240k_250ms_20Th_60ms_FAIMSCV-48_1.raw",
+    "20243102_50pgHeLa_240k_250ms_20Th_80ms_FAIMSCV-48_2.raw",
+    "20243102_2000pgHeLa_240k_100ms_8Th_14ms_FAIMSCV-48_3.raw",
+    "20243102_250pgHeLa_240k_250ms_20Th_40ms_FAIMSCV-48_1.raw",
+    "20243102_1000pgHeLa_240k_100ms_10Th_20ms_FAIMSCV-48_1.raw",
+    "20243102_5000pgHeLa_240k_100ms_5Th_10ms_FAIMSCV-48_2.raw",
+    "20243102_700pgHeLa_240k_100ms_10Th_20ms_FAIMSCV-48_3.raw",
+    "20243102_10000pgHeLa_240k_100ms_5Th_10ms_FAIMSCV-48_3.raw",
+    "20243102_500pgHeLa_240k_100ms_20Th_40ms_FAIMSCV-48_3.raw",
+    "20243102_500pgHeLa_240k_100ms_20Th_40ms_FAIMSCV-48_1.raw",
+    "20243102_2000pgHeLa_240k_100ms_8Th_14ms_FAIMSCV-48_1.raw",
+    "20243102_100pgHeLa_240k_250ms_20Th_60ms_FAIMSCV-48_2.raw",
+    "20243102_10000pgHeLa_240k_100ms_5Th_10ms_FAIMSCV-48_1.raw",
+    "20243102_150pgHeLa_240k_250ms_20Th_60ms_FAIMSCV-48_2.raw"
+  ],
+  "anchor": {
+    "pxd": "PXD064564",
+    "source": "PRIDE_API",
+    "organism": [
+      {
+        "name": "Homo sapiens (human)",
+        "accession": "NEWT:9606"
+      }
+    ],
+    "instruments": [
+      {
+        "name": "Orbitrap Astral",
+        "accession": "MS:1003378",
+        "sdrf_format": "AC=MS:1003378;NT=Orbitrap Astral"
+      }
+    ],
+    "modifications": [],
+    "organism_parts": [
+      {
+        "name": "Epithelial cell",
+        "accession": "CL:0000066"
+      }
+    ],
+    "diseases": [
+      {
+        "name": "Lung cancer",
+        "accession": "DOID:1324"
+      }
+    ],
+    "experiment_types": [
+      "Data-independent acquisition",
+      "Bottom-up proteomics"
+    ],
+    "quantification_methods": [
+      "label-free quantification"
+    ],
+    "keywords": [
+      "Mass spectrometry",
+      "Astral",
+      "A549",
+      "Liquid chromatography",
+      "Aurora column",
+      "Single-cell proteomics",
+      "Trophectoderm-like cells",
+      "Naïve human stem cells"
+    ],
+    "publications": [
+      {
+        "pubmed_id": "",
+        "doi": "10.1038/s41592-024-02559-1",
+        "ref": "Bubis JA, Arrey TN, Damoc E, Delanghe B, Slovakova J, Sommer TM, Kagawa H, Pichler P, Rivron N, Mechtler K, Matzinger M. Challenging the Astral mass analyzer to quantify up to 5,300 proteins per single cell at unseen accuracy to uncover cellular heterogeneity. Nat Methods. 2025 22(3):510-519"
+      }
+    ],
+    "inferred_fragmentation": "HCD",
+    "inferred_ms2_analyzer": "orbitrap",
+    "inferred_ionization": "nanoESI",
+    "raw_files": [
+      "20243102_100pgHeLa_240k_250ms_20Th_60ms_FAIMSCV-48_1.raw",
+      "20243102_700pgHeLa_240k_100ms_10Th_20ms_FAIMSCV-48_1.raw",
+      "20243102_1000pgHeLa_240k_100ms_10Th_20ms_FAIMSCV-48_2.raw",
+      "20243102_250pgHeLa_240k_250ms_20Th_40ms_FAIMSCV-48_2.raw",
+      "20243102_5000pgHeLa_240k_100ms_5Th_10ms_FAIMSCV-48_3.raw",
+      "20243102_50pgHeLa_240k_250ms_20Th_80ms_FAIMSCV-48_3.raw",
+      "20243102_10000pgHeLa_240k_100ms_5Th_10ms_FAIMSCV-48_2.raw",
+      "20243102_700pgHeLa_240k_100ms_10Th_20ms_FAIMSCV-48_2.raw",
+      "20243102_50pgHeLa_240k_250ms_20Th_80ms_FAIMSCV-48_1.raw",
+      "20243102_5000pgHeLa_240k_100ms_5Th_10ms_FAIMSCV-48_1.raw",
+      "20243102_100pgHeLa_240k_250ms_20Th_60ms_FAIMSCV-48_3.raw",
+      "20243102_250pgHeLa_240k_250ms_20Th_40ms_FAIMSCV-48_3.raw",
+      "20243102_1000pgHeLa_240k_100ms_10Th_20ms_FAIMSCV-48_3.raw",
+      "20243102_500pgHeLa_240k_100ms_20Th_40ms_FAIMSCV-48_2.raw",
+      "20243102_2000pgHeLa_240k_100ms_8Th_14ms_FAIMSCV-48_2.raw",
+      "20243102_150pgHeLa_240k_250ms_20Th_60ms_FAIMSCV-48_3.raw",
+      "20243102_150pgHeLa_240k_250ms_20Th_60ms_FAIMSCV-48_1.raw"
+    ]
+  },
+  "steps": {
+    "STEP1_OVERVIEW": {
+      "confirmed": {
+        "Characteristics[Organism]": {
+          "value": "Homo sapiens",
+          "evidence": "naive human pluripotent stem cells (epiblast) and trophectoderm-like cells",
+          "source": "manuscript"
+        },
+        "Characteristics[CellLine]": {
+          "value": "HeLa, A549",
+          "evidence": "we identify up to 7,400 protein groups from as little as 250 pg of HeLa cell peptides; we apply our workflow to A549 cells, yielding a proteome coverage ranging from 1,801 to a maximum of >5,300 protein groups",
+          "source": "manuscript"
+        },
+        "Characteristics[CellType]": {
+          "value": "naive human pluripotent stem cells, trophectoderm-like cells",
+          "evidence": "distinguish between in vitro analogs of two human blastocyst lineages: naive human pluripotent stem cells (epiblast) and trophectoderm-like cells",
+          "source": "manuscript"
+        },
+        "Characteristics[Label]": {
+          "value": "label-free quantification",
+          "evidence": "Confirmed from PRIDE database: label-free quantification",
+          "source": "anchor"
+        },
+        "Comment[AcquisitionMethod]": {
+          "value": "Data-independent acquisition",
+          "evidence": "Confirmed from PRIDE database: Data-independent acquisition, Bottom-up proteomics",
+          "source": "anchor"
+        }
+      },
+      "hypotheses": {
+        "Characteristics[OrganismPart]": {
+          "candidates": [
+            "lung",
+            "blastocyst"
+          ],
+          "reasoning": "A549 cells are lung adenocarcinoma cells, and the study mentions human blastocyst lineages",
+          "needs": "Confirmation of specific organ/tissue context for each cell type"
+        },
+        "Characteristics[Disease]": {
+          "candidates": [
+            "lung cancer",
+            "adenocarcinoma"
+          ],
+          "reasoning": "A549 is a well-known lung adenocarcinoma cell line, and PRIDE database confirms lung cancer",
+          "needs": "Explicit disease context mention in methodology"
+        },
+        "Characteristics[DevelopmentalStage]": {
+          "candidates": [
+            "blastocyst stage"
+          ],
+          "reasoning": "Study specifically mentions blastocyst lineages and cell cycle phase dependencies",
+          "needs": "Clarification if this applies to all samples or specific experimental conditions"
+        }
+      },
+      "not_applicable": [
+        "Characteristics[MaterialType]",
+        "Characteristics[Specimen]",
+        "Characteristics[Strain]",
+        "Characteristics[GeneticModification]",
+        "Characteristics[Treatment]",
+        "Characteristics[Compound]",
+        "Characteristics[ConcentrationOfCompound]"
+      ],
+      "summary": "論文は単一細胞プロテオミクスに焦点を当て、HeLaとA549細胞株を使用した実験を記述している。ヒト胚盤胞系統の細胞も含まれており、label-free quantificationとdata-independent acquisitionが使用されている。疾患コンテキストと特定の組織部位については追加確認が必要である。"
+    },
+    "STEP2_SAMPLE_PREP": {
+      "confirmed": {
+        "Characteristics[CleavageAgent]": {
+          "value": "trypsin",
+          "evidence": "3 ng µl–1 trypsin (Trypsin Gold, V5280, Promega)",
+          "source": "manuscript"
+        },
+        "Characteristics[Label]": {
+          "value": "label free sample",
+          "evidence": "Label-free quantification confirmed from previous steps and no labeling reagents mentioned in sample preparation",
+          "source": "anchor/previous_steps"
+        }
+      },
+      "hypotheses": {
+        "Characteristics[ReductionReagent]": {
+          "candidates": [
+            "2-mercaptoethanol"
+          ],
+          "reasoning": "100 µM 2-mercaptoethanol is mentioned in N2B27 basal medium formulation, but this appears to be for cell culture rather than protein sample preparation",
+          "needs": "Clarification whether 2-mercaptoethanol was used for protein reduction or only in cell culture medium"
+        },
+        "Comment[Separation]": {
+          "candidates": [
+            "reverse phase chromatography",
+            "nanoflow UHPLC"
+          ],
+          "reasoning": "Aurora Ultimate TS 25-cm nanoflow UHPLC column with integrated emitter was used for peptide separation",
+          "needs": "Confirmation of specific separation mechanism (likely reverse phase based on typical LC-MS setup)"
+        }
+      },
+      "not_applicable": [
+        "Characteristics[AlkylationReagent]",
+        "Characteristics[Modification]",
+        "Characteristics[Modification].1",
+        "Characteristics[Modification].2",
+        "Characteristics[Modification].3",
+        "Characteristics[Modification].4",
+        "Characteristics[Modification].5",
+        "Characteristics[Modification].6",
+        "Characteristics[Depletion]",
+        "Characteristics[SpikedCompound]",
+        "Characteristics[SyntheticPeptide]",
+        "Comment[EnrichmentMethod]",
+        "Comment[FractionationMethod]",
+        "Comment[NumberOfFractions]"
+      ],
+      "summary": "サンプル調製では、トリプシン消化が確認され、アルキル化試薬は使用されていない（単一細胞検索でカルバミドメチル化が除外されている）。2-メルカプトエタノールが言及されているが、細胞培養用か還元試薬用かは不明確。分離にはnanoflow UHPLCが使用されているが、具体的な分離メカニズムの詳細は確認が必要。修飾、枯渇、スパイク化合物等の使用は確認されていない。"
+    },
+    "STEP3_MS_SETTINGS": {
+      "confirmed": {
+        "Comment[Instrument]": {
+          "value": "Orbitrap Astral",
+          "evidence": "Samples were analyzed using the Thermo Scientific Vanquish Neo UHPLC system... For MS measuring, the Orbitrap Astral mass spectrometer and the Orbitrap Exploris 480 mass spectrometer (both Thermo Scientific) were coupled to the LC",
+          "source": "manuscript"
+        },
+        "Comment[FragmentationMethod]": {
+          "value": "HCD",
+          "evidence": "PRIDE database confirms HCD fragmentation",
+          "source": "anchor"
+        },
+        "Comment[AcquisitionMethod]": {
+          "value": "Data-independent acquisition",
+          "evidence": "For MS2 in DIA mode using the Astral analyzer... For MS2 in DIA mode, overlapping (m/z of 1) isolation windows",
+          "source": "manuscript"
+        },
+        "Comment[IonizationType]": {
+          "value": "nanoESI",
+          "evidence": "An electrospray voltage of 1.85 kV was applied for ionization and adopted to slightly higher voltages for aged emitters to ensure spray stability",
+          "source": "manuscript"
+        },
+        "Comment[MS2MassAnalyzer]": {
+          "value": "Astral analyzer",
+          "evidence": "For MS2 in DIA mode using the Astral analyzer",
+          "source": "manuscript"
+        },
+        "Comment[GradientTime]": {
+          "value": "30-80 SPD",
+          "evidence": "Peptide separation was performed at 30–80 SPD with details provided in Supplementary Table 1 and with all single-cell measurements performed at 50 SPD",
+          "source": "manuscript"
+        },
+        "Comment[FlowRateChromatogram]": {
+          "value": "1 µl min⁻¹ (loading)",
+          "evidence": "Fast sample loading was performed at a maximum pressure of 1.4 × 108 Pa and at a maximum flow rate of 1 µl min–1",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {
+        "Comment[CollisionEnergy]": {
+          "candidates": [
+            "normalized collision energy",
+            "stepped collision energy"
+          ],
+          "reasoning": "HCD fragmentation is confirmed but specific collision energy values are not mentioned in the methods section",
+          "needs": "Specific collision energy values or settings from instrument parameters"
+        },
+        "Comment[PrecursorMassTolerance]": {
+          "candidates": [
+            "10 ppm",
+            "20 ppm"
+          ],
+          "reasoning": "High-resolution Orbitrap instruments typically use ppm tolerances, but specific values not stated",
+          "needs": "Search parameters from Spectronaut analysis settings"
+        },
+        "Comment[FragmentMassTolerance]": {
+          "candidates": [
+            "10 ppm",
+            "20 ppm"
+          ],
+          "reasoning": "Astral analyzer provides high mass accuracy but specific tolerance not mentioned",
+          "needs": "Fragment ion tolerance settings from data analysis parameters"
+        },
+        "Comment[NumberOfMissedCleavages]": {
+          "candidates": [
+            "2",
+            "1"
+          ],
+          "reasoning": "Trypsin digestion confirmed but missed cleavage allowance not specified in search parameters",
+          "needs": "Spectronaut search settings for missed cleavages"
+        }
+      },
+      "not_applicable": [],
+      "summary": "質量分析装置設定が詳細に確認された。Orbitrap AstralでのDIA取得、nanoESI、Astralアナライザーでの分析が確定。グラディエント時間は可変（30-80 SPD）で単一細胞測定は50 SPDで実施。衝突エネルギー、質量許容誤差、見逃し切断数については、Spectronaut解析パラメータからの追加確認が必要。"
+    },
+    "STEP4_RAW_FILES": {
+      "confirmed": {
+        "Characteristics[BiologicalReplicate]": {
+          "value": "per_file",
+          "per_file": {
+            "20243102_100pgHeLa_240k_250ms_20Th_60ms_FAIMSCV-48_1.raw": "1",
+            "20243102_100pgHeLa_240k_250ms_20Th_60ms_FAIMSCV-48_2.raw": "2",
+            "20243102_100pgHeLa_240k_250ms_20Th_60ms_FAIMSCV-48_3.raw": "3",
+            "20243102_150pgHeLa_240k_250ms_20Th_60ms_FAIMSCV-48_1.raw": "1",
+            "20243102_150pgHeLa_240k_250ms_20Th_60ms_FAIMSCV-48_2.raw": "2",
+            "20243102_150pgHeLa_240k_250ms_20Th_60ms_FAIMSCV-48_3.raw": "3",
+            "20243102_250pgHeLa_240k_250ms_20Th_40ms_FAIMSCV-48_1.raw": "1",
+            "20243102_250pgHeLa_240k_250ms_20Th_40ms_FAIMSCV-48_2.raw": "2",
+            "20243102_250pgHeLa_240k_250ms_20Th_40ms_FAIMSCV-48_3.raw": "3",
+            "20243102_50pgHeLa_240k_250ms_20Th_80ms_FAIMSCV-48_1.raw": "1",
+            "20243102_50pgHeLa_240k_250ms_20Th_80ms_FAIMSCV-48_2.raw": "2",
+            "20243102_50pgHeLa_240k_250ms_20Th_80ms_FAIMSCV-48_3.raw": "3",
+            "20243102_500pgHeLa_240k_100ms_20Th_40ms_FAIMSCV-48_1.raw": "1",
+            "20243102_500pgHeLa_240k_100ms_20Th_40ms_FAIMSCV-48_2.raw": "2",
+            "20243102_500pgHeLa_240k_100ms_20Th_40ms_FAIMSCV-48_3.raw": "3",
+            "20243102_700pgHeLa_240k_100ms_10Th_20ms_FAIMSCV-48_1.raw": "1",
+            "20243102_700pgHeLa_240k_100ms_10Th_20ms_FAIMSCV-48_2.raw": "2",
+            "20243102_700pgHeLa_240k_100ms_10Th_20ms_FAIMSCV-48_3.raw": "3",
+            "20243102_1000pgHeLa_240k_100ms_10Th_20ms_FAIMSCV-48_1.raw": "1",
+            "20243102_1000pgHeLa_240k_100ms_10Th_20ms_FAIMSCV-48_2.raw": "2",
+            "20243102_1000pgHeLa_240k_100ms_10Th_20ms_FAIMSCV-48_3.raw": "3",
+            "20243102_2000pgHeLa_240k_100ms_8Th_14ms_FAIMSCV-48_1.raw": "1",
+            "20243102_2000pgHeLa_240k_100ms_8Th_14ms_FAIMSCV-48_2.raw": "2",
+            "20243102_2000pgHeLa_240k_100ms_8Th_14ms_FAIMSCV-48_3.raw": "3",
+            "20243102_5000pgHeLa_240k_100ms_5Th_10ms_FAIMSCV-48_1.raw": "1",
+            "20243102_5000pgHeLa_240k_100ms_5Th_10ms_FAIMSCV-48_2.raw": "2",
+            "20243102_5000pgHeLa_240k_100ms_5Th_10ms_FAIMSCV-48_3.raw": "3",
+            "20243102_10000pgHeLa_240k_100ms_5Th_10ms_FAIMSCV-48_1.raw": "1",
+            "20243102_10000pgHeLa_240k_100ms_5Th_10ms_FAIMSCV-48_2.raw": "2",
+            "20243102_10000pgHeLa_240k_100ms_5Th_10ms_FAIMSCV-48_3.raw": "3"
+          },
+          "evidence": "All filenames end with _1.raw, _2.raw, or _3.raw indicating three biological replicates for each concentration condition",
+          "source": "filename"
+        },
+        "Characteristics[NumberOfBiologicalReplicates]": {
+          "value": "3",
+          "evidence": "Each peptide concentration level (50pg, 100pg, 150pg, 250pg, 500pg, 700pg, 1000pg, 2000pg, 5000pg, 10000pg) has three replicates indicated by _1, _2, _3 suffixes in filenames",
+          "source": "filename"
+        },
+        "Characteristics[NumberOfSamples]": {
+          "value": "30",
+          "evidence": "Total of 30 raw files representing 10 different peptide concentrations × 3 biological replicates each",
+          "source": "filename"
+        }
+      },
+      "hypotheses": {
+        "FactorValue[Compound]": {
+          "candidates": [
+            "HeLa peptides",
+            "HeLa digest"
+          ],
+          "reasoning": "All filenames contain 'HeLa' indicating HeLa cell peptide digests at various concentrations, and methods mention 'HeLa (Thermo Scientific, Pierce HeLa Protein Digest Standard, 88328)'",
+          "needs": "Confirmation whether HeLa peptide digest should be considered as compound factor or sample type"
+        },
+        "FactorValue[ConcentrationOfCompound].1": {
+          "candidates": [
+            "50pg",
+            "100pg",
+            "150pg",
+            "250pg",
+            "500pg",
+            "700pg",
+            "1000pg",
+            "2000pg",
+            "5000pg",
+            "10000pg"
+          ],
+          "reasoning": "Filenames clearly indicate peptide amounts: 50pgHeLa, 100pgHeLa, etc. Methods mention 'HeLa or K562 cell peptides were dissolved in 0.1% TFA and 0.015% DDM at a concentration of 5 ng µl–1'",
+          "needs": "Confirmation of units and whether this represents total amount injected or concentration"
+        }
+      },
+      "not_applicable": [
+        "Comment[FractionIdentifier]",
+        "Characteristics[NumberOfTechnicalReplicates]",
+        "FactorValue[Treatment]",
+        "FactorValue[Temperature]",
+        "FactorValue[Disease]",
+        "FactorValue[GeneticModification]",
+        "FactorValue[Bait]",
+        "FactorValue[CellPart]",
+        "FactorValue[FractionIdentifier]"
+      ],
+      "summary": "ファイル名解析により、HeLa細胞ペプチド標準品を用いた濃度依存性実験であることが確定。10段階の濃度条件（50pg-10000pg）で各3回の生物学的反復を実施し、計30サンプル。技術的反復やフラクション化は行われていない。ペプチド濃度がFactorValueとして扱われる可能性が高いが、単位と定義の確認が必要。"
+    }
+  }
+}

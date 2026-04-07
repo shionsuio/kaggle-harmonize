@@ -1,0 +1,310 @@
+{
+  "pxd": "PXD040582",
+  "raw_files": [
+    "20230209_HCMV_CDV_VME_Mock_BR2.raw",
+    "20230209_HCMV_Ctrl_VME_Mock_BR2.raw",
+    "20230209_HCMV_Ctrl_VME_Distal_BR2.raw",
+    "20230209_HCMV_CDV_VME_Infected_BR3.raw",
+    "20230209_HCMV_Ctrl_VME_Mock_BR3.raw",
+    "20230209_HCMV_CDV_VME_Mock_BR1.raw",
+    "20230209_HCMV_CDV_VME_Neighbor_BR2.raw",
+    "20230209_HCMV_CDV_VME_Distal_BR2.raw",
+    "20230209_HCMV_Ctrl_VME_Neighbor_BR2.raw",
+    "20230209_HCMV_Ctrl_VME_Infected_BR2.raw",
+    "20230209_HCMV_CDV_VME_Infected_BR2.raw",
+    "20230209_HCMV_Ctrl_VME_Distal_BR3.raw",
+    "20230209_HCMV_Ctrl_VME_Infected_BR3.raw",
+    "20230209_HCMV_CDV_VME_Mock_BR3.raw",
+    "20230209_HCMV_Ctrl_VME_Infected_BR1.raw",
+    "20230209_HCMV_CDV_VME_Distal_BR3.raw",
+    "20230209_HCMV_CDV_VME_Infected_BR1.raw",
+    "20230209_HCMV_Ctrl_VME_Neighbor_BR3.raw",
+    "20230209_HCMV_CDV_VME_Neighbor_BR1.raw",
+    "20230209_HCMV_Ctrl_VME_Distal_BR1.raw",
+    "20230209_HCMV_CDV_VME_Neighbor_BR3.raw",
+    "20230209_HCMV_CDV_VME_Distal_BR1.raw",
+    "20230209_HCMV_Ctrl_VME_Mock_BR1.raw",
+    "20230209_HCMV_Ctrl_VME_Neighbor_BR1.raw"
+  ],
+  "anchor": {
+    "pxd": "PXD040582",
+    "source": "PRIDE_API",
+    "organism": [
+      {
+        "name": "Homo sapiens (human)",
+        "accession": "NEWT:9606"
+      }
+    ],
+    "instruments": [
+      {
+        "name": "Q Exactive HF",
+        "accession": "MS:1002523",
+        "sdrf_format": "AC=MS:1002523;NT=Q Exactive HF"
+      }
+    ],
+    "modifications": [],
+    "organism_parts": [
+      {
+        "name": "Cell culture",
+        "accession": "BTO:0000214"
+      },
+      {
+        "name": "Fibroblast",
+        "accession": "CL:0000057"
+      }
+    ],
+    "diseases": [],
+    "experiment_types": [
+      "Shotgun proteomics"
+    ],
+    "quantification_methods": [
+      "MS1 intensity based label-free quantification method"
+    ],
+    "keywords": [
+      "Hcmv",
+      "Innate immunity",
+      "Membrane contact sites",
+      "Mass spectrometry",
+      "Virus microenvironment",
+      "Cell cycle",
+      "Cidofovir"
+    ],
+    "publications": [
+      {
+        "pubmed_id": "",
+        "doi": "10.1126/sciadv.adg3433",
+        "ref": "Song B, Sheng X, Justice JL, Lum KK, Metzger PJ, Cook KC, Kostas JC, Cristea IM. Intercellular communication within the virus microenvironment affects the susceptibility of cells to secondary viral infections.  Sci Adv. 2023 9(19):eadg3433"
+      }
+    ],
+    "inferred_fragmentation": "HCD",
+    "inferred_ms2_analyzer": "orbitrap",
+    "inferred_ionization": "nanoESI",
+    "raw_files": [
+      "20230209_HCMV_CDV_VME_Mock_BR2.raw",
+      "20230209_HCMV_Ctrl_VME_Mock_BR2.raw",
+      "20230209_HCMV_Ctrl_VME_Distal_BR2.raw",
+      "20230209_HCMV_CDV_VME_Infected_BR3.raw",
+      "20230209_HCMV_Ctrl_VME_Mock_BR3.raw",
+      "20230209_HCMV_CDV_VME_Mock_BR1.raw",
+      "20230209_HCMV_CDV_VME_Neighbor_BR2.raw",
+      "20230209_HCMV_CDV_VME_Distal_BR2.raw",
+      "20230209_HCMV_Ctrl_VME_Neighbor_BR2.raw",
+      "20230209_HCMV_Ctrl_VME_Infected_BR2.raw",
+      "20230209_HCMV_CDV_VME_Infected_BR2.raw",
+      "20230209_HCMV_Ctrl_VME_Distal_BR3.raw",
+      "20230209_HCMV_Ctrl_VME_Infected_BR3.raw",
+      "20230209_HCMV_CDV_VME_Mock_BR3.raw",
+      "20230209_HCMV_Ctrl_VME_Infected_BR1.raw",
+      "20230209_HCMV_CDV_VME_Distal_BR3.raw",
+      "20230209_HCMV_CDV_VME_Infected_BR1.raw",
+      "20230209_HCMV_Ctrl_VME_Neighbor_BR3.raw",
+      "20230209_HCMV_CDV_VME_Neighbor_BR1.raw",
+      "20230209_HCMV_Ctrl_VME_Distal_BR1.raw",
+      "20230209_HCMV_CDV_VME_Neighbor_BR3.raw",
+      "20230209_HCMV_CDV_VME_Distal_BR1.raw",
+      "20230209_HCMV_Ctrl_VME_Mock_BR1.raw",
+      "20230209_HCMV_Ctrl_VME_Neighbor_BR1.raw"
+    ]
+  },
+  "steps": {
+    "STEP1_OVERVIEW": {
+      "confirmed": {
+        "Characteristics[Organism]": {
+          "value": "Homo sapiens",
+          "evidence": "human cytomegalovirus (HCMV) infection primes neighboring cells",
+          "source": "manuscript"
+        },
+        "Characteristics[CellType]": {
+          "value": "cell culture",
+          "evidence": "We establish a cell-based system to characterize a virus microenvironment",
+          "source": "manuscript"
+        },
+        "Characteristics[MaterialType]": {
+          "value": "cell",
+          "evidence": "Cell sorting, microscopy, proteomics, and cell cycle assays allow resolving cellular features",
+          "source": "manuscript"
+        },
+        "Characteristics[Label]": {
+          "value": "label free sample",
+          "evidence": "Experiment Type: Shotgun proteomics",
+          "source": "anchor"
+        }
+      },
+      "hypotheses": {
+        "Characteristics[Compound]": {
+          "candidates": [
+            "not applicable",
+            "control"
+          ],
+          "reasoning": "論文では感染細胞と非感染細胞を比較しているが、具体的な化合物処理については明記されていない",
+          "needs": "実験デザインでの対照群設定の詳細"
+        }
+      },
+      "not_applicable": [
+        "Characteristics[CellLine]",
+        "Characteristics[Disease]",
+        "Characteristics[DevelopmentalStage]",
+        "Characteristics[Specimen]",
+        "Characteristics[Strain]",
+        "Characteristics[Sex]",
+        "Comment[AcquisitionMethod]"
+      ],
+      "summary": "ヒト細胞培養系でウイルス感染の細胞間コミュニケーション研究。感染細胞、隣接細胞、遠位細胞を区別したプロテオミクス解析。ラベルフリーショットガンプロテオミクス手法を使用。具体的な細胞株や処理化合物については追加情報が必要。"
+    },
+    "STEP2_SAMPLE_PREP": {
+      "confirmed": {
+        "Characteristics[CleavageAgent]": {
+          "value": "Trypsin",
+          "evidence": "Trypsinization was performed on S-Trap columns (ProtiFi) according to the kit protocol",
+          "source": "manuscript"
+        },
+        "Characteristics[ReductionReagent]": {
+          "value": "DTT",
+          "evidence": "reduced with 25 mM tris(2-carboxyethyl)phosphine (TCEP)",
+          "source": "manuscript"
+        },
+        "Characteristics[AlkylationReagent]": {
+          "value": "IAA",
+          "evidence": "alkylated with 50 mM chloroacetamide (CAM)",
+          "source": "manuscript"
+        },
+        "Characteristics[Label]": {
+          "value": "label free sample",
+          "evidence": "Label-free quantification methods of the peptides were designed and analyzed on Skyline",
+          "source": "manuscript"
+        },
+        "Characteristics[Modification]": {
+          "value": "Carbamidomethyl",
+          "evidence": "static carbamidomethylation on cysteine",
+          "source": "manuscript"
+        },
+        "Comment[FractionationMethod]": {
+          "value": "no fractionation",
+          "evidence": "Peptides were analyzed by nano liquid chromatography coupled to tandem MS (LC-MS/MS) with direct injection without fractionation",
+          "source": "manuscript"
+        },
+        "Comment[Separation]": {
+          "value": "Reversed-phase chromatography",
+          "evidence": "separated with a linear gradient from 3% B to 35% B on an EASY-Spray PepMap Rapid Separation Liquid Chromatography (RSLC) C18 column",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {
+        "Characteristics[Modification]": {
+          "candidates": [
+            "Oxidation",
+            "Deamidated",
+            "Phospho",
+            "Acetyl"
+          ],
+          "reasoning": "論文では 'oxidation on methionine; deamination on asparagine; phosphorylation on serine, threonine, and tyrosine; acetylation on lysine' が variable modifications として記載されている",
+          "needs": "これらが実際に同定された修飾かどうかの確認"
+        }
+      },
+      "not_applicable": [
+        "Characteristics[Depletion]",
+        "Comment[EnrichmentMethod]"
+      ],
+      "summary": "トリプシン消化、TCEP還元、CAMアルキル化による標準的なボトムアップ調製。システイン残基のカルバミドメチル化は必須修飾として設定。ラベルフリー定量でフラクショネーションなし、C18逆相クロマトグラフィー分離を確認。メチオニン酸化等の可変修飾の実際の同定状況は追加確認が必要。"
+    },
+    "STEP3_MS_SETTINGS": {
+      "confirmed": {
+        "Comment[Instrument]": {
+          "value": "Q Exactive HF",
+          "evidence": "Peptides were analyzed by nano liquid chromatography coupled to tandem MS (LC-MS/MS) with a Q Exactive HF Hybrid Quadrupole-Orbitrap instrument (Thermo Fisher Scientific)",
+          "source": "manuscript"
+        },
+        "Comment[FragmentationMethod]": {
+          "value": "HCD",
+          "evidence": "all peptides were fragmented with a default NCE of 27",
+          "source": "manuscript"
+        },
+        "Comment[AcquisitionMethod]": {
+          "value": "DDA",
+          "evidence": "using data-dependent acquisition (DDA) mode",
+          "source": "manuscript"
+        },
+        "Comment[MS2MassAnalyzer]": {
+          "value": "Orbitrap",
+          "evidence": "Q Exactive HF Hybrid Quadrupole-Orbitrap instrument",
+          "source": "manuscript"
+        },
+        "Comment[CollisionEnergy]": {
+          "value": "28 NCE",
+          "evidence": "an normalized collision energy (NCE) of 28",
+          "source": "manuscript"
+        },
+        "Comment[PrecursorMassTolerance]": {
+          "value": "5 ppm",
+          "evidence": "The search required 5 parts per million (ppm) precursor mass accuracy",
+          "source": "manuscript"
+        },
+        "Comment[FragmentMassTolerance]": {
+          "value": "0.02 Da",
+          "evidence": "0.02-Da fragment ion mass accuracy",
+          "source": "manuscript"
+        },
+        "Comment[GradientTime]": {
+          "value": "150 min",
+          "evidence": "separated with a linear gradient from 3% B to 35% B over 150 min",
+          "source": "manuscript"
+        },
+        "Comment[FlowRateChromatogram]": {
+          "value": "250 nl/min",
+          "evidence": "at a flow rate of 250 nl/min",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {
+        "Comment[NumberOfMissedCleavages]": {
+          "candidates": [
+            "2",
+            "3"
+          ],
+          "reasoning": "トリプシン消化でのミスクリーブは一般的に2-3が設定されるが、論文に明記がない",
+          "needs": "検索パラメータの詳細情報"
+        }
+      },
+      "not_applicable": [],
+      "summary": "Q Exactive HF装置でのDDAモード取得、HCD断裂化(28 NCE)、Orbitrap MS2分析を確認。150分グラジエント、250 nl/min流速での分析。検索パラメータは5 ppm前駆体、0.02 Da断片質量許容差を設定。ミスクリーブ数のみ未確認で追加情報が必要。"
+    },
+    "STEP4_RAW_FILES": {
+      "confirmed": {
+        "Comment[FractionIdentifier]": {
+          "value": "not applicable",
+          "evidence": "No fractionation mentioned in the methods. 'Peptides were analyzed by nano liquid chromatography coupled to tandem MS (LC-MS/MS)' without any fractionation steps described.",
+          "source": "manuscript"
+        },
+        "Characteristics[BiologicalReplicate]": {
+          "value": "human 1",
+          "evidence": "Raw file names contain 'BR1', 'BR2', 'BR3' indicating 3 biological replicates, and the study uses 'MRC5 primary human fibroblasts'",
+          "source": "filename"
+        },
+        "FactorValue[Compound]": {
+          "value": "CDV",
+          "evidence": "Raw file names contain 'CDV' and 'Ctrl', and methods state 'For inhibiting viral genome replication, CDV was dissolved in PBS and used at 1 μM'",
+          "source": "manuscript/filename"
+        }
+      },
+      "hypotheses": {
+        "FactorValue[Treatment]": {
+          "candidates": [
+            "infected",
+            "neighboring",
+            "distal",
+            "mock"
+          ],
+          "reasoning": "Raw file names clearly show these four cell population types: Infected, Neighbor, Distal, and Mock, which correspond to the FACS-sorted cell populations described in methods",
+          "needs": "Confirmation if these are valid treatment values in ALLOWED VALUES list"
+        }
+      },
+      "not_applicable": [
+        "FactorValue[Temperature]",
+        "FactorValue[Disease]",
+        "FactorValue[GeneticModification]",
+        "FactorValue[Bait]"
+      ],
+      "summary": "rawファイル名解析により、3つの生物学的複製（BR1-3）、CDV処理vs対照条件、および4つの細胞集団（感染、隣接、遠位、モック）による実験設計を確認。CDVはウイルス複製阻害剤として使用。温度、疾患、遺伝子改変、ベイト実験は該当せず。細胞集団の処理区分については候補値リストでの確認が必要。"
+    }
+  }
+}

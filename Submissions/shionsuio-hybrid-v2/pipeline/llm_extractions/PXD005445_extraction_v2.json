@@ -1,0 +1,642 @@
+{
+  "pxd": "PXD005445",
+  "raw_files": [
+    "QEp15-3640.raw",
+    "QEp15-2570_AMY.raw",
+    "QEp15-3632.raw",
+    "QEp16-2121_V1Cd.raw",
+    "QEp16-2146_CBCd.raw",
+    "QEp15-3623.raw",
+    "QEp15-3600.raw",
+    "QEp16-2086_HIPd.raw",
+    "QEp15-3565.raw",
+    "QEp15-3641.raw",
+    "QEp15-3545.raw",
+    "QEp15-3547.raw",
+    "QEp16-2020_STRd.raw",
+    "QEp16-2101_V1Cd.raw",
+    "QEp15-2584_DFC.raw",
+    "QEp15-2800_STR.raw",
+    "QEp16-1970_DFCd.raw",
+    "QEp15-2784_CON.raw",
+    "QEp15-3549.raw",
+    "QEp15-3643.raw",
+    "QEp15-2792_STR.raw",
+    "QEp15-3650.raw",
+    "QEp15-3540.raw",
+    "QEp15-3142.raw",
+    "QEp15-2709_CON.raw",
+    "QEp15-3145.raw",
+    "QEp15-3551.raw",
+    "QEp15-3646.raw",
+    "QEp15-3607.raw",
+    "QEp16-1965_DFCd.raw",
+    "QEp15-3149.raw",
+    "QEp15-3606.raw",
+    "QEp16-2055_HIPd.raw",
+    "QEp15-3611.raw",
+    "QEp15-3559.raw",
+    "QEp15-3621.raw",
+    "QEp15-2550_CON.raw",
+    "QEp15-2721_HIP.raw",
+    "QEp15-3572.raw",
+    "QEp15-2826_V1C.raw",
+    "QEp15-2580_DFC.raw",
+    "QEp15-2804_STR.raw",
+    "QEp15-3138.raw",
+    "QEp15-3609.raw",
+    "QEp15-3139.raw",
+    "QEp16-2136_CBCd.raw",
+    "QEp15-3538.raw",
+    "QEp15-3648.raw",
+    "QEp16-1985_MDd.raw",
+    "QEp15-3586.raw",
+    "QEp16-2030_STRd.raw",
+    "QEp15-3567.raw",
+    "QEp15-3561.raw",
+    "QEp15-2834_V1C.raw",
+    "QEp16-2751_AMYdev.raw",
+    "QEp15-3566.raw",
+    "QEp15-3539.raw",
+    "QEp15-2592_DFC.raw",
+    "QEp16-2126_CBCd.raw",
+    "QEp16-2081_HIPd.raw",
+    "QEp15-3630.raw",
+    "QEp15-3579.raw",
+    "QEp15-3550.raw",
+    "QEp15-2554_AMY.raw",
+    "QEp15-3642.raw",
+    "QEp16-2756_AMYdev.raw",
+    "QEp15-3578.raw",
+    "QEp15-2725_HIP.raw",
+    "QEp15-3601.raw",
+    "QEp15-3612.raw",
+    "QEp15-3603.raw",
+    "QEp15-3610.raw",
+    "QEp15-3143.raw",
+    "QEp15-3626.raw",
+    "QEp15-2713_HIP.raw",
+    "QEp15-3627.raw",
+    "QEp15-3137.raw",
+    "QEp16-1980_MDd.raw",
+    "QEp15-3571.raw",
+    "QEp15-3620.raw",
+    "QEp16-2076_HIPd.raw",
+    "QEp15-3645.raw",
+    "QEp15-2729_HIP.raw",
+    "QEp15-2788_STR.raw",
+    "QEp15-3560.raw",
+    "QEp15-3652.raw",
+    "QEp15-3592.raw",
+    "QEp15-2610_CBC.raw",
+    "QEp16-2091_V1Cd.raw",
+    "QEp15-3591.raw",
+    "QEp15-2566_AMY.raw",
+    "QEp15-3651.raw",
+    "QEp15-2842_V1C.raw",
+    "QEp15-3589.raw",
+    "QEp16-2106_CON3.raw",
+    "QEp15-3631.raw",
+    "QEp16-1975_DFCd.raw",
+    "QEp15-3583.raw",
+    "QEp15-3638.raw",
+    "QEp15-3622.raw",
+    "QEp16-2741_AMYdev.raw",
+    "QEp16-1955_DFCd.raw",
+    "QEp15-3136.raw",
+    "QEp16-2005_MDd.raw",
+    "QEp15-2588_DFC.raw",
+    "QEp16-2111_V1Cd.raw",
+    "QEp15-3647.raw",
+    "QEp16-1960_DFCd.raw",
+    "QEp15-3602.raw",
+    "QEp15-3552.raw",
+    "QEp15-3564.raw",
+    "QEp16-2040_STRd.raw",
+    "QEp16-1950_DFCd.raw",
+    "QEp15-2562_AMY.raw",
+    "QEp16-2050_HIPd.raw",
+    "QEp15-2750_MD.raw",
+    "QEp16-2096_V1Cd.raw",
+    "QEp15-3628.raw",
+    "QEp16-2045_CON3.raw",
+    "QEp15-3587.raw",
+    "QEp15-2822_CON.raw",
+    "QEp15-2717_HIP.raw",
+    "QEp16-2015_STRd.raw",
+    "QEp15-2606_CBC.raw",
+    "QEp16-2771_CON.raw",
+    "QEp15-3580.raw",
+    "QEp16-2156_CON3.raw",
+    "QEp16-1990_MDd.raw",
+    "QEp15-3581.raw",
+    "QEp15-3585.raw",
+    "QEp16-2116_V1Cd.raw",
+    "QEp16-2141_CBCd.raw",
+    "QEp16-2131_CBCd.raw",
+    "QEp16-2010_MDd.raw",
+    "QEp15-3608.raw",
+    "QEp16-1995_CON3.raw",
+    "QEp15-3562.raw",
+    "QEp15-3141.raw",
+    "QEp15-2830_V1C.raw",
+    "QEp15-3644.raw",
+    "QEp15-2742_MD.raw",
+    "QEp15-3546.raw",
+    "QEp15-3625.raw",
+    "QEp16-2761_AMYdev.raw",
+    "QEp15-2622_CBC.raw",
+    "QEp15-2796_STR.raw",
+    "QEp15-2596_DFC.raw",
+    "QEp16-2736_AMYdev.raw",
+    "QEp15-3599.raw",
+    "QEp15-3624.raw",
+    "QEp16-2025_STRd.raw",
+    "QEp16-2766_AMYdev.raw",
+    "QEp16-2746_AMYdev.raw",
+    "QEp16-2151_CBCd.raw",
+    "QEp15-2746_MD.raw",
+    "QEp15-3639.raw",
+    "QEp15-2618_CBC.raw",
+    "QEp15-3148.raw",
+    "QEp16-2035_STRd.raw",
+    "QEp15-3649.raw",
+    "QEp15-3629.raw",
+    "QEp15-2558_AMY.raw",
+    "QEp15-3543.raw",
+    "QEp15-3598.raw",
+    "QEp15-2576_CON.raw",
+    "QEp15-3563.raw",
+    "QEp15-3569.raw",
+    "QEp15-3570.raw",
+    "QEp16-2726_CON.raw",
+    "QEp15-3588.raw",
+    "QEp15-3568.raw",
+    "QEp15-3541.raw",
+    "QEp15-3544.raw",
+    "QEp15-3140.raw",
+    "QEp15-3582.raw",
+    "QEp15-3605.raw",
+    "QEp16-2000_MDd.raw",
+    "QEp16-2731_AMYdev.raw",
+    "QEp15-2614_CBC.raw",
+    "QEp15-3542.raw",
+    "QEp15-3147.raw",
+    "QEp15-2738_MD.raw",
+    "QEp15-3590.raw",
+    "QEp15-2838_V1C.raw",
+    "QEp15-3146.raw",
+    "QEp15-3150.raw",
+    "QEp15-2602_CON.raw",
+    "QEp15-3548.raw",
+    "QEp15-3618.raw",
+    "QEp15-3619.raw",
+    "QEp15-3604.raw",
+    "QEp16-2060_HIPd.raw",
+    "QEp15-3558.raw",
+    "QEp15-3584.raw",
+    "QEp15-2734_CON.raw",
+    "QEp15-3144.raw"
+  ],
+  "anchor": {
+    "pxd": "PXD005445",
+    "source": "PRIDE_API",
+    "organism": [
+      {
+        "name": "Homo sapiens (human)",
+        "accession": "NEWT:9606"
+      }
+    ],
+    "instruments": [
+      {
+        "name": "Q Exactive",
+        "accession": "MS:1001911",
+        "sdrf_format": "AC=MS:1001911;NT=Q Exactive"
+      }
+    ],
+    "modifications": [],
+    "organism_parts": [
+      {
+        "name": "Brain",
+        "accession": "BTO:0000142"
+      }
+    ],
+    "diseases": [],
+    "experiment_types": [
+      "Shotgun proteomics"
+    ],
+    "quantification_methods": [],
+    "keywords": [
+      "Human brain",
+      "Regions",
+      "Post natal development"
+    ],
+    "publications": [
+      {
+        "pubmed_id": "",
+        "doi": "10.1038/s41593-017-0011-2",
+        "ref": "Carlyle BC, Kitchen RR, Kanyo JE, Voss EZ, Pletikos M, Sousa AMM, Lam TT, Gerstein MB, Sestan N, Nairn AC. A multiregional proteomic survey of the postnatal human brain. Nat Neurosci. 2017 20(12):1787-1795"
+      }
+    ],
+    "inferred_fragmentation": "HCD",
+    "inferred_ms2_analyzer": "orbitrap",
+    "inferred_ionization": "nanoESI",
+    "raw_files": [
+      "QEp15-3640.raw",
+      "QEp15-2570_AMY.raw",
+      "QEp15-3632.raw",
+      "QEp16-2121_V1Cd.raw",
+      "QEp16-2146_CBCd.raw",
+      "QEp15-3623.raw",
+      "QEp15-3600.raw",
+      "QEp16-2086_HIPd.raw",
+      "QEp15-3565.raw",
+      "QEp15-3641.raw",
+      "QEp15-3545.raw",
+      "QEp15-3547.raw",
+      "QEp16-2020_STRd.raw",
+      "QEp16-2101_V1Cd.raw",
+      "QEp15-2584_DFC.raw",
+      "QEp15-2800_STR.raw",
+      "QEp16-1970_DFCd.raw",
+      "QEp15-2784_CON.raw",
+      "QEp15-3549.raw",
+      "QEp15-3643.raw",
+      "QEp15-2792_STR.raw",
+      "QEp15-3650.raw",
+      "QEp15-3540.raw",
+      "QEp15-3142.raw",
+      "QEp15-2709_CON.raw",
+      "QEp15-3145.raw",
+      "QEp15-3551.raw",
+      "QEp15-3646.raw",
+      "QEp15-3607.raw",
+      "QEp16-1965_DFCd.raw",
+      "QEp15-3149.raw",
+      "QEp15-3606.raw",
+      "QEp16-2055_HIPd.raw",
+      "QEp15-3611.raw",
+      "QEp15-3559.raw",
+      "QEp15-3621.raw",
+      "QEp15-2550_CON.raw",
+      "QEp15-2721_HIP.raw",
+      "QEp15-3572.raw",
+      "QEp15-2826_V1C.raw",
+      "QEp15-2580_DFC.raw",
+      "QEp15-2804_STR.raw",
+      "QEp15-3138.raw",
+      "QEp15-3609.raw",
+      "QEp15-3139.raw",
+      "QEp16-2136_CBCd.raw",
+      "QEp15-3538.raw",
+      "QEp15-3648.raw",
+      "QEp16-1985_MDd.raw",
+      "Table_S1_QEpnumbers_included.txt",
+      "QEp15-3586.raw",
+      "QEp16-2030_STRd.raw",
+      "QEp15-3567.raw",
+      "QEp15-3561.raw",
+      "QEp15-2834_V1C.raw",
+      "QEp16-2751_AMYdev.raw",
+      "QEp15-3566.raw",
+      "QEp15-3539.raw",
+      "QEp15-2592_DFC.raw",
+      "QEp16-2126_CBCd.raw",
+      "QEp16-2081_HIPd.raw",
+      "QEp15-3630.raw",
+      "QEp15-3579.raw",
+      "QEp15-3550.raw",
+      "QEp15-2554_AMY.raw",
+      "QEp15-3642.raw",
+      "QEp16-2756_AMYdev.raw",
+      "QEp15-3578.raw",
+      "QEp15-2725_HIP.raw",
+      "QEp15-3601.raw",
+      "QEp15-3612.raw",
+      "QEp15-3603.raw",
+      "QEp15-3610.raw",
+      "QEp15-3143.raw",
+      "QEp15-3626.raw",
+      "QEp15-2713_HIP.raw",
+      "QEp15-3627.raw",
+      "QEp15-3137.raw",
+      "QEp16-1980_MDd.raw",
+      "QEp15-3571.raw",
+      "QEp15-3620.raw",
+      "QEp16-2076_HIPd.raw",
+      "QEp15-3645.raw",
+      "QEp15-2729_HIP.raw",
+      "QEp15-2788_STR.raw",
+      "QEp15-3560.raw",
+      "QEp15-3652.raw",
+      "QEp15-3592.raw",
+      "QEp15-2610_CBC.raw",
+      "QEp16-2091_V1Cd.raw",
+      "QEp15-3591.raw",
+      "QEp15-2566_AMY.raw",
+      "QEp15-3651.raw",
+      "QEp15-2842_V1C.raw",
+      "QEp15-3589.raw",
+      "QEp16-2106_CON3.raw",
+      "QEp15-3631.raw",
+      "QEp16-1975_DFCd.raw",
+      "QEp15-3583.raw",
+      "QEp15-3638.raw"
+    ]
+  },
+  "steps": {
+    "STEP1_OVERVIEW": {
+      "confirmed": {
+        "Characteristics[Organism]": {
+          "value": "Homo sapiens",
+          "evidence": "postnatal human brain, adult human brain regions",
+          "source": "manuscript"
+        },
+        "Characteristics[OrganismPart]": {
+          "value": "brain",
+          "evidence": "A Multiregional Proteomic Survey of the Postnatal Human Brain, adult human brain regions",
+          "source": "manuscript"
+        },
+        "Characteristics[Label]": {
+          "value": "label-free",
+          "evidence": "label-free quantitative tandem mass-spectrometry proteomics",
+          "source": "manuscript"
+        },
+        "Comment[AcquisitionMethod]": {
+          "value": "label-free quantitative tandem mass-spectrometry",
+          "evidence": "label-free quantitative tandem mass-spectrometry proteomics",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {
+        "Characteristics[DevelopmentalStage]": {
+          "candidates": [
+            "adult",
+            "postnatal"
+          ],
+          "reasoning": "Title mentions 'postnatal' and abstract mentions 'adult human brain regions', suggesting adult developmental stage",
+          "needs": "More specific age range or developmental stage classification"
+        },
+        "Characteristics[MaterialType]": {
+          "candidates": [
+            "tissue",
+            "brain tissue"
+          ],
+          "reasoning": "Study examines human brain regions which would be tissue samples",
+          "needs": "Explicit mention of sample type preparation or tissue processing"
+        }
+      },
+      "not_applicable": [
+        "Characteristics[CellType]",
+        "Characteristics[CellLine]",
+        "Characteristics[Disease]",
+        "Characteristics[Specimen]",
+        "Characteristics[Strain]",
+        "Characteristics[GeneticModification]",
+        "Characteristics[Treatment]",
+        "Characteristics[Compound]",
+        "Characteristics[ConcentrationOfCompound]"
+      ],
+      "summary": "This is a label-free quantitative proteomics study of multiple regions from adult human brain tissue. The organism (Homo sapiens) and organ part (brain) are confirmed, along with label-free methodology. Developmental stage appears to be adult/postnatal but needs confirmation. Material type is likely brain tissue but requires explicit confirmation. No disease context, cell lines, or treatments are mentioned in this overview."
+    },
+    "STEP2_SAMPLE_PREP": {
+      "confirmed": {
+        "Characteristics[CleavageAgent]": {
+          "value": "trypsin",
+          "evidence": "addition of trypsin at 1:20 trypsin:protein ratio. Proteins were digested for 16 hours at 37°C",
+          "source": "manuscript"
+        },
+        "Characteristics[AlkylationReagent]": {
+          "value": "iodoacetamide",
+          "evidence": "followed by addition of iodoacetamide (100 mM at 1/10th sample volume) for 30 min in the dark at room temperature",
+          "source": "manuscript"
+        },
+        "Characteristics[ReductionReagent]": {
+          "value": "dithiothreitol",
+          "evidence": "Dithiothreitol (45 mM at 1/10th sample volume) was added to lysates for 30 min at 37°C",
+          "source": "manuscript"
+        },
+        "Characteristics[Label]": {
+          "value": "label free",
+          "evidence": "Quantification in MaxQuant was performed using the label free quantification (maxLFQ) algorithm",
+          "source": "manuscript"
+        },
+        "Characteristics[Modification]": {
+          "value": "Carbamidomethyl (C)",
+          "evidence": "This search included a fixed modification, cysteine carbamidomethylation",
+          "source": "manuscript"
+        },
+        "Characteristics[Modification].1": {
+          "value": "Acetyl (Protein N-term)",
+          "evidence": "This search included a fixed modification, cysteine carbamidomethylation, and two variable modifications, N-acetylation and methionine oxidation",
+          "source": "manuscript"
+        },
+        "Characteristics[Modification].2": {
+          "value": "Oxidation (M)",
+          "evidence": "This search included a fixed modification, cysteine carbamidomethylation, and two variable modifications, N-acetylation and methionine oxidation",
+          "source": "manuscript"
+        },
+        "Comment[FractionationMethod]": {
+          "value": "high pH reversed-phase chromatography",
+          "evidence": "An orthogonal 'high pH reverse phase separation was carried out (using buffers A:100% water with 10 mM ammonium acetate, pH 10; & B: 90% water/10% acetonitrile (ACN) with 10 mM ammonium acetate, pH 10)",
+          "source": "manuscript"
+        },
+        "Comment[NumberOfFractions]": {
+          "value": "15",
+          "evidence": "48 fractions were collected from each brain region and were then pooled based on their estimated concentration from analysis of the chromatogram into 15 pools",
+          "source": "manuscript"
+        },
+        "Comment[Separation]": {
+          "value": "reversed-phase liquid chromatography",
+          "evidence": "Peptides were separated over a 180-min gradient run using a Waters Symmetry C18 trap (1.7 µm, 180 µm × 20 mm) and a ACQUITY UPLC PST (BEH) C18 column",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {},
+      "not_applicable": [
+        "Characteristics[Modification].3",
+        "Characteristics[Modification].4",
+        "Characteristics[Modification].5",
+        "Characteristics[Modification].6",
+        "Characteristics[Depletion]",
+        "Characteristics[SpikedCompound]",
+        "Characteristics[SyntheticPeptide]",
+        "Comment[EnrichmentMethod]"
+      ],
+      "summary": "サンプル調製の詳細が確定しました。トリプシン消化、DTTによる還元、ヨードアセトアミドによるアルキル化が行われ、MaxQuantでは固定修飾としてカルバミドメチル化、可変修飾としてタンパク質N末端アセチル化とメチオニン酸化が設定されています。フラクション化は高pH逆相クロマトグラフィーで48フラクションを15プールに統合して実施されました。特別な濃縮や枯渇処理は記載されていません。"
+    },
+    "STEP3_MS_SETTINGS": {
+      "confirmed": {
+        "Comment[Instrument]": {
+          "value": "Q Exactive Plus",
+          "evidence": "MS analyses were performed on a Q Exactive Plus mass spectrometer (ThermoFisher Scientific)",
+          "source": "manuscript"
+        },
+        "Comment[FragmentationMethod]": {
+          "value": "HCD",
+          "evidence": "higher energy collisional dissociation based fragmentation (normalised collision energy 28)",
+          "source": "manuscript"
+        },
+        "Comment[AcquisitionMethod]": {
+          "value": "data-dependent acquisition",
+          "evidence": "up to 20 dynamically chosen, most abundant, precursor ions were fragmented",
+          "source": "manuscript"
+        },
+        "Comment[IonizationType]": {
+          "value": "nanoESI",
+          "evidence": "Q Exactive Plus mass spectrometer (ThermoFisher Scientific) coupled online to a Waters nanoAcquity UPLC",
+          "source": "manuscript"
+        },
+        "Comment[MS2MassAnalyzer]": {
+          "value": "orbitrap",
+          "evidence": "The MS2 scans were acquired at a resolution of 17,500 at m/z 200",
+          "source": "manuscript"
+        },
+        "Comment[CollisionEnergy]": {
+          "value": "28",
+          "evidence": "higher energy collisional dissociation based fragmentation (normalised collision energy 28)",
+          "source": "manuscript"
+        },
+        "Comment[GradientTime]": {
+          "value": "180 min",
+          "evidence": "Peptides were separated over a 180-min gradient run",
+          "source": "manuscript"
+        },
+        "Comment[FlowRateChromatogram]": {
+          "value": "300 nL/min",
+          "evidence": "with a flow rate of 300 nL/min",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {
+        "Comment[PrecursorMassTolerance]": {
+          "candidates": [
+            "20 ppm",
+            "default MaxQuant value"
+          ],
+          "reasoning": "MaxQuant was used but precursor mass tolerance not explicitly stated in methods",
+          "needs": "Explicit statement of MaxQuant search parameters or supplementary methods"
+        },
+        "Comment[FragmentMassTolerance]": {
+          "candidates": [
+            "0.5 Da",
+            "default MaxQuant value"
+          ],
+          "reasoning": "MaxQuant was used but fragment mass tolerance not explicitly stated in methods",
+          "needs": "Explicit statement of MaxQuant search parameters or supplementary methods"
+        },
+        "Comment[NumberOfMissedCleavages]": {
+          "candidates": [
+            "2",
+            "default MaxQuant value"
+          ],
+          "reasoning": "Trypsin digestion confirmed but missed cleavages parameter not specified in MaxQuant settings",
+          "needs": "Complete MaxQuant parameter list"
+        }
+      },
+      "not_applicable": [],
+      "summary": "質量分析装置設定の多くが確定しました。Q Exactive PlusでHCD断裂、180分グラジエント、300 nL/min流速、衝突エネルギー28が使用されています。MaxQuantの検索パラメータ（質量許容誤差、ミスクリベージ数）は明示されておらず、デフォルト値の可能性が高いですが確認が必要です。機器仕様とLC条件は完全に把握できました。"
+    },
+    "STEP4_RAW_FILES": {
+      "confirmed": {
+        "Comment[FractionIdentifier]": {
+          "value": "per_file",
+          "per_file": {
+            "QEp16-1950_DFCd.raw": "fraction",
+            "QEp16-1955_DFCd.raw": "fraction",
+            "QEp16-1960_DFCd.raw": "fraction",
+            "QEp16-1965_DFCd.raw": "fraction",
+            "QEp16-1970_DFCd.raw": "fraction",
+            "QEp16-1975_DFCd.raw": "fraction",
+            "QEp16-1980_MDd.raw": "fraction",
+            "QEp16-1985_MDd.raw": "fraction",
+            "QEp16-1990_MDd.raw": "fraction",
+            "QEp16-1995_CON3.raw": "fraction",
+            "QEp16-2000_MDd.raw": "fraction",
+            "QEp16-2005_MDd.raw": "fraction",
+            "QEp16-2010_MDd.raw": "fraction",
+            "QEp16-2015_STRd.raw": "fraction",
+            "QEp16-2020_STRd.raw": "fraction",
+            "QEp16-2025_STRd.raw": "fraction",
+            "QEp16-2030_STRd.raw": "fraction",
+            "QEp16-2035_STRd.raw": "fraction",
+            "QEp16-2040_STRd.raw": "fraction",
+            "QEp16-2045_CON3.raw": "fraction",
+            "QEp16-2050_HIPd.raw": "fraction",
+            "QEp16-2055_HIPd.raw": "fraction",
+            "QEp16-2060_HIPd.raw": "fraction",
+            "QEp16-2076_HIPd.raw": "fraction",
+            "QEp16-2081_HIPd.raw": "fraction",
+            "QEp16-2086_HIPd.raw": "fraction",
+            "QEp16-2091_V1Cd.raw": "fraction",
+            "QEp16-2096_V1Cd.raw": "fraction",
+            "QEp16-2101_V1Cd.raw": "fraction",
+            "QEp16-2106_CON3.raw": "fraction",
+            "QEp16-2111_V1Cd.raw": "fraction",
+            "QEp16-2116_V1Cd.raw": "fraction",
+            "QEp16-2121_V1Cd.raw": "fraction",
+            "QEp16-2126_CBCd.raw": "fraction",
+            "QEp16-2131_CBCd.raw": "fraction",
+            "QEp16-2136_CBCd.raw": "fraction",
+            "QEp16-2141_CBCd.raw": "fraction",
+            "QEp16-2146_CBCd.raw": "fraction",
+            "QEp16-2151_CBCd.raw": "fraction",
+            "QEp16-2156_CON3.raw": "fraction",
+            "QEp16-2726_CON.raw": "single_shot",
+            "QEp16-2731_AMYdev.raw": "single_shot",
+            "QEp16-2736_AMYdev.raw": "single_shot",
+            "QEp16-2741_AMYdev.raw": "single_shot",
+            "QEp16-2746_AMYdev.raw": "single_shot",
+            "QEp16-2751_AMYdev.raw": "single_shot",
+            "QEp16-2756_AMYdev.raw": "single_shot",
+            "QEp16-2761_AMYdev.raw": "single_shot",
+            "QEp16-2766_AMYdev.raw": "single_shot",
+            "QEp16-2771_CON.raw": "single_shot"
+          },
+          "evidence": "Master region pools were produced by adding 40 µg of homogenate from each of the adult (period 13) subjects... 48 fractions were collected from each brain region and were then pooled based on their estimated concentration from analysis of the chromatogram into 15 pools. For both the pooled fractionated and single shot quantitative runs... Files with 'd' suffix (DFCd, MDd, STRd, HIPd, V1Cd, CBCd, CON3) represent fractionated samples, while files without 'd' suffix or with specific developmental markers (AMYdev, CON) represent single-shot runs.",
+          "source": "manuscript"
+        },
+        "Characteristics[NumberOfBiologicalReplicates]": {
+          "value": "17",
+          "evidence": "Normalised LFQ human protein and RNA data (5141 proteins, 77 samples from 17 individuals)",
+          "source": "manuscript"
+        },
+        "Characteristics[NumberOfSamples]": {
+          "value": "77",
+          "evidence": "Normalised LFQ human protein and RNA data (5141 proteins, 77 samples from 17 individuals)",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {
+        "Characteristics[BiologicalReplicate]": {
+          "candidates": [
+            "per_file",
+            "individual_based"
+          ],
+          "reasoning": "Study has 17 individuals and 77 samples total, but cannot determine which specific raw files correspond to which biological replicate from the filename patterns",
+          "needs": "Metadata table linking raw files to individual subjects"
+        },
+        "Characteristics[NumberOfTechnicalReplicates]": {
+          "candidates": [
+            "1",
+            "variable_per_sample"
+          ],
+          "reasoning": "Methods mention both fractionated runs (15 fractions per region) and single-shot runs, but no explicit technical replicates mentioned",
+          "needs": "Clarification if fractions count as technical replicates or separate runs"
+        }
+      },
+      "not_applicable": [
+        "FactorValue[Treatment]",
+        "FactorValue[Temperature]",
+        "FactorValue[Disease]",
+        "FactorValue[GeneticModification]",
+        "FactorValue[Compound]",
+        "FactorValue[Bait]",
+        "FactorValue[CellPart]",
+        "FactorValue[ConcentrationOfCompound].1",
+        "FactorValue[FractionIdentifier]"
+      ],
+      "summary": "このステップではファイル分類とサンプル構成が判明しました。研究は17個体から77サンプルを使用し、フラクション化サンプル（ファイル名に'd'接尾辞）と単発分析サンプル（AMYdev、CONファイル）の2つのタイプに分類されます。フラクション化は成人脳領域の深度プロテオーム解析用で、単発分析は発達段階比較用と推定されます。個別ファイルの生物学的複製割り当ては、ファイル名パターンからは判定できず、メタデータテーブルが必要です。"
+    }
+  }
+}

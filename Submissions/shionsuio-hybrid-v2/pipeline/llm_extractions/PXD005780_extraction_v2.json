@@ -1,0 +1,315 @@
+{
+  "pxd": "PXD005780",
+  "raw_files": [
+    "S28.raw",
+    "S20.raw",
+    "S44.raw",
+    "S65.raw",
+    "S6.raw",
+    "S13.raw",
+    "S61.raw",
+    "S23.raw",
+    "S7.raw",
+    "S27.raw",
+    "S34.raw",
+    "S36.raw",
+    "S72.raw",
+    "S25.raw",
+    "S51.raw"
+  ],
+  "anchor": {
+    "pxd": "PXD005780",
+    "source": "PRIDE_API",
+    "organism": [
+      {
+        "name": "Human gut metagenome",
+        "accession": "NEWT:408170"
+      }
+    ],
+    "instruments": [
+      {
+        "name": "LTQ Orbitrap Velos",
+        "accession": "MS:1001742",
+        "sdrf_format": "AC=MS:1001742;NT=LTQ Orbitrap Velos"
+      }
+    ],
+    "modifications": [],
+    "organism_parts": [
+      {
+        "name": "Feces",
+        "accession": "BTO:0000440"
+      }
+    ],
+    "diseases": [],
+    "experiment_types": [
+      "Shotgun proteomics"
+    ],
+    "quantification_methods": [
+      "Spectrum counting"
+    ],
+    "keywords": [
+      "Gut metagenome",
+      "Gut metaproteome",
+      "Metaproteomics"
+    ],
+    "publications": [
+      {
+        "pubmed_id": "",
+        "doi": "10.1186/s40168-017-0293-3",
+        "ref": "Tanca A, Abbondio M, Palomba A, Fraumene C, Manghina V, Cucca F, Fiorillo E, Uzzau S. Potential and active functions in the gut microbiota of a healthy human cohort. Microbiome. 2017 Jul 14;5(1):79"
+      }
+    ],
+    "inferred_fragmentation": null,
+    "inferred_ms2_analyzer": "orbitrap",
+    "inferred_ionization": "nanoESI",
+    "raw_files": [
+      "S28.raw",
+      "S20.raw",
+      "S44.raw",
+      "S65.raw",
+      "S6.raw",
+      "S13.raw",
+      "S61.raw",
+      "S23.raw",
+      "S7.raw",
+      "S27.raw",
+      "S34.raw",
+      "S36.raw",
+      "S72.raw",
+      "S25.raw",
+      "S51.raw"
+    ]
+  },
+  "steps": {
+    "STEP1_OVERVIEW": {
+      "confirmed": {
+        "Characteristics[Organism]": {
+          "value": "Human gut metagenome",
+          "evidence": "analyzed their GMs using shotgun metaproteomics",
+          "source": "manuscript"
+        },
+        "Characteristics[OrganismPart]": {
+          "value": "Feces",
+          "evidence": "gut microbiota of a healthy human cohort",
+          "source": "manuscript"
+        },
+        "Characteristics[Disease]": {
+          "value": "Normal",
+          "evidence": "15 healthy subjects from a native and highly monitored Sardinian population",
+          "source": "manuscript"
+        },
+        "Characteristics[MaterialType]": {
+          "value": "Organism",
+          "evidence": "gut microbiota analysis using shotgun metaproteomics",
+          "source": "manuscript"
+        },
+        "Characteristics[Label]": {
+          "value": "Label-free",
+          "evidence": "shotgun metaproteomics analysis without mention of labeling reagents",
+          "source": "manuscript"
+        },
+        "Comment[AcquisitionMethod]": {
+          "value": "Shotgun proteomics",
+          "evidence": "shotgun metaproteomics",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {
+        "Characteristics[Specimen]": {
+          "candidates": [
+            "Fecal sample",
+            "Stool sample"
+          ],
+          "reasoning": "Gut microbiota study typically uses fecal specimens, but specific specimen type not explicitly mentioned",
+          "needs": "Materials and Methods section to confirm sample collection method"
+        },
+        "Characteristics[Strain]": {
+          "candidates": [
+            "Multiple bacterial strains from gut microbiota"
+          ],
+          "reasoning": "Study mentions Firmicutes, Faecalibacterium spp., suggesting multiple microbial strains",
+          "needs": "Taxonomic analysis details to identify specific strains"
+        }
+      },
+      "not_applicable": [
+        "Characteristics[CellType]",
+        "Characteristics[CellLine]",
+        "Characteristics[GeneticModification]",
+        "Characteristics[Treatment]",
+        "Characteristics[DevelopmentalStage]",
+        "Characteristics[Compound]",
+        "Characteristics[ConcentrationOfCompound]"
+      ],
+      "summary": "This is a label-free shotgun metaproteomics study of gut microbiota from 15 healthy Sardinian subjects. The study analyzes fecal samples to characterize functional activities of human gut microbiome. Key confirmed characteristics include human gut metagenome as organism, feces as organism part, normal disease status, and label-free quantification approach. The study focuses on microbial functional characterization rather than disease or treatment comparisons."
+    },
+    "STEP2_SAMPLE_PREP": {
+      "confirmed": {
+        "Characteristics[Label]": {
+          "value": "Label-free",
+          "evidence": "From PRIDE DATABASE: Quantification: Spectrum counting and previous step confirmation of label-free approach",
+          "source": "anchor"
+        },
+        "Comment[Separation]": {
+          "value": "LC",
+          "evidence": "An LTQ-Orbitrap Velos mass spectrometer (Thermo Scientific, San Jose, CA, USA) interfaced with an UltiMate 3000 RSLCnano LC system (Thermo Scientific) was used for LC-MS/MS analysis. Peptide separation by LC was carried out",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {
+        "Characteristics[CleavageAgent]": {
+          "candidates": [
+            "Trypsin",
+            "Other proteases"
+          ],
+          "reasoning": "FASP protocol is mentioned which typically uses trypsin for digestion, but specific protease not explicitly stated",
+          "needs": "Explicit mention of the specific protease used in the FASP protocol"
+        },
+        "Characteristics[AlkylationReagent]": {
+          "candidates": [
+            "Iodoacetamide",
+            "Chloroacetamide"
+          ],
+          "reasoning": "Text mentions 'alkylated' as part of FASP protocol, but specific alkylation reagent not specified",
+          "needs": "Specific alkylation reagent used in the FASP protocol"
+        },
+        "Characteristics[ReductionReagent]": {
+          "candidates": [
+            "DTT",
+            "TCEP",
+            "Other reducing agents"
+          ],
+          "reasoning": "Text mentions 'reduced' as part of FASP protocol, but specific reduction reagent not specified",
+          "needs": "Specific reduction reagent used in the FASP protocol"
+        },
+        "Characteristics[Modification]": {
+          "candidates": [
+            "Oxidation (M)",
+            "Carbamidomethyl (C)"
+          ],
+          "reasoning": "Standard modifications expected from alkylation and potential methionine oxidation, but not explicitly stated in available text",
+          "needs": "Explicit mention of variable and fixed modifications used in database search"
+        }
+      },
+      "not_applicable": [
+        "Characteristics[Modification].1",
+        "Characteristics[Modification].2",
+        "Characteristics[Modification].3",
+        "Characteristics[Modification].4",
+        "Characteristics[Modification].5",
+        "Characteristics[Modification].6",
+        "Characteristics[Depletion",
+        "Characteristics[SpikedCompound]",
+        "Characteristics[SyntheticPeptide]",
+        "Comment[EnrichmentMethod]",
+        "Comment[FractionationMethod]",
+        "Comment[NumberOfFractions]"
+      ],
+      "summary": "Sample preparation used FASP protocol with reduction, alkylation, and on-filter digestion steps. LC separation was performed using UltiMate 3000 RSLCnano system. Label-free quantification was confirmed. Specific reagents for reduction, alkylation, and digestion are not explicitly mentioned but can be inferred from standard FASP protocol. No fractionation, enrichment, or synthetic compounds were used."
+    },
+    "STEP3_MS_SETTINGS": {
+      "confirmed": {
+        "Comment[Instrument]": {
+          "value": "LTQ-Orbitrap Velos mass spectrometer (Thermo Scientific, San Jose, CA, USA)",
+          "evidence": "An LTQ-Orbitrap Velos mass spectrometer (Thermo Scientific, San Jose, CA, USA) interfaced with an UltiMate 3000 RSLCnano LC system (Thermo Scientific) was used for LC-MS/MS analysis",
+          "source": "manuscript"
+        },
+        "Comment[FragmentationMethod]": {
+          "value": "HCD",
+          "evidence": "the mass spectrometer was set up in a data-dependent MS/MS mode with HCD as fragmentation method",
+          "source": "manuscript"
+        },
+        "Comment[AcquisitionMethod]": {
+          "value": "Data-dependent MS/MS",
+          "evidence": "the mass spectrometer was set up in a data-dependent MS/MS mode with HCD as fragmentation method",
+          "source": "manuscript"
+        },
+        "Comment[IonizationType]": {
+          "value": "nanoESI",
+          "evidence": "Confirmed from PRIDE database anchor information",
+          "source": "anchor"
+        },
+        "Comment[MS2MassAnalyzer]": {
+          "value": "Orbitrap",
+          "evidence": "Confirmed from PRIDE database anchor information and instrument name LTQ-Orbitrap Velos",
+          "source": "anchor"
+        }
+      },
+      "hypotheses": {
+        "Comment[PrecursorMassTolerance]": {
+          "candidates": [
+            "10 ppm",
+            "5 ppm",
+            "15 ppm"
+          ],
+          "reasoning": "Text mentions search parameters were set as described previously but doesn't specify exact values. Typical values for Orbitrap instruments range 5-15 ppm",
+          "needs": "Referenced previous publication or supplementary methods section"
+        },
+        "Comment[FragmentMassTolerance]": {
+          "candidates": [
+            "0.02 Da",
+            "0.05 Da",
+            "20 ppm"
+          ],
+          "reasoning": "HCD fragmentation with Orbitrap analyzer typically uses tight mass tolerance, but exact value not specified in available text",
+          "needs": "Referenced previous publication or detailed methods section"
+        },
+        "Comment[NumberOfMissedCleavages]": {
+          "candidates": [
+            "2",
+            "1",
+            "3"
+          ],
+          "reasoning": "Standard proteomics search parameter but not explicitly mentioned. Most studies allow 1-2 missed cleavages",
+          "needs": "Detailed search parameters from referenced methods or supplementary information"
+        }
+      },
+      "not_applicable": [
+        "Comment[CollisionEnergy]",
+        "Comment[GradientTime]",
+        "Comment[FlowRateChromatogram]"
+      ],
+      "summary": "Mass spectrometry analysis was performed using LTQ-Orbitrap Velos with HCD fragmentation in data-dependent acquisition mode. Ionization method (nanoESI) and MS2 analyzer (Orbitrap) were confirmed from database information. Key search parameters like mass tolerances and missed cleavages are referenced to previous work but not explicitly stated in the current text. Chromatographic parameters are not provided in the available methods section."
+    },
+    "STEP4_RAW_FILES": {
+      "confirmed": {
+        "Characteristics[NumberOfBiologicalReplicates]": {
+          "value": "15",
+          "evidence": "Stool samples were collected from 15 healthy Sardinian volunteers (8 females and 7 males)",
+          "source": "manuscript"
+        },
+        "Characteristics[NumberOfSamples]": {
+          "value": "15",
+          "evidence": "15 raw files correspond to 15 healthy Sardinian volunteers, one sample per subject",
+          "source": "manuscript/filename"
+        },
+        "FactorValue[Disease]": {
+          "value": "Normal",
+          "evidence": "Stool samples were collected from 15 healthy Sardinian volunteers",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {
+        "Characteristics[BiologicalReplicate]": {
+          "candidates": [
+            "per_file: S6=1, S7=2, S13=3, S20=4, S23=5, S25=6, S27=7, S28=8, S34=9, S36=10, S44=11, S51=12, S61=13, S65=14, S72=15"
+          ],
+          "reasoning": "Raw file names appear to contain subject identifiers (S followed by numbers). The numbering seems to correspond to individual subjects from the 15 volunteers.",
+          "needs": "Confirmation that S numbers represent subject IDs and their sequential assignment"
+        }
+      },
+      "not_applicable": [
+        "Comment[FractionIdentifier]",
+        "Characteristics[NumberOfTechnicalReplicates]",
+        "FactorValue[Treatment]",
+        "FactorValue[Temperature]",
+        "FactorValue[GeneticModification]",
+        "FactorValue[Compound]",
+        "FactorValue[Bait]",
+        "FactorValue[CellPart]",
+        "FactorValue[ConcentrationOfCompound].1",
+        "FactorValue[FractionIdentifier]"
+      ],
+      "summary": "This study analyzed 15 biological samples from healthy Sardinian volunteers with no fractionation, technical replicates, or experimental treatments. Each raw file (S6-S72) likely represents one biological replicate from individual subjects. The study design is observational, comparing gut microbiota composition across healthy individuals without experimental manipulations. Raw file naming suggests subject-based identifiers but requires confirmation for definitive biological replicate assignment."
+    }
+  }
+}

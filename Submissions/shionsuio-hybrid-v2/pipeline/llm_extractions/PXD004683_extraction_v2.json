@@ -1,0 +1,484 @@
+{
+  "pxd": "PXD004683",
+  "raw_files": [
+    "20150820_Haura-Pilot-TMT1-bRPLC11-1.raw",
+    "20150820_Haura-Pilot-TMT2-bRPLC06-2.raw",
+    "20150820_Haura-Pilot-TMT2-bRPLC04-1.raw",
+    "20150820_Haura-Pilot-TMT1-bRPLC03-2.raw",
+    "20150820_Haura-Pilot-TMT1-bRPLC09-1.raw",
+    "20150820_Haura-Pilot-TMT2-bRPLC04-2.raw",
+    "20150820_Haura-Pilot-TMT2-bRPLC06-1.raw",
+    "20150820_Haura-Pilot-TMT1-bRPLC05-1.raw",
+    "20150820_Haura-Pilot-TMT2-bRPLC08-1.raw",
+    "20150820_Haura-Pilot-TMT2-bRPLC02-1.raw",
+    "20150820_Haura-Pilot-TMT1-bRPLC07-2.raw",
+    "20150820_Haura-Pilot-TMT1-bRPLC12-2.raw",
+    "20150820_Haura-Pilot-TMT1-bRPLC12-1.raw",
+    "20150820_Haura-Pilot-TMT2-bRPLC11-2.raw",
+    "20150820_Haura-Pilot-TMT1-bRPLC01-1.raw",
+    "20150820_Haura-Pilot-TMT2-bRPLC10-1.raw",
+    "20150820_Haura-Pilot-TMT2-bRPLC05-2.raw",
+    "20150820_Haura-Pilot-TMT2-bRPLC10-2.raw",
+    "20150820_Haura-Pilot-TMT1-bRPLC02-2.raw",
+    "20150820_Haura-Pilot-TMT1-bRPLC05-2.raw",
+    "20150820_Haura-Pilot-TMT1-bRPLC02-1.raw",
+    "20150820_Haura-Pilot-TMT2-bRPLC07-2.raw",
+    "20150820_Haura-Pilot-TMT1-bRPLC08-1.raw",
+    "20150820_Haura-Pilot-TMT1-bRPLC06-2.raw",
+    "20150820_Haura-Pilot-TMT2-bRPLC03-2.raw",
+    "20150820_Haura-Pilot-TMT1-bRPLC10-2.raw",
+    "20150820_Haura-Pilot-TMT2-bRPLC09-1.raw",
+    "20150820_Haura-Pilot-TMT1-bRPLC09-2.raw",
+    "20150820_Haura-Pilot-TMT2-bRPLC03-1.raw",
+    "20150820_Haura-Pilot-TMT2-bRPLC07-1.raw",
+    "20150820_Haura-Pilot-TMT2-bRPLC01-1.raw",
+    "20150820_Haura-Pilot-TMT1-bRPLC03-1.raw",
+    "20150820_Haura-Pilot-TMT2-bRPLC01-2.raw",
+    "20150820_Haura-Pilot-TMT1-bRPLC08-2.raw",
+    "20150820_Haura-Pilot-TMT2-bRPLC12-2.raw",
+    "20150820_Haura-Pilot-TMT2-bRPLC12-1.raw",
+    "20150820_Haura-Pilot-TMT2-bRPLC05-1.raw",
+    "20150820_Haura-Pilot-TMT2-bRPLC09-2.raw",
+    "20150820_Haura-Pilot-TMT1-bRPLC01-2.raw",
+    "20150820_Haura-Pilot-TMT2-bRPLC02-2.raw",
+    "20150820_Haura-Pilot-TMT2-bRPLC11-1.raw",
+    "20150820_Haura-Pilot-TMT1-bRPLC07-1.raw",
+    "20150820_Haura-Pilot-TMT1-bRPLC06-1.raw",
+    "20150820_Haura-Pilot-TMT2-bRPLC08-2.raw",
+    "20150820_Haura-Pilot-TMT1-bRPLC04-1.raw",
+    "20150820_Haura-Pilot-TMT1-bRPLC04-2.raw",
+    "20150820_Haura-Pilot-TMT1-bRPLC11-2.raw",
+    "20150820_Haura-Pilot-TMT1-bRPLC10-1.raw"
+  ],
+  "anchor": {
+    "pxd": "PXD004683",
+    "source": "PRIDE_API",
+    "organism": [
+      {
+        "name": "Homo sapiens (human)",
+        "accession": "NEWT:9606"
+      }
+    ],
+    "instruments": [
+      {
+        "name": "Q Exactive",
+        "accession": "MS:1001911",
+        "sdrf_format": "AC=MS:1001911;NT=Q Exactive"
+      }
+    ],
+    "modifications": [],
+    "organism_parts": [
+      {
+        "name": "Epithelial cell",
+        "accession": "CL:0000066"
+      },
+      {
+        "name": "Lung",
+        "accession": "BTO:0000763"
+      }
+    ],
+    "diseases": [
+      {
+        "name": "Non-small cell lung carcinoma",
+        "accession": "DOID:3908"
+      }
+    ],
+    "experiment_types": [
+      "SWATH MS"
+    ],
+    "quantification_methods": [
+      "TMT"
+    ],
+    "keywords": [
+      "Human",
+      "Brplc fractionation",
+      "Discovery proteomics",
+      "Lung cancer",
+      "Lc-ms/ms"
+    ],
+    "publications": [
+      {
+        "pubmed_id": "",
+        "doi": "10.1002/pmic.201600300",
+        "ref": "Stewart PA, Fang B, Slebos RJ, Zhang G, Borne AL, Fellows K, Teer JK, Chen YA, Welsh E, Eschrich SA, Haura EB, Koomen JM. Relative protein quantification and accessible biology in lung tumor proteomes from four LC-MS/MS discovery platforms. Proteomics. 2017 Feb 14"
+      }
+    ],
+    "inferred_fragmentation": "HCD",
+    "inferred_ms2_analyzer": "orbitrap",
+    "inferred_ionization": "nanoESI",
+    "raw_files": [
+      "20150820_Haura-Pilot-TMT1-bRPLC11-1.raw",
+      "20150820_Haura-Pilot-TMT2-bRPLC06-2.raw",
+      "20150820_Haura-Pilot-TMT2-bRPLC04-1.raw",
+      "20150820_Haura-Pilot-TMT1-bRPLC03-2.raw",
+      "20150820_Haura-Pilot-TMT1-bRPLC09-1.raw",
+      "20150820_Haura-Pilot-TMT2-bRPLC04-2.raw",
+      "20150820_Haura-Pilot-TMT2-bRPLC06-1.raw",
+      "20150820_Haura-Pilot-TMT1-bRPLC05-1.raw",
+      "20150820_Haura-Pilot-TMT2-bRPLC08-1.raw",
+      "20150820_Haura-Pilot-TMT2-bRPLC02-1.raw",
+      "20150820_Haura-Pilot-TMT1-bRPLC07-2.raw",
+      "20150820_Haura-Pilot-TMT1-bRPLC12-2.raw",
+      "20150820_Haura-Pilot-TMT1-bRPLC12-1.raw",
+      "20150820_Haura-Pilot-TMT2-bRPLC11-2.raw",
+      "20150820_Haura-Pilot-TMT1-bRPLC01-1.raw",
+      "20150820_Haura-Pilot-TMT2-bRPLC10-1.raw",
+      "20150820_Haura-Pilot-TMT2-bRPLC05-2.raw",
+      "20150820_Haura-Pilot-TMT2-bRPLC10-2.raw",
+      "20150820_Haura-Pilot-TMT1-bRPLC02-2.raw",
+      "20150820_Haura-Pilot-TMT1-bRPLC05-2.raw",
+      "20150820_Haura-Pilot-TMT1-bRPLC02-1.raw",
+      "20150820_Haura-Pilot-TMT2-bRPLC07-2.raw",
+      "20150820_Haura-Pilot-TMT1-bRPLC08-1.raw",
+      "20150820_Haura-Pilot-TMT1-bRPLC06-2.raw",
+      "20150820_Haura-Pilot-TMT2-bRPLC03-2.raw",
+      "20150820_Haura-Pilot-TMT1-bRPLC10-2.raw",
+      "20150820_Haura-Pilot-TMT2-bRPLC09-1.raw",
+      "20150820_Haura-Pilot-TMT1-bRPLC09-2.raw",
+      "20150820_Haura-Pilot-TMT2-bRPLC03-1.raw",
+      "20150820_Haura-Pilot-TMT2-bRPLC07-1.raw",
+      "20150820_Haura-Pilot-TMT2-bRPLC01-1.raw"
+    ]
+  },
+  "steps": {
+    "STEP1_OVERVIEW": {
+      "confirmed": {
+        "Characteristics[Organism]": {
+          "value": "Homo sapiens",
+          "evidence": "frozen lung squamous cell carcinomas and 4 adjacent tissues",
+          "source": "manuscript"
+        },
+        "Characteristics[OrganismPart]": {
+          "value": "lung",
+          "evidence": "frozen lung squamous cell carcinomas and 4 adjacent tissues",
+          "source": "manuscript"
+        },
+        "Characteristics[Disease]": {
+          "value": "lung squamous cell carcinoma",
+          "evidence": "4 frozen lung squamous cell carcinomas",
+          "source": "manuscript"
+        },
+        "Characteristics[MaterialType]": {
+          "value": "frozen tissue",
+          "evidence": "4 frozen lung squamous cell carcinomas and 4 adjacent tissues",
+          "source": "manuscript"
+        },
+        "Characteristics[Label]": {
+          "value": "TMT 6-plex",
+          "evidence": "isobaric labeling followed by peptide fractionation (TMT 6-plex)",
+          "source": "manuscript"
+        },
+        "Characteristics[Specimen]": {
+          "value": "tumor tissue and adjacent normal tissue",
+          "evidence": "4 frozen lung squamous cell carcinomas and 4 adjacent tissues",
+          "source": "manuscript"
+        },
+        "Comment[AcquisitionMethod]": {
+          "value": "DDA, DIA, label-free quantification, TMT 6-plex",
+          "evidence": "data dependent acquisition (DDA), data independent acquisition (DIA), label-free quantification (LF), isobaric labeling followed by peptide fractionation (TMT 6-plex)",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {},
+      "not_applicable": [
+        "Characteristics[CellType]",
+        "Characteristics[CellLine]",
+        "Characteristics[Strain]",
+        "Characteristics[GeneticModification]",
+        "Characteristics[Treatment]",
+        "Characteristics[DevelopmentalStage]",
+        "Characteristics[Compound]",
+        "Characteristics[ConcentrationOfCompound]"
+      ],
+      "summary": "肺扁平上皮癌組織（冷凍保存）4検体と隣接正常組織4検体を用いた比較プロテオミクス実験が確定。複数のMS取得方法（DDA、DIA、label-free、TMT 6-plex）を比較している。細胞株や化合物処理は使用されていない組織ベースの研究。"
+    },
+    "STEP2_SAMPLE_PREP": {
+      "confirmed": {
+        "Characteristics[CleavageAgent]": {
+          "value": "trypsin",
+          "evidence": "trypsin digestion was carried out overnight at 37 °C with an enzyme/substrate ratio of 1/50",
+          "source": "manuscript"
+        },
+        "Characteristics[AlkylationReagent]": {
+          "value": "iodoacetamide",
+          "evidence": "followed by alkylation with 11 mM iodoacetamide at room temperature for 15 minutes in the dark",
+          "source": "manuscript"
+        },
+        "Characteristics[ReductionReagent]": {
+          "value": "DTT",
+          "evidence": "The proteins were reduced with 4.5 mM DTT at 60 °C for 20 minutes",
+          "source": "manuscript"
+        },
+        "Characteristics[Label]": {
+          "value": "TMT 6-plex",
+          "evidence": "For TMT, an aliquot (100 µg) of total protein digest was labeled for each reporter ion channel",
+          "source": "manuscript"
+        },
+        "Characteristics[Modification]": {
+          "value": "Carbamidomethyl (C)",
+          "evidence": "carbamidomethylation (cysteine), oxidation (methionine), and pyroglutamic acid (glutamic acid) as allowable modifications",
+          "source": "manuscript"
+        },
+        "Characteristics[Modification].1": {
+          "value": "Oxidation (M)",
+          "evidence": "carbamidomethylation (cysteine), oxidation (methionine), and pyroglutamic acid (glutamic acid) as allowable modifications",
+          "source": "manuscript"
+        },
+        "Characteristics[Modification].2": {
+          "value": "Pyroglutamic acid (E)",
+          "evidence": "carbamidomethylation (cysteine), oxidation (methionine), and pyroglutamic acid (glutamic acid) as allowable modifications",
+          "source": "manuscript"
+        },
+        "Characteristics[SpikedCompound]": {
+          "value": "PRTC peptides",
+          "evidence": "A standard peptide retention time calibrator mixture (PRTC, Pierce #88320) was spiked in each LC-MS/MS analysis",
+          "source": "manuscript"
+        },
+        "Comment[FractionationMethod]": {
+          "value": "basic pH reversed phase HPLC",
+          "evidence": "fractionated using basic pH reversed phase HPLC, adapted from the method published by Mertins et al",
+          "source": "manuscript"
+        },
+        "Comment[NumberOfFractions]": {
+          "value": "12",
+          "evidence": "Twelve concatenated fractions were analyzed with LC-MS/MS for the LF and TMT experiments",
+          "source": "manuscript"
+        },
+        "Comment[Separation]": {
+          "value": "nanoflow UPLC",
+          "evidence": "A nanoflow ultra high performance liquid chromatograph (RSLC, Dionex, Sunnyvale, CA) interfaced with an electrospray quadrupole-orbital ion trap mass spectrometer",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {},
+      "not_applicable": [
+        "Characteristics[Modification].3",
+        "Characteristics[Modification].4",
+        "Characteristics[Modification].5",
+        "Characteristics[Modification].6",
+        "Characteristics[Depletion]",
+        "Characteristics[SyntheticPeptide]",
+        "Comment[EnrichmentMethod]"
+      ],
+      "summary": "サンプル調製の詳細が確定：トリプシン消化、DTT還元、IAA修飾、TMT 6-plex標識を実施。検索パラメータでCarbamidomethyl (C)、Oxidation (M)、Pyroglutamic acid (E)の修飾を許可。Basic pH RPLCで12画分に分画し、PRTC標準ペプチドをスパイクイン。富化や枯渇処理は実施されていない標準的なショットガンプロテオミクス手法。"
+    },
+    "STEP3_MS_SETTINGS": {
+      "confirmed": {
+        "Comment[Instrument]": {
+          "value": "Q Exactive Plus",
+          "evidence": "A nanoflow ultra high performance liquid chromatograph (RSLC, Dionex, Sunnyvale, CA) interfaced with an electrospray quadrupole-orbital ion trap mass spectrometer (QExactive Plus, Thermo, San Jose, CA) was used for tandem mass spectrometry peptide sequencing experiments.",
+          "source": "manuscript"
+        },
+        "Comment[FragmentationMethod]": {
+          "value": "HCD",
+          "evidence": "normalized collision energy set to 28 (for DDA), normalized collision energy value was set to 30 (for TMT)",
+          "source": "manuscript/anchor"
+        },
+        "Comment[AcquisitionMethod]": {
+          "value": "DDA, DIA, TMT",
+          "evidence": "DDA LC-MS/MS Analysis, TMT Quality Control, DIA Analysis of Label-Free Unfractionated Samples sections describe all three acquisition methods",
+          "source": "manuscript"
+        },
+        "Comment[IonizationType]": {
+          "value": "nanoESI",
+          "evidence": "electrospray quadrupole-orbital ion trap mass spectrometer",
+          "source": "manuscript/anchor"
+        },
+        "Comment[MS2MassAnalyzer]": {
+          "value": "orbitrap",
+          "evidence": "electrospray quadrupole-orbital ion trap mass spectrometer (QExactive Plus)",
+          "source": "manuscript/anchor"
+        },
+        "Comment[CollisionEnergy]": {
+          "value": "normalized collision energy 28 (DDA), 30 (TMT)",
+          "evidence": "normalized collision energy set to 28 (for DDA experiments), normalized collision energy value was set to 30 (for TMT experiments)",
+          "source": "manuscript"
+        },
+        "Comment[PrecursorMassTolerance]": {
+          "value": "10 ppm (MaxQuant), 15 ppm (IDPicker)",
+          "evidence": "align across runs option was selected with a mass error of 10 ppm (MaxQuant), Search parameters included a 15 ppm mass tolerance (IDPicker)",
+          "source": "manuscript"
+        },
+        "Comment[FragmentMassTolerance]": {
+          "value": "0.05 Da",
+          "evidence": "MS/MS mass tolerance was 0.05 Da (in Pinnacle Data Analysis section)",
+          "source": "manuscript"
+        },
+        "Comment[NumberOfMissedCleavages]": {
+          "value": "2 (Pinnacle), no limitation (IDPicker)",
+          "evidence": "Two missed tryptic cleavages were allowed (Pinnacle), no limitation on missed cleavages (IDPicker)",
+          "source": "manuscript"
+        },
+        "Comment[GradientTime]": {
+          "value": "90 minutes",
+          "evidence": "The 90-minute gradient was programmed as: 95% solvent A for 8 minutes, solvent B from 5% to 38.5% in 60 minutes, then from 38.5% to 90% in 7 minutes, and held at 90% for 5 minutes, followed by solvent B from 90% to 5% in 1 minute and re-equilibration for 10 minutes",
+          "source": "manuscript"
+        },
+        "Comment[FlowRateChromatogram]": {
+          "value": "300 nl/min (analytical), 0.2 ml/min (bRPLC)",
+          "evidence": "The flow rate on analytical column was 300 nl/min, bRPLC separation at a 0.2 ml/min flow rate",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {},
+      "not_applicable": [],
+      "summary": "質量分析装置・設定パラメータが完全に確定：Q Exactive Plus、HCD断片化、nanoESI/orbitrap、90分グラディエント、300 nl/min流速を使用。DDA（NCE28）、TMT（NCE30）、DIAの3つの取得方法を実施。異なる解析ソフトウェア（MaxQuant、IDPicker、Pinnacle）で異なる質量許容誤差設定を使用している詳細な実験条件が明らかになった。"
+    },
+    "STEP4_RAW_FILES": {
+      "confirmed": {
+        "Comment[FractionIdentifier]": {
+          "value": "per_file",
+          "per_file": {
+            "20150820_Haura-Pilot-TMT1-bRPLC01-1.raw": "1",
+            "20150820_Haura-Pilot-TMT1-bRPLC01-2.raw": "1",
+            "20150820_Haura-Pilot-TMT1-bRPLC02-1.raw": "2",
+            "20150820_Haura-Pilot-TMT1-bRPLC02-2.raw": "2",
+            "20150820_Haura-Pilot-TMT1-bRPLC03-1.raw": "3",
+            "20150820_Haura-Pilot-TMT1-bRPLC03-2.raw": "3",
+            "20150820_Haura-Pilot-TMT1-bRPLC04-1.raw": "4",
+            "20150820_Haura-Pilot-TMT1-bRPLC04-2.raw": "4",
+            "20150820_Haura-Pilot-TMT1-bRPLC05-1.raw": "5",
+            "20150820_Haura-Pilot-TMT1-bRPLC05-2.raw": "5",
+            "20150820_Haura-Pilot-TMT1-bRPLC06-1.raw": "6",
+            "20150820_Haura-Pilot-TMT1-bRPLC06-2.raw": "6",
+            "20150820_Haura-Pilot-TMT1-bRPLC07-1.raw": "7",
+            "20150820_Haura-Pilot-TMT1-bRPLC07-2.raw": "7",
+            "20150820_Haura-Pilot-TMT1-bRPLC08-1.raw": "8",
+            "20150820_Haura-Pilot-TMT1-bRPLC08-2.raw": "8",
+            "20150820_Haura-Pilot-TMT1-bRPLC09-1.raw": "9",
+            "20150820_Haura-Pilot-TMT1-bRPLC09-2.raw": "9",
+            "20150820_Haura-Pilot-TMT1-bRPLC10-1.raw": "10",
+            "20150820_Haura-Pilot-TMT1-bRPLC10-2.raw": "10",
+            "20150820_Haura-Pilot-TMT1-bRPLC11-1.raw": "11",
+            "20150820_Haura-Pilot-TMT1-bRPLC11-2.raw": "11",
+            "20150820_Haura-Pilot-TMT1-bRPLC12-1.raw": "12",
+            "20150820_Haura-Pilot-TMT1-bRPLC12-2.raw": "12",
+            "20150820_Haura-Pilot-TMT2-bRPLC01-1.raw": "1",
+            "20150820_Haura-Pilot-TMT2-bRPLC01-2.raw": "1",
+            "20150820_Haura-Pilot-TMT2-bRPLC02-1.raw": "2",
+            "20150820_Haura-Pilot-TMT2-bRPLC02-2.raw": "2",
+            "20150820_Haura-Pilot-TMT2-bRPLC03-1.raw": "3",
+            "20150820_Haura-Pilot-TMT2-bRPLC03-2.raw": "3",
+            "20150820_Haura-Pilot-TMT2-bRPLC04-1.raw": "4",
+            "20150820_Haura-Pilot-TMT2-bRPLC04-2.raw": "4",
+            "20150820_Haura-Pilot-TMT2-bRPLC05-1.raw": "5",
+            "20150820_Haura-Pilot-TMT2-bRPLC05-2.raw": "5",
+            "20150820_Haura-Pilot-TMT2-bRPLC06-1.raw": "6",
+            "20150820_Haura-Pilot-TMT2-bRPLC06-2.raw": "6",
+            "20150820_Haura-Pilot-TMT2-bRPLC07-1.raw": "7",
+            "20150820_Haura-Pilot-TMT2-bRPLC07-2.raw": "7",
+            "20150820_Haura-Pilot-TMT2-bRPLC08-1.raw": "8",
+            "20150820_Haura-Pilot-TMT2-bRPLC08-2.raw": "8",
+            "20150820_Haura-Pilot-TMT2-bRPLC09-1.raw": "9",
+            "20150820_Haura-Pilot-TMT2-bRPLC09-2.raw": "9",
+            "20150820_Haura-Pilot-TMT2-bRPLC10-1.raw": "10",
+            "20150820_Haura-Pilot-TMT2-bRPLC10-2.raw": "10",
+            "20150820_Haura-Pilot-TMT2-bRPLC11-1.raw": "11",
+            "20150820_Haura-Pilot-TMT2-bRPLC11-2.raw": "11",
+            "20150820_Haura-Pilot-TMT2-bRPLC12-1.raw": "12",
+            "20150820_Haura-Pilot-TMT2-bRPLC12-2.raw": "12"
+          },
+          "evidence": "Twelve concatenated fractions were analyzed with LC-MS/MS for the LF and TMT experiments. File names contain clear fraction identifiers: bRPLC01 through bRPLC12",
+          "source": "manuscript/filename"
+        },
+        "Characteristics[NumberOfTechnicalReplicates]": {
+          "value": "2",
+          "evidence": "Each fraction has two technical replicates indicated by -1 and -2 suffixes in the raw file names (e.g., TMT1-bRPLC01-1.raw and TMT1-bRPLC01-2.raw)",
+          "source": "filename"
+        },
+        "Characteristics[NumberOfSamples]": {
+          "value": "8",
+          "evidence": "Six of the eight clinical samples are paired sets of tumor and adjacent lung tissues from the same patients, and the unpaired samples are designated as patients 4 and 5 or 'P4/5.'",
+          "source": "manuscript"
+        },
+        "FactorValue[Disease]": {
+          "value": "Non-small cell lung carcinoma",
+          "evidence": "From PRIDE database confirmed information and study involves tumor and adjacent lung tissues",
+          "source": "anchor"
+        },
+        "FactorValue[FractionIdentifier]": {
+          "value": "per_file",
+          "per_file": {
+            "20150820_Haura-Pilot-TMT1-bRPLC01-1.raw": "1",
+            "20150820_Haura-Pilot-TMT1-bRPLC01-2.raw": "1",
+            "20150820_Haura-Pilot-TMT1-bRPLC02-1.raw": "2",
+            "20150820_Haura-Pilot-TMT1-bRPLC02-2.raw": "2",
+            "20150820_Haura-Pilot-TMT1-bRPLC03-1.raw": "3",
+            "20150820_Haura-Pilot-TMT1-bRPLC03-2.raw": "3",
+            "20150820_Haura-Pilot-TMT1-bRPLC04-1.raw": "4",
+            "20150820_Haura-Pilot-TMT1-bRPLC04-2.raw": "4",
+            "20150820_Haura-Pilot-TMT1-bRPLC05-1.raw": "5",
+            "20150820_Haura-Pilot-TMT1-bRPLC05-2.raw": "5",
+            "20150820_Haura-Pilot-TMT1-bRPLC06-1.raw": "6",
+            "20150820_Haura-Pilot-TMT1-bRPLC06-2.raw": "6",
+            "20150820_Haura-Pilot-TMT1-bRPLC07-1.raw": "7",
+            "20150820_Haura-Pilot-TMT1-bRPLC07-2.raw": "7",
+            "20150820_Haura-Pilot-TMT1-bRPLC08-1.raw": "8",
+            "20150820_Haura-Pilot-TMT1-bRPLC08-2.raw": "8",
+            "20150820_Haura-Pilot-TMT1-bRPLC09-1.raw": "9",
+            "20150820_Haura-Pilot-TMT1-bRPLC09-2.raw": "9",
+            "20150820_Haura-Pilot-TMT1-bRPLC10-1.raw": "10",
+            "20150820_Haura-Pilot-TMT1-bRPLC10-2.raw": "10",
+            "20150820_Haura-Pilot-TMT1-bRPLC11-1.raw": "11",
+            "20150820_Haura-Pilot-TMT1-bRPLC11-2.raw": "11",
+            "20150820_Haura-Pilot-TMT1-bRPLC12-1.raw": "12",
+            "20150820_Haura-Pilot-TMT1-bRPLC12-2.raw": "12",
+            "20150820_Haura-Pilot-TMT2-bRPLC01-1.raw": "1",
+            "20150820_Haura-Pilot-TMT2-bRPLC01-2.raw": "1",
+            "20150820_Haura-Pilot-TMT2-bRPLC02-1.raw": "2",
+            "20150820_Haura-Pilot-TMT2-bRPLC02-2.raw": "2",
+            "20150820_Haura-Pilot-TMT2-bRPLC03-1.raw": "3",
+            "20150820_Haura-Pilot-TMT2-bRPLC03-2.raw": "3",
+            "20150820_Haura-Pilot-TMT2-bRPLC04-1.raw": "4",
+            "20150820_Haura-Pilot-TMT2-bRPLC04-2.raw": "4",
+            "20150820_Haura-Pilot-TMT2-bRPLC05-1.raw": "5",
+            "20150820_Haura-Pilot-TMT2-bRPLC05-2.raw": "5",
+            "20150820_Haura-Pilot-TMT2-bRPLC06-1.raw": "6",
+            "20150820_Haura-Pilot-TMT2-bRPLC06-2.raw": "6",
+            "20150820_Haura-Pilot-TMT2-bRPLC07-1.raw": "7",
+            "20150820_Haura-Pilot-TMT2-bRPLC07-2.raw": "7",
+            "20150820_Haura-Pilot-TMT2-bRPLC08-1.raw": "8",
+            "20150820_Haura-Pilot-TMT2-bRPLC08-2.raw": "8",
+            "20150820_Haura-Pilot-TMT2-bRPLC09-1.raw": "9",
+            "20150820_Haura-Pilot-TMT2-bRPLC09-2.raw": "9",
+            "20150820_Haura-Pilot-TMT2-bRPLC10-1.raw": "10",
+            "20150820_Haura-Pilot-TMT2-bRPLC10-2.raw": "10",
+            "20150820_Haura-Pilot-TMT2-bRPLC11-1.raw": "11",
+            "20150820_Haura-Pilot-TMT2-bRPLC11-2.raw": "11",
+            "20150820_Haura-Pilot-TMT2-bRPLC12-1.raw": "12",
+            "20150820_Haura-Pilot-TMT2-bRPLC12-2.raw": "12"
+          },
+          "evidence": "Same as Comment[FractionIdentifier] - clear fraction identifiers bRPLC01-12 in file names",
+          "source": "filename"
+        }
+      },
+      "hypotheses": {
+        "Characteristics[BiologicalReplicate]": {
+          "candidates": [
+            "TMT1 and TMT2 represent different biological sample sets"
+          ],
+          "reasoning": "File names clearly show TMT1 and TMT2 groups, suggesting two separate TMT experiments, potentially representing different biological conditions or sample sets",
+          "needs": "Information about what TMT1 and TMT2 represent - different sample types, different patient groups, or different experimental conditions"
+        },
+        "Characteristics[NumberOfBiologicalReplicates]": {
+          "candidates": [
+            "6",
+            "8"
+          ],
+          "reasoning": "Text mentions 8 clinical samples total, with 6 being paired tumor/adjacent samples and 2 unpaired samples (P4/5). Unclear if this refers to biological replicates or total samples",
+          "needs": "Clarification on whether biological replicates refer to independent patients or technical handling of the same samples"
+        }
+      },
+      "not_applicable": [
+        "FactorValue[Treatment]",
+        "FactorValue[Temperature]",
+        "FactorValue[GeneticModification]",
+        "FactorValue[Compound]",
+        "FactorValue[Bait]",
+        "FactorValue[CellPart]",
+        "FactorValue[ConcentrationOfCompound].1"
+      ],
+      "summary": "TMTファイル解析により、12画分×2技術反復×2実験群（TMT1/TMT2）の構造が確定。各画分と技術反復は明確にファイル名から識別可能。8臨床検体（6ペア+2単独）が確認されたが、TMT1/TMT2が何を表すか、生物学的反復数の定義が未解決。疾患因子は肺癌で確定し、処理・化合物・遺伝子改変は適用外。"
+    }
+  }
+}

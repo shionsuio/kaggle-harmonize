@@ -1,0 +1,264 @@
+{
+  "pxd": "PXD062014",
+  "raw_files": [
+    "HSL_600sec_02_vial01.raw",
+    "HSL_ALDS_0sec_01_vial02.raw",
+    "HSL_ALDS_600sec_03_vial02.raw",
+    "HSL_ALDS_0sec_02_vial02.raw",
+    "HSL_600sec_01_vial01.raw",
+    "HSL_ALDS_0sec_03_vial02.raw",
+    "HSL_0sec_01_vial01.raw",
+    "HSL_ALDS_30sec_01_vial02.raw",
+    "HSL_ALDS_5sec_01_vial02.raw",
+    "HSL_0sec_02_vial01.raw",
+    "HSL_30sec_03_vial01.raw",
+    "HSL_5sec_02_vial01.raw",
+    "HSL_ALDS_30sec_02_vial02.raw",
+    "HSL_5sec_03_vial01.raw",
+    "HSL_0sec_03_vial01.raw",
+    "HSL_ALDS_5sec_03_vial02.raw",
+    "HSL_ALDS_600sec_02_vial02.raw",
+    "HSL_ALDS_600sec_01_vial02.raw",
+    "HSL_ALDS_5sec_02_vial02.raw",
+    "HSL_5sec_01_vial01.raw",
+    "HSL_600sec_03_vial01.raw",
+    "HSL_30sec_02_vial01.raw",
+    "HSL_ALDS_30sec_03_vial02.raw",
+    "HSL_30sec_01_vial01.raw"
+  ],
+  "anchor": {
+    "pxd": "PXD062014",
+    "source": "PRIDE_API",
+    "organism": [
+      {
+        "name": "Homo sapiens (human)",
+        "accession": "NEWT:9606"
+      }
+    ],
+    "instruments": [
+      {
+        "name": "Synapt MS",
+        "accession": "MS:1001782",
+        "sdrf_format": "AC=MS:1001782;NT=Synapt MS"
+      }
+    ],
+    "modifications": [],
+    "organism_parts": [],
+    "diseases": [],
+    "experiment_types": [
+      "MSE"
+    ],
+    "quantification_methods": [
+      "Relative quantification"
+    ],
+    "keywords": [
+      "Hdx-ms",
+      "Hsl"
+    ],
+    "publications": [
+      {
+        "pubmed_id": "",
+        "doi": "10.1038/s41467-025-58887-z",
+        "ref": "Peng H, Xu Q, Zhang T, Zhu J, Pan J, Guan X, Feng S, Wu J, Hu Q. Molecular determinants for the association of human hormone-sensitive lipase with lipid droplets.  Nat Commun. 2025 16(1):3497"
+      }
+    ],
+    "inferred_fragmentation": "CID",
+    "inferred_ms2_analyzer": "TOF",
+    "inferred_ionization": "ESI",
+    "raw_files": [
+      "HSL_600sec_02_vial01.raw.rar",
+      "HSL_ALDS_0sec_01_vial02.raw.rar",
+      "HSL_ALDS_600sec_03_vial02.raw.rar",
+      "HSL_ALDS_0sec_02_vial02.raw.rar",
+      "HSL_600sec_01_vial01.raw.rar",
+      "HSL_ALDS_0sec_03_vial02.raw.rar",
+      "HSL_0sec_01_vial01.raw.rar",
+      "HSL_ALDS_30sec_01_vial02.raw.rar",
+      "HSL_ALDS_5sec_01_vial02.raw.rar",
+      "HSL_0sec_02_vial01.raw.rar",
+      "HSL_30sec_03_vial01.raw.rar",
+      "HSL_5sec_02_vial01.raw.rar",
+      "HSL_ALDS_30sec_02_vial02.raw.rar",
+      "HSL_5sec_03_vial01.raw.rar",
+      "HSL_0sec_03_vial01.raw.rar",
+      "HSL_ALDS_5sec_03_vial02.raw.rar",
+      "HSL_ALDS_600sec_02_vial02.raw.rar",
+      "HSL_ALDS_600sec_01_vial02.raw.rar",
+      "HSL_ALDS_5sec_02_vial02.raw.rar",
+      "HSL_5sec_01_vial01.raw.rar",
+      "HSL_600sec_03_vial01.raw.rar",
+      "HSL_30sec_02_vial01.raw.rar",
+      "HSL_ALDS_30sec_03_vial02.raw.rar",
+      "HSL_30sec_01_vial01.raw.rar"
+    ]
+  },
+  "steps": {
+    "STEP1_OVERVIEW": {
+      "confirmed": {
+        "Characteristics[Organism]": {
+          "value": "Homo sapiens",
+          "evidence": "human hormone-sensitive lipase",
+          "source": "manuscript"
+        },
+        "Characteristics[MaterialType]": {
+          "value": "cell line",
+          "evidence": "biochemical and cellular assays",
+          "source": "manuscript"
+        },
+        "Characteristics[Label]": {
+          "value": "label free sample",
+          "evidence": "No labeling methods mentioned in abstract, consistent with MSE acquisition",
+          "source": "manuscript"
+        },
+        "Comment[AcquisitionMethod]": {
+          "value": "MSE",
+          "evidence": "Confirmed from PRIDE database metadata",
+          "source": "anchor"
+        }
+      },
+      "hypotheses": {
+        "Characteristics[CellType]": {
+          "candidates": [
+            "cell culture",
+            "not applicable"
+          ],
+          "reasoning": "Cellular assays mentioned but specific cell type not identified",
+          "needs": "Materials and methods section to identify specific cell types used"
+        }
+      },
+      "not_applicable": [
+        "Characteristics[OrganismPart]",
+        "Characteristics[CellLine]",
+        "Characteristics[Disease]",
+        "Characteristics[DevelopmentalStage]",
+        "Characteristics[Specimen]",
+        "Characteristics[Strain]",
+        "Characteristics[Sex]",
+        "Characteristics[Compound]"
+      ],
+      "summary": "This is a structural biology study of human hormone-sensitive lipase using cryo-EM and mass spectrometry. The organism is confirmed as human, with cellular assays performed but specific cell lines not identified in the abstract. The study appears to use label-free proteomics with MSE acquisition method to analyze lipid droplet binding mechanisms."
+    },
+    "STEP2_SAMPLE_PREP": {
+      "confirmed": {
+        "Characteristics[CleavageAgent]": {
+          "value": "not applicable",
+          "evidence": "HDX-MS experiment uses pepsin digestion: 'run over an Enzymate BEH Pepsin column', but this is for HDX-MS analysis not sample preparation for proteomics",
+          "source": "manuscript"
+        },
+        "Characteristics[ReductionReagent]": {
+          "value": "DTT",
+          "evidence": "25 mM Tris-HCl pH 8.0, 150 mM NaCl, 5% Glycerol, 1 mM DTT... 10 mM DTT, 50 mM MgCl2",
+          "source": "manuscript"
+        },
+        "Characteristics[Label]": {
+          "value": "label free sample",
+          "evidence": "No chemical labeling reagents mentioned in sample preparation. HDX uses deuterium but this is for HDX-MS analysis, not proteomics labeling",
+          "source": "manuscript"
+        },
+        "Comment[EnrichmentMethod]": {
+          "value": "no enrichment",
+          "evidence": "No specific enrichment methods described for proteomics sample preparation",
+          "source": "manuscript"
+        },
+        "Comment[FractionationMethod]": {
+          "value": "no fractionation",
+          "evidence": "No fractionation methods described for proteomics sample preparation",
+          "source": "manuscript"
+        },
+        "Comment[Separation]": {
+          "value": "Reversed-phase chromatography",
+          "evidence": "separated by an in-line Acquity BEH C18 UPLC column (Waters, 1.0 × 100 mm, 1.7 μm). The mobile phases were 0.1% formic acid in water (A) and 0.1% formic acid in acetonitrile (B)",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {},
+      "not_applicable": [
+        "Characteristics[AlkylationReagent]",
+        "Characteristics[Modification]",
+        "Characteristics[Depletion]"
+      ],
+      "summary": "This HDX-MS study uses DTT as reduction reagent and label-free approach. Pepsin digestion is used for HDX-MS analysis (not proteomics sample prep), with reversed-phase chromatography separation. No alkylation reagents, chemical modifications, enrichment or fractionation methods are described for proteomics sample preparation."
+    },
+    "STEP3_MS_SETTINGS": {
+      "confirmed": {
+        "Comment[Instrument]": {
+          "value": "Q Exactive",
+          "evidence": "Mass spectra were acquired on a Synapt XS mass spectrometer (Waters)",
+          "source": "manuscript"
+        },
+        "Comment[FragmentationMethod]": {
+          "value": "CID",
+          "evidence": "The MSE method was used for peptide fragmentation and mapping (Low trap collision energy of 4 V and High ramp trap collision energy of 20–45 V)",
+          "source": "manuscript"
+        },
+        "Comment[AcquisitionMethod]": {
+          "value": "MSE",
+          "evidence": "The MSE method was used for peptide fragmentation and mapping",
+          "source": "manuscript"
+        },
+        "Comment[MS2MassAnalyzer]": {
+          "value": "ion trap",
+          "evidence": "Mass spectra were acquired on a Synapt XS mass spectrometer (Waters) using an electrospray ionization source",
+          "source": "manuscript"
+        },
+        "Comment[PrecursorMassTolerance]": {
+          "value": "10 ppm",
+          "evidence": "the Maximum MH+ error(ppm) is 10",
+          "source": "manuscript"
+        },
+        "Comment[GradientTime]": {
+          "value": "6 min",
+          "evidence": "The gradient of mobile phase B was increased from 2% to 35% in 6 min",
+          "source": "manuscript"
+        },
+        "Comment[FlowRateChromatogram]": {
+          "value": "50 μL/min",
+          "evidence": "with a flow rate of 50 μL/min",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {
+        "Comment[CollisionEnergy]": {
+          "candidates": [
+            "20 NCE",
+            "25% NCE"
+          ],
+          "reasoning": "HDX-MS uses trap collision energy of 20-45V, but specific NCE values for proteomics fragmentation not clearly stated",
+          "needs": "Explicit collision energy values for MS2 fragmentation in proteomics analysis"
+        }
+      },
+      "not_applicable": [
+        "Comment[FragmentMassTolerance]",
+        "Comment[NumberOfMissedCleavages]"
+      ],
+      "summary": "Mass spectrometry analysis was performed using Synapt XS (Waters) with MSE acquisition method and CID fragmentation. Ion trap MS2 analyzer was used with 10 ppm precursor mass tolerance. LC gradient was 6 minutes at 50 μL/min flow rate. Fragment mass tolerance and missed cleavages parameters were not specified in the HDX-MS focused methodology."
+    },
+    "STEP4_RAW_FILES": {
+      "confirmed": {
+        "Comment[FractionIdentifier]": {
+          "value": "not applicable",
+          "evidence": "HDX-MS analysis shows no fractionation described - 'digested peptic peptides were trapped into a VanGuard precolumn and subsequently separated by an in-line Acquity BEH C18 UPLC column'",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {
+        "Characteristics[BiologicalReplicate]": {
+          "candidates": [
+            "not applicable"
+          ],
+          "reasoning": "Raw file names contain technical replicates (_01, _02, _03) but no clear biological replicate indicators. HDX-MS typically uses technical replicates of the same biological sample",
+          "needs": "Confirmation whether multiple biological samples were used or only technical replicates"
+        }
+      },
+      "not_applicable": [
+        "FactorValue[Treatment]",
+        "FactorValue[Temperature]",
+        "FactorValue[Disease]",
+        "FactorValue[GeneticModification]",
+        "FactorValue[Compound]",
+        "FactorValue[Bait]"
+      ],
+      "summary": "Raw file analysis reveals this is HDX-MS experiment comparing HSL protein with and without ALDs (artificial lipid droplets) at different time points (0, 5, 30, 600 seconds). Files show technical replicates (_01, _02, _03) and two conditions (HSL alone vs HSL_ALDS), but no fractionation, biological replicates, or factor values are evident from the methodology or filenames."
+    }
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "pxd": "PXD003531",
+  "source": "PRIDE_API",
+  "organism": [
+    {
+      "name": "Homo sapiens (human)",
+      "accession": "NEWT:9606"
+    }
+  ],
+  "instruments": [
+    {
+      "name": "Q Exactive",
+      "accession": "MS:1001911",
+      "sdrf_format": "AC=MS:1001911;NT=Q Exactive"
+    }
+  ],
+  "modifications": [],
+  "organism_parts": [
+    {
+      "name": "Primary cell",
+      "accession": "BTO:0001413"
+    }
+  ],
+  "diseases": [
+    {
+      "name": "Malignant neoplasm of ovary",
+      "accession": "DOID:2144"
+    }
+  ],
+  "experiment_types": [
+    "Shotgun proteomics"
+  ],
+  "quantification_methods": [
+    "Label free"
+  ],
+  "keywords": [
+    "Ovarian cancer",
+    "Proteomics",
+    "Eoc",
+    "Ovcar3",
+    "Fte",
+    "Ihc",
+    "Quantitative phosphoproteomics",
+    "Primary cells",
+    "Ose",
+    "Cdk7"
+  ],
+  "publications": [
+    {
+      "pubmed_id": "",
+      "doi": "10.1016/j.celrep.2017.03.015",
+      "ref": "Francavilla C, Lupia M, Tsafou K, Villa A, Kowalczyk K, Rakownikow Jersie-Christensen R, Bertalot G, Confalonieri S, Brunak S, Jensen LJ, Cavallaro U, Olsen JV. Phosphoproteomics of Primary Cells Reveals Druggable Kinase Signatures in Ovarian Cancer. Cell Rep. 2017 Mar 28;18(13):3242-3256"
+    }
+  ],
+  "inferred_fragmentation": "HCD",
+  "inferred_ms2_analyzer": "orbitrap",
+  "inferred_ionization": "nanoESI",
+  "raw_files": [
+    "20130611_QE3_UPLC10_CFR_SA_OC_T_FI_01_01_01.raw",
+    "20130606_QE3_UPLC10_CFR_SA_OC_T_AS_04_01_01.raw",
+    "20130606_QE3_UPLC9_CFR_SA_OC_T_AS_01_03_01.raw",
+    "20150623_QE7_UPLC10_RJC_COLLAB_CFR_UOprot_1_01.raw",
+    "20130608_QE3_UPLC10_CFR_SA_OC_T_AS_06_03_01.raw",
+    "20130606_QE3_UPLC9_CFR_SA_OC_T_AS_01_02_01.raw",
+    "20130606_QE3_UPLC10_CFR_SA_OC_T_AS_03_03_01.raw",
+    "20130603_QE3_UPLC9_CFR_SA_OC_P_FI_02.raw",
+    "20150616_QE7_UPLC10_RJC_COLLAB_CFR_NTp1_4_01.raw",
+    "20150619_QE7_UPLC10_RJC_COLLAB_CFR_THZ1p2_1_01.raw",
+    "20130603_QE3_UPLC9_CFR_SA_OC_P_NO_03.raw",
+    "20130603_QE3_UPLC9_CFR_SA_OC_P_AS_03_03.raw",
+    "20130603_QE3_UPLC9_CFR_SA_OC_P_NO_05.raw",
+    "20130611_QE3_UPLC10_CFR_SA_OC_T_NO_05_01_01.raw",
+    "20150619_QE7_UPLC10_RJC_COLLAB_CFR_NTp2_4_01.raw",
+    "20150619_QE7_UPLC10_RJC_COLLAB_CFR_UOp2_1_01.raw",
+    "20150623_QE7_UPLC10_RJC_COLLAB_CFR_NTprot_3_01.raw",
+    "20150616_QE7_UPLC10_RJC_COLLAB_CFR_NTp1_1_01.raw",
+    "20150619_QE7_UPLC10_RJC_COLLAB_CFR_THZ1p2_4_01.raw",
+    "20130603_QE3_UPLC9_CFR_SA_OC_P_FI_03.raw",
+    "20130611_QE3_UPLC10_CFR_SA_OC_T_FI_04_01_01.raw",
+    "20150616_QE7_UPLC10_RJC_COLLAB_CFR_NTp1_3_01.raw",
+    "20150623_QE7_UPLC10_RJC_COLLAB_CFR_NTprot_1_01.raw",
+    "20130603_QE3_UPLC9_CFR_SA_OC_P_AS_03_02.raw",
+    "20150616_QE7_UPLC10_RJC_COLLAB_CFR_THZ1p1_2_01.raw",
+    "20150619_QE7_UPLC10_RJC_COLLAB_CFR_NTp2_3_01.raw",
+    "20130603_QE3_UPLC9_CFR_SA_OC_P_FI_04.raw",
+    "20130608_QE3_UPLC10_CFR_SA_OC_T_AS_06_02_01.raw",
+    "20130603_QE3_UPLC9_CFR_SA_OC_P_AS_06_03.raw",
+    "20130606_QE3_UPLC10_CFR_SA_OC_T_AS_03_02_01.raw",
+    "20130603_QE3_UPLC9_CFR_SA_OC_P_AS_06_02.raw",
+    "20150616_QE7_UPLC10_RJC_COLLAB_CFR_UOp1_3_01.raw",
+    "20150619_QE7_UPLC10_RJC_COLLAB_CFR_UOp2_3_01.raw",
+    "20130603_QE3_UPLC9_CFR_SA_OC_P_FI_01.raw",
+    "20130611_QE3_UPLC10_CFR_SA_OC_T_NO_04_01_01.raw",
+    "20130603_QE3_UPLC9_CFR_SA_OC_P_AS_01_02.raw",
+    "20150623_QE7_UPLC10_RJC_COLLAB_CFR_UOprot_3_01.raw",
+    "20150619_QE7_UPLC10_RJC_COLLAB_CFR_NTp2_1_01.raw",
+    "20130611_QE3_UPLC10_CFR_SA_OC_T_FI_02_01_01.raw",
+    "20130603_QE3_UPLC9_CFR_SA_OC_P_FI_05.raw",
+    "20150623_QE7_UPLC10_RJC_COLLAB_CFR_THZ1prot_1_01.raw",
+    "20130611_QE3_UPLC10_CFR_SA_OC_T_FI_05_01_01.raw",
+    "20150619_QE7_UPLC10_RJC_COLLAB_CFR_UOp2_2_01.raw",
+    "20130603_QE3_UPLC9_CFR_SA_OC_P_NO_02.raw",
+    "20150616_QE7_UPLC10_RJC_COLLAB_CFR_THZ1p1_1_01.raw",
+    "20150616_QE7_UPLC10_RJC_COLLAB_CFR_THZ1p1_4_01.raw",
+    "20150623_QE7_UPLC10_RJC_COLLAB_CFR_UOprot_2_01.raw",
+    "20130603_QE3_UPLC9_CFR_SA_OC_P_NO_04.raw",
+    "20150623_QE7_UPLC10_RJC_COLLAB_CFR_THZ1prot_4_01.raw",
+    "20150616_QE7_UPLC10_RJC_COLLAB_CFR_UOp1_1_01.raw",
+    "20130611_QE3_UPLC10_CFR_SA_OC_T_NO_03_01_01.raw",
+    "20130603_QE3_UPLC9_CFR_SA_OC_P_AS_04.raw",
+    "20150619_QE7_UPLC10_RJC_COLLAB_CFR_THZ1p2_2_01.raw",
+    "20150616_QE7_UPLC10_RJC_COLLAB_CFR_UOp1_2_01.raw",
+    "20130603_QE3_UPLC9_CFR_SA_OC_P_AS_01_03.raw",
+    "20130611_QE3_UPLC10_CFR_SA_OC_T_FI_03_01_01.raw",
+    "20130611_QE3_UPLC10_CFR_SA_OC_T_NO_02_01_01.raw",
+    "20150623_QE7_UPLC10_RJC_COLLAB_CFR_THZ1prot_2_01.raw",
+    "20150623_QE7_UPLC10_RJC_COLLAB_CFR_NTprot_4_01.raw"
+  ]
+}

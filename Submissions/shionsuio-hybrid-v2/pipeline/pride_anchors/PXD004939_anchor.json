@@ -1,0 +1,53 @@
+{
+  "pxd": "PXD004939",
+  "source": "PRIDE_API",
+  "organism": [
+    {
+      "name": "Oryza sativa (rice)",
+      "accession": "NEWT:4530"
+    }
+  ],
+  "instruments": [
+    {
+      "name": "Q Exactive",
+      "accession": "MS:1001911",
+      "sdrf_format": "AC=MS:1001911;NT=Q Exactive"
+    }
+  ],
+  "modifications": [],
+  "organism_parts": [
+    {
+      "name": "Leaf",
+      "accession": "BTO:0000713"
+    }
+  ],
+  "diseases": [],
+  "experiment_types": [
+    "Affinity purification coupled with mass spectrometry proteomics"
+  ],
+  "quantification_methods": [],
+  "keywords": [
+    "Rice (oryza sativa l.) - abscisic acid - signaling - phosphorylation - proteome"
+  ],
+  "publications": [
+    {
+      "pubmed_id": "",
+      "doi": "10.3390/ijms18010060",
+      "ref": "Qiu J, Hou Y, Wang Y, Li Z, Zhao J, Tong X, Lin H, Wei X, Ao H, Zhang J. A Comprehensive Proteomic Survey of ABA-Induced Protein Phosphorylation in Rice (Oryza sativa L.). Int J Mol Sci. 2017 Jan 3;18(1). pii: E60"
+    }
+  ],
+  "inferred_fragmentation": "HCD",
+  "inferred_ms2_analyzer": "orbitrap",
+  "inferred_ionization": "nanoESI",
+  "raw_files": [
+    "Rice_phos_ABA_3h_20per_F1_R1.raw",
+    "Rice_phos_ABA_12h_20per_F1_R2.raw",
+    "Rice_phos_Nip_0h_20per_F1_R1.raw",
+    "Rice_phos_Nip_0h_20per_F1_R2.raw",
+    "Rice_phos_ABA_12h_20per_F1_R3.raw",
+    "Rice_phos_ABA_3h_20per_F1_R2.raw",
+    "Rice_phos_ABA_3h_20per_F1_R3.raw",
+    "Rice_phos_Nip_0h_20per_F1_R3.raw",
+    "Rice_phos_ABA_12h_20per_F1_R1.raw"
+  ]
+}

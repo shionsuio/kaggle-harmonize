@@ -1,0 +1,359 @@
+{
+  "pxd": "PXD061285",
+  "raw_files": [
+    "mousebrain-KO-Tmem9-CL47-T9AC2-rb1_u.raw",
+    "mousebrain-WT-CL47-T9BC1_u.raw",
+    "mousebrain-WT-CL47-T9Act-rb2_u.raw",
+    "mousebrain-KO-Tmem9b-CL47-T9BC2_o.raw",
+    "mousebrain-KO-Tmem9b-CL47-T9B-Proteintech-24331-1_o.raw",
+    "mousebrain2-KO-Tmem9-CL47-T9BC2_u.raw",
+    "mousebrain-KO-Tmem9-CL47-T9AC2-rb1_o.raw",
+    "mousebrain2-WT-CL47_T9AC2-rb1_u.raw",
+    "mousebrain2-KO-Tmem9-CL47-T9BC2_o.raw",
+    "mousebrain-WT-CL47-IgG-control-2_u.raw",
+    "mousebrain-KO-Tmem9b-CL47-T9BC2_u.raw",
+    "mousebrain-KO-Tmem9b-CL47-T9B-Proteintech-24331-1_u.raw",
+    "mousebrain3-Venus-CLCN3-CL47-GFP-RnDSystems-AF4240_o.raw",
+    "mousebrain-KO-Tmem9b-CL47-T9BCt-gp2_u.raw",
+    "mousebrain-WT-CL47-T9AC2-rb2_u.raw",
+    "mousebrain-WT-CL47-IgG-control-3_u.raw",
+    "mousebrain-Venus-CLCN3-CL47-GFP-RnDSystems-AF4240_o.raw",
+    "mousebrain-WT-CL47-IgG-control-1_u.raw",
+    "mousebrain2-Venus-CLCN3-CL47-GFP-Roche-11814460001_o.raw",
+    "mousebrain-Venus-CLCN3-CL47-GFP-Roche-11814460001_u.raw",
+    "mousebrain-KO-Tmem9-CL47-T9ACt-rb2_u.raw",
+    "mousebrain2-KO-Tmem9-CL47-TMEM9B-Proteintech-24331-1_u.raw",
+    "mousebrain2-KO-Tmem9-CL47-TMEM9B-Proteintech-24331-1_o.raw",
+    "mousebrain-WT-CL47-T9AC2-gp1_o.raw",
+    "mousebrain2-Venus-CLCN3-CL47-GFP-RnDSystems-AF4240_o.raw",
+    "mousebrain2-WT-CL47_T9AC2-rb1_o.raw",
+    "mousebrain-KO-Tmem9-CL47-T9AC2-gp1_o.raw",
+    "mousebrain-WT-CL47-T9Act-rb2_o.raw",
+    "mousebrain-WT-CL47-T9AC2-rb1_o.raw",
+    "mousebrain-WT-CL47-T9BC2_u.raw",
+    "mousebrain-KO-Tmem9-CL47-T9AC2-gp1_u.raw",
+    "mousebrain2-Venus-CLCN3-CL47-GFP-Roche-11814460001_u.raw",
+    "mousebrain-WT-CL47-T9AC2-gp1_u.raw",
+    "mousebrain-KO-Tmem9b-CL47-T9BC1_o.raw",
+    "mousebrain3-Venus-CLCN3-CL47-GFP-RnDSystems-AF4240_u.raw",
+    "mousebrain-WT-CL47-T9B-Proteintech-24331-1_o.raw",
+    "mousebrain-WT-CL47-T9AC2-rb1_u.raw",
+    "mousebrain2-KO-Tmem9-CL47-T9AC2-rb1_o.raw",
+    "mousebrain2-Venus-CLCN3-CL47-GFP-RnDSystems-AF4240_u.raw",
+    "mousebrain-KO-Tmem9b-CL47-T9BCt-gp2_o.raw",
+    "mousebrain-KO-Tmem9-CL47-T9ACt-rb2_o.raw",
+    "mousebrain-WT-CL47-T9Bct-gp2_o.raw",
+    "mousebrain2-KO-Tmem9-CL47-T9AC2-rb1_u.raw",
+    "mousebrain-Venus-CLCN3-CL47-GFP-Roche-11814460001_o.raw",
+    "mousebrain-WT-CL47-T9B-Proteintech-24331-1_u.raw",
+    "mousebrain-WT-CL47-IgG-control-1_o.raw",
+    "mousebrain2-WT-CL47_TMEM9B-Proteintech-24331-1_u.raw",
+    "mousebrain-WT-CL47-T9BC2_o.raw",
+    "mousebrain-WT-CL47-T9Bct-gp2_u.raw",
+    "mousebrain-KO-Tmem9-CL47-T9AC2-rb2_u.raw",
+    "mousebrain2-WT-CL47-T9BC2_o.raw",
+    "mousebrain-WT-CL47-IgG-control-3_o.raw",
+    "mousebrain-WT-CL47-T9BC1_o.raw",
+    "mousebrain-Venus-CLCN3-CL47-GFP-RnDSystems-AF4240_u.raw",
+    "mousebrain2-WT-CL47_TMEM9B-Proteintech-24331-1_o.raw",
+    "mousebrain2-WT-CL47-T9BC2_u.raw",
+    "mousebrain-WT-CL47-IgG-control-2_o.raw",
+    "mousebrain-KO-Tmem9b-CL47-T9BC1_u.raw",
+    "mousebrain-WT-CL47-T9AC2-rb2_o.raw",
+    "mousebrain-KO-Tmem9-CL47-T9AC2-rb2_o.raw"
+  ],
+  "anchor": {
+    "pxd": "PXD061285",
+    "source": "PRIDE_API",
+    "organism": [
+      {
+        "name": "Mus musculus (mouse)",
+        "accession": "NEWT:10090"
+      }
+    ],
+    "instruments": [
+      {
+        "name": "LTQ Orbitrap Elite",
+        "accession": "MS:1001910",
+        "sdrf_format": "AC=MS:1001910;NT=LTQ Orbitrap Elite"
+      }
+    ],
+    "modifications": [],
+    "organism_parts": [
+      {
+        "name": "Brain",
+        "accession": "BTO:0000142"
+      }
+    ],
+    "diseases": [],
+    "experiment_types": [
+      "Bottom-up proteomics",
+      "Affinity purification coupled with mass spectrometry proteomics",
+      "Data-dependent acquisition"
+    ],
+    "quantification_methods": [
+      "MS1 intensity based label-free quantification method"
+    ],
+    "keywords": [
+      "Ap-ms",
+      "Chloride channels",
+      "Membrane protein complex",
+      "Auxiliary subunits",
+      "Mouse brain",
+      "Protein-protein interactions"
+    ],
+    "publications": [
+      {
+        "pubmed_id": "",
+        "doi": "10.1038/s41467-025-58546-3",
+        "ref": "Planells-Cases R, Vorobeva V, Kar S, Schmitt FW, Schulte U, Schrecker M, Hite RK, Fakler B, Jentsch TJ. Endosomal chloride/proton exchangers need inhibitory TMEM9 β-subunits for regulation and prevention of disease-causing overactivity. Nat Commun. 2025 16(1):3117"
+      }
+    ],
+    "inferred_fragmentation": null,
+    "inferred_ms2_analyzer": "orbitrap",
+    "inferred_ionization": "nanoESI",
+    "raw_files": [
+      "mousebrain-KO-Tmem9-CL47-T9AC2-rb1_u.raw",
+      "mousebrain-WT-CL47-T9BC1_u.raw",
+      "mousebrain-WT-CL47-T9Act-rb2_u.raw",
+      "mousebrain-KO-Tmem9b-CL47-T9BC2_o.raw",
+      "mousebrain-KO-Tmem9b-CL47-T9B-Proteintech-24331-1_o.raw",
+      "mousebrain2-KO-Tmem9-CL47-T9BC2_u.raw",
+      "mousebrain-KO-Tmem9-CL47-T9AC2-rb1_o.raw",
+      "mousebrain2-WT-CL47_T9AC2-rb1_u.raw",
+      "mousebrain2-KO-Tmem9-CL47-T9BC2_o.raw",
+      "mousebrain-WT-CL47-IgG-control-2_u.raw",
+      "mousebrain-KO-Tmem9b-CL47-T9BC2_u.raw",
+      "mousebrain-KO-Tmem9b-CL47-T9B-Proteintech-24331-1_u.raw",
+      "mousebrain3-Venus-CLCN3-CL47-GFP-RnDSystems-AF4240_o.raw",
+      "mousebrain-KO-Tmem9b-CL47-T9BCt-gp2_u.raw",
+      "mousebrain-WT-CL47-T9AC2-rb2_u.raw",
+      "mousebrain-WT-CL47-IgG-control-3_u.raw",
+      "mousebrain-Venus-CLCN3-CL47-GFP-RnDSystems-AF4240_o.raw",
+      "mousebrain-WT-CL47-IgG-control-1_u.raw",
+      "mousebrain2-Venus-CLCN3-CL47-GFP-Roche-11814460001_o.raw",
+      "mousebrain-Venus-CLCN3-CL47-GFP-Roche-11814460001_u.raw",
+      "mousebrain-KO-Tmem9-CL47-T9ACt-rb2_u.raw",
+      "mousebrain2-KO-Tmem9-CL47-TMEM9B-Proteintech-24331-1_u.raw",
+      "mousebrain2-KO-Tmem9-CL47-TMEM9B-Proteintech-24331-1_o.raw",
+      "mousebrain-WT-CL47-T9AC2-gp1_o.raw",
+      "mousebrain2-Venus-CLCN3-CL47-GFP-RnDSystems-AF4240_o.raw",
+      "mousebrain2-WT-CL47_T9AC2-rb1_o.raw",
+      "mousebrain-KO-Tmem9-CL47-T9AC2-gp1_o.raw",
+      "mousebrain-WT-CL47-T9Act-rb2_o.raw",
+      "mousebrain-WT-CL47-T9AC2-rb1_o.raw",
+      "mousebrain-WT-CL47-T9BC2_u.raw",
+      "mousebrain-KO-Tmem9-CL47-T9AC2-gp1_u.raw",
+      "mousebrain2-Venus-CLCN3-CL47-GFP-Roche-11814460001_u.raw",
+      "mousebrain-WT-CL47-T9AC2-gp1_u.raw",
+      "mousebrain-KO-Tmem9b-CL47-T9BC1_o.raw",
+      "mousebrain3-Venus-CLCN3-CL47-GFP-RnDSystems-AF4240_u.raw",
+      "mousebrain-WT-CL47-T9B-Proteintech-24331-1_o.raw",
+      "mousebrain-WT-CL47-T9AC2-rb1_u.raw",
+      "mousebrain2-KO-Tmem9-CL47-T9AC2-rb1_o.raw",
+      "mousebrain2-Venus-CLCN3-CL47-GFP-RnDSystems-AF4240_u.raw",
+      "mousebrain-KO-Tmem9b-CL47-T9BCt-gp2_o.raw",
+      "mousebrain-KO-Tmem9-CL47-T9ACt-rb2_o.raw",
+      "mousebrain-WT-CL47-T9Bct-gp2_o.raw",
+      "mousebrain2-KO-Tmem9-CL47-T9AC2-rb1_u.raw",
+      "mousebrain-Venus-CLCN3-CL47-GFP-Roche-11814460001_o.raw",
+      "mousebrain-WT-CL47-T9B-Proteintech-24331-1_u.raw"
+    ]
+  },
+  "steps": {
+    "STEP1_OVERVIEW": {
+      "confirmed": {
+        "Characteristics[Organism]": {
+          "value": "Mus musculus",
+          "evidence": "Mice lacking both β-subunits displayed severely reduced levels of all three CLCs and died embryonically or shortly after birth.",
+          "source": "manuscript"
+        },
+        "Characteristics[DevelopmentalStage]": {
+          "value": "embryo stage",
+          "evidence": "Mice lacking both β-subunits displayed severely reduced levels of all three CLCs and died embryonically or shortly after birth.",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {
+        "Characteristics[MaterialType]": {
+          "candidates": [
+            "tissue",
+            "organism part",
+            "cell"
+          ],
+          "reasoning": "エンドソームの研究であり、細胞やマウス組織を使用していると推測されるが、具体的な記載なし",
+          "needs": "材料・方法での実験材料の具体的記載"
+        },
+        "Characteristics[Label]": {
+          "candidates": [
+            "label free sample",
+            "Label free"
+          ],
+          "reasoning": "プロテオミクス実験だが、論文テキストに標識に関する記載なし。一般的には label free が多用される",
+          "needs": "質量分析手法の詳細記載"
+        }
+      },
+      "not_applicable": [
+        "Characteristics[OrganismPart]",
+        "Characteristics[CellType]",
+        "Characteristics[CellLine]",
+        "Characteristics[Disease]",
+        "Characteristics[Specimen]",
+        "Characteristics[Strain]",
+        "Characteristics[Sex]",
+        "Characteristics[Compound]",
+        "Comment[AcquisitionMethod]"
+      ],
+      "summary": "マウス（Mus musculus）を用いた胚期の研究であることが確認された。エンドソームのCLC輸送体とTMEM9サブユニットの機能解析が主目的で、胚致死の表現型解析が行われている。具体的な組織部位、細胞株、標識方法については追加情報が必要。"
+    },
+    "STEP2_SAMPLE_PREP": {
+      "confirmed": {
+        "Characteristics[CleavageAgent]": {
+          "value": "Trypsin",
+          "evidence": "After in-gel tryptic digestion, samples were analyzed on a Q Exactive mass spectrometer",
+          "source": "manuscript"
+        },
+        "Characteristics[ReductionReagent]": {
+          "value": "DTT",
+          "evidence": "eluted twice with non-reducing Laemmli buffer (100 mM DTT added after elution)",
+          "source": "manuscript"
+        },
+        "Characteristics[Label]": {
+          "value": "label free sample",
+          "evidence": "Label-free quantification of proteins was done as described above; protein abundance was calculated as abundance norm values",
+          "source": "manuscript"
+        },
+        "Comment[EnrichmentMethod]": {
+          "value": "no enrichment",
+          "evidence": "Bottom-up proteomics, Affinity purification coupled with mass spectrometry proteomics",
+          "source": "manuscript"
+        },
+        "Comment[FractionationMethod]": {
+          "value": "SDS-PAGE",
+          "evidence": "Samples were shortly run on SDS-PAGE gels, silver-stained, and higher- ( > 50 kDa) and lower molecular weight ( < 50 kDa) sections were excised for in-gel tryptic digestion",
+          "source": "manuscript"
+        },
+        "Comment[Separation]": {
+          "value": "Reversed-phase chromatography",
+          "evidence": "C18 pre-column (PepMap100, 5 mm particles), SilicaTip emitter (75 mm i.d., 8 mm tip, New Objective Inc) manually packed with ReproSil-Pur 120 ODS-3 (C18; particle size 3 µm)",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {
+        "Characteristics[AlkylationReagent]": {
+          "candidates": [
+            "IAA"
+          ],
+          "reasoning": "一般的なタンパク質解析ワークフローではアルキル化試薬が使われるが、論文テキストに明示的な記載がない",
+          "needs": "アルキル化試薬の明示的な記述"
+        }
+      },
+      "not_applicable": [
+        "Characteristics[Modification]",
+        "Characteristics[Depletion]"
+      ],
+      "summary": "マウス脳組織からのタンパク質解析でトリプシン消化、DTT還元、ラベルフリー定量が確認された。SDS-PAGE分画とC18逆相クロマトグラフィー分離が使用され、特別な濃縮は行われていない。アルキル化試薬の詳細は不明で、修飾解析や特定タンパク質の除去は対象外。"
+    },
+    "STEP3_MS_SETTINGS": {
+      "confirmed": {
+        "Comment[Instrument]": {
+          "value": "Q Exactive",
+          "evidence": "samples were analyzed on a Q Exactive mass spectrometer coupled to an UltiMate 3000 RSLCnano HPLC system",
+          "source": "manuscript"
+        },
+        "Comment[MS2MassAnalyzer]": {
+          "value": "Orbitrap",
+          "evidence": "samples were analyzed on a Q Exactive mass spectrometer",
+          "source": "manuscript"
+        },
+        "Comment[FragmentationMethod]": {
+          "value": "CID",
+          "evidence": "up to 10 CID MS/MS fragment spectra/cycle (target value 2000)",
+          "source": "manuscript"
+        },
+        "Comment[AcquisitionMethod]": {
+          "value": "DDA",
+          "evidence": "Data-dependent acquisition",
+          "source": "confirmed_from_pride"
+        }
+      },
+      "hypotheses": {
+        "Comment[CollisionEnergy]": {
+          "candidates": [
+            "30 NCE",
+            "25 NCE",
+            "35 NCE"
+          ],
+          "reasoning": "CID fragmentationが使用されているが、論文テキストに具体的なエネルギー値の記載がない。Q Exactiveの標準的なCIDエネルギー設定を想定",
+          "needs": "mass spectrometer parameter section or methods supplement"
+        },
+        "Comment[PrecursorMassTolerance]": {
+          "candidates": [
+            "10 ppm",
+            "20 ppm",
+            "5 ppm"
+          ],
+          "reasoning": "高分解能質量分析計Q Exactiveが使用されているため、典型的なppmレベルの設定が想定される",
+          "needs": "database search parameters section"
+        },
+        "Comment[FragmentMassTolerance]": {
+          "candidates": [
+            "0.02 Da",
+            "0.05 Da",
+            "20 ppm"
+          ],
+          "reasoning": "OrbitrapのMS/MS測定であれば、高精度設定または固定Da値が使用される可能性",
+          "needs": "database search parameters section"
+        }
+      },
+      "not_applicable": [
+        "Comment[NumberOfMissedCleavages]",
+        "Comment[GradientTime]",
+        "Comment[FlowRateChromatogram]"
+      ],
+      "summary": "Q Exactive質量分析計でCID断片化、Orbitrap MS/MS解析、データ依存取得が確認された。衝突エネルギーやマス許容値などの詳細パラメータは論文に明示されておらず、データベース検索設定情報が必要。グラジエント時間やフローレートの記載はない。"
+    },
+    "STEP4_RAW_FILES": {
+      "confirmed": {
+        "Comment[FractionIdentifier]": {
+          "value": "membrane",
+          "evidence": "Plasma membrane-enriched fractions were prepared from two freshly isolated mouse brains",
+          "source": "manuscript"
+        },
+        "Characteristics[BiologicalReplicate]": {
+          "value": "mouse 1",
+          "evidence": "Plasma membrane-enriched fractions were prepared from two freshly isolated mouse brains, mousebrain2- prefix indicating second biological replicate",
+          "source": "manuscript/filename"
+        }
+      },
+      "hypotheses": {
+        "FactorValue[GeneticModification]": {
+          "candidates": [
+            "KO-Tmem9",
+            "KO-Tmem9b",
+            "Venus-CLCN3"
+          ],
+          "reasoning": "Rawファイル名にKO-Tmem9, KO-Tmem9b, Venus-CLCN3の記載があり、論文でTmem9/Tmem9bノックアウトマウスとVenus-ClC-3トランスジェニックマウスの使用が確認される",
+          "needs": "遺伝子改変の正確な命名規則の確認"
+        },
+        "FactorValue[Bait]": {
+          "candidates": [
+            "T9AC2",
+            "T9BC1",
+            "T9BC2",
+            "GFP"
+          ],
+          "reasoning": "アフィニティ精製実験で使用された抗体ターゲット（T9AC2-rb1, T9BC1, T9BC2, GFP-Roche等）がbaitとして機能",
+          "needs": "免疫沈降のbaitタンパク質の正確な分類"
+        }
+      },
+      "not_applicable": [
+        "FactorValue[Treatment]",
+        "FactorValue[Temperature]",
+        "FactorValue[Disease]",
+        "FactorValue[Compound]"
+      ],
+      "summary": "マウス脳膜画分からの2つの生物学的複製を用いたアフィニティ精製MS実験が確認された。Tmem9/Tmem9bノックアウトおよびVenus-CLCN3トランスジェニック系統が使用され、複数の抗体（T9AC2、T9BC1、T9BC2、GFP）によるbait精製が行われている。温度、化合物、疾患、処理条件は適用されない。"
+    }
+  }
+}

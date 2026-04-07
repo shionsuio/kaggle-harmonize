@@ -1,0 +1,429 @@
+{
+  "pxd": "PXD040582",
+  "raw_files": [
+    "20230209_HCMV_CDV_VME_Mock_BR2.raw",
+    "20230209_HCMV_Ctrl_VME_Mock_BR2.raw",
+    "20230209_HCMV_Ctrl_VME_Distal_BR2.raw",
+    "20230209_HCMV_CDV_VME_Infected_BR3.raw",
+    "20230209_HCMV_Ctrl_VME_Mock_BR3.raw",
+    "20230209_HCMV_CDV_VME_Mock_BR1.raw",
+    "20230209_HCMV_CDV_VME_Neighbor_BR2.raw",
+    "20230209_HCMV_CDV_VME_Distal_BR2.raw",
+    "20230209_HCMV_Ctrl_VME_Neighbor_BR2.raw",
+    "20230209_HCMV_Ctrl_VME_Infected_BR2.raw",
+    "20230209_HCMV_CDV_VME_Infected_BR2.raw",
+    "20230209_HCMV_Ctrl_VME_Distal_BR3.raw",
+    "20230209_HCMV_Ctrl_VME_Infected_BR3.raw",
+    "20230209_HCMV_CDV_VME_Mock_BR3.raw",
+    "20230209_HCMV_Ctrl_VME_Infected_BR1.raw",
+    "20230209_HCMV_CDV_VME_Distal_BR3.raw",
+    "20230209_HCMV_CDV_VME_Infected_BR1.raw",
+    "20230209_HCMV_Ctrl_VME_Neighbor_BR3.raw",
+    "20230209_HCMV_CDV_VME_Neighbor_BR1.raw",
+    "20230209_HCMV_Ctrl_VME_Distal_BR1.raw",
+    "20230209_HCMV_CDV_VME_Neighbor_BR3.raw",
+    "20230209_HCMV_CDV_VME_Distal_BR1.raw",
+    "20230209_HCMV_Ctrl_VME_Mock_BR1.raw",
+    "20230209_HCMV_Ctrl_VME_Neighbor_BR1.raw"
+  ],
+  "anchor": {
+    "pxd": "PXD040582",
+    "source": "PRIDE_API",
+    "organism": [
+      {
+        "name": "Homo sapiens (human)",
+        "accession": "NEWT:9606"
+      }
+    ],
+    "instruments": [
+      {
+        "name": "Q Exactive HF",
+        "accession": "MS:1002523",
+        "sdrf_format": "AC=MS:1002523;NT=Q Exactive HF"
+      }
+    ],
+    "modifications": [],
+    "organism_parts": [
+      {
+        "name": "Cell culture",
+        "accession": "BTO:0000214"
+      },
+      {
+        "name": "Fibroblast",
+        "accession": "CL:0000057"
+      }
+    ],
+    "diseases": [],
+    "experiment_types": [
+      "Shotgun proteomics"
+    ],
+    "quantification_methods": [
+      "MS1 intensity based label-free quantification method"
+    ],
+    "keywords": [
+      "Hcmv",
+      "Innate immunity",
+      "Membrane contact sites",
+      "Mass spectrometry",
+      "Virus microenvironment",
+      "Cell cycle",
+      "Cidofovir"
+    ],
+    "publications": [
+      {
+        "pubmed_id": "",
+        "doi": "10.1126/sciadv.adg3433",
+        "ref": "Song B, Sheng X, Justice JL, Lum KK, Metzger PJ, Cook KC, Kostas JC, Cristea IM. Intercellular communication within the virus microenvironment affects the susceptibility of cells to secondary viral infections.  Sci Adv. 2023 9(19):eadg3433"
+      }
+    ],
+    "inferred_fragmentation": "HCD",
+    "inferred_ms2_analyzer": "orbitrap",
+    "inferred_ionization": "nanoESI",
+    "raw_files": [
+      "20230209_HCMV_CDV_VME_Mock_BR2.raw",
+      "20230209_HCMV_Ctrl_VME_Mock_BR2.raw",
+      "20230209_HCMV_Ctrl_VME_Distal_BR2.raw",
+      "20230209_HCMV_CDV_VME_Infected_BR3.raw",
+      "20230209_HCMV_Ctrl_VME_Mock_BR3.raw",
+      "20230209_HCMV_CDV_VME_Mock_BR1.raw",
+      "20230209_HCMV_CDV_VME_Neighbor_BR2.raw",
+      "20230209_HCMV_CDV_VME_Distal_BR2.raw",
+      "20230209_HCMV_Ctrl_VME_Neighbor_BR2.raw",
+      "20230209_HCMV_Ctrl_VME_Infected_BR2.raw",
+      "20230209_HCMV_CDV_VME_Infected_BR2.raw",
+      "20230209_HCMV_Ctrl_VME_Distal_BR3.raw",
+      "20230209_HCMV_Ctrl_VME_Infected_BR3.raw",
+      "20230209_HCMV_CDV_VME_Mock_BR3.raw",
+      "20230209_HCMV_Ctrl_VME_Infected_BR1.raw",
+      "20230209_HCMV_CDV_VME_Distal_BR3.raw",
+      "20230209_HCMV_CDV_VME_Infected_BR1.raw",
+      "20230209_HCMV_Ctrl_VME_Neighbor_BR3.raw",
+      "20230209_HCMV_CDV_VME_Neighbor_BR1.raw",
+      "20230209_HCMV_Ctrl_VME_Distal_BR1.raw",
+      "20230209_HCMV_CDV_VME_Neighbor_BR3.raw",
+      "20230209_HCMV_CDV_VME_Distal_BR1.raw",
+      "20230209_HCMV_Ctrl_VME_Mock_BR1.raw",
+      "20230209_HCMV_Ctrl_VME_Neighbor_BR1.raw"
+    ]
+  },
+  "steps": {
+    "STEP1_OVERVIEW": {
+      "confirmed": {
+        "Characteristics[Organism]": {
+          "value": "Homo sapiens",
+          "evidence": "human cytomegalovirus (HCMV) infection primes neighboring cells",
+          "source": "manuscript"
+        },
+        "Characteristics[MaterialType]": {
+          "value": "cell culture",
+          "evidence": "We establish a cell-based system to characterize a virus microenvironment",
+          "source": "manuscript"
+        },
+        "Characteristics[Label]": {
+          "value": "label-free",
+          "evidence": "MS1 intensity based label-free quantification method",
+          "source": "anchor"
+        },
+        "Comment[AcquisitionMethod]": {
+          "value": "shotgun proteomics",
+          "evidence": "Experiment Type: Shotgun proteomics",
+          "source": "anchor"
+        },
+        "Characteristics[Treatment]": {
+          "value": "viral infection",
+          "evidence": "human cytomegalovirus (HCMV) infection, secondary infections with herpes simplex virus 1 and influenza A",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {
+        "Characteristics[CellType]": {
+          "candidates": [
+            "fibroblast",
+            "mixed cell populations"
+          ],
+          "reasoning": "Anchor data indicates fibroblast, and the study analyzes infected, neighboring, and distal cells which suggests multiple cell states or types",
+          "needs": "Confirmation of specific cell types used in the experimental system"
+        },
+        "Characteristics[Disease]": {
+          "candidates": [
+            "viral infection",
+            "cytomegalovirus infection"
+          ],
+          "reasoning": "Study focuses on HCMV infection and secondary viral infections, but unclear if this represents disease state or experimental infection model",
+          "needs": "Clarification whether this is disease modeling or experimental infection"
+        }
+      },
+      "not_applicable": [
+        "Characteristics[CellLine]",
+        "Characteristics[OrganismPart]",
+        "Characteristics[Specimen]",
+        "Characteristics[Strain]",
+        "Characteristics[GeneticModification]",
+        "Characteristics[DevelopmentalStage]",
+        "Characteristics[Compound]",
+        "Characteristics[ConcentrationOfCompound]"
+      ],
+      "summary": "This is a human cell culture-based shotgun proteomics study using label-free quantification to investigate viral microenvironments. The study involves HCMV infection and secondary viral infections, analyzing different spatial populations of cells (infected, neighboring, distal). Cell type is likely fibroblast based on anchor data, but specific cell line information is not provided in the abstract."
+    },
+    "STEP2_SAMPLE_PREP": {
+      "confirmed": {
+        "Characteristics[CleavageAgent]": {
+          "value": "trypsin",
+          "evidence": "Trypsinization was performed on S-Trap columns (ProtiFi) according to the kit protocol",
+          "source": "manuscript"
+        },
+        "Characteristics[AlkylationReagent]": {
+          "value": "chloroacetamide",
+          "evidence": "alkylated with 50 mM chloroacetamide (CAM)",
+          "source": "manuscript"
+        },
+        "Characteristics[ReductionReagent]": {
+          "value": "TCEP",
+          "evidence": "reduced with 25 mM tris(2-carboxyethyl)phosphine (TCEP)",
+          "source": "manuscript"
+        },
+        "Characteristics[Label]": {
+          "value": "label free sample",
+          "evidence": "confirmed from previous step and MS1 intensity based label-free quantification method",
+          "source": "previous_step/anchor"
+        },
+        "Characteristics[Modification]": {
+          "value": "NT:Carbamidomethyl",
+          "evidence": "static carbamidomethylation on cysteine",
+          "source": "manuscript"
+        },
+        "Characteristics[Modification].1": {
+          "value": "NT:Oxidation",
+          "evidence": "oxidation on methionine",
+          "source": "manuscript"
+        },
+        "Characteristics[Modification].2": {
+          "value": "NT:Deamidated",
+          "evidence": "deamination on asparagine",
+          "source": "manuscript"
+        },
+        "Characteristics[Modification].3": {
+          "value": "NT:Phospho",
+          "evidence": "phosphorylation on serine, threonine, and tyrosine",
+          "source": "manuscript"
+        },
+        "Characteristics[Modification].4": {
+          "value": "NT:Acetyl",
+          "evidence": "acetylation on lysine",
+          "source": "manuscript"
+        },
+        "Comment[Separation]": {
+          "value": "EASY-Spray PepMap RSLC C18 column (2 μm, 100 Å, 75 μm, and 50 cm)",
+          "evidence": "separated with a linear gradient... on an EASY-Spray PepMap Rapid Separation Liquid Chromatography (RSLC) C18 column (2 μm, 100 Å, 75 μm, and 50 cm)",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {},
+      "not_applicable": [
+        "Characteristics[Modification].5",
+        "Characteristics[Modification].6",
+        "Characteristics[Depletion",
+        "Characteristics[SpikedCompound]",
+        "Characteristics[SyntheticPeptide]",
+        "Comment[EnrichmentMethod]",
+        "Comment[FractionationMethod]",
+        "Comment[NumberOfFractions]"
+      ],
+      "summary": "Sample preparation details are comprehensively described in the manuscript. Proteins were reduced with TCEP, alkylated with chloroacetamide, and digested with trypsin using S-Trap columns. Five variable modifications were searched (oxidation, deamidation, phosphorylation, acetylation) plus static carbamidomethylation. Separation used C18 RSLC column with specified dimensions. No enrichment, fractionation, depletion, or spiked compounds were used."
+    },
+    "STEP3_MS_SETTINGS": {
+      "confirmed": {
+        "Comment[Instrument]": {
+          "value": "Q Exactive HF Hybrid Quadrupole-Orbitrap",
+          "evidence": "Peptides were analyzed by nano liquid chromatography coupled to tandem MS (LC-MS/MS) with a Q Exactive HF Hybrid Quadrupole-Orbitrap instrument (Thermo Fisher Scientific)",
+          "source": "manuscript"
+        },
+        "Comment[FragmentationMethod]": {
+          "value": "HCD",
+          "evidence": "normalized collision energy (NCE) of 28",
+          "source": "anchor"
+        },
+        "Comment[AcquisitionMethod]": {
+          "value": "data-dependent acquisition (DDA)",
+          "evidence": "using data-dependent acquisition (DDA) mode",
+          "source": "manuscript"
+        },
+        "Comment[IonizationType]": {
+          "value": "nanoESI",
+          "evidence": "Ionization (from instrument): nanoESI",
+          "source": "anchor"
+        },
+        "Comment[MS2MassAnalyzer]": {
+          "value": "orbitrap",
+          "evidence": "MS2 Analyzer (from instrument): orbitrap",
+          "source": "anchor"
+        },
+        "Comment[CollisionEnergy]": {
+          "value": "NCE 28",
+          "evidence": "an normalized collision energy (NCE) of 28",
+          "source": "manuscript"
+        },
+        "Comment[PrecursorMassTolerance]": {
+          "value": "5 ppm",
+          "evidence": "The search required 5 parts per million (ppm) precursor mass accuracy",
+          "source": "manuscript"
+        },
+        "Comment[FragmentMassTolerance]": {
+          "value": "0.02 Da",
+          "evidence": "0.02-Da fragment ion mass accuracy",
+          "source": "manuscript"
+        },
+        "Comment[GradientTime]": {
+          "value": "150 min",
+          "evidence": "separated with a linear gradient from 3% B to 35% B over 150 min",
+          "source": "manuscript"
+        },
+        "Comment[FlowRateChromatogram]": {
+          "value": "250 nl/min",
+          "evidence": "at a flow rate of 250 nl/min",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {
+        "Comment[NumberOfMissedCleavages]": {
+          "candidates": [
+            "2",
+            "3"
+          ],
+          "reasoning": "Trypsin digestion was performed on S-Trap columns according to kit protocol, but specific missed cleavage parameter not mentioned in search parameters",
+          "needs": "Explicit statement of missed cleavage settings in Proteome Discoverer search parameters"
+        }
+      },
+      "not_applicable": [],
+      "summary": "Mass spectrometry instrumentation and parameters are comprehensively documented. Q Exactive HF with DDA mode, HCD fragmentation (NCE 28), nanoESI ionization, and orbitrap MS2 analyzer are confirmed. Search tolerances (5 ppm precursor, 0.02 Da fragment), chromatography conditions (150 min gradient, 250 nl/min flow rate) are specified. Only the number of missed cleavages parameter remains unclear from the search settings description."
+    },
+    "STEP4_RAW_FILES": {
+      "confirmed": {
+        "Characteristics[BiologicalReplicate]": {
+          "value": "per_file",
+          "per_file": {
+            "20230209_HCMV_CDV_VME_Mock_BR1.raw": "1",
+            "20230209_HCMV_CDV_VME_Mock_BR2.raw": "2",
+            "20230209_HCMV_CDV_VME_Mock_BR3.raw": "3",
+            "20230209_HCMV_CDV_VME_Infected_BR1.raw": "1",
+            "20230209_HCMV_CDV_VME_Infected_BR2.raw": "2",
+            "20230209_HCMV_CDV_VME_Infected_BR3.raw": "3",
+            "20230209_HCMV_CDV_VME_Neighbor_BR1.raw": "1",
+            "20230209_HCMV_CDV_VME_Neighbor_BR2.raw": "2",
+            "20230209_HCMV_CDV_VME_Neighbor_BR3.raw": "3",
+            "20230209_HCMV_CDV_VME_Distal_BR1.raw": "1",
+            "20230209_HCMV_CDV_VME_Distal_BR2.raw": "2",
+            "20230209_HCMV_CDV_VME_Distal_BR3.raw": "3",
+            "20230209_HCMV_Ctrl_VME_Mock_BR1.raw": "1",
+            "20230209_HCMV_Ctrl_VME_Mock_BR2.raw": "2",
+            "20230209_HCMV_Ctrl_VME_Mock_BR3.raw": "3",
+            "20230209_HCMV_Ctrl_VME_Infected_BR1.raw": "1",
+            "20230209_HCMV_Ctrl_VME_Infected_BR2.raw": "2",
+            "20230209_HCMV_Ctrl_VME_Infected_BR3.raw": "3",
+            "20230209_HCMV_Ctrl_VME_Neighbor_BR1.raw": "1",
+            "20230209_HCMV_Ctrl_VME_Neighbor_BR2.raw": "2",
+            "20230209_HCMV_Ctrl_VME_Neighbor_BR3.raw": "3",
+            "20230209_HCMV_Ctrl_VME_Distal_BR1.raw": "1",
+            "20230209_HCMV_Ctrl_VME_Distal_BR2.raw": "2",
+            "20230209_HCMV_Ctrl_VME_Distal_BR3.raw": "3"
+          },
+          "evidence": "Filename tokens BR1, BR2, BR3 clearly indicate biological replicates. Method section states 'For each biological replicate, three 15-cm plates of ~90% confluent cocultured MRC5s were trypsinized'",
+          "source": "filename/manuscript"
+        },
+        "Characteristics[NumberOfBiologicalReplicates]": {
+          "value": "3",
+          "evidence": "Raw filenames contain BR1, BR2, BR3 tokens indicating 3 biological replicates. Methods confirm 'For each biological replicate' and statistical analysis states 'n = 3 biological replicates'",
+          "source": "filename/manuscript"
+        },
+        "Characteristics[NumberOfSamples]": {
+          "value": "24",
+          "evidence": "Total of 24 raw files representing 8 conditions (CDV/Ctrl × Mock/Infected/Neighbor/Distal) × 3 biological replicates each",
+          "source": "filename"
+        },
+        "FactorValue[Treatment]": {
+          "value": "per_file",
+          "per_file": {
+            "20230209_HCMV_CDV_VME_Mock_BR1.raw": "CDV",
+            "20230209_HCMV_CDV_VME_Mock_BR2.raw": "CDV",
+            "20230209_HCMV_CDV_VME_Mock_BR3.raw": "CDV",
+            "20230209_HCMV_CDV_VME_Infected_BR1.raw": "CDV",
+            "20230209_HCMV_CDV_VME_Infected_BR2.raw": "CDV",
+            "20230209_HCMV_CDV_VME_Infected_BR3.raw": "CDV",
+            "20230209_HCMV_CDV_VME_Neighbor_BR1.raw": "CDV",
+            "20230209_HCMV_CDV_VME_Neighbor_BR2.raw": "CDV",
+            "20230209_HCMV_CDV_VME_Neighbor_BR3.raw": "CDV",
+            "20230209_HCMV_CDV_VME_Distal_BR1.raw": "CDV",
+            "20230209_HCMV_CDV_VME_Distal_BR2.raw": "CDV",
+            "20230209_HCMV_CDV_VME_Distal_BR3.raw": "CDV",
+            "20230209_HCMV_Ctrl_VME_Mock_BR1.raw": "control",
+            "20230209_HCMV_Ctrl_VME_Mock_BR2.raw": "control",
+            "20230209_HCMV_Ctrl_VME_Mock_BR3.raw": "control",
+            "20230209_HCMV_Ctrl_VME_Infected_BR1.raw": "control",
+            "20230209_HCMV_Ctrl_VME_Infected_BR2.raw": "control",
+            "20230209_HCMV_Ctrl_VME_Infected_BR3.raw": "control",
+            "20230209_HCMV_Ctrl_VME_Neighbor_BR1.raw": "control",
+            "20230209_HCMV_Ctrl_VME_Neighbor_BR2.raw": "control",
+            "20230209_HCMV_Ctrl_VME_Neighbor_BR3.raw": "control",
+            "20230209_HCMV_Ctrl_VME_Distal_BR1.raw": "control",
+            "20230209_HCMV_Ctrl_VME_Distal_BR2.raw": "control",
+            "20230209_HCMV_Ctrl_VME_Distal_BR3.raw": "control"
+          },
+          "evidence": "Filename tokens CDV vs Ctrl clearly indicate treatment conditions. Methods state 'For inhibiting viral genome replication, CDV was dissolved in PBS and used at 1 μM'",
+          "source": "filename/manuscript"
+        },
+        "FactorValue[CellPart]": {
+          "value": "per_file",
+          "per_file": {
+            "20230209_HCMV_CDV_VME_Mock_BR1.raw": "mock",
+            "20230209_HCMV_CDV_VME_Mock_BR2.raw": "mock",
+            "20230209_HCMV_CDV_VME_Mock_BR3.raw": "mock",
+            "20230209_HCMV_CDV_VME_Infected_BR1.raw": "infected",
+            "20230209_HCMV_CDV_VME_Infected_BR2.raw": "infected",
+            "20230209_HCMV_CDV_VME_Infected_BR3.raw": "infected",
+            "20230209_HCMV_CDV_VME_Neighbor_BR1.raw": "neighbor",
+            "20230209_HCMV_CDV_VME_Neighbor_BR2.raw": "neighbor",
+            "20230209_HCMV_CDV_VME_Neighbor_BR3.raw": "neighbor",
+            "20230209_HCMV_CDV_VME_Distal_BR1.raw": "distal",
+            "20230209_HCMV_CDV_VME_Distal_BR2.raw": "distal",
+            "20230209_HCMV_CDV_VME_Distal_BR3.raw": "distal",
+            "20230209_HCMV_Ctrl_VME_Mock_BR1.raw": "mock",
+            "20230209_HCMV_Ctrl_VME_Mock_BR2.raw": "mock",
+            "20230209_HCMV_Ctrl_VME_Mock_BR3.raw": "mock",
+            "20230209_HCMV_Ctrl_VME_Infected_BR1.raw": "infected",
+            "20230209_HCMV_Ctrl_VME_Infected_BR2.raw": "infected",
+            "20230209_HCMV_Ctrl_VME_Infected_BR3.raw": "infected",
+            "20230209_HCMV_Ctrl_VME_Neighbor_BR1.raw": "neighbor",
+            "20230209_HCMV_Ctrl_VME_Neighbor_BR2.raw": "neighbor",
+            "20230209_HCMV_Ctrl_VME_Neighbor_BR3.raw": "neighbor",
+            "20230209_HCMV_Ctrl_VME_Distal_BR1.raw": "distal",
+            "20230209_HCMV_Ctrl_VME_Distal_BR2.raw": "distal",
+            "20230209_HCMV_Ctrl_VME_Distal_BR3.raw": "distal"
+          },
+          "evidence": "Filename tokens Mock, Infected, Neighbor, Distal correspond to the four cell populations described in methods: 'infected (GFP+/mCherry+), neighboring (GFP−/mCherry+), and distal (GFP−/mCherry−) cell populations' plus mock controls",
+          "source": "filename/manuscript"
+        }
+      },
+      "hypotheses": {
+        "Characteristics[NumberOfTechnicalReplicates]": {
+          "candidates": [
+            "1",
+            "not applicable"
+          ],
+          "reasoning": "Each biological replicate appears to have one raw file per condition, suggesting no technical replicates. Methods describe single injections per sample.",
+          "needs": "Explicit statement about technical replication in methods"
+        }
+      },
+      "not_applicable": [
+        "Comment[FractionIdentifier]",
+        "FactorValue[Temperature]",
+        "FactorValue[Disease]",
+        "FactorValue[GeneticModification]",
+        "FactorValue[Compound]",
+        "FactorValue[Bait]",
+        "FactorValue[ConcentrationOfCompound].1",
+        "FactorValue[FractionIdentifier]"
+      ],
+      "summary": "Raw filenames provide clear experimental structure: 8 conditions (CDV/control treatment × 4 cell populations: mock/infected/neighbor/distal) with 3 biological replicates each (BR1-3), totaling 24 samples. CDV is used as viral replication inhibitor at 1 μM. The four cell populations represent spatial relationships in the viral microenvironment (VME). Technical replication appears minimal with single injections per biological replicate."
+    }
+  }
+}

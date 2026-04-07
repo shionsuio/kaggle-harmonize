@@ -1,0 +1,392 @@
+{
+  "pxd": "PXD001819",
+  "raw_files": [
+    "UPS1_12500amol_R1.raw",
+    "UPS1_2500amol_R3.raw",
+    "UPS1_25000amol_R1.raw",
+    "UPS1_50amol_R2.raw",
+    "UPS1_12500amol_R3.raw",
+    "UPS1_125amol_R1.raw",
+    "UPS1_2500amol_R2.raw",
+    "UPS1_500amol_R2.raw",
+    "UPS1_50amol_R3.raw",
+    "UPS1_12500amol_R2.raw",
+    "UPS1_50000amol_R3.raw",
+    "UPS1_250amol_R1.raw",
+    "UPS1_125amol_R3.raw",
+    "UPS1_250amol_R3.raw",
+    "UPS1_50000amol_R2.raw",
+    "UPS1_25000amol_R2.raw",
+    "UPS1_250amol_R2.raw",
+    "UPS1_25000amol_R3.raw",
+    "UPS1_500amol_R3.raw",
+    "UPS1_500amol_R1.raw",
+    "UPS1_5000amol_R3.raw",
+    "UPS1_5000amol_R1.raw",
+    "UPS1_50amol_R1.raw",
+    "UPS1_2500amol_R1.raw",
+    "UPS1_5000amol_R2.raw",
+    "UPS1_50000amol_R1.raw",
+    "UPS1_125amol_R2.raw"
+  ],
+  "anchor": {
+    "pxd": "PXD001819",
+    "source": "PRIDE_API",
+    "organism": [
+      {
+        "name": "Saccharomyces cerevisiae (baker's yeast)",
+        "accession": "NEWT:4932"
+      },
+      {
+        "name": "Homo sapiens (human)",
+        "accession": "NEWT:9606"
+      }
+    ],
+    "instruments": [
+      {
+        "name": "LTQ Orbitrap Velos",
+        "accession": "MS:1001742",
+        "sdrf_format": "AC=MS:1001742;NT=LTQ Orbitrap Velos"
+      }
+    ],
+    "modifications": [],
+    "organism_parts": [
+      {
+        "name": "Cell culture",
+        "accession": "BTO:0000214"
+      }
+    ],
+    "diseases": [],
+    "experiment_types": [
+      "Shotgun proteomics"
+    ],
+    "quantification_methods": [
+      "Protein Abundance Index - PAI",
+      "Spectrum counting"
+    ],
+    "keywords": [
+      "Yesat",
+      "Ups1",
+      "Label-free quantification",
+      "Lc-ms/ms"
+    ],
+    "publications": [
+      {
+        "pubmed_id": "",
+        "doi": "10.1016/j.dib.2015.11.063",
+        "ref": "Ramus C, Hovasse A, Marcellin M, Hesse AM, Mouton-Barbosa E, Bouyssié D, Vaca S, Carapito C, Chaoui K, Bruley C, Garin J, Cianférani S, Ferro M, Dorssaeler AV, Burlet-Schiltz O, Schaeffer C, Couté Y, Gonzalez de Peredo A. Spiked proteomic standard dataset for testing label-free quantitative software and statistical methods. Data Brief. 2015 Dec 17;6:286-94. eCollection 2016 Mar"
+      }
+    ],
+    "inferred_fragmentation": null,
+    "inferred_ms2_analyzer": "orbitrap",
+    "inferred_ionization": "nanoESI",
+    "raw_files": [
+      "UPS1_12500amol_R1.raw",
+      "UPS1_2500amol_R3.raw",
+      "UPS1_25000amol_R1.raw",
+      "UPS1_50amol_R2.raw",
+      "UPS1_12500amol_R3.raw",
+      "UPS1_125amol_R1.raw",
+      "UPS1_2500amol_R2.raw",
+      "UPS1_500amol_R2.raw",
+      "UPS1_50amol_R3.raw",
+      "UPS1_12500amol_R2.raw",
+      "UPS1_50000amol_R3.raw",
+      "UPS1_250amol_R1.raw",
+      "UPS1_125amol_R3.raw",
+      "UPS1_250amol_R3.raw",
+      "UPS1_50000amol_R2.raw",
+      "UPS1_25000amol_R2.raw",
+      "UPS1_250amol_R2.raw",
+      "UPS1_25000amol_R3.raw",
+      "UPS1_500amol_R3.raw",
+      "UPS1_500amol_R1.raw",
+      "UPS1_5000amol_R3.raw",
+      "UPS1_5000amol_R1.raw",
+      "UPS1_50amol_R1.raw",
+      "UPS1_2500amol_R1.raw",
+      "UPS1_5000amol_R2.raw",
+      "UPS1_50000amol_R1.raw",
+      "UPS1_125amol_R2.raw"
+    ]
+  },
+  "steps": {
+    "STEP1_OVERVIEW": {
+      "confirmed": {
+        "Characteristics[Organism]": {
+          "value": "Saccharomyces cerevisiae; Homo sapiens",
+          "evidence": "samples composed of a fixed background of yeast lysate and different spiked amounts of the UPS1 mixture of 48 recombinant proteins",
+          "source": "manuscript"
+        },
+        "Characteristics[MaterialType]": {
+          "value": "cell lysate",
+          "evidence": "fixed background of yeast lysate",
+          "source": "manuscript"
+        },
+        "Characteristics[Label]": {
+          "value": "label-free",
+          "evidence": "label-free quantitative software and statistical methods; label-free quantitative analysis",
+          "source": "manuscript"
+        },
+        "Comment[AcquisitionMethod]": {
+          "value": "LC-MS analysis",
+          "evidence": "based on the LC-MS analysis of samples",
+          "source": "manuscript"
+        },
+        "Characteristics[Treatment]": {
+          "value": "UPS1 protein mixture spiking",
+          "evidence": "different spiked amounts of the UPS1 mixture of 48 recombinant proteins",
+          "source": "manuscript"
+        },
+        "Characteristics[Compound]": {
+          "value": "UPS1 mixture of 48 recombinant proteins",
+          "evidence": "different spiked amounts of the UPS1 mixture of 48 recombinant proteins",
+          "source": "manuscript"
+        },
+        "Characteristics[ConcentrationOfCompound]": {
+          "value": "different spike levels",
+          "evidence": "different spiked amounts of the UPS1 mixture; different spike levels introduced in the samples",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {
+        "Characteristics[OrganismPart]": {
+          "candidates": [
+            "cell culture",
+            "whole cell"
+          ],
+          "reasoning": "既にアンカーでCell cultureが確認されており、yeast lysateという記述と一致する",
+          "needs": "詳細な実験手法の記述"
+        },
+        "Characteristics[Strain]": {
+          "candidates": [
+            "laboratory strain",
+            "standard yeast strain"
+          ],
+          "reasoning": "酵母を使った標準的なプロテオミクス実験では通常実験室株が使用される",
+          "needs": "Materials and Methodsセクションでの具体的株名の記載"
+        }
+      },
+      "not_applicable": [
+        "Characteristics[CellType]",
+        "Characteristics[CellLine]",
+        "Characteristics[Disease]",
+        "Characteristics[Specimen]",
+        "Characteristics[GeneticModification]",
+        "Characteristics[DevelopmentalStage]"
+      ],
+      "summary": "酵母ライセートをベースとし、UPS1タンパク質混合物を異なる濃度でスパイクしたlabel-free定量プロテオミクスの標準データセット。LC-MS解析による取得で、バイオインフォマティクスツールのベンチマーク用途。生物種と標識法は確定したが、酵母の具体的株名や培養条件の詳細は未確定。"
+    },
+    "STEP2_SAMPLE_PREP": {
+      "confirmed": {
+        "Characteristics[CleavageAgent]": {
+          "value": "trypsin",
+          "evidence": "proteins were digested in solution by addition of 2% of trypsin overnight",
+          "source": "manuscript"
+        },
+        "Characteristics[ReductionReagent]": {
+          "value": "DTT",
+          "evidence": "were reduced with DTT and alkylated with iodoacetamide",
+          "source": "manuscript"
+        },
+        "Characteristics[AlkylationReagent]": {
+          "value": "iodoacetamide",
+          "evidence": "were reduced with DTT and alkylated with iodoacetamide",
+          "source": "manuscript"
+        },
+        "Characteristics[Label]": {
+          "value": "label free sample",
+          "evidence": "Quantification of proteins was then performed using the label-free module implemented in the MFPaQ v4.0.0 software",
+          "source": "manuscript"
+        },
+        "Characteristics[Modification]": {
+          "value": "Carbamidomethyl",
+          "evidence": "carbamidomethyl (C) was set as fixed modification",
+          "source": "manuscript"
+        },
+        "Characteristics[Modification].1": {
+          "value": "Oxidation",
+          "evidence": "Peptide variable modifications allowed during the search were: acetyl (Protein N-ter), oxidation (M)",
+          "source": "manuscript"
+        },
+        "Characteristics[Modification].2": {
+          "value": "Acetyl",
+          "evidence": "Peptide variable modifications allowed during the search were: acetyl (Protein N-ter), oxidation (M)",
+          "source": "manuscript"
+        },
+        "Characteristics[SpikedCompound]": {
+          "value": "UPS1",
+          "evidence": "yeast cell lysate samples spiked with different amounts of an equimolar mixture of 48 recombinant proteins (Sigma UPS1)",
+          "source": "manuscript"
+        },
+        "Comment[FractionationMethod]": {
+          "value": "none",
+          "evidence": "Samples were analyzed directly by nanoLC-MS/MS without mention of fractionation",
+          "source": "manuscript"
+        },
+        "Comment[Separation]": {
+          "value": "nanoLC",
+          "evidence": "Samples were analyzed in triplicate by nanoLC-MS/MS using a nanoRS UHPLC system",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {
+        "Comment[NumberOfFractions]": {
+          "candidates": [
+            "1"
+          ],
+          "reasoning": "fractionationが行われていないため、各サンプルは1つのfractionとして解析されている",
+          "needs": "明示的な記載の確認"
+        }
+      },
+      "not_applicable": [
+        "Characteristics[Modification].3",
+        "Characteristics[Modification].4",
+        "Characteristics[Modification].5",
+        "Characteristics[Modification].6",
+        "Characteristics[Depletion]",
+        "Characteristics[SyntheticPeptide]",
+        "Comment[EnrichmentMethod]"
+      ],
+      "summary": "サンプル調製の詳細が明確になった。DTTによる還元、iodoacetamideによるアルキル化、trypsin消化によるlabel-free解析。修飾はCarbamidomethyl（固定）とOxidation、Acetyl（可変）。UPS1スパイクが確認され、fractionation無しでnanoLC-MS/MS直接解析。エンリッチメントや合成ペプチド使用はなし。"
+    },
+    "STEP3_MS_SETTINGS": {
+      "confirmed": {
+        "Comment[Instrument]": {
+          "value": "LTQ-Orbitrap Velos mass spectrometer",
+          "evidence": "Samples were analyzed in triplicate by nanoLC-MS/MS using a nanoRS UHPLC system (Dionex, Amsterdam, The Netherlands) coupled to an LTQ-Orbitrap Velos mass spectrometer (Thermo Fisher Scientific, Bremen, Germany)",
+          "source": "manuscript"
+        },
+        "Comment[FragmentationMethod]": {
+          "value": "CID",
+          "evidence": "The 20 most intense ions per survey scan were selected for CID fragmentation and the resulting fragments were analyzed in the linear trap (LTQ)",
+          "source": "manuscript"
+        },
+        "Comment[AcquisitionMethod]": {
+          "value": "data-dependent acquisition",
+          "evidence": "The LTQ-Orbitrap Velos was operated in data-dependent acquisition mode with the XCalibur software",
+          "source": "manuscript"
+        },
+        "Comment[IonizationType]": {
+          "value": "nanoESI",
+          "evidence": "nanoLC-MS/MS analysis using coupled system, and ESI-TRAP was chosen as the instrument in database search parameters",
+          "source": "manuscript/anchor"
+        },
+        "Comment[MS2MassAnalyzer]": {
+          "value": "linear ion trap",
+          "evidence": "the resulting fragments were analyzed in the linear trap (LTQ)",
+          "source": "manuscript"
+        },
+        "Comment[PrecursorMassTolerance]": {
+          "value": "5 ppm",
+          "evidence": "Precursor and fragment mass error tolerances were set at 5 ppm and 0.8 Da, respectively",
+          "source": "manuscript"
+        },
+        "Comment[FragmentMassTolerance]": {
+          "value": "0.8 Da",
+          "evidence": "Precursor and fragment mass error tolerances were set at 5 ppm and 0.8 Da, respectively",
+          "source": "manuscript"
+        },
+        "Comment[NumberOfMissedCleavages]": {
+          "value": "2",
+          "evidence": "trypsin/P as the enzyme and 2 missed cleavages were allowed",
+          "source": "manuscript"
+        },
+        "Comment[GradientTime]": {
+          "value": "115 min",
+          "evidence": "5–25% gradient during 75 min; 25–50% during 30 min; 50–100% during 10 min",
+          "source": "manuscript"
+        },
+        "Comment[FlowRateChromatogram]": {
+          "value": "300 nL/min",
+          "evidence": "Peptides were eluted using the following gradient of solvent B at 300 nL/min flow rate",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {},
+      "not_applicable": [
+        "Comment[CollisionEnergy]"
+      ],
+      "summary": "質量分析装置設定が完全に明確化された。LTQ-Orbitrap VelosでCIDフラグメンテーション、DDA取得、5ppm/0.8Da質量精度、300nL/min流速、115分グラディエント、trypsin 2 missed cleavagesが確定。コリジョンエネルギーのみ記載なし。機器パラメータは全て標準的なshotgunプロテオミクス設定に一致している。"
+    },
+    "STEP4_RAW_FILES": {
+      "confirmed": {
+        "Comment[FractionIdentifier]": {
+          "value": "none",
+          "evidence": "Comment[FractionationMethod]: none が既に確定しており、各サンプルはfractionation無しで直接解析",
+          "source": "previous_step"
+        },
+        "Characteristics[BiologicalReplicate]": {
+          "value": "not applicable",
+          "evidence": "All samples are technical replicates of the same yeast lysate with different UPS1 spike levels. No biological replicates mentioned.",
+          "source": "manuscript"
+        },
+        "Characteristics[NumberOfBiologicalReplicates]": {
+          "value": "1",
+          "evidence": "Single yeast cell lysate preparation used for all samples with different UPS1 concentrations",
+          "source": "manuscript"
+        },
+        "Characteristics[NumberOfTechnicalReplicates]": {
+          "value": "3",
+          "evidence": "The 9 different samples were analyzed in triplicate on a LTQ-Velos Orbitrap and the resulting 27 raw files",
+          "source": "manuscript"
+        },
+        "Characteristics[NumberOfSamples]": {
+          "value": "9",
+          "evidence": "9 different spiked levels of UPS1 (respectively 0.05–0.125–0.250–0.5–2.5–5–12.5–25–50 fmol of UPS1/µg of yeast lysate)",
+          "source": "manuscript"
+        },
+        "FactorValue[Compound]": {
+          "value": "UPS1",
+          "evidence": "yeast cell lysate samples spiked with different amounts of an equimolar mixture of 48 recombinant proteins (Sigma UPS1)",
+          "source": "manuscript"
+        },
+        "FactorValue[ConcentrationOfCompound].1": {
+          "value": "per_file",
+          "per_file": {
+            "UPS1_50amol_R1.raw": "0.05 fmol/µg",
+            "UPS1_50amol_R2.raw": "0.05 fmol/µg",
+            "UPS1_50amol_R3.raw": "0.05 fmol/µg",
+            "UPS1_125amol_R1.raw": "0.125 fmol/µg",
+            "UPS1_125amol_R2.raw": "0.125 fmol/µg",
+            "UPS1_125amol_R3.raw": "0.125 fmol/µg",
+            "UPS1_250amol_R1.raw": "0.25 fmol/µg",
+            "UPS1_250amol_R2.raw": "0.25 fmol/µg",
+            "UPS1_250amol_R3.raw": "0.25 fmol/µg",
+            "UPS1_500amol_R1.raw": "0.5 fmol/µg",
+            "UPS1_500amol_R2.raw": "0.5 fmol/µg",
+            "UPS1_500amol_R3.raw": "0.5 fmol/µg",
+            "UPS1_2500amol_R1.raw": "2.5 fmol/µg",
+            "UPS1_2500amol_R2.raw": "2.5 fmol/µg",
+            "UPS1_2500amol_R3.raw": "2.5 fmol/µg",
+            "UPS1_5000amol_R1.raw": "5 fmol/µg",
+            "UPS1_5000amol_R2.raw": "5 fmol/µg",
+            "UPS1_5000amol_R3.raw": "5 fmol/µg",
+            "UPS1_12500amol_R1.raw": "12.5 fmol/µg",
+            "UPS1_12500amol_R2.raw": "12.5 fmol/µg",
+            "UPS1_12500amol_R3.raw": "12.5 fmol/µg",
+            "UPS1_25000amol_R1.raw": "25 fmol/µg",
+            "UPS1_25000amol_R2.raw": "25 fmol/µg",
+            "UPS1_25000amol_R3.raw": "25 fmol/µg",
+            "UPS1_50000amol_R1.raw": "50 fmol/µg",
+            "UPS1_50000amol_R2.raw": "50 fmol/µg",
+            "UPS1_50000amol_R3.raw": "50 fmol/µg"
+          },
+          "evidence": "ファイル名の濃度表記と論文記載の9 different spiked levels of UPS1 (respectively 0.05–0.125–0.250–0.5–2.5–5–12.5–25–50 fmol of UPS1/µg of yeast lysate)が完全に一致。50amol=0.05fmol等の換算による",
+          "source": "filename_and_manuscript"
+        }
+      },
+      "hypotheses": {},
+      "not_applicable": [
+        "FactorValue[Treatment]",
+        "FactorValue[Temperature]",
+        "FactorValue[Disease]",
+        "FactorValue[GeneticModification]",
+        "FactorValue[Bait]",
+        "FactorValue[CellPart]",
+        "FactorValue[FractionIdentifier]"
+      ],
+      "summary": "実験デザインが完全に明確化された。9つの異なるUPS1濃度レベル(0.05-50 fmol/µg)を持つサンプルを各3回の技術的反復で解析した計27ファイル。生物学的反復は無く、全て同一酵母ライセートからの技術的反復。ファイル名から濃度と反復番号が明確に読み取れる。fractionationは無し。他の実験因子(温度、疾患、遺伝子改変等)は存在しない標準的なUPS1スパイク実験。"
+    }
+  }
+}

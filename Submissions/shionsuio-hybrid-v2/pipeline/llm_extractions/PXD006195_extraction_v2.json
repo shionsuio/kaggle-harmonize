@@ -1,0 +1,382 @@
+{
+  "pxd": "PXD006195",
+  "raw_files": [
+    "OEII13359.raw",
+    "OEII23117.raw",
+    "OEII13371.raw",
+    "OEII13363.raw",
+    "OEII23103.raw",
+    "OEII13369.raw",
+    "OEII13385.raw",
+    "OEII23101.raw",
+    "OEII23107.raw",
+    "OEII23091.raw",
+    "OEII23127.raw",
+    "OEII13387.raw",
+    "OEII23111.raw",
+    "OEII13393.raw",
+    "OEII13375.raw",
+    "OEII13389.raw",
+    "OEII23115.raw",
+    "OEII13379.raw",
+    "OEII13365.raw",
+    "OEII23121.raw",
+    "OEII13381.raw",
+    "OEII23097.raw",
+    "OEII23099.raw",
+    "OEII23119.raw",
+    "OEII13367.raw",
+    "OEII13373.raw",
+    "OEII13361.raw",
+    "OEII13383.raw",
+    "OEII13391.raw",
+    "OEII23093.raw",
+    "OEII23105.raw",
+    "OEII23129.raw",
+    "OEII23125.raw",
+    "OEII13395.raw",
+    "OEII23095.raw",
+    "OEII23113.raw"
+  ],
+  "anchor": {
+    "pxd": "PXD006195",
+    "source": "PRIDE_API",
+    "organism": [
+      {
+        "name": "Escherichia coli",
+        "accession": "NEWT:562"
+      }
+    ],
+    "instruments": [
+      {
+        "name": "LTQ Orbitrap Elite",
+        "accession": "MS:1001910",
+        "sdrf_format": "AC=MS:1001910;NT=LTQ Orbitrap Elite"
+      }
+    ],
+    "modifications": [],
+    "organism_parts": [
+      {
+        "name": "Cell culture",
+        "accession": "BTO:0000214"
+      }
+    ],
+    "diseases": [],
+    "experiment_types": [
+      "Shotgun proteomics",
+      "Gel-based experiment"
+    ],
+    "quantification_methods": [
+      "SILAC"
+    ],
+    "keywords": [
+      "Lipopolysaccharide",
+      "Lc-ms/ms",
+      "Escherichia coli",
+      "Ftsh",
+      "Lpxc",
+      "Proteolysis",
+      "Super-silac",
+      "Quantitative proteomics"
+    ],
+    "publications": [
+      {
+        "pubmed_id": "",
+        "doi": "10.3389/fmicb.2018.03285",
+        "ref": "Thomanek N, Arends J, Lindemann C, Barkovits K, Meyer HE, Marcus K, Narberhaus F. Intricate Crosstalk Between Lipopolysaccharide, Phospholipid and Fatty Acid Metabolism in Escherichia coli Modulates Proteolysis of LpxC. Front Microbiol. 2018 9:3285"
+      }
+    ],
+    "inferred_fragmentation": null,
+    "inferred_ms2_analyzer": "orbitrap",
+    "inferred_ionization": "nanoESI",
+    "raw_files": [
+      "OEII13359.raw",
+      "OEII23117.raw",
+      "OEII13371.raw",
+      "OEII13363.raw",
+      "OEII23103.raw",
+      "OEII13369.raw",
+      "OEII13385.raw",
+      "OEII23101.raw",
+      "OEII23107.raw",
+      "OEII23091.raw",
+      "OEII23127.raw",
+      "OEII13387.raw",
+      "OEII23111.raw",
+      "OEII13393.raw",
+      "OEII13375.raw",
+      "OEII13389.raw",
+      "OEII23115.raw",
+      "OEII13379.raw",
+      "OEII13365.raw",
+      "OEII23121.raw",
+      "OEII13381.raw",
+      "OEII23097.raw",
+      "OEII23099.raw",
+      "OEII23119.raw",
+      "OEII13367.raw",
+      "OEII13373.raw",
+      "OEII13361.raw",
+      "OEII13383.raw",
+      "OEII13391.raw",
+      "OEII23093.raw",
+      "OEII23105.raw",
+      "OEII23129.raw",
+      "OEII23125.raw",
+      "OEII13395.raw",
+      "OEII23095.raw",
+      "OEII23113.raw"
+    ]
+  },
+  "steps": {
+    "STEP1_OVERVIEW": {
+      "confirmed": {
+        "Characteristics[Organism]": {
+          "value": "Escherichia coli",
+          "evidence": "Escherichia coli, the cellular concentration of LpxC is adjusted",
+          "source": "manuscript"
+        },
+        "Characteristics[MaterialType]": {
+          "value": "cell lysate",
+          "evidence": "quantitative proteomics approach aiming at the identification of proteins that are associated with LpxC and/or FtsH",
+          "source": "manuscript"
+        },
+        "Comment[AcquisitionMethod]": {
+          "value": "quantitative proteomics",
+          "evidence": "We established a quantitative proteomics approach aiming at the identification of proteins",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {
+        "Characteristics[OrganismPart]": {
+          "candidates": [
+            "cell culture"
+          ],
+          "reasoning": "PRIDE database confirms cell culture as organism part for E. coli proteomics experiments",
+          "needs": "Methods section confirmation of culture conditions"
+        },
+        "Characteristics[Treatment]": {
+          "candidates": [
+            "growth rate modulation"
+          ],
+          "reasoning": "Study examines LpxC at high or low growth rates, suggesting controlled growth conditions as treatment",
+          "needs": "Methods section detailing how different growth rates were achieved"
+        },
+        "Characteristics[Label]": {
+          "candidates": [
+            "SILAC"
+          ],
+          "reasoning": "PRIDE database confirms SILAC quantification for this dataset",
+          "needs": "Methods section confirmation of SILAC labeling strategy"
+        }
+      },
+      "not_applicable": [
+        "Characteristics[CellType]",
+        "Characteristics[CellLine]",
+        "Characteristics[Disease]",
+        "Characteristics[Specimen]",
+        "Characteristics[Strain]",
+        "Characteristics[GeneticModification]",
+        "Characteristics[DevelopmentalStage]",
+        "Characteristics[Compound]",
+        "Characteristics[ConcentrationOfCompound]"
+      ],
+      "summary": "This is an E. coli quantitative proteomics study examining protein interactions under different growth conditions. The organism and proteomics approach are confirmed from the abstract. PRIDE database indicates SILAC labeling and cell culture conditions, but these need verification from the methods section. Growth rate manipulation appears to be a key experimental variable requiring clarification."
+    },
+    "STEP2_SAMPLE_PREP": {
+      "confirmed": {
+        "Characteristics[CleavageAgent]": {
+          "value": "trypsin",
+          "evidence": "Dry gel pieces were digested using 5 μL of 2.0 μg/μL trypsin in 10 mM HCl and 55 μL of 100 mM NH4HCO3 overnight at 37°C",
+          "source": "manuscript"
+        },
+        "Characteristics[Label]": {
+          "value": "SILAC",
+          "evidence": "Preparation of the Super-SILAC Standard... complemented with L-arginine: HCL (U-13C6, 15N4) (Arg10), L-lysine: 2HCL (13C6, 15N2) (Lys8)",
+          "source": "manuscript"
+        },
+        "Characteristics[Modification]": {
+          "value": "oxidation",
+          "evidence": "Variable modification = oxidation of methionine",
+          "source": "manuscript"
+        },
+        "Comment[FractionationMethod]": {
+          "value": "gel-based fractionation",
+          "evidence": "Samples were concentrated on a Novex NuPage 4–12% gradient gel until the sample completely entered the gel... Single protein bands were excised",
+          "source": "manuscript"
+        },
+        "Comment[Separation]": {
+          "value": "liquid chromatography",
+          "evidence": "Peptides were subsequently separated on an Acclaim®PepMapTM C18 analytical column (2 μm particle size, 50 cm length, 75 μm ID, Thermo Fisher Scientific)",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {
+        "Characteristics[ReductionReagent]": {
+          "candidates": [
+            "β-mercaptoethanol"
+          ],
+          "reasoning": "β-mercaptoethanol is mentioned in protein sample buffer preparation: '1% (v/v) β-mercaptoethanol', which is commonly used as a reducing agent for protein denaturation",
+          "needs": "Clarification if β-mercaptoethanol was used for reduction during proteolysis or only for sample buffer preparation"
+        }
+      },
+      "not_applicable": [
+        "Characteristics[AlkylationReagent]",
+        "Characteristics[Modification].1",
+        "Characteristics[Modification].2",
+        "Characteristics[Modification].3",
+        "Characteristics[Modification].4",
+        "Characteristics[Modification].5",
+        "Characteristics[Modification].6",
+        "Characteristics[Depletion]",
+        "Characteristics[SpikedCompound]",
+        "Characteristics[SyntheticPeptide]",
+        "Comment[EnrichmentMethod]",
+        "Comment[NumberOfFractions]"
+      ],
+      "summary": "Sample preparation details are well-documented. Trypsin digestion is confirmed with specific conditions. SILAC labeling is confirmed using Arg10 and Lys8 heavy isotopes with super-SILAC standard preparation. Gel-based fractionation followed by LC separation is established. Only methionine oxidation is specified as variable modification. No alkylation reagent is mentioned, and β-mercaptoethanol usage context needs clarification."
+    },
+    "STEP3_MS_SETTINGS": {
+      "confirmed": {
+        "Comment[Instrument]": {
+          "value": "Orbitrap Elite hybrid ion trap-Orbitrap mass spectrometer",
+          "evidence": "an UltiMate®3000 RSLCnano HPLC system (Thermo Fisher Scientific) coupled to an Orbitrap Elite hybrid ion trap-Orbitrap mass spectrometer (Thermo Fisher Scientific) was used",
+          "source": "manuscript"
+        },
+        "Comment[FragmentationMethod]": {
+          "value": "CID",
+          "evidence": "were selected and fragmented by CID with a collision energy of 35%",
+          "source": "manuscript"
+        },
+        "Comment[AcquisitionMethod]": {
+          "value": "data-dependent acquisition",
+          "evidence": "the 20 most intense peptide ions (Top20 method) of the FTMS scan with a minimal signal intensity of 1,500 and a charge range >+2 were selected",
+          "source": "manuscript"
+        },
+        "Comment[CollisionEnergy]": {
+          "value": "35%",
+          "evidence": "fragmented by CID with a collision energy of 35%",
+          "source": "manuscript"
+        },
+        "Comment[PrecursorMassTolerance]": {
+          "value": "20 ppm",
+          "evidence": "MS tolerance = 20 ppm",
+          "source": "manuscript"
+        },
+        "Comment[FragmentMassTolerance]": {
+          "value": "0.5 Da",
+          "evidence": "MS/MS tolerance = 0.5 Da",
+          "source": "manuscript"
+        },
+        "Comment[NumberOfMissedCleavages]": {
+          "value": "2",
+          "evidence": "Max. missed cleavages = 2",
+          "source": "manuscript"
+        },
+        "Comment[GradientTime]": {
+          "value": "120 min",
+          "evidence": "using a linear gradient of 5–40% solvent D over 120 min",
+          "source": "manuscript"
+        },
+        "Comment[FlowRateChromatogram]": {
+          "value": "400 nL/min",
+          "evidence": "Peptides were eluted at a flow rate of 400 nL/min",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {
+        "Comment[IonizationType]": {
+          "candidates": [
+            "nanoESI"
+          ],
+          "reasoning": "PRIDE database confirms nanoESI ionization for this instrument setup, and the UltiMate RSLCnano system with 75 μm ID column and 400 nL/min flow rate is typical for nanoESI",
+          "needs": "explicit mention of ionization source in manuscript"
+        },
+        "Comment[MS2MassAnalyzer]": {
+          "candidates": [
+            "ion trap",
+            "orbitrap"
+          ],
+          "reasoning": "Instrument is described as 'hybrid ion trap-Orbitrap' but the specific analyzer used for MS/MS fragmentation is not explicitly stated in the methods",
+          "needs": "explicit specification of which analyzer performs MS/MS analysis"
+        }
+      },
+      "not_applicable": [],
+      "summary": "Mass spectrometry parameters are comprehensively documented. Orbitrap Elite instrument with CID fragmentation at 35% collision energy is confirmed. Data-dependent Top20 acquisition method with specific tolerances (20 ppm precursor, 0.5 Da fragment) and 2 missed cleavages are established. LC gradient conditions (120 min, 400 nL/min) are specified. Only ionization type and specific MS2 analyzer remain to be clarified, though PRIDE database suggests nanoESI ionization."
+    },
+    "STEP4_RAW_FILES": {
+      "confirmed": {
+        "Comment[FractionIdentifier]": {
+          "value": "Not Applicable",
+          "evidence": "Each sample was run as a single gel band: 'Single protein bands were excised and washed' and 'Samples were concentrated on a Novex NuPage 4–12% gradient gel until the sample completely entered the gel'",
+          "source": "manuscript"
+        },
+        "Characteristics[NumberOfBiologicalReplicates]": {
+          "value": "3",
+          "evidence": "At least three biological replicates were analyzed",
+          "source": "manuscript"
+        },
+        "FactorValue[Temperature]": {
+          "value": "per_sample",
+          "per_sample": {
+            "30°C": "slow growth",
+            "37°C": "medium growth",
+            "40°C": "fast growth"
+          },
+          "evidence": "Escherichia coli BL21 Δarg/Δlys cells were incubated in 800 mL LB medium at 180 rpm in a shaking water bath at 30°C (slow growth), 37°C (medium growth) or 40°C (fast growth)",
+          "source": "manuscript"
+        },
+        "FactorValue[Bait]": {
+          "value": "per_sample",
+          "per_sample": {
+            "Strep-LpxC": "target protein",
+            "His6-MBP-FtsH": "target protein",
+            "Strep-tag": "control",
+            "His6-MBP": "control"
+          },
+          "evidence": "1.5 μg of purified Strep-LpxC or His6-MBP-FtsH were mixed with 1.5 μg of the super-SILAC standard. For Strep-tag or His6-MBP EV controls, the same volume as in the corresponding Strep-LpxC or His6-MBP-FtsH sample was used",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {
+        "Characteristics[BiologicalReplicate]": {
+          "candidates": [
+            "per_file based on OEII prefix patterns"
+          ],
+          "reasoning": "Raw file names follow OEII prefix pattern but lack clear biological replicate identifiers (rep1, BR2, etc.). The numerical suffixes appear to be sequential run numbers rather than biological replicate indicators",
+          "needs": "Sample metadata or experimental design table to map file names to biological replicates"
+        },
+        "Characteristics[NumberOfTechnicalReplicates]": {
+          "candidates": [
+            "1"
+          ],
+          "reasoning": "No mention of technical replicates in the methods. Each sample appears to be analyzed once by LC-MS/MS",
+          "needs": "Confirmation that no technical replicates were performed"
+        },
+        "Characteristics[NumberOfSamples]": {
+          "candidates": [
+            "36"
+          ],
+          "reasoning": "36 raw files are listed, representing different combinations of bait proteins (Strep-LpxC, His6-MBP-FtsH, controls), temperatures (30°C, 37°C, 40°C), and biological replicates",
+          "needs": "Verification of experimental design matrix to confirm total sample count"
+        },
+        "FactorValue[Treatment]": {
+          "candidates": [
+            "growth rate conditions"
+          ],
+          "reasoning": "Temperature conditions (30°C slow growth, 37°C medium growth, 40°C fast growth) represent the primary treatment variable affecting bacterial growth rate",
+          "needs": "Confirmation whether temperature or growth rate should be the primary factor designation"
+        }
+      },
+      "not_applicable": [
+        "FactorValue[Disease]",
+        "FactorValue[GeneticModification]",
+        "FactorValue[Compound]",
+        "FactorValue[CellPart]",
+        "FactorValue[ConcentrationOfCompound].1",
+        "FactorValue[FractionIdentifier]"
+      ],
+      "summary": "This step confirms the experimental design involves 3 biological replicates analyzing protein interactions at three different temperatures (30°C, 37°C, 40°C) using two bait proteins (Strep-LpxC, His6-MBP-FtsH) plus controls. No gel fractionation is used - samples are run as single bands. The 36 raw files represent combinations of these factors but lack clear naming patterns to identify specific biological replicates. Temperature-dependent growth rate appears to be the primary experimental treatment."
+    }
+  }
+}

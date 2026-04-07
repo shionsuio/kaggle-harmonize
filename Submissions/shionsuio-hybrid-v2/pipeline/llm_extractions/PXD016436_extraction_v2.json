@@ -1,0 +1,364 @@
+{
+  "pxd": "PXD016436",
+  "raw_files": [
+    "LX055-80-3-milk_serum_after_80C_30min.raw",
+    "LX045-65-2-milk_serum_after_65C_30min.raw",
+    "LX056-85-1-milk_serum_after_85C_30min.raw",
+    "LX057-85-2-milk_serum_after_85C_30min.raw",
+    "LX049-70-3-milk_serum_after_70C_30min.raw",
+    "LX054-80-2-milk_serum_after_80C_30min.raw",
+    "LX051-75-2-milk_serum_after_75C_30min.raw",
+    "LX050-75-1-milk_serum_after_75C_30min.raw",
+    "LX041-0-1-milk_serum_from_raw_milk.raw",
+    "LX042-0-2-milk_serum_from_raw_milk.raw",
+    "LX048-70-2-milk_serum_after_70C_30min.raw",
+    "LX052-75-3-milk_serum_after_75C_30min.raw",
+    "LX043-0-3-milk_serum_from_raw_milk.raw",
+    "LX053-80-1-milk_serum_after_80C_30min.raw",
+    "LX058-85-3-milk_serum_after_85C_30min.raw",
+    "LX046-65-3-milk_serum_after_65C_30min.raw",
+    "LX047-70-1-milk_serum_after_70C_30min.raw",
+    "LX044-65-1-milk_serum_after_65C_30min.raw"
+  ],
+  "anchor": {
+    "pxd": "PXD016436",
+    "source": "PRIDE_API",
+    "organism": [
+      {
+        "name": "Bos taurus (bovine)",
+        "accession": "NEWT:9913"
+      }
+    ],
+    "instruments": [
+      {
+        "name": "LTQ Orbitrap",
+        "accession": "MS:1000449",
+        "sdrf_format": "AC=MS:1000449;NT=LTQ Orbitrap"
+      }
+    ],
+    "modifications": [],
+    "organism_parts": [],
+    "diseases": [],
+    "experiment_types": [
+      "Shotgun proteomics"
+    ],
+    "quantification_methods": [
+      "MS1 intensity based label-free quantification method"
+    ],
+    "keywords": [
+      "Whey protein",
+      "Proteomics",
+      "Heat treatment",
+      "Pasteurization",
+      "Milk"
+    ],
+    "publications": [
+      {
+        "pubmed_id": "",
+        "doi": "10.1016/j.dib.2020.105227",
+        "ref": "Xiong L, Boeren S, Vervoort J, Hettinga K. Dataset on proteomic changes of whey protein after different heat treatment. Data Brief. 2020 29:105227"
+      }
+    ],
+    "inferred_fragmentation": "CID",
+    "inferred_ms2_analyzer": "orbitrap",
+    "inferred_ionization": "nanoESI",
+    "raw_files": [
+      "LX055-80-3-milk_serum_after_80C_30min.raw",
+      "LX045-65-2-milk_serum_after_65C_30min.raw",
+      "LX056-85-1-milk_serum_after_85C_30min.raw",
+      "LX057-85-2-milk_serum_after_85C_30min.raw",
+      "LX049-70-3-milk_serum_after_70C_30min.raw",
+      "LX054-80-2-milk_serum_after_80C_30min.raw",
+      "LX051-75-2-milk_serum_after_75C_30min.raw",
+      "LX050-75-1-milk_serum_after_75C_30min.raw",
+      "LX041-0-1-milk_serum_from_raw_milk.raw",
+      "LX042-0-2-milk_serum_from_raw_milk.raw",
+      "LX048-70-2-milk_serum_after_70C_30min.raw",
+      "LX052-75-3-milk_serum_after_75C_30min.raw",
+      "LX043-0-3-milk_serum_from_raw_milk.raw",
+      "LX053-80-1-milk_serum_after_80C_30min.raw",
+      "LX058-85-3-milk_serum_after_85C_30min.raw",
+      "LX046-65-3-milk_serum_after_65C_30min.raw",
+      "LX047-70-1-milk_serum_after_70C_30min.raw",
+      "LX044-65-1-milk_serum_after_65C_30min.raw"
+    ]
+  },
+  "steps": {
+    "STEP1_OVERVIEW": {
+      "confirmed": {
+        "Characteristics[Organism]": {
+          "value": "Bos taurus",
+          "evidence": "whey protein after different heat treatment (whey proteins are derived from milk, and heating milk is mentioned)",
+          "source": "manuscript"
+        },
+        "Characteristics[MaterialType]": {
+          "value": "protein extract",
+          "evidence": "whey protein after different heat treatment, shot-gun proteomics experiment",
+          "source": "manuscript"
+        },
+        "Characteristics[Treatment]": {
+          "value": "heat treatment",
+          "evidence": "heating milk at either 65 °C, 70 °C, 75 °C, 80 °C, or 85 °C for 30 min",
+          "source": "manuscript"
+        },
+        "Characteristics[Compound]": {
+          "value": "whey protein",
+          "evidence": "proteomic changes of whey protein after different heat treatment",
+          "source": "manuscript"
+        },
+        "Comment[AcquisitionMethod]": {
+          "value": "filtered-aided sample preparation (FASP) and liquid chromatography with tandem mass spectrometry (LC-MS/MS)",
+          "evidence": "shot-gun proteomics experiment, using filtered-aided sample preparation (FASP), and liquid chromatography with tandem mass spectrometry (LC-MS/MS)",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {
+        "Characteristics[OrganismPart]": {
+          "candidates": [
+            "milk",
+            "mammary gland secretion"
+          ],
+          "reasoning": "Whey proteins are components of milk, which could be considered as a secreted product from mammary glands",
+          "needs": "Confirmation of how milk/whey should be classified as organism part"
+        },
+        "Characteristics[Specimen]": {
+          "candidates": [
+            "milk sample",
+            "whey protein fraction"
+          ],
+          "reasoning": "The study uses whey proteins extracted from milk as the specimen",
+          "needs": "Clarification on specimen classification for protein fractions"
+        }
+      },
+      "not_applicable": [
+        "Characteristics[CellType]",
+        "Characteristics[CellLine]",
+        "Characteristics[Disease]",
+        "Characteristics[Label]",
+        "Characteristics[Strain]",
+        "Characteristics[GeneticModification]",
+        "Characteristics[DevelopmentalStage]",
+        "Characteristics[ConcentrationOfCompound]"
+      ],
+      "summary": "This is a heat treatment study of bovine whey proteins using shotgun proteomics with FASP preparation and LC-MS/MS. The confirmed organism is Bos taurus, with heat treatment at various temperatures (65-85°C) as the main experimental variable. The material is whey protein extract, but the exact classification of milk/whey as organism part or specimen needs clarification. No cell culture, disease context, or labeling methods are involved."
+    },
+    "STEP2_SAMPLE_PREP": {
+      "confirmed": {
+        "Characteristics[CleavageAgent]": {
+          "value": "trypsin",
+          "evidence": "100 μL ABC containing 0.5 μg trypsin was added. The tube with filter was centrifuged at 13524×g for 30 min after incubation for 2 hours at 45 °C. The tryptic peptides were in this way collected",
+          "source": "manuscript"
+        },
+        "Characteristics[AlkylationReagent]": {
+          "value": "iodoacetamide",
+          "evidence": "20 μL (11.6–20 μg protein) of the sample in the SDT buffer was mixed with 180 μL 0.05 M IAA (Iodoacetamide)/UT",
+          "source": "manuscript"
+        },
+        "Characteristics[ReductionReagent]": {
+          "value": "dithiothreitol",
+          "evidence": "diluted in 180 μL SDT-lysis buffer (100 mM Tris/HCl pH 8.0 + 4% SDS + 0.1 M dithiothreitol)",
+          "source": "manuscript"
+        },
+        "Characteristics[Modification]": {
+          "value": "Carbamidomethyl",
+          "evidence": "Carbamidomethylation of cysteines was set as a fixed modification",
+          "source": "manuscript"
+        },
+        "Characteristics[Modification].1": {
+          "value": "Oxidation",
+          "evidence": "Oxidation of methionine, N-terminal acetylation and de-amidation of asparagine or glutamine were set as variable modifications",
+          "source": "manuscript"
+        },
+        "Characteristics[Modification].2": {
+          "value": "Acetyl",
+          "evidence": "Oxidation of methionine, N-terminal acetylation and de-amidation of asparagine or glutamine were set as variable modifications",
+          "source": "manuscript"
+        },
+        "Characteristics[Modification].3": {
+          "value": "Deamidated",
+          "evidence": "Oxidation of methionine, N-terminal acetylation and de-amidation of asparagine or glutamine were set as variable modifications",
+          "source": "manuscript"
+        },
+        "Comment[Separation]": {
+          "value": "LC",
+          "evidence": "Peptides were eluted from the pre-concentration column onto a 0.10 ∗ 200 mm ReproSil-Pur 120 C18-AQ 1.9 μm beads analytical column with an acetonitrile gradient",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {
+        "Characteristics[Depletion]": {
+          "candidates": [
+            "casein depletion",
+            "denatured protein depletion"
+          ],
+          "reasoning": "The study specifically removes casein and denatured proteins through acidification and ultracentrifugation, which could be considered a depletion step",
+          "needs": "Clarification if casein removal counts as depletion in SDRF context"
+        }
+      },
+      "not_applicable": [
+        "Characteristics[Label]",
+        "Characteristics[Modification].4",
+        "Characteristics[Modification].5",
+        "Characteristics[Modification].6",
+        "Characteristics[SpikedCompound]",
+        "Characteristics[SyntheticPeptide]",
+        "Comment[EnrichmentMethod]",
+        "Comment[FractionationMethod]",
+        "Comment[NumberOfFractions]"
+      ],
+      "summary": "Sample preparation details are well-defined: trypsin digestion with DTT reduction and iodoacetamide alkylation using FASP protocol. Four protein modifications are confirmed (carbamidomethyl as fixed, oxidation/acetyl/deamidated as variable). LC separation is used but no fractionation or enrichment methods are applied. The casein removal step might qualify as depletion but needs clarification. No labeling, spiked compounds, or synthetic peptides are involved."
+    },
+    "STEP3_MS_SETTINGS": {
+      "confirmed": {
+        "Comment[Instrument]": {
+          "value": "LTQ-Orbitrap XL",
+          "evidence": "Full scan positive mode FTMS spectra between m/z 380 and 1400 were measured on an LTQ-Orbitrap XL (Thermo Electron, San Jose, CA, USA)",
+          "source": "manuscript"
+        },
+        "Comment[FragmentationMethod]": {
+          "value": "CID",
+          "evidence": "CID-fragmented MSMS scans of the four most abundant doubly- and triply-charged peaks in the FTMS scan were recorded in data-dependent mode in the linear trap",
+          "source": "manuscript"
+        },
+        "Comment[MS2MassAnalyzer]": {
+          "value": "linear ion trap",
+          "evidence": "CID-fragmented MSMS scans of the four most abundant doubly- and triply-charged peaks in the FTMS scan were recorded in data-dependent mode in the linear trap",
+          "source": "manuscript"
+        },
+        "Comment[PrecursorMassTolerance]": {
+          "value": "20 ppm (first search), 4.5 ppm (main search)",
+          "evidence": "a mass deviation of 0.5 Da for fragment MS/MS peaks and 20 ppm and 4.5 ppm for the peptide MS peaks during the first and main search, respectively",
+          "source": "manuscript"
+        },
+        "Comment[FragmentMassTolerance]": {
+          "value": "0.5 Da",
+          "evidence": "a mass deviation of 0.5 Da for fragment MS/MS peaks and 20 ppm and 4.5 ppm for the peptide MS peaks during the first and main search, respectively",
+          "source": "manuscript"
+        },
+        "Comment[NumberOfMissedCleavages]": {
+          "value": "2",
+          "evidence": "A maximum of two missed cleavages were allowed",
+          "source": "manuscript"
+        },
+        "Comment[GradientTime]": {
+          "value": "50 min",
+          "evidence": "using gradient elution from 8% to 33% acetonitrile in water with 0.5 v/v % acetic acid in 50 min",
+          "source": "manuscript"
+        },
+        "Comment[FlowRateChromatogram]": {
+          "value": "0.5 μL/min",
+          "evidence": "Peptides were eluted from the pre-concentration column onto a 0.10 ∗ 200 mm ReproSil-Pur 120 C18-AQ 1.9 μm beads analytical column with an acetonitrile gradient at a flow of 0.5 μL/min",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {
+        "Comment[IonizationType]": {
+          "candidates": [
+            "electrospray ionization",
+            "nanoESI"
+          ],
+          "reasoning": "Text mentions 'electrospray potential of 3.5 kV was applied directly to the eluent' and anchor data confirms nanoESI, but need to determine if this is standard ESI or nanoESI based on flow rate",
+          "needs": "Clarification on whether 0.5 μL/min flow rate constitutes nano-scale ESI"
+        },
+        "Comment[CollisionEnergy]": {
+          "candidates": [
+            "normalized collision energy",
+            "automatic collision energy"
+          ],
+          "reasoning": "CID fragmentation is confirmed but specific collision energy values are not mentioned in the text",
+          "needs": "Specific collision energy values or settings"
+        }
+      },
+      "not_applicable": [
+        "Comment[AcquisitionMethod]"
+      ],
+      "summary": "Mass spectrometry instrumentation and parameters are well-documented: LTQ-Orbitrap XL with CID fragmentation using linear ion trap for MS2. Search parameters include 20ppm/4.5ppm precursor tolerance, 0.5 Da fragment tolerance, and 2 missed cleavages allowed. LC gradient runs for 50 min at 0.5 μL/min flow rate. Ionization type likely nanoESI based on flow rate but needs confirmation, and collision energy parameters are not specified in the manuscript."
+    },
+    "STEP4_RAW_FILES": {
+      "confirmed": {
+        "Characteristics[NumberOfBiologicalReplicates]": {
+          "value": "3",
+          "evidence": "50 ml of the unheated skim milk samples was heated at 65 °C, 70 °C, 75 °C, 80 °C or 85 °C, in triplicate, for 30 min",
+          "source": "manuscript"
+        },
+        "Characteristics[NumberOfTechnicalReplicates]": {
+          "value": "1",
+          "evidence": "Each condition shows 3 biological replicates with no indication of technical replicates in the experimental design",
+          "source": "manuscript"
+        },
+        "Characteristics[NumberOfSamples]": {
+          "value": "18",
+          "evidence": "6 temperature conditions (0, 65, 70, 75, 80, 85°C) × 3 biological replicates = 18 samples, confirmed by 18 raw files",
+          "source": "manuscript/filename"
+        },
+        "Characteristics[BiologicalReplicate]": {
+          "value": "per_file",
+          "per_file": {
+            "LX041-0-1-milk_serum_from_raw_milk.raw": "1",
+            "LX042-0-2-milk_serum_from_raw_milk.raw": "2",
+            "LX043-0-3-milk_serum_from_raw_milk.raw": "3",
+            "LX044-65-1-milk_serum_after_65C_30min.raw": "1",
+            "LX045-65-2-milk_serum_after_65C_30min.raw": "2",
+            "LX046-65-3-milk_serum_after_65C_30min.raw": "3",
+            "LX047-70-1-milk_serum_after_70C_30min.raw": "1",
+            "LX048-70-2-milk_serum_after_70C_30min.raw": "2",
+            "LX049-70-3-milk_serum_after_70C_30min.raw": "3",
+            "LX050-75-1-milk_serum_after_75C_30min.raw": "1",
+            "LX051-75-2-milk_serum_after_75C_30min.raw": "2",
+            "LX052-75-3-milk_serum_after_75C_30min.raw": "3",
+            "LX053-80-1-milk_serum_after_80C_30min.raw": "1",
+            "LX054-80-2-milk_serum_after_80C_30min.raw": "2",
+            "LX055-80-3-milk_serum_after_80C_30min.raw": "3",
+            "LX056-85-1-milk_serum_after_85C_30min.raw": "1",
+            "LX057-85-2-milk_serum_after_85C_30min.raw": "2",
+            "LX058-85-3-milk_serum_after_85C_30min.raw": "3"
+          },
+          "evidence": "Filename pattern shows clear replicate numbering (1, 2, 3) for each temperature condition",
+          "source": "filename"
+        },
+        "FactorValue[Treatment]": {
+          "value": "heat treatment",
+          "evidence": "50 ml of the unheated skim milk samples was heated at 65 °C, 70 °C, 75 °C, 80 °C or 85 °C",
+          "source": "manuscript"
+        },
+        "FactorValue[Temperature]": {
+          "value": "per_file",
+          "per_file": {
+            "LX041-0-1-milk_serum_from_raw_milk.raw": "0",
+            "LX042-0-2-milk_serum_from_raw_milk.raw": "0",
+            "LX043-0-3-milk_serum_from_raw_milk.raw": "0",
+            "LX044-65-1-milk_serum_after_65C_30min.raw": "65",
+            "LX045-65-2-milk_serum_after_65C_30min.raw": "65",
+            "LX046-65-3-milk_serum_after_65C_30min.raw": "65",
+            "LX047-70-1-milk_serum_after_70C_30min.raw": "70",
+            "LX048-70-2-milk_serum_after_70C_30min.raw": "70",
+            "LX049-70-3-milk_serum_after_70C_30min.raw": "70",
+            "LX050-75-1-milk_serum_after_75C_30min.raw": "75",
+            "LX051-75-2-milk_serum_after_75C_30min.raw": "75",
+            "LX052-75-3-milk_serum_after_75C_30min.raw": "75",
+            "LX053-80-1-milk_serum_after_80C_30min.raw": "80",
+            "LX054-80-2-milk_serum_after_80C_30min.raw": "80",
+            "LX055-80-3-milk_serum_after_80C_30min.raw": "80",
+            "LX056-85-1-milk_serum_after_85C_30min.raw": "85",
+            "LX057-85-2-milk_serum_after_85C_30min.raw": "85",
+            "LX058-85-3-milk_serum_after_85C_30min.raw": "85"
+          },
+          "evidence": "Temperature conditions clearly indicated in filename patterns (0, 65, 70, 75, 80, 85) and confirmed by manuscript text",
+          "source": "manuscript/filename"
+        }
+      },
+      "hypotheses": {},
+      "not_applicable": [
+        "Comment[FractionIdentifier]",
+        "FactorValue[Disease]",
+        "FactorValue[GeneticModification]",
+        "FactorValue[Compound]",
+        "FactorValue[Bait]",
+        "FactorValue[CellPart]",
+        "FactorValue[ConcentrationOfCompound].1",
+        "FactorValue[FractionIdentifier]"
+      ],
+      "summary": "File assignment analysis completed successfully. The study design is confirmed as 6 temperature conditions (0, 65, 70, 75, 80, 85°C) with 3 biological replicates each, totaling 18 samples. Raw file names follow a clear pattern allowing definitive assignment of biological replicate numbers and temperature values. Heat treatment is the primary experimental factor. No fractionation, disease context, genetic modifications, or compound treatments are involved in this study design."
+    }
+  }
+}

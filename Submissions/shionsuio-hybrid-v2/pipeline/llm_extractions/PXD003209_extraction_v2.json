@@ -1,0 +1,248 @@
+{
+  "pxd": "PXD003209",
+  "raw_files": [
+    "01112016_DM798_Run1.raw",
+    "01112016_DM798_Run3.raw",
+    "01112016_DM798_Run2.raw"
+  ],
+  "anchor": {
+    "pxd": "PXD003209",
+    "source": "PRIDE_API",
+    "organism": [
+      {
+        "name": "Homo sapiens (human)",
+        "accession": "NEWT:9606"
+      }
+    ],
+    "instruments": [
+      {
+        "name": "LTQ Orbitrap Velos",
+        "accession": "MS:1001742",
+        "sdrf_format": "AC=MS:1001742;NT=LTQ Orbitrap Velos"
+      }
+    ],
+    "modifications": [],
+    "organism_parts": [
+      {
+        "name": "Epithelial cell",
+        "accession": "CL:0000066"
+      },
+      {
+        "name": "Permanent cell line cell",
+        "accession": "CL:0000002"
+      },
+      {
+        "name": "Cell culture",
+        "accession": "BTO:0000214"
+      }
+    ],
+    "diseases": [],
+    "experiment_types": [
+      "Shotgun proteomics"
+    ],
+    "quantification_methods": [
+      "Spectrum counting"
+    ],
+    "keywords": [
+      "Extracellular vesicle",
+      "Exosome",
+      "Polyethylene glycol"
+    ],
+    "publications": [
+      {
+        "pubmed_id": "",
+        "doi": "10.1038/srep23978",
+        "ref": "Rider MA, Hurwitz SN, Meckes DG Jr. ExtraPEG: A Polyethylene Glycol-Based Method for Enrichment of Extracellular Vesicles. Sci Rep. 2016 Apr 12;6:23978"
+      }
+    ],
+    "inferred_fragmentation": null,
+    "inferred_ms2_analyzer": "orbitrap",
+    "inferred_ionization": "nanoESI",
+    "raw_files": [
+      "01112016_DM798_Run1.raw",
+      "01112016_DM798_Run3.raw",
+      "01112016_DM798_Run2.raw"
+    ]
+  },
+  "steps": {
+    "STEP1_OVERVIEW": {
+      "confirmed": {
+        "Characteristics[MaterialType]": {
+          "value": "extracellular vesicles",
+          "evidence": "ExtraPEG: A Polyethylene Glycol-Based Method for Enrichment of Extracellular Vesicles",
+          "source": "manuscript"
+        },
+        "Comment[AcquisitionMethod]": {
+          "value": "ExtraPEG method using polyethylene glycol precipitation followed by ultracentrifugation",
+          "evidence": "adapting methods for isolating viruses using polyethylene glycol... ExtraPEG, enriches exosomes from large volumes of media rapidly and inexpensively using low-speed centrifugation, followed by a single small-volume ultracentrifugation purification step",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {
+        "Characteristics[Organism]": {
+          "candidates": [
+            "Homo sapiens"
+          ],
+          "reasoning": "PRIDEデータベースでHomo sapiensが確定されており、細胞培養系での研究が示唆されている",
+          "needs": "論文の実験セクションでの使用細胞株の明記"
+        },
+        "Characteristics[CellType]": {
+          "candidates": [
+            "cell culture"
+          ],
+          "reasoning": "培養メディアからの細胞外小胞採取が言及されており、培養細胞系での実験が示唆される",
+          "needs": "具体的な細胞株名と細胞タイプの確認"
+        },
+        "Characteristics[Specimen]": {
+          "candidates": [
+            "cell culture supernatant",
+            "biological fluids"
+          ],
+          "reasoning": "大量の培養メディアと生体流体からの採取が言及されている",
+          "needs": "実際に使用された試料の種類の詳細"
+        }
+      },
+      "not_applicable": [
+        "Characteristics[Disease]",
+        "Characteristics[CellLine]",
+        "Characteristics[Label]",
+        "Characteristics[Strain]",
+        "Characteristics[GeneticModification]",
+        "Characteristics[Treatment]",
+        "Characteristics[DevelopmentalStage]",
+        "Characteristics[Compound]",
+        "Characteristics[ConcentrationOfCompound]"
+      ],
+      "summary": "細胞外小胞（エクソソーム）の新規精製法ExtraPEGに関する研究。ポリエチレングリコールを用いた沈殿法が確定した精製方法。培養細胞系での実験が示唆されるが、具体的な細胞株や生物種は論文概要では不明。プロテオミクス解析が実施されているため、次ステップで実験詳細の確認が必要。"
+    },
+    "STEP2_SAMPLE_PREP": {
+      "confirmed": {
+        "Characteristics[CleavageAgent]": {
+          "value": "trypsin",
+          "evidence": "gel pieces were cooled on ice, and rehydrated with Trypsin Gold protein digest enzyme (Promega, V5280) suspended in ProteaseMAX™ Surfactant Trypsin Enhancer",
+          "source": "manuscript"
+        },
+        "Characteristics[ReductionReagent]": {
+          "value": "dithiothreitol",
+          "evidence": "The dehydrated gel pieces were re-suspended in 400 μL of a reducing solution containing 25 mM dithiothreitol in 50 mM ammonium bicarbonate and incubated at 56 °C for 20 min",
+          "source": "manuscript"
+        },
+        "Characteristics[AlkylationReagent]": {
+          "value": "iodoacetamide",
+          "evidence": "Reduction was followed by alkylation of samples by removing reducing solution and adding the same volume of 55 mM iodoacetamide in 50 mM ammonium bicarbonate",
+          "source": "manuscript"
+        },
+        "Comment[Separation]": {
+          "value": "SDS-PAGE gel electrophoresis followed by in-gel digestion",
+          "evidence": "6.5 μg of protein was purified by tris-glycine sodium dodecyl sulfate polyacrylamide gel electrophoresis (SDS-PAGE). Protein was run into the 4–20% polyacrylamide gel slowly, at 50 volts for approximately 25 min",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {},
+      "not_applicable": [
+        "Characteristics[Label]",
+        "Characteristics[Modification]",
+        "Characteristics[Modification].1",
+        "Characteristics[Modification].2",
+        "Characteristics[Modification].3",
+        "Characteristics[Modification].4",
+        "Characteristics[Modification].5",
+        "Characteristics[Modification].6",
+        "Characteristics[Depletion]",
+        "Characteristics[SpikedCompound]",
+        "Characteristics[SyntheticPeptide]",
+        "Comment[EnrichmentMethod]",
+        "Comment[FractionationMethod]",
+        "Comment[NumberOfFractions]"
+      ],
+      "summary": "サンプル調製の詳細が明確に記載されている。HeLa細胞由来の細胞外小胞をExtraPEG法で精製後、SDS-PAGEでタンパク質を分離し、ゲル内消化を実施。還元剤にジチオスレイトール、アルキル化剤にヨードアセトアミド、切断酵素にトリプシンを使用した標準的なボトムアッププロテオミクス手法が確定。ラベル化や修飾、エンリッチメント等の追加処理は実施されていない。"
+    },
+    "STEP3_MS_SETTINGS": {
+      "confirmed": {
+        "Comment[Instrument]": {
+          "value": "Thermo LTQ Orbitrap Velos nLC-ESI-LIT-Orbitrap",
+          "evidence": "Liquid chromatography tandem mass spectrometry (LC-MS/MS) analysis was done using an externally calibrated Thermo LTQ Orbitrap Velos nLC-ESI-LIT-Orbitrap (high-resolution electrospray tandem mass spectrometer)",
+          "source": "manuscript"
+        },
+        "Comment[IonizationType]": {
+          "value": "nanoESI",
+          "evidence": "Thermo LTQ Orbitrap Velos nLC-ESI-LIT-Orbitrap (high-resolution electrospray tandem mass spectrometer)",
+          "source": "manuscript"
+        },
+        "Comment[MS2MassAnalyzer]": {
+          "value": "orbitrap",
+          "evidence": "Thermo LTQ Orbitrap Velos nLC-ESI-LIT-Orbitrap (high-resolution electrospray tandem mass spectrometer) with parameters set as previously described",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {
+        "Comment[FragmentationMethod]": {
+          "candidates": [
+            "CID",
+            "HCD"
+          ],
+          "reasoning": "LTQ Orbitrap Velosは一般的にCIDまたはHCDを使用するが、論文では「parameters set as previously described」とのみ記載されており具体的な断片化法は明記されていない",
+          "needs": "参照されている以前の論文または装置の標準設定の確認"
+        }
+      },
+      "not_applicable": [
+        "Comment[AcquisitionMethod]",
+        "Comment[CollisionEnergy]",
+        "Comment[PrecursorMassTolerance]",
+        "Comment[FragmentMassTolerance]",
+        "Comment[NumberOfMissedCleavages]",
+        "Comment[GradientTime]",
+        "Comment[FlowRateChromatogram]"
+      ],
+      "summary": "質量分析装置はThermo LTQ Orbitrap Velos nLC-ESI-LIT-Orbitrapと確定。イオン化法はnanoESI、MS2質量分析部はOrbitrapが確定。しかし、測定パラメータの詳細（断片化法、衝突エネルギー、質量許容誤差、グラジエント時間など）は「以前に記載されたパラメータを使用」とのみ記載されており、具体的な数値は不明。データベース検索にはSequest HTとMascotを使用し、UniProt Swiss-Prot Homo sapiensデータベースで検索が実施された。"
+    },
+    "STEP4_RAW_FILES": {
+      "confirmed": {
+        "Comment[FractionIdentifier]": {
+          "value": "Not Applicable",
+          "evidence": "SDS-PAGE gel electrophoresis followed by in-gel digestion was performed, but proteins were run approximately 1 cm into gel lanes and regions containing protein were excised as whole sections, not fractionated",
+          "source": "manuscript"
+        },
+        "Characteristics[NumberOfTechnicalReplicates]": {
+          "value": "3",
+          "evidence": "Raw data files produced were loaded into Proteome Discoverer Software and database searches were conducted for each technical replicate with Sequest HT and Mascot. Three raw files are provided: 01112016_DM798_Run1.raw, 01112016_DM798_Run2.raw, 01112016_DM798_Run3.raw",
+          "source": "manuscript/filename"
+        },
+        "Characteristics[NumberOfSamples]": {
+          "value": "1",
+          "evidence": "HeLa cell vesicles were harvested using the ExtraPEG method (8% PEG + wash), and lysed. Recovered protein was quantified using the EZQ quantification kit, and 6.5 μg of protein was purified - indicating a single sample preparation",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {
+        "Characteristics[BiologicalReplicate]": {
+          "candidates": [
+            "1",
+            "Not Applicable"
+          ],
+          "reasoning": "Only one biological sample (HeLa cell vesicles harvested using ExtraPEG method) is described for mass spectrometry analysis, suggesting single biological replicate, but could also be interpreted as no biological replication",
+          "needs": "Clarification whether this represents one biological replicate of a larger experimental design or a single biological sample without replication"
+        },
+        "Characteristics[NumberOfBiologicalReplicates]": {
+          "candidates": [
+            "1"
+          ],
+          "reasoning": "Mass spectrometry analysis describes processing of HeLa cell vesicles as a single batch using ExtraPEG method with 6.5 μg protein, suggesting one biological replicate",
+          "needs": "Confirmation whether additional biological replicates exist but were not described in the methods section"
+        }
+      },
+      "not_applicable": [
+        "FactorValue[Treatment]",
+        "FactorValue[Temperature]",
+        "FactorValue[Disease]",
+        "FactorValue[GeneticModification]",
+        "FactorValue[Compound]",
+        "FactorValue[Bait]",
+        "FactorValue[CellPart]",
+        "FactorValue[ConcentrationOfCompound].1",
+        "FactorValue[FractionIdentifier]"
+      ],
+      "summary": "質量分析実験の実験デザインが明確になった。HeLa細胞由来の細胞外小胞をExtraPEG法で精製した単一サンプルに対し、3回の技術的反復測定（Run1, Run2, Run3）を実施。ゲル内消化後の分画は行われておらず、各種実験要因（処理、温度、疾患等）の設定もない単純な記述的プロテオミクス解析。生物学的反復数については1回と推定されるが、より大きな実験デザインの一部である可能性も残る。"
+    }
+  }
+}

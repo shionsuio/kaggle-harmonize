@@ -1,0 +1,522 @@
+{
+  "pxd": "PXD005554",
+  "raw_files": [
+    "150911_174_AN_G138_C1_f14.raw",
+    "150911_174_AN_G138_C1_f7.raw",
+    "160123_210_AN_13.raw",
+    "160123_210_AN_2.raw",
+    "160405_210_AN_5_f14.raw",
+    "160403_210_AN_5_f12.raw",
+    "150603_121_AN_G138_C2_f12.raw",
+    "160123_210_AN_15.raw",
+    "150911_174_AN_G138_S1_f11.raw",
+    "160315_210_AN_10_f7.raw",
+    "160315_210_AN_10_f13.raw",
+    "150911_174_AN_G138_C1_f9.raw",
+    "160403_210_AN_5_f5.raw",
+    "160129_210_AN_6.raw",
+    "150330_121_AN_G138_C2_2h.raw",
+    "160310_210_AN_4_f12.raw",
+    "160123_210_AN_12.raw",
+    "150603_121_AN_G138_C2_f9.raw",
+    "160315_210_AN_10_f5.raw",
+    "150911_174_AN_G138_S1_f7.raw",
+    "160403_210_AN_5_f9.raw",
+    "160310_210_AN_4_f1.raw",
+    "150603_121_AN_G138_S2_f7.raw",
+    "150603_121_AN_G138_S2_f14.raw",
+    "150324_121_AN_G42_C1_2h.raw",
+    "160310_210_AN_4_f5.raw",
+    "150911_174_AN_G138_S1_f5.raw",
+    "160403_210_AN_5_f1.raw",
+    "160310_210_AN_4_f3.raw",
+    "160315_210_AN_10_f12.raw",
+    "150911_174_AN_G138_S1_f8.raw",
+    "160317_210_AN_11_f13.raw",
+    "150911_174_AN_G138_S1_f14.raw",
+    "160403_210_AN_5_f3.raw",
+    "150603_121_AN_G138_S2_f8.raw",
+    "160123_210_AN_18.raw",
+    "150911_174_AN_G138_C1_f1.raw",
+    "160315_210_AN_10_f4.raw",
+    "160123_210_AN_3.raw",
+    "160403_210_AN_5_f10.raw",
+    "150911_174_AN_G138_C1_f13.raw",
+    "150911_174_AN_G138_S1_f4.raw",
+    "160315_210_AN_10_f2.raw",
+    "150603_121_AN_G138_S2_f15.raw",
+    "160123_210_AN_10.raw",
+    "160403_210_AN_5_f8.raw",
+    "150603_121_AN_G138_C2_f10.raw",
+    "150911_174_AN_G138_C1_f15.raw",
+    "150911_174_AN_G138_C1_f10.raw",
+    "150603_121_AN_G138_S2_f4.raw",
+    "160317_210_AN_11_f5.raw",
+    "150911_174_AN_G138_C1_f12.raw",
+    "150911_174_AN_G138_S1_f13.raw",
+    "160218_210_AN_4.raw",
+    "160310_210_AN_4_f2.raw",
+    "160310_210_AN_4_f15.raw",
+    "160317_210_AN_11_f3.raw",
+    "160310_210_AN_4_f14.raw",
+    "160315_210_AN_10_f6.raw",
+    "160403_210_AN_5_f6.raw",
+    "160315_210_AN_10_f1.raw",
+    "150603_121_AN_G138_C2_f1.raw",
+    "150911_174_AN_G138_S1_f12.raw",
+    "160403_210_AN_5_f7.raw",
+    "160123_210_AN_16.raw",
+    "160310_210_AN_4_f13.raw",
+    "160317_210_AN_11_f14.raw",
+    "150603_121_AN_G138_S2_f9.raw",
+    "150911_174_AN_G138_C1_f2.raw",
+    "150603_121_AN_G138_S2_f5.raw",
+    "150330_121_AN_G138_S2_2h.raw",
+    "160317_210_AN_11_f6.raw",
+    "150603_121_AN_G138_C2_f15.raw",
+    "150603_121_AN_G138_C2_f2_b.raw",
+    "160310_210_AN_4_f10.raw",
+    "160317_210_AN_11_f4.raw",
+    "150911_174_AN_G138_C1_f6.raw",
+    "150603_121_AN_G138_S2_f10.raw",
+    "150911_174_AN_G138_C1_f11.raw",
+    "160403_210_AN_5_f11.raw",
+    "160123_210_AN_7.raw",
+    "150603_121_AN_G138_S2_f3.raw",
+    "160403_210_AN_5_f2.raw",
+    "160317_210_AN_11_f11.raw",
+    "160317_210_AN_11_f12.raw",
+    "160310_210_AN_4_f8.raw",
+    "150603_121_AN_G138_C2_f5.raw",
+    "150911_174_AN_G138_S1_f10.raw",
+    "160315_210_AN_10_f11.raw",
+    "160218_210_AN_11.raw",
+    "160403_210_AN_5_f4.raw",
+    "160310_210_AN_4_f4.raw",
+    "160123_210_AN_8.raw",
+    "150911_174_AN_G138_S1_f6.raw",
+    "160317_210_AN_11_f1.raw",
+    "160310_210_AN_4_f9.raw",
+    "160129_210_AN_1.raw",
+    "150603_121_AN_G138_S2_f2.raw",
+    "160310_210_AN_4_f11.raw",
+    "150603_121_AN_G138_C2_f14.raw",
+    "150603_121_AN_G138_C2_f7.raw",
+    "160315_210_AN_10_f10.raw",
+    "160315_210_AN_10_f8.raw",
+    "150911_174_AN_G138_C1_f4.raw",
+    "160123_210_AN_5.raw",
+    "160317_210_AN_11_f15.raw",
+    "150911_174_AN_G138_S1_f15.raw",
+    "160310_210_AN_4_f7.raw",
+    "150911_174_AN_G138_S1_f2.raw",
+    "150911_174_AN_G138_C1_f5.raw",
+    "150603_121_AN_G138_C2_f3.raw",
+    "150911_174_AN_G138_C1_f3.raw",
+    "160315_210_AN_10_f14.raw",
+    "150603_121_AN_G138_S2_f11.raw",
+    "160317_210_AN_11_f7.raw",
+    "150911_174_AN_G138_C1_f8.raw",
+    "150603_121_AN_G138_C2_f13.raw",
+    "160317_210_AN_11_f10.raw",
+    "160405_210_AN_5_f15.raw",
+    "150911_174_AN_G138_S1_f1.raw",
+    "160129_210_AN_9.raw",
+    "160315_210_AN_10_f3.raw",
+    "160315_210_AN_10_f15.raw",
+    "150603_121_AN_G138_C2_f4.raw",
+    "160123_210_AN_17.raw",
+    "150603_121_AN_G138_C2_f6.raw",
+    "160317_210_AN_11_f2.raw",
+    "160310_210_AN_4_f6.raw",
+    "150911_174_AN_G138_S1_f3.raw",
+    "150330_121_AN_G42_S1_2h.raw",
+    "150603_121_AN_G138_S2_f1.raw",
+    "150603_121_AN_G138_C2_f11.raw",
+    "150603_121_AN_G138_C2_f8.raw",
+    "160315_210_AN_10_f9.raw",
+    "160317_210_AN_11_f9.raw",
+    "160123_210_AN_14.raw",
+    "160317_210_AN_11_f8.raw",
+    "160405_210_AN_5_f13.raw",
+    "150603_121_AN_G138_S2_f6.raw",
+    "150603_121_AN_G138_S2_f12.raw",
+    "150911_174_AN_G138_S1_f9.raw",
+    "150603_121_AN_G138_S2_f13.raw"
+  ],
+  "anchor": {
+    "pxd": "PXD005554",
+    "source": "PRIDE_API",
+    "organism": [
+      {
+        "name": "Homo sapiens (human)",
+        "accession": "NEWT:9606"
+      }
+    ],
+    "instruments": [
+      {
+        "name": "Q Exactive",
+        "accession": "MS:1001911",
+        "sdrf_format": "AC=MS:1001911;NT=Q Exactive"
+      }
+    ],
+    "modifications": [],
+    "organism_parts": [
+      {
+        "name": "Mammary gland",
+        "accession": "BTO:0000817"
+      },
+      {
+        "name": "Epithelial ovarian cancer cell",
+        "accession": "BTO:0004094"
+      }
+    ],
+    "diseases": [
+      {
+        "name": "Breast cancer",
+        "accession": "DOID:1612"
+      },
+      {
+        "name": "Ovarian cancer",
+        "accession": "DOID:2394"
+      }
+    ],
+    "experiment_types": [
+      "Shotgun proteomics"
+    ],
+    "quantification_methods": [
+      "Spectrum counting"
+    ],
+    "keywords": [
+      "Breast cancer",
+      "Ovarian cancer",
+      "Ecm",
+      "Lc-ms/ms"
+    ],
+    "publications": [
+      {
+        "pubmed_id": "",
+        "doi": "10.1021/acs.jproteome.7b00191",
+        "ref": "Naba A, Pearce OMT, Del Rosario A, Ma D, Ding H, Rajeeve V, Cutillas PR, Balkwill FR, Hynes RO. Characterization of the Extracellular Matrix of Normal and Diseased Tissues Using Proteomics. J Proteome Res. 2017 16(8):3083-3091"
+      }
+    ],
+    "inferred_fragmentation": "HCD",
+    "inferred_ms2_analyzer": "orbitrap",
+    "inferred_ionization": "nanoESI",
+    "raw_files": []
+  },
+  "steps": {
+    "STEP1_OVERVIEW": {
+      "confirmed": {
+        "Characteristics[Organism]": {
+          "value": "Homo sapiens",
+          "evidence": "triple-negative breast cancer and adjacent mammary tissue, and omental metastasis from high-grade serous ovarian cancer",
+          "source": "manuscript"
+        },
+        "Characteristics[OrganismPart]": {
+          "value": "mammary tissue; omentum",
+          "evidence": "triple-negative breast cancer and adjacent mammary tissue, and omental metastasis from high-grade serous ovarian cancer and normal omentum",
+          "source": "manuscript"
+        },
+        "Characteristics[Disease]": {
+          "value": "triple-negative breast cancer; high-grade serous ovarian cancer",
+          "evidence": "triple-negative breast cancer and adjacent mammary tissue, and omental metastasis from high-grade serous ovarian cancer",
+          "source": "manuscript"
+        },
+        "Characteristics[MaterialType]": {
+          "value": "extracellular matrix proteins",
+          "evidence": "optimized protocols to solubilize ECM proteins from normal or tumor tissues",
+          "source": "manuscript"
+        },
+        "Characteristics[Specimen]": {
+          "value": "tissue",
+          "evidence": "ECMs obtained from two pairs of tissues",
+          "source": "manuscript"
+        },
+        "Comment[AcquisitionMethod]": {
+          "value": "shotgun proteomics",
+          "evidence": "analyze ECM peptides by mass spectrometry",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {
+        "Characteristics[Label]": {
+          "candidates": [
+            "label-free"
+          ],
+          "reasoning": "Spectrum counting quantification method typically uses label-free approach, but specific labeling strategy not explicitly mentioned in abstract",
+          "needs": "Methods section or experimental details to confirm labeling strategy"
+        }
+      },
+      "not_applicable": [
+        "Characteristics[CellType]",
+        "Characteristics[CellLine]",
+        "Characteristics[Strain]",
+        "Characteristics[GeneticModification]",
+        "Characteristics[Treatment]",
+        "Characteristics[DevelopmentalStage]",
+        "Characteristics[Compound]",
+        "Characteristics[ConcentrationOfCompound]"
+      ],
+      "summary": "研究は正常組織と腫瘍組織から抽出した細胞外マトリックス(ECM)タンパク質の比較プロテオミクス解析。ヒト乳腺組織（正常vs三重陰性乳癌）と大網組織（正常vs高悪性度漿液性卵巣癌転移）の2組織ペアを使用。ショットガンプロテオミクスによる解析だが、具体的な標識法は未確定。"
+    },
+    "STEP2_SAMPLE_PREP": {
+      "confirmed": {
+        "Characteristics[CleavageAgent]": {
+          "value": "trypsin",
+          "evidence": "digested with bead-immobilized trypsin (40 μL of beads per 250 μg of protein; Pierce) for 16 h at 37 °C under agitation",
+          "source": "manuscript"
+        },
+        "Characteristics[AlkylationReagent]": {
+          "value": "iodoacetamide",
+          "evidence": "Free cysteines were alkylated by adding iodoacetamide at a final concentration of 8.3 mM",
+          "source": "manuscript"
+        },
+        "Characteristics[ReductionReagent]": {
+          "value": "dithiothreitol",
+          "evidence": "Disulfide bonds were reduced by adding 5 mM dithiothreitol to the samples for a 1 h incubation",
+          "source": "manuscript"
+        },
+        "Characteristics[Label]": {
+          "value": "label free",
+          "evidence": "No labeling reagents mentioned in methods; quantification based on 'total precursor ion intensity' and 'sum of MS1-precursor-ion-peak areas'",
+          "source": "manuscript"
+        },
+        "Characteristics[Modification]": {
+          "value": "Carbamidomethyl",
+          "evidence": "fixed modification was carbamidomethylation of cysteine",
+          "source": "manuscript"
+        },
+        "Characteristics[Modification].1": {
+          "value": "Oxidation",
+          "evidence": "variable modifications were oxidized methionine",
+          "source": "manuscript"
+        },
+        "Characteristics[Modification].2": {
+          "value": "Deamidated",
+          "evidence": "variable modifications were... deamidation of asparagine",
+          "source": "manuscript"
+        },
+        "Characteristics[Modification].3": {
+          "value": "Gln->pyro-Glu",
+          "evidence": "variable modifications were... pyro-glutamic acid modification at N-terminal glutamine",
+          "source": "manuscript"
+        },
+        "Characteristics[Modification].4": {
+          "value": "Hydroxylation",
+          "evidence": "variable modifications were... hydroxylation of lysine and proline",
+          "source": "manuscript"
+        },
+        "Comment[EnrichmentMethod]": {
+          "value": "ECM enrichment by sequential buffer extraction",
+          "evidence": "ECM proteins were enriched... incubated in a series of buffers to remove sequentially nuclear proteins (buffer \"N\"), membrane proteins (buffer \"M\"), and cytoskeletal proteins (buffer \"CS\")",
+          "source": "manuscript"
+        },
+        "Comment[FractionationMethod]": {
+          "value": "high pH reversed-phase",
+          "evidence": "Equivalent peptide amounts were fractionated via high-pH reversed-phase HPLC",
+          "source": "manuscript"
+        },
+        "Comment[NumberOfFractions]": {
+          "value": "15",
+          "evidence": "The fractions were concatenated into 15 fractions non-contiguously",
+          "source": "manuscript"
+        },
+        "Comment[Separation]": {
+          "value": "LC-MS",
+          "evidence": "Peptides were separated by reversed-phase HPLC using an EASY-nLC1000",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {
+        "Characteristics[CleavageAgent]": {
+          "candidates": [
+            "trypsin",
+            "Lys-C"
+          ],
+          "reasoning": "Both trypsin and Lys-C were used in the digestion protocol, with Lys-C as pre-digestion step",
+          "needs": "Clarification on whether both should be listed or if main cleavage agent (trypsin) is sufficient"
+        }
+      },
+      "not_applicable": [
+        "Characteristics[Modification].5",
+        "Characteristics[Modification].6",
+        "Characteristics[Depletion",
+        "Characteristics[SpikedCompound]",
+        "Characteristics[SyntheticPeptide]"
+      ],
+      "summary": "サンプル調製の詳細が確定: ECMタンパク質の段階的抽出後、DTT還元・ヨウ化アセタミドアルキル化、Lys-C前消化後のトリプシン消化を実施。固定修飾はカルバミドメチル化、可変修飾は酸化・脱アミド化・ピログルタミン酸化・水酸化を設定。高pH逆相HPLCで15フラクションに分画してLC-MS分析を実施。ラベルフリー定量が確定した。"
+    },
+    "STEP3_MS_SETTINGS": {
+      "confirmed": {
+        "Comment[Instrument]": {
+          "value": "QExactive mass spectrometer",
+          "evidence": "nanoelectrospray using a QExactive mass spectrometer (Thermo)",
+          "source": "manuscript"
+        },
+        "Comment[FragmentationMethod]": {
+          "value": "HCD",
+          "evidence": "with a normal collision energy of 28",
+          "source": "anchor"
+        },
+        "Comment[AcquisitionMethod]": {
+          "value": "data-dependent acquisition",
+          "evidence": "The mass spectrometer was operated in a data-dependent mode",
+          "source": "manuscript"
+        },
+        "Comment[IonizationType]": {
+          "value": "nanoelectrospray ionization",
+          "evidence": "before nanoelectrospray using a QExactive mass spectrometer",
+          "source": "manuscript"
+        },
+        "Comment[MS2MassAnalyzer]": {
+          "value": "orbitrap",
+          "evidence": "MS2 Analyzer (from instrument): orbitrap",
+          "source": "anchor"
+        },
+        "Comment[CollisionEnergy]": {
+          "value": "28",
+          "evidence": "with a normal collision energy of 28",
+          "source": "manuscript"
+        },
+        "Comment[PrecursorMassTolerance]": {
+          "value": "10 ppm",
+          "evidence": "10 ppm mass tolerance for precursor ions",
+          "source": "manuscript"
+        },
+        "Comment[FragmentMassTolerance]": {
+          "value": "15 mmu",
+          "evidence": "15 mmu for fragment-ion mass tolerance",
+          "source": "manuscript"
+        },
+        "Comment[NumberOfMissedCleavages]": {
+          "value": "2",
+          "evidence": "two missed cleavages of trypsin",
+          "source": "manuscript"
+        },
+        "Comment[GradientTime]": {
+          "value": "140 min",
+          "evidence": "over a 140 min gradient",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {},
+      "not_applicable": [
+        "Comment[FlowRateChromatogram]"
+      ],
+      "summary": "質量分析装置・設定パラメータが完全に確定した。QExactive質量分析計によるデータ依存取得、ナノエレクトロスプレーイオン化、HCDフラグメンテーション（CE28）、オービトラップMS2分析を使用。検索パラメータは前駆体10ppm、フラグメント15mmu許容誤差、トリプシンミスクリベージ2回まで設定。140分グラジエントで分析を実施。クロマトグラフィー流速のみ明記なし。"
+    },
+    "STEP4_RAW_FILES": {
+      "confirmed": {
+        "Comment[FractionIdentifier]": {
+          "value": "per_file",
+          "per_file": {
+            "150603_121_AN_G138_C2_f1.raw": "1",
+            "150603_121_AN_G138_C2_f2_b.raw": "2",
+            "150603_121_AN_G138_C2_f3.raw": "3",
+            "150603_121_AN_G138_C2_f4.raw": "4",
+            "150603_121_AN_G138_C2_f5.raw": "5",
+            "150603_121_AN_G138_C2_f6.raw": "6",
+            "150603_121_AN_G138_C2_f7.raw": "7",
+            "150603_121_AN_G138_C2_f8.raw": "8",
+            "150603_121_AN_G138_C2_f9.raw": "9",
+            "150603_121_AN_G138_C2_f10.raw": "10",
+            "150603_121_AN_G138_C2_f11.raw": "11",
+            "150603_121_AN_G138_C2_f12.raw": "12",
+            "150603_121_AN_G138_C2_f13.raw": "13",
+            "150603_121_AN_G138_C2_f14.raw": "14",
+            "150603_121_AN_G138_C2_f15.raw": "15",
+            "150603_121_AN_G138_S2_f1.raw": "1",
+            "150603_121_AN_G138_S2_f2.raw": "2",
+            "150603_121_AN_G138_S2_f3.raw": "3",
+            "150603_121_AN_G138_S2_f4.raw": "4",
+            "150603_121_AN_G138_S2_f5.raw": "5",
+            "150603_121_AN_G138_S2_f6.raw": "6",
+            "150603_121_AN_G138_S2_f7.raw": "7",
+            "150603_121_AN_G138_S2_f8.raw": "8",
+            "150603_121_AN_G138_S2_f9.raw": "9",
+            "150603_121_AN_G138_S2_f10.raw": "10",
+            "150603_121_AN_G138_S2_f11.raw": "11",
+            "150603_121_AN_G138_S2_f12.raw": "12",
+            "150603_121_AN_G138_S2_f13.raw": "13",
+            "150603_121_AN_G138_S2_f14.raw": "14",
+            "150603_121_AN_G138_S2_f15.raw": "15",
+            "150911_174_AN_G138_C1_f1.raw": "1",
+            "150911_174_AN_G138_C1_f2.raw": "2",
+            "150911_174_AN_G138_C1_f3.raw": "3",
+            "150911_174_AN_G138_C1_f4.raw": "4",
+            "150911_174_AN_G138_C1_f5.raw": "5",
+            "150911_174_AN_G138_C1_f6.raw": "6",
+            "150911_174_AN_G138_C1_f7.raw": "7",
+            "150911_174_AN_G138_C1_f8.raw": "8",
+            "150911_174_AN_G138_C1_f9.raw": "9",
+            "150911_174_AN_G138_C1_f10.raw": "10",
+            "150911_174_AN_G138_C1_f11.raw": "11",
+            "150911_174_AN_G138_C1_f12.raw": "12",
+            "150911_174_AN_G138_C1_f13.raw": "13",
+            "150911_174_AN_G138_C1_f14.raw": "14",
+            "150911_174_AN_G138_C1_f15.raw": "15",
+            "150911_174_AN_G138_S1_f1.raw": "1",
+            "150911_174_AN_G138_S1_f2.raw": "2",
+            "150911_174_AN_G138_S1_f3.raw": "3",
+            "150911_174_AN_G138_S1_f4.raw": "4",
+            "150911_174_AN_G138_S1_f5.raw": "5",
+            "150911_174_AN_G138_S1_f6.raw": "6",
+            "150911_174_AN_G138_S1_f7.raw": "7",
+            "150911_174_AN_G138_S1_f8.raw": "8",
+            "150911_174_AN_G138_S1_f9.raw": "9",
+            "150911_174_AN_G138_S1_f10.raw": "10",
+            "150911_174_AN_G138_S1_f11.raw": "11",
+            "150911_174_AN_G138_S1_f12.raw": "12",
+            "150911_174_AN_G138_S1_f13.raw": "13",
+            "150911_174_AN_G138_S1_f14.raw": "14",
+            "150911_174_AN_G138_S1_f15.raw": "15"
+          },
+          "evidence": "Filename patterns with 'f' followed by numbers (f1-f15) indicating fraction numbers. Methods states: 'The fractions were concatenated into 15 fractions non-contiguously'",
+          "source": "filename"
+        },
+        "Characteristics[NumberOfBiologicalReplicates]": {
+          "value": "2",
+          "evidence": "Patient samples were kindly donated by women with high-grade serous ovarian cancer (HGSOC; n = 2) or triple-negative breast cancer (TNBC; n = 2)",
+          "source": "manuscript"
+        }
+      },
+      "hypotheses": {
+        "FactorValue[Disease]": {
+          "candidates": [
+            "per_file"
+          ],
+          "reasoning": "Filename patterns suggest C1/C2 (normal) vs S1/S2 (tumor) samples. G138 appears for breast samples, G42 for ovarian samples. Need to confirm disease assignment based on tissue type.",
+          "needs": "Confirmation that C represents normal and S represents tumor samples"
+        },
+        "Characteristics[NumberOfSamples]": {
+          "candidates": [
+            "8",
+            "12"
+          ],
+          "reasoning": "At least 8 distinct sample groups identified from filenames (G138_C1, G138_C2, G138_S1, G138_S2, G42_C1, G42_S1, plus numbered samples 4, 5, 10, 11). Could be more depending on sample preparation approach.",
+          "needs": "Clear mapping of sample identifiers to biological samples"
+        },
+        "FactorValue[CellPart]": {
+          "candidates": [
+            "per_file"
+          ],
+          "reasoning": "Methods describe analysis of both 'crude ECM samples' and separated 'urea-soluble fraction' and 'urea-insoluble pellet', suggesting subcellular fractionation",
+          "needs": "Mapping of which files correspond to which subcellular fraction"
+        }
+      },
+      "not_applicable": [
+        "Characteristics[BiologicalReplicate]",
+        "Characteristics[NumberOfTechnicalReplicates]",
+        "FactorValue[Treatment]",
+        "FactorValue[Temperature]",
+        "FactorValue[GeneticModification]",
+        "FactorValue[Compound]",
+        "FactorValue[Bait]",
+        "FactorValue[ConcentrationOfCompound].1",
+        "FactorValue[FractionIdentifier]"
+      ],
+      "summary": "フラクション情報は確定（15フラクション）。生物学的レプリケート数は2と確定。ファイル名パターンから疾患状態（C=正常、S=腫瘍）とサンプル数の推定が可能だが、細胞下分画（可溶性/不溶性画分）の割り当ては未確定。テクニカルレプリケートや処理条件の情報は論文に記載なし。"
+    }
+  }
+}
